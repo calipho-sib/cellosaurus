@@ -1,4 +1,4 @@
-cellosaurus
+Cellosaurus
 ===========
 
-A controlled vocabulary of cell lines
+##A controlled vocabulary of cell lines
