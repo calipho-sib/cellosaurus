@@ -1,0 +1,149 @@
+----------------------------------------------------------------------------
+        CALIPHO group at the SIB - Swiss Institute of Bioinformatics
+        Geneva, Switzerland
+----------------------------------------------------------------------------
+
+ Description: Deleted accession numbers for the Cellosaurus
+ Version: 10.1
+ Last update: xx-xxx-2014
+
+----------------------------------------------------------------------------
+
+CVCL_0048  Data deleted
+CVCL_0049  Data deleted
+CVCL_0050  Data deleted
+CVCL_0051  Data deleted
+CVCL_0052  Data deleted
+CVCL_0053  Data deleted
+CVCL_0054  Data deleted
+CVCL_0055  Data deleted
+CVCL_0056  Data deleted
+CVCL_0066  Data deleted
+CVCL_0085  Data deleted
+CVCL_0116  Data merged in: CVCL_5782
+CVCL_0129  Data merged in: CVCL_0832
+CVCL_0198  Data merged in: CVCL_1096
+CVCL_0231  Data merged in: CVCL_0201
+CVCL_0246  Data merged in: CVCL_0247
+CVCL_0263  Data merged in: CVCL_0364
+CVCL_0282  Data deleted
+CVCL_0414  Data merged in: CVCL_1452
+CVCL_0438  Data merged in: CVCL_H241
+CVCL_0446  Data merged in: CVCL_D436
+CVCL_0447  Data merged in: CVCL_D438
+CVCL_0448  Data merged in: CVCL_D439
+CVCL_0449  Data merged in: CVCL_D443
+CVCL_0634  Data merged in: CVCL_4536
+CVCL_0710  Data merged in: CVCL_0335
+CVCL_0834  Data merged in: CVCL_0833
+CVCL_0872  Data merged in: CVCL_0871
+CVCL_1446  Data merged in: CVCL_8822
+CVCL_1447  Data merged in: CVCL_8823
+CVCL_1449  Data merged in: CVCL_8824
+CVCL_1663  Data merged in: CVCL_0582
+CVCL_1772  Data merged in: CVCL_3605
+CVCL_1777  Data merged in: CVCL_1911
+CVCL_2026  Data merged in: CVCL_2027
+CVCL_2052  Data merged in: CVCL_A472
+CVCL_2168  Data merged in: CVCL_3848
+CVCL_2243  Data merged in: CVCL_4032
+CVCL_2531  Data deleted
+CVCL_2808  Data merged in: CVCL_3827
+CVCL_2900  Data merged in: CVCL_1905
+CVCL_2978  Data merged in: CVCL_1330
+CVCL_3031  Data merged in: CVCL_1429
+CVCL_3071  Data merged in: CVCL_8738
+CVCL_3474  Data deleted
+CVCL_3952  Data merged in: CVCL_0439
+CVCL_3973  Data merged in: CVCL_1565
+CVCL_4066  Data merged in: CVCL_0473
+CVCL_4070  Data merged in: CVCL_3234
+CVCL_4071  Data merged in: CVCL_3235
+CVCL_4165  Data deleted
+CVCL_4242  Data merged in: CVCL_6780
+CVCL_4268  Data merged in: CVCL_3412
+CVCL_4465  Data deleted
+CVCL_4505  Data merged in: CVCL_3359
+CVCL_4526  Data merged in: CVCL_0298
+CVCL_4725  Data merged in: CVCL_7077
+CVCL_4789  Data merged in: CVCL_4125
+CVCL_4949  Data merged in: CVCL_4947
+CVCL_4950  Data merged in: CVCL_4948
+CVCL_5020  Data merged in: CVCL_8788
+CVCL_5155  Data merged in: CVCL_2096
+CVCL_5214  Data merged in: CVCL_0278
+CVCL_5414  Data merged in: CVCL_8787
+CVCL_5618  Data deleted
+CVCL_5778  Data deleted
+CVCL_5970  Data deleted
+CVCL_6055  Data deleted
+CVCL_6475  Data merged in: CVCL_0467
+CVCL_6477  Data merged in: CVCL_A427
+CVCL_6714  Data merged in: CVCL_0485
+CVCL_6835  Data merged in: CVCL_2521
+CVCL_6887  Data merged in: CVCL_6888
+CVCL_7089  Data merged in: CVCL_0483
+CVCL_7243  Data merged in: CVCL_3488
+CVCL_7352  Data merged in: CVCL_2710
+CVCL_7353  Data merged in: CVCL_0014
+CVCL_7596  Data merged in: CVCL_7565
+CVCL_7597  Data merged in: CVCL_7566
+CVCL_7653  Data merged in: CVCL_F107
+CVCL_7655  Data merged in: CVCL_7620
+CVCL_7656  Data merged in: CVCL_7553
+CVCL_8174  Data merged in: CVCL_8175
+CVCL_8219  Data merged in: CVCL_6236
+CVCL_8220  Data merged in: CVCL_6237
+CVCL_8221  Data merged in: CVCL_0281
+CVCL_8287  Data merged in: CVCL_9875
+CVCL_8356  Data merged in: CVCL_0316
+CVCL_8454  Data merged in: CVCL_3000
+CVCL_8455  Data merged in: CVCL_1321
+CVCL_8482  Data merged in: CVCL_6367
+CVCL_8860  Data merged in: CVCL_K034
+CVCL_8661  Data merged in: CVCL_4724
+CVCL_8861  Data merged in: CVCL_0079
+CVCL_8913  Data merged in: CVCL_0630
+CVCL_9495  Data merged in: CVCL_7216
+CVCL_9725  Data merged in: CVCL_1316
+CVCL_9817  Data merged in: CVCL_1643
+CVCL_9818  Data merged in: CVCL_8301
+CVCL_9819  Data merged in: CVCL_1359
+CVCL_9820  Data merged in: CVCL_1350
+CVCL_9821  Data merged in: CVCL_1360
+CVCL_A067  Data merged in: CVCL_6912
+CVCL_A196  Data merged in: CVCL_C291
+CVCL_A437  Data merged in: CVCL_5413
+CVCL_B054  Data merged in: CVCL_3728
+CVCL_B387  Data merged in: CVCL_4688
+CVCL_B390  Data merged in: CVCL_3985
+CVCL_B400  Data merged in: CVCL_0534
+CVCL_C512  Data merged in: CVCL_C513
+CVCL_C608  Data merged in: CVCL_4633
+CVCL_D204  Data merged in: CVCL_2787
+CVCL_D258  Data merged in: CVCL_U511
+CVCL_D553  Data merged in: CVCL_E302
+CVCL_D685  Data merged in: CVCL_0581
+CVCL_D867  Data merged in: CVCL_2448
+CVCL_E511  Data merged in: CVCL_3714
+CVCL_F171  Data merged in: CVCL_C878
+CVCL_F175  Data merged in: CVCL_C879
+CVCL_F230  Data merged in: CVCL_1691
+CVCL_F482  Data merged in: CVCL_2779
+CVCL_F894  Data deleted
+CVCL_H196  Data merged in: CVCL_8747
+CVCL_H597  Data merged in: CVCL_1633
+CVCL_H599  Data merged in: CVCL_1638
+CVCL_H600  Data merged in: CVCL_1639
+CVCL_H601  Data merged in: CVCL_1635
+CVCL_H692  Data merged in: CVCL_H136
+CVCL_J529  Data deleted
+CVCL_J537  Data deleted
+CVCL_K238  Data merged in: CVCL_0391
+CVCL_L856  Data merged in: CVCL_0042
+CVCL_M199  Data merged in: CVCL_8102
+CVCL_S332  Data merged in: CVCL_1649
+CVCL_S829  Data merged in: CVCL_2466
+CVCL_U683  Data merged in: CVCL_F599
+CVCL_W042  Data merged in: CVCL_2869
+

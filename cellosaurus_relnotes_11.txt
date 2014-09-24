@@ -1,0 +1,36 @@
+    _____     _ _
+   / ____|   | | |
+  | |     ___| | | ___  ___  __ _ _   _ _ __ _   _ ___
+  | |    / _ \ | |/ _ \/ __|/ _` | | | | '__| | | / __|
+  | |___|  __/ | | (_) \__ \ (_| | |_| | |  | |_| \__ \
+   \_____\___|_|_|\___/|___/\__,_|\__,_|_|   \__,_|___/
+
+
+This is the release notes for version 11 of the cellosaurus.
+
+1) Statistics
+
+ 3xxxx cell lines (2xxxx human, 4xxx mouse, 1xxx rat)
+   2xx species represented 
+ 2xxxx synonyms
+ 6xxxx cross-references to 41 ontologies, databases, catalogs, etc.
+ 2xxxx references to 6648 publications
+  6xxx web links
+
+99% of the cell lines now have a "CA" (Category) line
+70% of the cell lines now have a "SX" (Sex) line
+
+
+2) Changes in the DR lines
+
+2a) Cross-references to the Taiwan Bioresource Collection and Research 
+Center cell collection have been added.
+The abbreviation used for this resources is "BCRC".
+
+Example:
+DR   BCRC; 60167
+
+
+3) Changes in the CC lines
+
+----------------------------------------------------------------------------
