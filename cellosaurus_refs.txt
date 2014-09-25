@@ -4107,6 +4107,14 @@ RT   vitro.";
 RL   Blood 74:940-946(1989).
 **   PDF=Yes
 //
+RX   PubMed=2788468;
+RA   Kuriyama K., Gale R.P., Tomonaga M., Ikeda S., Yao E., Klisak I.,
+RA   Whelan K., Yakir H., Ichimaru M., Sparkes R.S., Dreazen O.;
+RT   "CML-T1: a cell line derived from T-lymphocyte acute phase of chronic
+RT   myelogenous leukemia.";
+RL   Blood 74:1381-1387(1989).
+**   PDF=Yes
+//
 RX   PubMed=2804371;
 RA   Yanai N., Matsuya Y., Obinata M.;
 RT   "Spleen stromal cell lines selectively support erythroid colony
@@ -7450,6 +7458,14 @@ RT   (TLBR-1) for this newly emerging clinical entity.";
 RL   Cancer 117:1478-1489(2011).
 **   PDF=Yes
 //
+RX   PubMed=2695238;
+RA   Schoenberger O.L., Beikirch S.;
+RT   "Cell cycle phases of two human lung tumor cell lines derived from
+RT   squamous cell carcinoma and pulmonary metastasis of a rhabdomyosarcoma
+RT   (HS 24 and HS 57) and N-acetylalanine aminopeptidase activity.";
+RL   Cancer Biochem. Biophys. 10:337-343(1989).
+**   PDF=No
+//
 RX   PubMed=17912029; DOI=10.4161/cbt.6.10.4708;
 RA   Fu B., Guo M., Wang S., Campagna D., Luo M., Herman J.G.,
 RA   Iacobuzio-Donahue C.A.;
@@ -7637,6 +7653,15 @@ RA   Church D., Zhang Y., Rago R., Wilding G.;
 RT   "Efficacy of suramin against human prostate carcinoma DU145 xenografts
 RT   in nude mice.";
 RL   Cancer Chemother. Pharmacol. 43:198-204(1999).
+**   PDF=Yes
+//
+RX   PubMed=22328975; DOI=10.1158/2159-8290.CD-11-0170;
+RA   Hanrahan A.J., Schultz N., Westfal M.L., Sakr R.A., Giri D.D.,
+RA   Scarperi S., Janakiraman M., Olvera N., Stevens E.V., She Q.-B.,
+RA   Aghajanian C., King T.A., Stanchina E.d., Spriggs D.R., Heguy A.,
+RA   Taylor B.S., Sander C., Rosen N., Levine D.A., Solit D.B.;
+RT   "Genomic complexity and AKT dependence in serous ovarian cancer.";
+RL   Cancer Discov. 2:56-67(2012).
 **   PDF=Yes
 //
 RX   DOI=10.1158/1055-9965.DISP-11-A64;
@@ -14345,6 +14370,13 @@ RT   through multiple subcultures.";
 RL   Circulation 86:1977-1986(1992).
 **   PDF=Yes
 //
+RX   PubMed=11676982; DOI=10.1016/S0009-9120(01)00240-5;
+RA   Kin Y., Shibuya M., Maru Y.;
+RT   "A suppressive effect of an Epstein-Barr virus-immortalized cell line
+RT   on leukemic cells.";
+RL   Clin. Biochem. 34:507-510(2001).
+**   PDF=Yes
+//
 RX   PubMed=9816093;
 RA   Kasprzyk P.G., Sullivan T.L., Hunt J.D., Gubish C.T., Scoppa C.A.,
 RA   Oelkuct M., Bird R., Fischer P.H., Siegfried J.M., King C.R.;
@@ -16847,6 +16879,14 @@ RT   "p53 is frequently mutated in Burkitt's lymphoma cell lines.";
 RL   EMBO J. 10:2879-2887(1991).
 **   PDF=Yes
 //
+RX   PubMed=8313895;
+RA   Mitani K., Ogawa S., Tanaka T., Miyoshi H., Kurokawa M., Mano H.,
+RA   Yazaki Y., Ohki M., Hirai H.;
+RT   "Generation of the AML1-EVI-1 fusion gene in the t(3;21)(q26;q22)
+RT   causes blastic crisis in chronic myelocytic leukemia.";
+RL   EMBO J. 13:504-510(1994).
+**   PDF=Yes
+//
 RX   PubMed=8137818;
 RA   Takata M., Sabe H., Hata A., Inazu T., Homma Y., Nukada T.,
 RA   Yamamura H., Kurosaki T.;
@@ -17943,6 +17983,14 @@ RT   squamous cell carcinoma.";
 RL   Eur. J. Pharmacol. 431:287-295(2001).
 **   PDF=Yes
 //
+RX   PubMed=3327702;
+RA   Schoenberger O.L., Beikirch S., Trefz G., Drings P., Ebert W.;
+RT   "Proteolytic activity of human tumor cell lines deriving from
+RT   bronchial squamous cell carcinoma, pulmonary metastasis of
+RT   rhabdomyosarcoma and pleural metastasis of mesothelioma.";
+RL   Eur. J. Respir. Dis. 71:434-443(1987).
+**   PDF=No
+//
 RX   PubMed=9551745; DOI=10.1183/09031936.98.11020400;
 RA   Bredin C.G., Sundqvist K.-G., Hauzenberger D., Klominek J.;
 RT   "Integrin dependent migration of lung cancer cells to extracellular
@@ -18830,6 +18878,13 @@ RA   Revoltella R.P., Park M., Fruscalzo A.;
 RT   "Identification in several human myeloid leukemias or cell lines of a
 RT   DNA rearrangement next to the c-mos 3'-end.";
 RL   FEBS Lett. 189:97-101(1985).
+**   PDF=Yes
+//
+RX   PubMed=3678487; DOI=10.1016/0014-5793(87)80413-1;
+RA   Appelhans B., Ender B., Sachse G., Nikiforov T., Appelhans H.,
+RA   Ebert W.;
+RT   "Secretion of antileucoprotease from a human lung tumor cell line.";
+RL   FEBS Lett. 224:14-18(1987).
 **   PDF=Yes
 //
 RX   PubMed=2335222; DOI=10.1016/0014-5793(90)81370-4;
@@ -37885,6 +37940,15 @@ RT   and erythroid progenitor cells.";
 RL   Leukemia 1:603-608(1987).
 **   PDF=No
 //
+RX   PubMed=2972890;
+RA   Shirono K., Hattori T., Matsuoka M., Matsushita S., Asou N.,
+RA   Takatsuki K.;
+RT   "Adult T cell leukemia cell lines that originated from primary
+RT   leukemic clones also had a defect of expression of CD3-T cell receptor
+RT   complex.";
+RL   Leukemia 2:728-733(1988).
+**   PDF=No
+//
 RX   PubMed=2659902;
 RA   Mallet M.K., Mane S.M., Meltzer S.J., Needleman S.W.;
 RT   "c-myc amplification coexistent with activating N-ras point mutation
@@ -38591,6 +38655,13 @@ RT   "Gene expression profiling of leukemic cell lines reveals conserved
 RT   molecular signatures among subtypes with specific genetic
 RT   aberrations.";
 RL   Leukemia 19:1042-1050(2005).
+**   PDF=Yes
+//
+RX   PubMed=16408098; DOI=10.1038/sj.leu.2404081;
+RA   Quentmeier H., MacLeod R.A., Zaborski M., Drexler H.G.;
+RT   "JAK2 V617F tyrosine kinase mutation in cell lines derived from
+RT   myeloproliferative disorders.";
+RL   Leukemia 20:471-476(2006).
 **   PDF=Yes
 //
 RX   PubMed=16688224; DOI=10.1038/sj.leu.2404258;
@@ -42781,6 +42852,14 @@ RT   CD14 gene.";
 RL   Oncol. Lett. 3:871-874(2012).
 **   PDF=Yes
 //
+RX   PubMed=25120651; DOI=10.3892/ol.2014.2234;
+RA   Suzuki M., Ikeda K., Shiraishi K., Eguchi A., Mori T., Yoshimoto K.,
+RA   Shibata H., Ito T., Baba Y., Baba H.;
+RT   "Aberrant methylation and silencing of IRF8 expression in non-small
+RT   cell lung cancer.";
+RL   Oncol. Lett. 8:1025-1030(2014).
+**   PDF=Yes
+//
 RX   PubMed=21597716; DOI=10.3892/or.2.2.221;
 RA   Ito H., Kotake T., Masai M., Mizuta T., Adachi M.;
 RT   "Establishment of human bladder-cancer cell-line (HAMT-1) and long-
@@ -42909,6 +42988,14 @@ RA   Gobbi H., Rogatto S.R., Goes A.M., Gomes D.A.;
 RT   "Genomic and phenotypic profiles of two Brazilian breast cancer cell
 RT   lines derived from primary human tumors.";
 RL   Oncol. Rep. 29:1299-1307(2013).
+**   PDF=Yes
+//
+RX   PubMed=23381221; DOI=10.3892/or.2013.2266;
+RA   Suzuki M., Shiraishi K., Eguchi A., Ikeda K., Mori T., Yoshimoto K.,
+RA   Ohba Y., Yamada T., Ito T., Baba Y., Baba H.;
+RT   "Aberrant methylation of LINE-1, SLIT2, MAL and IGFBP7 in non-small
+RT   cell lung cancer.";
+RL   Oncol. Rep. 29:1308-1314(2013).
 **   PDF=Yes
 //
 RX   PubMed=23467722; DOI=10.3892/or.2013.2323;
