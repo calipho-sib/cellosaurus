@@ -21,7 +21,7 @@
 **
 **   Note: there should always be at least one RA or RG line.
 **
-**   Next free CelloPub=CLPUB00155;
+**   Next free CelloPub=CLPUB00156;
 **   -----------------------------------------------------------------------
 RX   PubMed=15645084; DOI=10.1093/abbs/37.1.68;
 RA   Ren C.-P., Zhao M., Shan W.-J., Yang X.-Y., Yin Z.-H., Jiang X.-J.,
@@ -8982,6 +8982,14 @@ RT   liposarcomas.";
 RL   Cancer Lett. 273:323-330(2009).
 **   PDF=Yes
 //
+RX   PubMed=23268333; DOI=10.1016/j.canlet.2012.12.011;
+RA   Sugimoto T., Gotoh T., Yagyu S., Kuroda H., Iehara T., Hosoi H.,
+RA   Ohta S., Ohira M., Nakagawara A.;
+RT   "A MYCN-amplified cell line derived from a long-term event-free
+RT   survivor among our sixteen established neuroblastoma cell lines.";
+RL   Cancer Lett. 331:115-121(2013).
+**   PDF=Yes
+//
 RX   PubMed=24001612; DOI=10.1016/j.canlet.2013.08.041;
 RA   Wu C.P., Zhou L., Gong H.L., Du H.D., Tian J., Sun S., Li J.Y.;
 RT   "Establishment and characterization of a novel HPV-negative laryngeal
@@ -11980,6 +11988,13 @@ RA   Vogel J.-U., Doerr H.-W., Klingebiel T., Driever P.H.;
 RT   "Potent oncolytic activity of multimutated herpes simplex virus G207
 RT   in combination with vincristine against human rhabdomyosarcoma.";
 RL   Cancer Res. 63:1508-1514(2003).
+**   PDF=Yes
+//
+RX   PubMed=12702577;
+RA   Saito-Ohara F., Imoto I., Inoue J., Hosoi H., Nakagawara A.,
+RA   Sugimoto T., Inazawa J.;
+RT   "PPM1D is a potential target for 17q gain in neuroblastoma.";
+RL   Cancer Res. 63:1876-1883(2003).
 **   PDF=Yes
 //
 RX   PubMed=14500404;
@@ -16448,6 +16463,13 @@ RT   "Renal primitive neuroectodermal tumor: a morphologic, cytogenetic,
 RT   and molecular analysis with the establishment of two cultured cell
 RT   lines.";
 RL   Diagn. Mol. Pathol. 6:309-317(1997).
+**   PDF=Yes
+//
+RX   PubMed=11129446;
+RA   Sugimoto T., Mine H., Horii Y., Takahashi K., Nagai R., Morishita R.,
+RA   Komada M., Asada Y., Sawada T.;
+RT   "Neuroblastoma cell lines showing smooth muscle cell phenotypes.";
+RL   Diagn. Mol. Pathol. 9:221-228(2000).
 **   PDF=Yes
 //
 RX   PubMed=23628822; DOI=10.1097/PDM.0b013e318278962e;
@@ -21710,6 +21732,14 @@ RX   PubMed=10457904;
 RA   Ishiwata I., Sudo T., Kiguchi K., Ishikawa H.;
 RT   "Tumor angiogenesis factors produced by cancer cells.";
 RL   Hum. Cell 12:37-46(1999).
+**   PDF=No
+//
+RX   PubMed=10457905;
+RA   Sugimoto T., Komada Y., Sakurai M., Horii Y., Morishita R., Nagai R.,
+RA   Takahashi K., Asada Y.;
+RT   "Smooth muscle myosin of SM1 and SM2 isoforms expressing human
+RT   neuroblastoma cell line of MP-N-MS.";
+RL   Hum. Cell 12:47-56(1999).
 **   PDF=No
 //
 RX   PubMed=10695020;
@@ -36216,6 +36246,13 @@ RT   compromised patients.";
 RL   Jpn. J. Cancer Res. 92:83-87(2001).
 **   PDF=Yes
 //
+RX   PubMed=11223544; DOI=10.1111/j.1349-7006.2001.tb01077.x;
+RA   Sugimoto T., Kuroda H., Horii Y., Moritake H., Tanaka T., Hattori S.;
+RT   "Signal transduction pathways through TRK-A and TRK-B receptors in
+RT   human neuroblastoma cells.";
+RL   Jpn. J. Cancer Res. 92:152-160(2001).
+**   PDF=Yes
+//
 RX   PubMed=11267941; DOI=10.1111/j.1349-7006.2001.tb01096.x;
 RA   Takenoyama M., Yoshino I., Eifuku R., So T., Imahayashi S., Sugaya M.,
 RA   Yasuda M., Inoue M., Ichiyoshi Y., Osaki T., Nagashima A., Nomoto K.,
@@ -36690,6 +36727,13 @@ RT   "Detection of cancer cells in the peripheral blood and lung of mice
 RT   after transplantation of human adenoid cystic carcinoma.";
 RL   Kobe J. Med. Sci. 51:67-72(2005).
 **   PDF=Yes
+//
+RX   CelloPub=CLPUB00155;
+RA   Kobayashi S., Okada S., Inaba H., Hashimoto K., Nakada T.;
+RT   "Study on growth characteristics and morphological findings of human
+RT   small cell carcinoma in vitro.";
+RL   Kokenshi 38:103–111(1986).
+**   PDF=No
 //
 RX   PubMed=8583160;
 RA   Mimura M.;
