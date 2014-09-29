@@ -306,12 +306,12 @@ Server: http://www.genenames.org
 Db_URL: http://www.genenames.org/cgi-bin/gene_symbol_report?hgnc_id=%s
 //
 Abbrev: MGI
-Name  : Mouse genome database (MGD) from Mouse Genome Informatics (MGI)
+Name  : Mouse Genome Database (MGD) from Mouse Genome Informatics (MGI)
 Server: http://www.informatics.jax.org
 Db_URL: http://www.informatics.jax.org/marker/%s
 //
 Abbrev: RGD
-Name  : Rat genome database
+Name  : Rat Genome Database
 Server: http://rgd.mcw.edu
 Db_URL: http://rgd.mcw.edu/tools/genes/genes_view.cgi?id=%s
 //

@@ -2220,7 +2220,7 @@ RL   Anticancer Res. 30:4459-4465(2010).
 RX   PubMed=21498706;
 RA   Onitsuka T., Uramoto H., Tanaka F.;
 RT   "Lack of direct association between EGFR mutations and ER beta
-RT   expression in lung  cancer.";
+RT   expression in lung cancer.";
 RL   Anticancer Res. 31:855-860(2011).
 **   PDF=Yes
 //
@@ -14928,6 +14928,13 @@ RT   biopsy specimens.";
 RL   Clin. Exp. Metastasis 1:153-162(1983).
 **   PDF=Yes
 //
+RX   PubMed=6085723; DOI=10.1007/BF00052417;
+RA   Sacchi A., Mauro F., Zupi G.;
+RT   "Changes of phenotypic characteristics of variants derived from Lewis
+RT   lung carcinoma during long-term in vitro growth.";
+RL   Clin. Exp. Metastasis 2:171-178(1984).
+**   PDF=Yes
+//
 RX   PubMed=6543703; DOI=10.1007/BF00132932;
 RA   Lollini P.-L., de Giovanni C., Eusebi V., Nicoletti G., Prodi G.,
 RA   Nanni P.;
@@ -20495,6 +20502,15 @@ RA   Kang S.-B., Park J.-G.;
 RT   "Establishment and characterization of cell lines derived from uterine
 RT   malignant mixed Mullerian tumor.";
 RL   Gynecol. Oncol. 66:464-474(1997).
+**   PDF=Yes
+//
+RX   PubMed=9441775; DOI=10.1006/gyno.1997.4880;
+RA   Luo M.P., Gomperts B., Imren S., DeClerck Y.A., Ito M., Velicescu M.,
+RA   Felix J.C., Dubeau L.;
+RT   "Establishment of long-term in vitro cultures of human ovarian
+RT   cystadenomas and LMP tumors and examination of their spectrum of
+RT   expression of matrix-degrading proteinases.";
+RL   Gynecol. Oncol. 67:277-284(1997).
 **   PDF=Yes
 //
 RX   PubMed=9790785; DOI=10.1006/gyno.1998.5072;
@@ -27939,11 +27955,26 @@ RT   established from a child with Ki-1-positive lymphoma.";
 RL   Intervirology 36:215-224(1993).
 **   PDF=Not_obtained
 //
+RX   PubMed=6203864;
+RA   Sacchi A., Calabresi F., Greco C., Zupi G.;
+RT   "Different metastatic potential of in vitro and in vivo lines selected
+RT   from Lewis lung carcinoma: correlation with response to different
+RT   bleomycin schedulings.";
+RL   Invasion Metastasis 1:227-238(1981).
+**   PDF=No
+//
 RX   PubMed=6677618;
 RA   Miller F.R., Miller B.E., Heppner G.H.;
 RT   "Characterization of metastatic heterogeneity among subpopulations of
 RT   a single mouse mammary tumor: heterogeneity in phenotypic stability.";
 RL   Invasion Metastasis 3:22-31(1983).
+**   PDF=No
+//
+RX   PubMed=6480290;
+RA   Zupi G., Corsi A., Sacchi A., Lassiani L., Giraldi T.;
+RT   "Effects of dimethyltriazenes on in vitro Lewis lung carcinoma tumor
+RT   lines with different metastatic capacity.";
+RL   Invasion Metastasis 4:179-188(1984).
 **   PDF=No
 //
 RX   PubMed=3679743;
@@ -45566,7 +45597,7 @@ RL   Proc. Natl. Acad. Sci. U.S.A. 89:9996-10000(1992).
 RX   PubMed=8093644;
 RA   Symes A.J., Rao M.S., Lewis S.E., Landis S.C., Hyman S.E., Fink J.S.;
 RT   "Ciliary neurotrophic factor coordinately activates transcription of
-RT   neuropeptide  genes in a neuroblastoma cell line.";
+RT   neuropeptide genes in a neuroblastoma cell line.";
 RL   Proc. Natl. Acad. Sci. U.S.A. 90:572-576(1993).
 **   PDF=Yes
 //
@@ -48652,6 +48683,13 @@ RA   Mochizuki Y.;
 RT   "Some properties of a newly established human cell line from a oral
 RT   squamous carcinoma.";
 RL   Tumor res. 25:93-103(1990).
+**   PDF=No
+//
+RX   PubMed=543011;
+RA   Sacchi A., Corsi A., Caputo M., Zupi G.;
+RT   "In vitro and in vivo selection of two Lewis lung carcinoma cell
+RT   lines.";
+RL   Tumori 65:657-664(1979).
 **   PDF=No
 //
 RX   PubMed=3368969;
