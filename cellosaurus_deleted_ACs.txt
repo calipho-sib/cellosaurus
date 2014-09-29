@@ -83,6 +83,7 @@ CVCL_6714  Data merged in: CVCL_0485
 CVCL_6835  Data merged in: CVCL_2521
 CVCL_6887  Data merged in: CVCL_6888
 CVCL_7089  Data merged in: CVCL_0483
+CVCL_7211  Data merged in: CVCL_N513
 CVCL_7243  Data merged in: CVCL_3488
 CVCL_7352  Data merged in: CVCL_2710
 CVCL_7353  Data merged in: CVCL_0014
@@ -97,6 +98,9 @@ CVCL_8220  Data merged in: CVCL_6237
 CVCL_8221  Data merged in: CVCL_0281
 CVCL_8287  Data merged in: CVCL_9875
 CVCL_8356  Data merged in: CVCL_0316
+CVCL_8370  Data merged in: CVCL_1611
+CVCL_8371  Data merged in: CVCL_1612
+CVCL_8372  Data merged in: CVCL_3082
 CVCL_8454  Data merged in: CVCL_3000
 CVCL_8455  Data merged in: CVCL_1321
 CVCL_8482  Data merged in: CVCL_6367
@@ -120,6 +124,7 @@ CVCL_B390  Data merged in: CVCL_3985
 CVCL_B400  Data merged in: CVCL_0534
 CVCL_C512  Data merged in: CVCL_C513
 CVCL_C608  Data merged in: CVCL_4633
+CVCL_D190  Data merged in: CVCL_1384
 CVCL_D204  Data merged in: CVCL_2787
 CVCL_D258  Data merged in: CVCL_U511
 CVCL_D553  Data merged in: CVCL_E302

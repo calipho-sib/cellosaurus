@@ -2217,6 +2217,13 @@ RT   sigma protein in human scirrhous-type gastric carcinoma cells.";
 RL   Anticancer Res. 30:4459-4465(2010).
 **   PDF=Yes
 //
+RX   PubMed=21498706;
+RA   Onitsuka T., Uramoto H., Tanaka F.;
+RT   "Lack of direct association between EGFR mutations and ER beta
+RT   expression in lung  cancer.";
+RL   Anticancer Res. 31:855-860(2011).
+**   PDF=Yes
+//
 RX   PubMed=22843894;
 RA   Sekine S., Shimada Y., Nagata T., Moriyama M., Omura T., Yoshioka I.,
 RA   Hori R., Matsui K., Sawada S., Okumura T., Yoshida T., Tsukada K.;
@@ -5438,6 +5445,14 @@ RT   urinary bladder.";
 RL   Br. J. Cancer 35:142-151(1977).
 **   PDF=Yes
 //
+RX   PubMed=1233082; DOI=10.1038/bjc.1975.237;
+RA   Ellison M., Woodhouse D., Hillyard C., Dowsett M., Coombes R.C.,
+RA   Gilby E.D., Greenberg P.B., Neville A.M.;
+RT   "Immunoreactive calcitonin production by human lung carcinoma cells in
+RT   culture.";
+RL   Br. J. Cancer 32:373-379(1975).
+**   PDF=Yes
+//
 RX   PubMed=857824; DOI=10.1038/bjc.1977.61;
 RA   de Man J.C.H., Snoep M.P., Huiskens-van der Meij J.W., Warnaar S.O.,
 RA   Schaberg A.;
@@ -7629,6 +7644,14 @@ RA   Marschner I.C., de Luise M.;
 RT   "Differential effects of estrogen, tamoxifen and the pure antiestrogen
 RT   ICI 182,780 in human drug-resistant leukemia cell lines.";
 RL   Cancer Chemother. Pharmacol. 33:123-129(1993).
+**   PDF=Yes
+//
+RX   PubMed=7911742; DOI=10.1007/BF00685075;
+RA   Kubota N., Nishio K., Takeda Y., Ohmori T., Funayama Y., Ogasawara H.,
+RA   Ohira T., Kunikane H., Terashima Y., Saijo N.;
+RT   "Characterization of an etoposide-resistant human ovarian cancer cell
+RT   line.";
+RL   Cancer Chemother. Pharmacol. 34:183-190(1994).
 **   PDF=Yes
 //
 RX   PubMed=7634381; DOI=10.1007/BF00686188;
@@ -10688,6 +10711,14 @@ RT   cells and reversal of drug resistance by hyperthermia.";
 RL   Cancer Res. 49:2674-2678(1989).
 **   PDF=Yes
 //
+RX   PubMed=2540905;
+RA   Takahashi T., Obata Y., Sekido Y., Hida T., Ueda R., Watanabe H.,
+RA   Ariyoshi Y., Sugiura T., Takahashi T.;
+RT   "Expression and amplification of myc gene family in small cell lung
+RT   cancer and its relation to biological characteristics.";
+RL   Cancer Res. 49:2683-2688(1989).
+**   PDF=Yes
+//
 RX   PubMed=2720661;
 RA   Kees U.R., Ford J., Dawson V.M., Piall E., Aherne G.W.;
 RT   "Development of resistance to 1-beta-D-arabinofuranosylcytosine after
@@ -10721,6 +10752,15 @@ RT   squamous carcinoma cells (T3M-1) producing parathyroid hormone-related
 RT   protein, interleukin 1 alpha, and granulocyte colony-stimulating
 RT   factor.";
 RL   Cancer Res. 49:4740-4746(1989).
+**   PDF=Yes
+//
+RX   PubMed=2547517;
+RA   Hida T., Ueda R., Takahashi T., Watanabe H., Kato T., Suyama M.,
+RA   Sugiura T., Ariyoshi Y., Takahashi T.;
+RT   "Chemosensitivity and radiosensitivity of small cell lung cancer cell
+RT   lines studied by a newly developed 3-(4,5-dimethylthiazol-2-yl)-2,5-
+RT   diphenyltetrazolium bromide (MTT) hybrid assay.";
+RL   Cancer Res. 49:4785-4790(1989).
 **   PDF=Yes
 //
 RX   PubMed=2569359;
@@ -11424,6 +11464,15 @@ RT   from HLA-Aw68.";
 RL   Cancer Res. 54:2731-2737(1994).
 **   PDF=Yes
 //
+RX   PubMed=8205547;
+RA   Kotoh S., Naito S., Yokomizo A., Kumazawa J., Asakuno K., Kohno K.,
+RA   Kuwano M.;
+RT   "Increased expression of DNA topoisomerase I gene and collateral
+RT   sensitivity to camptothecin in human cisplatin-resistant bladder
+RT   cancer cells.";
+RL   Cancer Res. 54:3248-3252(1994).
+**   PDF=Yes
+//
 RX   PubMed=8205550;
 RA   Pietsch T., Scharmann T., Fonatsch C., Schmidt D., Ockler R.,
 RA   Freihoff D., Albrecht S., Wiestler O.D., Zeltzer P., Riehm H.;
@@ -12015,6 +12064,14 @@ RT   profiles obtained from three major technologies.";
 RL   Cancer Res. 63:8614-8622(2003).
 **   PDF=Yes
 //
+RX   PubMed=14973057; DOI=10.1158/0008-5472.CAN-3263-2;
+RA   Yasui K., Mihara S., Zhao C., Okamoto H., Saito-Ohara F., Tomida A.,
+RA   Funato T., Yokomizo A., Naito S., Imoto I., Tsuruo T., Inazawa J.;
+RT   "Alteration in copy numbers of genes as a mechanism for acquired drug
+RT   resistance.";
+RL   Cancer Res. 64:1403-1410(2004).
+**   PDF=Yes
+//
 RX   PubMed=14973065; DOI=10.1158/0008-5472.CAN-03-2928;
 RA   Yang W.-L., Godwin A.K., Xu X.-X.;
 RT   "Tumor necrosis factor-alpha-induced matrix proteolytic enzyme
@@ -12038,6 +12095,15 @@ RA   Boehncke W.-H., Zollner T.M., Kaufmann R., Gille J.;
 RT   "Endothelial P-selectin as a target of heparin action in experimental
 RT   melanoma lung metastasis.";
 RL   Cancer Res. 64:2743-2750(2004).
+**   PDF=Yes
+//
+RX   PubMed=15172977; DOI=10.1158/0008-5472.CAN-04-0172;
+RA   Sonoda I., Imoto I., Inoue J., Shibata T., Shimada Y., Chin K.,
+RA   Imamura M., Amagasa T., Gray J.W., Hirohashi S., Inazawa J.;
+RT   "Frequent silencing of low density lipoprotein receptor-related
+RT   protein 1B (LRP1B) expression by genetic and epigenetic mechanisms in
+RT   esophageal squamous cell carcinoma.";
+RL   Cancer Res. 64:3741-3747(2004).
 **   PDF=Yes
 //
 RX   PubMed=15289350; DOI=10.1158/0008-5472.CAN-04-0377;
@@ -12504,6 +12570,15 @@ RA   Aozasa K.;
 RT   "Condensin mutations and abnormal chromosomal structures in
 RT   pyothorax-associated lymphoma.";
 RL   Cancer Sci. 98:1041-1047(2007).
+**   PDF=Yes
+//
+RX   PubMed=18380791; DOI=10.1111/j.1349-7006.2008.00779.x;
+RA   Suzuki A., Shibata T., Shimada Y., Murakami Y., Horii A.,
+RA   Shiratori K., Hirohashi S., Inazawa J., Imoto I.;
+RT   "Identification of SMURF1 as a possible target for 7q21.3-22.1
+RT   amplification detected in a pancreatic cancer cell line by in-house
+RT   array-based comparative genomic hybridization.";
+RL   Cancer Sci. 99:986-994(2008).
 **   PDF=Yes
 //
 RX   PubMed=18616678; DOI=10.1111/j.1349-7006.2008.00882.x;
@@ -13557,6 +13632,14 @@ RT   gene.";
 RL   Cell Growth Differ. 6:1251-1259(1995).
 **   PDF=Yes
 //
+RX   PubMed=8845304;
+RA   Noguchi K., Naito M., Kataoka S., Yonehara S., Tsuruo T.;
+RT   "A recessive mutant of the U937 cell line acquired resistance to
+RT   anti-Fas and anti-p55 tumor necrosis factor receptor antibody-induced
+RT   apoptosis.";
+RL   Cell Growth Differ. 6:1271-1277(1995).
+**   PDF=Yes
+//
 RX   PubMed=8838868;
 RA   Kanda S., Landgren E., Ljungstrom M., Claesson-Welsh L.;
 RT   "Fibroblast growth factor receptor 1-induced differentiation of
@@ -14398,6 +14481,13 @@ RA   Oelkuct M., Bird R., Fischer P.H., Siegfried J.M., King C.R.;
 RT   "Activity of anti-erbB-2 recombinant toxin OLX-209 on lung cancer cell
 RT   lines in the absence of erbB-2 gene amplification.";
 RL   Clin. Cancer Res. 2:75-80(1996).
+**   PDF=Yes
+//
+RX   PubMed=9816187;
+RA   Yamada M., Tomida A., Yoshikawa H., Taketani Y., Tsuruo T.;
+RT   "Increased expression of thioredoxin/adult T-cell leukemia-derived
+RT   factor in cisplatin-resistant human cancer cell lines.";
+RL   Clin. Cancer Res. 2:427-432(1996).
 **   PDF=Yes
 //
 RX   PubMed=9816265;
@@ -16986,6 +17076,14 @@ RT   stem-like cell expansion through the mTOR pathway.";
 RL   EMBO Rep. 12:470-476(2011).
 **   PDF=Yes
 //
+RX   PubMed=7670562; DOI=10.1507/endocrj.42.341;
+RA   Hosoda C., Ohtsuru A., Namba H., Motomura K., Hara T., Nakashima M.,
+RA   Ito M., Yokoro K., Yamashita S.;
+RT   "Establishment and characterization of a malignant epithelioid
+RT   hemangioendothelioma from mouse thyroid tumor.";
+RL   Endocr. J. 42:341-350(1995).
+**   PDF=Yes
+//
 RX   PubMed=10503991; DOI=10.1507/endocrj.46.389;
 RA   Fujimoto N., Maruyama S., Ito A.;
 RT   "Establishment of an estrogen responsive rat pituitary cell sub-line
@@ -18338,6 +18436,13 @@ RA   Sasaki T., Kameoka Y., Kamase S., Ide T.;
 RT   "Isolation of a mammalian cell cycle ts mutant, tsJT663, defective in
 RT   preparation for passing restriction point.";
 RL   Exp. Cell Res. 214:209-214(1994).
+**   PDF=Yes
+//
+RX   PubMed=7957669; DOI=10.1006/excr.1994.1332;
+RA   Kataoka S., Naito M., Tomida A., Tsuruo T.;
+RT   "Resistance to antitumor agent-induced apoptosis in a mutant of human
+RT   myeloid leukemia U937 cells.";
+RL   Exp. Cell Res. 215:199-205(1994).
 **   PDF=Yes
 //
 RX   PubMed=7796885; DOI=10.1006/excr.1995.1184;
@@ -20763,6 +20868,14 @@ RT   "Spontaneously immortalized cell line from rat liver fibrosis with
 RT   phenotypes of both hepatic stellate cells and myofibroblasts.";
 RL   Hepatology 34:520A-520A(2001).
 **   PDF=No
+//
+RX   PubMed=12029633; DOI=10.1053/jhep.2002.33683;
+RA   Yasui K., Arii S., Zhao C., Imoto I., Ueda M., Nagai H., Emi M.,
+RA   Inazawa J.;
+RT   "TFDP1, CUL4A, and CDC16 identified as targets for amplification at
+RT   13q34 in hepatocellular carcinomas.";
+RL   Hepatology 35:1476-1484(2002).
+**   PDF=Yes
 //
 RX   PubMed=19998274; DOI=10.1002/hep.23354;
 RA   Si-Tayeb K., Noto F.K., Nagaoka M., Li J., Battle M.A., Duris C.,
@@ -26675,6 +26788,13 @@ RT   primary cultures of human thymoma and thymic carcinoma.";
 RL   Int. J. Cancer 122:2719-2725(2008).
 **   PDF=Yes
 //
+RX   PubMed=18823010; DOI=10.1002/ijc.23871;
+RA   Kennedy A., Dong H., Chen D., Chen W.-T.;
+RT   "Elevation of seprase expression and promotion of an invasive
+RT   phenotype by collagenous matrices in ovarian tumor cells.";
+RL   Int. J. Cancer 124:27-35(2009).
+**   PDF=Yes
+//
 RX   PubMed=19035443; DOI=10.1002/ijc.24048;
 RA   Ashida A., Takata M., Murata H., Kido K., Saida T.;
 RT   "Pathological activation of KIT in metastatic tumors of acral and
@@ -26724,6 +26844,14 @@ RA   Tercero J.C., Erba E., D'Incalci M.;
 RT   "Characterization of a new trabectedin-resistant myxoid liposarcoma
 RT   cell line that shows collateral sensitivity to methylating agents.";
 RL   Int. J. Cancer 131:59-69(2012).
+**   PDF=Yes
+//
+RX   PubMed=22038905; DOI=10.1002/ijc.26494;
+RA   Flicker K., Ulz P., Hoger H., Zeitlhofer P., Haas O.A., Behmel A.,
+RA   Buchinger W., Scheuba C., Niederle B., Pfragner R., Speicher M.R.;
+RT   "High-resolution analysis of alterations in medullary thyroid
+RT   carcinoma genomes.";
+RL   Int. J. Cancer 131:E66-E73(2012).
 **   PDF=Yes
 //
 RX   PubMed=22987579; DOI=10.1002/ijc.27849;
@@ -26802,6 +26930,14 @@ RA   Milo-Landesman D., Efrat S.;
 RT   "Growth factor-dependent proliferation of the pancreatic beta-cell
 RT   line betaTC-tet: an assay for beta-cell mitogenic factors.";
 RL   Int. J. Exp. Diabetes Res. 3:69-74(2002).
+**   PDF=Yes
+//
+RX   PubMed=16045545; DOI=10.1111/j.0959-9673.2005.00431.x;
+RA   Ban S., Michikawa Y., Ishikawa K.-I., Sagara M., Watanabe K.,
+RA   Shimada Y., Inazawa J., Imai T.;
+RT   "Radiation sensitivities of 31 human oesophageal squamous cell
+RT   carcinoma cell lines.";
+RL   Int. J. Exp. Pathol. 86:231-240(2005).
 **   PDF=Yes
 //
 RX   PubMed=15235133; DOI=10.1385/IJGC:34:1:27;
@@ -27012,7 +27148,7 @@ RX   PubMed=21573635; DOI=10.3892/ijo.2.5.831;
 RA   Pfragner R., Wirnsberger G., Behmel A., Wolf G., Passath A.,
 RA   Ingolic E., Adamiker D., Schauenstein K.;
 RT   "New continuous cell-line from human medullary-thyroid carcinoma -
-RT   sinj -phenotypic analysis and in vivo carcinogenesis.";
+RT   SINJ - phenotypic analysis and in vivo carcinogenesis.";
 RL   Int. J. Oncol. 2:831-836(1993).
 **   PDF=Not_obtained
 //
@@ -28463,6 +28599,14 @@ RA   Hanada K., Nishijima M., Akamatsu Y.;
 RT   "A temperature-sensitive mammalian cell mutant with thermolabile
 RT   serine palmitoyltransferase for the sphingolipid biosynthesis.";
 RL   J. Biol. Chem. 265:22137-22142(1990).
+**   PDF=Yes
+//
+RX   PubMed=1847391;
+RA   Fink J.S., Verhave M., Walton K., Mandel G., Goodman R.H.;
+RT   "Cyclic AMP- and phorbol ester-induced transcriptional activation are
+RT   mediated by the same enhancer element in the human vasoactive
+RT   intestinal peptide gene.";
+RL   J. Biol. Chem. 266:3882-3887(1991).
 **   PDF=Yes
 //
 RX   PubMed=2007575;
@@ -32694,6 +32838,13 @@ RT   compromised mice.";
 RL   J. Leukoc. Biol. 65:102-108(1999).
 **   PDF=Yes
 //
+RX   PubMed=11129653;
+RA   Genois N., Robichaud G.A., Tremblay M.J.;
+RT   "Mono Mac 1: a new in vitro model system to study HIV-1 infection in
+RT   human cells of the mononuclear phagocyte series.";
+RL   J. Leukoc. Biol. 68:854-864(2000).
+**   PDF=Yes
+//
 RX   PubMed=10828080;
 RA   Vogel S., Piantedosi R., Frank J., Lalazar A., Rockey D.C.,
 RA   Friedman S.L., Blaner W.S.;
@@ -36101,6 +36252,15 @@ RT   establishment and characterization of a new cell line.";
 RL   Jpn. J. Cancer Res. 85:1080-1086(1994).
 **   PDF=Yes
 //
+RX   PubMed=7829395; DOI=10.1111/j.1349-7006.1994.tb02914.x;
+RA   Baba M., Hasegawa H., Nakayabu M., Tamaki S., Watanabe S., Shima T.,
+RA   Suzuki S., Kusano I., Kamada N.;
+RT   "Characteristics of human hepatocellular carcinoma cell lines
+RT   (Hep-KANO) derived from a non-hepatitic, non-cirrhotic hepatitis B
+RT   virus carrier.";
+RL   Jpn. J. Cancer Res. 85:1105-1111(1994).
+**   PDF=Yes
+//
 RX   PubMed=7531680; DOI=10.1111/j.1349-7006.1994.tb02938.x;
 RA   Matsuo K., Ishibashi Y., Kobayashi I., Ozeki S., Ohishi M., Tange T.,
 RA   Hirata J., Kiyoshima T., Sakai H.;
@@ -36235,6 +36395,15 @@ RA   Enjoji M., Nakashima M., Nakamuta M., Nawata H.;
 RT   "Transforming growth factor-alpha induces the differentiation of
 RT   sarcomatoid cholangiocarcinoma cells.";
 RL   Jpn. J. Cancer Res. 91:223-230(2000).
+**   PDF=Yes
+//
+RX   PubMed=11092977; DOI=10.1111/j.1349-7006.2000.tb00895.x;
+RA   Pimkhaokham A., Shimada Y., Fukuda Y., Kurihara N., Imoto I.,
+RA   Yang Z.-Q., Imamura M., Nakamura Y., Amagasa T., Inazawa J.;
+RT   "Nonrandom chromosomal imbalances in esophageal squamous cell
+RT   carcinoma cell lines: possible involvement of the ATF3 and CENPF genes
+RT   in the 1q32 amplicon.";
+RL   Jpn. J. Cancer Res. 91:1126-1133(2000).
 **   PDF=Yes
 //
 RX   PubMed=11173548; DOI=10.1111/j.1349-7006.2001.tb01051.x;
@@ -36732,7 +36901,7 @@ RX   CelloPub=CLPUB00155;
 RA   Kobayashi S., Okada S., Inaba H., Hashimoto K., Nakada T.;
 RT   "Study on growth characteristics and morphological findings of human
 RT   small cell carcinoma in vitro.";
-RL   Kokenshi 38:103–111(1986).
+RL   Kokenshi 38:103-111(1986).
 **   PDF=No
 //
 RX   PubMed=8583160;
@@ -37771,6 +37940,13 @@ RT   "A novel biphenotypic B-cell precursor leukemia cell line (NALM-29)
 RT   carrying t(9;22)(q34;q11) established from a patient with acute
 RT   leukemia.";
 RL   Leuk. Res. 23:731-740(1999).
+**   PDF=Yes
+//
+RX   PubMed=10781689; DOI=10.1016/S0145-2126(00)00016-3;
+RA   Funato T., Satou J., Nishiyama Y., Fujimaki S., Miura T., Kaku M.,
+RA   Sasaki T.;
+RT   "In vitro leukemia cell models of Ara-C resistance.";
+RL   Leuk. Res. 24:535-541(2000).
 **   PDF=Yes
 //
 RX   PubMed=10936422; DOI=10.1016/S0145-2126(99)00195-2;
@@ -42794,6 +42970,14 @@ RT   cancer cell growth by inhibiting p38 MAPK activity.";
 RL   Oncogene 26:1178-1187(2007).
 **   PDF=Yes
 //
+RX   PubMed=17599052; DOI=10.1038/sj.onc.1210589;
+RA   Suzuki E., Imoto I., Pimkhaokham A., Nakagawa T., Kamata N.,
+RA   Kozaki K.I., Amagasa T., Inazawa J.;
+RT   "PRTFDC1, a possible tumor-suppressor gene, is frequently silenced in
+RT   oral squamous-cell carcinomas by aberrant promoter hypermethylation.";
+RL   Oncogene 26:7921-7932(2007).
+**   PDF=Yes
+//
 RX   PubMed=17637738; DOI=10.1038/sj.onc.1210681;
 RA   Mizumachi T., Suzuki S., Naito A., Carcel-Trullols J., Evans T.T.,
 RA   Spring P.M., Oridate N., Furuta Y., Fukuda S., Higuchi M.;
@@ -45377,6 +45561,13 @@ RA   Choi H.-S.H., Paronetto F., Holland J.F., Acs G.;
 RT   "Productive nonlytic human immunodeficiency virus type 1 replication
 RT   in a newly established human leukemia cell line.";
 RL   Proc. Natl. Acad. Sci. U.S.A. 89:9996-10000(1992).
+**   PDF=Yes
+//
+RX   PubMed=8093644;
+RA   Symes A.J., Rao M.S., Lewis S.E., Landis S.C., Hyman S.E., Fink J.S.;
+RT   "Ciliary neurotrophic factor coordinately activates transcription of
+RT   neuropeptide  genes in a neuroblastoma cell line.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 90:572-576(1993).
 **   PDF=Yes
 //
 RX   PubMed=8430098;
