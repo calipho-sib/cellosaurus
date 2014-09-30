@@ -7681,7 +7681,7 @@ RL   Cancer Chemother. Pharmacol. 43:198-204(1999).
 RX   PubMed=22328975; DOI=10.1158/2159-8290.CD-11-0170;
 RA   Hanrahan A.J., Schultz N., Westfal M.L., Sakr R.A., Giri D.D.,
 RA   Scarperi S., Janakiraman M., Olvera N., Stevens E.V., She Q.-B.,
-RA   Aghajanian C., King T.A., Stanchina E.d., Spriggs D.R., Heguy A.,
+RA   Aghajanian C., King T.A., de Stanchina E., Spriggs D.R., Heguy A.,
 RA   Taylor B.S., Sander C., Rosen N., Levine D.A., Solit D.B.;
 RT   "Genomic complexity and AKT dependence in serous ovarian cancer.";
 RL   Cancer Discov. 2:56-67(2012).
@@ -11633,6 +11633,7 @@ RT   "Loss of the tumorigenic phenotype with in vitro, but not in vivo,
 RT   passaging of a novel series of human bronchial epithelial cell lines:
 RT   possible role of an alpha-5/beta 1-integrin-fibronectin interaction.";
 RL   Cancer Res. 55:6215-6221(1995).
+**   PDF=Yes
 //
 RX   PubMed=8752176;
 RA   Iguchi H., Tanaka S., Ozawa Y., Kashiwakuma T., Kimura T., Hiraga T.,
@@ -18963,6 +18964,13 @@ RX   PubMed=1737584;
 RA   Fukui A., Tashiro A., Koyama H., Iwamura Y., Asashima M.;
 RT   "A new cell line (XTY) from a tumor of Xenopus laevis.";
 RL   Experientia 48:87-91(1992).
+**   PDF=Yes
+//
+RX   PubMed=2563346;
+RA   Schibler M.J., Barlow S.B., Cabral F.;
+RT   "Elimination of permeability mutants from selections for drug
+RT   resistance in mammalian cells.";
+RL   FASEB J. 3:163-168(1989).
 **   PDF=Yes
 //
 RX   PubMed=10428757;
@@ -43073,7 +43081,7 @@ RL   Oncogene 30:4666-4677(2011).
 RX   PubMed=21725359; DOI=10.1038/onc.2011.250;
 RA   Xing F., Persaud Y., Pratilas C.A., Taylor B.S., Janakiraman M.,
 RA   She Q.B., Gallardo H., Liu C., Merghoub T., Hefter B., Dolgalev I.,
-RA   Viale A., Heguy A., De Stanchina E., Cobrinik D., Bollag G.,
+RA   Viale A., Heguy A., de Stanchina E., Cobrinik D., Bollag G.,
 RA   Wolchok J., Houghton A., Solit D.B.;
 RT   "Concurrent loss of the PTEN and RB1 tumor suppressors attenuates RAF
 RT   dependence in melanomas harboring (V600E)BRAF.";
@@ -46529,7 +46537,7 @@ RL   Radiat. Oncol. 6:116-116(2011).
 **   PDF=Yes
 //
 RX   PubMed=9303071; DOI=10.1002/(SICI)1520-6823(1997)5:3<134::AID-ROI10>3.0.CO;2-6;
-RA   Yang T.C.-h., Georgy K.A., Craise L.M., Durante M.;
+RA   Yang T.C.-H., Georgy K.A., Craise L.M., Durante M.;
 RT   "Initiation of oncogenic transformation in human mammary epithelial
 RT   cells by charged particles.";
 RL   Radiat. Oncol. Investig. 5:134-138(1997).
@@ -47540,7 +47548,7 @@ RA   Yi M., Hong N., Hong Y.;
 RT   "Generation of medaka fish haploid embryonic stem cells.";
 RL   Science 326:430-433(2009).
 **   PDF=Yes
-
+//
 RX   PubMed=22984048; DOI=10.1126/science.337.6100.1292-a;
 RA   Hayflick L.;
 RT   "Paying for tissue: the case of WI-38.";
@@ -50365,7 +50373,7 @@ RL   Patent number US4271145, 02-Jun-1981.
 **   PDF=Yes
 //
 RX   Patent=US4302535;
-RA   Skopek T.R., Liber H.L, Penman B.W., Thilly W.G., Hoppe H. IV;
+RA   Skopek T.R., Liber H.L., Penman B.W., Thilly W.G., Hoppe H. IV;
 RT   "Assay for mutagenesis in heterozygous diploid human lymphoblasts.";
 RL   Patent number US4302535, 24-Nov-1981.
 **   PDF=Yes
