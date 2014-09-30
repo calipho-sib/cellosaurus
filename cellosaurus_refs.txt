@@ -26737,6 +26737,14 @@ RT   resistant to gefitinib.";
 RL   Int. J. Cancer 116:36-44(2005).
 **   PDF=Yes
 //
+RX   PubMed=16049984; DOI=10.1002/ijc.21348;
+RA   Daibata M., Taguchi T., Nemoto Y., Iwasaki S., Ohtsuki Y., Taguchi H.;
+RT   "In vitro Epstein-Barr virus-immortalized lymphoma cell line carrying
+RT   t(9;14)(p13;q32) chromosome abnormality, derived from splenic lymphoma
+RT   with villous lymphocytes.";
+RL   Int. J. Cancer 118:513-517(2006).
+**   PDF=Yes
+//
 RX   PubMed=16106419; DOI=10.1002/ijc.21417;
 RA   Sambade C., Berglund M., Lagercrantz S., Sallstrom J., Reis R.M.,
 RA   Enblad G., Glimelius B., Sundstrom C.;
@@ -38805,6 +38813,16 @@ RA   Coignet L.J.A., Dyer M.J.S., Drexler H.G.;
 RT   "Establishment of the B cell precursor acute lymphoblastic leukemia
 RT   cell line MUTZ-5 carrying a (12:13) translocation.";
 RL   Leukemia 15:1471-1474(2001).
+**   PDF=Yes
+//
+RX   PubMed=11587224; DOI=10.1038/sj.leu.2402239;
+RA   Di Noto R., Pane F., Camera A., Luciano L., Barone M., Lo Pardo C.,
+RA   Boccuni P., Intrieri M., Izzo B., Villa M.R., Macri M., Rotoli B.,
+RA   Sacchetti L., Salvatore F., Del Vecchio L.;
+RT   "Characterization of two novel cell lines, DERL-2 (CD56+/CD3+/Tcry5+)
+RT   and DERL-7 (CD56+/CD3-/TCRgammadelta-), derived from a single patient
+RT   with CD56+ non-Hodgkin's lymphoma.";
+RL   Leukemia 15:1641-1649(2001).
 **   PDF=Yes
 //
 RX   PubMed=11840295; DOI=10.1038/sj.leu.2402372;
