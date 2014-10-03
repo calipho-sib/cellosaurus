@@ -9604,6 +9604,14 @@ RT   strains from patients with characterized genetic disorders.";
 RL   Cancer Res. 40:920-925(1980).
 **   PDF=Yes
 //
+RX   PubMed=6248199;
+RA   Hampar B., Boyd A.L., Derge J.G., Zweig M., Eader L., Showalter S.D.;
+RT   "Comparison of properties of mouse cells transformed spontaneously by
+RT   ultraviolet  light-irradiated herpes simplex virus or by simian virus
+RT   40.";
+RL   Cancer Res. 40:2213-2222(1980).
+**   PDF=Yes
+//
 RX   PubMed=6992985;
 RA   Gout P.W., Beer C.T., Noble R.L.;
 RT   "Prolactin-stimulated growth of cell cultures established from
@@ -11522,6 +11530,13 @@ RT   neuroectodermal tumors of the central nervous system.";
 RL   Cancer Res. 54:3278-3287(1994).
 **   PDF=Yes
 //
+RX   PubMed=8012960;
+RA   Danielpour D., Kadomatsu K., Anzano M.A., Smith J.M., Sporn M.B.;
+RT   "Development and characterization of nontumorigenic and tumorigenic
+RT   epithelial cell lines from rat dorsal-lateral prostate.";
+RL   Cancer Res. 54:3413-3421(1994).
+**   PDF=Yes
+//
 RX   PubMed=8033080;
 RA   Liu T.J., Zhang W.W., Taylor D.L., Roth J.A., Goepfert H.,
 RA   Clayman G.L.;
@@ -11682,6 +11697,13 @@ RA   Ozawa H., Kono A.;
 RT   "An experimental model of bone metastasis by human lung cancer cells:
 RT   the role of parathyroid hormone-related protein in bone metastasis.";
 RL   Cancer Res. 56:4040-4043(1996).
+**   PDF=Yes
+//
+RX   PubMed=8912849;
+RA   Hsing A.Y., Kadomatsu K., Bonham M.J., Danielpour D.;
+RT   "Regulation of apoptosis induced by transforming growth factor-beta1
+RT   in nontumorigenic rat prostatic epithelial cell lines.";
+RL   Cancer Res. 56:5146-5149(1996).
 **   PDF=Yes
 //
 RX   PubMed=8968098;
@@ -25226,6 +25248,14 @@ RT   melanoma cell lines.";
 RL   Int. J. Cancer 21:438-443(1978).
 **   PDF=Yes
 //
+RX   PubMed=208990; DOI=10.1002/ijc.2910210614;
+RA   Rabin H., Neubauer R.H., Hopkins R.F. III, Nonoyama M.;
+RT   "Further characterization of a herpesvirus-positive orang-utan cell
+RT   line and comparative aspects of in vitro transformation with
+RT   lymphotropic old world primate herpesviruses.";
+RL   Int. J. Cancer 21:762-767(1978).
+**   PDF=Yes
+//
 RX   PubMed=700899; DOI=10.1002/ijc.2910220412;
 RA   Rhim J.S., Park D.K., Arnstein P., Nelson-Rees W.A.;
 RT   "Neoplastic transformation of canine embryo cells in vitro by N-
@@ -31981,6 +32011,14 @@ RA   Stull D., Gillis S.;
 RT   "Constitutive production of interleukin 2 activity by a T cell
 RT   hybridoma.";
 RL   J. Immunol. 126:1680-1683(1981).
+**   PDF=Yes
+//
+RX   PubMed=6975300;
+RA   Rabin H., Hopkins R.F. III, Ruscetti F.W., Neubauer R.H., Brown R.L.,
+RA   Kawakami T.G.;
+RT   "Spontaneous release of a factor with properties of T cell growth
+RT   factor from a continuous line of primate tumor T cells.";
+RL   J. Immunol. 127:1852-1856(1981).
 **   PDF=Yes
 //
 RX   PubMed=6172518;
@@ -49384,6 +49422,13 @@ RT   avian oncornaviruses.";
 RL   Virology 73:548-552(1976).
 **   PDF=Yes
 //
+RX   PubMed=190778; DOI=10.1016/0042-6822(77)90269-0;
+RA   Hampar B., Hatanaka M., Aulakh G., Derge J.G., Lee L., Showalter S.D.;
+RT   "Type C virus activation in 'nontransformed' mouse cells by
+RT   UV-irradiated herpes simplex virus.";
+RL   Virology 76:876-881(1977).
+**   PDF=Yes
+//
 RX   PubMed=67703; DOI=10.1016/0042-6822(77)90493-7;
 RA   Murphy H.M.;
 RT   "A new replication-defective variant of the Bryan high-titer strain
@@ -50498,6 +50543,13 @@ RA   Handley H., Royston I., Seegmiller J.E., Thompson L.F.;
 RT   "Immunoglobulin-secreting human hybridomas from a cultured human
 RT   lymphoblastoid cell line.";
 RL   Patent number US4451570, 29-May-1984.
+**   PDF=Yes
+//
+RX   Patent=US4465769;
+RA   Hampar B., Showalter S.D.;
+RT   "Non-transformed thymidine kinaseless cell line and its use for
+RT   testing tumorigenic potential of genes.";
+RL   Patent number US4465769, 14-Aug-1984.
 **   PDF=Yes
 //
 RX   Patent=US4465776;
