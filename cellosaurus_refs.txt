@@ -1468,8 +1468,8 @@ RL   Am. J. Respir. Cell Mol. Biol. 14:146-154(1996).
 **   PDF=Yes
 //
 RX   PubMed=9308922; DOI=10.1165/ajrcmb.17.3.2837;
-RA   Chu Y.W., Yang P.C., Yang S.C., Shyu Y.C., Hendrix M.J.C., Wu R.,
-RA   Wu C.W.;
+RA   Chu Y.-W., Yang P.-C., Yang S.-C., Shyu Y.-C., Hendrix M.J.C., Wu R.,
+RA   Wu C.-W.;
 RT   "Selection of invasive and metastatic subpopulations from a human lung
 RT   adenocarcinoma cell line.";
 RL   Am. J. Respir. Cell Mol. Biol. 17:353-360(1997).
@@ -5909,6 +5909,15 @@ RT   implantation of scirrhous gastric carcinoma.";
 RL   Br. J. Cancer 74:1406-1412(1996).
 **   PDF=Yes
 //
+RX   PubMed=8980384; DOI=10.1038/bjc.1996.647;
+RA   Withoff S., de Vries E.G.E., Keith W.N., Nienhuis E.F.,
+RA   van der Graaf W.T.A., Uges D.R.A., Mulder N.H.;
+RT   "Differential expression of DNA topoisomerase II alpha and -beta in
+RT   P-gp and MRP-negative VM26, mAMSA and mitoxantrone-resistant sublines
+RT   of the human SCLC cell line GLC4.";
+RL   Br. J. Cancer 74:1869-1876(1996).
+**   PDF=Yes
+//
 RX   PubMed=9010035; DOI=10.1038/bjc.1997.42;
 RA   Rockett J.C., Larkin K., Darnton S.J., Morris A.G., Matthews H.R.;
 RT   "Five newly established oesophageal carcinoma cell lines: phenotypic
@@ -6063,6 +6072,15 @@ RA   Helsby N.A., Ferry D.M., Patterson A.V., Pullen S.M., Wilson W.R.;
 RT   "2-amino metabolites are key mediators of CB 1954 and SN 23862
 RT   bystander effects in nitroreductase GDEPT.";
 RL   Br. J. Cancer 90:1084-1092(2004).
+**   PDF=Yes
+//
+RX   PubMed=15150577; DOI=10.1038/sj.bjc.6601863;
+RA   Boonstra R., Timmer-Bosscha H., van Echten-Arends J.,
+RA   van der Kolk D.M., van den Berg A., de Jong B., Tew K.D., Poppema S.,
+RA   de Vries E.G.E.;
+RT   "Mitoxantrone resistance in a small cell lung cancer cell line is
+RT   associated with  ABCA2 upregulation.";
+RL   Br. J. Cancer 90:2411-2417(2004).
 **   PDF=Yes
 //
 RX   PubMed=15365569; DOI=10.1038/sj.bjc.6602166;
@@ -7636,6 +7654,14 @@ RA   Chang B.K., Gregory J.A.;
 RT   "Comparison of the cellular pharmacology of doxorubicin in resistant
 RT   and sensitive models of pancreatic cancer.";
 RL   Cancer Chemother. Pharmacol. 14:132-134(1985).
+**   PDF=Yes
+//
+RX   PubMed=1657425; DOI=10.1007/BF00685823;
+RA   de Jong S., Zijlstra J.G., Mulder N.H., de Vries E.G.E.;
+RT   "Lack of cross-resistance to fostriecin in a human small-cell lung
+RT   carcinoma cell  line showing topoisomerase II-related drug
+RT   resistance.";
+RL   Cancer Chemother. Pharmacol. 28:461-464(1991).
 **   PDF=Yes
 //
 RX   PubMed=7903222; DOI=10.1007/BF00685329;
@@ -10306,6 +10332,13 @@ RT   leukemia cell line with a deletion of chromosome 3 band q26.";
 RL   Cancer Res. 47:1652-1656(1987).
 **   PDF=Yes
 //
+RX   PubMed=3028613;
+RA   Zijlstra J.G., de Vries E.G.E., Mulder N.H.;
+RT   "Multifactorial drug resistance in an adriamycin-resistant human small
+RT   cell lung carcinoma cell line.";
+RL   Cancer Res. 47:1780-1784(1987).
+**   PDF=Yes
+//
 RX   PubMed=3815380;
 RA   Terakawa N., Hayashida M., Shimizu I., Ikegami H., Wakimoto H.,
 RA   Aono T., Tanizawa O., Matsumoto K., Nishida M.;
@@ -10629,6 +10662,14 @@ RA   Steingrimsdottir H., Harcourt S.A., Arlett C.F., Lindahl T.;
 RT   "Relation between the human fibroblast strain 46BR and cell lines
 RT   representative of Bloom's syndrome.";
 RL   Cancer Res. 48:6343-6347(1988).
+**   PDF=Yes
+//
+RX   PubMed=2846161;
+RA   Hospers G.A.P., Mulder N.H., de Jong B., de Ley L., Uges D.R.A.,
+RA   Fichtinger-Schepman A.M.J., Scheper R.J., de Vries E.G.E.;
+RT   "Characterization of a human small cell lung carcinoma cell line with
+RT   acquired resistance to cis-diamminedichloroplatinum(II) in vitro.";
+RL   Cancer Res. 48:6803-6807(1988).
 **   PDF=Yes
 //
 RX   PubMed=2846163;
@@ -25732,6 +25773,15 @@ RT   'immortalized' but not an invasive phenotype in vitro.";
 RL   Int. J. Cancer 46:125-132(1990).
 **   PDF=Yes
 //
+RX   PubMed=2163989; DOI=10.1002/ijc.2910460125;
+RA   Hospers G.A.P,, Meijer C., de Leij L., Uges D.R.A., Mulder N.H.,
+RA   de Vries E.G.E.;
+RT   "A study of human small-cell lung carcinoma (hSCLC) cell lines with
+RT   different sensitivities to detect relevant mechanisms of cisplatin
+RT   (CDDP) resistance.";
+RL   Int. J. Cancer 46:138-144(1990).
+**   PDF=Yes
+//
 RX   PubMed=2394515; DOI=10.1002/ijc.2910460326;
 RA   Kaeffer B., Bottreau E., Phan Thanh L., Olivier M., Salmon H.;
 RT   "Histocompatible miniature, boar model: selection of transformed cell
@@ -32927,6 +32977,13 @@ RA   Tremblay M., Sullivan A.K., Rooke R., Geleziunas R., Tsoukas C.,
 RA   Shematek G., Gilmore N., Wainberg M.A.;
 RT   "New CD4(+) cell line susceptible to infection by HIV-1.";
 RL   J. Med. Virol. 28:243-249(1989).
+**   PDF=Yes
+//
+RX   PubMed=19382257; DOI=10.1002/jmv.21486;
+RA   Nasirudeen A.M., Liu D.X.;
+RT   "Gene expression profiling by microarray analysis reveals an important
+RT   role for caspase-1 in dengue virus-induced p53-mediated apoptosis.";
+RL   J. Med. Virol. 81:1069-1081(2009).
 **   PDF=Yes
 //
 RX   PubMed=9312212; DOI=10.1007/s002329900286;
@@ -47142,6 +47199,13 @@ RT   catesbeiana).";
 RL   Science 144:1578-1580(1964).
 **   PDF=Yes
 //
+RX   PubMed=4288399; DOI=10.1126/science.154.3753.1186;
+RA   Yasamura Y., Tashjian A.H. Jr., Sato G.H.;
+RT   "Establishment of four functional, clonal strains of animal cells in
+RT   culture.";
+RL   Science 154:1186-1189(1966).
+**   PDF=Yes
+//
 RX   PubMed=5753554; DOI=10.1126/science.159.3822.1467;
 RA   Pattillo R.A., Gey G.O., Delfs E., Mattingly R.F.;
 RT   "Human hormone production in vitro.";
@@ -50331,10 +50395,22 @@ RT   "Human satellite microchromosomes as vectors for gene therapy.";
 RL   Patent number EP0838526A1, 29-Apr-1998.
 **   PDF=Yes
 //
+RX   Patent=US3871954;
+RA   Zuckerman A.J.;
+RT   "Cell lines and virus culture.";
+RL   Patent number US3871954, 18-Mar-1975.
+**   PDF=Yes
+//
 RX   Patent=US3935066;
 RA   Apostolov K.;
 RT   "Cell lines.";
 RL   Patent number US3935066, 27-Jan-1976.
+**   PDF=Yes
+//
+RX   Patent=US4016036;
+RA   Green H., Rheinwald J.G.;
+RT   "Process for serially culturing keratinocytes.";
+RL   Patent number US4016036, 05-Apr-1977.
 **   PDF=Yes
 //
 RX   Patent=US4040905;
