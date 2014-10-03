@@ -50857,6 +50857,13 @@ RT   "Monoclonal anti-human breast cancer antibodies.";
 RL   Patent number US4753894, 28-Jun-1988.
 **   PDF=Yes
 //
+RX   Patent=US4767710;
+RA   Bigbee W.L., Fong S.S.N., Jensen R.H., Vanderlaan M., Langlois R.G.;
+RT   "Cell lines for the production of monoclonal antibodies to human
+RT   glycophorin A.";
+RL   Patent number US4767710, 30-Aug-1988.
+**   PDF=Yes
+//
 RX   Patent=US4784942;
 RA   Harley J.B.;
 RT   "Monoclonal antibodies against autoimmune RNA proteins.";
