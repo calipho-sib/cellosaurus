@@ -13899,6 +13899,16 @@ RT   genetic correction of mutant SOD1.";
 RL   Cell Stem Cell 14:781-795(2014).
 **   PDF=Yes
 //
+RX   PubMed=25090446; DOI=10.1016/j.stem.2014.07.002;
+RA   Theunissen T.W., Powell B.E., Wang H., Mitalipova M., Faddah D.A.,
+RA   Reddy J., Fan Z.P., Maetzel D., Ganz K., Shi L., Lungjangwa T.,
+RA   Imsoonthornruksa S., Stelzer Y., Rangarajan S., D'Alessio A.,
+RA   Zhang J., Gao Q., Dawlaty M.M., Young R.A., Gray N.S., Jaenisch R.;
+RT   "Systematic identification of culture conditions for induction and
+RT   maintenance of naive human pluripotency.";
+RL   Cell Stem Cell 15:471-487(2014).
+**   PDF=Yes
+//
 RX   PubMed=4039633; DOI=10.1247/csf.10.37;
 RA   Ohta T., Takasuka T., Ishibashi S., Ide T.;
 RT   "Cytochalasin D inhibits the progression from the Go to S phase at the
@@ -30689,7 +30699,7 @@ RL   J. Clin. Invest. 90:1726-1735(1992).
 //
 RX   PubMed=8132740; DOI=10.1172/JCI117048;
 RA   Markowitz S.D., Myeroff L., Cooper M.J., Traicoff J., Kochera M.,
-RA   Lutterbaugh J., Swiriduk M., Willson J.K.;
+RA   Lutterbaugh J., Swiriduk M., Willson J.K.V.;
 RT   "A benign cultured colon adenoma bears three genetically altered colon
 RT   cancer oncogenes, but progresses to tumorigenicity and transforming
 RT   growth factor-beta independence without inactivating the p53 tumor
@@ -35109,6 +35119,14 @@ RA   Krautz C., Hering S., Saeger H.D., Grutzmann R., Pilarsky C.;
 RT   "Five primary human pancreatic adenocarcinoma cell lines established
 RT   by the outgrowth method.";
 RL   J. Surg. Res. 172:29-39(2012).
+**   PDF=Yes
+//
+RX   PubMed=23623571; DOI=10.1016/j.jss.2013.03.035;
+RA   Chowdhury S., Ongchin M., Wan G., Sharratt E., Brattain M.G.,
+RA   Rajput A.;
+RT   "Restoration of PTEN activity decreases metastases in an orthotopic
+RT   model of colon cancer.";
+RL   J. Surg. Res. 184:755-760(2013).
 **   PDF=Yes
 //
 RX   DOI=10.3321/j.issn:1000-5404.1999.12.004;
@@ -39720,6 +39738,14 @@ RA   Monden Y.;
 RT   "Matrix metalloproteinase inhibitor MMI-166 inhibits lymphogenous
 RT   metastasis in an orthotopically implanted model of lung cancer.";
 RL   Mol. Cancer Ther. 4:1409-1416(2005).
+**   PDF=Yes
+//
+RX   PubMed=17363507; DOI=10.1158/1535-7163.MCT-06-0555;
+RA   Wang J., Kuropatwinski K., Hauser J., Rossi M.R., Zhou Y., Conway A.,
+RA   Kan J.L.C., Gibson N.W., Willson J.K.V., Cowell J.K., Brattain M.G.;
+RT   "Colon carcinoma cells harboring PIK3CA mutations display resistance
+RT   to growth factor deprivation induced apoptosis.";
+RL   Mol. Cancer Ther. 6:1143-1150(2007).
 **   PDF=Yes
 //
 RX   PubMed=17513613; DOI=10.1158/1535-7163.MCT-06-0636;
@@ -47565,7 +47591,7 @@ RX   PubMed=16959974; DOI=10.1126/science.1133427;
 RA   Sjoblom T., Jones S., Wood L.D., Parsons D.W., Lin J., Barber T.D.,
 RA   Mandelker D., Leary R.J., Ptak J., Silliman N., Szabo S.,
 RA   Buckhaults P., Farrell C., Meeh P., Markowitz S.D., Willis J.,
-RA   Dawson D., Willson J.K., Gazdar A.F., Hartigan J., Wu L., Liu C.,
+RA   Dawson D., Willson J.K.V., Gazdar A.F., Hartigan J., Wu L., Liu C.,
 RA   Parmigiani G., Park B.H., Bachman K.E., Papadopoulos N.,
 RA   Vogelstein B., Kinzler K.W., Velculescu V.E.;
 RT   "The consensus coding sequences of human breast and colorectal
@@ -48125,6 +48151,15 @@ RA   German M.S., Zeng X., Rao M.S., Lakshmipathy U., Chesnut J.D., Liu Y.;
 RT   "Chromatin insulator elements block transgene silencing in engineered
 RT   human embryonic stem cell lines at a defined chromosome 13 locus.";
 RL   Stem Cells Dev. 21:191-205(2012).
+**   PDF=Yes
+//
+RX   PubMed=21585244; DOI=10.1089/scd.2011.0102;
+RA   Ben-Yosef D., Amit A., Malcov M., Frumkin T., Ben-Yehudah A.,
+RA   Eldar I., Mey-Raz N., Azem F., Altarescu G., Renbaum P., Beeri R.,
+RA   Varshaver I., Eldar-Geva T., Epsztejn-Litman S., Levy-Lahad E.,
+RA   Eiges R.;
+RT   "Female sex bias in human embryonic stem cell lines.";
+RL   Stem Cells Dev. 21:363-372(2012).
 **   PDF=Yes
 //
 RX   PubMed=22204497; DOI=10.1089/scd.2011.0642;
