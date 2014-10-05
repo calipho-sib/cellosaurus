@@ -22990,6 +22990,12 @@ RT   into mature macrophages.";
 RL   Immunity 13:155-165(2000).
 **   PDF=Yes
 //
+RX   PubMed=6971250; DOI=10.1007/BF01561686;
+RA   Biasi G., Collavo D., Zanovello P., Chieco-Bianchi L.;
+RT   "Leukemia-cell rejection due to T-region encoded antigens.";
+RL   Immunogenetics 12:433-443(1981).
+**   PDF=Yes
+//
 RX   PubMed=7194313; DOI=10.1007/BF01561692;
 RA   Hyman R., Trowbridge I.;
 RT   "Two complementation classes of T200 (Ly-5) glycoprotein-negative
