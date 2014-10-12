@@ -3275,6 +3275,13 @@ RT   different structures.";
 RL   Biochemistry 23:3771-3777(1984).
 **   PDF=Yes
 //
+RX   PubMed=3167012; DOI=10.1021/bi00413a022;
+RA   Eastman A., Schulte N.;
+RT   "Enhanced DNA repair as a mechanism of resistance to
+RT   cis-diamminedichloroplatinum(II).";
+RL   Biochemistry 27:4730-4734(1988).
+**   PDF=Yes
+//
 RX   PubMed=15379548; DOI=10.1021/bi048958k;
 RA   Zhao M., Boja E.S., Hoodbhoy T., Nawrocki J., Kaufman J.B., Kresge N.,
 RA   Ghirlando R., Shiloach J., Pannell L., Levine R.L., Fales H.M.,
@@ -5867,6 +5874,15 @@ RT   antigens and grows rapidly in female athymic nude mice.";
 RL   Br. J. Cancer 71:845-853(1995).
 **   PDF=Yes
 //
+RX   PubMed=7537518; DOI=10.1038/bjc.1995.178;
+RA   Jackman A.L., Kelland L.R., Kimbell R., Brown M., Gibson W.,
+RA   Aherne G.W., Hardcastle A., Boyle F.T.;
+RT   "Mechanisms of acquired resistance to the quinazoline thymidylate
+RT   synthase inhibitor ZD1694 (Tomudex) in one mouse and three human cell
+RT   lines.";
+RL   Br. J. Cancer 71:914-924(1995).
+**   PDF=Yes
+//
 RX   PubMed=7779711; DOI=10.1038/bjc.1995.233;
 RA   Collard J., Matthew A.M., Double J.A., Bibby M.C.;
 RT   "EO9: relationship between DT-diaphorase levels and response in vitro
@@ -6522,6 +6538,14 @@ RT   KOPM-88, containing partial tandem duplication of the MLL gene and an
 RT   in vivo model for childhood acute myeloid leukaemia using NOD/SCID
 RT   mice.";
 RL   Br. J. Haematol. 137:221-232(2007).
+**   PDF=Yes
+//
+RX   PubMed=17760811; DOI=10.1111/j.1365-2141.2007.06742.x;
+RA   Li X., Pennisi A., Zhan F., Sawyer J.R., Shaughnessy J.D. Jr.,
+RA   Yaccoby S.;
+RT   "Establishment and exploitation of hyperdiploid and non-hyperdiploid
+RT   human myeloma cell lines.";
+RL   Br. J. Haematol. 138:802-811(2007).
 **   PDF=Yes
 //
 RX   PubMed=19298590; DOI=10.1111/j.1365-2141.2009.07631.x;
@@ -10355,6 +10379,13 @@ RT   line with estrogen-independent progesterone receptors.";
 RL   Cancer Res. 47:1918-1923(1987).
 **   PDF=Yes
 //
+RX   PubMed=3828995;
+RA   Richon V.M., Schulte N., Eastman A.;
+RT   "Multiple mechanisms of resistance to cis-diamminedichloroplatinum(II)
+RT   in murine leukemia L1210 cells.";
+RL   Cancer Res. 47:2056-2061(1987).
+**   PDF=Yes
+//
 RX   PubMed=3567897;
 RA   Ward B.G., Wallace K., Shepherd J.H., Balkwill F.R.;
 RT   "Intraperitoneal xenografts of human epithelial ovarian cancer in nude
@@ -12730,6 +12761,13 @@ RT   vitamin C.";
 RL   Cancer Treat. Rep. 67:1061-1065(1983).
 **   PDF=No
 //
+RX   PubMed=6541096;
+RA   Eastman A., Illenye S.;
+RT   "Murine leukemia L1210 cell lines with different patterns of
+RT   resistance to platinum coordination complexes.";
+RL   Cancer Treat. Rep. 68:1189-1190(1984).
+**   PDF=No
+//
 RX   PubMed=6196137; DOI=10.1093/carcin/4.11.1367;
 RA   Kulesz-Martin M., Kilkenny A.E., Holbrook K.A., Digernes V.,
 RA   Yuspa S.H.;
@@ -13567,6 +13605,13 @@ RA   Szpakowski S., Godshalk S., Ariyan S., Sznol M., Halaban R.,
 RA   Krauthammer M., Tuck D., Slack F.J., Weidhaas J.B.;
 RT   "MicroRNA signatures differentiate melanoma subtypes.";
 RL   Cell Cycle 10:1845-1852(2011).
+**   PDF=Yes
+//
+RX   PubMed=10200488; DOI=10.1038/sj.cdd.4400357;
+RA   Segal-Bendirdjian E., Mannone L., Jacquemin-Sablon A.;
+RT   "Alteration in p53 pathway and defect in apoptosis contribute
+RT   independently to cisplatin-resistance.";
+RL   Cell Death Differ. 5:390-400(1998).
 **   PDF=Yes
 //
 RX   PubMed=23175184; DOI=10.1038/cdd.2012.140;
@@ -33204,6 +33249,13 @@ RT   intermittent anaerobiosis.";
 RL   J. Natl. Cancer Inst. 35:719-725(1965).
 **   PDF=Yes
 //
+RX   PubMed=18630317; DOI=10.1093/jnci/36.3.405;
+RA   Moore G.E., Sandberg A.A., Ulrich K.;
+RT   "Suspension cell culture and in vivo and in vitro chromosome
+RT   constitution of mouse leukemia L1210.";
+RL   J. Natl. Cancer Inst. 36:405-413(1966).
+**   PDF=Yes
+//
 RX   PubMed=6066443; DOI=10.1093/jnci/39.5.933;
 RA   Pope J.H., Achong B.G., Epstein M.A., Biddulph J.;
 RT   "Burkitt lymphoma in New Guinea: establishment of a line of
@@ -37970,6 +38022,15 @@ RT   myelomonocytic cell line (KY-821) and its drug-resistant sublines.";
 RL   Leuk. Res. 17:325-332(1993).
 **   PDF=Yes
 //
+RX   PubMed=8412300; DOI=10.1016/0145-2126(93)90154-D;
+RA   Kawata A., Han T., Dadey B., Weier H.U., Okazaki M., Yokota S.,
+RA   Fukiage T., Xiao H., Block A.M.W., Barcos M., Henderson E.,
+RA   Yoshida M., Seon B.K.;
+RT   "Establishment and characterization of the tumors of chronic
+RT   lymphocytic leukemia  cell line in nude and SCID mice.";
+RL   Leuk. Res. 17:883-894(1993).
+**   PDF=Yes
+//
 RX   PubMed=7694002; DOI=10.1016/0145-2126(93)90046-N;
 RA   Ozes O.N., Klein S.B., Reiter Z., Taylor M.W.;
 RT   "An interferon resistant variant of the hairy-cell leukemic cell line,
@@ -38504,6 +38565,14 @@ RT   "Establishment of a new cell line with the characteristics of a
 RT   multipotential progenitor from a patient with chronic myelogenous
 RT   leukemia in early erythroblastic crisis.";
 RL   Leukemia 8:171-180(1994).
+**   PDF=No
+//
+RX   PubMed=8127151;
+RA   Wendel-Hansen V., Sallstrom J., De Campos-Lima P.O., Kjellstrom G.,
+RA   Sandlund A., Siegbahn A., Carlsson M., Nilsson K., Rosen A.;
+RT   "Epstein-Barr virus (EBV) can immortalize B-CLL cells activated by
+RT   cytokines.";
+RL   Leukemia 8:476-484(1994).
 **   PDF=No
 //
 RX   PubMed=8152260;
@@ -39126,6 +39195,16 @@ RT   "Selective FLT3 inhibition of FLT3-ITD+ acute myeloid leukaemia
 RT   resulting in secondary D835Y mutation: a model for emerging clinical
 RT   resistance patterns.";
 RL   Leukemia 26:1462-1470(2012).
+**   PDF=Yes
+//
+RX   PubMed=22552008; DOI=10.1038/leu.2012.119;
+RA   Lopez-Girona A., Mendy D., Ito T., Miller K., Gandhi A.K., Kang J.,
+RA   Karasawa S., Carmel G., Jackson P., Abbasian M., Mahmoudi A.,
+RA   Cathers B., Rychak E., Gaidarova S., Chen R., Schafer P.H., Handa H.,
+RA   Daniel T.O., Evans J.F., Chopra R.;
+RT   "Cereblon is a direct protein target for immunomodulatory and
+RT   antiproliferative activities of lenalidomide and pomalidomide.";
+RL   Leukemia 26:2326-2335(2012).
 **   PDF=Yes
 //
 RX   PubMed=23295736; DOI=10.1038/leu.2012.358;
@@ -40838,19 +40917,27 @@ RT   syndrome fibroblasts.";
 RL   Mutat. Res. 183:197-202(1987).
 **   PDF=Yes
 //
-RX   PubMed=7683758; DOI=10.1016/0921-8777(93)90057-N;
-RA   Somia N.V., Jessop J.K., Melton D.W.;
-RT   "Phenotypic correction of a human cell line (46BR) with aberrant DNA
-RT   ligase I activity.";
-RL   Mutat. Res. 294:51-58(1993).
-**   PDF=Yes
-//
 RX   PubMed=1906129; DOI=10.1016/0027-5107(91)90137-D;
 RA   Kiyohara C., Hirohata T., Kuratsune M., Nagayama J.;
 RT   "An improved method for the detection of differential survival between
 RT   normal and xeroderma pigmentosum lymphoblastoid cell lines in culture
 RT   with 4-nitroquinoline-1-oxide.";
 RL   Mutat. Res. 249:111-117(1991).
+**   PDF=Yes
+//
+RX   PubMed=1986276; DOI=10.1016/0921-8777(91)90044-P;
+RA   Jennerwein M.M., Eastman A., Khokhar A.R.;
+RT   "The role of DNA repair in resistance of L1210 cells to isomeric
+RT   1,2-diaminocyclohexaneplatinum complexes and ultraviolet
+RT   irradiation.";
+RL   Mutat. Res. 254:89-96(1991).
+**   PDF=Yes
+//
+RX   PubMed=7683758; DOI=10.1016/0921-8777(93)90057-N;
+RA   Somia N.V., Jessop J.K., Melton D.W.;
+RT   "Phenotypic correction of a human cell line (46BR) with aberrant DNA
+RT   ligase I activity.";
+RL   Mutat. Res. 294:51-58(1993).
 **   PDF=Yes
 //
 RX   PubMed=7510848; DOI=10.1016/0165-1218(94)90122-8;
@@ -44637,6 +44724,16 @@ RA   Zhang Y.;
 RT   "Establishment and evaluation of a stable cattle type II alveolar
 RT   epithelial cell line.";
 RL   PLoS ONE 8:E76036-E76036(2013).
+**   PDF=Yes
+//
+RX   PubMed=24130782; DOI=10.1371/journal.pone.0076607;
+RA   Hertlein E., Beckwith K.A., Lozanski G., Chen T.L., Towns W.H.,
+RA   Johnson A.J., Lehman A., Ruppert A.S., Bolon B., Andritsos L.,
+RA   Lozanski A., Rassenti L., Zhao W., Jarvinen T.M., Senter L.,
+RA   Croce C.M., Symer D.E., de la Chapelle A., Heerema N.A., Byrd J.C.;
+RT   "Characterization of a new chronic lymphocytic leukemia cell line for
+RT   mechanistic  in vitro and in vivo studies relevant to disease.";
+RL   PLoS ONE 8:E76607-E76607(2013).
 **   PDF=Yes
 //
 RX   PubMed=24260272; DOI=10.1371/journal.pone.0079643;
@@ -52231,6 +52328,12 @@ RT   "Cell line expressing mutated human tissue-type plasminogen activator,
 RT   the constructing strategy thereof and method of preparing expressed
 RT   protein.";
 RL   Patent number US20040077042, 22-Apr-2004.
+**   PDF=Yes
+//
+RX   Patent=US20070027175;
+RA   Shaughnessy J.D. Jr., Tian E.;
+RT   "Antineoplastic activities of ellipticine and its derivatives.";
+RL   Patent number US20070027175, 01-Feb-2007.
 **   PDF=Yes
 //
 RX   Patent=US20070098718;
