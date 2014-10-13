@@ -3390,7 +3390,7 @@ RL   Biochimie 79:323-332(1997).
 **   PDF=Yes
 //
 RX   PubMed=9118301;
-RA   Klingemann H.G., Wong E., Maki G.;
+RA   Klingemann H.-G., Wong E., Maki G.;
 RT   "A cytotoxic NK-cell line (NK-92) for ex vivo purging of leukemia from
 RT   blood.";
 RL   Biol. Blood Marrow Transplant. 2:68-75(1996).
@@ -22613,7 +22613,7 @@ RL   Hum. Gene Ther. 10:37-47(1999).
 //
 RX   PubMed=10365666; DOI=10.1089/10430349950018030;
 RA   Tam Y.K., Maki G., Miyagawa B., Hennemann B., Tonn T.,
-RA   Klingemann H.G.;
+RA   Klingemann H.-G.;
 RT   "Characterization of genetically altered, interleukin 2-independent
 RT   natural killer cell lines suitable for adoptive cellular
 RT   immunotherapy.";
@@ -31882,7 +31882,7 @@ RL   J. Hematol. Oncol. 2:3-3(2009).
 **   PDF=Yes
 //
 RX   PubMed=11454312; DOI=10.1089/152581601750288975;
-RA   Maki G., Klingemann H.G., Martinson J.A., Tam Y.K.;
+RA   Maki G., Klingemann H.-G., Martinson J.A., Tam Y.K.;
 RT   "Factors regulating the cytotoxic activity of the human natural killer
 RT   cell line, NK-92.";
 RL   J. Hematother. Stem Cell Res. 10:369-383(2001).
@@ -36575,6 +36575,13 @@ RT   cancer patient with leukocytosis and hypercalcemia.";
 RL   Jpn. J. Cancer Res. 87:451-458(1996).
 **   PDF=Yes
 //
+RX   PubMed=8878450; DOI=10.1111/j.1349-7006.1996.tb02117.x;
+RA   Enjoji M., Iwaki T., Hara H., Sakai H., Nawata H., Watanabe T.;
+RT   "Establishment and characterization of choroid plexus carcinoma cell
+RT   lines: connection between choroid plexus and immune systems.";
+RL   Jpn. J. Cancer Res. 87:893-899(1996).
+**   PDF=Yes
+//
 RX   PubMed=9310137; DOI=10.1111/j.1349-7006.1997.tb00432.x;
 RA   Ohta Y., Tsutsumi K., Kikuchi K., Yasumoto S.;
 RT   "Two distinct human uterine cervical epithelial cell lines established
@@ -37614,6 +37621,14 @@ RT   "EoL-1, a human eosinophilic cell line.";
 RL   Leuk. Lymphoma 7:243-250(1992).
 **   PDF=Yes
 //
+RX   PubMed=1493476; DOI=10.3109/10428199209049823;
+RA   Chang H., Jamal N., Wang X.-H., Minden M.D., Messner H.A.;
+RT   "Constitutive production of the interleukins IL-5 and IL-6 by the
+RT   lymphoma cell line OCI-Ly 17 derived from a patient with malignant
+RT   lymphoma and hypereosinophilia.";
+RL   Leuk. Lymphoma 8:97-107(1992).
+**   PDF=Yes
+//
 RX   PubMed=8167560; DOI=10.3109/10428199409059601;
 RA   Okabe M., Kunieda Y., Itaya T., Kurosawa M., Sakurada K., Miyazaki T.,
 RA   Higa T., Kasai M., Kodama S., Maekawa I., Shoji M.;
@@ -37622,16 +37637,16 @@ RT   line (ALL/MIK) presenting bcr gene rearrangement on bcr-2 and
 RT   ALL-type bcr/abl transcript: suggestion of in vitro differentiation to
 RT   monocytoid lineage.";
 RL   Leuk. Lymphoma 12:287-296(1994).
-**   PDF=Not_obtained
+**   PDF=Yes
 //
 RX   PubMed=8180609; DOI=10.3109/10428199409073789;
-RA   Klingemann H.G., Gong H.J., Maki G., Horsman D.E., Dalal B.I.,
+RA   Klingemann H.-G., Gong H.J., Maki G., Horsman D.E., Dalal B.I.,
 RA   Phillips G.L.;
 RT   "Establishment and characterization of a human leukemic cell line (SR-
 RT   91) with features suggestive of early hematopoietic progenitor cell
 RT   origin.";
 RL   Leuk. Lymphoma 12:463-470(1994).
-**   PDF=Not_obtained
+**   PDF=Yes
 //
 RX   PubMed=7719237; DOI=10.3109/10428199509049768;
 RA   Dermime S., Grignani F., Rogaia D., Liberatore C., Marchesi E.,
@@ -37639,7 +37654,7 @@ RA   Gambacorti-Passerini C.;
 RT   "Acute promyelocytic leukaemia cells resistant to retinoic acid show
 RT   further perturbation of the RAR alpha signal transduction system.";
 RL   Leuk. Lymphoma 16:289-295(1995).
-**   PDF=Not_obtained
+**   PDF=Yes
 //
 RX   PubMed=7787756; DOI=10.3109/10428199509054439;
 RA   Okabe M., Kunieda Y., Nakane S., Kurosawa M., Itaya T., Vogler W.R.,
@@ -37648,7 +37663,7 @@ RT   "Establishment and characterization of a new Ph1-positive chronic
 RT   myeloid leukemia cell line MC3 with trilineage phenotype and an
 RT   altered p53 gene.";
 RL   Leuk. Lymphoma 16:493-503(1995).
-**   PDF=Not_obtained
+**   PDF=Yes
 //
 RX   PubMed=9172815; DOI=10.3109/10428199609093448;
 RA   Baruch M., Hochberg M., Gabay C., Ben-Bassat H., Shlomai Z.,
@@ -38590,7 +38605,7 @@ RL   Leukemia 8:476-484(1994).
 **   PDF=No
 //
 RX   PubMed=8152260;
-RA   Gong J.H., Maki G., Klingemann H.G.;
+RA   Gong J.H., Maki G., Klingemann H.-G.;
 RT   "Characterization of a human cell line (NK-92) with phenotypical and
 RT   functional characteristics of activated natural killer cells.";
 RL   Leukemia 8:652-658(1994).
@@ -43020,6 +43035,14 @@ RT   increases expression of alpha-prothymosin and ornithine decarboxylase
 RT   and accelerates progression into S-phase early after mitogenic
 RT   stimulation of quiescent cells.";
 RL   Oncogene 13:803-812(1996).
+**   PDF=No
+//
+RX   PubMed=8895524;
+RA   Kondo S., Morimura T., Barnett G.H., Kondo Y., Peterson J.W.,
+RA   Kaakaji R., Takeuchi J., Toms S.A., Liu J., Werbel B., Barna B.P.;
+RT   "The transforming activities of MDM2 in cultured neonatal rat
+RT   astrocytes.";
+RL   Oncogene 13:1773-1779(1996).
 **   PDF=No
 //
 RX   PubMed=9150358; DOI=10.1038/sj.onc.1201037;
