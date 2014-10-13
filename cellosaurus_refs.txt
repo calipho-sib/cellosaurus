@@ -28971,6 +28971,13 @@ RT   site occurs in the Golgi apparatus.";
 RL   J. Biol. Chem. 271:9390-9397(1996).
 **   PDF=Yes
 //
+RX   PubMed=8626706; DOI=10.1074/jbc.271.19.11477;
+RA   Quinn K.A., Treston A.M., Unsworth E.J., Miller M.-J., Vos M.,
+RA   Grimley C., Battey J., Mulshine J.L., Cuttitta F.;
+RT   "Insulin-like growth factor expression in human cancer cell lines.";
+RL   J. Biol. Chem. 271:11477-11483(1996).
+**   PDF=Yes
+//
 RX   PubMed=9030578; DOI=10.1074/jbc.272.8.5122;
 RA   Yaoita Y., Nakajima K.;
 RT   "Induction of apoptosis and CPP32 expression by thyroid hormone in a
