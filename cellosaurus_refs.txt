@@ -2972,6 +2972,13 @@ RT   amino acid sequence analysis.";
 RL   Biochem. Biophys. Res. Commun. 152:1401-1409(1988).
 **   PDF=Yes
 //
+RX   PubMed=3261584; DOI=10.1016/0006-291X(88)90266-5;
+RA   Nakai S., Mizuno K., Kaneta M., Hirai Y.;
+RT   "A simple, sensitive bioassay for the detection of interleukin-1 using
+RT   human melanoma A375 cell line.";
+RL   Biochem. Biophys. Res. Commun. 154:1189-1196(1988).
+**   PDF=Yes
+//
 RX   PubMed=1360209; DOI=10.1016/0006-291X(92)91530-4;
 RA   Lee W.-P., Lee C.-L., Kao M.-C.;
 RT   "Multidrug resistant HOB1 lymphoma cells express P-glycoprotein that
