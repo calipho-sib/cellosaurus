@@ -4,8 +4,8 @@
 **   -----------------------------------------------------------------------
 **
 **   Description: References file for the Cellosaurus
-**   Version: 10.1
-**   Last update: XX-xxx-2014
+**   Version: 10.2
+**   Last update: 14-Oct-2014
 **
 **   Format:
 **
@@ -6102,7 +6102,7 @@ RA   Boonstra R., Timmer-Bosscha H., van Echten-Arends J.,
 RA   van der Kolk D.M., van den Berg A., de Jong B., Tew K.D., Poppema S.,
 RA   de Vries E.G.E.;
 RT   "Mitoxantrone resistance in a small cell lung cancer cell line is
-RT   associated with  ABCA2 upregulation.";
+RT   associated with ABCA2 upregulation.";
 RL   Br. J. Cancer 90:2411-2417(2004).
 **   PDF=Yes
 //
@@ -7690,8 +7690,7 @@ RL   Cancer Chemother. Pharmacol. 14:132-134(1985).
 RX   PubMed=1657425; DOI=10.1007/BF00685823;
 RA   de Jong S., Zijlstra J.G., Mulder N.H., de Vries E.G.E.;
 RT   "Lack of cross-resistance to fostriecin in a human small-cell lung
-RT   carcinoma cell  line showing topoisomerase II-related drug
-RT   resistance.";
+RT   carcinoma cell line showing topoisomerase II-related drug resistance.";
 RL   Cancer Chemother. Pharmacol. 28:461-464(1991).
 **   PDF=Yes
 //
@@ -9638,7 +9637,7 @@ RL   Cancer Res. 40:920-925(1980).
 RX   PubMed=6248199;
 RA   Hampar B., Boyd A.L., Derge J.G., Zweig M., Eader L., Showalter S.D.;
 RT   "Comparison of properties of mouse cells transformed spontaneously by
-RT   ultraviolet  light-irradiated herpes simplex virus or by simian virus
+RT   ultraviolet light-irradiated herpes simplex virus or by simian virus
 RT   40.";
 RL   Cancer Res. 40:2213-2222(1980).
 **   PDF=Yes
@@ -13295,6 +13294,15 @@ RA   Wagner E.F.;
 RT   "Endothelioma cells expressing the polyoma middle T oncogene induce
 RT   hemangiomas by host cell recruitment.";
 RL   Cell 57:1053-1063(1989).
+**   PDF=Yes
+//
+RX   PubMed=1967982; DOI=10.1016/0092-8674(90)90657-Z;
+RA   Nourse J., Mellentin J.D., Galili N., Wilkinson J., Stanbridge E.,
+RA   Smith S.D., Cleary M.L.;
+RT   "Chromosomal translocation t(1;19) results in synthesis of a homeobox
+RT   fusion mRNA that codes for a potential chimeric transcription
+RT   factor.";
+RL   Cell 60:535-545(1990).
 **   PDF=Yes
 //
 RX   PubMed=2205396; DOI=10.1016/0092-8674(90)90385-r;
@@ -20304,6 +20312,14 @@ RT   spectrum of DNA changes associated with drug resistance.";
 RL   Genome Res. 23:1434-1445(2013).
 **   PDF=Yes
 //
+RX   PubMed=2591959; DOI=10.1016/0888-7543(89)90107-9;
+RA   Thompson L.H., Bachinski L.L., Stallings R.L., Dolf G., Weber C.A.,
+RA   Westerveld A., Siciliano M.J.;
+RT   "Complementation of repair gene mutations on the hemizygous chromosome
+RT   9 in CHO: a third repair gene on human chromosome 19.";
+RL   Genomics 5:670-679(1989).
+**   PDF=Yes
+//
 RX   PubMed=2307476; DOI=10.1016/0888-7543(90)90577-H;
 RA   Warburton D., Gersen S., Yu M.-T., Jackson C., Handelin B.,
 RA   Housman D.;
@@ -25872,7 +25888,7 @@ RL   Int. J. Cancer 46:125-132(1990).
 **   PDF=Yes
 //
 RX   PubMed=2163989; DOI=10.1002/ijc.2910460125;
-RA   Hospers G.A.P,, Meijer C., de Leij L., Uges D.R.A., Mulder N.H.,
+RA   Hospers G.A.P., Meijer C., de Leij L., Uges D.R.A., Mulder N.H.,
 RA   de Vries E.G.E.;
 RT   "A study of human small-cell lung carcinoma (hSCLC) cell lines with
 RT   different sensitivities to detect relevant mechanisms of cisplatin
@@ -36103,7 +36119,7 @@ RX   PubMed=24991015; DOI=10.1128/JVI.01457-14;
 RA   Strong M.J., Baddoo M., Nanbo A., Xu M., Puetter A., Lin Z.;
 RT   "Comprehensive RNA-seq analysis reveals contamination of multiple
 RT   nasopharyngeal carcinoma cell lines with HeLa cell genomes.";
-RL   J. Virol. 0:0-0(2014).
+RL   J. Virol. 88:10696-10704(2014).
 **   PDF=Yes
 //
 RX   PubMed=1687144; DOI=10.1016/0166-0934(91)90097-J;
@@ -38056,7 +38072,7 @@ RA   Kawata A., Han T., Dadey B., Weier H.U., Okazaki M., Yokota S.,
 RA   Fukiage T., Xiao H., Block A.M.W., Barcos M., Henderson E.,
 RA   Yoshida M., Seon B.K.;
 RT   "Establishment and characterization of the tumors of chronic
-RT   lymphocytic leukemia  cell line in nude and SCID mice.";
+RT   lymphocytic leukemia cell line in nude and SCID mice.";
 RL   Leuk. Res. 17:883-894(1993).
 **   PDF=Yes
 //
@@ -38405,7 +38421,7 @@ RA   Qian J., Wang Q.-R., Liu J., Jiang S.-H., Ni X.-Q., Lin Z.-H.,
 RA   Zhang Y.-P., Liu H.;
 RT   "Establishment and characterization of a rare atypical chronic myeloid
 RT   leukemia cell line NT-1.";
-RL   Leuk. Res. 38:0-0(2014).
+RL   Leuk. Res. 38:1111–1116(2014).
 **   PDF=Yes
 //
 RX   PubMed=3499548;
@@ -44769,7 +44785,7 @@ RA   Johnson A.J., Lehman A., Ruppert A.S., Bolon B., Andritsos L.,
 RA   Lozanski A., Rassenti L., Zhao W., Jarvinen T.M., Senter L.,
 RA   Croce C.M., Symer D.E., de la Chapelle A., Heerema N.A., Byrd J.C.;
 RT   "Characterization of a new chronic lymphocytic leukemia cell line for
-RT   mechanistic  in vitro and in vivo studies relevant to disease.";
+RT   mechanistic in vitro and in vivo studies relevant to disease.";
 RL   PLoS ONE 8:E76607-E76607(2013).
 **   PDF=Yes
 //
@@ -45784,6 +45800,15 @@ RA   Weaver D.T.;
 RT   "A link between double-strand break-related repair and V(D)J
 RT   recombination: the scid mutation.";
 RL   Proc. Natl. Acad. Sci. U.S.A. 88:4061-4065(1991).
+**   PDF=Yes
+//
+RX   PubMed=1720549;
+RA   Ziemin-van der Poel S., McCabe N.R., Gill H.J., Espinosa R. III,
+RA   Patel Y., Harden A., Rubinelli P., Smith S.D., LeBeau M.M.,
+RA   Rowley J.D., Diaz M.O.;
+RT   "Identification of a gene, MLL, that spans the breakpoint in 11q23
+RT   translocations associated with human leukemias.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 88:10735-10739(1991).
 **   PDF=Yes
 //
 RX   PubMed=1837150;
@@ -47045,7 +47070,7 @@ RX   PubMed=24520087; DOI=10.1177/1933719114522518;
 RA   Kniss D.A., Summerfield T.L.;
 RT   "Discovery of HeLa cell contamination in HES cells: call for cell line
 RT   authentication in reproductive biology research.";
-RL   Reprod. Sci. 0:0-0(2014).
+RL   Reprod. Sci.  21:1015-1019(2014).
 **   PDF=Yes
 //
 RX   CelloPub=CLPUB00100;
