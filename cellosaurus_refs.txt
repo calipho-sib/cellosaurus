@@ -5392,6 +5392,15 @@ RT   tumors with large cysts containing hemorrhagic fluid in vivo.";
 RL   BMC Res. Notes 6:305-305(2013).
 **   PDF=Yes
 //
+RX   PubMed=25267010; DOI=10.1186/s12917-014-0229-0;
+RA   Hsiao Y.-L., Hsieh T.-Z., Liou C.-J., Cheng Y.-H., Lin C.-T.,
+RA   Chang C.-Y., Lai Y.-S.;
+RT   "Characterization of protein marker expression, tumorigenicity, and
+RT   doxorubicin chemoresistance in two new canine mammary tumor cell
+RT   lines.";
+RL   BMC Vet. Res. 10:229-229(2014).
+**   PDF=Yes
+//
 RX   PubMed=7873286; DOI=10.1016/8756-3282(94)90305-0;
 RA   Clover J., Gowen M.;
 RT   "Are MG-63 and HOS TE85 human osteosarcoma cell lines representative
@@ -21016,6 +21025,14 @@ RT   "Establishment of two distinct human hepatocellular carcinoma cell
 RT   lines from a single nodule showing clonal dedifferentiation of cancer
 RT   cells.";
 RL   Hepatology 18:320-327(1993).
+**   PDF=Yes
+//
+RX   PubMed=8020907; DOI=10.1002/hep.1840200112;
+RA   Sing G.K., Pace R., Prior S., Scott J.S.D., Shield P., Martin N.,
+RA   Searle J., Battersby C., Powell L.W., Cooksley W.G.E.;
+RT   "Establishment of a cell line from a hepatocellular carcinoma from a
+RT   patient with  hemochromatosis.";
+RL   Hepatology 20:74-81(1994).
 **   PDF=Yes
 //
 RX   PubMed=9252141; DOI=10.1002/hep.510260211;
@@ -38421,7 +38438,7 @@ RA   Qian J., Wang Q.-R., Liu J., Jiang S.-H., Ni X.-Q., Lin Z.-H.,
 RA   Zhang Y.-P., Liu H.;
 RT   "Establishment and characterization of a rare atypical chronic myeloid
 RT   leukemia cell line NT-1.";
-RL   Leuk. Res. 38:1111–1116(2014).
+RL   Leuk. Res. 38:1111-1116(2014).
 **   PDF=Yes
 //
 RX   PubMed=3499548;
@@ -47070,7 +47087,7 @@ RX   PubMed=24520087; DOI=10.1177/1933719114522518;
 RA   Kniss D.A., Summerfield T.L.;
 RT   "Discovery of HeLa cell contamination in HES cells: call for cell line
 RT   authentication in reproductive biology research.";
-RL   Reprod. Sci.  21:1015-1019(2014).
+RL   Reprod. Sci. 21:1015-1019(2014).
 **   PDF=Yes
 //
 RX   CelloPub=CLPUB00100;
