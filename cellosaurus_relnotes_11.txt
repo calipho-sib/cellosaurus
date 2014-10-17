@@ -33,4 +33,14 @@ DR   BCRC; 60167
 
 3) Changes in the CC lines
 
+Introduction of a new topic: "Derived from metastatic site"
+
+Example:
+CC   Derived from metastatic site: peritoneum.
+
+
+4) Change in the CA lines
+
+The "Embryonic cell line" category was obsoleted.
+
 ----------------------------------------------------------------------------

@@ -4,8 +4,8 @@
 **   -----------------------------------------------------------------------
 **
 **   Description: References file for the Cellosaurus
-**   Version: 10.2
-**   Last update: 14-Oct-2014
+**   Version: 10.3
+**   Last update: 17-Oct-2014
 **
 **   Format:
 **
@@ -6705,6 +6705,13 @@ RT   "Characterization of a transformed rat retinal ganglion cell line.";
 RL   Brain Res. Mol. Brain Res. 86:1-12(2001).
 **   PDF=Yes
 //
+RX   PubMed=10876035; DOI=10.1016/S0165-3806(00)00040-7;
+RA   Satoh M., Yoshida T.;
+RT   "Expression of neural properties in olfactory cytokeratin-positive
+RT   basal cell line.";
+RL   Brain Res. Dev. Brain Res. 121:219-222(2000).
+**   PDF=Yes
+//
 RX   PubMed=15558189; DOI=10.1590/S0100-879X2004001200008;
 RA   Lima E.M., Rissino J.D., Harada M.L., Assumpcao P.P., Demachki S.,
 RA   Guimaraes A.C., Casartelli C., Smith M.A.C., Burbano R.R.;
@@ -6772,6 +6779,13 @@ RT   human breast carcinoma.";
 RL   Breast Cancer Res. Treat. 28:251-260(1993).
 **   PDF=Yes
 //
+RX   PubMed=8018955; DOI=10.1007/BF00666588;
+RA   Mahacek M.L., Beer D.G., Frank T.S., Ethier S.P.;
+RT   "Finite proliferative lifespan in vitro of a human breast cancer cell
+RT   strain isolated from a metastatic lymph node.";
+RL   Breast Cancer Res. Treat. 28:267-276(1993).
+**   PDF=Yes
+//
 RX   PubMed=8877005; DOI=10.1007/BF01806153;
 RA   McCallum H.M., Lowther G.W.;
 RT   "Long-term culture of primary breast cancer in defined medium.";
@@ -6801,6 +6815,13 @@ RA   Marafante E., Vezzoni P.;
 RT   "Establishment and characterization of a new mammary adenocarcinoma
 RT   cell line derived from MMTV neu transgenic mice.";
 RL   Breast Cancer Res. Treat. 47:171-180(1998).
+**   PDF=Yes
+//
+RX   PubMed=10424408; DOI=10.1023/A:1006135331912;
+RA   Ignatoski K.M.W., Ethier S.P.;
+RT   "Constitutive activation of pp125fak in newly isolated human breast
+RT   cancer cell lines.";
+RL   Breast Cancer Res. Treat. 54:173-182(1999).
 **   PDF=Yes
 //
 RX   PubMed=10965996; DOI=10.1023/A:1006410020384;
@@ -7619,7 +7640,7 @@ RA   Neve R.M., Chin K., Fridlyand J., Yeh J., Baehner F.L., Fevr T.,
 RA   Clark L., Bayani N., Coppe J.P., Tong F., Speed T., Spellman P.T.,
 RA   DeVries S., Lapuk A., Wang N.J., Kuo W.L., Stilwell J.L., Pinkel D.,
 RA   Albertson D.G., Waldman F.M., McCormick F., Dickson R.B.,
-RA   Johnson M.D., Lippman M., Ethier S., Gazdar A.F., Gray J.W.;
+RA   Johnson M.D., Lippman M., Ethier S.P., Gazdar A.F., Gray J.W.;
 RT   "A collection of breast cancer cell lines for the study of
 RT   functionally distinct cancer subtypes.";
 RL   Cancer Cell 10:515-527(2006).
@@ -9494,6 +9515,13 @@ RT   disease.";
 RL   Cancer Res. 38:2581-2591(1978).
 **   PDF=Yes
 //
+RX   PubMed=679187;
+RA   Moses H.L., Proper J.A., Volkenant M.E., Wells D.J., Getz M.J.;
+RT   "Mechanism of growth arrest of chemically transformed cells in
+RT   culture.";
+RL   Cancer Res. 38:2807-2812(1978).
+**   PDF=Yes
+//
 RX   PubMed=209894;
 RA   Roberts A.N., Smith K.L., Dowell B.L., Hubbard A.K.;
 RT   "Cultural, morphological, cell membrane, enzymatic, and neoplastic
@@ -9726,6 +9754,13 @@ RA   O'Donnell R.W., Cockerell G.L.;
 RT   "Establishment and biological properties of a guinea pig colonic
 RT   adenocarcinoma cell line induced by N-methyl-N-nitrosourea.";
 RL   Cancer Res. 41:2372-2377(1981).
+**   PDF=Yes
+//
+RX   PubMed=6265069;
+RA   Moses H.L., Branum E.L., Proper J.A., Robinson R.A.;
+RT   "Transforming growth factor production by chemically transformed
+RT   cells.";
+RL   Cancer Res. 41:2842-2848(1981).
 **   PDF=Yes
 //
 RX   PubMed=6167351;
@@ -10789,6 +10824,13 @@ RA   Matsuda H., Matsumoto M., Haraguchi S., Kanai K.;
 RT   "Partial purification of a growth factor synthesized by a rat hepatoma
 RT   cell line established in serum-free medium.";
 RL   Cancer Res. 49:2118-2122(1989).
+**   PDF=Yes
+//
+RX   PubMed=2706619;
+RA   Mulder K.M., Levine A.E., Hinshaw X.H.;
+RT   "Up-regulation of c-myc in a transformed cell line approaching
+RT   stationary phase growth in culture.";
+RL   Cancer Res. 49:2320-2326(1989).
 **   PDF=Yes
 //
 RX   PubMed=2539904;
@@ -13151,6 +13193,15 @@ RA   Vogt P.K.;
 RT   "Continuous tissue culture cell lines derived from chemically induced
 RT   tumors of Japanese quail.";
 RL   Cell 11:95-103(1977).
+**   PDF=Yes
+//
+RX   PubMed=196768; DOI=10.1016/0092-8674(77)90302-6;
+RA   Getz M.J., Reiman H.M. Jr., Siegal G.P., Quinlan T.J., Proper J.,
+RA   Elder P.K., Moses H.L.;
+RT   "Gene expression in chemically transformed mouse embryo cells:
+RT   selective enhancement of the expression of C type RNA tumor virus
+RT   genes.";
+RL   Cell 11:909-921(1977).
 **   PDF=Yes
 //
 RX   PubMed=279411; DOI=10.1016/0092-8674(78)90082-x;
@@ -21031,7 +21082,7 @@ RX   PubMed=8020907; DOI=10.1002/hep.1840200112;
 RA   Sing G.K., Pace R., Prior S., Scott J.S.D., Shield P., Martin N.,
 RA   Searle J., Battersby C., Powell L.W., Cooksley W.G.E.;
 RT   "Establishment of a cell line from a hepatocellular carcinoma from a
-RT   patient with  hemochromatosis.";
+RT   patient with hemochromatosis.";
 RL   Hepatology 20:74-81(1994).
 **   PDF=Yes
 //
@@ -34764,6 +34815,14 @@ RT   NF-kappa B activation responses to areca nut extract.";
 RL   J. Oral Pathol. Med. 33:79-86(2004).
 **   PDF=Yes
 //
+RX   PubMed=15641986; DOI=10.1111/j.1600-0714.2004.00258.x;
+RA   Vigneswaran N., Wu J., Sacks P., Gilcrease M., Zacharias W.;
+RT   "Microarray gene expression profiling of cell lines from primary and
+RT   metastatic tongue squamous cell carcinoma: possible insights from
+RT   emerging technology.";
+RL   J. Oral Pathol. Med. 34:77-86(2005).
+**   PDF=Yes
+//
 RX   PubMed=16011614; DOI=10.1111/j.1600-0714.2005.00342.x;
 RA   Lee H.-J., Guo H.-Y., Lee S.-K., Jeon B.-H., Jun C.-D., Lee S.-K.,
 RA   Park M.-H., Kim E.-C.;
@@ -41785,6 +41844,14 @@ RT   "Mechanism of activation of the TGF-beta receptor.";
 RL   Nature 370:341-347(1994).
 **   PDF=Yes
 //
+RX   PubMed=7566154; DOI=10.1038/377539a0;
+RA   Ilic D., Furuta Y., Kanazawa S., Takeda N., Sobue K., Nakatsuji N.,
+RA   Nomura S., Fujimoto J., Okada M., Yamamoto T.;
+RT   "Reduced cell motility and enhanced focal adhesion contact formation
+RT   in cells from FAK-deficient mice.";
+RL   Nature 377:539-544(1995).
+**   PDF=Yes
+//
 RX   PubMed=8837778; DOI=10.1038/383443a0;
 RA   Cao Z., Xiong J., Takeuchi M., Kurama T., Goeddel D.V.;
 RT   "TRAF6 is a signal transducer for interleukin-1.";
@@ -42910,6 +42977,13 @@ RT   transfer of bacterially produced proteins into human cells.";
 RL   Nucleic Acids Res. 18:2037-2044(1990).
 **   PDF=Yes
 //
+RX   PubMed=9278500; DOI=10.1093/nar/25.18.3745;
+RA   Tucker K.L., Wang Y., Dausman J., Jaenisch R.;
+RT   "A transgenic mouse strain expressing four drug-selectable marker
+RT   genes.";
+RL   Nucleic Acids Res. 25:3745-3746(1997).
+**   PDF=Yes
+//
 RX   PubMed=9628911; DOI=10.1093/nar/26.13.3146;
 RA   Errami A., He D.M., Friedl A.A., Overkamp W.J., Morolli B.,
 RA   Hendrickson E.A., Eckardt-Schupp F., Oshimura M., Lohman P.H.M.,
@@ -42970,6 +43044,13 @@ RT   "Initiation and characterization of cultures of human colonic
 RT   carcinoma with different biological characteristics utilizing feeder
 RT   layers of confluent fibroblasts.";
 RL   Oncodev. Biol. Med. 2:355-366(1981).
+**   PDF=No
+//
+RX   PubMed=2830582;
+RA   Kohl N.E., Ruley H.E.;
+RT   "Role of c-myc in the transformation of REF52 cells by viral and
+RT   cellular oncogenes.";
+RL   Oncogene 2:41-48(1987).
 **   PDF=No
 //
 RX   PubMed=3127778;
@@ -46727,7 +46808,7 @@ RL   Prostate 70:457-466(2010).
 RX   PubMed=21321976; DOI=10.1002/pros.21341;
 RA   Thudi N.K., Shu S.T., Martin C.K., Lanigan L.G., Nadella M.V.P.,
 RA   Van Bokhoven A., Werbeck J.L., Simmons J.K., Murahari S.,
-RA   Kisseberth W.C., Breen M., Williams C., Chen C.S., McCauley L.K.,
+RA   Kisseberth W.C., Breen M., Williams C., Chen C.-S., McCauley L.K.,
 RA   Keller E.T., Rosol T.J.;
 RT   "Development of a brain metastatic canine prostate cancer cell line.";
 RL   Prostate 71:1251-1263(2011).
@@ -49001,6 +49082,14 @@ RT   "Karyotypic variability of human myeloma cell lines.";
 RL   Tsitologiia 54:621-636(2012).
 **   PDF=Yes
 //
+RX   PubMed=4023565;
+RA   Tan M.H., Chu T.M.;
+RT   "Characterization of the tumorigenic and metastatic properties of a
+RT   human pancreatic tumor cell line (AsPC-1) implanted orthotopically
+RT   into nude mice.";
+RL   Tumor Biol. 6:89-98(1985).
+**   PDF=No
+//
 RX   PubMed=3458274;
 RA   Drexler H.G., Gaedicke G., Maeda S., Chen P.M., Minowada J.;
 RT   "Monocytoid leukemia cell line CTV-1: morphological, immunological and
@@ -51262,6 +51351,12 @@ RA   Colman R.W., Schmaier A.H.;
 RT   "Monoclonal antibodies to human kininogen and methods of preparing
 RT   same.";
 RL   Patent number US4908431, 13-Mar-1990.
+**   PDF=Yes
+//
+RX   Patent=US4933179;
+RA   Allison A.C., Byars N.E.;
+RT   "Feline leukemia virus antigen vaccines.";
+RL   Patent number US4933179, 12-Jun-1990.
 **   PDF=Yes
 //
 RX   Patent=US4935343;

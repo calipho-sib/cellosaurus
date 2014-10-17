@@ -4,8 +4,8 @@
 ----------------------------------------------------------------------------
 
  Description: Deleted accession numbers for the Cellosaurus
- Version: 10.2
- Last update: 14-Oct-2014
+ Version: 10.3
+ Last update: 17-Oct-2014
 
 ----------------------------------------------------------------------------
 
@@ -54,6 +54,7 @@ CVCL_2978  Data merged in: CVCL_1330
 CVCL_3031  Data merged in: CVCL_1429
 CVCL_3071  Data merged in: CVCL_8738
 CVCL_3474  Data deleted
+CVCL_3740  Data merged in: CVCL_0618
 CVCL_3952  Data merged in: CVCL_0439
 CVCL_3973  Data merged in: CVCL_1565
 CVCL_4066  Data merged in: CVCL_0473
@@ -73,6 +74,7 @@ CVCL_5020  Data merged in: CVCL_8788
 CVCL_5155  Data merged in: CVCL_2096
 CVCL_5214  Data merged in: CVCL_0278
 CVCL_5414  Data merged in: CVCL_8787
+CVCL_5590  Data merged in: CVCL_5423
 CVCL_5618  Data deleted
 CVCL_5778  Data deleted
 CVCL_5970  Data deleted
@@ -154,4 +156,3 @@ CVCL_S332  Data merged in: CVCL_1649
 CVCL_S829  Data merged in: CVCL_2466
 CVCL_U683  Data merged in: CVCL_F599
 CVCL_W042  Data merged in: CVCL_2869
-
