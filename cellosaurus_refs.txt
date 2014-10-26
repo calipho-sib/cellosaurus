@@ -4,8 +4,8 @@
 **   -----------------------------------------------------------------------
 **
 **   Description: References file for the Cellosaurus
-**   Version: 10.3
-**   Last update: 17-Oct-2014
+**   Version: 10.4
+**   Last update: XX-Oct-2014
 **
 **   Format:
 **
@@ -16979,6 +16979,14 @@ RT   fragile sites.";
 RL   DNA Repair 9:678-689(2010).
 **   PDF=Yes
 //
+RX   PubMed=25267831; DOI=10.1093/dnares/dsu029;
+RA   Osada N., Kohara A., Yamaji T., Hirayama N., Kasai F., Sekizuka T.,
+RA   Kuroda M., Hanada K.;
+RT   "The genome landscape of the African green monkey kidney-derived Vero
+RT   cell line.";
+RL   DNA Res. 0:0-0(2014).
+**   PDF=Yes
+//
 RX   CelloPub=CLPUB00025;
 RA   Suyama I., Etoh H.;
 RT   "A cell line derived from the fin of the goldfish, Carassius
@@ -27161,7 +27169,14 @@ RA   Shinagawa T., Amemiya A.;
 RT   "Establishment and characterization of a novel cancer cell line (SMOV-
 RT   1), derived from the ascitic fluid of a woman with ovarian cancer who
 RT   had never responded to chemotherapeutic drugs.";
-RL   Int. J. Clin. Onco1. 3:108-112(1998).
+RL   Int. J. Clin. Oncol. 3:108-112(1998).
+**   PDF=Yes
+//
+RX   PubMed=17380436; DOI=10.1007/s10147-006-0616-z;
+RA   Miyagi M., Aoyagi K., Kato S., Shirouzu K.;
+RT   "The TIMP-1 gene transferred through adenovirus mediation shows a
+RT   suppressive effect on peritoneal metastases from gastric cancer.";
+RL   Int. J. Clin. Oncol. 12:17-24(2007).
 **   PDF=Yes
 //
 RX   PubMed=18033671; DOI=10.1387/ijdb.072274yl;
@@ -36916,6 +36931,15 @@ RT   squamous cell carcinoma.";
 RL   Jpn. J. Clin. Oncol. 34:499-504(2004).
 **   PDF=Yes
 //
+RX   PubMed=25170107; DOI=10.1093/jjco/hyu110;
+RA   Isozaki H., Yasugi M., Takigawa N., Hotta K., Ichihara E.,
+RA   Taniguchi A., Toyooka S., Hashida S., Sendo T., Tanimoto M.,
+RA   Kiura K.;
+RT   "A new human lung adenocarcinoma cell line harboring the EML4-ALK
+RT   fusion gene.";
+RL   Jpn. J. Clin. Oncol. 0:0-0(2014).
+**   PDF=Yes
+//
 RX   PubMed=13984589;
 RA   Takaoka T., Katsuta H., Endo M., Sato K., Okumura H.;
 RT   "Establishment of a cell strain, JTC-12, from cynomolgus monkey kidney
@@ -37279,6 +37303,14 @@ RT   "Establishment of a new human gallbladder carcinoma cell line (KMG-A)
 RT   from an alpha-fetoprotein-producing gallbladder carcinoma transplanted
 RT   into nude mice.";
 RL   Kurume Med. J. 34:133-146(1987).
+**   PDF=Yes
+//
+RX   PubMed=22531121; DOI=10.2739/kurumemedj.58.7;
+RA   Koga A., Aoyagi K., Imaizumi T., Miyagi M., Shirouzu K.;
+RT   "Comparison between the gastric cancer cell line MKN-45 and the
+RT   high-potential peritoneal dissemination gastric cancer cell line
+RT   MKN-45P.";
+RL   Kurume Med. J. 58:73-79(2011).
 **   PDF=Yes
 //
 RX   PubMed=13980350;
@@ -43901,6 +43933,15 @@ RT   cell carcinoma with immunosuppressive characteristics.";
 RL   Oral Oncol. 47:810-817(2011).
 **   PDF=Yes
 //
+RX   PubMed=24035723; DOI=10.1016/j.oraloncology.2013.08.004;
+RA   Warner K.A., Adams A., Bernardi L., Nor C., Finkel K.A., Zhang Z.,
+RA   McLean S.A., Helman J., Wolf G.T., Divi V., Queimado L., Kaye F.J.,
+RA   Castilho R.M., Nor J.E.;
+RT   "Characterization of tumorigenic cell lines from the recurrence and
+RT   lymph node metastasis of a human salivary mucoepidermoid carcinoma.";
+RL   Oral Oncol. 49:1059-1066(2013).
+**   PDF=Yes
+//
 RX   PubMed=15316547; DOI=10.1016/j.tripleo.2004.04.018;
 RA   Umeda M., Komatsubara H., Ojima Y., Minamikawa T., Shibuya Y.,
 RA   Yokoo S., Komori T.;
@@ -45946,6 +45987,13 @@ RA   Wainer B.H.;
 RT   "Immortal rat hippocampal cell lines exhibit neuronal and glial
 RT   lineages and neurotrophin gene expression.";
 RL   Proc. Natl. Acad. Sci. U.S.A. 89:4373-4377(1992).
+**   PDF=Yes
+//
+RX   PubMed=1319065;
+RA   Gossen M., Bujard H.;
+RT   "Tight control of gene expression in mammalian cells by
+RT   tetracycline-responsive promoters.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 89:5547-5551(1992).
 **   PDF=Yes
 //
 RX   PubMed=1378628;
