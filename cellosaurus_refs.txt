@@ -28530,6 +28530,14 @@ RT   tumor.";
 RL   Invest. Urol. 19:20-23(1981).
 **   PDF=No
 //
+RX   DOI=10.1155/2013/980651;
+RA   Stoy A.C.F., Heegaard P.M.H., Sangild P.T., Ostergaard M.V.,
+RA   Skovgaard K.;
+RT   "Gene expression analysis of the IPEC-J2 cell line: a simple model
+RT   for the inflammation-sensitive preterm intestine.”;
+RL   ISRN Genomics 2013:980651-980651(2013).
+**   PDF=Yes
+//
 RX   PubMed=2156043;
 RA   Caputo A., Sodroski J.G., Haseltine W.A.;
 RT   "Constitutive expression of HIV-1 tat protein in human Jurkat T cells
@@ -30237,6 +30245,15 @@ RT   "Characterization of the novel brown adipocyte cell line HIB 1B.
 RT   Adrenergic pathways involved in regulation of uncoupling protein gene
 RT   expression.";
 RL   J. Cell Sci. 107:313-319(1994).
+**   PDF=Yes
+//
+RX   PubMed=8006085;
+RA   Willnow T.E., Herz J.;
+RT   "Genetic deficiency in low density lipoprotein receptor-related
+RT   protein confers cellular resistance to Pseudomonas exotoxin A.
+RT   Evidence that this protein is required for uptake and degradation of
+RT   multiple ligands.";
+RL   J. Cell Sci. 107:719-726(1994).
 **   PDF=Yes
 //
 RX   PubMed=8056838;
@@ -35994,6 +36011,14 @@ RT   3'-azido-3'-deoxythymidine.";
 RL   J. Virol. 65:308-312(1991).
 **   PDF=Yes
 //
+RX   PubMed=1850008;
+RA   Miller A.D., Garcia J.V., von Suhr N., Lynch C.M., Wilson C.,
+RA   Eiden M.V.;
+RT   "Construction and properties of retrovirus packaging cells based on
+RT   gibbon ape leukemia virus.";
+RL   J. Virol. 65:2220-2224(1991).
+**   PDF=Yes
+//
 RX   PubMed=1850015;
 RA   Watson D.G., Moehring J.M., Moehring T.J.;
 RT   "A mutant CHO-K1 strain with resistance to Pseudomonas exotoxin A and
@@ -40251,6 +40276,13 @@ RX   PubMed=6095070; DOI=10.1128/MCB.4.7.1411;
 RA   Tindall K.R., Stankowski L.F. Jr., Machanoff R., Hsie A.W.;
 RT   "Detection of deletion mutations in pSV2gpt-transformed cells.";
 RL   Mol. Cell. Biol. 4:1411-1415(1984).
+**   PDF=Yes
+//
+RX   PubMed=6096696; DOI=10.1128/MCB.4.11.2406;
+RA   Muller W.J., Naujokas M.A., Hassell J.A.;
+RT   "Isolation of large T antigen-producing mouse cell lines capable of
+RT   supporting replication of polyomavirus-plasmid recombinants.";
+RL   Mol. Cell. Biol. 4:2406-2412(1984).
 **   PDF=Yes
 //
 RX   PubMed=4033657; DOI=10.1128/MCB.5.6.1385;

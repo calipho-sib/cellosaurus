@@ -53,6 +53,7 @@ CVCL_2900  Data merged in: CVCL_1905
 CVCL_2978  Data merged in: CVCL_1330
 CVCL_3031  Data merged in: CVCL_1429
 CVCL_3071  Data merged in: CVCL_8738
+CVCL_3372  Data merged in: CVCL_8956
 CVCL_3474  Data deleted
 CVCL_3740  Data merged in: CVCL_0618
 CVCL_3952  Data merged in: CVCL_0439
