@@ -1597,6 +1597,14 @@ RT   cells and its application to the isolation of NS-1 hybridomas.";
 RL   Anal. Biochem. 130:445-453(1983).
 **   PDF=Yes
 //
+RX   PubMed=8250257; DOI=10.1006/abio.1993.1458;
+RA   Yagi T., Tokunaga T., Furuta Y., Nada S., Yoshida M., Tsukada T.,
+RA   Saga Y., Takeda N., Ikawa Y., Aizawa S.;
+RT   "A novel ES cell line, TT2, with high germline-differentiating
+RT   potency.";
+RL   Anal. Biochem. 214:70-76(1993).
+**   PDF=Yes
+//
 RX   PubMed=8660514; DOI=10.1006/abio.1996.0176;
 RA   Levchenko A., Mehta B.M., Spengler B.A., Narkar A.A., Fonti R.,
 RA   Biedler J.L., Tsuruo T., Larson S.M.;
@@ -16685,6 +16693,14 @@ RT   derivatives.";
 RL   Development 124:4133-4141(1997).
 **   PDF=Yes
 //
+RX   PubMed=9584126;
+RA   Dean W., Bowden L., Aitchison A., Klose J., Moore T., Meneses J.J.,
+RA   Reik W., Feil R.;
+RT   "Altered imprinted gene methylation and expression in completely ES
+RT   cell-derived mouse fetuses: association with aberrant phenotypes.";
+RL   Development 125:2273-2282(1998).
+**   PDF=Yes
+//
 RX   PubMed=10654599;
 RA   Gerlach L.M., Hutson M.R., Germiller J.A., Nguyen-Luu D., Victor J.C.,
 RA   Barald K.F.;
@@ -19033,6 +19049,13 @@ RT   signaling of steroid-sensitive and -resistant MM cells.";
 RL   Exp. Hematol. 31:271-282(2003).
 **   PDF=Yes
 //
+RX   PubMed=16647569; DOI=10.1016/j.exphem.2006.01.015;
+RA   Yin B., Kogan S.C., Dickins R.A., Lowe S.W., Largaespada D.A.;
+RT   "Trp53 loss during in vitro selection contributes to acquired Ara-C
+RT   resistance in acute myeloid leukemia.";
+RL   Exp. Hematol. 34:631-641(2006).
+**   PDF=Yes
+//
 RX   PubMed=17761288; DOI=10.1016/j.exphem.2007.05.022;
 RA   Ditzel Santos D., Ho A.W., Tournilhac O., Hatjiharissi E., Leleu X.,
 RA   Xu L., Tassone P., Neri P., Hunter Z.R., Chemaly M.A.Z.,
@@ -20385,6 +20408,22 @@ RA   Weber B., Shapero M.H., Wooster R.;
 RT   "High-resolution analysis of DNA copy number using oligonucleotide
 RT   microarrays.";
 RL   Genome Res. 14:287-295(2004).
+**   PDF=Yes
+//
+RX   PubMed=19952138; DOI=10.1101/gr.099796.109;
+RA   Hiratani I., Ryba T., Itoh M., Rathjen J., Kulik M., Papp B.,
+RA   Fussner E., Bazett-Jones D.P., Plath K., Dalton S., Rathjen P.D.,
+RA   Gilbert D.M.;
+RT   "Genome-wide dynamics of replication timing revealed by in vitro
+RT   models of mouse embryogenesis.";
+RL   Genome Res. 20:155-169(2010).
+**   PDF=Yes
+//
+RX   PubMed=20363980; DOI=10.1101/gr.103200.109;
+RA   Yang F., Babak T., Shendure J., Disteche C.M.;
+RT   "Global survey of escape from X inactivation by RNA-sequencing in
+RT   mouse.";
+RL   Genome Res. 20:614-622(2010).
 **   PDF=Yes
 //
 RX   PubMed=23733853; DOI=10.1101/gr.152322.112;
@@ -27445,6 +27484,16 @@ RA   Abraham M.T., Nam N.A., Teo S.H., Cheong S.C.;
 RT   "Establishment and characterization of Asian oral cancer cell lines as
 RT   in vitro models to study a disease prevalent in Asia.";
 RL   Int. J. Mol. Med. 19:453-460(2007).
+**   PDF=Yes
+//
+RX   PubMed=17671737; DOI=10.3892/ijmm.20.3.329;
+RA   Poma P., Notarbartolo M., Labbozzetta M., Maurici A., Carina V.,
+RA   Alaimo A., Rizzi M., Simoni D., D'Alessandro N.;
+RT   "The antitumor activities of curcumin and of its isoxazole analogue
+RT   are not affected by multiple gene expression changes in an MDR model
+RT   of the MCF-7 breast cancer cell line: analysis of the possible
+RT   molecular basis.";
+RL   Int. J. Mol. Med. 20:329-335(2007).
 **   PDF=Yes
 //
 RX   PubMed=21573635; DOI=10.3892/ijo.2.5.831;
@@ -40198,6 +40247,12 @@ RT   dependent (arginase-deficient) CHO cells.";
 RL   Mol. Cell. Biol. 4:915-922(1984).
 **   PDF=Yes
 //
+RX   PubMed=6095070; DOI=10.1128/MCB.4.7.1411;
+RA   Tindall K.R., Stankowski L.F. Jr., Machanoff R., Hsie A.W.;
+RT   "Detection of deletion mutations in pSV2gpt-transformed cells.";
+RL   Mol. Cell. Biol. 4:1411-1415(1984).
+**   PDF=Yes
+//
 RX   PubMed=4033657; DOI=10.1128/MCB.5.6.1385;
 RA   Pohjanpelto P., Holtta E., Janne O.A.;
 RT   "Mutant strain of Chinese hamster ovary cells with no detectable
@@ -41380,6 +41435,14 @@ RA   Leach R., Naylor S., Joenje H., Grompe M.;
 RT   "Microcell mediated chromosome transfer maps the Fanconi anaemia group
 RT   D gene to chromosome 3p.";
 RL   Nat. Genet. 11:341-343(1995).
+**   PDF=Yes
+//
+RX   PubMed=9500539; DOI=10.1038/ng0398-212;
+RA   Lingenfelter P.A., Adler D.A., Poslinski D., Thomas S., Elliott R.W.,
+RA   Chapman V.M., Disteche C.M.;
+RT   "Escape from X inactivation of Smcx is preceded by silencing during
+RT   mouse development.";
+RL   Nat. Genet. 18:212-213(1998).
 **   PDF=Yes
 //
 RX   PubMed=10742100; DOI=10.1038/74199;
@@ -45771,6 +45834,13 @@ RT   bacterial aspartate receptor.";
 RL   Proc. Natl. Acad. Sci. U.S.A. 83:8137-8141(1986).
 **   PDF=Yes
 //
+RX   PubMed=2432598;
+RA   Hsie A.W., Recio L., Katz D.S., Lee C.Q., Wagner M., Schenley R.L.;
+RT   "Evidence for reactive oxygen species inducing mutations in mammalian
+RT   cells.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 83:9616-9620(1986).
+**   PDF=Yes
+//
 RX   PubMed=3025872;
 RA   Tsurimoto T., Fujiyama A., Matsubara K.;
 RT   "Stable expression and replication of hepatitis B virus genome in an
@@ -48190,6 +48260,22 @@ RA   Joenje H., Moses R.E., Grompe M.;
 RT   "Immortalization of four new Fanconi anemia fibroblast cell lines by
 RT   an improved procedure.";
 RL   Somat. Cell Mol. Genet. 22:151-157(1996).
+**   PDF=Yes
+//
+RX   PubMed=194347; DOI=10.1007/BF01538449;
+RA   Hsie A.W., Brimer P.A., Mitchell T.J., Gosslee D.G.;
+RT   "The dose-response relationship for ethyl methanesulfonate-induced
+RT   mutations at the hypoxanthine-guanine phosphoribosyl transferase locus
+RT   in Chinese hamster ovary cells.";
+RL   Somatic Cell Genet. 1:247-261(1975).
+**   PDF=Yes
+//
+RX   PubMed=1235913; DOI=10.1007/BF01538669;
+RA   Hsie A.W., Brimer P.A., Mitchell T.J., Gosslee D.G.;
+RT   "The dose-response relationship for ultraviolet-light-induced
+RT   mutations at the hypoxanthine-guanine phosphoribosyltransferase locus
+RT   in Chinese hamster ovary cells.";
+RL   Somatic Cell Genet. 1:383-389(1975).
 **   PDF=Yes
 //
 RX   PubMed=1027147; DOI=10.1007/BF01538838;
