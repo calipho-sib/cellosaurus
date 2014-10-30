@@ -12206,6 +12206,14 @@ RT   cancer cell subline.";
 RL   Cancer Res. 63:5622-5628(2003).
 **   PDF=Yes
 //
+RX   PubMed=14559825;
+RA   Choe K.S., Radparvar F., Matushansky I., Rekhtman N., Han X.,
+RA   Skoultchi A.I.;
+RT   "Reversal of tumorigenicity and the block to differentiation in
+RT   erythroleukemia cells by GATA-1.";
+RL   Cancer Res. 63:6363-6369(2003).
+**   PDF=Yes
+//
 RX   PubMed=14695172;
 RA   Iacobuzio-Donahue C.A., Ashfaq R., Maitra A., Adsay N.V.,
 RA   Shen-Ong G.L., Berg K., Hollingsworth M.A., Cameron J.L., Yeo C.J.,
@@ -17660,6 +17668,14 @@ RT   "Establishment and characterization of an angiosarcoma-derived cell
 RT   line, AS-M.";
 RL   Endothelium 10:319-328(2003).
 **   PDF=Not_obtained
+//
+RX   PubMed=11564615;
+RA   Rossi M.R., Masters J.R., Park S., Todd J.H., Garrett S.H., Sens M.A.,
+RA   Somji S., Nath J., Sens D.A.;
+RT   "The immortalized UROtsa cell line as a potential cell culture model
+RT   of human urothelium.";
+RL   Environ. Health Perspect. 109:801-808(2001).
+**   PDF=Yes
 //
 RX   PubMed=2910704;
 RA   Rosenstein B.S.;
@@ -26671,6 +26687,14 @@ RT   "Establishment of a human hemangiosarcoma cell line (ISO-HAS).";
 RL   Int. J. Cancer 81:305-308(1999).
 **   PDF=Yes
 //
+RX   PubMed=10328235; DOI=10.1002/(SICI)1097-0215(19990531)81:5<793::AID-IJC21>3.0.CO;2-4;
+RA   Queimado L., Lopes C., Du F., Martins C., Fonseca I., Bowcock A.M.,
+RA   Soares J., Lovett M.;
+RT   "In vitro transformation of cell lines from human salivary gland
+RT   tumors.";
+RL   Int. J. Cancer 81:793-798(1999).
+**   PDF=Yes
+//
 RX   PubMed=10362137; DOI=10.1002/(SICI)1097-0215(19990611)81:6<902::AID-IJC11>3.0.CO;2-T;
 RA   Oh J.-H., Ku J.-L., Yoon K.-A., Kwon H.-J., Kim W.-H., Park H.-S.,
 RA   Yeo K.-S., Song S.-Y., Chung J.-K., Park J.-G.;
@@ -34830,6 +34854,13 @@ RT   NF-kappa B activation responses to areca nut extract.";
 RL   J. Oral Pathol. Med. 33:79-86(2004).
 **   PDF=Yes
 //
+RX   PubMed=14720195; DOI=10.1111/j.1600-0714.2004.00189.x;
+RA   Mantesso A., Loducca S.V.L., Bendit I., Garicochea B., Nunes F.D.,
+RA   de Araujo V.C.;
+RT   "Mdm2 mRNA expression in salivary gland tumour cell lines.";
+RL   J. Oral Pathol. Med. 33:96-101(2004).
+**   PDF=Yes
+//
 RX   PubMed=15641986; DOI=10.1111/j.1600-0714.2004.00258.x;
 RA   Vigneswaran N., Wu J., Sacks P., Gilcrease M., Zacharias W.;
 RT   "Microarray gene expression profiling of cell lines from primary and
@@ -40115,6 +40146,13 @@ RT   established human epithelial ovarian cancer cell line.";
 RL   Mol. Cell. Biochem. 319:189-201(2008).
 **   PDF=Yes
 //
+RX   PubMed=6821513;
+RA   Scolnick E.M., Weeks M.O., Shih T.Y., Ruscetti S.K., Dexter T.M.;
+RT   "Markedly elevated levels of an endogenous sarc protein in a
+RT   hemopoietic precursor cell line.";
+RL   Mol. Cell. Biol. 1:66-74(1981).
+**   PDF=Yes
+//
 RX   PubMed=9279382; DOI=10.1128/MCB.1.8.687;
 RA   Stanley P.;
 RT   "Selection of specific wheat germ agglutinin-resistant (WgaR)
@@ -41197,6 +41235,13 @@ RT   differentiation in vitro.";
 RL   Nat. Biotechnol. 18:399-404(2000).
 **   PDF=Yes
 //
+RX   PubMed=12524553; DOI=10.1038/nbt780;
+RA   Ying Q.-L., Stavridis M., Griffiths D., Li M., Smith A.;
+RT   "Conversion of embryonic stem cells into neuroectodermal precursors in
+RT   adherent monoculture.";
+RL   Nat. Biotechnol. 21:183-186(2003).
+**   PDF=Yes
+//
 RX   PubMed=12577066; DOI=10.1038/nbt788;
 RA   Zwaka T.P., Thomson J.A.;
 RT   "Homologous recombination in human embryonic stem cells.";
@@ -41709,6 +41754,13 @@ RA   Patek P.Q., Collins J.L., Cohn M.;
 RT   "Transformed cell lines susceptible or resistant to in vivo
 RT   surveillance against tumorigenesis.";
 RL   Nature 276:510-511(1978).
+**   PDF=Yes
+//
+RX   PubMed=763330; DOI=10.1038/277471a0;
+RA   Dexter T.M., Allen T.D., Scott D., Teich N.M.;
+RT   "Isolation and characterisation of a bipotential haematopoietic cell
+RT   line.";
+RL   Nature 277:471-474(1979).
 **   PDF=Yes
 //
 RX   PubMed=233137; DOI=10.1038/282615a0;
@@ -43328,6 +43380,13 @@ RT   cancer and its re-expression decreases its malignant potential.";
 RL   Oncogene 21:4435-4447(2002).
 **   PDF=Yes
 //
+RX   PubMed=12085227; DOI=10.1038/sj.onc.1205547;
+RA   Kim B.Y., Gaynor R.B., Song K., Dritschilo A., Jung M.;
+RT   "Constitutive activation of NF-kappaB in Ki-ras-transformed prostate
+RT   epithelial cells.";
+RL   Oncogene 21:4490-4497(2002).
+**   PDF=Yes
+//
 RX   PubMed=12096341; DOI=10.1038/sj.onc.1205577;
 RA   Vecsey-Semjen B., Becker K.F., Sinski A., Blennow E., Vietor I.,
 RA   Zatloukal K., Beug H., Wagner E., Huber L.A.;
@@ -43899,6 +43958,14 @@ RT   "Regulation of cell motility via high and low affinity autocrine
 RT   motility factor (AMF) receptor in human oral squamous carcinoma
 RT   cells.";
 RL   Oral Oncol. 38:49-55(2002).
+**   PDF=Yes
+//
+RX   PubMed=12747969; DOI=10.1016/S1368-8375(03)00004-6;
+RA   Mantesso A., Loducca S.V.L., Jaeger R.G., Decio S.P.J.,
+RA   de Araujo V.C.;
+RT   "Analysis of epithelial-myoepithelial carcinoma based on the
+RT   establishment of a novel cell line.";
+RL   Oral Oncol. 39:453-458(2003).
 **   PDF=Yes
 //
 RX   PubMed=17112776; DOI=10.1016/j.oraloncology.2006.09.001;
@@ -44784,6 +44851,13 @@ RA   Noguchi E.;
 RT   "Generation of induced pluripotent stem cells from human nasal
 RT   epithelial cells using a Sendai virus vector.";
 RL   PLoS ONE 7:E42855-E42855(2012).
+**   PDF=Yes
+//
+RX   PubMed=22912842; DOI=10.1371/journal.pone.0043270;
+RA   Guo H., Xu C., Zhou T., Block T.M., Guo J.-T.;
+RT   "Characterization of the host factors required for hepadnavirus
+RT   covalently closed  circular (ccc) DNA formation.";
+RL   PLoS ONE 7:E43270-E43270(2012).
 **   PDF=Yes
 //
 RX   PubMed=22916246; DOI=10.1371/journal.pone.0043355;
@@ -46730,6 +46804,14 @@ RA   Loop S.M., Rozanski T.A., Ostenson R.C.;
 RT   "Human primary prostate tumor cell line, ALVA-31: a new model for
 RT   studying the hormonal regulation of prostate tumor cell growth.";
 RL   Prostate 22:93-108(1993).
+**   PDF=Yes
+//
+RX   PubMed=8378190; DOI=10.1002/pros.2990230202;
+RA   Parda D.S., Thraves P.J., Kuettel M.R., Lee M.-S., Arnstein P.,
+RA   Kaighn M.E., Rhim J.S., Dritschilo A.;
+RT   "Neoplastic transformation of a human prostate epithelial cell line by
+RT   the v-Ki-ras oncogene.";
+RL   Prostate 23:91-98(1993).
 **   PDF=Yes
 //
 RX   PubMed=9316653; DOI=10.1002/(SICI)1097-0045(19971001)33:2<123::AID-PROS6>3.0.CO;2-L;
@@ -49463,7 +49545,7 @@ RL   Virchows Arch. 428:91-98(1996).
 **   PDF=Yes
 //
 RX   PubMed=9230912; DOI=10.1007/s004280050057;
-RA   Jaeger M.M.M., Araujo V.C., Kachar B., Jaeger R.G.;
+RA   Jaeger M.M.M., de Araujo V.C., Kachar B., Jaeger R.G.;
 RT   "Effect of spatial arrangement of the basement membrane on cultured
 RT   pleomorphic adenoma cells. Study by immunocytochemistry and electron
 RT   and confocal microscopy.";
