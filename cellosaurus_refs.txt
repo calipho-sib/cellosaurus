@@ -4,8 +4,8 @@
 **   -----------------------------------------------------------------------
 **
 **   Description: References file for the Cellosaurus
-**   Version: 10.4
-**   Last update: 31-Oct-2014
+**   Version: 10.5
+**   Last update: XX-Nov-2014
 **
 **   Format:
 **
@@ -12985,6 +12985,13 @@ RT   immortalized by human papillomavirus 18.";
 RL   Carcinogenesis 18:1215-1223(1997).
 **   PDF=Yes
 //
+RX   PubMed=9214606; DOI=10.1093/carcin/18.6.1225;
+RA   Webber M.M., Bello D., Kleinman H.K., Hoffman M.P.;
+RT   "Acinar differentiation by non-malignant immortalized human prostatic
+RT   epithelial cells and its loss by malignant cells.";
+RL   Carcinogenesis 18:1225-1231(1997).
+**   PDF=Yes
+//
 RX   PubMed=9276642; DOI=10.1093/carcin/18.8.1643;
 RA   Peehl D.M., Wong S.T., Sellers R.G., Jin S., Rhim J.S.;
 RT   "Loss of response to epidermal growth factor and retinoic acid
@@ -13023,6 +13030,14 @@ RA   Thorgeirsson S.S.;
 RT   "HGF-mediated apoptosis via p53/bax-independent pathway activating
 RT   JNK1.";
 RL   Carcinogenesis 20:583-590(1999).
+**   PDF=Yes
+//
+RX   PubMed=10383888; DOI=10.1093/carcin/20.7.1185;
+RA   Webber M.M., Trakul N., Thraves P.S., Bello-DeOcampo D., Chu W.W.,
+RA   Storto P.D., Huard T.K., Rhim J.S., Williams D.E.;
+RT   "A human prostatic stromal myofibroblast cell line WPMY-1: a model for
+RT   stromal-epithelial interactions in prostatic neoplasia.";
+RL   Carcinogenesis 20:1185-1192(1999).
 **   PDF=Yes
 //
 RX   PubMed=10590229; DOI=10.1093/carcin/20.12.2335;
@@ -24523,7 +24538,7 @@ RX   PubMed=11776965; DOI=10.1290/1071-2690(2001)037<0633:RRCHOC>2.0.CO;2;
 RA   Liu C.-H., Chu I.-M., Hwang S.-M.;
 RT   "Reference recombinant chinese hamster ovary cell lines.";
 RL   In Vitro Cell. Dev. Biol. Anim. 37:633-634(2001).
-**   PDF=YeS
+**   PDF=Yes
 //
 RX   PubMed=11776973; DOI=10.1290/1071-2690(2001)037<0676:FHANSC>2.0.CO;2;
 RA   Tannehill-Gregg S., Kergosien E., Rosol T.J.;
@@ -42376,6 +42391,14 @@ RT   inner medullary collecting ducts.";
 RL   Nephrol. Dial. Transplant. 16:238-245(2001).
 **   PDF=Yes
 //
+RX   PubMed=20111645;
+RA   Freund C., Davis R.P., Gkatzis K., Ward-van Oostwaard D.,
+RA   Mummery C.L.;
+RT   "The first reported generation of human induced pluripotent stem cells
+RT   (iPS cells) and iPS cell-derived cardiomyocytes in the Netherlands.";
+RL   Neth. Heart J. 18:51-54(2010).
+**   PDF=Yes
+//
 RX   PubMed=11916498; DOI=10.1093/neuonc/4.2.75;
 RA   Aldosari N., Wiltshire R.N., Dutra A., Schrock E., McLendon R.E.,
 RA   Friedman H.S., Bigner D.D., Bigner S.H.;
@@ -47665,6 +47688,15 @@ RT   lines as preclinical models for sinonasal squamous cell carcinoma.";
 RL   Sci. Rep. 4:4925-4925(2014).
 **   PDF=Yes
 //
+RX   PubMed=24970375; DOI=10.1038/srep05421;
+RA   Fukawatase Y., Toyoda M., Okamura K., Nakamura K.-I., Nakabayashi K.,
+RA   Takada S., Yamazaki-Inoue M., Masuda A., Nasu M., Hata K., Hanaoka K.,
+RA   Higuchi A., Takubo K., Umezawa A.;
+RT   "Ataxia telangiectasia derived iPS cells show preserved X-ray
+RT   sensitivity and decreased chromosomal instability.";
+RL   Sci. Rep. 4:5421-5421(2014).
+**   PDF=Yes
+//
 RX   PubMed=206962;
 RA   Zeng Y.;
 RT   "Establishment of an epitheloid cell line and a fusiform cell line
@@ -48428,6 +48460,16 @@ RA   Kehler J., Hampel H., Coughran A., Ross T.S.;
 RT   "Analysis of induced pluripotent stem cells from a BRCA1 mutant
 RT   family.";
 RL   Stem Cell Reports 1:336-349(2013).
+**   PDF=Yes
+//
+RX   PubMed=24936452; DOI=10.1016/j.stemcr.2014.03.007;
+RA   Numasawa-Kuroiwa Y., Okada Y., Shibata S., Kishi N., Akamatsu W.,
+RA   Shoji M., Nakanishi A., Oyama M., Osaka H., Inoue K., Takahashi K.,
+RA   Yamanaka S., Kosaki K., Takahashi T., Okano H.;
+RT   "Involvement of ER stress in dysmyelination of Pelizaeus-Merzbacher
+RT   disease with PLP1 missense mutations shown by iPSC-derived
+RT   oligodendrocytes.";
+RL   Stem Cell Reports 2:648-661(2014).
 **   PDF=Yes
 //
 RX   PubMed=20826120; DOI=10.1016/j.scr.2010.07.001;
