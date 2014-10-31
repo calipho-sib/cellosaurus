@@ -5,7 +5,7 @@
 **
 **   Description: References file for the Cellosaurus
 **   Version: 10.4
-**   Last update: XX-Oct-2014
+**   Last update: 31-Oct-2014
 **
 **   Format:
 **
@@ -24434,6 +24434,14 @@ RT   from gastric cancer.";
 RL   In Vitro Cell. Dev. Biol. Anim. 35:555-557(1999).
 **   PDF=Yes
 //
+RX   PubMed=10777059; DOI=10.1290/1071-2690(2000)036<0188:COCCLE>2.0.CO;2;
+RA   Nayak S.K., Kakati S., Harvey S.R., Malone C.C., Cornforth A.N.,
+RA   Dillman R.O.;
+RT   "Characterization of cancer cell lines established from two human
+RT   metastatic breast cancers.";
+RL   In Vitro Cell. Dev. Biol. Anim. 36:188-193(2000).
+**   PDF=Yes
+//
 RX   PubMed=10852347; DOI=10.1290/1071-2690(2000)036<0228:COJAHG>2.0.CO;2;
 RA   Okayama N., Fowler M.R., Jennings S.R., Specian R., Alexander B.,
 RA   Jackson T.H., Oshima T., Shannon T., Alexander J.S.;
@@ -28533,8 +28541,8 @@ RL   Invest. Urol. 19:20-23(1981).
 RX   DOI=10.1155/2013/980651;
 RA   Stoy A.C.F., Heegaard P.M.H., Sangild P.T., Ostergaard M.V.,
 RA   Skovgaard K.;
-RT   "Gene expression analysis of the IPEC-J2 cell line: a simple model
-RT   for the inflammation-sensitive preterm intestine.”;
+RT   "Gene expression analysis of the IPEC-J2 cell line: a simple model for
+RT   the inflammation-sensitive preterm intestine.";
 RL   ISRN Genomics 2013:980651-980651(2013).
 **   PDF=Yes
 //
@@ -44951,7 +44959,7 @@ RL   PLoS ONE 7:E42855-E42855(2012).
 RX   PubMed=22912842; DOI=10.1371/journal.pone.0043270;
 RA   Guo H., Xu C., Zhou T., Block T.M., Guo J.-T.;
 RT   "Characterization of the host factors required for hepadnavirus
-RT   covalently closed  circular (ccc) DNA formation.";
+RT   covalently closed circular (ccc) DNA formation.";
 RL   PLoS ONE 7:E43270-E43270(2012).
 **   PDF=Yes
 //

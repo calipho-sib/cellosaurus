@@ -6,7 +6,7 @@
  Description: How to establish cross-references to the resources listed in
               the Cellosaurus
  Version: 10.4
- Last update: xx-Oct-2014
+ Last update: 31-Oct-2014
 
 ----------------------------------------------------------------------------
 
