@@ -5572,7 +5572,7 @@ RL   Br. J. Cancer 47:373-381(1983).
 **   PDF=Yes
 //
 RX   PubMed=6200130; DOI=10.1038/bjc.1984.44;
-RA   Frame M.C., Freshney R.I., Vaughan P.F., Graham D.I., Shaw R.;
+RA   Frame M.C., Freshney R.I., Vaughan P.F.T., Graham D.I., Shaw R.;
 RT   "Interrelationship between differentiation and malignancy-associated
 RT   properties in glioma.";
 RL   Br. J. Cancer 49:269-280(1984).
@@ -7576,6 +7576,15 @@ RT   pancreatic cancers indicate promoter methylation patterns distinct
 RT   from other human tumor types.";
 RL   Cancer Biol. Ther. 6:1546-1552(2007).
 **   PDF=Yes
+//
+RX   PubMed=18340113; DOI=10.4161/cbt.7.6.5838;
+RA   Gongora C., Candeil L., Vezzio N., Copois V., Denis V., Breil C.,
+RA   Molina F., Fraslon C., Conseiller E., Pau B., Martineau P.,
+RA   Del Rio M.;
+RT   "Altered expression of cell proliferation-related and interferon-
+RT   stimulated genes in colon cancer cells resistant to SN38.";
+RL   Cancer Biol. Ther. 7:822-832(2008).
+**   PDF=Not_obtained
 //
 RX   PubMed=18787394; DOI=10.4161/cbt.7.11.6723;
 RA   Alvarez H., Koorstra J.B., Hong S.M., Boonstra J.J., Dinjens W.N.M.,
@@ -19244,6 +19253,14 @@ RT   production by the MDR1 transporter.";
 RL   FASEB J. 14:516-522(2000).
 **   PDF=Yes
 //
+RX   PubMed=15659535; DOI=10.1096/fj.03-1451fje;
+RA   Kolossov E., Lu Z., Drobinskaya I., Gassanov N., Duan Y., Sauer H.,
+RA   Manzke O., Bloch W., Bohlen H., Hescheler J., Fleischmann B.K.;
+RT   "Identification and characterization of embryonic stem cell-derived
+RT   pacemaker and atrial cardiomyocytes.";
+RL   FASEB J. 19:577-579(2005).
+**   PDF=Yes
+//
 RX   PubMed=16141364; DOI=10.1096/fj.04-3458fje;
 RA   Weksler B.B., Subileau E.A., Perriere N., Charneau P., Holloway K.,
 RA   Leveque M., Tricoire-Leignel H., Nicotra A., Bourdoulous S.,
@@ -25568,6 +25585,22 @@ RT   teratocarcinoma.";
 RL   Int. J. Cancer 26:269-280(1980).
 **   PDF=Yes
 //
+RX   PubMed=7239716; DOI=10.1002/ijc.2910260504;
+RA   Najfeld V., Fialkow P.J., Karande A., Nilsson K., Klein G.,
+RA   Penfold G.;
+RT   "Chromosome analyses of lymphoid cell lines derived from patients with
+RT   chronic lymphocytic leukemia.";
+RL   Int. J. Cancer 26:543-549(1980).
+**   PDF=Yes
+//
+RX   PubMed=6263808; DOI=10.1002/ijc.2910260505;
+RA   Karande A., Fialkow P.J., Nilsson K., Povey S., Klein G., Najfeld V.,
+RA   Penfold G.;
+RT   "Establishment of a lymphoid cell line from leukemic cells of a
+RT   patient with chronic lymphocytic leukemia.";
+RL   Int. J. Cancer 26:551-556(1980).
+**   PDF=Yes
+//
 RX   PubMed=7216541; DOI=10.1002/ijc.2910260605;
 RA   Schaadt M., Diehl V., Stein H., Fonatsch C., Kirchner H.H.;
 RT   "Two neoplastic cell lines with unique features derived from Hodgkin's
@@ -25891,6 +25924,13 @@ RA   Suarez H.;
 RT   "Both N-ras and c-myc are activated in the SHAC human stomach
 RT   fibrosarcoma cell line.";
 RL   Int. J. Cancer 41:732-737(1988).
+**   PDF=Yes
+//
+RX   PubMed=2836321; DOI=10.1002/ijc.2910410621;
+RA   Lewin N., Aman P., Mellstedt H., Zech L., Klein G.;
+RT   "Direct outgrowth of in vivo Epstein-Barr virus (EBV)-infected chronic
+RT   lymphocytic leukemia (CLL) cells into permanent lines.";
+RL   Int. J. Cancer 41:892-895(1988).
 **   PDF=Yes
 //
 RX   PubMed=3053466; DOI=10.1002/ijc.2910420518;
@@ -27040,6 +27080,15 @@ RT   "Differential gene-expression profiling in the leukemia cell lines
 RT   derived from indolent and aggressive phases of CD56+ T-cell large
 RT   granular lymphocyte leukemia.";
 RL   Int. J. Cancer 108:845-851(2004).
+**   PDF=Yes
+//
+RX   PubMed=15027118; DOI=10.1002/ijc.20032;
+RA   Candeil L., Gourdier I., Peyron D., Vezzio N., Copois V., Bibeau F.,
+RA   Orsetti B., Scheffer G.L., Ychou M., Khan Q.A., Pommier Y., Pau B.,
+RA   Martineau P., Del Rio M.;
+RT   "ABCG2 overexpression in colon cancer cells resistant to SN38 and in
+RT   irinotecan-treated metastases.";
+RL   Int. J. Cancer 109:848-854(2004).
 **   PDF=Yes
 //
 RX   PubMed=15069686; DOI=10.1002/ijc.20118;
@@ -38124,6 +38173,15 @@ RT   Waldenstrom Macroglobulinemia 1.";
 RL   Leuk. Lymphoma 54:387-396(2013).
 **   PDF=Yes
 //
+RX   PubMed=23297799; DOI=10.3109/10428194.2013.764418;
+RA   Lanemo Myhrinder A., Hellqvist E., Bergh A.-C., Jansson M.,
+RA   Nilsson K., Hultman P., Jonasson J., Buhl A.M., Bredo Pedersen L.,
+RA   Jurlander J., Klein E., Weit N., Herling M., Rosenquist R., Rosen A.;
+RT   "Molecular characterization of neoplastic and normal 'sister'
+RT   lymphoblastoid B-cell lines from chronic lymphocytic leukemia.";
+RL   Leuk. Lymphoma 54:1769-1779(2013).
+**   PDF=Yes
+//
 RX   PubMed=6296550; DOI=10.1016/0145-2126(82)90085-6;
 RA   Roos G., Adams A., Giovanella B., Lundgren E., Nilsson K.,
 RA   Nordenson I., Sundstrom C.;
@@ -42162,7 +42220,7 @@ RL   Nature 460:53-59(2009).
 //
 RX   PubMed=20016488; DOI=10.1038/nature08629;
 RA   Pleasance E.D., Stephens P.J., O'Meara S., McBride D.J., Meynert A.,
-RA   Jones D., Lin M.L., Beare D., Lau K.W., Greenman C., Varela I.,
+RA   Jones D., Lin M.-L., Beare D., Lau K.W., Greenman C., Varela I.,
 RA   Nik-Zainal S., Davies H.R., Ordonez G.R., Mudie L.J., Latimer C.,
 RA   Edkins S., Stebbings L., Chen L., Jia M., Leroy C., Marshall J.,
 RA   Menzies A., Butler A., Teague J.W., Mangion J., Sun Y.A.,
@@ -42172,6 +42230,21 @@ RA   Stratton M.R., Futreal P.A., Campbell P.J.;
 RT   "A small-cell lung cancer genome with complex signatures of tobacco
 RT   exposure.";
 RL   Nature 463:184-190(2010).
+**   PDF=Yes
+//
+RX   PubMed=20016485; DOI=10.1038/nature08658;
+RA   Pleasance E.D., Cheetham R.K., Stephens P.J., McBride D.J.,
+RA   Humphray S.J., Greenman C.D., Varela I., Lin M.-L., Ordonez G.R.,
+RA   Bignell G.R., Ye K., Alipaz J., Bauer M.J., Beare D., Butler A.,
+RA   Carter R.J., Chen L., Cox A.J., Edkins S., Kokko-Gonzales P.I.,
+RA   Gormley N.A., Grocock R.J., Haudenschild C.D., Hims M.M., James T.,
+RA   Jia M., Kingsbury Z., Leroy C., Marshall J., Menzies A., Mudie L.J.,
+RA   Ning Z., Royce T., Schulz-Trieglaff O.B., Spiridou A., Stebbings L.A.,
+RA   Szajkowski L., Teague J., Williamson D., Chin L., Ross M.T.,
+RA   Campbell P.J., Bentley D.R., Futreal P.A., Stratton M.R.;
+RT   "A comprehensive catalogue of somatic mutations from a human cancer
+RT   genome.";
+RL   Nature 463:191-196(2010).
 **   PDF=Yes
 //
 RX   PubMed=21346760; DOI=10.1038/nature09879;
@@ -43710,6 +43783,15 @@ RA   Ahmed D., Eide P.W., Eilertsen I.A., Danielsen S.A., Eknaes M.,
 RA   Hektoen M., Lind G.E., Lothe R.A.;
 RT   "Epigenetic and genetic features of 24 colon cancer cell lines.";
 RL   Oncogenesis 2:E71-E71(2013).
+**   PDF=Yes
+//
+RX   PubMed=22720208; DOI=10.4161/onci.1.1.18400;
+RA   Rosen A., Bergh A.-C., Gogok P., Evaldsson C., Myhrinder A.L.,
+RA   Hellqvist E., Rasul A., Bjorkholm M., Jansson M., Mansouri L., Liu A.,
+RA   Teh B.T., Rosenquist R., Klein E.;
+RT   "Lymphoblastoid cell line with B1 cell characteristics established
+RT   from a chronic lymphocytic leukemia clone by in vitro EBV infection.";
+RL   Oncoimmunology 1:18-27(2012).
 **   PDF=Yes
 //
 RX   PubMed=22741009; DOI=10.3892/ol.2012.557;
