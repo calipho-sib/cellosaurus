@@ -14,7 +14,7 @@ This is the release notes for version 11 of the cellosaurus.
    2xx species represented 
  2xxxx synonyms
  6xxxx cross-references to 41 ontologies, databases, catalogs, etc.
- 2xxxx references to 6648 publications
+ 2xxxx references to xxxx publications
   6xxx web links
 
 99% of the cell lines now have a "CA" (Category) line
