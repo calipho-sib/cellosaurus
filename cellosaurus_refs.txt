@@ -5,7 +5,7 @@
 **
 **   Description: References file for the Cellosaurus
 **   Version: 10.5
-**   Last update: XX-Nov-2014
+**   Last update: 06-Nov-2014
 **
 **   Format:
 **
