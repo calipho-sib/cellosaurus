@@ -4,8 +4,8 @@
 **   -----------------------------------------------------------------------
 **
 **   Description: References file for the Cellosaurus
-**   Version: 10.5
-**   Last update: 06-Nov-2014
+**   Version: 11.0
+**   Last update: 07-Nov-2014
 **
 **   Format:
 **
@@ -2324,6 +2324,14 @@ RA   Lakra W.S., Sivakumar N., Goswami M., Bhonde R.R.;
 RT   "Development of two cell culture systems from Asian seabass Lates
 RT   calcarifer (Bloch).";
 RL   Aquac. Res. 37:18-24(2006).
+**   PDF=Yes
+//
+RX   DOI=10.1111/j.1365-2109.2009.02253.x;
+RA   Wei Y.-B., Fan T.-J., Jiang G.-J., Sun A., Xu X.-H., Wang J.;
+RT   "Establishment of a novel fin cell line from brown-marbled grouper,
+RT   Epinephelus fuscoguttatus (Forsskal), and evaluation of its viral
+RT   susceptibility.";
+RL   Aquac. Res. 40:1523-1531(2009).
 **   PDF=Yes
 //
 RX   DOI=10.1016/0044-8486(94)00394-4;
@@ -15580,6 +15588,13 @@ RT   cells.";
 RL   Comp. Biochem. Physiol. 146A Suppl. 1:S69-S73(2007).
 **   PDF=Yes
 //
+RX   PubMed=18096421; DOI=10.1016/j.cbpa.2007.11.005;
+RA   Wen C.-M., Cheng Y.-H., Huang Y.-F., Wang C.-S.;
+RT   "Isolation and characterization of a neural progenitor cell line from
+RT   tilapia brain.";
+RL   Comp. Biochem. Physiol. 149A:167-180(2008).
+**   PDF=Yes
+//
 RX   PubMed=19026759; DOI=10.1016/j.cbpa.2008.10.018;
 RA   Servili A., Bufalino M.R., Nishikawa R., Sanchez de Melo I.,
 RA   Munoz-Cueto J.A., Lee L.E.J.;
@@ -16461,7 +16476,7 @@ RL   Cytotechnology 37:143-151(2001).
 **   PDF=Yes
 //
 RX   PubMed=20502962; DOI=10.1007/s10616-010-9281-1;
-RA   Fan T.J., Ren B.X., Geng X.F., Yu Q.T., Wang L.Y.;
+RA   Fan T.-J., Ren B.-X., Geng X.-F., Yu Q.-T., Wang L.-Y.;
 RT   "Establishment of a turbot fin cell line and its susceptibility to
 RT   turbot reddish body iridovirus.";
 RL   Cytotechnology 62:217-223(2010).
@@ -17823,6 +17838,13 @@ RA   Ciliberto G., Laufer R.;
 RT   "Leptin receptor-mediated regulation of cholinergic neurotransmitter
 RT   phenotype in cells of central nervous system origin.";
 RL   Eur. J. Biochem. 267:2939-2944(2000).
+**   PDF=Yes
+//
+RX   PubMed=954556; DOI=10.1016/0014-2964(76)90033-5;
+RA   Aubert C., Lagrange C., Rorsman H., Rosengren E.;
+RT   "Catechols in primary and metastatic human malignant melanoma cells in
+RT   monolayer culture.";
+RL   Eur. J. Cancer 12:441-445(1976).
 **   PDF=Yes
 //
 RX   PubMed=862644; DOI=10.1016/0014-2964(77)90213-4;
@@ -19463,6 +19485,14 @@ RT   kidney of half-smooth tongue sole (Cynoglossus semilaevis).";
 RL   Fish Physiol. Biochem. 38:1635-1643(2012).
 **   PDF=Yes
 //
+RX   PubMed=23076971; DOI=10.1007/s10695-012-9733-y;
+RA   Higaki S., Koyama Y., Shirai E., Yokota T., Fujioka Y., Sakai N.,
+RA   Takada T.;
+RT   "Establishment of testicular and ovarian cell lines from Honmoroko
+RT   (Gnathopogon caerulescens).";
+RL   Fish Physiol. Biochem. 39:701-711(2013).
+**   PDF=Yes
+//
 RX   PubMed=23532304; DOI=10.1007/s10695-013-9794-6;
 RA   Zhu D.M., Yang K., Wang W.M., Song W.;
 RT   "Establishment and characterization of a fin cell line from blunt
@@ -20387,6 +20417,13 @@ RA   Bronchain O.J., Stemple D.L., Dhorne-Pollet S., Pollet N.;
 RT   "Characterization of a novel Xenopus tropicalis cell line as a model
 RT   for in vitro studies.";
 RL   Genesis 50:316-324(2012).
+**   PDF=Yes
+//
+RX   PubMed=10596751; DOI=10.1016/S1050-3862(99)00015-7;
+RA   Bejar J., Hong Y., Alvarez M.C.;
+RT   "Towards obtaining ES cells in the marine fish species Sparus aurata;
+RT   multipassage maintenance, characterization and transfection.";
+RL   Genet. Anal. 15:125-129(1999).
 **   PDF=Yes
 //
 RX   PubMed=1150088;
@@ -25298,7 +25335,8 @@ RL   Int. J. Biochem. Cell Biol. 34:1017-1029(2002).
 **   PDF=Yes
 //
 RX   PubMed=21547062; DOI=10.7150/ijbs.7.452;
-RA   Zhang B., Wang X.-L., Sha Z.-X., Yang C., Liu S., Wang N., Chen S.-L.;
+RA   Zhang B., Wang X.-L., Sha Z.-X., Yang C.-G., Liu S.-S., Wang N.,
+RA   Chen S.-L.;
 RT   "Establishment and characterization of a testicular cell line from the
 RT   half-smooth tongue sole, Cynoglossus semilaevis.";
 RL   Int. J. Biol. Sci. 7:452-459(2011).
@@ -31746,6 +31784,13 @@ RT   line and its susceptibility to frog iridovirus.";
 RL   J. Fish Biol. 73:2058-2067(2008).
 **   PDF=Yes
 //
+RX   PubMed=20409167; DOI=10.1111/j.1095-8649.2010.02562.x;
+RA   Wei Y.-B., Fan T.-J., Jiang G.-J., Xu X.-H., Sun A.;
+RT   "A novel heart-cell line from brown-marbled grouper Epinephelus
+RT   fuscoguttatus and its susceptibility to iridovirus.";
+RL   J. Fish Biol. 76:1149-1158(2010).
+**   PDF=Yes
+//
 RX   PubMed=21039492; DOI=10.1111/j.1095-8649.2010.02749.x;
 RA   Ouyang Z.-L., Huang X.H., Huang E.Y., Huang Y.-H., Gong J., Sun J.-J.,
 RA   Qin Q.-W.;
@@ -31768,6 +31813,13 @@ RA   Rodriguez Saint-Jean S., Gonzalez C., Monras M., Romero A.,
 RA   Ballesteros N., Enriquez R., Perez-Prieto S.;
 RT   "Establishment and characterization of a new cell line (SSP-9) derived
 RT   from Atlantic salmon Salmo salar that expresses type I if n.";
+RL   J. Fish Biol. 0:0-0(2014).
+**   PDF=Yes
+//
+RX   PubMed=25359438; DOI=10.1111/jfb.12535;
+RA   Sun A., Wang T.Z., Wang N., Liu X.F., Sha Z.-X., Chen S.L.;
+RT   "Establishment and characterization of an ovarian cell line from
+RT   half-smooth tongue sole Cynoglossus semilaevis.";
 RL   J. Fish Biol. 0:0-0(2014).
 **   PDF=Yes
 //
@@ -34940,14 +34992,14 @@ RL   J. Nucl. Med. 45:1571-1576(2004).
 **   PDF=Yes
 //
 RX   DOI=10.1007/s11802-010-0162-1;
-RA   Wang X., Chen S., Sha Z., Fan T., Wang N.;
+RA   Wang X., Chen S.-L., Sha Z.-X., Fan T.-J., Wang N.;
 RT   "Establishment and characterization of a new cell line from the kidney
 RT   of spotted halibut Verasper variegates.";
 RL   J. Ocean Univ. China 9:162-168(2010).
 **   PDF=Yes
 //
 RX   DOI=10.1007/s11802-011-1778-5;
-RA   Sun A., Fan T., Yang X., Xu B., Xu X., Guo X.;
+RA   Sun A., Fan T.-J., Yang X.-X., Xu B., Xu X.-H., Guo X.-Y.;
 RT   "Establishment of a spleen cell line from large yellow croaker
 RT   Pseudosciaena crocea and its primitive application in foreign gene
 RT   transfection.";
@@ -39837,14 +39889,14 @@ RL   Methods Cell Sci. 22:115-124(2000).
 **   PDF=Yes
 //
 RX   PubMed=15801155; DOI=10.1007/s11022-004-9801-5;
-RA   Williams L.M., Crane M.S., Gudkovs N.;
+RA   Williams L.M., Crane M.S.J., Gudkovs N.;
 RT   "Development and characterisation of pilchard (Sardinops sagax
 RT   neopilchardus) cell lines derived from liver and heart tissues.";
 RL   Methods Cell Sci. 25:105-113(2003).
 **   PDF=Yes
 //
 RX   PubMed=15801161; DOI=10.1007/s11022-004-3804-0;
-RA   Zhao Z., Montgomery-Brock D., Lee C.-S., Lu Y.;
+RA   Zhao Z.-S., Montgomery-Brock D., Lee C.-S., Lu Y.-N.;
 RT   "Establishment, characterization and viral susceptibility of 3 new
 RT   cell lines from snakehead, Channa striatus (Blooch).";
 RL   Methods Cell Sci. 25:155-166(2003).
@@ -46707,6 +46759,14 @@ RT   neuroendocrine cells reveals its gene targets and DNA binding sites.";
 RL   Proc. Natl. Acad. Sci. U.S.A. 101:5559-5564(2004).
 **   PDF=Yes
 //
+RX   PubMed=15141090; DOI=10.1073/pnas.0308668101;
+RA   Hong Y.-H., Liu T.-M., Zhao H.-B., Xu H.-Y., Wang W.-J., Liu R.,
+RA   Chen T.-S., Deng J.-R., Gui J.-F.;
+RT   "Establishment of a normal medakafish spermatogonial cell line capable
+RT   of sperm production in vitro.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 101:8011-8016(2004).
+**   PDF=Yes
+//
 RX   PubMed=15939869; DOI=10.1073/pnas.0503596102;
 RA   Zhong J., Gastaminza P., Cheng G., Kapadia S., Kato T., Burton D.R.,
 RA   Wieland S.F., Uprichard S.L., Wakita T., Chisari F.V.;
@@ -48172,6 +48232,14 @@ RT   "A human genome diversity cell line panel.";
 RL   Science 296:261-262(2002).
 **   PDF=Yes
 //
+RX   PubMed=12077424; DOI=10.1126/science.1073162;
+RA   Feng L.-X., Chen Y., Dettin L., Pera R.A.R., Herr J.C., Goldberg E.,
+RA   Dym M.;
+RT   "Generation and in vitro differentiation of a spermatogonial cell
+RT   line.";
+RL   Science 297:392-395(2002).
+**   PDF=Yes
+//
 RX   PubMed=14564014; DOI=10.1126/science.1089591;
 RA   Yu X., Yu Y., Liu B., Luo K., Kong W., Mao P., Yu X.-F.;
 RT   "Induction of APOBEC3G ubiquitination and degradation by an HIV-1
@@ -49381,6 +49449,13 @@ RX   DOI=10.1577/1548-8659(1991)120<0528:TCLFWS>2.3.CO;2;
 RA   Hedrick R.P., McDowell T.S., Rosemark R., Aronstein D., Lannan C.N.;
 RT   "Two cell lines from white sturgeon.";
 RL   Trans. Am. Fish. Soc. 120:528-534(1991).
+**   PDF=Yes
+//
+RX   PubMed=12113460; DOI=10.1023/A:1015678416921;
+RA   Bejar J., Hong Y., Alvarez M.C.;
+RT   "An ES-like cell line from the marine fish Sparus aurata:
+RT   characterization and chimaera production.";
+RL   Transgenic Res. 11:279-289(2002).
 **   PDF=Yes
 //
 RX   PubMed=22346343; DOI=10.4137/TOG.S8830;
