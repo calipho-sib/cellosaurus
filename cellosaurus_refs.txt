@@ -25306,7 +25306,7 @@ RX   PubMed=25130606; DOI=10.1016/j.intimp.2014.08.002;
 RA   Chanput W., Mes J.J., Wichers H.J.;
 RT   "THP-1 cell line: an in vitro cell model for immune modulation
 RT   approach.";
-RL   Int. Immunopharmacol. 0:0-0(2014).
+RL   Int. Immunopharmacol. 23:37-45(2014).
 **   PDF=Yes
 //
 RX   PubMed=17705808; DOI=10.1111/j.1365-2605.2007.00802.x;

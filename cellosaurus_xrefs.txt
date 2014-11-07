@@ -58,7 +58,7 @@ Abbrev: CCRID
 Name  : Chinese Cell Resource Information Database
 Server: http://cellresource.cn/
 Db_URL: None
-Cat   : Cell line collections
+Cat   : Cell line databases/resources
 //
 Abbrev: CGH-DB
 Name  : CGH Data Base
@@ -312,7 +312,7 @@ Server: http://www.genenames.org
 Db_URL: http://www.genenames.org/cgi-bin/gene_symbol_report?hgnc_id=%s
 //
 Abbrev: MGI
-Name  : Mouse Genome Database (MGD) from Mouse Genome Informatics (MGI)
+Name  : Mouse Genome Database (MGD) from Mouse Genome Informatics
 Server: http://www.informatics.jax.org
 Db_URL: http://www.informatics.jax.org/marker/%s
 //

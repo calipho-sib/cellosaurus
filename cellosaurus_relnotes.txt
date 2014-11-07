@@ -8,7 +8,7 @@
 
 This is the release notes for version 11 of the cellosaurus.
 
-1) Statistics
+1) Statistics and general news
 
  33420 cell lines (24876 human, 4538 mouse, 1112 rat)
    255 species represented 
@@ -20,6 +20,7 @@ This is the release notes for version 11 of the cellosaurus.
 99% of the cell lines now have a "CA" (Category) line
 70% of the cell lines now have a "SX" (Sex) line
 
+All human cancer cell lines now contains a "DI" (Disease) line.
 
 2) Changes in the DR lines
 
