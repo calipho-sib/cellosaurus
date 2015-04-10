@@ -4,8 +4,8 @@
 ----------------------------------------------------------------------------
 
  Description: Deleted accession numbers for the Cellosaurus
- Version: 11.0
- Last update: 07-Nov-2014
+ Version: 12.0
+ Last update: 10-Apr-2015
 
 ----------------------------------------------------------------------------
 
@@ -41,6 +41,7 @@ CVCL_1446  Data merged in: CVCL_8822
 CVCL_1447  Data merged in: CVCL_8823
 CVCL_1449  Data merged in: CVCL_8824
 CVCL_1663  Data merged in: CVCL_0582
+CVCL_1696  Data merged in: CVCL_0041
 CVCL_1772  Data merged in: CVCL_3605
 CVCL_1777  Data merged in: CVCL_1911
 CVCL_2026  Data merged in: CVCL_2027
@@ -48,6 +49,7 @@ CVCL_2052  Data merged in: CVCL_A472
 CVCL_2168  Data merged in: CVCL_3848
 CVCL_2243  Data merged in: CVCL_4032
 CVCL_2531  Data deleted
+CVCL_2790  Data merged in: CVCL_1387
 CVCL_2808  Data merged in: CVCL_3827
 CVCL_2900  Data merged in: CVCL_1905
 CVCL_2978  Data merged in: CVCL_1330
@@ -58,6 +60,7 @@ CVCL_3474  Data deleted
 CVCL_3740  Data merged in: CVCL_0618
 CVCL_3952  Data merged in: CVCL_0439
 CVCL_3973  Data merged in: CVCL_1565
+CVCL_4060  Data merged in: CVCL_0194
 CVCL_4066  Data merged in: CVCL_0473
 CVCL_4070  Data merged in: CVCL_3234
 CVCL_4071  Data merged in: CVCL_3235
@@ -68,6 +71,8 @@ CVCL_4465  Data deleted
 CVCL_4505  Data merged in: CVCL_3359
 CVCL_4526  Data merged in: CVCL_0298
 CVCL_4725  Data merged in: CVCL_7077
+CVCL_4763  Data deleted
+CVCL_4780  Data deleted
 CVCL_4789  Data merged in: CVCL_4125
 CVCL_4949  Data merged in: CVCL_4947
 CVCL_4950  Data merged in: CVCL_4948
@@ -78,6 +83,9 @@ CVCL_5414  Data merged in: CVCL_8787
 CVCL_5590  Data merged in: CVCL_5423
 CVCL_5618  Data deleted
 CVCL_5778  Data deleted
+CVCL_5915  Data merged in: CVCL_1658
+CVCL_5918  Data merged in: CVCL_1659
+CVCL_5919  Data merged in: CVCL_8752
 CVCL_5970  Data deleted
 CVCL_6055  Data deleted
 CVCL_6475  Data merged in: CVCL_0467
@@ -88,6 +96,7 @@ CVCL_6887  Data merged in: CVCL_6888
 CVCL_7089  Data merged in: CVCL_0483
 CVCL_7211  Data merged in: CVCL_N513
 CVCL_7243  Data merged in: CVCL_3488
+CVCL_7258  Data merged in: CVCL_2013
 CVCL_7352  Data merged in: CVCL_2710
 CVCL_7353  Data merged in: CVCL_0014
 CVCL_7596  Data merged in: CVCL_7565
@@ -95,6 +104,7 @@ CVCL_7597  Data merged in: CVCL_7566
 CVCL_7653  Data merged in: CVCL_F107
 CVCL_7655  Data merged in: CVCL_7620
 CVCL_7656  Data merged in: CVCL_7553
+CVCL_7682  Data merged in: CVCL_4512
 CVCL_8174  Data merged in: CVCL_8175
 CVCL_8219  Data merged in: CVCL_6236
 CVCL_8220  Data merged in: CVCL_6237
@@ -122,15 +132,21 @@ CVCL_9821  Data merged in: CVCL_1360
 CVCL_A067  Data merged in: CVCL_6912
 CVCL_A196  Data merged in: CVCL_C291
 CVCL_A437  Data merged in: CVCL_5413
+CVCL_A461  Data merged in: CVCL_L415
 CVCL_B054  Data merged in: CVCL_3728
 CVCL_B387  Data merged in: CVCL_4688
 CVCL_B390  Data merged in: CVCL_3985
+CVCL_B393  Data merged in: CVCL_9722
 CVCL_B400  Data merged in: CVCL_0534
+CVCL_B520  Data merged in: CVCL_8999
+CVCL_B521  Data merged in: CVCL_9000
+CVCL_C336  Data merged in: CVCL_B523
 CVCL_C512  Data merged in: CVCL_C513
 CVCL_C608  Data merged in: CVCL_4633
 CVCL_D190  Data merged in: CVCL_1384
 CVCL_D204  Data merged in: CVCL_2787
 CVCL_D258  Data merged in: CVCL_U511
+CVCL_D552  Data merged in: CVCL_E301
 CVCL_D553  Data merged in: CVCL_E302
 CVCL_D685  Data merged in: CVCL_0581
 CVCL_D867  Data merged in: CVCL_2448
@@ -147,14 +163,30 @@ CVCL_H597  Data merged in: CVCL_1633
 CVCL_H599  Data merged in: CVCL_1638
 CVCL_H600  Data merged in: CVCL_1639
 CVCL_H601  Data merged in: CVCL_1635
+CVCL_H609  Data merged in: CVCL_F952
 CVCL_H692  Data merged in: CVCL_H136
 CVCL_J529  Data deleted
 CVCL_J537  Data deleted
 CVCL_K238  Data merged in: CVCL_0391
+CVCL_L302  Data merged in: CVCL_3568
+CVCL_L304  Data merged in: CVCL_3569
+CVCL_L416  Data merged in: CVCL_5916
+CVCL_L417  Data merged in: CVCL_5917
 CVCL_L856  Data merged in: CVCL_0042
+CVCL_M054  Data merged in: CVCL_0146
+CVCL_M055  Data merged in: CVCL_3570
 CVCL_M199  Data merged in: CVCL_8102
 CVCL_S332  Data merged in: CVCL_1649
 CVCL_S829  Data merged in: CVCL_2466
+CVCL_T889  Data merged in: CVCL_T945
 CVCL_U683  Data merged in: CVCL_F599
 CVCL_W042  Data merged in: CVCL_2869
 CVCL_X223  Data merged in: CVCL_4150
+CVCL_Y130  Data merged in: CVCL_B374
+CVCL_Y131  Data merged in: CVCL_4719
+CVCL_Y199  Data merged in: CVCL_7020
+CVCL_Y200  Data merged in: CVCL_7016
+CVCL_Y201  Data merged in: CVCL_7005
+CVCL_Y207  Data merged in: CVCL_7017
+CVCL_Y792  Date merged in: CVCL_C878
+

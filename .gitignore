@@ -1,0 +1,10 @@
+*.pdf
+left_*
+old_stuff/
+various/
+pdf/
+pdfbox-app-1.8.5.jar
+cello_ref_checker.pl
+131018_cellosaurus.pptx
+todo_cello
+checkcello.bat

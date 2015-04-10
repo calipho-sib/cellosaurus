@@ -6,48 +6,63 @@
    \_____\___|_|_|\___/|___/\__,_|\__,_|_|   \__,_|___/
 
 
-This is the release notes for version 11 of the cellosaurus.
+This is the release notes for cellosaurus version 12 of April 2015.
 
-1) Statistics and general news
+1) Statistics
 
- 33420 cell lines (24876 human, 4538 mouse, 1112 rat)
-   255 species represented 
- 22249 synonyms
- 61769 cross-references to 42 ontologies, databases, catalogs, etc.
- 24992 references to 6921 publications
-  6336 web links
-
-99% of the cell lines now have a "CA" (Category) line
-70% of the cell lines now have a "SX" (Sex) line
-
-All human cancer cell lines now contains a "DI" (Disease) line.
+ 36386 cell lines (26474 human, 4760 mouse, 1191 rat)
+   421 species represented 
+ 25162 synonyms
+ 64237 cross-references to 43 ontologies, databases, catalogs, etc.
+ 29585 references to 7169 publications
+  6801 web links
 
 2) Changes in the DR lines
 
-2a) Cross-references to the Taiwan Bioresource Collection and Research 
-Center cell collection have been added.
-The abbreviation used for this resources is "BCRC".
+2a) Cross-references to the Drosophila Genomics Resource Center have been added.
+The abbreviation used for this resources is "DGRC".
 
 Example:
-DR   BCRC; 60167
+DR   DGRC; 177
 
-2b) Cross-references to ENCODE have been added.
-The abbreviation used for this resources is "ENCODE".
+2b) Cross-references to NISES Cell Database have been added.
+The abbreviation used for this resources is "NISES".
 
 Example:
-DR   ENCODE; ENCBS100LYC
+DR   NISES; SK0002
 
+2c) The cross-references to UKSCB have been replaced by the corresponding 
+information in the new CC Registration topic (see 3a).
+
+Example:
+DR   UKSCB; R-08-022
+is now:
+CC   Registration: UK Stem Cell Bank; R-08-022.
 
 3) Changes in the CC lines
 
-Introduction of a new topic: "Derived from metastatic site"
+3a) Introduction of a new topic: "Registration"
+
+Examples:
+CC   Registration: International Depositary Authority, China Center for Type Culture Collection (CCTCC); GDC0198.
+CC   Registration: Swiss research registry; BAG-hES-GEW-0002.
+CC   Registration: French Agence de la Biomedecine; FE06-024-L1.
+
+3b) Deletion of the "NIH funded research status" topic. The corresponding 
+data is now stored in the new "Registration" topic.
 
 Example:
-CC   Derived from metastatic site: peritoneum.
+CC   NIH funded research status: approved; NIH approval number NIHhESC-10-0002.
+is now:
+CC   Registration: NIH Human Embryonic Stem Cell Registry; NIHhESC-10-0082.
 
+3c) The "Transfected with" topic now includes references to FlyBase.
+
+Example:
+CC   Transfected with: FlyBase; FBgn0013311; P\T.
 
 4) Change in the CA lines
 
-The "Embryonic cell line" category was obsoleted.
+The "Recombinant protein production insect cell line" category was obsoleted.
 
 ----------------------------------------------------------------------------
