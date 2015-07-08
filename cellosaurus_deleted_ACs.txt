@@ -4,8 +4,8 @@
 ----------------------------------------------------------------------------
 
  Description: Deleted accession numbers for the Cellosaurus
- Version: 12.0
- Last update: 10-Apr-2015
+ Version: 13.0
+ Last update: 08-July-2015
 
 ----------------------------------------------------------------------------
 
@@ -82,10 +82,13 @@ CVCL_5214  Data merged in: CVCL_0278
 CVCL_5414  Data merged in: CVCL_8787
 CVCL_5590  Data merged in: CVCL_5423
 CVCL_5618  Data deleted
+CVCL_5684  Data merged in: CVCL_1949
 CVCL_5778  Data deleted
+CVCL_5788  Data merged in: CVCL_J758
 CVCL_5915  Data merged in: CVCL_1658
 CVCL_5918  Data merged in: CVCL_1659
 CVCL_5919  Data merged in: CVCL_8752
+CVCL_5938  Data merged in: CVCL_1859
 CVCL_5970  Data deleted
 CVCL_6055  Data deleted
 CVCL_6475  Data merged in: CVCL_0467
@@ -155,7 +158,9 @@ CVCL_E511  Data merged in: CVCL_3714
 CVCL_F171  Data merged in: CVCL_C878
 CVCL_F175  Data merged in: CVCL_C879
 CVCL_F230  Data merged in: CVCL_1691
+CVCL_F296  Data merged in: CVCL_E870
 CVCL_F482  Data merged in: CVCL_2779
+CVCL_F515  Data merged in: CVCL_4312
 CVCL_F894  Data deleted
 CVCL_H196  Data merged in: CVCL_8747
 CVCL_H249  Data merged in: CVCL_0023
@@ -180,6 +185,7 @@ CVCL_S332  Data merged in: CVCL_1649
 CVCL_S829  Data merged in: CVCL_2466
 CVCL_T889  Data merged in: CVCL_T945
 CVCL_U683  Data merged in: CVCL_F599
+CVCL_V561  Data mergen in: CVCL_3024
 CVCL_W042  Data merged in: CVCL_2869
 CVCL_X223  Data merged in: CVCL_4150
 CVCL_Y130  Data merged in: CVCL_B374

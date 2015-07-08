@@ -6,63 +6,60 @@
    \_____\___|_|_|\___/|___/\__,_|\__,_|_|   \__,_|___/
 
 
-This is the release notes for cellosaurus version 12 of April 2015.
+This is the release notes for cellosaurus version 13 of July-2015.
 
 1) Statistics
 
- 36386 cell lines (26474 human, 4760 mouse, 1191 rat)
-   421 species represented 
- 25162 synonyms
- 64237 cross-references to 43 ontologies, databases, catalogs, etc.
- 29585 references to 7169 publications
-  6801 web links
+ 39316 cell lines (28956 human, 4866 mouse, 1229 rat)
+   435 species represented 
+ 26814 synonyms
+ 72328 cross-references to 46 ontologies, databases, catalogs, etc.
+ 32332 references to 7562 distinct publications
+  7240 web links
 
 2) Changes in the DR lines
 
-2a) Cross-references to the Drosophila Genomics Resource Center have been added.
-The abbreviation used for this resources is "DGRC".
+2a) ChEMBL
+
+Cross-references to ChEMBL have been modified due to the introduction
+of "Cells" as a ChEMBL object distinct from "Targets". As cell lines are 
+represented in ChEMBL both as "Cells" and as "Targets" we have created
+distinct cross-references for both objects. Accordingly the abbreviations
+used for this resource are "ChEMBL-Cells" and "ChEMBL-Targets."
 
 Example:
-DR   DGRC; 177
 
-2b) Cross-references to NISES Cell Database have been added.
-The abbreviation used for this resources is "NISES".
-
-Example:
-DR   NISES; SK0002
-
-2c) The cross-references to UKSCB have been replaced by the corresponding 
-information in the new CC Registration topic (see 3a).
-
-Example:
-DR   UKSCB; R-08-022
+what was:
+DR   CHEMBL; CHEMBL385
 is now:
-CC   Registration: UK Stem Cell Bank; R-08-022.
+DR   ChEMBL-Targets; CHEMBL385
 
-3) Changes in the CC lines
+and the new cell cross-references are now in the format:
 
-3a) Introduction of a new topic: "Registration"
+DR   ChEMBL-Cells; CHEMBL3308378
 
-Examples:
-CC   Registration: International Depositary Authority, China Center for Type Culture Collection (CCTCC); GDC0198.
-CC   Registration: Swiss research registry; BAG-hES-GEW-0002.
-CC   Registration: French Agence de la Biomedecine; FE06-024-L1.
+2b) BioSample
 
-3b) Deletion of the "NIH funded research status" topic. The corresponding 
-data is now stored in the new "Registration" topic.
+Cross-references to the NCNI BioSample database have been added.
+The abbreviation used for this resource is "BioSample".
 
 Example:
-CC   NIH funded research status: approved; NIH approval number NIHhESC-10-0002.
-is now:
-CC   Registration: NIH Human Embryonic Stem Cell Registry; NIHhESC-10-0082.
+DR   BioSample; SAMN03473359
 
-3c) The "Transfected with" topic now includes references to FlyBase.
+2c) Ximbio
+
+Cross-references to the Ximbio reagents portal have been added.
+The abbreviation used for this resource is "Ximbio".
 
 Example:
-CC   Transfected with: FlyBase; FBgn0013311; P\T.
+DR   Ximbio; 151014
 
-4) Change in the CA lines
+2d) European Human Pluripotent Stem Cell Registry
 
-The "Recombinant protein production insect cell line" category was obsoleted.
+The European Human Pluripotent Stem Cell Registry resource was previously
+abbreviated "hESCreg" and is now abbreviated as "hPSCreg".
+
+Example:
+DR   hPSCreg; ESi035-A
 
 ----------------------------------------------------------------------------

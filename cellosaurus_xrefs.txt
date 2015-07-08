@@ -5,12 +5,59 @@
 
  Description: How to establish cross-references to the resources listed in
               the Cellosaurus
- Version: 12.0
- Last update: 10-Apr-2015
+ Version: 13.0
+ Last update: 08-July-2015
 
 ----------------------------------------------------------------------------
 
+This document describes how you can establish web links (cross-references)
+to the various resources that are listed in the Cellosaurus.
+
+Important notes
+
+a) In this document "%s" stands for the identifier that should be parsed
+out of the relevant DR, RX, CC, DI or OX line. For example, if you want to
+link out from the following DR line:
+
+ DR   ATCC; HTB-30
+
+you should use the information on the "Db_URL" line of the ATCC entry in
+this document which currently indicates:
+
+ http://www.atcc.org/Products/All/%s.aspx
+
+thus your corresponding web link should go to:
+
+ http://www.atcc.org/Products/All/HTB-30.aspx
+
+b) For historical and reference purposes we keep in the Cellosaurus cross-
+references to catalog entries corresponding to cell lines that are no longer
+distributed by a specific cell line collection. We indicate this fact by
+using the "CC" line topic "Discontinued". Example:
+
+ CC   Discontinued: DSMZ; ACC-506; true.
+
+In this example when you parse out the corresponding DR line:
+
+ DR   DSMZ; ACC-506
+
+you should not establish a web link to that particular cross-reference.
+
+c) If you want to do the reverse of what is described in this document, ie
+establishing web links to the Cellosaurus, you can do so by using the
+following Db_URL:
+
+ http://web.expasy.org/cellosaurus/%s
+
+where %s is the accession number of the cell line. Example:
+
+ http://web.expasy.org/cellosaurus/CVCL_0033
+
+---------------------------------------------------------------------
+
 1) DR lines
+
+Format: DR   Resource_name; %s
 
 Abbrev: ATCC
 Name  : American Type Culture Collection
@@ -29,6 +76,12 @@ Name  : Banco de Celulas do Rio de Janeiro
 Server: http://www.bcrj.hucff.ufrj.br/
 Db_URL: http://www.nce.ufrj.br/bcrj/Joomla_busca1.asp?bcrj=%s
 Cat   : Cell line collections
+//
+Abbrev: BioSample
+Name  : BioSample database
+Server: http://www.ncbi.nlm.nih.gov/biosample
+Db_URL: http://www.ncbi.nlm.nih.gov/biosample/?term=%s
+Cat   : Other resources
 //
 Abbrev: BTO
 Name  : Brenda Tissue Ontology
@@ -69,8 +122,14 @@ Db_URL: http://www.cghtmd.jp/CGHDatabase/mapViewer?hid=%s&aid=%t&lang=en
         Example: for "DR   CGH-DB; 9029-4": s%=9029, t%=4
 Cat   : Cell line databases/resources
 //
-Abbrev: CHEMBL
-Name  : CHEMBL database of bioactive drug-like small molecules
+Abbrev: ChEMBL-Cells
+Name  : ChEMBL database of bioactive drug-like small molecules - Cell lines section
+Server: https://www.ebi.ac.uk/chembldb
+Db_URL: https://www.ebi.ac.uk/chembldb/cell/inspect/%s
+Cat   : Other resources
+//
+Abbrev: ChEMBL-Targets
+Name  : ChEMBL database of bioactive drug-like small molecules - Targets section
 Server: https://www.ebi.ac.uk/chembldb
 Db_URL: https://www.ebi.ac.uk/chembldb/target/inspect/%s
 Cat   : Other resources
@@ -106,7 +165,7 @@ Db_URL: http://cancer.sanger.ac.uk/cell_lines/sample/overview?id=%s
 Cat   : Cell line databases/resources
 //
 Abbrev: dbMHC
-Name  : dbMHC database 
+Name  : dbMHC database
 Server: http://www.ncbi.nlm.nih.gov/gv/mhc/main.cgi?cmd=init
 Db_URL: http://www.ncbi.nlm.nih.gov/projects/gv/mhc/xslcgi.fcgi?cmd=subj&ID=%s
 Cat   : Cell line databases/resources
@@ -147,10 +206,10 @@ Server: http://www.ebi.ac.uk/ipd/estdab/
 Db_URL: http://www.ebi.ac.uk/cgi-bin/ipd/estdab/print_cell.cgi?%s
 Cat   : Cell line databases/resources
 //
-Abbrev: hESCreg
-Name  : European Human Pluripotent Stem Cell Registry
-Server: http://www.hescreg.eu/
-Db_URL: http://www.hescreg.eu/cells/getData?id=%s
+Abbrev: hPSCreg
+Name  : Human Pluripotent Stem Cell Registry
+Server: http://hpscreg.eu/
+Db_URL: http://hpscreg.eu/cell-line/%s
 Cat   : Cell line databases/resources
 //
 Abbrev: ICLC
@@ -168,7 +227,7 @@ Cat   : Cell line collections
 Abbrev: IGRhCellID
 Name  : Integrated Genomic Resources of human Cell Lines for Identification
 Server: http://igrcid.ibms.sinica.edu.tw/cgi-bin/index.cgi
-Db_URL: http://igrcid.ibms.sinica.edu.tw/cgi-bin/cell_line_view.cgi?cl_name=%S
+Db_URL: http://igrcid.ibms.sinica.edu.tw/cgi-bin/cell_line_view.cgi?cl_name=%s
 Cat   : Cell line databases/resources
 //
 Abbrev: IHW
@@ -276,6 +335,13 @@ Db_URL: http://www2.idac.tohoku.ac.jp/dep/ccr/TKGdate/TKGvo10%n/%s.html
         Note: n% is the second digit of the cell line AC and %s is the cell line AC without the 'TKG'
         Example: for "DR   TKG; TKG 0377": n%=3 s%=0377
 Cat   : Cell line collections
+//
+
+Abbrev: Ximbio
+Name  : Ximbio reagents online portal
+Server: https://ximb.io/
+Db_URL: https://ximb.io/reagent/%s
+Cat   : Other resources
 //
 
 ---------------------------------------------------------------------
