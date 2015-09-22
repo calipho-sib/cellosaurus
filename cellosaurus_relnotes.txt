@@ -6,60 +6,37 @@
    \_____\___|_|_|\___/|___/\__,_|\__,_|_|   \__,_|___/
 
 
-This is the release notes for cellosaurus version 13 of July-2015.
+This is the release notes for cellosaurus version 14 of September 2015.
 
 1) Statistics
 
- 39316 cell lines (28956 human, 4866 mouse, 1229 rat)
-   435 species represented 
- 26814 synonyms
- 72328 cross-references to 46 ontologies, databases, catalogs, etc.
- 32332 references to 7562 distinct publications
-  7240 web links
+ 46767 cell lines (35648 human, 4999 mouse, 1251 rat)
+   508 species represented 
+ 27955 synonyms
+ 91079 cross-references to 46 ontologies, databases, catalogs, etc.
+ 33790 references to 8730 distinct publications
+  7425 web links
 
 2) Changes in the DR lines
 
-2a) ChEMBL
+2a) GDSC
 
-Cross-references to ChEMBL have been modified due to the introduction
-of "Cells" as a ChEMBL object distinct from "Targets". As cell lines are 
-represented in ChEMBL both as "Cells" and as "Targets" we have created
-distinct cross-references for both objects. Accordingly the abbreviations
-used for this resource are "ChEMBL-Cells" and "ChEMBL-Targets."
+Cross-references to the Genomics of Drug Sensitivity in Cancer Project have
+been added. The abbreviation used for this resource is "GDSC".
 
 Example:
+DR   GDSC; 2667
 
-what was:
-DR   CHEMBL; CHEMBL385
-is now:
-DR   ChEMBL-Targets; CHEMBL385
 
-and the new cell cross-references are now in the format:
+3) Changes in the CC lines
 
-DR   ChEMBL-Cells; CHEMBL3308378
-
-2b) BioSample
-
-Cross-references to the NCNI BioSample database have been added.
-The abbreviation used for this resource is "BioSample".
+Introduction of a new topic: "Monoclonal antibody target"
 
 Example:
-DR   BioSample; SAMN03473359
+CC   Monoclonal antibody target: UniProtKB; Q03763; Bovine DSG1.
 
-2c) Ximbio
-
-Cross-references to the Ximbio reagents portal have been added.
-The abbreviation used for this resource is "Ximbio".
-
-Example:
-DR   Ximbio; 151014
-
-2d) European Human Pluripotent Stem Cell Registry
-
-The European Human Pluripotent Stem Cell Registry resource was previously
-abbreviated "hESCreg" and is now abbreviated as "hPSCreg".
-
-Example:
-DR   hPSCreg; ESi035-A
+For the time being this topic is restricted to describe known protein targets
+of monoclonal antibodies produced by an hybridoma.
 
 ----------------------------------------------------------------------------
+

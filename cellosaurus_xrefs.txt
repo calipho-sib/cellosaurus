@@ -5,8 +5,8 @@
 
  Description: How to establish cross-references to the resources listed in
               the Cellosaurus
- Version: 13.0
- Last update: 08-July-2015
+ Version: 14.0
+ Last update: 22-September-2015
 
 ----------------------------------------------------------------------------
 
@@ -136,8 +136,8 @@ Cat   : Other resources
 //
 Abbrev: CLDB
 Name  : Cell Line Data Base
-Server: http://bioinformatics.istge.it/cldb/
-Db_URL: http://bioinformatics.istge.it/cldb/%s.html
+Server: http://bioinformatics.hsanmartino.it/cldb/
+Db_URL: http://bioinformatics.hsanmartino.it/cldb/%s.html
 Cat   : Cell line databases/resources
 //
 Abbrev: CLO
@@ -204,6 +204,12 @@ Abbrev: ESTDAB
 Name  : European Searchable Tumour Line Database
 Server: http://www.ebi.ac.uk/ipd/estdab/
 Db_URL: http://www.ebi.ac.uk/cgi-bin/ipd/estdab/print_cell.cgi?%s
+Cat   : Cell line databases/resources
+//
+Abbrev: GDSC
+Name  : Genomics of Drug Sensitivity in Cancer Project
+Server: http://www.cancerrxgene.org/
+Db_URL: http://www.cancerrxgene.org/translation/CellLine/%s
 Cat   : Cell line databases/resources
 //
 Abbrev: hPSCreg
@@ -281,7 +287,7 @@ Cat   : Cell line databases/resources
 Abbrev: MCCL
 Name  : Molecular Connection cell line ontology
 Server: http://www.molecularconnections.com/home/ontology
-Db_URL: http://purl.bioontology.org/ontology/MCCL/%s
+Db_URL: None
 Cat   : Ontologies
 //
 Abbrev: MeSH
@@ -336,7 +342,6 @@ Db_URL: http://www2.idac.tohoku.ac.jp/dep/ccr/TKGdate/TKGvo10%n/%s.html
         Example: for "DR   TKG; TKG 0377": n%=3 s%=0377
 Cat   : Cell line collections
 //
-
 Abbrev: Ximbio
 Name  : Ximbio reagents online portal
 Server: https://ximb.io/
@@ -374,11 +379,18 @@ Db_URL: http://www.ncbi.nlm.nih.gov/pubmed?term=%s
 
 ---------------------------------------------------------------------
 
-3) CC lines of the type "Transfected with:"
+3) CC lines
 
+Topic:  Knockout cell
+Format: CC   Knockout cell: Method=Method_name; Db_name; %s; Gene/protein_name.
+
+Topic:  Monoclonal antibody target
+Format: CC   Monoclonal antibody target: Db_name; %s; Gene/protein_name.
+
+Topic:  Transfected with
 Format: CC   Transfected with: Db_name; %s; Gene/protein_name.
-Where : Db_name is one of: FlyBase¦HGNC¦MGI¦RGD¦UniProtKB
 
+Where : Db_name is one of: FlyBase¦HGNC¦MGI¦RGD¦UniProtKB
 
 Abbrev: FlyBase
 Name  : Drosophila genome database

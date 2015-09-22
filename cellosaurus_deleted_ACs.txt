@@ -4,8 +4,8 @@
 ----------------------------------------------------------------------------
 
  Description: Deleted accession numbers for the Cellosaurus
- Version: 13.0
- Last update: 08-July-2015
+ Version: 14.0
+ Last update: 22-September-2015
 
 ----------------------------------------------------------------------------
 
@@ -57,7 +57,9 @@ CVCL_3031  Data merged in: CVCL_1429
 CVCL_3071  Data merged in: CVCL_8738
 CVCL_3372  Data merged in: CVCL_8956
 CVCL_3474  Data deleted
+CVCL_3654  Data merged in: CVCL_6573
 CVCL_3740  Data merged in: CVCL_0618
+CVCL_3879  Data merged in: CVCL_5651
 CVCL_3952  Data merged in: CVCL_0439
 CVCL_3973  Data merged in: CVCL_1565
 CVCL_4060  Data merged in: CVCL_0194
@@ -91,6 +93,8 @@ CVCL_5919  Data merged in: CVCL_8752
 CVCL_5938  Data merged in: CVCL_1859
 CVCL_5970  Data deleted
 CVCL_6055  Data deleted
+CVCL_6062  Data merged in: CVCL_5652
+CVCL_6350  Data merged in: CVCL_6974
 CVCL_6475  Data merged in: CVCL_0467
 CVCL_6477  Data merged in: CVCL_A427
 CVCL_6714  Data merged in: CVCL_0485
@@ -136,6 +140,7 @@ CVCL_A067  Data merged in: CVCL_6912
 CVCL_A196  Data merged in: CVCL_C291
 CVCL_A437  Data merged in: CVCL_5413
 CVCL_A461  Data merged in: CVCL_L415
+CVCL_A657  Data merged in: CVCL_1434
 CVCL_B054  Data merged in: CVCL_3728
 CVCL_B387  Data merged in: CVCL_4688
 CVCL_B390  Data merged in: CVCL_3985
@@ -185,7 +190,13 @@ CVCL_S332  Data merged in: CVCL_1649
 CVCL_S829  Data merged in: CVCL_2466
 CVCL_T889  Data merged in: CVCL_T945
 CVCL_U683  Data merged in: CVCL_F599
-CVCL_V561  Data mergen in: CVCL_3024
+CVCL_U902  Data merged in: CVCL_5651
+CVCL_U903  Data merged in: CVCL_5650
+CVCL_U904  Data merged in: CVCL_A432
+CVCL_U905  Data merged in: CVCL_A433
+CVCL_U906  Data merged in: CVCL_A434
+CVCL_V561  Data merged in: CVCL_3024
+CVCL_V644  Data merged in: CVCL_M543
 CVCL_W042  Data merged in: CVCL_2869
 CVCL_X223  Data merged in: CVCL_4150
 CVCL_Y130  Data merged in: CVCL_B374
