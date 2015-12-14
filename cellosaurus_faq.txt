@@ -1,0 +1,181 @@
+----------------------------------------------------------------------------
+        CALIPHO group at the SIB - Swiss Institute of Bioinformatics
+        Geneva, Switzerland
+----------------------------------------------------------------------------
+
+ Description: Cellosaurus: frequently asked questions
+ Version: 15.0
+ Last update: 14-December-2015
+
+----------------------------------------------------------------------------
+
+Q: How do I cite the Cellosaurus in a publication?
+
+A: Currently there is no paper describing the Cellosaurus, so you can cite
+it in the following manner:
+
+Bairoch A.
+The Cellosaurus: a cell line knowledge resource.
+http://web.expasy.org/cellosaurus/
+
+----------------------------------------------------------------------------
+
+Q: How frequently is the Cellosaurus upated?
+
+A: Currently there is no regular update schedule, but we try to release new
+versions of the Cellosaurus at least 4 times per year.
+
+----------------------------------------------------------------------------
+
+Q: Are plant cell lines going to be added to the Cellosaurus?
+
+Currently there is no plan to do increase the coverage of the Cellosaurus to
+plant lines.
+
+----------------------------------------------------------------------------
+
+Q: I would like to order cell XYZ from you?
+
+A: We are not selling or distributing any cell lines. The Cellosaurus is a
+knowledge resource on cell lines.
+
+----------------------------------------------------------------------------
+
+Q: Where can I buy cell line XYZ?
+
+A: The Cellosaurus provides cross-references or web links to the main
+organisations and companies selling or distributing cell lines. You will
+find these links in the relevant cell line entries.
+
+Important caveats:
+
+We try to be as inclusive as possible but the lack of indication of the 
+availability of a cell line in a Cellosaurus entry can not be considered
+as a proof that the cell line is not available somewhere.
+
+The list of cell lines distributed by a given entity is very dynamic and 
+we can't insure to be in perfect synchronization with all the entities that
+are involved in cell line distribution.
+
+Hereunder we provide links to a number of companies and organisation that
+provide cell lines. We encourage you to browse their online catalog.
+
+AddexBio:
+ http://www.addexbio.com/productshow?id=4
+American Type Culture Collection (ATCC):
+ http://www.atcc.org/
+Asterand Bioscience:
+ http://www.asterandbio.com/biospecimens/human-tissue-derived-products/cell-lines/
+Axiogenesis:
+ http://axiogenesis.com/
+Bioresource Collection and Research Center (BCRC) from Taiwan:
+ http://www.bcrc.firdi.org.tw/
+Banco de Celulas do Rio de Janeiro (BCRJ):
+ http://bcrj.org.br/
+Cell Biolabs:
+ http://www.cellbiolabs.com/platinum-retroviral-packaging-cell-lines
+CellBank Australia (CBA):
+ http://www.cellbankaustralia.com/
+CELLutions Biosystems:
+ http://www.cellutionsbiosystems.com/
+CET:
+ http://www.celleng-tech.com/#!stem-cells/cfvg
+ChemoScreen:
+ http://www.chemoscreen.com/
+Children's Oncology Group (COG) Cell Culture and Xenograft Repository:
+ http://www.cogcell.org/cellreqs-leuk.php
+Chordoma Foundation cell line repository:
+ http://www.chordomafoundation.org/reagents-data/cell-line-repository/
+Clontech Laboratories:
+ http://www.clontech.com/
+CLS - Cell lines Services:
+ http://www.clsgmbh.de/
+Collection of Cell Lines in Veterinary Medicine (CCLV):
+ https://www.fli.bund.de/en/startseite/institutes/department-of-experimental-animal-facilities-and-biorisk-management/cclv.html
+Coriell Institute Biorepositories:
+ https://catalog.coriell.org/
+Creative Bioarray:
+ http://www.creative-bioarray.com/Products/Cells.htm
+Deutsche Sammlung von Mikroorganismen und Zellkulturen (DSMZ):
+ http://www.dsmz.de/catalogues/catalogue-human-and-animal-cell-lines.html
+Drosophila Genomics Resource Center (DGRC):
+ https://dgrc.bio.indiana.edu/cells/Overview
+E-lucid:
+ http://www.e-lucid.com/ct/materials/cell_lines/
+EMD Millipore:
+ http://www.emdmillipore.com/US/en
+European Collection of Cell Cultures (ECACC):
+ http://www.phe-culturecollections.org.uk/products/celllines/index.aspx
+Genea Biocells:
+ http://www.geneastemcells.com.au/Our-Products/Stem-Cell-Lines
+GenScript:
+ http://www.genscript.com/catalog_cell_lines.html
+HGDP-CEPH Human Genome Diversity Cell Line Panel:
+ http://www.cephb.fr/en/hgdp_panel.php
+Interlab Cell Line Collection (ICLC):
+ http://www.iclc.it/
+InvivoGen:
+ http://www.invivogen.com/reporter-cells
+Istituto Zooprofilattico Sperimentale della Lombardia e dell’Emilia Romagna biobank (IZSLER):
+ http://www.ibvr.org/Services/CellCultures.aspx
+Japanese Collection of Research Bioresources Cell Bank (JCRB):
+ http://cellbank.nibiohn.go.jp/english/
+Kerafast:
+ http://www.kerafast.com/c-227-cells-tissue-samples.aspx
+King's College London hES cell line catalog:
+ http://www.kcl.ac.uk/lsm/research/divisions/wh/groups/medicine/hescell.aspx
+Korean Cell Line Bank (KCLB):
+ http://cellbank.snu.ac.kr/
+Lurie Children Hospital of Chicacgo Human iPS & Stem Cell Core Facility:
+ http://www.luriechildrensresearch.org/stemcellcore/
+Memorial Sloan Kettering Cancer Center:
+ https://www.mskcc.org/research-advantage/support/office-technology-development/tangible-materials-available-licensing
+Montreal Children's Hospital Cell Repository: 
+ http://www.cellbank.mcgill.ca/
+NIA ES Cell Bank:
+ http://esbank.nia.nih.gov/index.html
+NIH AIDS Reagent Program (NIH-ARP):
+ https://www.aidsreagent.org/
+NIMH Repository and Genomic Resource:
+ https://www.nimhgenetics.org/stem_cells/crm_lines.php
+NISES Cell Database:
+ https://www.gene.affrc.go.jp/ex-nises/NISESCells/CellindexE1.html
+Novus Biologicals:
+ http://www.novusbio.com/
+Oxford Expression Technology (OET):
+ http://oetltd.com/product-category/insect-cell-culture/insect-cells-2/
+ParaTechs:
+ http://www.paratechs.com/ve-bevs-cell-lines/
+PerkinElmer:
+ http://www.perkinelmer.com/
+Primogenix:
+ http://www.primogenix.com/
+ProBioGen:
+ http://www.probiogen.de/innovative-technologies/virusproduction-system.html
+Progeria Research Foundation: 
+ http://www.progeriaresearch.org/available_cell_lines.html
+Reliance Life Sciences:
+ http://www.rellife.com/rm_cellsresearch.html
+RIKEN Bioresource Center Cell Bank (RCB):
+ http://www.brc.riken.jp/lab/cell/english/index_rcb.shtml
+Rockefeller University Embryonic Stem Cell Lines:
+ http://rues.rockefeller.edu/
+Roslin cells:
+ http://roslincells.com/clinical-research-grade-lines/
+Royan Stem Cell Bank:
+ http://www.royaninstitute.org/cmsen/index.php?option=com_content&task=view&id=205&Itemid=40
+Selexis:
+ http://www.selexis.com/#!sure-cho-m-cell-line/ctak
+ThermoFischer Scientific:
+ http://www.thermofisher.com/ch/en/home/life-science.html
+Tohoku University cell line catalog (TKG):
+ http://www2.idac.tohoku.ac.jp/dep/ccr/
+Valneva:
+ http://www.valneva.com/?page=35
+WiCell:
+ http://www.wicell.org/
+Ximbio reagents online portal:
+ https://ximb.io/
+
+----------------------------------------------------------------------------
+

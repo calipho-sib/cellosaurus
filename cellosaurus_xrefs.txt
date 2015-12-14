@@ -5,8 +5,8 @@
 
  Description: How to establish cross-references to the resources listed in
               the Cellosaurus
- Version: 14.0
- Last update: 22-September-2015
+ Version: 15.0
+ Last update: 14-December-2015
 
 ----------------------------------------------------------------------------
 
@@ -73,8 +73,8 @@ Cat   : Cell line collections
 //
 Abbrev: BCRJ
 Name  : Banco de Celulas do Rio de Janeiro
-Server: http://www.bcrj.hucff.ufrj.br/
-Db_URL: http://www.nce.ufrj.br/bcrj/Joomla_busca1.asp?bcrj=%s
+Server: http://bcrj.org.br/
+Db_URL: http://bcrj.org.br/catalogo/cell/?celula=%s
 Cat   : Cell line collections
 //
 Abbrev: BioSample
@@ -147,7 +147,7 @@ Db_URL: http://purl.obolibrary.org/obo/%s
 Cat   : Ontologies
 //
 Abbrev: Coriell
-Name  : Coriell Cell Repositories
+Name  : Coriell Institute Biorepositories
 Server: https://catalog.coriell.org/
 Db_URL: https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=%s&Product=CC
 Cat   : Cell line collections
@@ -172,8 +172,8 @@ Cat   : Cell line databases/resources
 //
 Abbrev: DGRC
 Name  : Drosophila Genomics Resource Center
-Server: https://dgrc.cgb.indiana.edu/cells/Catalog
-Db_URL: https://dgrc.cgb.indiana.edu/product/View?product=%s
+Server: https://dgrc.bio.indiana.edu/cells/Overview
+Db_URL: https://dgrc.bio.indiana.edu/product/View?product=%s
 Cat   : Cell line collections
 //
 Abbrev: DSMZ
@@ -186,6 +186,11 @@ Abbrev: ECACC
 Name  : European Collection of Cell Cultures
 Server: http://www.phe-culturecollections.org.uk/products/celllines/index.aspx
 Db_URL: http://www.phe-culturecollections.org.uk/products/celllines/generalcell/detail.jsp?refId=%s&collection=ecacc_gc
+        Note: 
+        For cell lines of the category (CA) "Hybridoma" use:
+        http://www.phe-culturecollections.org.uk/products/celllines/hybridoma/detail.jsp?refId=%s&collection=ecacc_hc
+        For cell lines with a CC 'Part of' with "ECACC randomly selected UK Caucasian blood donors cell line selection" use:
+        http://www.phe-culturecollections.org.uk/products/celllines/humanrandomcontrol/detail.jsp?refId=%s&collection=ecacc_hrc
 Cat   : Cell line collections
 //
 Abbrev: EFO
@@ -226,8 +231,8 @@ Cat   : Cell line collections
 //
 Abbrev: IFO
 Name  : Institute for Fermentation Osaka
-Server: http://cellbank.nibio.go.jp/english/
-Db_URL: http://cellbank.nibio.go.jp/~cellbank/cgi-bin/search_res_det.cgi?RNO=%s
+Server: http://cellbank.nibiohn.go.jp/english/
+Db_URL: http://cellbank.nibiohn.go.jp//~cellbank/en/search_res_det.cgi?RNO=%s
 Cat   : Cell line collections
 //
 Abbrev: IGRhCellID
@@ -262,8 +267,8 @@ Cat   : Cell line collections
 //
 Abbrev: JCRB
 Name  : Japanese Collection of Research Bioresources Cell Bank
-Server: http://cellbank.nibio.go.jp/english/
-Db_URL: http://cellbank.nibio.go.jp/~cellbank/en/search_res_list.cgi?KEYWOD=%s
+Server: http://cellbank.nibiohn.go.jp/english/
+Db_URL: http://cellbank.nibiohn.go.jp//~cellbank/en/search_res_det.cgi?RNO=%s
 Cat   : Cell line collections
 //
 Abbrev: KCLB
@@ -346,7 +351,7 @@ Abbrev: Ximbio
 Name  : Ximbio reagents online portal
 Server: https://ximb.io/
 Db_URL: https://ximb.io/reagent/%s
-Cat   : Other resources
+Cat   : Cell line collections
 //
 
 ---------------------------------------------------------------------
@@ -387,26 +392,39 @@ Format: CC   Knockout cell: Method=Method_name; Db_name; %s; Gene/protein_name.
 Topic:  Monoclonal antibody target
 Format: CC   Monoclonal antibody target: Db_name; %s; Gene/protein_name.
 
+Topic:  Selected for resistance to
+Format: CC   Selected for resistance to: Db_name; %s; Compound_name.
+
 Topic:  Transfected with
 Format: CC   Transfected with: Db_name; %s; Gene/protein_name.
 
-Where : Db_name is one of: FlyBase¦HGNC¦MGI¦RGD¦UniProtKB
+Where : Db_name is one of: ChEBI¦FlyBase¦HGNC¦MGI¦PubChem¦RGD¦UniProtKB
 
+Abbrev: ChEBI
+Name  : Chemical Entities of Biological Interest
+Server: http://www.ebi.ac.uk/chebi/
+Db_URL: http://www.ebi.ac.uk/chebi/searchId.do?chebiId=%s
+//      
 Abbrev: FlyBase
 Name  : Drosophila genome database
-Server: http://flybase.org
-Db_URL: http://flybase.org/reports/%s.html
+Server: Server: http://flybase.org
+Db_URL: Db_URL: http://flybase.org/reports/%s.html
 //
 Abbrev: HGNC
 Name  : Human Gene Nomenclature Database
 Server: http://www.genenames.org
-Db_URL: http://www.genenames.org/cgi-bin/gene_symbol_report?hgnc_id=%s
+Server: Db_URL: http://www.genenames.org/cgi-bin/gene_symbol_report?hgnc_id=%s
 //
 Abbrev: MGI
 Name  : Mouse Genome Database (MGD) from Mouse Genome Informatics
 Server: http://www.informatics.jax.org
 Db_URL: http://www.informatics.jax.org/marker/%s
 //
+Abbrev: PubChem
+Name  : PubChem compound database
+Server: http://pubchem.ncbi.nlm.nih.gov/
+Db_URL: http://pubchem.ncbi.nlm.nih.gov/compound/%s
+//      
 Abbrev: RGD
 Name  : Rat Genome Database
 Server: http://rgd.mcw.edu

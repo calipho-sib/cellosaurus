@@ -6,37 +6,40 @@
    \_____\___|_|_|\___/|___/\__,_|\__,_|_|   \__,_|___/
 
 
-This is the release notes for cellosaurus version 14 of September 2015.
+This is the release notes for cellosaurus version 15 of December 2015.
 
 1) Statistics
 
- 46767 cell lines (35648 human, 4999 mouse, 1251 rat)
-   508 species represented 
- 27955 synonyms
- 91079 cross-references to 46 ontologies, databases, catalogs, etc.
- 33790 references to 8730 distinct publications
-  7425 web links
+ 48460 cell lines (36997 human, 5181 mouse, 1283 rat)
+   512 species represented 
+ 28969 synonyms
+ 93013 cross-references to 47 ontologies, databases, catalogs, etc.
+ 36147 references to 9379 distinct publications (papers, patents, thesis, etc.)
+  7588 web links
 
-2) Changes in the DR lines
+2) Changes in the CC lines
 
-2a) GDSC
+2-1) Introduction of a new topic: "Selected for resistance to:"
 
-Cross-references to the Genomics of Drug Sensitivity in Cancer Project have
-been added. The abbreviation used for this resource is "GDSC".
-
-Example:
-DR   GDSC; 2667
-
-
-3) Changes in the CC lines
-
-Introduction of a new topic: "Monoclonal antibody target"
+This topic is used to indicate the compound(s) that have been used to
+generate a cell line resistant to the toxic effect of that compound.
 
 Example:
-CC   Monoclonal antibody target: UniProtKB; Q03763; Bovine DSG1.
+CC   Selected for resistance to: ChEBI; CHEBI:27666; Actinomycin D (ActD).
+CC   Selected for resistance to: PubChem; 119604; RU 58668.
 
-For the time being this topic is restricted to describe known protein targets
-of monoclonal antibodies produced by an hybridoma.
+2-2) Change in the format of the "Discontinued" topic.
+
+This topic now accepts reference to catalog numbers for organisations which
+are not "represented" in the cross-references lines (DR). Examples:
+
+CC   Discontinued: PerkinElmer; Catalog number 134280.
+CC   Discontinued: Thermofisher/Invitrogen; Catalog number 11622-016.
+
+3) New file in the FTP distribution
+
+We now distribute a file name "cellosaurus_faq.txt" which contains a number
+of frequently asked questions and their respective answers.
 
 ----------------------------------------------------------------------------
 
