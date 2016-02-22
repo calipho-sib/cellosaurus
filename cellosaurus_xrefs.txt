@@ -5,8 +5,8 @@
 
  Description: How to establish cross-references to the resources listed in
               the Cellosaurus
- Version: 15.0
- Last update: 14-December-2015
+ Version: 16.0
+ Last update: 23-February-2016
 
 ----------------------------------------------------------------------------
 
@@ -186,11 +186,15 @@ Abbrev: ECACC
 Name  : European Collection of Cell Cultures
 Server: http://www.phe-culturecollections.org.uk/products/celllines/index.aspx
 Db_URL: http://www.phe-culturecollections.org.uk/products/celllines/generalcell/detail.jsp?refId=%s&collection=ecacc_gc
-        Note: 
+        Note:
         For cell lines of the category (CA) "Hybridoma" use:
         http://www.phe-culturecollections.org.uk/products/celllines/hybridoma/detail.jsp?refId=%s&collection=ecacc_hc
+        For cell lines of the category (CA) "Induced pluripotent stem cell" use:
+        http://www.phe-culturecollections.org.uk/products/celllines/ipsc/detail.jsp?refId=%s&collection=ecacc_ipsc
         For cell lines with a CC 'Part of' with "ECACC randomly selected UK Caucasian blood donors cell line selection" use:
         http://www.phe-culturecollections.org.uk/products/celllines/humanrandomcontrol/detail.jsp?refId=%s&collection=ecacc_hrc
+        For cell lines with a CC 'Part of' with "ECACC chromosomal abnormality collection" use:
+        http://www.phe-culturecollections.org.uk/products/celllines/humangeneticca/detail.jsp?refId=%s&collection=ecacc_hgc
 Cat   : Cell line collections
 //
 Abbrev: EFO
@@ -215,6 +219,12 @@ Abbrev: GDSC
 Name  : Genomics of Drug Sensitivity in Cancer Project
 Server: http://www.cancerrxgene.org/
 Db_URL: http://www.cancerrxgene.org/translation/CellLine/%s
+Cat   : Cell line databases/resources
+//
+Abbrev: HipSci
+Name  : Human Induced Pluripotent Stem Cells Initiative
+Server: http://www.hipsci.org/
+Db_URL: http://www.hipsci.org/lines/#/lines/%s
 Cat   : Cell line databases/resources
 //
 Abbrev: hPSCreg
@@ -300,6 +310,12 @@ Name  : Medical Subject Headings
 Server: http://www.ncbi.nlm.nih.gov/mesh
 Db_URL: http://www.nlm.nih.gov/cgi/mesh/2013/MB_cgi?field=uid&term=%s
 Cat   : Ontologies
+//
+Abbrev: NCBI_Iran
+Name  : National Cell Bank of Iran
+Server: http://en.pasteur.ac.ir/pages.aspx?id=823
+Db_URL: None
+Cat   : Cell line collections
 //
 Abbrev: NIH-ARP
 Name  : NIH AIDS Reagent Program
@@ -404,7 +420,7 @@ Abbrev: ChEBI
 Name  : Chemical Entities of Biological Interest
 Server: http://www.ebi.ac.uk/chebi/
 Db_URL: http://www.ebi.ac.uk/chebi/searchId.do?chebiId=%s
-//      
+//
 Abbrev: FlyBase
 Name  : Drosophila genome database
 Server: Server: http://flybase.org
@@ -424,7 +440,7 @@ Abbrev: PubChem
 Name  : PubChem compound database
 Server: http://pubchem.ncbi.nlm.nih.gov/
 Db_URL: http://pubchem.ncbi.nlm.nih.gov/compound/%s
-//      
+//
 Abbrev: RGD
 Name  : Rat Genome Database
 Server: http://rgd.mcw.edu

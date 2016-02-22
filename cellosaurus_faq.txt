@@ -4,8 +4,8 @@
 ----------------------------------------------------------------------------
 
  Description: Cellosaurus: frequently asked questions
- Version: 15.0
- Last update: 14-December-2015
+ Version: 16.0
+ Last update: 23-February-2016
 
 ----------------------------------------------------------------------------
 
@@ -29,8 +29,31 @@ versions of the Cellosaurus at least 4 times per year.
 
 Q: Are plant cell lines going to be added to the Cellosaurus?
 
-Currently there is no plan to do increase the coverage of the Cellosaurus to
+A: Currently there is no plan to increase the coverage of the Cellosaurus to
 plant lines.
+
+----------------------------------------------------------------------------
+
+Q: Is it possible to directly indicate search terms in a URL?
+
+A: Yes, you can do so with the following syntax:
+
+http://web.expasy.org/cgi-bin/cellosaurus/search?input=your_query
+
+Examples:
+
+http://web.expasy.org/cgi-bin/cellosaurus/search?input=CVCL_0030
+http://web.expasy.org/cgi-bin/cellosaurus/search?input=hela
+http://web.expasy.org/cgi-bin/cellosaurus/search?input=canis+familiaris
+http://web.expasy.org/cgi-bin/cellosaurus/search?input="fish cell line"
+http://web.expasy.org/cgi-bin/cellosaurus/search?input=problematic+cell+lines
+
+----------------------------------------------------------------------------
+
+Q: Can I save the Cellosaurus records corresponding to the result of a search?
+
+A: Not yet, but this is someting we would like to implement in a future version
+of the web interface
 
 ----------------------------------------------------------------------------
 
@@ -49,7 +72,7 @@ find these links in the relevant cell line entries.
 
 Important caveats:
 
-We try to be as inclusive as possible but the lack of indication of the 
+We try to be as inclusive as possible but the lack of indication of the
 availability of a cell line in a Cellosaurus entry can not be considered
 as a proof that the cell line is not available somewhere.
 
@@ -104,14 +127,22 @@ E-lucid:
  http://www.e-lucid.com/ct/materials/cell_lines/
 EMD Millipore:
  http://www.emdmillipore.com/US/en
+European Collection for Biomedical Research:
+ http://bioinformatics.hsanmartino.it/ecbr/ecbrsite.html
 European Collection of Cell Cultures (ECACC):
  http://www.phe-culturecollections.org.uk/products/celllines/index.aspx
+Everycyte:
+ http://www.evercyte.com/medizin/cell-lines.html
 Genea Biocells:
  http://www.geneastemcells.com.au/Our-Products/Stem-Cell-Lines
 GenScript:
  http://www.genscript.com/catalog_cell_lines.html
 HGDP-CEPH Human Genome Diversity Cell Line Panel:
  http://www.cephb.fr/en/hgdp_panel.php
+Human Induced Pluripotent Stem Cells Initiative:
+ http://www.hipsci.org/
+Inbiomed:
+ http://www.inbiomed.org/Index.php/servicios_externos/inbiobank
 Interlab Cell Line Collection (ICLC):
  http://www.iclc.it/
 InvivoGen:
@@ -132,6 +163,8 @@ Memorial Sloan Kettering Cancer Center:
  https://www.mskcc.org/research-advantage/support/office-technology-development/tangible-materials-available-licensing
 Montreal Children's Hospital Cell Repository: 
  http://www.cellbank.mcgill.ca/
+National Cell Bank of Iran (NCBI):
+ http://en.pasteur.ac.ir/pages.aspx?id=823
 NIA ES Cell Bank:
  http://esbank.nia.nih.gov/index.html
 NIH AIDS Reagent Program (NIH-ARP):
