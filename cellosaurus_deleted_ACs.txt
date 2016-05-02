@@ -1,11 +1,11 @@
-----------------------------------------------------------------------------
+ ---------------------------------------------------------------------------
         CALIPHO group at the SIB - Swiss Institute of Bioinformatics
         Geneva, Switzerland
 ----------------------------------------------------------------------------
 
  Description: Deleted accession numbers for the Cellosaurus
- Version: 16.0
- Last update: 23-February-2016
+ Version: 17.0
+ Last update: 02-May-2016
 
 ----------------------------------------------------------------------------
 
@@ -46,6 +46,7 @@ CVCL_1663  Data merged in: CVCL_0582
 CVCL_1696  Data merged in: CVCL_0041
 CVCL_1772  Data merged in: CVCL_3605
 CVCL_1777  Data merged in: CVCL_1911
+CVCL_1Q87  Data merged in: CVCL_4912
 CVCL_2026  Data merged in: CVCL_2027
 CVCL_2052  Data merged in: CVCL_A472
 CVCL_2168  Data merged in: CVCL_3848
@@ -63,6 +64,7 @@ CVCL_3474  Data deleted
 CVCL_3654  Data merged in: CVCL_6573
 CVCL_3740  Data merged in: CVCL_0618
 CVCL_3879  Data merged in: CVCL_5651
+CVCL_3942  Data merged in: CVCL_1452
 CVCL_3952  Data merged in: CVCL_0439
 CVCL_3973  Data merged in: CVCL_1565
 CVCL_3998  Data merged in: CVCL_5840
@@ -185,6 +187,7 @@ CVCL_F296  Data merged in: CVCL_E870
 CVCL_F482  Data merged in: CVCL_2779
 CVCL_F511  Data merged in: CVCL_3245
 CVCL_F515  Data merged in: CVCL_4312
+CVCL_F733  Data deleted
 CVCL_F894  Data deleted
 CVCL_H196  Data merged in: CVCL_8747
 CVCL_H249  Data merged in: CVCL_0023
@@ -209,6 +212,8 @@ CVCL_S332  Data merged in: CVCL_1649
 CVCL_S829  Data merged in: CVCL_2466
 CVCL_T889  Data merged in: CVCL_T945
 CVCL_U683  Data merged in: CVCL_F599
+CVCL_U876  Data merged in: CVCL_E278
+CVCL_U877  Data merged in: CVCL_E277
 CVCL_U902  Data merged in: CVCL_5651
 CVCL_U903  Data merged in: CVCL_5650
 CVCL_U904  Data merged in: CVCL_A432

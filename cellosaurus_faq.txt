@@ -4,8 +4,8 @@
 ----------------------------------------------------------------------------
 
  Description: Cellosaurus: frequently asked questions
- Version: 16.0
- Last update: 23-February-2016
+ Version: 17.0
+ Last update: 02-May-2016
 
 ----------------------------------------------------------------------------
 
@@ -44,9 +44,9 @@ Examples:
 
 http://web.expasy.org/cgi-bin/cellosaurus/search?input=CVCL_0030
 http://web.expasy.org/cgi-bin/cellosaurus/search?input=hela
-http://web.expasy.org/cgi-bin/cellosaurus/search?input=canis+familiaris
+http://web.expasy.org/cgi-bin/cellosaurus/search?input=sus+scrofa
 http://web.expasy.org/cgi-bin/cellosaurus/search?input="fish cell line"
-http://web.expasy.org/cgi-bin/cellosaurus/search?input=problematic+cell+lines
+http://web.expasy.org/cgi-bin/cellosaurus/search?input=problematic+cell+line
 
 ----------------------------------------------------------------------------
 
@@ -95,6 +95,8 @@ Bioresource Collection and Research Center (BCRC) from Taiwan:
  http://www.bcrc.firdi.org.tw/
 Banco de Celulas do Rio de Janeiro (BCRJ):
  http://bcrj.org.br/
+Biopredic International:
+ http://www.biopredic.com/
 Cell Biolabs:
  http://www.cellbiolabs.com/platinum-retroviral-packaging-cell-lines
 CellBank Australia (CBA):
@@ -127,6 +129,8 @@ E-lucid:
  http://www.e-lucid.com/ct/materials/cell_lines/
 EMD Millipore:
  http://www.emdmillipore.com/US/en
+European Bank for induced pluripotent Stem Cells (EBiSC):
+ http://www.ebisc.org/
 European Collection for Biomedical Research:
  http://bioinformatics.hsanmartino.it/ecbr/ecbrsite.html
 European Collection of Cell Cultures (ECACC):
@@ -157,6 +161,8 @@ King's College London hES cell line catalog:
  http://www.kcl.ac.uk/lsm/research/divisions/wh/groups/medicine/hescell.aspx
 Korean Cell Line Bank (KCLB):
  http://cellbank.snu.ac.kr/
+Kunming Cell Bank of Type Culture Collection (KCB):
+ http://english.kiz.cas.cn/about/an/201108/t20110824_74162.html
 Lurie Children Hospital of Chicacgo Human iPS & Stem Cell Core Facility:
  http://www.luriechildrensresearch.org/stemcellcore/
 Memorial Sloan Kettering Cancer Center:
@@ -193,6 +199,8 @@ RIKEN Bioresource Center Cell Bank (RCB):
  http://www.brc.riken.jp/lab/cell/english/index_rcb.shtml
 Rockefeller University Embryonic Stem Cell Lines:
  http://rues.rockefeller.edu/
+Rockland Immnuochemicals:
+ https://www.rockland-inc.com/patient-derived-tumor-models.aspx
 Roslin cells:
  http://roslincells.com/clinical-research-grade-lines/
 Royan Stem Cell Bank:

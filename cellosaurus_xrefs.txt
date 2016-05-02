@@ -5,8 +5,8 @@
 
  Description: How to establish cross-references to the resources listed in
               the Cellosaurus
- Version: 16.0
- Last update: 23-February-2016
+ Version: 17.0
+ Last update: 02-May-2016
 
 ----------------------------------------------------------------------------
 
@@ -119,7 +119,7 @@ Name  : CGH Data Base
 Server: http://www.cghtmd.jp/CGHDatabase/index_e.jsp
 Db_URL: http://www.cghtmd.jp/CGHDatabase/mapViewer?hid=%s&aid=%t&lang=en
         Note: %s and %t are respectively the values before and after the dash in the DR line.
-        Example: for "DR   CGH-DB; 9029-4": s%=9029, t%=4
+        Example: for "DR   CGH-DB; 9029-4": %s=9029, %t=4
 Cat   : Cell line databases/resources
 //
 Abbrev: ChEMBL-Cells
@@ -145,6 +145,14 @@ Name  : Cell Line Ontology
 Server: http://www.clo-ontology.org/
 Db_URL: http://purl.obolibrary.org/obo/%s
 Cat   : Ontologies
+//
+Abbrev: CLS
+Name  : Cell Lines Service
+Server: http://www.clsgmbh.de
+Db_URL: http://www.clsgmbh.de/%s.html
+        Note: %s is the value after the slash "/" in the DR line.
+        Example: for "DR   CLS; 400294/p2677_MSC-P5": %s=p2677_MSC-P5
+Cat   : Cell line collections
 //
 Abbrev: Coriell
 Name  : Coriell Institute Biorepositories
@@ -180,6 +188,12 @@ Abbrev: DSMZ
 Name  : Deutsche Sammlung von Mikroorganismen und Zellkulturen
 Server: http://www.dsmz.de/catalogues/catalogue-human-and-animal-cell-lines.html
 Db_URL: http://www.dsmz.de/catalogues/details/culture/%s.html
+Cat   : Cell line collections
+//
+Abbrev: EBiSC
+Name  : European Bank for induced pluripotent Stem Cells
+Server: http://www.ebisc.org/
+Db_URL: https://cells.ebisc.org/%s
 Cat   : Cell line collections
 //
 Abbrev: ECACC
@@ -281,6 +295,12 @@ Server: http://cellbank.nibiohn.go.jp/english/
 Db_URL: http://cellbank.nibiohn.go.jp//~cellbank/en/search_res_det.cgi?RNO=%s
 Cat   : Cell line collections
 //
+Abbrev: KCB
+Name  : Kunming Cell Bank of Type Culture Collection
+Server: http://kcb.kiz.cas.cn/
+Db_URL: None
+Cat   : Cell line collections
+//
 Abbrev: KCLB
 Name  : Korean Cell Line Bank
 Server: http://cellbank.snu.ac.kr/
@@ -296,7 +316,7 @@ Cat   : Cell line databases/resources
 Abbrev: Lonza
 Name  : Lonza Cell and Transfection Database
 Server: http://bio.lonza.com/6.html
-Db_URL: None
+Db_URL: http://bio.lonza.com/6.html?tx_lzcelldatabase_pi_view[id]=%s
 Cat   : Cell line databases/resources
 //
 Abbrev: MCCL
@@ -322,7 +342,7 @@ Name  : NIH AIDS Reagent Program
 Server: https://www.aidsreagent.org/
 Db_URL: https://www.aidsreagent.org/reagentdetail.cfm?t=cell_lines&id=%s
         Note: %s is the value after the dash in the DR line.
-        Example: for "DR   NIH-ARP; 11411-223": s%=223
+        Example: for "DR   NIH-ARP; 11411-223": %s=223
 Cat   : Cell line collections
 //
 Abbrev: NISES
@@ -360,7 +380,7 @@ Name  : Tohoku University cell line catalog
 Server: http://www2.idac.tohoku.ac.jp/dep/ccr/
 Db_URL: http://www2.idac.tohoku.ac.jp/dep/ccr/TKGdate/TKGvo10%n/%s.html
         Note: n% is the second digit of the cell line AC and %s is the cell line AC without the 'TKG'
-        Example: for "DR   TKG; TKG 0377": n%=3 s%=0377
+        Example: for "DR   TKG; TKG 0377": %n=3 %s=0377
 Cat   : Cell line collections
 //
 Abbrev: Ximbio

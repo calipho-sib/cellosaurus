@@ -6,45 +6,142 @@
    \_____\___|_|_|\___/|___/\__,_|\__,_|_|   \__,_|___/
 
 
-This is the release notes for cellosaurus version 16 of February 2016.
+This is the release notes for cellosaurus version 17 of May 2016.
 
 1) Statistics
 
- 60405 cell lines (48274 human, 5433 mouse, 1441 rat)
-   535 species represented 
- 30540 synonyms
-110232 cross-references to 47 ontologies, databases, catalogs, etc.
- 39699 references to 10345 distinct publications (papers, patents, thesis, etc.)
-  7893 web links
+ 64234 cell lines (51906 human, 5503 mouse, 1466 rat)
+   543 species represented 
+ 31381 synonyms
+119241 cross-references to 52 ontologies, databases, catalogs, etc.
+ 41403 references to 10677 distinct publications (papers, patents, thesis, etc.)
+  7728 web links
 
-2) Changes in the CC lines
+2) Introduction of a new line type (ST) to store STR profile information.
 
-Introduction of a new topic: "Transformant:"
+We are adding information relevant to the STR (short tandem repeat) DNA
+profile of human cell lines. The STR profile is critical to the important
+process of cell line authentication.
 
-Examples:
-CC   Transformant: Adenovirus 5.
-CC   Transformant: EBV.
-CC   Transformant: N-methyl-N-nitrosourea (NMU) (ChEBI; CHEBI:50102).
-CC   Transformant: SV40.
+In this release 4371 human cell lines contain STR profile information 
+derived from 7598 independent measurement from 55 different sources.
 
-3) Changes in the CA lines
+The STR profile information is stored in the format:
 
-Introduction of a new category: "Conditionally immortalized cell line"
+ST   Source(s): source1[; source2; source3;....]
+ST   Marker: Data
 
-4) Changes in the DR lines
+where the accepted "Marker" values are:
 
-4-1) We have added cross-references to the Human Induced Pluripotent Stem
-Cells Initiative (HipSci). The abbreviation used for this resource is
-"HipSci".
+Amelogenin
+CSF1PO
+D10S1248
+D12S391
+D13S317
+D16S539
+D18S51
+D19S433
+D1S1656
+D21S11
+D22S1045
+D2S1338
+D2S441
+D3S1358
+D5S818
+D6S1043
+D7S820
+D8S1179
+F13A01
+F13B
+FESFPS
+FGA
+LPL
+Penta D
+Penta E
+SE33
+TH01
+TPOX
+vWA
+
+And "data" is in the format:
+
+For "Amelogenin": "(X|X,Y|Y|Not_detected)$"
+For all other markers: "[1-9][0-9]?(\.[1-9])?(,[1-9][0-9]?(\.[1-9]?)?){0,4}( \([A-Z][A-Za-z0-9;:=-_ ]+\))?$
+
+Example of a "ST" block for a cell line:
+
+ST   Source(s): ATCC; Wistar
+ST   Amelogenin: X,Y
+ST   CSF1PO: 11
+ST   D13S317: 8,14
+ST   D16S539: 12 (ATCC)
+ST   D16S539: 11,12 (Wistar)
+ST   D18S51: 14,15
+ST   D19S433: 13,15
+ST   D21S11: 28,29
+ST   D2S1338: 17,24
+ST   D3S1358: 14,16
+ST   D5S818: 10,12
+ST   D7S820: 10,12
+ST   D8S1179: 11,12,14
+ST   FGA: 20,21
+ST   TH01: 6,8
+ST   TPOX: 8,9
+ST   vWA: 17 (ATCC)
+ST   vWA: 16,17 (Wistar)
+
+3) Changes in the DR lines
+
+a) We have added cross-references to the European Bank for induced pluripotent
+Stem Cells (EBiSC).
+
+Here is the corresponding entry in the file cellosaurus_xrefs.txt
+
+Abbrev: EBiSC
+Name  : European Bank for induced pluripotent Stem Cells
+Server: http://www.ebisc.org/
+Db_URL: https://cells.ebisc.org/%s
+Cat   : Cell line collections
 
 Example:
-DR   HipSci; HPSI0114i-bezi_1
 
-4-2) We have added cross-references to the National Cell Bank of Iran (NCBI).
-The abbreviation used for this resource is "NCBI_Iran".
+DR   EBiSC; WTSIi020-A
+
+b) We have added cross-references to the Kunming Cell Bank of Type Culture
+Collection (KCB).
+
+Here is the corresponding entry in the file cellosaurus_xrefs.txt
+
+Abbrev: KCB
+Name  : Kunming Cell Bank of Type Culture Collection
+Server: http://kcb.kiz.cas.cn/
+Db_URL: None
+Cat   : Cell line collections
 
 Example:
-DR   NCBI_Iran; C110
+
+DR   KCB; KCB 85015
+
+c) We have upgraded the web links to CLS into cross-references.
+
+Here is the corresponding entry in the file cellosaurus_xrefs.txt
+
+Abbrev: CLS
+Name  : Cell Lines Service
+Server: http://www.clsgmbh.de
+Db_URL: http://www.clsgmbh.de/%s.html
+        Note: %s is the value after the slash "/" in the DR line.
+        Example: for "DR   CLS; 400294/p2677_MSC-P5": %s=p2677_MSC-P5
+Cat   : Cell line collections
+
+Example:
+
+DR   CLS; 300166/p13905_2106LN
+
+4) Changes in the CA lines
+
+The CA (Category) line is now mandatory. As all Cellosaurus entries have been
+retrofitted with a CA line, this line is no longer optional.  
 
 ----------------------------------------------------------------------------
 
