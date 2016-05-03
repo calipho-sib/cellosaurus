@@ -40,9 +40,7 @@ The Cellosaurus is available/searchable on the web and downloadable by FTP
 Home page:
 http://web.expasy.org/cellosaurus/
 
-Individual entry pages: 
-'http://web.expasy.org/cellosaurus/%s'
-where %s is the accession number of the cell line
+Individual entry pages: 'http://web.expasy.org/cellosaurus/%s' where %s is the accession number of the cell line
 
 Example:
 http://web.expasy.org/cellosaurus/CVCL_0033
@@ -52,7 +50,7 @@ ftp://ftp.expasy.org/databases/cellosaurus
 
 The files that are distributed by FTP and are on GitHub are:
 
-- cellosaurus.obo: ellosaurus in OBO format
+- cellosaurus.obo: Cellosaurus in OBO format
 - cellosaurus.txt: Cellosaurus in ASCII format
 - cellosaurus_deleted_ACs.txt: List of deleted ACs: what happened to the relevant entries (completely deleted or merged to another entry)
 - cellosaurus_faq.txt: Frequently asked questions
