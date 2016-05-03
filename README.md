@@ -1,4 +1,4 @@
 Cellosaurus
 ===========
 
-##A controlled vocabulary of cell lines
+##A knowledge resources on cell lines
