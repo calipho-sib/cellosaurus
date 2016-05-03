@@ -33,7 +33,7 @@ For each cell line we provide the following information:
 - Publication references. We principally provide the references for publications describing the establishment of a cell line or its characterization. We do not attempt to capture all the literature that make use of a particular cell line.
 - Cross-references to cell line catalogs/collections, ontologies, cell lines databases/resources and to databases that list cell lines as samples.
 
-#Availability
+##Availability
 
 The Cellosaurus is available/searchable on the web and downloadable by FTP
 
