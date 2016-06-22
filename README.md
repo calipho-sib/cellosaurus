@@ -1,6 +1,8 @@
 Cellosaurus
 ===========
 
+From the CALIPHO gropu of the SIB Swiss Institute of Bioinformatics; neXtProt project
+
 ##A knowledge resources on cell lines
 
 The Cellosaurus is a knowledge resource on cell lines. It attempt to describe all cell lines used in biomedical research.
