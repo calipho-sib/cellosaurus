@@ -1,7 +1,7 @@
 Cellosaurus
 ===========
 
-From the CALIPHO gropu of the SIB Swiss Institute of Bioinformatics; neXtProt project
+From the CALIPHO group of the SIB - Swiss Institute of Bioinformatics; neXtProt project
 
 ##A knowledge resources on cell lines
 
