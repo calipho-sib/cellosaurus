@@ -4,8 +4,8 @@
 ----------------------------------------------------------------------------
 
  Description: Cellosaurus: frequently asked questions
- Version: 17.0
- Last update: 02-May-2016
+ Version: 18.0
+ Last update: 13-July-2016
 
 ----------------------------------------------------------------------------
 
@@ -47,6 +47,7 @@ http://web.expasy.org/cgi-bin/cellosaurus/search?input=hela
 http://web.expasy.org/cgi-bin/cellosaurus/search?input=sus+scrofa
 http://web.expasy.org/cgi-bin/cellosaurus/search?input="fish cell line"
 http://web.expasy.org/cgi-bin/cellosaurus/search?input=problematic+cell+line
+http://web.expasy.org/cgi-bin/cellosaurus/search?input=PubMed=1000501
 
 ----------------------------------------------------------------------------
 
@@ -97,12 +98,12 @@ Banco de Celulas do Rio de Janeiro (BCRJ):
  http://bcrj.org.br/
 Biopredic International:
  http://www.biopredic.com/
+Cedarland Cellutions Biosystems:
+ https://www.cedarlanelabs.com/Cellutions
 Cell Biolabs:
  http://www.cellbiolabs.com/platinum-retroviral-packaging-cell-lines
 CellBank Australia (CBA):
  http://www.cellbankaustralia.com/
-CELLutions Biosystems:
- http://www.cellutionsbiosystems.com/
 CET:
  http://www.celleng-tech.com/#!stem-cells/cfvg
 ChemoScreen:
@@ -129,6 +130,10 @@ E-lucid:
  http://www.e-lucid.com/ct/materials/cell_lines/
 EMD Millipore:
  http://www.emdmillipore.com/US/en
+ESI BIO:
+ http://www.esibio.com/products/product-category/cell-lines/
+Essen BioScience:
+ http://www.essenbioscience.com/essen-products/reagents-and-consumables/filter/cell-lines/
 European Bank for induced pluripotent Stem Cells (EBiSC):
  http://www.ebisc.org/
 European Collection for Biomedical Research:
@@ -209,6 +214,8 @@ Selexis:
  http://www.selexis.com/#!sure-cho-m-cell-line/ctak
 ThermoFischer Scientific:
  http://www.thermofisher.com/ch/en/home/life-science.html
+Tick Cell Biobank:
+ http://www.pirbright.ac.uk/tick-cell-lines
 Tohoku University cell line catalog (TKG):
  http://www2.idac.tohoku.ac.jp/dep/ccr/
 Valneva:

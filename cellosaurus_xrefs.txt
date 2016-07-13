@@ -5,8 +5,8 @@
 
  Description: How to establish cross-references to the resources listed in
               the Cellosaurus
- Version: 17.0
- Last update: 02-May-2016
+ Version: 18.0
+ Last update: 13-July-2016
 
 ----------------------------------------------------------------------------
 
@@ -64,6 +64,12 @@ Name  : American Type Culture Collection
 Server: http://www.atcc.org/
 Db_URL: http://www.atcc.org/Products/All/%s.aspx
 Cat   : Cell line collections
+//
+Abbrev: BCGO
+Name  : Beta Cell Genomics Ontology
+Server: https://github.com/obi-bcgo/bcgo
+Db_URL: http://purl.obolibrary.org/obo/%s
+Cat   : Ontologies
 //
 Abbrev: BCRC
 Name  : Taiwan Bioresource Collection and Research Center
@@ -235,6 +241,12 @@ Server: http://www.cancerrxgene.org/
 Db_URL: http://www.cancerrxgene.org/translation/CellLine/%s
 Cat   : Cell line databases/resources
 //
+Abbrev: GEO
+Name  : Gene Expression Omnibus
+Server: http://www.ncbi.nlm.nih.gov/geo/
+Db_URL: http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=%s
+Cat   : Other resources
+//
 Abbrev: HipSci
 Name  : Human Induced Pluripotent Stem Cells Initiative
 Server: http://www.hipsci.org/
@@ -351,6 +363,12 @@ Server: https://www.gene.affrc.go.jp/ex-nises/NISESCells/CellindexE1.html
 Db_URL: https://www.gene.affrc.go.jp/ex-nises/NISESCells/data-eng/%sE.html
 Cat   : Cell line collections
 //
+Abbrev: PRIDE
+Name  : PRoteomics IDEntifications archive
+Server: http://www.ebi.ac.uk/pride/archive/
+Db_URL: http://www.ebi.ac.uk/pride/archive/projects/%s
+Cat   : Other resources
+//
 Abbrev: RCB
 Name  : RIKEN Bioresource Center Cell Bank
 Server: http://www.brc.riken.jp/lab/cell/english/index_rcb.shtml
@@ -374,6 +392,12 @@ Name  : SKY/M-FISH and CGH database
 Server: http://www.ncbi.nlm.nih.gov/projects/sky/
 Db_URL: http://www.ncbi.nlm.nih.gov/sky/skyquery.cgi?form_type=initial_info&case_det=%s&Case_Details=Case+Details
 Cat   : Cell line databases/resources
+//
+Abbrev: TCB
+Name  : Tick Cell Biobank
+Server: http://www.pirbright.ac.uk/tick-cell-lines
+Db_URL: http://www.pirbright.ac.uk/node/%s
+Cat   : Cell line collections
 //
 Abbrev: TKG
 Name  : Tohoku University cell line catalog
