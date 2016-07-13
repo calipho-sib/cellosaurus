@@ -54,7 +54,7 @@ The files that are distributed by FTP and are on GitHub are:
 
 - cellosaurus.obo: Cellosaurus in OBO format
 - cellosaurus.txt: Cellosaurus in ASCII format
-- cellosaurus_deleted_ACs.txt: List of deleted ACs: what happened to the relevant entries (completely deleted or merged to another entry)
+- cellosaurus_deleted_ACs.txt: List of deleted accession numbers/entries
 - cellosaurus_faq.txt: Frequently asked questions
 - cellosaurus_refs.txt: Reference file: publications, patents, book chapters
 - cellosaurus_relnotes.txt: Release notes: provides statistics and description of format changes from the previous release
