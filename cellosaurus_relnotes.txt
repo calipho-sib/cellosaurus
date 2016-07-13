@@ -10,12 +10,12 @@ This is the release notes for Cellosaurus version 18 of July 2016.
 
 1) Statistics
 
- 6xxxx cell lines (5xxxx human, 5xxx mouse, 1xxx rat)
-   5xx species represented 
- 3xxxx synonyms
-1xxxxx cross-references to 52 ontologies, databases, catalogs, etc.
- 4xxxx references to 1xxxx distinct publications (papers, patents, thesis, etc.)
-  7xxx web links
+ 70100 cell lines (57101 human, 5644 mouse, 1524 rat)
+   557 species represented 
+ 33782 synonyms
+136826 cross-references to 56 ontologies, databases, catalogs, etc.
+ 45814 references to 11532 distinct publications (papers, patents, thesis, etc.)
+  7770 web links
 
 2) Introduction of a new line type (AS) to store secondary accession number(s)
 
