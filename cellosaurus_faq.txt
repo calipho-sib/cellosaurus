@@ -4,8 +4,8 @@
 ----------------------------------------------------------------------------
 
  Description: Cellosaurus: frequently asked questions
- Version: 18.0
- Last update: 13-July-2016
+ Version: 19.0
+ Last update: 26-September-2016
 
 ----------------------------------------------------------------------------
 
@@ -20,6 +20,14 @@ http://web.expasy.org/cellosaurus/
 
 ----------------------------------------------------------------------------
 
+Q: How can I contact the Cellosaurus so as to propose an update to an 
+existing entry or a new entry?
+
+A: You can either click on the "contact" link on the top right of all
+Cellosaurus web pages or send an email to "cellosaurus@sib.swiss"
+
+----------------------------------------------------------------------------
+
 Q: How frequently is the Cellosaurus upated?
 
 A: Currently there is no regular update schedule, but we try to release new
@@ -30,7 +38,15 @@ versions of the Cellosaurus at least 4 times per year.
 Q: Are plant cell lines going to be added to the Cellosaurus?
 
 A: Currently there is no plan to increase the coverage of the Cellosaurus to
-plant lines.
+plant cell lines.
+
+----------------------------------------------------------------------------
+
+Q: Are patient-derived xenografts and other transplantable tumors going to be
+added to the Cellosaurus?
+
+A: This is something undergoing internal discussion and if you think that
+it would be useful to add them, please let us know!
 
 ----------------------------------------------------------------------------
 
@@ -47,7 +63,7 @@ http://web.expasy.org/cgi-bin/cellosaurus/search?input=hela
 http://web.expasy.org/cgi-bin/cellosaurus/search?input=sus+scrofa
 http://web.expasy.org/cgi-bin/cellosaurus/search?input="fish cell line"
 http://web.expasy.org/cgi-bin/cellosaurus/search?input=problematic+cell+line
-http://web.expasy.org/cgi-bin/cellosaurus/search?input=PubMed=1000501
+http://web.expasy.org/cgi-bin/cellosaurus/search?input="PubMed=1000501"
 
 ----------------------------------------------------------------------------
 
@@ -125,7 +141,7 @@ Creative Bioarray:
 Deutsche Sammlung von Mikroorganismen und Zellkulturen (DSMZ):
  http://www.dsmz.de/catalogues/catalogue-human-and-animal-cell-lines.html
 Drosophila Genomics Resource Center (DGRC):
- https://dgrc.bio.indiana.edu/cells/Overview
+ https://dgrc.bio.indiana.edu/cells/Catalog
 E-lucid:
  http://www.e-lucid.com/ct/materials/cell_lines/
 EMD Millipore:
@@ -204,7 +220,7 @@ RIKEN Bioresource Center Cell Bank (RCB):
  http://www.brc.riken.jp/lab/cell/english/index_rcb.shtml
 Rockefeller University Embryonic Stem Cell Lines:
  http://rues.rockefeller.edu/
-Rockland Immnuochemicals:
+Rockland Immunochemicals:
  https://www.rockland-inc.com/patient-derived-tumor-models.aspx
 Roslin cells:
  http://roslincells.com/clinical-research-grade-lines/
@@ -212,8 +228,12 @@ Royan Stem Cell Bank:
  http://www.royaninstitute.org/cmsen/index.php?option=com_content&task=view&id=205&Itemid=40
 Selexis:
  http://www.selexis.com/#!sure-cho-m-cell-line/ctak
+Sigma-Aldrich:
+ http://www.sigmaaldrich.com/life-science/cell-culture/cell-culture-products.html
 ThermoFischer Scientific:
  http://www.thermofisher.com/ch/en/home/life-science.html
+Tiandz:
+ http://www.tiandz.com/
 Tick Cell Biobank:
  http://www.pirbright.ac.uk/tick-cell-lines
 Tohoku University cell line catalog (TKG):
@@ -227,3 +247,20 @@ Ximbio reagents online portal:
 
 ----------------------------------------------------------------------------
 
+Q: Why is supplier XYZ not listed above?
+A: There are many cell line suppliers and while we strive to be comprehensive
+we are probably missing a number of organizations/companies that distribute
+cell lines. So let us know if you think a supplier should be added to the 
+list. 
+
+But you should also be aware that:
+
+1) We may have been informed by members of the scientific community that a 
+supplier distributes cell lines that are not tested for authenticity or have
+been obtained illegally. We will remove the supplier from our list if we are
+requested to do so for those reasons.
+
+2) We do not list suppliers that act solely as redistributors for another
+organisation. 
+
+----------------------------------------------------------------------------

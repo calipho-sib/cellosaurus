@@ -1,11 +1,11 @@
----------------------------------------------------------------------------
+----------------------------------------------------------------------------
         CALIPHO group at the SIB - Swiss Institute of Bioinformatics
         Geneva, Switzerland
 ----------------------------------------------------------------------------
 
  Description: Deleted accession numbers for the Cellosaurus
- Version: 18.0
- Last update: 13-July-2016
+ Version: 19.0
+ Last update: 26-September-2016
 
 ----------------------------------------------------------------------------
 

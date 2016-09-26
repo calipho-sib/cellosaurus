@@ -6,105 +6,76 @@
    \_____\___|_|_|\___/|___/\__,_|\__,_|_|   \__,_|___/
 
 
-This is the release notes for Cellosaurus version 18 of July 2016.
+This is the release notes for Cellosaurus version 19 of September 2016.
 
 1) Statistics
 
- 70100 cell lines (57101 human, 5644 mouse, 1524 rat)
-   557 species represented 
- 33782 synonyms
-136826 cross-references to 56 ontologies, databases, catalogs, etc.
- 45814 references to 11532 distinct publications (papers, patents, thesis, etc.)
-  7770 web links
+ 76852 cell lines (63707 human, 5693 mouse, 1543 rat)
+   559 species represented 
+ 35094 synonyms
+161020 cross-references to 58 ontologies, databases, catalogs, etc.
+ 51951 references to 11937 distinct publications (papers, patents, thesis, etc.)
+  8911 web links
 
-2) Introduction of a new line type (AS) to store secondary accession number(s)
+  4722 human cell lines with STR profiles (from 126 distinct sources)
 
-Occasionally Cellosaurus entries have to be merged because they are found to
-describe identical cell lines. Until this release we would keep one of the two 
-accession numbers and store the second one in the "cellosaurus_deleted_ACs.txt"
-file where we would indicate to which entry the data concerning the obsoleted 
-accession number was integrated. Example:
+2) Changes in the DR lines
 
-CVCL_0116  Data merged in: CVCL_5782
-
-We are now introducing a new line type "AS" that will allow to store secondary
-accession numbers(s). 
-
-The format of the AS line is:
-
-AS   accession_number[; accession_number]
-
-Examples:
-AS   CVCL_0116
-AS   CVCL_B387; CVCL_Y092
-
-We have retrofitted these secondary accession numbers to all merged entries
-thus the "cellosaurus_deleted_ACs.txt" file now only contains the list of
-accession numbers corresponding to entries that have been completely deleted
-from the Cellosaurus.
-
-3) Changes in the DR lines
-
-3a) Cross-references were added to the Beta Cell Genomics Ontology (BCGO).
+2a) Cross-references were added to the International Genome Sample Resource
+(IGSR).
 
 Corresponding entry in the file cellosaurus_xrefs.txt:
 
-Abbrev: BCGO
-Name  : Beta Cell Genomics Ontology
-Server: https://github.com/obi-bcgo/bcgo
-Db_URL: http://purl.obolibrary.org/obo/%s
-Cat   : Ontologies
+Abbrev: IGSR
+Name  : International Genome Sample Resource
+Server: http://www.1000genomes.org/home
+Db_URL: http://www.1000genomes.org/data-portal/sample/%s
+Cat   : Biological sample resources
 //
 
 Example:
-DR   BCGO; BCGO_0000109
+DR   IGSR; HG00096
 
-3b) Cross-references were added to the Gene Expression Omnibus (GEO).
-
-Corresponding entry in the file cellosaurus_xrefs.txt:
-
-Abbrev: GEO
-Name  : Gene Expression Omnibus
-Server: http://www.ncbi.nlm.nih.gov/geo/
-Db_URL: http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=%s
-Cat   : Other resources
-
-Example:
-DR   GEO; GSM409470
-
-3c) Cross-references were added to the PRoteomics IDEntifications archive
-(PRIDE).
+2b) Cross-references were added to Millipore Merck (EMD Millipore).
 
 Corresponding entry in the file cellosaurus_xrefs.txt:
 
-Abbrev: PRIDE
-Name  : PRoteomics IDEntifications archive
-Server: http://www.ebi.ac.uk/pride/archive/
-Db_URL: http://www.ebi.ac.uk/pride/archive/projects/%s
-Cat   : Other resources
-
-Example:
-DR   PRIDE; PXD002117
-
-3d) Cross-references were added to the Tick Cell Biobank (TCB).
-
-Corresponding entry in the file cellosaurus_xrefs.txt:
-
-Abbrev: TCB
-Name  : Tick Cell Biobank
-Server: http://www.pirbright.ac.uk/tick-cell-lines
-Db_URL: http://www.pirbright.ac.uk/node/%s
+Abbrev: Millipore
+Name  : Merck Millipore (EMD Millipore)
+Server: http://www.merckmillipore.com/
+Db_URL: http://www.merckmillipore.com/catalogue/item/%s
 Cat   : Cell line collections
 
 Example:
-DR   TCB; 3121
+DR   Millipore; SCC077
 
-4) Change in the ST lines
+2c) Cross-references were added to the NINDS Human Cell and Data Repository
+(NHCDR).
 
-A new STR marker has been added: DXS101
+Corresponding entry in the file cellosaurus_xrefs.txt:
+
+Abbrev: NHCDR
+Name  : NINDS Human Cell and Data Repository
+Server: https://stemcells.nindsgenetics.org/
+Db_URL: https://stemcells.nindsgenetics.org?line=%s
+Cat   : Cell line collections
+//
 
 Example:
-ST   DXS101: 24,26
+DR   NHCDR; ND34730
+
+2d) Cross-references were added to the TOKU-E Cell-culture Database (TOKU-E).
+
+Corresponding entry in the file cellosaurus_xrefs.txt:
+
+Abbrev: TOKU-E
+Name  : TOKU-E Cell-culture Database
+Server: http://cell-lines.toku-e.com/
+Db_URL: http://cell-lines.toku-e.com/Cell-Lines_%s.html
+Cat   : Cell line databases/resources
+
+Example:
+DR   TOKU-E; 4110
 
 ----------------------------------------
 Amos Bairoch

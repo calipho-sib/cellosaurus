@@ -5,8 +5,8 @@
 
  Description: How to establish cross-references to the resources listed in
               the Cellosaurus
- Version: 18.0
- Last update: 13-July-2016
+ Version: 19.0
+ Last update: 26-September-2016
 
 ----------------------------------------------------------------------------
 
@@ -85,9 +85,9 @@ Cat   : Cell line collections
 //
 Abbrev: BioSample
 Name  : BioSample database
-Server: http://www.ncbi.nlm.nih.gov/biosample
-Db_URL: http://www.ncbi.nlm.nih.gov/biosample/?term=%s
-Cat   : Other resources
+Server: https://www.ncbi.nlm.nih.gov/biosample
+Db_URL: https://www.ncbi.nlm.nih.gov/biosample/?term=%s
+Cat   : Biological sample resources
 //
 Abbrev: BTO
 Name  : Brenda Tissue Ontology
@@ -98,7 +98,7 @@ Cat   : Ontologies
 //
 Abbrev: CBA
 Name  : CellBank Australia
-Server: http://www.cellbankaustralia.com/
+Server: http://www.cellbankaustralia.com/cellbank-australia-exclusive-lines/
 Db_URL: None
 Cat   : Cell line collections
 //
@@ -132,13 +132,13 @@ Abbrev: ChEMBL-Cells
 Name  : ChEMBL database of bioactive drug-like small molecules - Cell lines section
 Server: https://www.ebi.ac.uk/chembldb
 Db_URL: https://www.ebi.ac.uk/chembldb/cell/inspect/%s
-Cat   : Other resources
+Cat   : Chemistry resources
 //
 Abbrev: ChEMBL-Targets
 Name  : ChEMBL database of bioactive drug-like small molecules - Targets section
 Server: https://www.ebi.ac.uk/chembldb
 Db_URL: https://www.ebi.ac.uk/chembldb/target/inspect/%s
-Cat   : Other resources
+Cat   : Chemistry resources
 //
 Abbrev: CLDB
 Name  : Cell Line Data Base
@@ -170,7 +170,7 @@ Abbrev: Cosmic
 Name  : Catalogue of somatic mutations in cancer
 Server: http://cancer.sanger.ac.uk/cancergenome/projects/cosmic/
 Db_URL: http://cancer.sanger.ac.uk/cosmic/sample/overview?id=%s
-Cat   : Other resources
+Cat   : Polymorphism and mutation databases
 //
 Abbrev: Cosmic-CLP
 Name  : COSMIC Cell lines Project
@@ -180,13 +180,13 @@ Cat   : Cell line databases/resources
 //
 Abbrev: dbMHC
 Name  : dbMHC database
-Server: http://www.ncbi.nlm.nih.gov/gv/mhc/main.cgi?cmd=init
-Db_URL: http://www.ncbi.nlm.nih.gov/projects/gv/mhc/xslcgi.fcgi?cmd=subj&ID=%s
+Server: https://www.ncbi.nlm.nih.gov/gv/mhc/main.cgi?cmd=init
+Db_URL: https://www.ncbi.nlm.nih.gov/projects/gv/mhc/xslcgi.fcgi?cmd=subj&ID=%s
 Cat   : Cell line databases/resources
 //
 Abbrev: DGRC
 Name  : Drosophila Genomics Resource Center
-Server: https://dgrc.bio.indiana.edu/cells/Overview
+Server: https://dgrc.bio.indiana.edu/cells/Catalog
 Db_URL: https://dgrc.bio.indiana.edu/product/View?product=%s
 Cat   : Cell line collections
 //
@@ -227,7 +227,7 @@ Abbrev: ENCODE
 Name  : Encyclopedia of DNA Elements
 Server: https://www.encodeproject.org/
 Db_URL: https://www.encodeproject.org/biosamples/%s/
-Cat   : Other resources
+Cat   : Biological sample resources
 //
 Abbrev: ESTDAB
 Name  : European Searchable Tumour Line Database
@@ -243,9 +243,9 @@ Cat   : Cell line databases/resources
 //
 Abbrev: GEO
 Name  : Gene Expression Omnibus
-Server: http://www.ncbi.nlm.nih.gov/geo/
-Db_URL: http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=%s
-Cat   : Other resources
+Server: https://www.ncbi.nlm.nih.gov/geo/
+Db_URL: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=%s
+Cat   : Gene expression databases
 //
 Abbrev: HipSci
 Name  : Human Induced Pluripotent Stem Cells Initiative
@@ -276,6 +276,12 @@ Name  : Integrated Genomic Resources of human Cell Lines for Identification
 Server: http://igrcid.ibms.sinica.edu.tw/cgi-bin/index.cgi
 Db_URL: http://igrcid.ibms.sinica.edu.tw/cgi-bin/cell_line_view.cgi?cl_name=%s
 Cat   : Cell line databases/resources
+//
+Abbrev: IGSR
+Name  : International Genome Sample Resource
+Server: http://www.1000genomes.org/home
+Db_URL: http://www.1000genomes.org/data-portal/sample/%s
+Cat   : Biological sample resources
 //
 Abbrev: IHW
 Name  : International Histocompatibility Workshop cell lines
@@ -339,14 +345,26 @@ Cat   : Ontologies
 //
 Abbrev: MeSH
 Name  : Medical Subject Headings
-Server: http://www.ncbi.nlm.nih.gov/mesh
-Db_URL: http://www.nlm.nih.gov/cgi/mesh/2013/MB_cgi?field=uid&term=%s
+Server: https://www.ncbi.nlm.nih.gov/mesh
+Db_URL: https://www.nlm.nih.gov/cgi/mesh/2013/MB_cgi?field=uid&term=%s
 Cat   : Ontologies
+//
+Abbrev: Millipore
+Name  : Merck Millipore (EMD Millipore)
+Server: http://www.merckmillipore.com/
+Db_URL: http://www.merckmillipore.com/catalogue/item/%s
+Cat   : Cell line collections
 //
 Abbrev: NCBI_Iran
 Name  : National Cell Bank of Iran
 Server: http://en.pasteur.ac.ir/pages.aspx?id=823
 Db_URL: None
+Cat   : Cell line collections
+//
+Abbrev: NHCDR
+Name  : NINDS Human Cell and Data Repository
+Server: https://stemcells.nindsgenetics.org/
+Db_URL: https://stemcells.nindsgenetics.org?line=%s
 Cat   : Cell line collections
 //
 Abbrev: NIH-ARP
@@ -367,7 +385,7 @@ Abbrev: PRIDE
 Name  : PRoteomics IDEntifications archive
 Server: http://www.ebi.ac.uk/pride/archive/
 Db_URL: http://www.ebi.ac.uk/pride/archive/projects/%s
-Cat   : Other resources
+Cat   : Proteomic databases
 //
 Abbrev: RCB
 Name  : RIKEN Bioresource Center Cell Bank
@@ -389,8 +407,8 @@ Cat   : Cell line databases/resources
 //
 Abbrev: SKY/M-FISH/CGH
 Name  : SKY/M-FISH and CGH database
-Server: http://www.ncbi.nlm.nih.gov/projects/sky/
-Db_URL: http://www.ncbi.nlm.nih.gov/sky/skyquery.cgi?form_type=initial_info&case_det=%s&Case_Details=Case+Details
+Server: https://www.ncbi.nlm.nih.gov/projects/sky/
+Db_URL: https://www.ncbi.nlm.nih.gov/sky/skyquery.cgi?form_type=initial_info&case_det=%s&Case_Details=Case+Details
 Cat   : Cell line databases/resources
 //
 Abbrev: TCB
@@ -406,6 +424,12 @@ Db_URL: http://www2.idac.tohoku.ac.jp/dep/ccr/TKGdate/TKGvo10%n/%s.html
         Note: n% is the second digit of the cell line AC and %s is the cell line AC without the 'TKG'
         Example: for "DR   TKG; TKG 0377": %n=3 %s=0377
 Cat   : Cell line collections
+//
+Abbrev: TOKU-E
+Name  : TOKU-E Cell-culture Database
+Server: http://cell-lines.toku-e.com/
+Db_URL: http://cell-lines.toku-e.com/Cell-Lines_%s.html
+Cat   : Cell line databases/resources
 //
 Abbrev: Ximbio
 Name  : Ximbio reagents online portal
@@ -425,21 +449,25 @@ Abbrev: CelloPub
 Name  : Cellosaurus reference
 Server: None
 Db_URL: None
+Cat   : Reference
 //
 Abbrev: DOI
 Name  : Digital Object Identifier
 Server: http://dx.doi.org
 Db_URL: http://dx.doi.org/%s
+Cat   : Reference
 //
 Abbrev: Patent
 Name  : Google Patents
 Server: http://www.google.com/patents
 Db_URL: http://www.google.com/patents/%s
+Cat   : Reference
 //
 Abbrev: PubMed
 Name  : PubMed
-Server: http://www.ncbi.nlm.nih.gov/pubmed
-Db_URL: http://www.ncbi.nlm.nih.gov/pubmed?term=%s
+Server: https://www.ncbi.nlm.nih.gov/pubmed
+Db_URL: https://www.ncbi.nlm.nih.gov/pubmed?term=%s
+Cat   : Reference resources
 //
 
 ---------------------------------------------------------------------
@@ -464,36 +492,43 @@ Abbrev: ChEBI
 Name  : Chemical Entities of Biological Interest
 Server: http://www.ebi.ac.uk/chebi/
 Db_URL: http://www.ebi.ac.uk/chebi/searchId.do?chebiId=%s
+Cat   : Chemistry resources
 //
 Abbrev: FlyBase
 Name  : Drosophila genome database
 Server: Server: http://flybase.org
 Db_URL: Db_URL: http://flybase.org/reports/%s.html
+Cat   : Organism-specific databases
 //
 Abbrev: HGNC
 Name  : Human Gene Nomenclature Database
 Server: http://www.genenames.org
-Server: Db_URL: http://www.genenames.org/cgi-bin/gene_symbol_report?hgnc_id=%s
+Db_URL: http://www.genenames.org/cgi-bin/gene_symbol_report?hgnc_id=%s
+Cat   : Organism-specific databases
 //
 Abbrev: MGI
 Name  : Mouse Genome Database (MGD) from Mouse Genome Informatics
 Server: http://www.informatics.jax.org
 Db_URL: http://www.informatics.jax.org/marker/%s
+Cat   : Organism-specific databases
 //
 Abbrev: PubChem
 Name  : PubChem compound database
-Server: http://pubchem.ncbi.nlm.nih.gov/
-Db_URL: http://pubchem.ncbi.nlm.nih.gov/compound/%s
+Server: https://pubchem.ncbi.nlm.nih.gov/
+Db_URL: https://pubchem.ncbi.nlm.nih.gov/compound/%s
+Cat   : Chemistry resources
 //
 Abbrev: RGD
 Name  : Rat Genome Database
 Server: http://rgd.mcw.edu
 Db_URL: http://rgd.mcw.edu/tools/genes/genes_view.cgi?id=%s
+Cat   : Organism-specific databases
 //
 Abbrev: UniProtKB
 Name  : UniProt knowledgebase
 Server  http://www.uniprot.org
 Db_URL: http://www.uniprot.org/uniprot/%s
+Cat   : Sequence databases
 //
 
 ---------------------------------------------------------------------
@@ -506,6 +541,7 @@ Abbrev: NCIt
 Name  : NCI thesaurus
 Server: http://ncit.nci.nih.gov/ncitbrowser
 Db_URL: http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurusd&code=%s
+Cat   : Ontologies
 //
 
 ---------------------------------------------------------------------
@@ -516,8 +552,8 @@ Format: OX   NCBI_TaxID=%s; ! Species_name
 
 Abbrev: NCBI_TaxID
 Name  : NCBI taxonomy database
-Server: http://www.ncbi.nlm.nih.gov/taxonomy
-Db_URL: http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=%s&lvl=3
+Server: https://www.ncbi.nlm.nih.gov/taxonomy
+Db_URL: https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=%s&lvl=3
 //
 
 ---------------------------------------------------------------------
