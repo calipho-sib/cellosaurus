@@ -4,8 +4,8 @@
 ----------------------------------------------------------------------------
 
  Description: Cellosaurus: frequently asked questions
- Version: 19.0
- Last update: 26-September-2016
+ Version: 20.0
+ Last update: 01-December-2016
 
 ----------------------------------------------------------------------------
 
@@ -20,7 +20,7 @@ http://web.expasy.org/cellosaurus/
 
 ----------------------------------------------------------------------------
 
-Q: How can I contact the Cellosaurus so as to propose an update to an 
+Q: How can I contact the Cellosaurus so as to propose an update to an
 existing entry or a new entry?
 
 A: You can either click on the "contact" link on the top right of all
@@ -93,7 +93,7 @@ We try to be as inclusive as possible but the lack of indication of the
 availability of a cell line in a Cellosaurus entry can not be considered
 as a proof that the cell line is not available somewhere.
 
-The list of cell lines distributed by a given entity is very dynamic and 
+The list of cell lines distributed by a given entity is very dynamic and
 we can't insure to be in perfect synchronization with all the entities that
 are involved in cell line distribution.
 
@@ -188,7 +188,7 @@ Lurie Children Hospital of Chicacgo Human iPS & Stem Cell Core Facility:
  http://www.luriechildrensresearch.org/stemcellcore/
 Memorial Sloan Kettering Cancer Center:
  https://www.mskcc.org/research-advantage/support/office-technology-development/tangible-materials-available-licensing
-Montreal Children's Hospital Cell Repository: 
+Montreal Children's Hospital Cell Repository:
  http://www.cellbank.mcgill.ca/
 National Cell Bank of Iran (NCBI):
  http://en.pasteur.ac.ir/pages.aspx?id=823
@@ -212,7 +212,7 @@ Primogenix:
  http://www.primogenix.com/
 ProBioGen:
  http://www.probiogen.de/innovative-technologies/virusproduction-system.html
-Progeria Research Foundation: 
+Progeria Research Foundation:
  http://www.progeriaresearch.org/available_cell_lines.html
 Reliance Life Sciences:
  http://www.rellife.com/rm_cellsresearch.html
@@ -240,6 +240,8 @@ Tohoku University cell line catalog (TKG):
  http://www2.idac.tohoku.ac.jp/dep/ccr/
 Valneva:
  http://www.valneva.com/?page=35
+Vircell:
+ http://en.vircell.com/products/?technique=34
 WiCell:
  http://www.wicell.org/
 Ximbio reagents online portal:
@@ -250,17 +252,66 @@ Ximbio reagents online portal:
 Q: Why is supplier XYZ not listed above?
 A: There are many cell line suppliers and while we strive to be comprehensive
 we are probably missing a number of organizations/companies that distribute
-cell lines. So let us know if you think a supplier should be added to the 
-list. 
+cell lines. So let us know if you think a supplier should be added to the
+list.
 
 But you should also be aware that:
 
-1) We may have been informed by members of the scientific community that a 
+1) We may have been informed by members of the scientific community that a
 supplier distributes cell lines that are not tested for authenticity or have
 been obtained illegally. We will remove the supplier from our list if we are
 requested to do so for those reasons.
 
 2) We do not list suppliers that act solely as redistributors for another
-organisation. 
+organisation.
+
+----------------------------------------------------------------------------
+
+Q: Is there a difference in the content of the Cellosaurus in the ASCII (TXT),
+OBO and XML formats?
+
+Yes, you should be aware that:
+
+The OBO format file (cellosaurus.obo) does not contain STR profile data.
+
+And while the ASCII and XML versions of the Cellosaurus have the same
+data content, there are some differences in terms of the organization of
+the data. These differences are described below.
+
+The ASCII version is split into two data files: cellosaurus.txt and
+cellosaurus_refs.txt, the first file contains all the Cellosaurus
+information except for the full reference records which are stored in the
+second file. This is not the case for the XML version which consists of
+a single data file, cellosaurus.xml and a XML schema definition file,
+cellosaurus.xsd
+
+In the ASCII file cross-references to external resources do not contain
+the URLs of these cross-references, these can be instantiated using the
+information stored in the file cellosaurus_xrefs.txt
+
+----------------------------------------------------------------------------
+
+Q: Why is cell line ABCD reported to originate from a male individual but its
+authentication value for amelogenin is reported as "X" instead of "X,Y"?
+
+A: Nearly half of male cancer cell lines are incorrectly identified as female.
+Authentication testing kits usually include sex-specific markers such as
+the amelogenin gene. Frequent loss or mutation of this gene has been observed
+resulting in a false-negative call for presence of the Y chromosome and the
+sample typing as female. Loss of an intact Y chromosome has also been
+observed, sometimes with residual fragments found in other chromosomes
+suggesting a catastrophic chromosomal event in these cancer cells. Loss of
+the Y chromosome is also evident in normal physiology. In cases where the
+autosomal STR results match the original sample, but the allosome results
+are not what is expected, this indicates the cell line origin is correct but
+further investigation is required to understand the sex of the sample.
+
+For further reading:
+www.ncbi.nlm.nih.gov/pubmed/15637111
+www.ncbi.nlm.nih.gov/pubmed/9462733
+www.ncbi.nlm.nih.gov/pubmed/25714623
+
+PS: Thanks to Richard Neve and Amanda Capes-Davies for providing this very
+informative answer.
 
 ----------------------------------------------------------------------------
