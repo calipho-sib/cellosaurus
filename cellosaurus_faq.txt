@@ -250,6 +250,7 @@ Ximbio reagents online portal:
 ----------------------------------------------------------------------------
 
 Q: Why is supplier XYZ not listed above?
+
 A: There are many cell line suppliers and while we strive to be comprehensive
 we are probably missing a number of organizations/companies that distribute
 cell lines. So let us know if you think a supplier should be added to the
@@ -270,7 +271,7 @@ organisation.
 Q: Is there a difference in the content of the Cellosaurus in the ASCII (TXT),
 OBO and XML formats?
 
-Yes, you should be aware that:
+A: Yes, you should be aware that:
 
 The OBO format file (cellosaurus.obo) does not contain STR profile data.
 
@@ -307,9 +308,9 @@ are not what is expected, this indicates the cell line origin is correct but
 further investigation is required to understand the sex of the sample.
 
 For further reading:
-www.ncbi.nlm.nih.gov/pubmed/15637111
-www.ncbi.nlm.nih.gov/pubmed/9462733
-www.ncbi.nlm.nih.gov/pubmed/25714623
+https://www.ncbi.nlm.nih.gov/pubmed/9462733
+https://www.ncbi.nlm.nih.gov/pubmed/15637111
+https://www.ncbi.nlm.nih.gov/pubmed/25714623
 
 PS: Thanks to Richard Neve and Amanda Capes-Davies for providing this very
 informative answer.
