@@ -52,12 +52,19 @@ ftp://ftp.expasy.org/databases/cellosaurus
 
 The files that are distributed by FTP and are on GitHub are:
 
-- cellosaurus.obo: Cellosaurus in OBO format
-- cellosaurus.txt: Cellosaurus in ASCII format
-- cellosaurus_deleted_ACs.txt: List of deleted accession numbers/entries
-- cellosaurus_faq.txt: Frequently asked questions
+- cellosaurus.txt: Cellosaurus in structured flat file format
 - cellosaurus_refs.txt: Reference file: publications, patents, book chapters
-- cellosaurus_relnotes.txt: Release notes: provides statistics and description of format changes from the previous release
 - cellosaurus_xrefs.txt: File describing how to build live links to all the resources listed in the Cellosaurus
 
+- cellosaurus.obo: Cellosaurus in OBO format
+
+- cellosaurus.xml: Cellosaurus in XML format
+- cellosaurus.xsd: XML Schema Definition (XSD) for the Cellosaurus XML
+
+- cellosaurus_deleted_ACs.txt: List of deleted accession numbers/entries
+- cellosaurus_faq.txt: Frequently asked questions
+- cellosaurus_relnotes.txt: Release notes: provides statistics and description of format changes from the previous release
+
+Important note: the cellosaurus.xml file is only available on the FTP site
+as it is too big to be stored in GitHub.
 
