@@ -452,8 +452,8 @@ Cat   : Taxonomy
 //
 Abbrev: NCIt
 Name  : NCI thesaurus
-Server: http://ncit.nci.nih.gov/ncitbrowser
-Db_URL: http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurusd&code=%s
+Server: https://ncit.nci.nih.gov/ncitbrowser
+Db_URL: https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&code=%s
 Cat   : Ontologies
 //
 Abbrev: NHCDR

@@ -21,14 +21,14 @@ This is the release notes for Cellosaurus version 21 of March 2017.
 
 1) Changes concerning references on the ExPASy version
 
-On ExPAsy we have created specific reference pages for the references that
+On ExPASy we have created specific reference pages for the references that
 are cited in the Cellosaurus and that do not exist in PubMed, do not have a
 DOI and  are not patents. These are the references tagged with a "CelloPub"
 ID (for example: CelloPub=CLPUB00298). These page are available at the URL:
 
 http://web.expasy.org/cellosaurus/cellopub/%s
 
-where %s is the CelloPUb number. Example:
+where %s is the CelloPub number. Example:
 
 http://web.expasy.org/cellosaurus/cellopub/CLPUB00298
 
