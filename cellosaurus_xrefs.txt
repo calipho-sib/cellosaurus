@@ -5,8 +5,8 @@
 
  Description: How to establish cross-references to the resources listed in
               the Cellosaurus
- Version: 20.0
- Last update: 01-December-2016
+ Version: 21.0
+ Last update: 03-March-2017
 
 ----------------------------------------------------------------------------
 
@@ -59,7 +59,7 @@ here:
 1) DR lines
 
 Format: DR   Resource_abbrev; %s
-Where : Resource_abbrev is one of: ATCC|BCGO|BCRC|BCRJ|BTO|BioSample|CBA|CCLE|CCLV|CCRID|CGH-DB|ChEMBL-Cells|ChEMBL-Targets|CLDB|CLO|CLS|Coriell|Cosmic|Cosmic-CLP|dbMHC|DGRC|DSMZ|EBiSC|ECACC|EFO|ENCODE|ESTDAB|GDSC|GEO|HipSci|hPSCreg|ICLC|IFO|IGRhCellID|IGSR|IHW|IMGT/HLA|ISCR|IZSLER|JCRB|KCB|KCLB|LINCS|Lonza|MCCL|MeSH|Millipore|NCBI_Iran|NHCDR |NISES|NIH-ARP|PRIDE|RCB|RSCB|SKIP|SKY/M-FISH/CGH|TCB|TKG|TOKU-E|Wikidata|Ximbio
+Where : Resource_abbrev is one of: ATCC|BCGO|BCRC|BCRJ|BTO|BioSample|BioSamples|CBA|CCLE|CCLV|CCRID|CGH-DB|ChEMBL-Cells|ChEMBL-Targets|CLDB|CLO|CLS|Coriell|Cosmic|Cosmic-CLP|dbMHC|DGRC|DSMZ|EBiSC|ECACC|EFO|ENCODE|ESTDAB|GDSC|GEO|HipSci|hPSCreg|ICLC|IFO|IGRhCellID|IGSR|IHW|IMGT/HLA|ISCR|IZSLER|JCRB|KCB|KCLB|LINCS|Lonza|MCCL|MeSH|Millipore|NCBI_Iran|NHCDR |NISES|NIH-ARP|PRIDE|RCB|RSCB|SKIP|SKY/M-FISH/CGH|TCB|TKG|TOKU-E|Wikidata|Ximbio
 
 2) RX lines
 
@@ -130,6 +130,12 @@ Server: https://www.ncbi.nlm.nih.gov/biosample
 Db_URL: https://www.ncbi.nlm.nih.gov/biosample/?term=%s
 Cat   : Biological sample resources
 //
+Abbrev: BioSamples
+Name  : BioSamples database
+Server: https://www.ebi.ac.uk/biosamples/
+Db_URL: https://www.ebi.ac.uk/biosamples/samples/%s
+Cat   : Biological sample resources
+//
 Abbrev: BTO
 Name  : Brenda Tissue Ontology
 Server: http://bioportal.bioontology.org/ontologies/BTO
@@ -151,7 +157,7 @@ Cat   : Cell line databases/resources
 //
 Abbrev: CCLV
 Name  : Collection of Cell Lines in Veterinary Medicine
-Server: https://www.fli.bund.de/en/startseite/institutes/department-of-experimental-animal-facilities-and-biorisk-management/cclv.html
+Server: https://www.fli.de/en/services/collection-of-cell-lines-in-veterinary-medicine-cclv/
 Db_URL: None
 Cat   : Cell line collections
 //
@@ -162,10 +168,10 @@ Db_URL: None
 Cat   : Cell line databases/resources
 //
 Abbrev: CelloPub
-Name  : Cellosaurus reference
-Server: None
-Db_URL: None
-Cat   : Reference
+Name  : Cellosaurus Publication
+Server: http://web.expasy.org/cellosaurus/
+Db_URL: http://web.expasy.org/cellosaurus/cellopub/%s
+Cat   : Reference resources
 //
 Abbrev: CGH-DB
 Name  : CGH Data Base
@@ -247,7 +253,7 @@ Abbrev: DOI
 Name  : Digital Object Identifier
 Server: http://dx.doi.org
 Db_URL: http://dx.doi.org/%s
-Cat   : Reference
+Cat   : Reference resources
 //
 Abbrev: DSMZ
 Name  : Deutsche Sammlung von Mikroorganismen und Zellkulturen
@@ -333,7 +339,7 @@ Cat   : Cell line databases/resources
 Abbrev: ICLC
 Name  : Interlab Cell Line Collection
 Server: http://www.iclc.it
-Db_URL: None
+Db_URL: http://www.iclc.it/details/det_list.php?line_id=%s
 Cat   : Cell line collections
 //
 Abbrev: IFO
@@ -474,7 +480,7 @@ Abbrev: Patent
 Name  : Google Patents
 Server: http://www.google.com/patents
 Db_URL: http://www.google.com/patents/%s
-Cat   : Reference
+Cat   : Reference resources
 //
 Abbrev: PRIDE
 Name  : PRoteomics IDEntifications archive
@@ -491,7 +497,7 @@ Cat   : Chemistry resources
 Abbrev: PubMed
 Name  : PubMed
 Server: https://www.ncbi.nlm.nih.gov/pubmed
-Db_URL: https://www.ncbi.nlm.nih.gov/pubmed?term=%s
+Db_URL: https://www.ncbi.nlm.nih.gov/pubmed/%s
 Cat   : Reference resources
 //
 Abbrev: RCB
@@ -521,7 +527,7 @@ Cat   : Cell line databases/resources
 Abbrev: SKY/M-FISH/CGH
 Name  : SKY/M-FISH and CGH database
 Server: https://www.ncbi.nlm.nih.gov/projects/sky/
-Db_URL: https://www.ncbi.nlm.nih.gov/sky/skyquery.cgi?form_type=initial_info&case_det=%s&Case_Details=Case+Details
+Db_URL: None
 Cat   : Cell line databases/resources
 //
 Abbrev: TCB

@@ -4,8 +4,8 @@
 ----------------------------------------------------------------------------
 
  Description: Deleted accession numbers for the Cellosaurus
- Version: 20.0
- Last update: 01-December-2016
+ Version: 21.0
+ Last update: 03-March-2017
 
 ----------------------------------------------------------------------------
 
@@ -21,7 +21,7 @@ CVCL_0056  Was never publicly available
 CVCL_0066  Was never publicly available
 CVCL_0085  Was never publicly available
 CVCL_0222  Deleted in release 20; not a real cell line but a global description of the COS-1 and COS-7 cells (COS)
-CVCL_0282  Deleted in release 10; primary cell (h-Nheps) 
+CVCL_0282  Deleted in release 10; primary cell (h-Nheps)
 CVCL_2531  Was never publicly available
 CVCL_2Y34  Deleted in release 20; not a cell line but a DNA sample (ND29770). In addition was incorrectly stating it to be from a Huntington patient
 CVCL_3474  Was never publicly available

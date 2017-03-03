@@ -6,124 +6,54 @@
    \_____\___|_|_|\___/|___/\__,_|\__,_|_|   \__,_|___/
 
 
-This is the release notes for Cellosaurus version 20 of December 2016.
+This is the release notes for Cellosaurus version 21 of March 2017.
 
 1) Statistics
 
- 80666 cell lines (67725 human, 6232 mouse, 1790 rat)
-   558 species represented
- 35950 synonyms
-166481 cross-references to 61 ontologies, databases, catalogs, etc.
- 53942 references to 12439 distinct publications (papers, patents, thesis, etc.)
-  9012 web links
+ 81458 cell lines (68405 human, 6299 mouse, 1800 rat)
+   561 species represented
+ 37334 synonyms
+169329 cross-references to 62 ontologies, databases, catalogs, etc.
+ 57308 references to 12955 distinct publications (papers, patents, thesis, etc.)
+  9808 web links
 
-  4760 human cell lines with STR profiles (from 140 distinct sources)
+  4824 human cell lines with STR profiles (from 151 distinct sources)
 
-2) Distribution of the Cellosaurus in the XML format
+1) Changes concerning references on the ExPASy version
 
-Starting with this release we are providing the Cellosaurus in the XML
-format in addition to the text and OBO formats.
+On ExPAsy we have created specific reference pages for the references that
+are cited in the Cellosaurus and that do not exist in PubMed, do not have a
+DOI and  are not patents. These are the references tagged with a "CelloPub"
+ID (for example: CelloPub=CLPUB00298). These page are available at the URL:
 
-There are two new files on the FTP directory for the Cellosaurus at:
+http://web.expasy.org/cellosaurus/cellopub/%s
 
-ftp://ftp.expasy.org/databases/cellosaurus
+where %s is the CelloPUb number. Example:
 
-These files are:
+http://web.expasy.org/cellosaurus/cellopub/CLPUB00298
 
-cellosaurus.xml: The XML file for the Cellosaurus
-cellosaurus.xsd: The XML schema definition file for the Cellosaurus.
+2) Changes in the DR lines
 
-3) Changes in the CC lines
+Cross-references were added to the BioSamples database at EBI.
 
-3a) Introduction of the "Doubling time" CC line topic.
-
-We have introduced a new CC topic, "Doubling time", to store information on
-the population doubling time of cell lines.
-
-Examples:
-CC   Doubling time: ~40 hours (DSMZ).
-CC   Doubling time: 39 hours (DTP); 40-60 hours (DSMZ).
-CC   Doubling time: 53 hours (PubMed=20176655).
-
-3b) Introduction of the "Microsatellite instability" CC line topic.
-
-We have introduced a new CC topic, "Microsatellite instability", to store
-information relevant to the degree of microsatellite instability (MSI) of
-human cancer cell lines. MSI is characterized by the expansion or contraction
-of DNA repeat tracts as a consequence of DNA mismatch repair deficiency.
-
-Examples:
-CC   Microsatellite instability: Stable (MSS/MSI-S).
-CC   Microsatellite instability: Instable (MSI-High).
-
-3c) Introduction of the "Characteristics" CC line topic.
-
-Quite a number of comments of the type "Miscellaneous" have been moved to a
-new CC topic that describes a cell line "characteristics".
-
-Examples:
-CC   Characteristics: A mutation in GBF1 is responsible for BFA resistance.
-CC   Characteristics: IL3 dependent.
-CC   Characteristics: Infected by Equine infectious anemia virus.
-CC   Characteristics: Proliferates at the permissive temperature (32 Celsius) and has enhanced expression of a differentiated Sertoli cell phenotype at the restrictive temperature (40-41 Celsius).
-
-3d) Introduction of the "Anecdotal" CC line topic.
-
-We introduced the "Anecdotal" CC topic for a variety of information items
-that are of an anecdotal nature and moved some of the "Miscellaneous"
-comments into that new topic.
-
-Examples:
-CC   Anecdotal: First arthropod cell line to be established.
-CC   Anecdotal: Cell line name is derived from the cat name 'Cocca'.
-CC   Anecdotal: The HeLa cell line which was established in February 1951 is the oldest human immortal cell line.
-
-3e) Introduction of the "Biotechnology" CC line topic.
-
-We introduced the "Biotechnology" CC topic to describe the use of a cell line
-in a biotechnological context and moved some of the "Miscellaneous" comments
-into that new topic.
-
-Examples:
-CC   Biotechnology: Used in a bioassay for the determination of polychlorinated dibenzo-p-dioxins (PCDDs), polychlorinated dibenzofurans (PCDFs), and dioxin-like polychlorinated biphenyls (DL-PCBs) in environmental and food samples.
-CC   Biotechnology: Used for the production of the Purified Vero-cell Rabies Vaccine (PVRV) (Trade name: Verorab).
-
-4) Changes in the DR lines
-
-Cross-references were added to Wikidata.
-
-Corresponding entry in the file cellosaurus_xrefs.txt:
-
-Abbrev: Wikidata
-Name  : Wikidata
-Server: https://www.wikidata.org/wiki/Wikidata:Main_Page
-Db_URL: https://www.wikidata.org/wiki/%s
-Cat   : Other
-//
+Abbrev: BioSamples
+Name  : BioSamples database
+Server: https://www.ebi.ac.uk/biosamples/
+Db_URL: https://www.ebi.ac.uk/biosamples/samples/%s
+Cat   : Biological sample resources
 
 Example:
-DR   Wikidata; Q3273166
+DR   BioSamples; SAMEA3303029
 
-5) Changes in the OX lines
-
-Up to this release we were using a small number of NCBI taxonomy terms that
-specifically described hybrid cells. For example:
-
-OX   NCBI_TaxID=129429; ! Mouse/rat hybrid cell lines
-
-But these taxonomy terms were not available for all combination of hybrid
-cells that are stored in the Cellosaurus and their use complexifies the
-procees of computationally extracting the parent species of an hybrid cell
-line. We therefore decided to standardize the "OX" representation of all
-hybrid cell lines by having in all cases as many OX lines as there are
-parent species. In the example above, we now have:
-
-OX   NCBI_TaxID=10090; ! Mus musculus
-OX   NCBI_TaxID=10116; ! Rattus norvegicus
-
-This change has no impact on the format of the ASCII or OBO versions of the
-Cellosaurus.
-
+Note that EBI BioSamples is distinct from NCBI BioSample for which we already
+provide cross-references. In theory both resources should exchange their
+sample entries and one would need to only provide cross-references to one of
+them. Currently the exchange of data is not yet complete and the information
+content is different between the two resources so we decided to implement
+cross-references to EBI Biosamples for all samples with accession numbers
+starting with "SAMEA" while we cross-reference to NCBI BioSample for all
+samples with accession numbers starting with "SAMN".
+ 
 ----------------------------------------
 Amos Bairoch
 CALIPHO group; neXtProt project

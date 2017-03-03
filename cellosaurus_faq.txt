@@ -4,8 +4,8 @@
 ----------------------------------------------------------------------------
 
  Description: Cellosaurus: frequently asked questions
- Version: 20.0
- Last update: 01-December-2016
+ Version: 21.0
+ Last update: 03-March-2017
 
 ----------------------------------------------------------------------------
 
@@ -31,7 +31,7 @@ Cellosaurus web pages or send an email to "cellosaurus@sib.swiss"
 Q: How frequently is the Cellosaurus upated?
 
 A: Currently there is no regular update schedule, but we try to release new
-versions of the Cellosaurus at least 4 times per year.
+versions of the Cellosaurus at least 4 to 6 times per year.
 
 ----------------------------------------------------------------------------
 
@@ -62,7 +62,7 @@ http://web.expasy.org/cgi-bin/cellosaurus/search?input=CVCL_0030
 http://web.expasy.org/cgi-bin/cellosaurus/search?input=hela
 http://web.expasy.org/cgi-bin/cellosaurus/search?input=sus+scrofa
 http://web.expasy.org/cgi-bin/cellosaurus/search?input="fish cell line"
-http://web.expasy.org/cgi-bin/cellosaurus/search?input=problematic+cell+line
+http://web.expasy.org/cgi-bin/cellosaurus/search?input=doubling+time+"3 days"
 http://web.expasy.org/cgi-bin/cellosaurus/search?input="PubMed=1000501"
 
 ----------------------------------------------------------------------------
@@ -104,6 +104,8 @@ AddexBio:
  http://www.addexbio.com/productshow?id=4
 American Type Culture Collection (ATCC):
  http://www.atcc.org/
+Applied Biological Materials (ABM):
+ https://www.abmgood.com/Immortalized-Cells.html
 Asterand Bioscience:
  http://www.asterandbio.com/biospecimens/human-tissue-derived-products/cell-lines/
 Axiogenesis:
@@ -114,7 +116,7 @@ Banco de Celulas do Rio de Janeiro (BCRJ):
  http://bcrj.org.br/
 Biopredic International:
  http://www.biopredic.com/
-Cedarland Cellutions Biosystems:
+Cedarlane Cellutions Biosystems:
  https://www.cedarlanelabs.com/Cellutions
 Cell Biolabs:
  http://www.cellbiolabs.com/platinum-retroviral-packaging-cell-lines
@@ -133,7 +135,7 @@ Clontech Laboratories:
 CLS - Cell lines Services:
  http://www.clsgmbh.de/
 Collection of Cell Lines in Veterinary Medicine (CCLV):
- https://www.fli.bund.de/en/startseite/institutes/department-of-experimental-animal-facilities-and-biorisk-management/cclv.html
+ https://www.fli.de/en/services/collection-of-cell-lines-in-veterinary-medicine-cclv/
 Coriell Institute Biorepositories:
  https://catalog.coriell.org/
 Creative Bioarray:
@@ -144,30 +146,34 @@ Drosophila Genomics Resource Center (DGRC):
  https://dgrc.bio.indiana.edu/cells/Catalog
 E-lucid:
  http://www.e-lucid.com/ct/materials/cell_lines/
-EMD Millipore:
- http://www.emdmillipore.com/US/en
+Endocells:
+ http://www.endocells.com/products-and-services/
 ESI BIO:
  http://www.esibio.com/products/product-category/cell-lines/
 Essen BioScience:
- http://www.essenbioscience.com/essen-products/reagents-and-consumables/filter/cell-lines/
+ http://www.essenbioscience.com/en/products/reagents-consumables/category/cell-lines/
 European Bank for induced pluripotent Stem Cells (EBiSC):
  http://www.ebisc.org/
 European Collection for Biomedical Research:
  http://bioinformatics.hsanmartino.it/ecbr/ecbrsite.html
 European Collection of Cell Cultures (ECACC):
  http://www.phe-culturecollections.org.uk/products/celllines/index.aspx
-Everycyte:
+Evercyte:
  http://www.evercyte.com/medizin/cell-lines.html
 Genea Biocells:
- http://www.geneastemcells.com.au/Our-Products/Stem-Cell-Lines
+ http://geneabiocells.com/services/shelf-products/human-embryonic-stem-cells/
 GenScript:
  http://www.genscript.com/catalog_cell_lines.html
 HGDP-CEPH Human Genome Diversity Cell Line Panel:
  http://www.cephb.fr/en/hgdp_panel.php
+Horizon Discovery:
+ https://www.horizondiscovery.com/cell-lines
 Human Induced Pluripotent Stem Cells Initiative:
  http://www.hipsci.org/
 Inbiomed:
  http://www.inbiomed.org/Index.php/servicios_externos/inbiobank
+INCELL:
+ http://www.incell.com/product-category/proprietary-cell-lines/
 Interlab Cell Line Collection (ICLC):
  http://www.iclc.it/
 InvivoGen:
@@ -188,6 +194,8 @@ Lurie Children Hospital of Chicacgo Human iPS & Stem Cell Core Facility:
  http://www.luriechildrensresearch.org/stemcellcore/
 Memorial Sloan Kettering Cancer Center:
  https://www.mskcc.org/research-advantage/support/office-technology-development/tangible-materials-available-licensing
+Merck Millipore (EMD Millipore)
+ http://www.merckmillipore.com/
 Montreal Children's Hospital Cell Repository:
  http://www.cellbank.mcgill.ca/
 National Cell Bank of Iran (NCBI):
@@ -198,6 +206,8 @@ NIH AIDS Reagent Program (NIH-ARP):
  https://www.aidsreagent.org/
 NIMH Repository and Genomic Resource:
  https://www.nimhgenetics.org/stem_cells/crm_lines.php
+NINDS Human Cell and Data Repository (NHCDR):
+ https://stemcells.nindsgenetics.org
 NISES Cell Database:
  https://www.gene.affrc.go.jp/ex-nises/NISESCells/CellindexE1.html
 Novus Biologicals:
@@ -222,14 +232,14 @@ Rockefeller University Embryonic Stem Cell Lines:
  http://rues.rockefeller.edu/
 Rockland Immunochemicals:
  https://www.rockland-inc.com/patient-derived-tumor-models.aspx
-Roslin cells:
- http://roslincells.com/clinical-research-grade-lines/
-Royan Stem Cell Bank:
+Royan Stem Cell Bank (RSCB):
  http://www.royaninstitute.org/cmsen/index.php?option=com_content&task=view&id=205&Itemid=40
 Selexis:
  http://www.selexis.com/#!sure-cho-m-cell-line/ctak
 Sigma-Aldrich:
  http://www.sigmaaldrich.com/life-science/cell-culture/cell-culture-products.html
+Systems Biosciences (SBI):
+ https://www.systembio.com/stem-cell-research/ips-cell-lines
 ThermoFischer Scientific:
  http://www.thermofisher.com/ch/en/home/life-science.html
 Tiandz:
@@ -245,7 +255,9 @@ Vircell:
 WiCell:
  http://www.wicell.org/
 Ximbio reagents online portal:
- https://ximb.io/
+ https://ximbio.com/
+ZenBio:
+ http://www.zen-bio.com/products/cells/
 
 ----------------------------------------------------------------------------
 
