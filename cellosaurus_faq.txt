@@ -4,8 +4,8 @@
 ----------------------------------------------------------------------------
 
  Description: Cellosaurus: frequently asked questions
- Version: 21.0
- Last update: 03-March-2017
+ Version: 22.0
+ Last update: 15-May-2017
 
 ----------------------------------------------------------------------------
 
@@ -170,6 +170,8 @@ Horizon Discovery:
  https://www.horizondiscovery.com/cell-lines
 Human Induced Pluripotent Stem Cells Initiative:
  http://www.hipsci.org/
+IHWG Cell and DNA Bank:
+ https://www.fredhutch.org/en/labs/clinical/projects/ihwg/cell-lines-genes.html
 Inbiomed:
  http://www.inbiomed.org/Index.php/servicios_externos/inbiobank
 INCELL:
@@ -200,6 +202,8 @@ Montreal Children's Hospital Cell Repository:
  http://www.cellbank.mcgill.ca/
 National Cell Bank of Iran (NCBI):
  http://en.pasteur.ac.ir/pages.aspx?id=823
+National Laboratory for the Genetics of Israeli Populations (NLGIP):
+ http://yoran.tau.ac.il/nlgip/
 NIA ES Cell Bank:
  http://esbank.nia.nih.gov/index.html
 NIH AIDS Reagent Program (NIH-ARP):

@@ -5,8 +5,8 @@
 
  Description: How to establish cross-references to the resources listed in
               the Cellosaurus
- Version: 21.0
- Last update: 03-March-2017
+ Version: 22.0
+ Last update: 15-May-2017
 
 ----------------------------------------------------------------------------
 
@@ -59,7 +59,7 @@ here:
 1) DR lines
 
 Format: DR   Resource_abbrev; %s
-Where : Resource_abbrev is one of: ATCC|BCGO|BCRC|BCRJ|BTO|BioSample|BioSamples|CBA|CCLE|CCLV|CCRID|CGH-DB|ChEMBL-Cells|ChEMBL-Targets|CLDB|CLO|CLS|Coriell|Cosmic|Cosmic-CLP|dbMHC|DGRC|DSMZ|EBiSC|ECACC|EFO|ENCODE|ESTDAB|GDSC|GEO|HipSci|hPSCreg|ICLC|IFO|IGRhCellID|IGSR|IHW|IMGT/HLA|ISCR|IZSLER|JCRB|KCB|KCLB|LINCS|Lonza|MCCL|MeSH|Millipore|NCBI_Iran|NHCDR |NISES|NIH-ARP|PRIDE|RCB|RSCB|SKIP|SKY/M-FISH/CGH|TCB|TKG|TOKU-E|Wikidata|Ximbio
+Where : Resource_abbrev is one of: ATCC|BCGO|BCRC|BCRJ|BTO|BioSample|BioSamples|CBA|CCLE|CCLV|CCRID|CGH-DB|ChEMBL-Cells|ChEMBL-Targets|CLDB|CLO|CLS|ColonAtlas|Coriell|Cosmic|Cosmic-CLP|dbMHC|DGRC|DSMZ|EBiSC|ECACC|EFO|ENCODE|ESTDAB|FlyBase|GDSC|GEO|HipSci|hPSCreg|ICLC|IFO|IGRhCellID|IGSR|IHW|IMGT/HLA|ISCR|IZSLER|JCRB|KCB|KCLB|LINCS_HMS|LINCS_LDP|Lonza|MCCL|MeSH|Millipore|NCBI_Iran|NCI-DTP|NHCDR |NISES|NIH-ARP|PRIDE|RCB|RSCB|SKIP|SKY/M-FISH/CGH|TCB|TKG|TOKU-E|Wikidata|Ximbio
 
 2) RX lines
 
@@ -219,6 +219,12 @@ Db_URL: http://www.clsgmbh.de/%s.html
         Example: for "DR   CLS; 400294/p2677_MSC-P5": %s=p2677_MSC-P5
 Cat   : Cell line collections
 //
+Abbrev: ColonAtlas
+Name  : Colorectal Cancer Atlas
+Server: http://colonatlas.org
+Db_URL: http://colonatlas.org/search_cell_line?cell_line=%s
+Cat   : Cell line databases/resources
+//
 Abbrev: Coriell
 Name  : Coriell Institute Biorepositories
 Server: https://catalog.coriell.org
@@ -362,7 +368,7 @@ Cat   : Biological sample resources
 //
 Abbrev: IHW
 Name  : International Histocompatibility Workshop cell lines
-Server: http://www.ihwg.org/hla/
+Server: https://www.fredhutch.org/en/labs/clinical/projects/ihwg.html
 Db_URL: None
 Cat   : Cell line databases/resources
 //
@@ -402,10 +408,16 @@ Server: https://cellbank.snu.ac.kr/main/index.html
 Db_URL: https://cellbank.snu.ac.kr/english/sub/catalog.php?page=detail&CatNo=59&strQ=%s&submit1=Find+it
 Cat   : Cell line collections
 //
-Abbrev: LINCS
-Name  : Library of Integrated Network-based Cellular Signatures
+Abbrev: LINCS_HMS
+Name  : Harvard Medical School (HMS) LINCS Center
 Server: http://lincs.hms.harvard.edu/db/cells/
 Db_URL: http://lincs.hms.harvard.edu/db/cells/%s/
+Cat   : Cell line databases/resources
+//
+Abbrev: LINCS_LDP
+Name  : LINCS Data Portal
+Server: http://lincsportal.ccs.miami.edu/cells/
+Db_URL: http://lincsportal.ccs.miami.edu/cells/#/view/%s
 Cat   : Cell line databases/resources
 //
 Abbrev: Lonza
@@ -415,7 +427,7 @@ Db_URL: http://bio.lonza.com/6.html?tx_lzcelldatabase_pi_view[id]=%s
 Cat   : Cell line databases/resources
 //
 Abbrev: MCCL
-Name  : Molecular Connection cell line ontology
+Name  : Molecular Connection Cell Line ontology
 Server: https://web.archive.org/web/20130228074205/http://www.molecularconnections.com/home/ontology
 Db_URL: None
 Cat   : Ontologies
@@ -449,6 +461,12 @@ Name  : NCBI taxonomy database
 Server: https://www.ncbi.nlm.nih.gov/taxonomy
 Db_URL: https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=%s&lvl=3
 Cat   : Taxonomy
+//
+Abbrev: NCI-DTP
+Name  : NCI Development Therapeutics Program
+Server: https://dtp.cancer.gov/repositories/
+Db_URL: None
+Cat   : Cell line collections
 //
 Abbrev: NCIt
 Name  : NCI thesaurus
@@ -526,7 +544,7 @@ Cat   : Cell line databases/resources
 //
 Abbrev: SKY/M-FISH/CGH
 Name  : SKY/M-FISH and CGH database
-Server: https://www.ncbi.nlm.nih.gov/projects/sky/
+Server: https://www.ncbi.nlm.nih.gov/dbvar/studies/nstd136/
 Db_URL: None
 Cat   : Cell line databases/resources
 //

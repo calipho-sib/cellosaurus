@@ -2,7 +2,7 @@
 <!-- *****************************************************************************
         XML Schema Definition (XSD) for the Cellosaurus XML
 
-        Date: 2017-Mar-03  Release: 1.01
+        Date: 2017-May-15  Release: 1.10
 
         Copyright (c) CALIPHO group @ SIB - Swiss Institute of Bioinformatics
         Distributed under the Creative Commons Attribution-NoDerivs License
@@ -256,6 +256,7 @@
                   <xs:enumeration value="Caution"/>
                   <xs:enumeration value="Characteristics"/>
                   <xs:enumeration value="Derived from metastatic site"/>
+                  <xs:enumeration value="Derived from sampling site"/>
                   <xs:enumeration value="Discontinued"/>
                   <xs:enumeration value="Doubling time"/>
                   <xs:enumeration value="From"/>
@@ -271,6 +272,7 @@
                   <xs:enumeration value="Problematic cell line"/>
                   <xs:enumeration value="Registration"/>
                   <xs:enumeration value="Selected for resistance to"/>
+                  <xs:enumeration value="Sequence variation"/>
                   <xs:enumeration value="Transfected with"/>
                   <xs:enumeration value="Transformant"/>
                </xs:restriction>
