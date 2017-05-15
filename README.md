@@ -23,9 +23,9 @@ For each cell line we provide the following information:
 - A recommended name. This is most frequently the name provided in the original publication.
 - A list of synonyms. We try to list all the different synonyms for the cell line, including alternative use of lower and upper cases characters.
 - A unique accession number.
-- Structured comments that are describe a number of topics such as: contaminated cell lines, misspellings, breed/subspecies a cell line is derived from, gene transfection, metastatic site for cancer cell lines, transformant, etc.
+- Structured comments that are describe a number of topics such as: contaminated cell lines, misspellings, breed/subspecies a cell line is derived from, gene transfection, metastatic or sampling site for cancer cell lines, transformant, etc.
 - For cancer and human genetic disease cell lines, we provide the NCI Thesaurus entry code for the disease(s) that the individual from which the cell line originated was suffering from.
-- For human cell lines where this information is available, we provide the STR (short tandem repeat) profile information.
+- For human and dog cell lines where this information is available, we provide the STR (short tandem repeat) profile information.
 - The species of origin.
 - If a cell line originate from another one we provide a link to the parent cell line.
 - If a cell line originate from the same individual as other cell line(s) (sister cell lines) cross-reference to these sister cell line(s) are provided.
