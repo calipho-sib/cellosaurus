@@ -46,9 +46,9 @@ ST   Dog PEZ20: 176
 
 3) Changes in the CC lines
 
-3a) New "Derived for sampling site" CC line topic.
+3a) New "Derived from sampling site" CC line topic.
 
-Introduction of the "Derived for sampling site" CC line topic. This is used
+Introduction of the "Derived from sampling site" CC line topic. This is used
 to indicate where a non-metastic cancerous cell line was isolated when it is
 not directly from a solid tumor.
 
