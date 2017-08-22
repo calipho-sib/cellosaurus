@@ -2,7 +2,7 @@
 <!-- *****************************************************************************
         XML Schema Definition (XSD) for the Cellosaurus XML
 
-        Date: 2017-May-15  Release: 1.10
+        Date: 2017-August-22; Release: 1.20
 
         Copyright (c) CALIPHO group @ SIB - Swiss Institute of Bioinformatics
         Distributed under the Creative Commons Attribution-NoDerivs License
@@ -265,6 +265,7 @@
                   <xs:enumeration value="Microsatellite instability"/>
                   <xs:enumeration value="Miscellaneous"/>
                   <xs:enumeration value="Misspelling"/>
+                  <xs:enumeration value="Monoclonal antibody isotype"/>
                   <xs:enumeration value="Monoclonal antibody target"/>
                   <xs:enumeration value="Omics"/>
                   <xs:enumeration value="Part of"/>

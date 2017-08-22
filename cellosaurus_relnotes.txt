@@ -6,130 +6,105 @@
    \_____\___|_|_|\___/|___/\__,_|\__,_|_|   \__,_|___/
 
 
-This is the release notes for Cellosaurus version 22 of May 2017.
+This is the release notes for Cellosaurus version 23 of August 2017.
 
 1) Statistics
 
- 83000 cell lines (69593 human, 6411 mouse, 1818 rat)
-   564 species represented
- 40305 synonyms
-173988 cross-references to 66 ontologies, databases, catalogs, etc.
- 60511 references to 13378 distinct publications (papers, patents, thesis, etc.)
- 10198 web links
+ 87309 cell lines (71518 human, 8159 mouse, 1890 rat)
+   567 species represented
+ 42972 synonyms
+178442 cross-references to 70 ontologies, databases, catalogs, etc.
+ 63273 references to 13968 distinct publications (papers, patents, thesis, etc.)
+ 12603 web links
 
-  5014 human cell lines with STR profiles (from 168 distinct sources)
+  5057 human and dog cell lines with STR profiles (from 186 distinct sources)
 
-2) Changes in the ST lines
+2) Changes in the CC lines
 
-2a) Introduction of STR markers for dog cell lines.
+2a) New "Monoclonal antibody isotype" CC line topic.
 
-Starting with this release we will capture STR marker information relevant to
-dog cell lines. In a first instance we are introducing 10 markers: FHC2010,
-FHC2054, FHC2079, PEZ1, PEZ3, PEZ5, PEZ6, PEZ8, PEZ12 and PEZ20.
-
-We are prefixing these STR markers with the word "Dog" to insure that there is
-no confusion with human STR markers. Example:
-
-17CM98 (CVCL_0C82)
-
-ST   Source(s): PubMed=27197945
-ST   Dog FHC2010: 231
-ST   Dog FHC2054: 156
-ST   Dog FHC2079: 271
-ST   Dog PEZ1: 127
-ST   Dog PEZ3: 121,131
-ST   Dog PEZ5: 107
-ST   Dog PEZ6: 176
-ST   Dog PEZ8: 236,240
-ST   Dog PEZ12: 270,274
-ST   Dog PEZ20: 176
-
-3) Changes in the CC lines
-
-3a) New "Derived from sampling site" CC line topic.
-
-Introduction of the "Derived from sampling site" CC line topic. This is used
-to indicate where a non-metastic cancerous cell line was isolated when it is
-not directly from a solid tumor.
+Introduction of the "Monoclonal antibody isotype" CC line topic. This is
+used to indicate the immunoglobulin isotype of the monoclonal antibody
+(mAB) produced by a cell line. This topic applies to hybridoma (except
+T-cell hybridoma) and to a number of transformed cell lines that produce
+mABs.
 
 Examples:
-CC   Derived from sampling site: Bone marrow.
-CC   Derived from sampling site: Pleural effusion.
+CC   Monoclonal antibody isotype: IgG2b, kappa.
+CC   Monoclonal antibody isotype: IgM.
 
-3b) New "Sequence variation" CC line topic.
+3) Changes in the DR lines
 
-Introduction of the "Sequence variation" CC line topic. This is used to store
-information relevant to mutations (somatic or genomic) that are important to
-describe in the context of cancers and genetic diseases.
-
-Examples:
-CC   Sequence variation: Heterozygous for BRAF p.Val600Glu (ATCC).
-CC   Sequence variation: Homozygous for CFTR p.Phe508del (Coriell).
-CC   Sequence variation: CBS c.1149-1226del (exon 11 del) (PubMed=8528202).
-CC   Sequence variation: Has a hexanucleotide repeat expansion in the 1st intron of C9orf72.
-
-4) Changes in the DR lines
-
-4a) Cross-references were added to the Colorectal Cancer Atlas (ColonAtlas).
+3a) Cross-references were added to the AddexBio cell line products.
 
 Corresponding entry in the file cellosaurus_xrefs.txt:
 
-Abbrev: ColonAtlas
-Name  : Colorectal Cancer Atlas
-Server: http://colonatlas.org
-Db_URL: http://colonatlas.org/search_cell_line?cell_line=%s
-Cat   : Cell line databases/resources
-
-Example:
-DR   ColonAtlas; HCC2998
-
-4b) Cross-references were added to the FlyBase cell line entries.
-
-Corresponding entry in the file cellosaurus_xrefs.txt:
-
-Abbrev: FlyBase
-Name  : Drosophila genome database
-Server: http://flybase.org
-Db_URL: http://flybase.org/reports/%s.html
-Cat   : Organism-specific databases
-
-Example:
-DR   FlyBase; FBtc0000158
-
-4c) Cross-references were added to the LINCS Data Portal.
-
-Corresponding entry in the file cellosaurus_xrefs.txt:
-
-Abbrev: LINCS_LDP
-Name  : LINCS Data Portal
-Server: http://lincsportal.ccs.miami.edu/cells/
-Db_URL: http://lincsportal.ccs.miami.edu/cells/#/view/%s
-Cat   : Cell line databases/resources
-
-Example:
-DR   LINCS_LDP; LCL-2080
-
-4d) The cross-references to the LINCS Harvard Medical School center cell
-lines pages have been renamed from "LINCS" to "LINCS_HMS".
-
-Example:
-DR   LINCS; 51088
-is now:
-DR   LINCS_HMS; 51088
-
-4e) Cross-references were added to the NCI Development Therapeutics Program
-(NCI-DTP) repository of tumor and tumor cell lines.
-
-Corresponding entry in the file cellosaurus_xrefs.txt:
-
-Abbrev: NCI-DTP
-Name  : NCI Development Therapeutics Program
-Server: https://dtp.cancer.gov/repositories/
-Db_URL: None
+Abbrev: AddexBio
+Name  : AddexBio cell line products
+Server: http://www.addexbio.com/productshow?id=4
+Db_URL: http://www.addexbio.com/productdetail?pid=%s
+        Note: %s is the value after the slash "/" in the DR line.
+        Example: for "DR   AddexBio; T0016001/4918": %s=4918
 Cat   : Cell line collections
 
 Example:
-DR   NCI-DTP; 786-0
+DR   AddexBio; T0016001/4918
+
+3b) Cross-references were added to the Cell Biolabs cell line products.
+
+Corresponding entry in the file cellosaurus_xrefs.txt:
+
+Abbrev: Cell_Biolabs
+Name  : Cell Biolabs cell line products
+Server: https://www.cellbiolabs.com
+Db_URL: https://www.cellbiolabs.com/search/apachesolr_search/%s
+Cat   : Cell line collections
+
+Example:
+DR   Cell_Biolabs; AKR-209
+
+3c) Cross-references were added to the DiscoverX cell line products.
+
+Corresponding entry in the file cellosaurus_xrefs.txt:
+
+Abbrev: DiscoverX
+Name  : DiscoverX cell line products
+Server: https://www.discoverx.com/products-applications/cell-lines
+Db_URL: https://www.discoverx.com/searchproduct?searchtext=%s&searchmode=exact
+Cat   : Cell line collections
+
+Example:
+DR   DiscoverX;	95-0150C2
+
+3d) Cross-references were added to the WiCell cell line collection.
+
+Corresponding entry in the file cellosaurus_xrefs.txt:
+
+Abbrev: WiCell
+Name  : WiCell Research Institute Cell Collection
+Server: http://www.wicell.org
+Db_URL: http://www.wicell.org/home/stem-cell-lines/catalog-of-stem-cell-lines/%s.cmsx
+Cat   : Cell line collections
+
+Example:
+DR   WiCell; wa01
+
+4) Change in the ST lines
+
+A new STR marker has been added: DYS391
+
+For its description see:
+
+http://strbase.nist.gov/str_y391.htm
+
+Example:
+ST   DYS391: 12
+
+5) New file in the FTP distribution
+
+We now distribute a file named "cellosaurus_name_conflicts.txt" which
+contains a number of tables that list cell names with identical names
+taking into account casing, punctuation signs and synonyms.
 
 ----------------------------------------
 Amos Bairoch

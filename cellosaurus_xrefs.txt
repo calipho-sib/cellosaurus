@@ -5,8 +5,8 @@
 
  Description: How to establish cross-references to the resources listed in
               the Cellosaurus
- Version: 22.0
- Last update: 15-May-2017
+ Version: 23.0
+ Last update: 22-August-2017
 
 ----------------------------------------------------------------------------
 
@@ -59,7 +59,7 @@ here:
 1) DR lines
 
 Format: DR   Resource_abbrev; %s
-Where : Resource_abbrev is one of: ATCC|BCGO|BCRC|BCRJ|BTO|BioSample|BioSamples|CBA|CCLE|CCLV|CCRID|CGH-DB|ChEMBL-Cells|ChEMBL-Targets|CLDB|CLO|CLS|ColonAtlas|Coriell|Cosmic|Cosmic-CLP|dbMHC|DGRC|DSMZ|EBiSC|ECACC|EFO|ENCODE|ESTDAB|FlyBase|GDSC|GEO|HipSci|hPSCreg|ICLC|IFO|IGRhCellID|IGSR|IHW|IMGT/HLA|ISCR|IZSLER|JCRB|KCB|KCLB|LINCS_HMS|LINCS_LDP|Lonza|MCCL|MeSH|Millipore|NCBI_Iran|NCI-DTP|NHCDR |NISES|NIH-ARP|PRIDE|RCB|RSCB|SKIP|SKY/M-FISH/CGH|TCB|TKG|TOKU-E|Wikidata|Ximbio
+Where : Resource_abbrev is one of: AddexBio|ATCC|BCGO|BCRC|BCRJ|BTO|BioSample|BioSamples|CBA|CCLE|CCLV|CCRID|Cell_Biolabs|CGH-DB|ChEMBL-Cells|ChEMBL-Targets|CLDB|CLO|CLS|ColonAtlas|Coriell|Cosmic|Cosmic-CLP|dbMHC|DGRC|DiscoverX|DSMZ|EBiSC|ECACC|EFO|ENCODE|ESTDAB|FlyBase|GDSC|GEO|HipSci|hPSCreg|ICLC|IFO|IGRhCellID|IGSR|IHW|IMGT/HLA|ISCR|IZSLER|JCRB|KCB|KCLB|LINCS_HMS|LINCS_LDP|Lonza|MCCL|MeSH|Millipore|NCBI_Iran|NCI-DTP|NHCDR |NISES|NIH-ARP|PRIDE|RCB|RSCB|SKIP|SKY/M-FISH/CGH|TCB|TKG|TOKU-E|WiCell|Wikidata|Ximbio
 
 2) RX lines
 
@@ -100,6 +100,14 @@ Where : Resource_abbrev is: NCBI_TaxID
 
 ----------------------------------------------------------------------------
 
+Abbrev: AddexBio
+Name  : AddexBio cell line products
+Server: http://www.addexbio.com/productshow?id=4
+Db_URL: http://www.addexbio.com/productdetail?pid=%s
+        Note: %s is the value after the slash "/" in the DR line.
+        Example: for "DR   AddexBio; T0016001/4918": %s=4918
+Cat   : Cell line collections
+//
 Abbrev: ATCC
 Name  : American Type Culture Collection
 Server: http://www.atcc.org/
@@ -167,6 +175,12 @@ Server: http://cellresource.cn/
 Db_URL: None
 Cat   : Cell line databases/resources
 //
+Abbrev: Cell_Biolabs
+Name  : Cell Biolabs cell line products
+Server: https://www.cellbiolabs.com
+Db_URL: https://www.cellbiolabs.com/search/apachesolr_search/%s
+Cat   : Cell line collections
+//
 Abbrev: CelloPub
 Name  : Cellosaurus Publication
 Server: http://web.expasy.org/cellosaurus/
@@ -233,13 +247,13 @@ Cat   : Cell line collections
 //
 Abbrev: Cosmic
 Name  : Catalogue of somatic mutations in cancer
-Server: http://cancer.sanger.ac.uk/cancergenome/projects/cosmic/
+Server: http://cancer.sanger.ac.uk/cosmic
 Db_URL: http://cancer.sanger.ac.uk/cosmic/sample/overview?id=%s
 Cat   : Polymorphism and mutation databases
 //
 Abbrev: Cosmic-CLP
 Name  : COSMIC Cell lines Project
-Server: http://cancer.sanger.ac.uk/cancergenome/projects/cell_lines/
+Server: http://cancer.sanger.ac.uk/cell_lines
 Db_URL: http://cancer.sanger.ac.uk/cell_lines/sample/overview?id=%s
 Cat   : Cell line databases/resources
 //
@@ -253,6 +267,12 @@ Abbrev: DGRC
 Name  : Drosophila Genomics Resource Center
 Server: https://dgrc.bio.indiana.edu/cells/Catalog
 Db_URL: https://dgrc.bio.indiana.edu/product/View?product=%s
+Cat   : Cell line collections
+//
+Abbrev: DiscoverX
+Name  : DiscoverX cell line products
+Server: https://www.discoverx.com/products-applications/cell-lines
+Db_URL: https://www.discoverx.com/searchproduct?searchtext=%s&searchmode=exact
 Cat   : Cell line collections
 //
 Abbrev: DOI
@@ -573,6 +593,12 @@ Name  : UniProt knowledgebase
 Server  http://www.uniprot.org
 Db_URL: http://www.uniprot.org/uniprot/%s
 Cat   : Sequence databases
+//
+Abbrev: WiCell
+Name  : WiCell Research Institute Cell Collection
+Server: http://www.wicell.org
+Db_URL: http://www.wicell.org/home/stem-cell-lines/catalog-of-stem-cell-lines/%s.cmsx
+Cat   : Cell line collections
 //
 Abbrev: Wikidata
 Name  : Wikidata

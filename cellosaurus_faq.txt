@@ -4,8 +4,8 @@
 ----------------------------------------------------------------------------
 
  Description: Cellosaurus: frequently asked questions
- Version: 22.0
- Last update: 15-May-2017
+ Version: 23.0
+ Last update: 22-August-2017
 
 ----------------------------------------------------------------------------
 
@@ -102,12 +102,14 @@ provide cell lines. We encourage you to browse their online catalog.
 
 AddexBio:
  http://www.addexbio.com/productshow?id=4
+Allen Cell Collection:
+ http://www.allencell.org/cell-catalog.html
 American Type Culture Collection (ATCC):
  http://www.atcc.org/
 Applied Biological Materials (ABM):
  https://www.abmgood.com/Immortalized-Cells.html
 Asterand Bioscience:
- http://www.asterandbio.com/biospecimens/human-tissue-derived-products/cell-lines/
+ http://solutions.asterand.com/Human-Cell-Lines-s/1.htm
 Axiogenesis:
  http://axiogenesis.com/
 Bioresource Collection and Research Center (BCRC) from Taiwan:
@@ -119,7 +121,7 @@ Biopredic International:
 Cedarlane Cellutions Biosystems:
  https://www.cedarlanelabs.com/Cellutions
 Cell Biolabs:
- http://www.cellbiolabs.com/platinum-retroviral-packaging-cell-lines
+ https://www.cellbiolabs.com/
 CellBank Australia (CBA):
  http://www.cellbankaustralia.com/
 CET:
@@ -142,6 +144,8 @@ Creative Bioarray:
  http://www.creative-bioarray.com/Products/Cells.htm
 Deutsche Sammlung von Mikroorganismen und Zellkulturen (DSMZ):
  http://www.dsmz.de/catalogues/catalogue-human-and-animal-cell-lines.html
+DiscoverX:
+ https://www.discoverx.com/products-applications/cell-lines
 Drosophila Genomics Resource Center (DGRC):
  https://dgrc.bio.indiana.edu/cells/Catalog
 E-lucid:
@@ -162,6 +166,8 @@ Evercyte:
  http://www.evercyte.com/medizin/cell-lines.html
 Genea Biocells:
  http://geneabiocells.com/services/shelf-products/human-embryonic-stem-cells/
+GenHunter:
+ http://www.genhunter.com/cell-lines/
 GenScript:
  http://www.genscript.com/catalog_cell_lines.html
 HGDP-CEPH Human Genome Diversity Cell Line Panel:
