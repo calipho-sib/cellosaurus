@@ -3,10 +3,9 @@
         Geneva, Switzerland
 ----------------------------------------------------------------------------
 
- Description: How to establish cross-references to the resources listed in
-              the Cellosaurus
- Version: 23.0
- Last update: 22-August-2017
+ Description: Cellosaurus: cross-referencing to external resources
+ Version: 24.0
+ Last update: 15-November-2017
 
 ----------------------------------------------------------------------------
 
@@ -47,11 +46,11 @@ c) If you want to do the reverse of what is described in this document, ie
 establishing web links to the Cellosaurus, you can do so by using the
 following Db_URL:
 
- http://web.expasy.org/cellosaurus/%s
+ https://web.expasy.org/cellosaurus/%s
 
 where %s is the accession number of the cell line. Example:
 
- http://web.expasy.org/cellosaurus/CVCL_0033
+ https://web.expasy.org/cellosaurus/CVCL_0033
 
 The format of the various lines that include cross-references are described
 here:
@@ -59,7 +58,7 @@ here:
 1) DR lines
 
 Format: DR   Resource_abbrev; %s
-Where : Resource_abbrev is one of: AddexBio|ATCC|BCGO|BCRC|BCRJ|BTO|BioSample|BioSamples|CBA|CCLE|CCLV|CCRID|Cell_Biolabs|CGH-DB|ChEMBL-Cells|ChEMBL-Targets|CLDB|CLO|CLS|ColonAtlas|Coriell|Cosmic|Cosmic-CLP|dbMHC|DGRC|DiscoverX|DSMZ|EBiSC|ECACC|EFO|ENCODE|ESTDAB|FlyBase|GDSC|GEO|HipSci|hPSCreg|ICLC|IFO|IGRhCellID|IGSR|IHW|IMGT/HLA|ISCR|IZSLER|JCRB|KCB|KCLB|LINCS_HMS|LINCS_LDP|Lonza|MCCL|MeSH|Millipore|NCBI_Iran|NCI-DTP|NHCDR |NISES|NIH-ARP|PRIDE|RCB|RSCB|SKIP|SKY/M-FISH/CGH|TCB|TKG|TOKU-E|WiCell|Wikidata|Ximbio
+Where : Resource_abbrev is one of: AddexBio|ATCC|BCGO|BCRC|BCRJ|BTO|BioSample|BioSamples|CBA|CCLE|CCLV|CCRID|Cell_Biolabs|CGH-DB|ChEMBL-Cells|ChEMBL-Targets|CLDB|CLO|CLS|ColonAtlas|Coriell|Cosmic|Cosmic-CLP|dbMHC|DGRC|DiscoverX|DSMZ|EBiSC|ECACC|EFO|ENCODE|ESTDAB|FlyBase|GDSC|GEO|HipSci|hPSCreg|ICLC|IFO|IGRhCellID|IGSR|IHW|IMGT/HLA|ISCR|IZSLER|JCRB|KCB|KCLB|LINCS_HMS|LINCS_LDP|Lonza|MCCL|MeSH|MetaboLights|Millipore|MMRRC|NCBI_Iran|NCI-DTP|NHCDR |NISES|NIH-ARP|PRIDE|RCB|RSCB|SKIP|SKY/M-FISH/CGH|TCB|TKG|TNGB|TOKU-E|WiCell|Wikidata|Ximbio
 
 2) RX lines
 
@@ -78,7 +77,7 @@ Where : Resource_abbrev is one of: ChEBI同ubChem各niProtKB
 
 Topic:  Selected for resistance to
 Format: CC   Selected for resistance to: Resource_abbrev; %s; Compound/protein_name.
-Where : Resource_abbrev is one of: ChEBI同ubChem
+Where : Resource_abbrev is one of: ChEBI刑rugBank同ubChem各niProtKB
 
 Topic:  Transfected with
 Format: CC   Transfected with: Resource_abbrev; %s; Gene/protein_name.
@@ -146,8 +145,8 @@ Cat   : Biological sample resources
 //
 Abbrev: BTO
 Name  : Brenda Tissue Ontology
-Server: http://bioportal.bioontology.org/ontologies/BTO
-Db_URL: http://bioportal.bioontology.org/ontologies/BTO?p=classes&conceptid=http://purl.obolibrary.org/obo/BTO_%s
+Server: https://bioportal.bioontology.org/ontologies/BTO
+Db_URL: https://bioportal.bioontology.org/ontologies/BTO?p=classes&conceptid=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_%s
         Note: %s is the numerical part of the BTO:nnnnnnn identifier
 Cat   : Ontologies
 //
@@ -159,8 +158,8 @@ Cat   : Cell line collections
 //
 Abbrev: CCLE
 Name  : Cancer Cell Line Encyclopedia
-Server: http://www.broadinstitute.org/ccle/home
-Db_URL: http://www.broadinstitute.org/ccle/cell%20lines/%s
+Server: https://portals.broadinstitute.org/ccle
+Db_URL: https://portals.broadinstitute.org/ccle/page?cell_line=%s
 Cat   : Cell line databases/resources
 //
 Abbrev: CCLV
@@ -183,8 +182,8 @@ Cat   : Cell line collections
 //
 Abbrev: CelloPub
 Name  : Cellosaurus Publication
-Server: http://web.expasy.org/cellosaurus/
-Db_URL: http://web.expasy.org/cellosaurus/cellopub/%s
+Server: https://web.expasy.org/cellosaurus/
+Db_URL: https://web.expasy.org/cellosaurus/cellopub/%s
 Cat   : Reference resources
 //
 Abbrev: CGH-DB
@@ -197,8 +196,8 @@ Cat   : Cell line databases/resources
 //
 Abbrev: ChEBI
 Name  : Chemical Entities of Biological Interest
-Server: http://www.ebi.ac.uk/chebi/
-Db_URL: http://www.ebi.ac.uk/chebi/searchId.do?chebiId=%s
+Server: https://www.ebi.ac.uk/chebi/
+Db_URL: https://www.ebi.ac.uk/chebi/searchId.do?chebiId=%s
 Cat   : Chemistry resources
 //
 Abbrev: ChEMBL-Cells
@@ -287,6 +286,12 @@ Server: http://www.dsmz.de/catalogues/catalogue-human-and-animal-cell-lines.html
 Db_URL: http://www.dsmz.de/catalogues/details/culture/%s.html
 Cat   : Cell line collections
 //
+Abbrev: DrugBank
+Name  : DrugBank database
+Server: https://www.drugbank.ca/
+Db_URL: https://www.drugbank.ca/drugs/%s
+Cat   : Chemistry resources
+//
 Abbrev: EBiSC
 Name  : European Bank for induced pluripotent Stem Cells
 Server: http://www.ebisc.org
@@ -310,8 +315,8 @@ Cat   : Cell line collections
 //
 Abbrev: EFO
 Name  : Experimental Factor Ontology
-Server: http://www.ebi.ac.uk/efo/
-Db_URL: http://bioportal.bioontology.org/ontologies/47240/?p=terms&conceptid=efo%3A%s
+Server: https://www.ebi.ac.uk/efo/
+Db_URL: https://www.ebi.ac.uk/efo/%s
 Cat   : Ontologies
 //
 Abbrev: ENCODE
@@ -322,8 +327,8 @@ Cat   : Biological sample resources
 //
 Abbrev: ESTDAB
 Name  : European Searchable Tumour Line Database
-Server: http://www.ebi.ac.uk/ipd/estdab/
-Db_URL: http://www.ebi.ac.uk/cgi-bin/ipd/estdab/print_cell.cgi?%s
+Server: https://www.ebi.ac.uk/ipd/estdab/
+Db_URL: https://www.ebi.ac.uk/cgi-bin/ipd/estdab/print_cell.cgi?%s
 Cat   : Cell line databases/resources
 //
 Abbrev: FlyBase
@@ -346,8 +351,8 @@ Cat   : Gene expression databases
 //
 Abbrev: HGNC
 Name  : Human Gene Nomenclature Database
-Server: http://www.genenames.org
-Db_URL: http://www.genenames.org/cgi-bin/gene_symbol_report?hgnc_id=%s
+Server: https://www.genenames.org
+Db_URL: https://www.genenames.org/cgi-bin/gene_symbol_report?hgnc_id=%s
 Cat   : Organism-specific databases
 //
 Abbrev: HipSci
@@ -394,8 +399,8 @@ Cat   : Cell line databases/resources
 //
 Abbrev: IMGT/HLA
 Name  : IMGT/HLA database
-Server: http://www.ebi.ac.uk/ipd/imgt/hla/
-Db_URL: http://www.ebi.ac.uk/cgi-bin/imgt/hla/fetch_cell.cgi?%s
+Server: https://www.ebi.ac.uk/ipd/imgt/hla/
+Db_URL: https://www.ebi.ac.uk/cgi-bin/imgt/hla/fetch_cell.cgi?%s
 Cat   : Cell line databases/resources
 //
 Abbrev: ISCR
@@ -458,6 +463,12 @@ Server: https://www.ncbi.nlm.nih.gov/mesh
 Db_URL: https://www.nlm.nih.gov/cgi/mesh/2013/MB_cgi?field=uid&term=%s
 Cat   : Ontologies
 //
+Abbrev: MetaboLights
+Name  : MetaboLights database for metabolomics experiments and derived information
+Server: https://www.ebi.ac.uk/metabolights/
+Db_URL: https://www.ebi.ac.uk/metabolights/%s
+Cat   : Metabolomic databases
+//
 Abbrev: MGI
 Name  : Mouse Genome Database (MGD) from Mouse Genome Informatics
 Server: http://www.informatics.jax.org
@@ -468,6 +479,12 @@ Abbrev: Millipore
 Name  : Merck Millipore (EMD Millipore)
 Server: http://www.merckmillipore.com/
 Db_URL: http://www.merckmillipore.com/catalogue/item/%s
+Cat   : Cell line collections
+//
+Abbrev: MMRRC
+Name  : Mutant Mouse Resource & Research Centers
+Server: https://www.mmrrc.org/
+Db_URL: https://www.mmrrc.org/catalog/getSDS.php?mmrrc_id=%s
 Cat   : Cell line collections
 //
 Abbrev: NCBI_Iran
@@ -558,7 +575,7 @@ Cat   : Cell line collections
 //
 Abbrev: SKIP
 Name  : Stemcell Knowledge and Information Portal
-Server: http://www.skip.med.keio.ac.jp/en/
+Server: https://www.skip.med.keio.ac.jp/en/
 Db_URL: https://www.skip.med.keio.ac.jp/SKIPSearch/cell_line_detail?accession=%s
 Cat   : Cell line databases/resources
 //
@@ -570,7 +587,7 @@ Cat   : Cell line databases/resources
 //
 Abbrev: TCB
 Name  : Tick Cell Biobank
-Server: http://www.pirbright.ac.uk/tick-cell-lines
+Server: https://www.liverpool.ac.uk/infection-and-global-health/research/tick-cell-biobank/tick-cell-lines/
 Db_URL: http://www.pirbright.ac.uk/node/%s
 Cat   : Cell line collections
 //
@@ -580,6 +597,12 @@ Server: http://www2.idac.tohoku.ac.jp/dep/ccr/
 Db_URL: http://www2.idac.tohoku.ac.jp/dep/ccr/TKGdate/TKGvo10%n/%s.html
         Note: n% is the second digit of the cell line AC and %s is the cell line AC without the 'TKG'
         Example: for "DR   TKG; TKG 0377": %n=3 %s=0377
+Cat   : Cell line collections
+//
+Abbrev: TNGB
+Name  : Telethon Network of Genetic Biobanks
+Server: http://biobanknetwork.telethon.it/
+Db_URL: http://biobanknetwork.telethon.it/Sample/View?sampleId=%s
 Cat   : Cell line collections
 //
 Abbrev: TOKU-E

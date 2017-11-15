@@ -2,7 +2,7 @@
 <!-- *****************************************************************************
         XML Schema Definition (XSD) for the Cellosaurus XML
 
-        Date: 2017-August-22; Release: 1.20
+        Date: 2017-November-15; Release: 2.01
 
         Copyright (c) CALIPHO group @ SIB - Swiss Institute of Bioinformatics
         Distributed under the Creative Commons Attribution-NoDerivs License
@@ -50,8 +50,10 @@
          <xs:documentation>Describes the Cellosaurus release.</xs:documentation>
       </xs:annotation>
       <xs:complexType>
-         <xs:attribute name="version" type="xs:string" use="required"/>
+         <xs:attribute name="version" type="xs:decimal" use="required"/>
          <xs:attribute name="updated" type="xs:date" use="required"/>
+         <xs:attribute name="nb-cell-lines" type="xs:integer" use="required"/>
+         <xs:attribute name="nb-publications" type="xs:integer" use="required"/>
       </xs:complexType>
    </xs:element>
    <!-- Release element definition ends -->
@@ -318,6 +320,7 @@
                   <xs:enumeration value="Cell line databases/resources"/>
                   <xs:enumeration value="Cell lines databases"/>
                   <xs:enumeration value="Gene expression databases"/>
+                  <xs:enumeration value="Metabolomic databases"/>
                   <xs:enumeration value="Ontologies"/>
                   <xs:enumeration value="Organism-specific databases"/>
                   <xs:enumeration value="Other"/>
@@ -375,6 +378,7 @@
                      <xs:restriction base="xs:string">
                         <xs:enumeration value="Cellosaurus"/>
                         <xs:enumeration value="ChEBI"/>
+                        <xs:enumeration value="DrugBank"/>
                         <xs:enumeration value="NCBI-Taxonomy"/>
                         <xs:enumeration value="PubChem"/>
                         <xs:enumeration value="NCIt"/>
@@ -600,6 +604,7 @@
                   <xs:enumeration value="book chapter"/>
                   <xs:enumeration value="patent"/>
                   <xs:enumeration value="thesis BSc"/>
+                  <xs:enumeration value="thesis MD"/>
                   <xs:enumeration value="thesis MSc"/>
                   <xs:enumeration value="thesis PhD"/>
                </xs:restriction>

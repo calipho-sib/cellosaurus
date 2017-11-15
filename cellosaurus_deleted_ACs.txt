@@ -3,9 +3,9 @@
         Geneva, Switzerland
 ----------------------------------------------------------------------------
 
- Description: Deleted accession numbers for the Cellosaurus
- Version: 23.0
- Last update: 22-August-2017
+ Description: Cellosaurus: deleted accession numbers
+ Version: 24.0
+ Last update: 15-November-2017
 
 ----------------------------------------------------------------------------
 

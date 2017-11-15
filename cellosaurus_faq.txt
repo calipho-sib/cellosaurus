@@ -4,8 +4,8 @@
 ----------------------------------------------------------------------------
 
  Description: Cellosaurus: frequently asked questions
- Version: 23.0
- Last update: 22-August-2017
+ Version: 24.0
+ Last update: 15-November-2017
 
 ----------------------------------------------------------------------------
 
@@ -16,7 +16,7 @@ it in the following manner:
 
 Bairoch A.
 The Cellosaurus: a cell line knowledge resource.
-http://web.expasy.org/cellosaurus/
+https://web.expasy.org/cellosaurus/
 
 ----------------------------------------------------------------------------
 
@@ -54,16 +54,16 @@ Q: Is it possible to directly indicate search terms in a URL?
 
 A: Yes, you can do so with the following syntax:
 
-http://web.expasy.org/cgi-bin/cellosaurus/search?input=your_query
+https://web.expasy.org/cgi-bin/cellosaurus/search?input=your_query
 
 Examples:
 
-http://web.expasy.org/cgi-bin/cellosaurus/search?input=CVCL_0030
-http://web.expasy.org/cgi-bin/cellosaurus/search?input=hela
-http://web.expasy.org/cgi-bin/cellosaurus/search?input=sus+scrofa
-http://web.expasy.org/cgi-bin/cellosaurus/search?input="fish cell line"
-http://web.expasy.org/cgi-bin/cellosaurus/search?input=doubling+time+"3 days"
-http://web.expasy.org/cgi-bin/cellosaurus/search?input="PubMed=1000501"
+https://web.expasy.org/cgi-bin/cellosaurus/search?input=CVCL_0030
+https://web.expasy.org/cgi-bin/cellosaurus/search?input=hela
+https://web.expasy.org/cgi-bin/cellosaurus/search?input=sus+scrofa
+https://web.expasy.org/cgi-bin/cellosaurus/search?input="fish cell line"
+https://web.expasy.org/cgi-bin/cellosaurus/search?input=doubling+time+"3 days"
+https://web.expasy.org/cgi-bin/cellosaurus/search?input="PubMed=1000501"
 
 ----------------------------------------------------------------------------
 
@@ -140,6 +140,8 @@ Collection of Cell Lines in Veterinary Medicine (CCLV):
  https://www.fli.de/en/services/collection-of-cell-lines-in-veterinary-medicine-cclv/
 Coriell Institute Biorepositories:
  https://catalog.coriell.org/
+Cosmo Bio
+ https://www.cosmobio.com/contents/list.php?category_id=36
 Creative Bioarray:
  http://www.creative-bioarray.com/Products/Cells.htm
 Deutsche Sammlung von Mikroorganismen und Zellkulturen (DSMZ):
@@ -338,3 +340,110 @@ PS: Thanks to Richard Neve and Amanda Capes-Davies for providing this very
 informative answer.
 
 ----------------------------------------------------------------------------
+
+Q: How to make best use of the Cellosaurus in the context of literature text-
+mining activities?
+
+A: We describe here the features of the Cellosaurus which are particularly
+useful in the context of the development of dictionaries for name entity
+recognition (NER) in the full text of life sciences publications (journals
+and patents).
+
+All examples below make use of the Cellosaurus XML format, but the equivalent
+information is available in the structured text and OBO formats files.
+
+1) Names/synonyms
+
+A cell line recommanded name and synonyms are stored in the "name_list"
+element.
+
+Example (CVCL_0030):
+
+<name-list>
+ <name type="identifier">HeLa</name>
+ <name type="synonym">HELA</name>
+ <name type="synonym">Hela</name>
+ <name type="synonym">He La</name>
+ <name type="synonym">He-La</name>
+ <name type="synonym">Henrietta Lacks cells</name>
+ <name type="synonym">Helacyton gartleri</name>
+</name-list>
+
+Important notes:
+
+-There is always one recommanded name ("identifier") and >=0 alternative
+ name(s) ("synonym").
+
+-As shown in the above example, synonyms include alternative use of lower
+ and upper cases.
+
+-For text-mining purpose there is no distinction to be made between the
+ recommanded name and the alternative names. The recommanded mane does not
+ aim to capture the most frequently used name but rather either that
+ proposed by the originator of the cell line, or one consistent with other
+ similarly named cell lines, or the least ambiguous one.
+
+-When two or more cell lines share identical recommanded names, the
+ ambiguous names are disambiguated by post-fixing the name with a short
+ description between square brackets. Examples:
+
+ CVCL_5246:
+ <name type="identifier">C32 [Human colon adenocarcinoma]</name>
+ CVCL_1097:
+ <name type="identifier">C32 [Human melanoma]</name>
+
+ The description field should be ignored when building a cell name
+ dictionary.
+
+2) Misspellings
+
+Misspellings are captured in the Cellosaurus through the comment category
+"Misspelling". Examples:
+
+CVCL_0197:
+<comment category="Misspelling"> C19PL; In PubMed=11737246 </comment>
+CVCL_0201:
+<comment category="Misspelling"> CACOV-3; Occasionally </comment>
+<comment category="Misspelling"> CACOV3; Occasionally </comment>
+
+3) Accession numbers
+
+As Cellosaurus accession numbers are now starting to be used to cite cell
+lines in the literature (mainly in the context of the efforts of the 
+Resource Identification Initiative) it is useful to include them in your
+cell line dictionary. The accession numbers are stored in the
+"accession_list" element.
+
+Example:
+
+<accession-list>
+ <accession type="primary">CVCL_0298</accession>
+ <accession type="secondary">CVCL_4526</accession>
+</accession-list>
+ 
+4) Contextualization
+
+Cell line names be contextualized on the basis of:
+
+-Species: through the "species-list" element which makes use of NCBI
+ Taxonomy TaxIDs.
+-Subspecies/breed: through the comment category "Breed/subspecies" which is
+ free text.
+-Disease: through the "disease-list" which makes use of NCI Thesaurus codes.
+-Tissue: Not yet possible. We plan to add the tissue of origin using Uberon
+ as the standardization resource, but this will not take place until 2018.
+
+----------------------------------------------------------------------------
+
+Q: What is the meaning of the "CVCL" prefix in the Cellosaurus accession
+numbers?
+
+A: It is a good practice for knowledge resources and ontologies to use
+accession numbers that are composed of a prefix followed by a separator
+(often ':' or "_") and then an alphanumerical string. The prefix is often
+the abbreviation or the name of the resource. As the name "Cellosaurus" is
+a bit long and not obvious to abbreviate we chose "CVCL" which originally
+standed for "Controlled Vocabulary for Cell Lines". As the Cellosaurus is
+now much more than a controlled vocabulary we are not eager to explicit
+what "CVCL" means!
+

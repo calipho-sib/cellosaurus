@@ -6,105 +6,101 @@
    \_____\___|_|_|\___/|___/\__,_|\__,_|_|   \__,_|___/
 
 
-This is the release notes for Cellosaurus version 23 of August 2017.
+This is the release notes for Cellosaurus version 24 of November 2017.
 
 1) Statistics
 
- 87309 cell lines (71518 human, 8159 mouse, 1890 rat)
-   567 species represented
- 42972 synonyms
-178442 cross-references to 70 ontologies, databases, catalogs, etc.
- 63273 references to 13968 distinct publications (papers, patents, thesis, etc.)
- 12603 web links
+ 90021 cell lines (72395 human, 18957 mouse, 1901 rat)
+   573 species represented
+ 54477 synonyms
+196890 cross-references to 73 ontologies, databases, catalogs, etc.
+ 76749 references to 14421 distinct publications (papers, patents, thesis, etc.)
+ 12530 web links
 
-  5057 human and dog cell lines with STR profiles (from 186 distinct sources)
+  5247 human and dog cell lines with STR profiles (from 226 distinct sources)
 
 2) Changes in the CC lines
 
-2a) New "Monoclonal antibody isotype" CC line topic.
+2a) Changes in the format of the 'Misspelling' CC topic.
 
-Introduction of the "Monoclonal antibody isotype" CC line topic. This is
-used to indicate the immunoglobulin isotype of the monoclonal antibody
-(mAB) produced by a cell line. This topic applies to hybridoma (except
-T-cell hybridoma) and to a number of transformed cell lines that produce
-mABs.
+This topic is now structured. Misspelled names are no longer quoted using "'"
+and the format of this comment is now:
+
+CC   Misspelling: misspelled_name; free_text_comment.
 
 Examples:
-CC   Monoclonal antibody isotype: IgG2b, kappa.
-CC   Monoclonal antibody isotype: IgM.
+
+CC   Misspelling: Occasionally 'AHR 77'.
+becomes:
+CC   Misspelling: AHR 77; Occasionally.
+
+CC   Misspelling: 'D24.7' in PubMed=11351043.
+becomes:
+CC   Misspelling: D24.7; In PubMed=11351043.
+
+Another facet of the change is that oly one misspelled name is now allowed
+per 'Misspelling' comment.
+
+Example:
+CC   Misspelling: Occasionally 'CACOV-3' or 'CaCOV3'.
+becomes:
+CC   Misspelling: CACOV-3; Occasionally.
+CC   Misspelling: CaCOV3; Occasionally.
+
+2b) New cross-references in the 'Selected for resistance to' CC topic.
+
+In addition to ChEBI, PubChem and UniProtKB, this topic now also accepts
+cross-references to DrugBank.
+
+Example:
+CC   Selected for resistance to: DrugBank; DB00002; Cetuximab (Erbitux).
 
 3) Changes in the DR lines
 
-3a) Cross-references were added to the AddexBio cell line products.
+3a) Cross-references were added to the MetaboLights database for metabolomics
+experiments and derived information.
 
 Corresponding entry in the file cellosaurus_xrefs.txt:
 
-Abbrev: AddexBio
-Name  : AddexBio cell line products
-Server: http://www.addexbio.com/productshow?id=4
-Db_URL: http://www.addexbio.com/productdetail?pid=%s
-        Note: %s is the value after the slash "/" in the DR line.
-        Example: for "DR   AddexBio; T0016001/4918": %s=4918
-Cat   : Cell line collections
+Abbrev: MetaboLights
+Name  : MetaboLights database for metabolomics experiments and derived information
+Server: https://www.ebi.ac.uk/metabolights/
+Db_URL: https://www.ebi.ac.uk/metabolights/%s
+Cat   : Metabolomic databases
+//
 
 Example:
-DR   AddexBio; T0016001/4918
+DR   MetaboLights; MTBLS152
 
-3b) Cross-references were added to the Cell Biolabs cell line products.
+3b) Cross-references were added to the Mutant Mouse Resource & Research
+Centers (MMRRC) cell line entries.
 
 Corresponding entry in the file cellosaurus_xrefs.txt:
 
-Abbrev: Cell_Biolabs
-Name  : Cell Biolabs cell line products
-Server: https://www.cellbiolabs.com
-Db_URL: https://www.cellbiolabs.com/search/apachesolr_search/%s
+Abbrev: MMRRC
+Name  : Mutant Mouse Resource & Research Centers
+Server: https://www.mmrrc.org/
+Db_URL: https://www.mmrrc.org/catalog/cellLineSDS.php?mmrrc_id=%s
 Cat   : Cell line collections
+//
 
 Example:
-DR   Cell_Biolabs; AKR-209
+DR   MMRRC; 15890
 
-3c) Cross-references were added to the DiscoverX cell line products.
+3c) Cross-references were added to the Telethon Network of Genetic Biobanks
+(TNGB) cell line entries.
 
 Corresponding entry in the file cellosaurus_xrefs.txt:
 
-Abbrev: DiscoverX
-Name  : DiscoverX cell line products
-Server: https://www.discoverx.com/products-applications/cell-lines
-Db_URL: https://www.discoverx.com/searchproduct?searchtext=%s&searchmode=exact
+Abbrev: TNGB
+Name  : Telethon Network of Genetic Biobanks
+Server: http://biobanknetwork.telethon.it/
+Db_URL: http://biobanknetwork.telethon.it/Sample/View?sampleId=%s
 Cat   : Cell line collections
+//
 
 Example:
-DR   DiscoverX;	95-0150C2
-
-3d) Cross-references were added to the WiCell cell line collection.
-
-Corresponding entry in the file cellosaurus_xrefs.txt:
-
-Abbrev: WiCell
-Name  : WiCell Research Institute Cell Collection
-Server: http://www.wicell.org
-Db_URL: http://www.wicell.org/home/stem-cell-lines/catalog-of-stem-cell-lines/%s.cmsx
-Cat   : Cell line collections
-
-Example:
-DR   WiCell; wa01
-
-4) Change in the ST lines
-
-A new STR marker has been added: DYS391
-
-For its description see:
-
-http://strbase.nist.gov/str_y391.htm
-
-Example:
-ST   DYS391: 12
-
-5) New file in the FTP distribution
-
-We now distribute a file named "cellosaurus_name_conflicts.txt" which
-contains a number of tables that list cell names with identical names
-taking into account casing, punctuation signs and synonyms.
+DR   TNGB; 66061
 
 ----------------------------------------
 Amos Bairoch
