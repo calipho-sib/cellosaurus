@@ -354,7 +354,7 @@ information is available in the structured text and OBO formats files.
 
 1) Names/synonyms
 
-A cell line recommanded name and synonyms are stored in the "name_list"
+A cell line recommended name and synonyms are stored in the "name_list"
 element.
 
 Example (CVCL_0030):
@@ -371,19 +371,19 @@ Example (CVCL_0030):
 
 Important notes:
 
--There is always one recommanded name ("identifier") and >=0 alternative
+-There is always one recommended name ("identifier") and >=0 alternative
  name(s) ("synonym").
 
 -As shown in the above example, synonyms include alternative use of lower
  and upper cases.
 
 -For text-mining purpose there is no distinction to be made between the
- recommanded name and the alternative names. The recommanded mane does not
+ recommended name and the alternative names. The recommended name does not
  aim to capture the most frequently used name but rather either that
  proposed by the originator of the cell line, or one consistent with other
  similarly named cell lines, or the least ambiguous one.
 
--When two or more cell lines share identical recommanded names, the
+-When two or more cell lines share identical recommended names, the
  ambiguous names are disambiguated by post-fixing the name with a short
  description between square brackets. Examples:
 
