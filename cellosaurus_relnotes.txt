@@ -10,7 +10,7 @@ This is the release notes for Cellosaurus version 24 of November 2017.
 
 1) Statistics
 
- 90021 cell lines (72395 human, 18957 mouse, 1901 rat)
+ 99021 cell lines (72395 human, 18957 mouse, 1901 rat)
    573 species represented
  54477 synonyms
 196890 cross-references to 73 ontologies, databases, catalogs, etc.
