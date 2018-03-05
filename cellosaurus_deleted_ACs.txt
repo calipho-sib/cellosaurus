@@ -4,8 +4,8 @@
 ----------------------------------------------------------------------------
 
  Description: Cellosaurus: deleted accession numbers
- Version: 24.0
- Last update: 15-November-2017
+ Version: 25.0
+ Last update: 05-March-2018
 
 ----------------------------------------------------------------------------
 
@@ -42,4 +42,3 @@ CVCL_F733  Deleted in release 17; according to Ximbio cell clone does not exist 
 CVCL_F894  Was never publicly available
 CVCL_J529  Was never publicly available
 CVCL_J537  Was never publicly available
-

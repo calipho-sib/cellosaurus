@@ -4,8 +4,8 @@
 ----------------------------------------------------------------------------
 
  Description: CelloPub, Cellosaurus publications
- Version: 24.0
- Last update: 15-November-2017
+ Version: 25.0
+ Last update: 05-March-2018
 
 ----------------------------------------------------------------------------
 ID   CLPUB00222
@@ -136,6 +136,15 @@ RT   "Characterization of a new human granulo-monocytic leukemic cell
 RT   line.";
 RL   Acta Haematol. Jpn. 46:122-122(1983).
 DR   Cellosaurus; CVCL_1346; KY821
+AB   No
+//
+ID   CLPUB00413
+RA   Ikushima S., Yoshihara T., Fujikawa F., Todo S., Misawa S.,
+RA   Nakagawa H., Yumura K., Kawa K., Morioka Y., Imashuku S.;
+RT   "Establishment of a monocytoid cell line (KP-MO-TS) from a patient
+RT   with acute monocytic leukemia and a mediastinal mass.";
+RL   Acta Haematol. Jpn. 53:678-687(1990).
+DR   Cellosaurus; CVCL_7985; KP-MO-TS
 AB   No
 //
 ID   CLPUB00016
@@ -382,7 +391,7 @@ association in this hairy cell leukemia line offers a unique opportunity
 to study telomere association.
 //
 ID   CLPUB00054
-RA   De Castro M.P.;
+RA   de Castro M.P.;
 RT   "Behaviour of the foot-and-mouth disease virus in cell cultures:
 RT   susceptibility of the IB-RS-2 cell line.";
 RL   Arch. Inst. Biol. Sao Paulo 31:63-78(1964).
@@ -609,20 +618,74 @@ AB   No
 //
 ID   CLPUB00058
 RA   Kadin M.E., Cavaille-Col M.W., Sioutos N., Fletcher J.A., Morton C.C.,
-RA   Pastuzak W.;
+RA   Pastuzak W., Rezuke W., Altman A.J.;
 RT   "Childhood Ki-1+ anaplastic large cell lymphoma: establishment and
 RT   characterization of a new tumor cell line transplantable to SCID
 RT   mice.";
 RL   Blood 76 Suppl. 1:354a-354a(1990).
 DR   Cellosaurus; CVCL_H633; JB6 [Human anaplastic large cell lymphoma]
-AB   No
+AB   Yes
+Ki-1 anaplastic large cell lymphoma (ALCL) is a newly recognized
+clinicopathologic entity characterized by a distinctive chromosome
+translocation, t(2;5)(p23;q35), sinus and paracortical infiltration of
+lymph nodes, frequent extra-nodal disease (especially skin, soft tissue,
+CI tract and bone), and expression of lymphocyte activation antigens
+(CD3O, CD25, transferrin receptor, and HLA-DR) by pleomorphic tumor cells.
+Spontaneous regression of skin lesions is frequently encountered. The peak
+age incidence of ALCL is childhood and adolescence. A good response to
+chemotherapy (COMP or D-COMP) with an excellent event-free survival has
+been reported for most patients with ALCL; however a subset of patients
+have treatment resistant disease. To better understand the biology of ALCL
+and to develop new approaches to therapy, we established a cell line from
+leukemic cells of a 12 year old boy (JB) with treatment resistant disease.
+The morphology of JB cells consists of a spectrum of small Sezary-like
+cells and larger immunoblasts including multinucleated Reed-Sternberg like
+cells. The immunophenotype is that of an activated T-cell: positive for
+CD2, CD7, Bfl, CD30, CD25, transferrin receptor, CD45, HLA-DR and for the
+histiocyte-macrophage marker KP-1. JB cells have the t(2;5) and clonal
+rearrangement of beta chain T-cell receptor genes but germline
+configuration of immunoglobulin JH gene. The cloning efficiency is 5% and
+the doubling time is 60 hr in methylcellulose with IMDM and 15% FCS. JB
+cells were injected intraperitoneally to form a metastasizing tumor in
+SCID mice. The transplanted tumor maintains the original morphology,
+immunophenotype and genotype. Tumor fragments have been passaged
+repeatedly subcutaneously reaching a tumor size of greater than 1 cm in 4-
+6 weeks. The subcutaneous tumors remain outside the abdominal wall fascia
+and do not metastasize. Preliminary experiments of tumor directed therapy
+have been initiated. This cell line should provide a means of designing
+more effective therapies for treatment-resistant Ki-1 + ALCL.
 //
 ID   CLPUB00107
 RA   Kimura Y., Miura I., Chubachi A., Hamanaka S., Miura A.B.;
 RT   "Myeloid myeloma cell line (Sa5) with cytoplasmic fibrils.";
 RL   Blood 76 Suppl. 1:356a-356a(1990).
 DR   Cellosaurus; CVCL_M546; Sa5
-AB   No
+AB   Yes
+A biphenotypic myeloma cell line (Sa5) has been established from the bone
+marrow of a patient with Bence Jones kappa plasma cell leukemia. Sa5
+expressed myeloid markers including chloroacetate (specific) esterase and
+CD33 (MY9) as well as plasma cell marker PCA-1. Morphologically, Sa5
+showed extensive nuclear lobulation, and ultrastructural studies revealed
+abundant perinuclear cytoplasmic fibrils. Southern blot analysis showed JK
+gene rearrangement. Exogenous IL-6 enhanced proliferation of Sa5. Free
+kappa chains could be detected in the supernatant of the culture medium.
+Karyotype: 43, X, -X, -8, -13, -14, -16, -17, -18, -18, -20, -21, 1p-, +3p-,
+6q-, 8p+, 9q+, 10q+, 22q+, +7mar. Markers of Sa5: PCA-1 97.9%, CD3 0.2%,
+CD19 0.7%, CD20 2.9%, CD10 0%, CD13 0.1%, CD33 66.9%, HLA-DR 83.7%,
+surface kappa 3.4%, s-lambda 0.9%, cytoplasmic kappa (++), c-lambda (-).
+Peroxidase (-), naphthol AS-D chloroacetate (specific) esterase (+), alpha-
+naphthyl buthylate (nonspecific) esterase (-), acid phosphatase (+++).
+Case: A 62-year-old female. WBC 72.7x10(9)/L (95% plasma cell), Hb 5.3g/dl,
+P1 S0x10(9)/L. Bone marrow: NCC 150x10(9)/L. 99.2% plasma cell. LDH 1,396U/L,
+Ca 12.6mg/dl, HTLY-1 (-). Cell culture: Bone marrow plasma cells
+have been cultured in RPMI 1640 with 10% fetal calf serum since December
+1986. Recent studies proved the existence of hybrid or polyphenotypic
+myeloma coexpressing myeloid, monocytic and plasma cell antigens (M.
+Thomas et al, Blood, 1989). Among these, only myelomonocytic myeloma cell
+line (LB-84-1) has already been established (B.G.M. Durie et al, Blood
+1989). Sa5, unlike LB84-1, lacking the monocytic marker, myeloid myeloma
+cell line Sa5 should provide the alternative model of polyphenotypic
+myeloma.
 //
 ID   CLPUB00073
 RA   Lohmeyer J., Fonatsch C., Pralle H., Hadam M.;
@@ -640,18 +703,59 @@ RT   megakaryoblastic leukemia (DS-AMKL): in vitro differentiation of
 RT   megakaryoblasts.";
 RL   Blood 82 Suppl. 1:122a-122a(1993).
 DR   Cellosaurus; CVCL_S965; HSC-GRW
-AB   No
+AB   Yes
+A cell line was established from a patient with DS-AMKL. The primary
+leukemic cells were classified by electron microscopy as megakaryoblasts
+by the presence of immunogold-labelled GpIIIa, demarcation membranes and
+alpha granules. The cell line is growth factor dependent in liquid culture
+in the presence of stem cell factor (SCF), and proliferates as a pure
+population of undifferentiated blast cells. The cells have multiple
+chromosomal abnormalities including monosomy 7, a finding initially
+present in the megakaryoblasts at diagnosis in vivo. Interphase labelling
+(FSIH) shows that all cells contained only one #7 chromosome. These cells
+do not express the T-cell antigens CD3 and CD4, the B-cell antigens CD10
+and CD19 or monocyte antigen CD14. However they are strongly positive for
+the stem cell antigen CD34, the monomyeloid antigen CD33 and they also
+express the megakaryocyte lineage antigens CD41, CD61 and CD7.
 //
 ID   CLPUB00019
 RA   Flick J.T., Waldron J., Vesole D., Jaggamath S., Hoover R., Yeh Y.C.,
 RA   Epstein J., Hsu S.M., Barlogie B.;
-RT   "Transforming growth factor-alpha (TGFa) is prominently expressed by
-RT   the malignant plasma cells of multiple myeloma (MM).";
+RT   "Transforming growth factor-alpha (TGFalpha) is prominently expressed
+RT   by the malignant plasma cells of multiple myeloma (MM).";
 RL   Blood 82 Suppl. 1:259a-259a(1993).
 DR   Cellosaurus; CVCL_W396; ARH-DR
 DR   Cellosaurus; CVCL_W397; SMITH
 DR   Cellosaurus; CVCL_W398; TRAMA
-AB   No
+AB   Yes
+TGFalpha is a highly conserved, potent cellular transforming/mitotic
+peptide, generally thought to act in an autocrine/paracrine fashion via
+the EGF receptor (EGFr). TGFalpha is thought to play a major role in a
+variety of malignant neoplasms. We have shown that freshly harvested
+malignant plasma cells of 26/30 MM patients produce the TGFalpha protein.
+Benign plasma cells were consitently TGFalpha negative. We confirmed that
+TGFalpha production occurs at the mRNA level in 5/9 MM malignant plasma
+cell lines, using a PCR method. We were able to induce TGFalpha mRNA in
+all 9 MM cell lines after induction with TPA, an agent known to induce
+TGFalpha in a variety of other cell types. Having established that
+TGFalpha is produced by malignant plasma cells, we then focused on
+determining the role of TGFalpha in the pathogenesis of MM. We observed
+that the malignant plasma cells were consistently EGFr negative. Recent
+studies have shown that differentiated cells such as eosinophils, neurons,
+macrophages and fibroblasts can produce TGFalpha, suggesting that TGFalpha
+may have actions other than a direct EGFr-mediated transforming/mitotic
+process. Since TGFalpha did not appear to act on the malignant plasma
+cells via the EGFr, we considered the possibility that the TGFalpha might
+act indirectly invivo on other nearby cells, such as stromal cells or
+myeloma progenitor cells. Analysis of stromal cultures harvested from the
+bone marrow of 12 MM patients revealed that TGFalpha can induce the
+stromal cells to produce increased amounts of IL6, a cytokine known to be
+important in the growth and maintenance of MM (P<.05). The prominent
+TGFalpha production by malignant plasrna cells may thus stimulate stromal
+cells, which in turn produce IL6 to cause proliferation/maturation of
+myeloma precursor cells. We believe that TGFalpha (and IL6) are part of a
+group of several growth factors/cytokines that interact to maintain the
+malignant plasma cells of MM.
 //
 ID   CLPUB00060
 RA   Gramatzki M., Burger R., Trautmann U., Marschalek R., Lorenz H.,
@@ -661,7 +765,31 @@ RT   chromosomal abnormality involving the IL-6 gene locus.";
 RL   Blood 84 Suppl. 1:173a-173a(1994).
 DR   Cellosaurus; CVCL_5209; INA-6
 DR   Cellosaurus; CVCL_M534; JK-6
-AB   No
+AB   Yes
+Two plasma cell lines, INA-6 and JK-6, have been initiated and
+continuously cultured from two patients with malignant plasma cell
+diseases. Both cell lines are EBNA negative and show morphological and
+immunophenotypical features of plasma cells. INA-6 expresses the CD39 and
+CDw75 antigens, JK-6 is strongty positive with CD38 and CD39 antibodies.
+By flow cytometry they were non-reactive with Ia antibodies and B ceil
+reagents CD19, CD2O, CD21, CD22, and CD24. While INA-6 cells are releasing
+kappa light chains only, JK-6 cells produce IgG kappa. Both cell lines
+could only be initiated with IL-6 supplemented medium and remained IL-6
+responsive throughout continuous culture. INA-6 is strictly dependent on
+IL-6. No spontaneously secreted IL-6 was found nor could it be.induced by
+IL-1beta /TNFalpha stimulation. Molecular analysis with RT-PCR revealed
+mRNA for the IL-6 receptor in both lines. No IL-6 mRNA was detectable in
+INA-6 cells, while in JK-6 minute amounts were observed. Cytogenetic
+analysis of both lines revealed, among other abnormalities, a deletion
+(7)(p13). lnterestingly, the 7p deletion affects the location ot the IL-6
+gene. ln both cell lines, IL-6 dependent proliferation could be inhibited
+by IFNalpha. IFNalpha had growth regulatory effects only on JK-6: while
+high concentrations were inhibitory, low IFNalpha amounts were clearly
+stimulatory. A wide variety of other cytokines including GM-CSF and IL-11
+did not have the capacity to influence proliferation. These plasma cell
+lines do not only allow to turther characterize regulatory events in
+plasma cell neoplasias but also provide tools to study therapeutic
+interventions.
 //
 ID   CLPUB00128
 RA   Al-Katib A., Abubakr Y.A., Mohamed A.N., Maki A., Diurec Z.;
@@ -669,7 +797,15 @@ RT   "Multiple mechanisms of drug resistance in anaplastic large cell
 RT   lymphoma.";
 RL   Blood 84 Suppl. 1:638a-638a(1994).
 DR   Cellosaurus; CVCL_A036; WSU-ALCL
-AB   No
+AB   Yes
+Anaplastic large cell lymphoma (ALCL) is a recently recognized category of
+non-Hodgkin's lymphoma. It is characterized by pleiomorphic cell
+morphology, tendency to involve extranodal sites and expression of Ki-1
+(CD30) antigen. In order to investigate the mechanism(s) of resistance in
+this class of lymphoma, we established a permanent cell line WSU-ALCL from
+a malignant pleural effusion occurrlng in an 18 year old patient with
+primary refractory ALCL. No growth factors or mitogens were added during
+the establishment of the cell line.
 //
 ID   CLPUB00079
 RA   Hyjek E., Rafii S., Flore O., Bergsagel P.L., Michaeli J.,
@@ -1078,10 +1214,11 @@ tissues, the transferred cells recovered their ability of cell division in
 about half a month.
 //
 ID   CLPUB00078
-RA   Hashimoto K., Oki Y., Koyama K., Nagao J., Takahashi M.;
+RA   Hashimoto K., Koyama K., Takahashi M., Nagao J., Oki Y.;
 RT   "Establishment and immunochemical characteristics of lymphoid tumor
 RT   cell lines derived from chicken with Marek's disease.";
 RL   Bull. Nippon Vet. Zootech. Coll. 32:64-69(1983).
+WW   http://en.ahau.findplus.cn//?h=articles&db=edsagr&an=edsagr.JP8500764
 DR   Cellosaurus; CVCL_T649; MDCC-BMCL2-1C10
 DR   Cellosaurus; CVCL_T650; MDCC-BMCL2-1C2
 DR   Cellosaurus; CVCL_T651; MDCC-BMCL2-20C1
@@ -1333,6 +1470,24 @@ keratinization of the cells grown in cultures whether from normal or
 neoplastic areas. Some of the hormonal aspects of the problem will be
 discussed.
 //
+ID   CLPUB00417
+RA   Ishihara T., Moore G.E., Sandberg A.A.;
+RT   "The in vitro chromosome constitution of cells from human tumors.";
+RL   Cancer Res. 22:375-379(1962).
+WW   http://cancerres.aacrjournals.org/content/22/3/375
+DR   Cellosaurus; CVCL_RP63; RPMI-1922
+AB   Yes
+The chromosome constitution was determined in nine established, long-term
+cultures of cells obtained from the effusions or excised tissues of
+cancer patients. The cultures were characterized by chromosome modes near
+the triploid range (66–75), with a considerable spread of the chromosome
+number about the mode. Analysis of the karyotypes revealed that most of
+the chromosomes could be grouped superficially into the various groups
+described for the normal human karyotype. The heteroploidy of the cells
+was due to extrasomy of all groups, with the exception of group G, which
+was usually in the diploid range. New, marker chromosomes were present in
+most of the cell lines examined.
+//
 ID   CLPUB00282
 RA   Piscaglia A.C., Shupe T.D., Oh S.-H., Elyaer J., Gasbarrini A.,
 RA   Petersen B.E.;
@@ -1371,6 +1526,46 @@ analysis at passage 4 revealed an aneuploid karyotype with a modal
 chromosome number of 41 and evidence of chromosomal abnormalities. We
 believe that LCSC-1 represents a cancer stem cell line. Transplantation
 studies to assess the tumorigenicity of these cells are currently underway.
+//
+ID   CLPUB00418
+RA   Xu J., Erdreich-Epstein A., Biegel J.A., Reynolds C.P.;
+RT   "Fenretinide combined with thiotepa is active against 3 newly
+RT   established atypical teratoid rhabdoid tumor cell lines that manifest
+RT   high-level multidrug resistance.";
+RL   Cancer Res. 68 Suppl. 9:3743-3743(2008).
+WW   http://cancerres.aacrjournals.org/content/68/9_Supplement/3743
+DR   Cellosaurus; CVCL_M149; CHLA-266
+DR   Cellosaurus; CVCL_RS25; COG-AR-359
+DR   Cellosaurus; CVCL_RS26; COG-AR-382
+AB   Yes
+Malignant rhabdoid tumors of kidney (MRT)) and brain (atypical teratoid
+rhabdoid tumors (AT/RT)) are very aggressive pediatric malignancies,
+typically have a poor prognosis, manifest a high level of de novo
+multidrug resistance. We have established 3 new AT/RT and MRT cell lines:
+CHLA-266 (AT/RT, with supratentorial metastasis at diagnosis), COG-AR-359
+(brain AT/RT at diagnosis), and COG-AR-382 (abdominal malignant rhabdoid
+tumor at diagnosis from the same patient as COG-AR-359). All 3 cell lines
+lack expression of the INI1 tumor suppressor gene and have INI1 gene
+mutations in chromosome band 22q11.2. Cell line identity to the patient
+was verified by short tandem repeat assay. CHLA-266 and COG-AR-382 grow
+as adherent cultures with doubling times of 40hrs and 82hrs,
+respectively, whereas COG-AR-359 has a mixed adherent/suspension
+phenotype with a doubling time of 53hrs. CHLA-266 and COG-AR-359 were
+tumorgenic in NOD/SCID mice, but COG-AR-382 was not tumorgenic to date.
+Drug cytotoxicity for etoposide (ETOP), cyclophosphamide (4-HC),
+temozolomide (TMZ), thiotepa, topotecan (TPT), and fenretinide (4-HPR)
+employed fluorescein diacetate and digital image microcopy (DIMSCAN). All
+3 new lines showed multi-drug resistance, with the concentration lethal
+for 90% of cells (LC90) well above clinically achievable plasMA levels
+for all drugs tested except for 4-HPR. However, 4-HPR as a single agent
+had only modest activity. Interestingly, we observed synergistic
+cytotoxicity when 4-HPR was combined with thiotepa (Combination index at
+LC90 = 0.60 for COG-AR-359 and 0.1 for CHLA-266). Thiotepa as a single
+agent achieved a mean of 1.45 logs kill activity, 4-HPR < 1 log, but
+thiotepa + 4-HPR produced a mean of 3.4 logs of cell kill. Thus, we have
+used newly established AT/RT cell lines that are resistant to commonly-
+used cytotoxic drugs to identify a synergistic combination of drugs with
+activity against AT/RT cell lines.
 //
 ID   CLPUB00029
 RA   Coon H.G., Williams I.;
@@ -1569,6 +1764,15 @@ sensitive, cells can grow in the HAT selective medium containing CAP,
 whereas the parental cells die (Sekiguchi, unpublished). We analyzed the
 chromosomes of L6TG and L6TGcapr cells by means of o7r routine air-dry
 method with a combined quinacrine mustard and 33258 Hoechst staining.
+//
+ID   CLPUB00421
+RA   de Castro M.P.;
+RT   "The swine cell line IB-RS-11 and its strains [animal genetic
+RT   improvement, animal anatomy, Sus domesticus].";
+RL   Cienc. Cult. 30:221-226(1978).
+WW   http://agris.fao.org/agris-search/search.do?recordID=BR19810598971
+DR   Cellosaurus; CVCL_RX33; IB-RS-11 S6
+AB   No
 //
 ID   CLPUB00319
 RA   Samid D., Mandler R.;
@@ -2228,7 +2432,7 @@ RT   hepatitis B virus (HBV) DNA from a hormone associated human primary
 RT   liver cell cancer.";
 RL   Gut 25:A541-A541(1984).
 WW   https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1432462/
-DR   Cellosaurus; CVCL_LJ92
+DR   Cellosaurus; CVCL_LJ92; PLC/NUT/1
 AB   Yes
 A continuous human cell line has been established from the primary
 hepatocellular carcinoma (PLC) of a British woman. The patient had no
@@ -2492,6 +2696,7 @@ RA   Shigemori M., Kuramoto S., Yokoyama S.;
 RT   "Characterization of an established human malignant glioma cell line,
 RT   KALS-1.";
 RL   Hum. Cell 3:259-260(1990).
+WW   http://jglobal.jst.go.jp/en/public/20090422/200902066061689845
 DR   Cellosaurus; CVCL_1323; KALS-1
 AB   No
 //
@@ -2818,7 +3023,7 @@ ID   CLPUB00323
 RA   Swaminathan T.R., Gopalakrishnan A., Basheer V.S., Divya P.R.,
 RA   Jena J.K.;
 RT   "Development and characterization of a new fish cell line from
-RT   honeycomb grouper, Epinephelus merra.";
+RT   honeycomb grouper, Epinephelus merra, Bloch 1793.";
 RL   Indian J. Animal Sci. 82:1100-1105(2012).
 WW   http://epubs.icar.org.in/ejournal/index.php/IJAnS/article/view/23682
 DR   Cellosaurus; CVCL_6E26; HGF [Epinephelus]
@@ -4001,6 +4206,7 @@ RT   "Culture and growth characteristics of human non-small cell lung
 RT   cancer cells.";
 RL   Kokenshi 42:73-83(1990).
 DR   Cellosaurus; CVCL_6659; II-18
+DR   Cellosaurus; CVCL_4900; Sq-1
 AB   No
 //
 ID   CLPUB00001
@@ -4316,6 +4522,15 @@ RA   Kamijyo A., Shinoda K.;
 RT   "Establishment of human alveolar soft sarcoma cell line ASPS-KY.";
 RL   Nippon Seikeigeka Gakkai Zasshi 79:S598-S598(2005).
 DR   Cellosaurus; CVCL_S737; ASPS-KY
+AB   No
+//
+ID   CLPUB00414
+RA   Higashitani A., Yokoyama S., Shimizu Y., Katsuura M., Akiba K.,
+RA   Mitui T., Endo M., Takano T., Hayashi T.;
+RT   "Establishment of megakaryoblastic leukemia cell line MG-S.";
+RL   Nippon Shonika Gakkai Zasshi 99:920-928(1995).
+WW   https://ci.nii.ac.jp/naid/10009454168/en
+DR   Cellosaurus; CVCL_RM09; MG-S
 AB   No
 //
 ID   CLPUB00234
@@ -5333,6 +5548,7 @@ RA   Wang S.-L., Li F., Pu P.-Y., Wang G.-X., Peng Q., Wang C.-Y.;
 RT   "The establishment and characteristics of human glioblastoma cell
 RT   lines TJ899 and TJ905.";
 RL   Tianjin Yiyao 24:416-418(1996).
+WW   http://www.cqvip.com/qk/92492X/199607/2218099.html
 DR   Cellosaurus; CVCL_B264; TJ899
 DR   Cellosaurus; CVCL_6975; TJ905
 AB   No
@@ -5341,6 +5557,7 @@ ID   CLPUB00142
 RA   Tanaka K., Takeuchi S.;
 RT   "Cell culture of choriocarcinoma.";
 RL   Tissue Cult. 6:471-478(1980).
+DR   Cellosaurus; CVCL_RX89; ENAMI-1
 DR   Cellosaurus; CVCL_W852; GCH-1
 DR   Cellosaurus; CVCL_W853; GCH-2
 AB   No
@@ -6066,6 +6283,34 @@ RL   Thesis PhD (1981), John Hopkins University, United States.
 DR   Cellosaurus; CVCL_DE18; TerC
 AB   No
 //
+ID   CLPUB00409
+RA   Dolenga M.P.;
+RT   "Metabolic studies of prolidase deficiency in cultured human
+RT   fibroblasts.";
+RL   Thesis MSc (1991), McGill University Montreal, Canada.
+WW   http://digitool.library.mcgill.ca/webclient/StreamGate?folder_id=0&dvs=1511258621151~387
+DR   Cellosaurus; CVCL_0D92; MCH039
+DR   Cellosaurus; CVCL_U493; MCH070
+DR   Cellosaurus; CVCL_0E57; WG1077
+DR   Cellosaurus; CVCL_0E64; WG1625
+AB   Yes
+Prolidase deficiency (McKusick 26413) is a rare autosomal recessive
+disorder charaeterized by iminodipeptiduria, skin lesions and mental
+retardation. The enzyme prolidase hydrolyzes dipeptides containing C-
+terminal proline or hydroxyproline. The results presented here indicate
+that prolidase plays a major role in the recycling of dipeptide bound
+proline. Control fibroblasts were able to use iminodipeptides in lieu of
+proline to sustain nonnal growth and protein synthesis whereas prolidase
+deficient cells were not. Iminodipeptides added to the media of control
+and mutant cells showed no adverse effeets on protein synthesis or cell
+growth. These results are consistent with a mechanism of biochemical
+pathology in which proline deprivation caused by the enzyme deficit is
+the cause of damage to skin cells. Prolidase regulation by product and
+substrate was studied. A two fold decrease of prolidase activity was
+observed in fibroblasts grown in excess proline. However, cells grown in
+medium in which iminodipeptides replaced proline showed no significant
+difference in prolidase activity.
+//
 ID   CLPUB00276
 RA   Culp P.A.;
 RT   "Random DNA integrations as an approach to insertional mutagenesis in
@@ -6247,6 +6492,37 @@ WW   https://www.livivo.de/doc/SKH322687926
 DR   Cellosaurus; CVCL_2145; NT-92
 AB   No
 //
+ID   CLPUB00420
+RA   Bukur J.H.;
+RT   "Characterization of T cell responses against human renal cell
+RT   carcinoma and identification of HLA-G as a tumor-associated antigen
+RT   and immune evasion mechanism of renal cell carcinoma.";
+RL   Thesis PhD (2004), Johannes Gutenberg University Mainz, Germany.
+WW   https://publications.ub.uni-mainz.de/theses/frontdoor.php?source_opus=903
+DR   https://web.expasy.org/cgi-bin/cellosaurus/search?input=CLPUB00420
+AB   Yes
+Renal cell carcinoma (RCC) cell lines were established to generate
+autologous T-cell lines. With the RCC cell line MZ1257RC modified to
+express the costimulatory molecule B7-1 at the cell surface, different
+autologous T-cell lines were raised and characterized. The identification
+of a tumor associated antigen was started using an autologous, HLA-A2
+restricted T-cell clone in cDNA expression cloning. After in vitro-
+sensitization of peripheral blood monocytes with the autologous RCC cell
+line MZ2733RC, a HLA class I restricted T-cell line XIE6 was raised, which
+lyses the autologous and various allogeneic RCC cell lines, but not the
+autologous kidney cells. The T-cells express TZR-Vbeta13.6-chains and release
+GM-CSF and IL-10 after antigen stimulation. Although this RCC cell line is
+less sensitive towards autologous and allogeneic effector cells. Finally,
+blocking of its HLA class I molecules on the cell surface enhances its
+sensitivity to lymphokine activated killer cells. A reason for this may be
+the expression of non-classical HLA class Ib molecules, especially HLA-G.
+Seven different HLA-G transcripts were detected in RNA from carcinoma cell
+lines, but not from kidney cells. In a detailed analysis, HLA-G
+transcripts were found in RCC cell lines (58%), in RCC biopsies (80%) and
+only in 10% of kidney epithelium biopsies. In the RCC cell line MZ2733RC a
+constitutive HLA-G1 protein expression was observed, which is inducible by
+IFN-gamma-treatment.
+//
 ID   CLPUB00139
 RA   Liu M.-C.;
 RT   "Establishment and characterization of a new human D/lambda multiple
@@ -6297,6 +6573,46 @@ The SEM-1 cell line was developed from a patient with mediastinal germ
 cell tumor. The focus of this thesis is to determine if the SEM-1 cell
 line is a seminoma by characterization studies such as gross,
 histological, immunochemical, and cytogenetic analyses.
+//
+ID   CLPUB00411
+RA   Petek O.;
+RT   "Analysis of expression and mutation of the antimetastatic gene NM23 in
+RT   human renal carcinoma cell lines and epithelioid sarcomas.";
+RL   Thesis MD (2002), Heinrich-Heine-Universitat Dusseldorf, Germany.
+WW   https://docserv.uni-duesseldorf.de/servlets/DocumentServlet?id=2490
+DR   https://web.expasy.org/cgi-bin/cellosaurus/search?input=CLPUB00411
+AB   Yes
+The crucial characteristic of malignant tumors is their ability to
+metastasize. At the molecular level, many different genes and gene
+products are involved in the regulation of metastasis. One of these genes
+is nm23, originally described in malignant melanoma cells as a metastasis
+inhibitor and different isoforms exist. It was shown that both for nm23-H1
+and nm23-H2 mutations in human tumors can occur. So far very little was
+known about the function of nm23-H1 and nm23-H2 in human renal cell
+carcinoma and human epithelioid sarcoma and mutational analyzes of both
+genes in these tumors had not been carried out. The aim of the present
+work was to investigate human renal cell carcinoma and epithelioid
+sarcomas on expression and the existence of mutations of genes nm23-H1 and
+nm23-H2. For this purpose, 26 human renal carcinoma cell lines and 3
+clonal cells subpopulations of the human epitheloid sarcoma cell line GRU-
+1 were analyzed by means of nm23-H1 and nm23-H2-specific RT-PCR and
+followed by the sequencing of the complete open reading frames of nm23-H1
+and nm23-H2. In all 26 renal carcinoma cell lines nm23-H1 and nm23-H2 were
+detectable at RNA level. In the sequencing of both genes a point mutation
+of nm23-H1 was detected in one of the renal carcinoma cell line. However,
+by analyzing different passage numbers of this cell line and the primary
+tumor, it could be shown that the observed nm23-H1 mutation corresponded
+to a cell culture artifact. For nm23-H2, 2 different point mutations could
+be detected in a renal carcinoma cell line. However, since these were not
+associated with an amino acid exchange, a functional relevance for these
+mutations can be excluded. Thus, mutations of nm23-H1 and nm23-H2 in human
+renal cell carcinoma appear to be a very rare event unlikely to affect the
+genesis and progression of these tumors. In addition, it was demonstrated
+for the first time in this work that epitheloid sarcomas also express nm23-
+H1 and nm23-H2. However, mutations of both genes could not be detected in
+the investigated cell lines, so that the known differences of these cell
+lines in biological behavior can not be explained by mutations of nm23-H1
+and nm23-H2.
 //
 ID   CLPUB00407
 RA   Krieg A.;
@@ -6535,6 +6851,32 @@ metal exposure, which correlates with their in vivo behavior. Both could
 be useful for understanding mechanisms of neural growth and
 differentiation in vertebrate and invertebrate species as well as in
 toxicity response and resistance in aquatic animals.
+//
+ID   CLPUB00416
+RA   Oberlin L.;
+RT   "Treatment of pancreatic carcinoma cell lines in vitro and vivo with a
+RT   monoclonal antibody against the transferrin receptor.";
+RL   Thesis VMD (2009), Justus-Liebig-Universitat Giessen, Germany.
+WW   http://geb.uni-giessen.de/geb/volltexte/2010/7414/pdf/OberlinLaura_2009_12_08.pdf
+DR   https://web.expasy.org/cgi-bin/cellosaurus/search?input=CLPUB00416
+AB   Yes
+People are getting older. Increased life expectancy puts diseases such as
+cancer in the foreground. A particularly aggressive and malignant form is
+pancreatic carcinoma, in which tens of thousands of people die every year
+in industrialized countries despite the most intensive treatment. Current
+tumor therapies such as resection, radiation, chemotherapy and
+combinations thereof do not or only to a very limited extent. The mean
+survival rate for the first year is 20% and only 1% of the patients
+survive the 5th year after diagnosis. Without treatment, death occurs on
+average 3-6 months after diagnosis. Especially the almost inauspicious
+prognosis and the bad treatability let research oncologists worldwide for
+new therapies. One approach to this is the 'starvation' of cancer cells.
+Due to the enormous iron requirement of proliferating cells, it seems
+reasonable to suppose that by reducing iron uptake into the cell, it can
+cause it to shrink. Exactly this approach is described in the present
+work. Both in vitro and in vivo, it was tested whether one can achieve a
+positive effect by an antibody therapy against the transferrin receptor,
+which infiltrates iron into the cell.
 //
 ID   CLPUB00293
 RA   Novak N.;
@@ -6914,6 +7256,51 @@ search of antiproliferative effects specifically directed against the
 mutated KIT or against one or other of the intracellular molecules
 involved in signal transduction induced by mutant KIT.
 //
+ID   CLPUB00422
+RA   Gutzkow T.;
+RT   "Interspecies-transmission of animal coronaviruses.";
+RL   Thesis PhD (2013), University of Veterinary Medicine Hannover, Germany.
+WW   https://d-nb.info/1046710710/34
+DR   https://web.expasy.org/cgi-bin/cellosaurus/search?input=CLPUB00422
+AB   Yes
+In recent years many emerging viruses threatening human health were
+discovered and found to have their major host reservoir in bats. Rabies,
+Ebola, Henipah and Coronaviruses are the most prominent under these
+zoonotic pathogens, where especially the emergence of severe acute
+respiratory syndrome (SARS) coronavirus in 2002 and the recent appearance
+of Middle East respiratory syndrome (MERS) coronavirus had gained global
+awareness. Great effort has been invested to uncover the course of events
+of their introduction to the human population. Coronaviruses may be
+exemplary for many zoonotic RNA viruses, so that the study of their
+genesis expected to provide insights into basic questions about viral
+zoonosis. For coronaviruses the recognition of a specific receptor by the
+viral glycoprotein appears to be a major constrain of interspecies
+transmission. Therefore, it is important to address the question whether a
+large shift in receptor specificity was necessary for their transmission
+to humans. The closest related relative to SARS coronavirus was identified
+in bats of the genus Rhinolophus in South-East of China, but until today
+no coronavirus was isolated from bats. What is known is that these viruses
+are not able to utilise the same receptor as the human SARS coronavirus,
+the human angiotensin converting enzyme 2 (ACE2). The aim of our studies
+was to identify the receptor of these bat SARS-like coronaviruses, which
+would help to estimate the likelihood of their transmission to humans. We
+therefore used three different glycoproteins of bat SARS-like
+coronaviruses isolated from Rhinolophus bats in China, Bulgaria and Spain
+and tried to identify their cellular receptors analysing cell lines of 14
+different bat species, in binding as well as infection assays.
+Unfortunately neither binding nor infection could be observed for the
+spike proteins tested. We also tested known coronavirus receptors like
+human ACE2, aminopeptidase N (APN) and dipeptidylpeptidase 4 (DPP4) and
+successfully cloned Rhinolophus ACE2 and DPP4. None of these proteins
+facilitated binding or infection in transient expression. This indicates
+that bat SARS-like coronaviruses utilise a novel coronavirus receptor. In
+contrast, we could show that SARS coronavirus can utilise ACE2 of two
+Rhinolophus species living in Europe, indicating that a proposed switch in
+receptor specificity may not be obligatory for the precursor of SARS-CoV
+to cross the species barrier. It may further suggests that bats are
+reservoir to at least two different lineages of coronaviruses, which
+differ in their receptor usage.
+//
 ID   CLPUB00266
 RA   Joyce H.;
 RT   "Molecular mechanisms of drug resistance and invasion in a human lung
@@ -7197,6 +7584,58 @@ dependent manner. Evaluation of possible remediation methods using
 bentonite and UV radiation to ameliorate toxicity of oil sands chemicals
 showed promise in vitro with YPF5 cells and could be investigated further.
 //
+ID   CLPUB00376
+RA   Verspaget C.J.;
+RT   "Unruly bodies: monstrous readings of biotechnology.";
+RL   Thesis PhD (2015), Curtin University, Australia.
+WW   http://hdl.handle.net/20.500.11937/1994
+DR   Cellosaurus; CVCL_0030; HeLa
+AB   Yes
+This thesis deploys the popular culture figure, the zombie, as a metaphor
+to examine the intersection of biotechnology and the production of
+knowledge about the body. Through reference to the HeLa cell line and
+BioArt project The Anarchy Cell Line, I show how the zombie metaphor helps
+to analyse and potentially undo Biology’s inflexible binary classification
+system, allowing a more inclusive and less reductive reading of those who
+are subject to Biology's system of knowledge.
+//
+ID   CLPUB00412
+RA   Siddiqui Z.G.;
+RT   "Medullary thyroid cancer: the current state of tumour marker and
+RT   treatment strategies.";
+RL   Thesis MD (2015), Medical University of Graz, Austria.
+WW   https://online.medunigraz.at/mug_online/wbAbs.showThesis?pThesisNr=47310&pOrgNr=14014
+DR   Cellosaurus; CVCL_M784; BOJO
+DR   Cellosaurus; CVCL_M785; GRS-IV
+DR   Cellosaurus; CVCL_M786; GRS-V
+DR   Cellosaurus; CVCL_Y193; HEVE-II
+DR   Cellosaurus; CVCL_8896; MTC-SK
+DR   Cellosaurus; CVCL_A764; OEE-III
+DR   Cellosaurus; CVCL_M787; RARE
+DR   Cellosaurus; CVCL_M782; SHER-I
+DR   Cellosaurus; CVCL_M783; SINJ
+AB   Yes
+Medullary thyroid carcinoma (MTC) is a neuroendocrine tumour which arises
+from calcitonin-producing parafollicular C-cells and accounts for 5% to
+10% of all thyroid cancers, with an estimated age-adjusted annual
+incidence of 0.18 for men and 0.23 for women per 100.000 inhabitants. MTC
+occurs as either a sporadic form or in a familial context (25% of cases).
+Familial forms are inherited in an autosomal-dominant way, either as part
+of multiple endocrine neoplasia syndrome type 2A (MEN 2A) or 2B (MEN 2B),
+or without any associated endocrinopathies as familial MTC (FMTC).
+Surgical removal of all neoplastic tissue in the neck by total
+thyroidectomy, central and bilateral neck dissection is the only
+potentially curative treatment in localized disease. However, at the time
+of initial DIagnosis, at least one quarter of patients has distant
+metastases. MTC research is a major focus of Institute for Pathophysiology
+and Immunology during the last 2.5 decades: 9 MTC-derived cell lines have
+been established and characterized. These approved cell lines are
+constantly used to study the MTC biology and to test therapeutic agents.
+The aim of this work is to give an overview about the MTC tumour marker
+and the new therapeutic strategies and drugs for the treatment of MTC.
+Furthermore, the aim is to assemble the data provided about MTC cell lines
+and to give an overview of their characteristics.
+//
 ID   CLPUB00334
 RA   Brennan J.C.;
 RT   "Development, optimization, and application of nuclear receptor
@@ -7279,21 +7718,6 @@ highly sensitive high throughput screening for EDCs systems, but for
 in-depth mechanistic studies examining crosstalk between receptor signaling
 pathways which can play a critical role in endocrine disruption.
 //
-ID   CLPUB00376
-RA   Verspaget C.J.;
-RT   "Unruly bodies: monstrous readings of biotechnology.";
-RL   Thesis PhD (2015), Curtin University, Australia.
-WW   http://hdl.handle.net/20.500.11937/1994
-DR   Cellosaurus; CVCL_0030; HeLa
-AB   Yes
-This thesis deploys the popular culture figure, the zombie, as a metaphor
-to examine the intersection of biotechnology and the production of
-knowledge about the body. Through reference to the HeLa cell line and
-BioArt project The Anarchy Cell Line, I show how the zombie metaphor helps
-to analyse and potentially undo Biology’s inflexible binary classification
-system, allowing a more inclusive and less reductive reading of those who
-are subject to Biology's system of knowledge.
-//
 ID   CLPUB00388
 RA   Delser M.P.;
 RT   "X-chromosomal markers and the histories of European populations.";
@@ -7328,6 +7752,97 @@ Eastern-specific haplotypes. Bayesian skyline plots suggest a European-
 specific expansion around 20 KYA with a more recent peak around 10 KYA.
 This study demonstrates the value of the use of haplotype blocks, and the
 accurate ascertainment of rare variants to infer human demographic history.
+//
+ID   CLPUB00415
+RA   Munro K.M.A.;
+RT   "Stabilising suppressor of cytokine signalling 3 (SOCS3) protein
+RT   levels to limit neointimal hyperplasia.";
+RL   Thesis PhD (2016), University of Glascow, United Kingdom.
+WW   http://theses.gla.ac.uk/7564/
+DR   Cellosaurus; CVCL_RN36; AS-M.5 SOCS3-Luc clone E
+AB   Yes
+Suppressor of cytokine signalling 3 (SOCS3) is a potent inhibitor of the
+mitogenic, migratory and pro-inflammatory pathways responsible for the
+development of neointimal hyperplasia (NIH), a key contributor to the
+failure of vascular reconstructive procedures. However, the protein levels
+of SOCS3, and therefore its potential to reduce NIH, is limited by its
+ubiquitylation and high turnover by the proteasome. I hypothesised that
+stabilisation of endogenous SOCS3 by inhibiting its ubiquitylation has the
+potential to limit vascular inflammation and NIH. Consequently, the aim of
+this PhD was to identify the mechanisms promoting the rapid turnover of
+SOCS3. Initial experiments involved the identification of residues
+involved in regulating the turnover of SOCS3 at the proteasome. I assessed
+the ubiquitylation status of a panel of FLAG tagged SOCS3 truncation
+mutants and identified a C-terminal 44 amino acid region required for
+SOCS3 ubiquitylation. This region localised to the SOCS box which is
+involved in binding Elongin B/C and the formation of a functional E3
+ubiquitin ligase complex. However, the single lysine residue at position
+173, located within this 44 amino acid region, was not required for
+ubiquitylation. Moreover, Emetine chase assays revealed that loss of
+either Lys173 or Lys6 (as documented in the literature) had no significant
+effect on SOCS3 stability 8 hrs post emetine treatment. As mutagenesis
+studies failed to identify key sites of ubiquitylation responsible for
+targeting SOCS3 to the proteasome, LC-MS-MS analysis of a SOCS3 co-
+immunoprecipitate was employed. These data were searched for the presence
+of a Gly-Gly doublet (+114 Da mass shift) and revealed 8 distinct sites of
+ubiquitylation (Lys23, Lys28, Lys40, Lys85, Lys91, Lys173, Lys195, Lys206)
+on SOCS3 however Lys6 ubiquitylation was not detected. As multiple Lys
+residues were ubiquitylated, I hypothesised that only a Lys-less SOCS3, in
+which all 8 Lys residues were mutated to Arg, would be resistant to
+ubiquitylation. Compared to WT SOCS3, Lys-less SOCS3 was indeed found to
+be completely resistant to ubiquitylation, and significantly more stable
+than WT SOCS3. These changes occurred in the absence of any detrimental
+effect on the ability of Lys-less SOCS3 to interact with the Elongin B/C
+components required to generate a functional E3 ligase complex. In
+addition, both WT and Lys-less SOCS3 were equally capable of inhibiting
+cytokine-stimulated STAT3 phosphorylation upon co-expression with a
+chimeric EpoR-gp130 receptor. To assess whether SOCS3 auto-ubiquitylates I
+generated an L189A SOCS3 mutant that could no longer bind the Elongins and
+therefore form the E3 ligase complex required for ubiquitylation. A
+denaturing IP to assess the ubiquitylation status of this mutant was
+performed and revealed that, despite an inability to bind the Elongins,
+the L189A mutant was poly-ubiquitylated similar to WT SOCS3. Together
+these data suggested that SOCS3 does not auto-ubiquitylate and that a
+separate E3 ligase must regulate SOCS3 ubiquitylation. This study sought
+to identify the E3 ligase and deubiquitylating (DUB) enzymes controlling
+the ubiquitylation of SOCS3. Our initial strategy was to develop a tool to
+screen an E3 ligase/DUB library, using an siARRAY, to sequentially
+knockdown all known E3 ligases in the presence of a SOCS3-luciferase
+fusion protein or endogenous SOCS3 in a high content imaging screening
+platform. However, due to a poor assay window (<2) and non-specific
+immunoreactivity of SOCS3 antibodies available, these methods were deemed
+unsuitable for screening purposes. In the absence of a suitable tool to
+screen the si-ARRAY, LC-MS-MS analysis of a SOCS3 co-immunoprecipitate (co-
+IP) was investigated. I performed a SOCS3 under conditions which preserved
+protein-protein interactions, with the aim of identifying novel E3 ligase
+and/or DUBs that could potentially interact with SOCS3. These data were
+searched for E3 ligase or DUB enzymes that may interact with SOCS3 in
+HEK293 cells and identified two promising candidates i) an E3 ligase known
+as HectD1 and ii) a DUB known as USP15. This thesis has demonstrated that
+in the presence of HectD1 overexpression, a slight increase in K63-linked
+polyubiquitylation of SOCS3 was observed. Mutagenesis also revealed that
+an N-terminal region of SOCS3 may act as a repressor of this interaction
+with HectD1. Additionally, USP15 was shown to reduce SOCS3
+polyubiquitylation in a HEK293 overexpression system suggesting this may
+act as a DUB for SOCS3. The C-terminal region of SOCS3 was also shown to
+play a major role in the interaction with USP15. The original hypothesis
+of this thesis was that stabilisation of endogenous SOCS3 by inhibiting
+its ubiquitylation has the potential to limit vascular inflammation and
+NIH. Consistent with this hypothesis, immunohistochemistry visualisation
+of SOCS3, in human saphenous vein tissue derived from CABG patients,
+revealed that while SOCS3 was present throughout the media of these
+vessels the levels of SOCS3 within the neointima was reduced. Finally,
+preliminary data supporting the hypothesis that SOCS3 overexpression may
+limit the proliferation, but not migration, of human saphenous vein smooth
+muscle cells (HSVSMCs) is presented. It is expected that multiple E3
+ligases and DUBs will contribute to the regulation of SOCS3 turnover.
+However, the identification of candidate E3 ligases or DUBs that play a
+significant role in SOCS3 turnover may facilitate the development of
+peptide disruptors or gene therapy targets to attenuate pathological SMC
+proliferation. A targeted approach, inhibiting the interaction between
+SOCS3 and identified E3 ligase, that controls the levels of SOCS3, would
+be expected to reduce the undesirable effects associated with global
+inhibition of the E3 ligase involved.
 //
 ID   CLPUB00262
 RA   Gold M.;
@@ -7559,10 +8074,10 @@ RT   "Establishment and characterization of medaka vitellogenin monoclonal
 RT   antibodies.";
 RL   (In) 4th annual meeting of Japan Society of Endocrine Disrupters Research; pp.PB-61; Tsukuba (2001).
 WW   https://www.env.go.jp/chemi/end/sympo/2001/report/pdf_abs/pb/PB_61.pdf
-DR   Cellosaurus; CVCL_U131; MVP25.
-DR   Cellosaurus; CVCL_U132; MVP47.
-DR   Cellosaurus; CVCL_U133; MVP49.
-DR   Cellosaurus; CVCL_U134; MVP51.
+DR   Cellosaurus; CVCL_U131; MVP25
+DR   Cellosaurus; CVCL_U132; MVP47
+DR   Cellosaurus; CVCL_U133; MVP49
+DR   Cellosaurus; CVCL_U134; MVP51
 AB   Yes
 We established Medaka (Oryzias latipes) vitellogenin (VTG) monoclonal
 antibodies for ELISA application. Medaka Was fed by 1 mg 17 beta-
@@ -7894,6 +8409,15 @@ RL   (In) Liver; Saunders S.J., Terblanche J. (eds.); pp.358-360; Pitman Medical
 DR   Cellosaurus; CVCL_0405; Mahlavu
 AB   No
 //
+ID   CLPUB00410
+RA   Horoszewicz J.S., Leong S.S., Chu T.M., Wajsman A., Friedman M.,
+RA   Papsidero L.D., Kim U., Chai L.S., Kakati S., Arya S.K., Sandberg A.A.;
+RT   "The LNCaP cell line -- a new model for studies on human prostatic
+RT   carcinoma.";
+RL   (In) Models for prostate cancer; Murphy G.P. (eds.); pp.115-132; Alan R. Liss; New York (1980).
+DR   Cellosaurus; CVCL_0395; LNCaP
+AB   No
+//
 ID   CLPUB00038
 RA   Keating A., Martin P.J., Bernstein I.D., Papayannopoulou T.,
 RA   Raskind W., Singer J.W.;
@@ -7957,6 +8481,15 @@ RL   (In) Proceedings of the Japanese Cancer Association 47th annual meeting; pp
 DR   Cellosaurus; CVCL_7926; KYN-3
 AB   No
 //
+ID   CLPUB00419
+RA   Kim J.-W., Bae S.-S., Namkoong S.-E., Song S.-Y., Lee H.-Y., Kim S.-J.;
+RT   "Establishment and characterization of new cancer cell line (CUMC-2)
+RT   derived from human epithelial carcinoma of ovary.";
+RL   (In) Proceedings of the Korean obstetrics and gynecology conference; pp.53-53; Seoul (1989).
+WW   http://kiss.kstudy.com/thesis/thesis-view.asp?key=2428826
+DR   Cellosaurus; CVCL_RV35; CUMC-2
+AB   No
+//
 ID   CLPUB00188
 RA   Sohi S.S.;
 RT   "Establishment of cultures of Malacosoma disstria Hubner (Lepidoptera:
@@ -7986,7 +8519,7 @@ ID   CLPUB00150
 RA   Willard-Gallo K.E.;
 RT   "Two-dimensional gel analysis of gene expression in human cell lines
 RT   established from patients with T-cell malignancies.";
-RL   (In) Recent progress in two-dimensional electrophoresis; Galteau M.M., Siest G. (eds.); pp.205-214; University Press of Nancy; Nancy (1986).
+RL   (In) Recent progress in two-dimensional electrophoresis; Galteau M.-M., Siest G. (eds.); pp.205-214; University Press of Nancy; Nancy (1986).
 DR   Cellosaurus; CVCL_X625; WE17/10
 AB   No
 //
@@ -8008,8 +8541,60 @@ RA   Kurebayashi J., Tanaka K., Yamamoto Y., Okubo S., Sonoo H.;
 RT   "Human epidermal growth factor receptor 1 and thrombospondin-1 in
 RT   thyroid cancer.";
 RL   (In) Trends in thyroid cancer research. Horizons in cancer research, Vol.37; Milton C.A. (eds.); pp.89-116; Nova Science Publishers; Hauppauge (2007).
+WW   https://www.novapublishers.com/catalog/product_info.php?products_id=3816
+DR   Cellosaurus; CVCL_6300; KTC-1
+DR   Cellosaurus; CVCL_6476; KTC-2
 DR   Cellosaurus; CVCL_W911; KTC-3
-AB   No
+AB   Yes
+Although prognosis of patients with differentiated thyroid cancer is
+generally favorable, undifferentiated/anaplastic thyroid cancer is one of
+the most aggressive malignancies. The remarkable difference in prognosis
+between two types of thyroid cancer indicates that there is a large
+biological difference between them. We have been involved in the studies
+for exploring new biomarkers to evaluate aggressiveness of thyroid cancer.
+These markers are useful not only for predicting prognosis but also for
+developing new strategies against aggressive thyroid cancer. We recently
+established three different thyroid cancer cell lines, KTC-1, KTC-2 and
+KTC-3. KTC-1 cells are derived from a patient with poorly differentiated
+thyroid papillary carcinoma. KTC-2 cells are derived from a patient with
+anaplastic transformation from papillary thyroid carcinoma. KTC-3 cells
+are derived from a patient with primary anaplastic thyroid carcinoma. To
+test the hypothesis that overexpression of human epidermal growth factor
+receptor (HER) 1 promotes malignant progression in thyroid cancer, the
+relationship among expression levels of HER1 and a cognate receptor HER2
+and effects of a HER1 tyrosine kinase inhibitor, gefitinib on cell
+proliferation, cytokine secretion and the expression level of one of
+thyroid differentiation markers, thyroglobulin were investigated using
+these three cell lines. Gefitinib inhibited in vitro growth of the thyroid
+cancer cells in dose-and time-dependent manners. No significant
+correlation was observed between the antitumor effect of gefitinib and
+expression level of HER1 or HER2. Gefitinib significantly decreased
+secretion of angiogenic cytokines, vascular endothelial growth factor
+(VEGF) and interleukin (IL)-8 in KTC-2 cells. In contrast, gefitinib
+significantly increased secretion of both angiogenic cytokines in KTC-3
+cells. Changes in secretion of IL-6 and parathyroid hormone-related
+protein (PTHrP) induced by gefitinib were also different among thyroid
+cancer cell lines. Gefitinib did not significantly change the expression
+level of thyroglobulin in any thyroid cancer cell lines. These findings
+suggest that gefitinib is effective for the treatment of aggressive
+thyroid cancer but its influences on cytokine secretion from tumor cells
+are different among thyroid cancers. Thrombospondin (TSP)-1 has been
+identified as an anti-angiogenic factor. We recently demonstrated that TSP-
+1 expression negatively related to extrathyroidal infiltration as well as
+angiogenesis in patients with papillary thyroid carcinoma. To elucidate
+the relationship between expression levels of p53 and TSP-1 in thyroid
+cancer, we studied their expression levels in 75 papillary thyroid
+carcinomas. There was an inverse correlation between expression levels of
+TSP-1 and p53. Additionally, the effects of TSP-1 and anti-TSP-1 antibody
+on invasion were investigated in six thyroid cancer cell lines using the
+in vitro invasion assay. Angiogenesis related factors, VEGF, VEGF-C, TSP-1
+and TSP-1 receptor (CD36) were expressed at various levels in all cell
+lines. Invasion tended to be inhibited by TSP-1 in five of the six cell
+lines. These effects inversely related to the expression level of VEGF or
+VEGF-C. The effects of anti-TSP-1 antibody on invasion differed among cell
+lines. These findings indicate that TSP-1 plays a certain role in invasion
+of thyroid cancer cells, and that the effects of TSP-1 and anti-TSP-1
+antibody on invasion are different among thyroid cancers.
 //
 ID   CLPUB00318
 RA   de Oliveira Georges J.A., Vergani N., Fraga A.M., Borges E. Jr.,

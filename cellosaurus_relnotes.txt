@@ -6,101 +6,106 @@
    \_____\___|_|_|\___/|___/\__,_|\__,_|_|   \__,_|___/
 
 
-This is the release notes for Cellosaurus version 24 of November 2017.
+This is the release notes for Cellosaurus version 25 of March 2018.
 
 1) Statistics
 
- 99021 cell lines (72395 human, 18957 mouse, 1901 rat)
-   573 species represented
- 54477 synonyms
-196890 cross-references to 73 ontologies, databases, catalogs, etc.
- 76749 references to 14421 distinct publications (papers, patents, thesis, etc.)
- 12530 web links
+101528 cell lines (74534 human, 19137 mouse, 1908 rat)
+   590 species represented
+ 56610 synonyms
+203181 cross-references to 73 ontologies, databases, catalogs, etc.
+ 83338 references to 15116 distinct publications (papers, patents, thesis, etc.)
+ 12928 web links
 
-  5247 human and dog cell lines with STR profiles (from 226 distinct sources)
+  5429 human and dog cell lines with STR profiles (from 273 distinct sources)
 
-2) Changes in the CC lines
+2) Introduction of the AG line
 
-2a) Changes in the format of the 'Misspelling' CC topic.
+With this release we have introduced a new line type (AG) that allows to
+store information on the age of the cell line donor at sampling.
 
-This topic is now structured. Misspelled names are no longer quoted using "'"
-and the format of this comment is now:
+Currently the information in this new line can either be textual or numerical.
 
-CC   Misspelling: misspelled_name; free_text_comment.
+Examples of textual AG lines:
+
+AG   Age unspecified
+AG   Adult
+AG   Blastocyst stage
+AG   Fetus
+
+In the case where numerical data is available, it is postfixed with the
+following period symbols:
+
+Y   Year
+M   Month
+W   Week
+D   Day
+FY  Fetal year
+FM  Fetal month
+FW  Fetal week
+FD  Fetal day 
 
 Examples:
 
-CC   Misspelling: Occasionally 'AHR 77'.
-becomes:
-CC   Misspelling: AHR 77; Occasionally.
+AG   43Y
+AG   4M
+AG   2FW 
 
-CC   Misspelling: 'D24.7' in PubMed=11351043.
-becomes:
-CC   Misspelling: D24.7; In PubMed=11351043.
+Age values can include two period symbols. Examples:
 
-Another facet of the change is that oly one misspelled name is now allowed
-per 'Misspelling' comment.
+AG   1Y10M
+AG   2M17D
 
-Example:
-CC   Misspelling: Occasionally 'CACOV-3' or 'CaCOV3'.
-becomes:
-CC   Misspelling: CACOV-3; Occasionally.
-CC   Misspelling: CaCOV3; Occasionally.
+Age values can also be in a range. Examples:
 
-2b) New cross-references in the 'Selected for resistance to' CC topic.
+AG   12-13FW
+AG   80-81Y 
 
-In addition to ChEBI, PubChem and UniProtKB, this topic now also accepts
-cross-references to DrugBank.
+Age values can be prefixed by "<" or ">". Examples:
 
-Example:
-CC   Selected for resistance to: DrugBank; DB00002; Cetuximab (Erbitux).
+AG   <5M
+AG   >10Y 
+
+Important notes
+
+- We have not finished retrofiting the age information in all Cellosaurus
+  cell line entries. Currently about 72% of the entries contain age
+  information.
+- At a later stage we will add to the AG line cross-references to
+  developmental ontologies.
+- The age information is not available in the OBO format file.
 
 3) Changes in the DR lines
 
-3a) Cross-references were added to the MetaboLights database for metabolomics
-experiments and derived information.
+3a) Cross-references were added to the Imanis Life Sciences cell line
+products.
 
 Corresponding entry in the file cellosaurus_xrefs.txt:
 
-Abbrev: MetaboLights
-Name  : MetaboLights database for metabolomics experiments and derived information
-Server: https://www.ebi.ac.uk/metabolights/
-Db_URL: https://www.ebi.ac.uk/metabolights/%s
-Cat   : Metabolomic databases
-//
-
-Example:
-DR   MetaboLights; MTBLS152
-
-3b) Cross-references were added to the Mutant Mouse Resource & Research
-Centers (MMRRC) cell line entries.
-
-Corresponding entry in the file cellosaurus_xrefs.txt:
-
-Abbrev: MMRRC
-Name  : Mutant Mouse Resource & Research Centers
-Server: https://www.mmrrc.org/
-Db_URL: https://www.mmrrc.org/catalog/cellLineSDS.php?mmrrc_id=%s
+Abbrev: Imanis
+Name  : Imanis Life Sciences cell line products
+Server: https://www.imanislife.com/collections/cell-lines/
+Db_URL: https://www.imanislife.com/?s=%s
 Cat   : Cell line collections
-//
 
 Example:
-DR   MMRRC; 15890
+DR   Imanis; CL023
 
-3c) Cross-references were added to the Telethon Network of Genetic Biobanks
-(TNGB) cell line entries.
+3b) Merging of the IFO cross-references to JCRB.
 
-Corresponding entry in the file cellosaurus_xrefs.txt:
-
-Abbrev: TNGB
-Name  : Telethon Network of Genetic Biobanks
-Server: http://biobanknetwork.telethon.it/
-Db_URL: http://biobanknetwork.telethon.it/Sample/View?sampleId=%s
-Cat   : Cell line collections
-//
+As the Institute for Fermentation Osaka (IFO) cell lines are all distributed
+by JCRB we decided to change the cross-references to these cell lines to that
+of JCRB.
 
 Example:
-DR   TNGB; 66061
+DR   IFO; IFO50416
+is now:
+DR   JCRB; IFO50416
+
+4) Changes in the SX line 
+
+We have changed one of the allowed label for the SX line: "Sex undetermined"
+was changed to "Sex unspecified".
 
 ----------------------------------------
 Amos Bairoch

@@ -2,7 +2,7 @@
 <!-- *****************************************************************************
         XML Schema Definition (XSD) for the Cellosaurus XML
 
-        Date: 2017-November-15; Release: 2.01
+        Date: 2018-March-5; Release: 1.30
 
         Copyright (c) CALIPHO group @ SIB - Swiss Institute of Bioinformatics
         Distributed under the Creative Commons Attribution-NoDerivs License
@@ -147,10 +147,11 @@
                    <xs:enumeration value="Male"/>
                    <xs:enumeration value="Mixed sex"/>
                    <xs:enumeration value="Sex ambiguous"/>
-                   <xs:enumeration value="Sex undetermined"/>
+                   <xs:enumeration value="Sex unspecified"/>
                 </xs:restriction>
              </xs:simpleType>
           </xs:attribute>
+          <xs:attribute name="age" use="optional"> </xs:attribute>
        </xs:complexType>
    </xs:element>
    <!-- Cell line element definition ends -->
@@ -607,6 +608,7 @@
                   <xs:enumeration value="thesis MD"/>
                   <xs:enumeration value="thesis MSc"/>
                   <xs:enumeration value="thesis PhD"/>
+                  <xs:enumeration value="thesis VMD"/>
                </xs:restriction>
             </xs:simpleType>
          </xs:attribute>

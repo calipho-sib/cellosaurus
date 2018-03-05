@@ -4,8 +4,8 @@
 ----------------------------------------------------------------------------
 
  Description: Cellosaurus: cross-referencing to external resources
- Version: 24.0
- Last update: 15-November-2017
+ Version: 25.0
+ Last update: 05-March-2018
 
 ----------------------------------------------------------------------------
 
@@ -58,7 +58,7 @@ here:
 1) DR lines
 
 Format: DR   Resource_abbrev; %s
-Where : Resource_abbrev is one of: AddexBio|ATCC|BCGO|BCRC|BCRJ|BTO|BioSample|BioSamples|CBA|CCLE|CCLV|CCRID|Cell_Biolabs|CGH-DB|ChEMBL-Cells|ChEMBL-Targets|CLDB|CLO|CLS|ColonAtlas|Coriell|Cosmic|Cosmic-CLP|dbMHC|DGRC|DiscoverX|DSMZ|EBiSC|ECACC|EFO|ENCODE|ESTDAB|FlyBase|GDSC|GEO|HipSci|hPSCreg|ICLC|IFO|IGRhCellID|IGSR|IHW|IMGT/HLA|ISCR|IZSLER|JCRB|KCB|KCLB|LINCS_HMS|LINCS_LDP|Lonza|MCCL|MeSH|MetaboLights|Millipore|MMRRC|NCBI_Iran|NCI-DTP|NHCDR |NISES|NIH-ARP|PRIDE|RCB|RSCB|SKIP|SKY/M-FISH/CGH|TCB|TKG|TNGB|TOKU-E|WiCell|Wikidata|Ximbio
+Where : Resource_abbrev is one of: AddexBio|ATCC|BCGO|BCRC|BCRJ|BTO|BioSample|BioSamples|CBA|CCLE|CCLV|CCRID|Cell_Biolabs|CGH-DB|ChEMBL-Cells|ChEMBL-Targets|CLDB|CLO|CLS|ColonAtlas|Coriell|Cosmic|Cosmic-CLP|dbMHC|DGRC|DiscoverX|DSMZ|EBiSC|ECACC|EFO|ENCODE|ESTDAB|FlyBase|GDSC|GEO|HipSci|hPSCreg|ICLC|IGRhCellID|IGSR|IHW|Imanis|IMGT/HLA|ISCR|IZSLER|JCRB|KCB|KCLB|LINCS_HMS|LINCS_LDP|Lonza|MCCL|MeSH|MetaboLights|Millipore|MMRRC|NCBI_Iran|NCI-DTP|NHCDR |NISES|NIH-ARP|PRIDE|RCB|RSCB|SKIP|SKY/M-FISH/CGH|TCB|TKG|TNGB|TOKU-E|WiCell|Wikidata|Ximbio
 
 2) RX lines
 
@@ -282,8 +282,8 @@ Cat   : Reference resources
 //
 Abbrev: DSMZ
 Name  : Deutsche Sammlung von Mikroorganismen und Zellkulturen
-Server: http://www.dsmz.de/catalogues/catalogue-human-and-animal-cell-lines.html
-Db_URL: http://www.dsmz.de/catalogues/details/culture/%s.html
+Server: https://www.dsmz.de/catalogues/catalogue-human-and-animal-cell-lines.html
+Db_URL: https://www.dsmz.de/catalogues/details/culture/%s.html
 Cat   : Cell line collections
 //
 Abbrev: DrugBank
@@ -294,7 +294,7 @@ Cat   : Chemistry resources
 //
 Abbrev: EBiSC
 Name  : European Bank for induced pluripotent Stem Cells
-Server: http://www.ebisc.org
+Server: https://www.ebisc.org
 Db_URL: https://cells.ebisc.org/%s
 Cat   : Cell line collections
 //
@@ -373,12 +373,6 @@ Server: http://www.iclc.it
 Db_URL: http://www.iclc.it/details/det_list.php?line_id=%s
 Cat   : Cell line collections
 //
-Abbrev: IFO
-Name  : Institute for Fermentation Osaka
-Server: http://cellbank.nibiohn.go.jp/english/
-Db_URL: http://cellbank.nibiohn.go.jp//~cellbank/en/search_res_det.cgi?RNO=%s
-Cat   : Cell line collections
-//
 Abbrev: IGRhCellID
 Name  : Integrated Genomic Resources of human Cell Lines for Identification
 Server: http://igrcid.ibms.sinica.edu.tw/cgi-bin/index.cgi
@@ -396,6 +390,12 @@ Name  : International Histocompatibility Workshop cell lines
 Server: https://www.fredhutch.org/en/labs/clinical/projects/ihwg.html
 Db_URL: None
 Cat   : Cell line databases/resources
+//
+Abbrev: Imanis
+Name  : Imanis Life Sciences cell line products
+Server: https://www.imanislife.com/collections/cell-lines/
+Db_URL: https://www.imanislife.com/?s=%s
+Cat   : Cell line collections
 //
 Abbrev: IMGT/HLA
 Name  : IMGT/HLA database
@@ -533,14 +533,14 @@ Cat   : Cell line collections
 //
 Abbrev: Patent
 Name  : Google Patents
-Server: http://www.google.com/patents
-Db_URL: http://www.google.com/patents/%s
+Server: https://patents.google.com
+Db_URL: https://patents.google.com/patent/%s
 Cat   : Reference resources
 //
 Abbrev: PRIDE
 Name  : PRoteomics IDEntifications archive
-Server: http://www.ebi.ac.uk/pride/archive/
-Db_URL: http://www.ebi.ac.uk/pride/archive/projects/%s
+Server: https://www.ebi.ac.uk/pride/archive/
+Db_URL: https://www.ebi.ac.uk/pride/archive/projects/%s
 Cat   : Proteomic databases
 //
 Abbrev: PubChem
@@ -563,8 +563,8 @@ Cat   : Cell line collections
 //
 Abbrev: RGD
 Name  : Rat Genome Database
-Server: http://rgd.mcw.edu
-Db_URL: http://rgd.mcw.edu/tools/genes/genes_view.cgi?id=%s
+Server: https://rgd.mcw.edu
+Db_URL: https://rgd.mcw.edu/rgdweb/report/gene/main.html?id=%s
 Cat   : Organism-specific databases
 //
 Abbrev: RSCB
