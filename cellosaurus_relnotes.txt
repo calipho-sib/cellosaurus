@@ -6,106 +6,81 @@
    \_____\___|_|_|\___/|___/\__,_|\__,_|_|   \__,_|___/
 
 
-This is the release notes for Cellosaurus version 25 of March 2018.
+This is the release notes for Cellosaurus version 26 of May 2018.
 
 1) Statistics
 
-101528 cell lines (74534 human, 19137 mouse, 1908 rat)
-   590 species represented
- 56610 synonyms
-203181 cross-references to 73 ontologies, databases, catalogs, etc.
- 83338 references to 15116 distinct publications (papers, patents, thesis, etc.)
- 12928 web links
+107576 cell lines (80331 human, 19303 mouse, 1922 rat)
+   593 species represented
+ 67929 synonyms
+210445 cross-references to 77 ontologies, databases, catalogs, etc.
+ 85987 references to 15433 distinct publications (papers, patents, theses, etc.)
+ 16794 web links
 
-  5429 human and dog cell lines with STR profiles (from 273 distinct sources)
+  5572 human and dog cell lines with STR profiles (from 325 distinct sources)
 
-2) Introduction of the AG line
+2) Changes in the DR lines
 
-With this release we have introduced a new line type (AG) that allows to
-store information on the age of the cell line donor at sampling.
-
-Currently the information in this new line can either be textual or numerical.
-
-Examples of textual AG lines:
-
-AG   Age unspecified
-AG   Adult
-AG   Blastocyst stage
-AG   Fetus
-
-In the case where numerical data is available, it is postfixed with the
-following period symbols:
-
-Y   Year
-M   Month
-W   Week
-D   Day
-FY  Fetal year
-FM  Fetal month
-FW  Fetal week
-FD  Fetal day 
-
-Examples:
-
-AG   43Y
-AG   4M
-AG   2FW 
-
-Age values can include two period symbols. Examples:
-
-AG   1Y10M
-AG   2M17D
-
-Age values can also be in a range. Examples:
-
-AG   12-13FW
-AG   80-81Y 
-
-Age values can be prefixed by "<" or ">". Examples:
-
-AG   <5M
-AG   >10Y 
-
-Important notes
-
-- We have not finished retrofiting the age information in all Cellosaurus
-  cell line entries. Currently about 72% of the entries contain age
-  information.
-- At a later stage we will add to the AG line cross-references to
-  developmental ontologies.
-- The age information is not available in the OBO format file.
-
-3) Changes in the DR lines
-
-3a) Cross-references were added to the Imanis Life Sciences cell line
-products.
+2a) Cross-references were added to the 4DN Nucleome Data Portal.
 
 Corresponding entry in the file cellosaurus_xrefs.txt:
 
-Abbrev: Imanis
-Name  : Imanis Life Sciences cell line products
-Server: https://www.imanislife.com/collections/cell-lines/
-Db_URL: https://www.imanislife.com/?s=%s
+Abbrev: 4DN
+Name  : 4D Nucleome Data Portal
+Server: https://data.4dnucleome.org/
+Db_URL: https://data.4dnucleome.org/biosources/%s/
+Cat   : Biological sample resources
+
+Example:
+DR   4DN; 4DNSRDD5W2FZ
+
+2b) Cross-references were added to ArrayExpress:
+
+Corresponding entry in the file cellosaurus_xrefs.txt:
+
+Abbrev: ArrayExpress
+Name  : ArrayExpress Archive of Functional Genomics
+Server: https://www.ebi.ac.uk/arrayexpress/
+Db_URL: https://www.ebi.ac.uk/arrayexpress/experiments/%s/
+Cat   : Gene expression databases
+
+Example:
+DR   ArrayExpress; E-MTAB-3511
+
+2c) Cross-references were added to the BEI Resources reagent
+
+Abbrev: BEI_Resources
+Name  : BEI Resources
+Server: https://www.beiresources.org/Home.aspx
+Db_URL: https://www.beiresources.org/Catalog/cellBanks/%s.aspx
 Cat   : Cell line collections
 
+Exemple:
+DR   BEI_Resources; MRA-858
+
+2d) Cross-references were added to the eagle-i resource discovery tool.
+
+Corresponding entry in the file cellosaurus_xrefs.txt:
+
+Abbrev: eagle-i
+Name  : eagle-i resource discovery tool
+Server: https://www.eagle-i.net/
+Db_URL: https://%s
+Cat   : Biological sample resources
+
 Example:
-DR   Imanis; CL023
+DR   eagle-i; shared.eagle-i.net/i/00000157-4e6e-3d81-49f6-255680000000
 
-3b) Merging of the IFO cross-references to JCRB.
+3) Change in the ST lines
 
-As the Institute for Fermentation Osaka (IFO) cell lines are all distributed
-by JCRB we decided to change the cross-references to these cell lines to that
-of JCRB.
+A new STR marker has been added: Penta C
 
 Example:
-DR   IFO; IFO50416
-is now:
-DR   JCRB; IFO50416
+ST   Penta C: 11,13
 
-4) Changes in the SX line 
+4) Change in the CA line
 
-We have changed one of the allowed label for the SX line: "Sex undetermined"
-was changed to "Sex unspecified".
+The category "Adult stem cell" has been renamed "Somatic stem cell".
 
 ----------------------------------------
 Amos Bairoch

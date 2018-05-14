@@ -2,7 +2,7 @@
 <!-- *****************************************************************************
         XML Schema Definition (XSD) for the Cellosaurus XML
 
-        Date: 2018-March-5; Release: 1.30
+        Date: 2018-May-14; Release: 1.40
 
         Copyright (c) CALIPHO group @ SIB - Swiss Institute of Bioinformatics
         Distributed under the Creative Commons Attribution-NoDerivs License
@@ -123,7 +123,6 @@
           <xs:attribute name="category" use="required">
              <xs:simpleType>
                 <xs:restriction base="xs:string">
-                   <xs:enumeration value="Adult stem cell"/>
                    <xs:enumeration value="Cancer cell line"/>
                    <xs:enumeration value="Conditionally immortalized cell line"/>
                    <xs:enumeration value="Embryonic stem cell"/>
@@ -132,6 +131,7 @@
                    <xs:enumeration value="Hybrid cell line"/>
                    <xs:enumeration value="Hybridoma"/>
                    <xs:enumeration value="Induced pluripotent stem cell"/>
+                   <xs:enumeration value="Somatic stem cell"/>
                    <xs:enumeration value="Spontaneously immortalized cell line"/>
                    <xs:enumeration value="Stromal cell line"/>
                    <xs:enumeration value="Telomerase immortalized cell line"/>

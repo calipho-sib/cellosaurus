@@ -4,12 +4,33 @@
 ----------------------------------------------------------------------------
 
  Description: Cellosaurus: frequently asked questions
- Version: 25.0
- Last update: 05-March-2018
+ Version: 26.0
+ Last update: 14-May-2018
 
 ----------------------------------------------------------------------------
 
-Q: How do I cite the Cellosaurus in a publication?
+Index of questions
+
+Q01: How do I cite the Cellosaurus in a publication?
+Q02: How can I contact the Cellosaurus so as to propose an update to an existing entry or a new entry?
+Q03: How frequently is the Cellosaurus upated?
+Q04: Are plant cell lines going to be added to the Cellosaurus?
+Q05: Are patient-derived xenografts and other transplantable tumors going to be added to the Cellosaurus?
+Q06: Is it possible to directly indicate search terms in a URL?
+Q07: Can I save the Cellosaurus records corresponding to the result of a search?
+Q08: I would like to order cell line XYZ from you?
+Q09: Where can I buy cell line XYZ?
+Q10: Why is supplier XYZ not listed in the answer to question Q09?
+Q11: Is there a difference in the content of the Cellosaurus in the ASCII (TXT), OBO and XML formats?
+Q12: Why is cell line XYZ reported to originate from a male individual but its authentication value for amelogenin is reported as "X" instead of "X,Y"?
+Q13: How to make best use of the Cellosaurus in the context of literature text-mining activities?
+Q14: What is the meaning of the "CVCL" prefix in Cellosaurus accession numbers?
+Q15: Can I search inside NCBI PubMed for papers that are cited in the Cellosaurus?
+Q16: My cell line XYZ is not in the Cellosaurus, how can I get it in?
+
+----------------------------------------------------------------------------
+
+Q01: How do I cite the Cellosaurus in a publication?
 
 A: Currently there is no paper describing the Cellosaurus, so you can cite
 it in the following manner:
@@ -20,37 +41,35 @@ https://web.expasy.org/cellosaurus/
 
 ----------------------------------------------------------------------------
 
-Q: How can I contact the Cellosaurus so as to propose an update to an
-existing entry or a new entry?
+Q02: How can I contact the Cellosaurus so as to propose an update to an existing entry or a new entry?
 
 A: You can either click on the "contact" link on the top right of all
 Cellosaurus web pages or send an email to "cellosaurus@sib.swiss"
 
 ----------------------------------------------------------------------------
 
-Q: How frequently is the Cellosaurus upated?
+Q03: How frequently is the Cellosaurus upated?
 
 A: Currently there is no regular update schedule, but we try to release new
 versions of the Cellosaurus at least 4 to 6 times per year.
 
 ----------------------------------------------------------------------------
 
-Q: Are plant cell lines going to be added to the Cellosaurus?
+Q04: Are plant cell lines going to be added to the Cellosaurus?
 
 A: Currently there is no plan to increase the coverage of the Cellosaurus to
 plant cell lines.
 
 ----------------------------------------------------------------------------
 
-Q: Are patient-derived xenografts and other transplantable tumors going to be
-added to the Cellosaurus?
+Q05: Are patient-derived xenografts and other transplantable tumors going to be added to the Cellosaurus?
 
 A: This is something undergoing internal discussion and if you think that
 it would be useful to add them, please let us know!
 
 ----------------------------------------------------------------------------
 
-Q: Is it possible to directly indicate search terms in a URL?
+Q06: Is it possible to directly indicate search terms in a URL?
 
 A: Yes, you can do so with the following syntax:
 
@@ -67,21 +86,21 @@ https://web.expasy.org/cgi-bin/cellosaurus/search?input="PubMed=1000501"
 
 ----------------------------------------------------------------------------
 
-Q: Can I save the Cellosaurus records corresponding to the result of a search?
+Q07: Can I save the Cellosaurus records corresponding to the result of a search?
 
 A: Not yet, but this is someting we would like to implement in a future version
 of the web interface
 
 ----------------------------------------------------------------------------
 
-Q: I would like to order cell line XYZ from you?
+Q08: I would like to order cell line XYZ from you?
 
 A: We are not selling or distributing any cell lines. The Cellosaurus is a
 knowledge resource on cell lines.
 
 ----------------------------------------------------------------------------
 
-Q: Where can I buy cell line XYZ?
+Q09: Where can I buy cell line XYZ?
 
 A: The Cellosaurus provides cross-references or web links to the main
 organisations and companies selling or distributing cell lines. You will
@@ -105,17 +124,17 @@ AddexBio:
 Allen Cell Collection:
  http://www.allencell.org/cell-catalog.html
 American Type Culture Collection (ATCC):
- http://www.atcc.org/
+ https://www.atcc.org/
 Applied Biological Materials (ABM):
  https://www.abmgood.com/Immortalized-Cells.html
-Asterand Bioscience:
- http://solutions.asterand.com/Human-Cell-Lines-s/1.htm
-Bioresource Collection and Research Center (BCRC) from Taiwan:
- http://www.bcrc.firdi.org.tw/
 Banco de Celulas do Rio de Janeiro (BCRJ):
  http://bcrj.org.br/
+BioIVT
+ https://www.bioivt.com/cell-products/?_sf_s=cell%20lines
 Biopredic International:
  https://www.biopredic.com/
+Bioresource Collection and Research Center (BCRC) from Taiwan:
+ http://www.bcrc.firdi.org.tw/
 Cedarlane Cellutions Biosystems:
  https://www.cedarlanelabs.com/Cellutions
 Cell Biolabs:
@@ -127,10 +146,10 @@ Cellular Engineering Technologies (CET):
 ChemoScreen:
  http://www.chemoscreen.com/
 Children's Oncology Group (COG) Cell Culture and Xenograft Repository:
- http://www.cogcell.org/cellreqs-leuk.php
+ https://www.cccells.org/cellreqs-leuk.php
 Chordoma Foundation cell line repository:
  https://www.chordomafoundation.org/research/disease-models/
-Clontech Laboratories:
+Clontech Laboratories (Takara):
  http://www.clontech.com/
 CLS - Cell lines Services:
  http://www.clsgmbh.de/
@@ -141,19 +160,15 @@ Coriell Institute Biorepositories:
 Cosmo Bio
  https://www.cosmobio.com/contents/list.php?category_id=36
 Creative Bioarray:
- http://www.creative-bioarray.com/Products/Cells.htm
+ https://www.creative-bioarray.com/products/immortalized-cells-191.htm
 Deutsche Sammlung von Mikroorganismen und Zellkulturen (DSMZ):
- http://www.dsmz.de/catalogues/catalogue-human-and-animal-cell-lines.html
+ https://www.dsmz.de/catalogues/catalogue-human-and-animal-cell-lines.html
 DiscoverX:
  https://www.discoverx.com/products-applications/cell-lines
 Drosophila Genomics Resource Center (DGRC):
  https://dgrc.bio.indiana.edu/cells/Catalog
-Endocells:
- http://www.endocells.com/products-and-services/
 ESI BIO:
  http://www.esibio.com/products/product-category/cell-lines/
-Essen BioScience:
- http://www.essenbioscience.com/en/products/reagents-consumables/category/cell-lines/
 European Bank for induced pluripotent Stem Cells (EBiSC):
  http://www.ebisc.org/
 European Collection for Biomedical Research:
@@ -182,6 +197,8 @@ Inbiomed:
  http://www.inbiomed.org/Index.php/servicios_externos/inbiobank
 INCELL:
  http://www.incell.com/product-category/proprietary-cell-lines/
+IncuCyte (Essen BioScience):
+ https://www.essenbioscience.com/en/products/reagents-consumables/category/cell-lines/
 Interlab Cell Line Collection (ICLC):
  http://www.iclc.it/
 InvivoGen:
@@ -199,7 +216,7 @@ Korean Cell Line Bank (KCLB):
 Kunming Cell Bank of Type Culture Collection (KCB):
  http://english.kiz.cas.cn/about/an/201108/t20110824_74162.html
 Lurie Children Hospital of Chicacgo Human iPS & Stem Cell Core Facility:
- https://www.luriechildrens.org/en-us/research/facilities/Pages/ips-human-stem-cell.aspx
+ https://www.luriechildrens.org/en/research/core-facilities/ips-stem-cell/
 Memorial Sloan Kettering Cancer Center:
  https://www.mskcc.org/research-advantage/support/office-technology-development/tangible-materials-available-licensing
 Merck Millipore (EMD Millipore)
@@ -220,24 +237,22 @@ NIMH Repository and Genomic Resource:
  https://www.nimhgenetics.org/stem_cells/crm_lines.php
 NINDS Human Cell and Data Repository (NHCDR):
  https://stemcells.nindsgenetics.org
-NISES Cell Database:
- https://www.gene.affrc.go.jp/ex-nises/NISESCells/CellindexE1.html
 Novus Biologicals:
  http://www.novusbio.com/
 Oxford Expression Technology (OET):
- http://oetltd.com/product-category/insect-cell-culture/insect-cells-2/
+ https://oetltd.com/product-category/insect-cell-culture/insect-cells/
 ParaTechs:
  http://www.paratechs.com/ve-bevs-cell-lines/
 PerkinElmer:
  http://www.perkinelmer.com/
 ProBioGen:
- http://www.probiogen.de/innovative-technologies/virusproduction-system.html
+ https://www.probiogen.de/virus-production-cell-lines.html
 Progeria Research Foundation:
- http://www.progeriaresearch.org/available_cell_lines.html
+ https://www.progeriaresearch.org/available-cell-lines/
 Reliance Life Sciences:
  http://www.rellife.com/rm_cellsresearch.html
 RIKEN Bioresource Center Cell Bank (RCB):
- http://www.brc.riken.jp/lab/cell/english/index_rcb.shtml
+ http://cell.brc.riken.jp/en/rcb
 Rockefeller University Embryonic Stem Cell Lines:
  http://rues.rockefeller.edu/
 Rockland Immunochemicals:
@@ -245,25 +260,23 @@ Rockland Immunochemicals:
 Royan Stem Cell Bank (RSCB):
  http://www.royaninstitute.org/cmsen/index.php?option=com_content&task=view&id=205&Itemid=40
 Selexis:
- http://www.selexis.com/#!sure-cho-m-cell-line/ctak
+ http://selexis.com/technology/proprietary-cho-k1-cell-line/
 Sigma-Aldrich:
  https://www.sigmaaldrich.com/life-science/cell-culture.html
-Systems Biosciences (SBI):
- https://www.systembio.com/stem-cell-research/ips-cell-lines
 ThermoFischer Scientific:
  http://www.thermofisher.com/ch/en/home/life-science.html
 Tiandz:
  http://www.tiandz.com/
 Tick Cell Biobank:
- http://www.pirbright.ac.uk/tick-cell-lines
+ https://www.liverpool.ac.uk/infection-and-global-health/research/tick-cell-biobank/
 Tohoku University cell line catalog (TKG):
  http://www2.idac.tohoku.ac.jp/dep/ccr/
 Valneva:
  http://www.valneva.com/en/technologies/35
 Vircell:
- http://en.vircell.com/products/?technique=34
+ https://en.vircell.com/products/?technique=34
 WiCell:
- http://www.wicell.org/
+ https://www.wicell.org/
 Ximbio reagents online portal:
  https://ximbio.com/
 XIP:
@@ -273,7 +286,7 @@ ZenBio:
 
 ----------------------------------------------------------------------------
 
-Q: Why is supplier XYZ not listed above?
+Q10: Why is supplier XYZ not listed in the answer to question Q09?
 
 A: There are many cell line suppliers and while we strive to be comprehensive
 we are probably missing a number of organizations/companies that distribute
@@ -292,8 +305,7 @@ organisation.
 
 ----------------------------------------------------------------------------
 
-Q: Is there a difference in the content of the Cellosaurus in the ASCII (TXT),
-OBO and XML formats?
+Q11: Is there a difference in the content of the Cellosaurus in the ASCII (TXT), OBO and XML formats?
 
 A: Yes, you should be aware that:
 
@@ -316,8 +328,7 @@ information stored in the file cellosaurus_xrefs.txt
 
 ----------------------------------------------------------------------------
 
-Q: Why is cell line XYZ reported to originate from a male individual but its
-authentication value for amelogenin is reported as "X" instead of "X,Y"?
+Q12: Why is cell line XYZ reported to originate from a male individual but its authentication value for amelogenin is reported as "X" instead of "X,Y"?
 
 A: Nearly half of male cancer cell lines are incorrectly identified as female.
 Authentication testing kits usually include sex-specific markers such as
@@ -341,8 +352,7 @@ informative answer.
 
 ----------------------------------------------------------------------------
 
-Q: How to make best use of the Cellosaurus in the context of literature
-text-mining activities?
+Q13: How to make best use of the Cellosaurus in the context of literature text-mining activities?
 
 A: We describe here the features of the Cellosaurus which are particularly
 useful in the context of the development of dictionaries for name entity
@@ -438,8 +448,7 @@ Cell line names be contextualized on the basis of:
 
 ----------------------------------------------------------------------------
 
-Q: What is the meaning of the "CVCL" prefix in the Cellosaurus accession
-numbers?
+Q14: What is the meaning of the "CVCL" prefix in Cellosaurus accession numbers?
 
 A: It is a good practice for knowledge resources and ontologies to use
 accession numbers that are composed of a prefix followed by a separator
@@ -452,11 +461,10 @@ what "CVCL" means!
 
 ----------------------------------------------------------------------------
 
-Q: Can I search inside NCBI PubMed for papers that are linked to the
-Cellosaurus?
+Q15: Can I search inside NCBI PubMed for papers that are cited in the Cellosaurus?
 
 A: Yes, the Cellosaurus is part of the "Linkout" program of NCBI. To
-restric searches in PubMed to papers cited in the Cellosaurus, you need
+restrict searches in PubMed to papers cited in the Cellosaurus, you need
 to add "AND loprovCellosaurus [filter]" to your search pattern.
 
 Example: prostate[Title/Abstract] AND loprovCellosaurus[filter]
@@ -468,7 +476,7 @@ abstract and are cited in the Cellosaurus.
 
 ----------------------------------------------------------------------------
 
-Q: My cell line XYZ is not in the Cellosaurus, how can I get it in?
+Q16: My cell line XYZ is not in the Cellosaurus, how can I get it in?
 
 A: There are two possibilities:
 
@@ -486,11 +494,15 @@ create a web form to allow submission of new cell line information. In the
 meanwhile, the best strategy is to send us in a first step a minimal set
 of information which consist of:
 
- -Name
- -Species of origin (and if not human the strain/breed of the animal)
- -Gender and age of donor
- -Category of cell line (examples: cancer, hybridoma, iPSC, ESC, etc).
- -If the donor is suffering from a disease (cancer or genetic), that disease name
+-Name
+
+-Species of origin (and if not human the strain/breed of the animal)
+
+-Gender and age of donor
+
+-Category of cell line (examples: cancer, hybridoma, iPSC, ESC, etc).
+
+-If the donor is suffering from a disease (cancer or genetic), that disease name
 
 There are many other information items that could be useful and you should
 look in the Cellosaurus at entries for cell lines "similar" to that you are
@@ -502,3 +514,7 @@ https://web.expasy.org/cellosaurus/description.html
 
 As for a publication-linked cell line, we will send you back a preliminary
 entry for feedback.
+
+The preliminary entry will already contain the accession number of the
+future entry and you can cite it as a RRID (Research Resource Identifier)
+in your manuscripts.

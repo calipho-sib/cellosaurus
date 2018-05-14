@@ -4,8 +4,8 @@
 ----------------------------------------------------------------------------
 
  Description: Cellosaurus: cross-referencing to external resources
- Version: 25.0
- Last update: 05-March-2018
+ Version: 26.0
+ Last update: 14-May-2018
 
 ----------------------------------------------------------------------------
 
@@ -23,11 +23,11 @@ link out from the following DR line:
 you should use the information on the "Db_URL" line of the ATCC entry in
 this document which currently indicates:
 
- http://www.atcc.org/Products/All/%s.aspx
+ https://www.atcc.org/Products/All/%s.aspx
 
 thus your corresponding web link should go to:
 
- http://www.atcc.org/Products/All/HTB-30.aspx
+ https://www.atcc.org/Products/All/HTB-30.aspx
 
 b) For historical and reference purposes we keep in the Cellosaurus cross-
 references to catalog entries corresponding to cell lines that are no longer
@@ -58,7 +58,7 @@ here:
 1) DR lines
 
 Format: DR   Resource_abbrev; %s
-Where : Resource_abbrev is one of: AddexBio|ATCC|BCGO|BCRC|BCRJ|BTO|BioSample|BioSamples|CBA|CCLE|CCLV|CCRID|Cell_Biolabs|CGH-DB|ChEMBL-Cells|ChEMBL-Targets|CLDB|CLO|CLS|ColonAtlas|Coriell|Cosmic|Cosmic-CLP|dbMHC|DGRC|DiscoverX|DSMZ|EBiSC|ECACC|EFO|ENCODE|ESTDAB|FlyBase|GDSC|GEO|HipSci|hPSCreg|ICLC|IGRhCellID|IGSR|IHW|Imanis|IMGT/HLA|ISCR|IZSLER|JCRB|KCB|KCLB|LINCS_HMS|LINCS_LDP|Lonza|MCCL|MeSH|MetaboLights|Millipore|MMRRC|NCBI_Iran|NCI-DTP|NHCDR |NISES|NIH-ARP|PRIDE|RCB|RSCB|SKIP|SKY/M-FISH/CGH|TCB|TKG|TNGB|TOKU-E|WiCell|Wikidata|Ximbio
+Where : Resource_abbrev is one of: 4DN|AddexBio|ArrayExpress|ATCC|BCGO|BCRC|BCRJ|BEI_Resources|BTO|BioSample|BioSamples|CBA|CCLE|CCLV|CCRID|Cell_Biolabs|CGH-DB|ChEMBL-Cells|ChEMBL-Targets|CLDB|CLO|CLS|ColonAtlas|Coriell|Cosmic|Cosmic-CLP|dbMHC|DGRC|DiscoverX|DSMZ|eagle-i|EBiSC|ECACC|EFO|ENCODE|ESTDAB|FlyBase|GDSC|GEO|HipSci|hPSCreg|ICLC|IGRhCellID|IGSR|IHW|Imanis|IMGT/HLA|ISCR|IZSLER|JCRB|KCB|KCLB|LINCS_HMS|LINCS_LDP|Lonza|MCCL|MeSH|MetaboLights|Millipore|MMRRC|NCBI_Iran|NCI-DTP|NHCDR |NISES|NIH-ARP|PRIDE|RCB|RSCB|SKIP|SKY/M-FISH/CGH|TCB|TKG|TNGB|TOKU-E|WiCell|Wikidata|Ximbio
 
 2) RX lines
 
@@ -69,23 +69,23 @@ Where : Resource_abbrev is one of: CelloPub|DOI同atent同ubMed
 
 Topic:  Knockout cell
 Format: CC   Knockout cell: Method=Method_name; Resource_abbrev; %s; Gene/protein_name.
-Where : Resource_abbrev is one of: FlyBase劣GNC危GI吐GD各niProtKB
+Where : Resource_abbrev is one of: FlyBase|HGNC|MGI|RGD|UniProtKB
 
 Topic:  Monoclonal antibody target
 Format: CC   Monoclonal antibody target: Resource_abbrev; %s; Gene/protein_name.
-Where : Resource_abbrev is one of: ChEBI同ubChem各niProtKB
+Where : Resource_abbrev is one of: ChEBI|PubChem|UniProtKB
 
 Topic:  Selected for resistance to
 Format: CC   Selected for resistance to: Resource_abbrev; %s; Compound/protein_name.
-Where : Resource_abbrev is one of: ChEBI刑rugBank同ubChem各niProtKB
+Where : Resource_abbrev is one of: ChEBI|DrugBank|PubChem|UniProtKB
 
 Topic:  Transfected with
 Format: CC   Transfected with: Resource_abbrev; %s; Gene/protein_name.
-Where : Resource_abbrev is one of: FlyBase劣GNC危GI吐GD各niProtKB
+Where : Resource_abbrev is one of: FlyBase|HGNC|MGI|RGD|UniProtKB
 
 Topic:  Transformant
 Format: CC   Transformant: Resource_abbrev; %s; Transformant_name.
-Where : Resource_abbrev is one of: ChEBI吉CBI_TaxID吉CIt同ubChem各niProtKB
+Where : Resource_abbrev is one of: ChEBI|NCBI_TaxID|NCIt|PubChem
 
 4) DI lines
 
@@ -99,6 +99,12 @@ Where : Resource_abbrev is: NCBI_TaxID
 
 ----------------------------------------------------------------------------
 
+Abbrev: 4DN
+Name  : 4D Nucleome Data Portal
+Server: https://data.4dnucleome.org/
+Db_URL: https://data.4dnucleome.org/biosources/%s/
+Cat   : Biological sample resources
+//
 Abbrev: AddexBio
 Name  : AddexBio cell line products
 Server: http://www.addexbio.com/productshow?id=4
@@ -107,10 +113,16 @@ Db_URL: http://www.addexbio.com/productdetail?pid=%s
         Example: for "DR   AddexBio; T0016001/4918": %s=4918
 Cat   : Cell line collections
 //
+Abbrev: ArrayExpress
+Name  : ArrayExpress Archive of Functional Genomics
+Server: https://www.ebi.ac.uk/arrayexpress/
+Db_URL: https://www.ebi.ac.uk/arrayexpress/experiments/%s/
+Cat   : Gene expression databases
+//
 Abbrev: ATCC
 Name  : American Type Culture Collection
-Server: http://www.atcc.org/
-Db_URL: http://www.atcc.org/Products/All/%s.aspx
+Server: https://www.atcc.org/
+Db_URL: https://www.atcc.org/Products/All/%s.aspx
 Cat   : Cell line collections
 //
 Abbrev: BCGO
@@ -131,6 +143,12 @@ Server: http://bcrj.org.br
 Db_URL: http://bcrj.org.br/catalogo/cell/?celula=%s
 Cat   : Cell line collections
 //
+Abbrev: BEI_Resources
+Name  : BEI Resources
+Server: https://www.beiresources.org/Home.aspx
+Db_URL: https://www.beiresources.org/Catalog/cellBanks/%s.aspx
+Cat   : Cell line collections
+//
 Abbrev: BioSample
 Name  : BioSample database
 Server: https://www.ncbi.nlm.nih.gov/biosample
@@ -144,7 +162,7 @@ Db_URL: https://www.ebi.ac.uk/biosamples/samples/%s
 Cat   : Biological sample resources
 //
 Abbrev: BTO
-Name  : Brenda Tissue Ontology
+Name  : BRENDA Tissue Ontology
 Server: https://bioportal.bioontology.org/ontologies/BTO
 Db_URL: https://bioportal.bioontology.org/ontologies/BTO?p=classes&conceptid=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_%s
         Note: %s is the numerical part of the BTO:nnnnnnn identifier
@@ -292,6 +310,12 @@ Server: https://www.drugbank.ca/
 Db_URL: https://www.drugbank.ca/drugs/%s
 Cat   : Chemistry resources
 //
+Abbrev: eagle-i
+Name  : eagle-i resource discovery tool
+Server: https://www.eagle-i.net/
+Db_URL: http://%s
+Cat   : Biological sample resources
+//
 Abbrev: EBiSC
 Name  : European Bank for induced pluripotent Stem Cells
 Server: https://www.ebisc.org
@@ -300,17 +324,19 @@ Cat   : Cell line collections
 //
 Abbrev: ECACC
 Name  : European Collection of Cell Cultures
-Server: http://www.phe-culturecollections.org.uk/products/celllines/index.aspx
-Db_URL: http://www.phe-culturecollections.org.uk/products/celllines/generalcell/detail.jsp?refId=%s&collection=ecacc_gc
+Server: https://www.phe-culturecollections.org.uk/products/celllines/index.aspx
+Db_URL: https://www.phe-culturecollections.org.uk/products/celllines/generalcell/detail.jsp?refId=%s&collection=ecacc_gc
         Note:
         For cell lines of the category (CA) "Hybridoma" use:
-        http://www.phe-culturecollections.org.uk/products/celllines/hybridoma/detail.jsp?refId=%s&collection=ecacc_hc
+        https://www.phe-culturecollections.org.uk/products/celllines/hybridoma/detail.jsp?refId=%s&collection=ecacc_hc
         For cell lines of the category (CA) "Induced pluripotent stem cell" use:
-        http://www.phe-culturecollections.org.uk/products/celllines/ipsc/detail.jsp?refId=%s&collection=ecacc_ipsc
+        https://www.phe-culturecollections.org.uk/products/celllines/ipsc/detail.jsp?refId=%s&collection=ecacc_ipsc
         For cell lines with a CC 'Part of' with "ECACC randomly selected UK Caucasian blood donors cell line selection" use:
-        http://www.phe-culturecollections.org.uk/products/celllines/humanrandomcontrol/detail.jsp?refId=%s&collection=ecacc_hrc
+        https://www.phe-culturecollections.org.uk/products/celllines/humanrandomcontrol/detail.jsp?refId=%s&collection=ecacc_hrc
         For cell lines with a CC 'Part of' with "ECACC chromosomal abnormality collection" use:
-        http://www.phe-culturecollections.org.uk/products/celllines/humangeneticca/detail.jsp?refId=%s&collection=ecacc_hgc
+        https://www.phe-culturecollections.org.uk/products/celllines/humangeneticca/detail.jsp?refId=%s&collection=ecacc_hgc
+        For cell lines with a CC 'Part of' with "Motor Neurone Disease (MND) collection" use:
+        https://www.phe-culturecollections.org.uk/products/celllines/diseaseandnormalcohortcollections/detail.jsp?refId=%s&collection=ecacc_mnd
 Cat   : Cell line collections
 //
 Abbrev: EFO
@@ -381,8 +407,8 @@ Cat   : Cell line databases/resources
 //
 Abbrev: IGSR
 Name  : International Genome Sample Resource
-Server: http://www.1000genomes.org/home
-Db_URL: http://www.1000genomes.org/data-portal/sample/%s
+Server: http://www.internationalgenome.org/
+Db_URL: http://www.internationalgenome.org/data-portal/sample/%s
 Cat   : Biological sample resources
 //
 Abbrev: IHW
@@ -453,7 +479,7 @@ Cat   : Cell line databases/resources
 //
 Abbrev: MCCL
 Name  : Molecular Connection Cell Line ontology
-Server: https://web.archive.org/web/20130228074205/http://www.molecularconnections.com/home/ontology
+Server: https://bioportal.bioontology.org/ontologies/MCCL
 Db_URL: None
 Cat   : Ontologies
 //
@@ -527,8 +553,8 @@ Cat   : Cell line collections
 //
 Abbrev: NISES
 Name  : NISES Cell Database
-Server: https://www.gene.affrc.go.jp/ex-nises/NISESCells/CellindexE1.html
-Db_URL: https://www.gene.affrc.go.jp/ex-nises/NISESCells/data-eng/%sE.html
+Server: https://web.archive.org/web/20160709065305/https://www.gene.affrc.go.jp/ex-nises/NISESCells/CellindexE1.html
+Db_URL: None
 Cat   : Cell line collections
 //
 Abbrev: Patent
