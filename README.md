@@ -31,7 +31,7 @@ For each cell line we provide the following information:
 - If a cell line originate from the same individual as other cell line(s) (sister cell lines) cross-reference to these sister cell line(s) are provided.
 - The sex of the individual from which the cell line has been derived.
 - The age of the individual from which the cell line has been derived (at the time of "sampling").
-- The category to which a cell line belong. Currently this can be one of the following categories: Adult stem cell; Cancer cell line; Conditionally immortalized cell line; Embryonic stem cell; Factor-dependent cell line; Finite cell line; Hybrid cell line; Hybridoma; Induced pluripotent stem cell; Spontaneously immortalized cell line; Stromal cell line; Telomerase immortalized cell line; Transformed cell line; Undefined cell line type
+- The category to which a cell line belong. Currently this can be one of the following categories: Cancer cell line; Conditionally immortalized cell line; Embryonic stem cell; Factor-dependent cell line; Finite cell line; Hybrid cell line; Hybridoma; Induced pluripotent stem cell; Spontaneously immortalized cell line; Somatic stem cell; Stromal cell line; Telomerase immortalized cell line; Transformed cell line; Undefined cell line type
 - Web links.
 - Publication references. We principally provide the references for publications describing the establishment of a cell line or its characterization. We do not attempt to capture all the literature that make use of a particular cell line.
 - Cross-references to cell line catalogs/collections, ontologies, cell lines databases/resources and to databases that list cell lines as samples.
