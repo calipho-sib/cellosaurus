@@ -70,3 +70,10 @@ The files that are distributed by FTP and are on GitHub are:
 - cellopub.txt: Abstracts and web links for references that are not in PubMed, DOI or Patent (identifiers CLPUBnnnnn)
 
 Important note: the cellosaurus.xml file is only available on the FTP site as it is too big to be stored in GitHub.
+
+##Reference
+
+Bairoch A.
+The Cellosaurus, a cell line knowledge resource.
+J. Biomol. Tech. (2018) 29:25-38
+DOI: 10.7171/jbt.18-2902-002; PMID: 29805321
