@@ -4,8 +4,8 @@
 ----------------------------------------------------------------------------
 
  Description: Cellosaurus: cross-referencing to external resources
- Version: 26.0
- Last update: 14-May-2018
+ Version: 27.0
+ Last update: 7-September-2018
 
 ----------------------------------------------------------------------------
 
@@ -58,7 +58,7 @@ here:
 1) DR lines
 
 Format: DR   Resource_abbrev; %s
-Where : Resource_abbrev is one of: 4DN|AddexBio|ArrayExpress|ATCC|BCGO|BCRC|BCRJ|BEI_Resources|BTO|BioSample|BioSamples|CBA|CCLE|CCLV|CCRID|Cell_Biolabs|CGH-DB|ChEMBL-Cells|ChEMBL-Targets|CLDB|CLO|CLS|ColonAtlas|Coriell|Cosmic|Cosmic-CLP|dbMHC|DGRC|DiscoverX|DSMZ|eagle-i|EBiSC|ECACC|EFO|ENCODE|ESTDAB|FlyBase|GDSC|GEO|HipSci|hPSCreg|ICLC|IGRhCellID|IGSR|IHW|Imanis|IMGT/HLA|ISCR|IZSLER|JCRB|KCB|KCLB|LINCS_HMS|LINCS_LDP|Lonza|MCCL|MeSH|MetaboLights|Millipore|MMRRC|NCBI_Iran|NCI-DTP|NHCDR |NISES|NIH-ARP|PRIDE|RCB|RSCB|SKIP|SKY/M-FISH/CGH|TCB|TKG|TNGB|TOKU-E|WiCell|Wikidata|Ximbio
+Where : Resource_abbrev is one of: 4DN|ABCD|AddexBio|ArrayExpress|ATCC|BCGO|BCRC|BCRJ|BEI_Resources|BTO|BioSample|BioSamples|CBA|CCLE|CCLV|CCRID|Cell_Biolabs|CGH-DB|ChEMBL-Cells|ChEMBL-Targets|CLDB|CLO|CLS|ColonAtlas|Coriell|Cosmic|Cosmic-CLP|dbMHC|DGRC|DiscoverX|DSMZ|eagle-i|EBiSC|ECACC|EFO|ENCODE|ESTDAB|FlyBase|GDSC|GEO|HipSci|hPSCreg|ICLC|IGRhCellID|IGSR|IHW|Imanis|IMGT/HLA|ISCR|IZSLER|JCRB|KCB|KCLB|LINCS_HMS|LINCS_LDP|Lonza|MCCL|MeSH|MetaboLights|Millipore|MMRRC|NCBI_Iran|NCI-DTP|NHCDR |NISES|NIH-ARP|PRIDE|RCB|RSCB|SKIP|SKY/M-FISH/CGH|TCB|TKG|TNGB|TOKU-E|WiCell|Wikidata|Ximbio
 
 2) RX lines
 
@@ -77,7 +77,7 @@ Where : Resource_abbrev is one of: ChEBI|PubChem|UniProtKB
 
 Topic:  Selected for resistance to
 Format: CC   Selected for resistance to: Resource_abbrev; %s; Compound/protein_name.
-Where : Resource_abbrev is one of: ChEBI|DrugBank|PubChem|UniProtKB
+Where : Resource_abbrev is one of: ChEBI|DrugBank|NCIt|PubChem|UniProtKB
 
 Topic:  Transfected with
 Format: CC   Transfected with: Resource_abbrev; %s; Gene/protein_name.
@@ -103,6 +103,12 @@ Abbrev: 4DN
 Name  : 4D Nucleome Data Portal
 Server: https://data.4dnucleome.org/
 Db_URL: https://data.4dnucleome.org/biosources/%s/
+Cat   : Biological sample resources
+//
+Abbrev: ABCD
+Name  : AntiBodies Chemically Defined database
+Server: https://web.expasy.org/abcd/
+Db_URL: https://web.expasy.org/abcd/%s
 Cat   : Biological sample resources
 //
 Abbrev: AddexBio
@@ -133,8 +139,8 @@ Cat   : Ontologies
 //
 Abbrev: BCRC
 Name  : Taiwan Bioresource Collection and Research Center
-Server: http://www.bcrc.firdi.org.tw
-Db_URL: https://catalog.bcrc.firdi.org.tw/BSAS_cart/controller?event=SEARCH&bcrc_no=%s&type_id=4&keyword=
+Server: https://catalog.bcrc.firdi.org.tw/Welcome
+Db_URL: https://catalog.bcrc.firdi.org.tw/BcrcContent?bid=%s
 Cat   : Cell line collections
 //
 Abbrev: BCRJ
@@ -583,8 +589,8 @@ Cat   : Reference resources
 //
 Abbrev: RCB
 Name  : RIKEN Bioresource Center Cell Bank
-Server: http://www.brc.riken.jp/lab/cell/english/index_rcb.shtml
-Db_URL: http://www2.brc.riken.jp/lab/cell/detail.cgi?cell_no=%s
+Server: http://cell.brc.riken.jp/en/rcb
+Db_URL: http://cellbank.brc.riken.jp/cell_bank/CellInfo/?cellNo=%s&lang=En
 Cat   : Cell line collections
 //
 Abbrev: RGD

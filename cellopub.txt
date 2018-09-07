@@ -4,8 +4,8 @@
 ----------------------------------------------------------------------------
 
  Description: CelloPub, Cellosaurus publications
- Version: 26.0
- Last update: 14-May-2018
+ Version: 27.0
+ Last update: 7-September-2018
 
 ----------------------------------------------------------------------------
 ID   CLPUB00222
@@ -14,6 +14,7 @@ RT   "Establishment of an insect cell line for high level expression of
 RT   recombinant protein.";
 RL   Acta Entomol. Sin. 44:276-281(2001).
 WW   http://www.ixueshu.com/document/d20b47228576ba6a318947a18e7f9386.html
+WW   https://europepmc.org/abstract/CBA/351792
 DR   Cellosaurus; CVCL_0A12; HNU-Tn-FB1
 AB   Yes
 A new cell line was established from Trichoplusia ni fat body in Excell
@@ -36,6 +37,7 @@ RT   "Establishment of a cell line from the hemocytes of Xestia c-nigrum L.
 RT   (Lepidoptera: Noctuidae).";
 RL   Acta Entomol. Sin. 45:279-282(2002).
 WW   http://www.insect.org.cn/EN/Y2002/V45/I2/279
+WW   https://europepmc.org/abstract/CBA/367935
 DR   Cellosaurus; CVCL_0A25; NEAU-Xc-730E
 DR   Cellosaurus; CVCL_0A13; NEAU-Xc-960716H
 AB   Yes
@@ -55,6 +57,7 @@ RT   "Establishment and characterization of an embryo cell line of Bombyx
 RT   mori, BmE-SWU2.";
 RL   Acta Entomol. Sin. 49:719-725(2006).
 WW   http://www.insect.org.cn/EN/Y2006/V49/I5/719
+WW   https://europepmc.org/abstract/CBA/627364
 DR   Cellosaurus; CVCL_Z086; BmE-SWU2
 AB   Yes
 An embryo cell line of Bombyx mori, named BmE-SWU2, was established after
@@ -420,69 +423,6 @@ examined by light microscope, titration of tissue culture infection dose
 (TCID50), immuno peroxidase technique and dot-blot hybridization. The
 results showed that this baculovirus can replicate in the homologous cell
 line Bs-484, but not in the other three lepidopteran cell lines.
-//
-ID   CLPUB00358
-RA   Itoh T., Aizu S., Kasahara S., Mori T.;
-RT   "Establishment of a functioning epithelial cell line from the rat
-RT   thymus. A cell line that induces the differentiation of rat bone
-RT   marrow cells into T cell lineage.";
-RL   Biomed. Res. 2:11-19(1981).
-WW   https://eurekamag.com/research/005/384/005384800.php
-DR   Cellosaurus; CVCL_7677; IT-45R1
-AB   Yes
-An epithelial cell line, which is capable of inducing the differentiation
-of rat bone marrow cells into T cell lineage, was established from a
-normal rat thymus. Thymus tissues were minced and dispersed with
-collagenase and trypsin. About 8 mo. after the initiation of cultures, the
-IT-45R1 line was established by utilizing the difference in the strength
-of adhesiveness of epithelial cells and fibroblasts. IT-45R1 line cells
-were identified as epithelial cells of thymic origin because of their
-mosaic-like arrangement, desmosomes and tonofilaments, as previously
-described with regard to IT-26R21 cells. The generation doubling time of
-this line was calculated to be 60 h. Karyotype analysis showed that the
-chromosome number ranged from 57-76 with the mode of 67. Supernatant from
-this line was collected in a serum-free medium and examined for its
-ability to induce the differentiation of T lymphocytes. Rat bone marrow
-cells were fractionated by discontinuous density gradient of bovine serum
-albumin and incubated with the supernatant. After incubation, the cells
-were subjected to the cytotoxic test and the assay for rosette formation.
-Thy 1.1 surface antigen in fraction-5-cells and rosette forming cells in
-fraction-4-cells were significantly increased. Thymic epithelial cells of
-IT-45R1 line probably induce the differentiation of bone marrow cells into
-immature T lymphocytes.
-//
-ID   CLPUB00194
-RA   Mitsuhashi J.;
-RT   "A new continuous cell line from larvae of the mosquito Aedes
-RT   albopictus (Diptera, Culicidae).";
-RL   Biomed. Res. 2:599-606(1981).
-WW   https://eurekamag.com/research/004/593/004593367.php
-DR   Cellosaurus; CVCL_Z549; NIAS-AeAl-2
-AB   Yes
-A continuous cell line was established from the 1st instar larvae of a
-mosquito, A. albopictus. Primary cultures were prepared from pieces of
-larval bodies. Cells of various shapes migrated from the explanted larval
-fragments and multiplied on the glass surface of the culture vessel. The
-1st subculture was made 53 days after the culture was set up and 100
-passages were made during the following 625 days. The established cell
-line was designated as NIAS-AeAl-2. The mode of chromosome number of the
-cell line was 6 (2n). Population doubling time was approx. 30 h at 25
-degree C. Cells were stored at 5 degree C for approx. 2 mo. The cells
-consumed aspartic acid and glutamic acid more actively than other mosquito
-cell lines. Cultures were apparently free from contamination by
-mycoplasmas and viruses. The cells were susceptible to Chilo iridescent
-virus (Iridoviridae). The cell line could be cultured continuously in
-serum-free culture media.
-//
-ID   CLPUB00270
-RA   Shimbo Y., Kumanishi T., Yamazaki K., Ikuta F., Sekiguchi K.;
-RT   "Isolation of glial fibrillary acidic protein-positive clonal mouse
-RT   glioma cell line.";
-RL   Biomed. Res. 5:517-520(1984).
-WW   http://jglobal.jst.go.jp/en/public/200902005477499825
-WW   https://eurekamag.com/research/028/599/028599414.php
-DR   Cellosaurus; CVCL_4Y23; F6B3
-AB   No
 //
 ID   CLPUB00335
 RA   Royston I., Majda J.A., Baird S.M., Meserve B.L., Griffiths J.C.;
@@ -1283,7 +1223,7 @@ WW   http://cat.inist.fr/?aModele=afficheN&cpsidt=5493222
 DR   Cellosaurus; CVCL_3047; NCC-RbC-39
 AB   Yes
 A new human retinoblastoma cell line (NCC-RbC-39) was established from a
-tumor slample of a 3-year-old boy with a unilateral retinoblastoma. The
+tumor sample of a 3-year-old boy with a unilateral retinoblastoma. The
 components of the medium used to establish the retinoblastoma cell line
 were the same as used previously by us to grow colonies of cultured
 retinoblastoma cells. This medium was used with 12 consecutive fresh
@@ -1772,6 +1712,14 @@ studied its biological characteristics. Ca761-P93 provided a good high.
 pulmonary metastatic model for experimental cancer metastatic
 investigation.
 //
+ID   CLPUB00437
+RA   Iwamoto S., Sugisaki K., Shibuya I., Takeda M.;
+RT   "Characterization of a novel human Langerhans cell type dendritic cell
+RT   line, ELD-1.";
+RL   Dendritic Cell 9:41-47(1999).
+DR   Cellosaurus; CVCL_VN20; ELD-1
+AB   No
+//
 ID   CLPUB00204
 RA   Currie D.A., Milner M.J., Evans C.W.;
 RT   "The growth and differentiation in vitro of leg and wing imaginal disc
@@ -2044,6 +1992,45 @@ bronchial epithelial (RaBE) cell line is now well established and might be
 useful for cell communication or toxicity tests, and possibly for mutation
 assays, which remains a subject for future studies.
 //
+ID   CLPUB00440
+RA   Pirozzi G., Curci A., Errico S., Luongo V., Di Gennaro E.,
+RA   Caraco C., Mozzillo N., Lombardi M.L.;
+RT   "A new mutation of the B2-microglobuline gene in the ANAD-63, a
+RT   melanoma cell line HLA class I negative.";
+RL   Eur. J. Immunogenet. 28:327-327(2001).
+WW   https://moh-it.pure.elsevier.com/en/publications/a-new-mutation-of-the-b2-microglobuline-gene-in-the-anad-63-a-mel
+DR   Cellosaurus; CVCL_VP94; ANAD 63
+DR   Cellosaurus; CVCL_VP95; COPA 159
+AB   Yes
+Abnormality in HLA-class I antigen expression in primary and metastatic
+melanoma lesions, evidenced by immunohistochemical staining with mAbs, are
+reported in several studies. Defects range from total HLA class I antigen
+loss to selective loss of one of the HLA class I specificities (Ferrone S.,
+Immunology today, 1995; 16: 487). Since HLA antigens are the restricting
+elements presenting several melanoma associated antigens-derived peptides
+to cytotoxic T-lymphocytes, the down-regulation of HLA class I antigen
+expression can represent a mechanism of tumor escape from immune
+surveillance (Seliger B., Immunology today, 2000; 21: 455). To investigate
+the involvement of membrane associated antigens in functional recognition
+of melanoma cells by immune effectors, we stabilised in vitro 25 human
+melanoma cell lines starting from surgical removed primary and/or
+metastatic tumors. All the lines showed, by cytofluorimetric analysis,
+significant expression of HMW-MAA, a melanoma associated antigen.
+Moreover, HLA Class-I and Class-II expression revealed complete HLA class-
+I loss only in two cell lines, ANAD-63 and COPA-159, whereas aberrant
+Class-II expression was observed in 5/25 melanoma cell lines. Our
+attention is now focused on the lines that seem to have aberrant
+expression of HLA antigens trying to understand, by molecular techniques,
+the mechanism of possible loss of HLA antigens expression (Wang BZ, J Exp
+Med, 1999;190: 205). The HLA class 1 negative melanoma cell line ANAD-63
+shows, indeed, a deletion, in frame, of 24 bp in the exon 2 of the beta2-
+microglobuline gene, by sequence analysis (codon 59-66). The detected
+mutation does not affect synthesis of either m-RNA, revealed by RT-PCR, or
+protein, detected by intracellular cytofluorimetric analysis. In
+conclusion, loss of HLA class I expression in ANAD-63 appears to be
+dependent to a new mutation of the B2-microglobulin gene whereas the
+defect in COPA-159 needs a better characterisation.
+//
 ID   CLPUB00088
 RA   Nordbye K., Oftebro R.;
 RT   "Establishment of four new cell strains from human uterine cervix.
@@ -2259,6 +2246,14 @@ RA   Ivanov I.G., Kril A.I.;
 RT   "Establishment and characterization of a permanent duck embryo cell line.";
 RL   Exp. Pathol. Parasitol. 4:41-44(2000).
 DR   Cellosaurus; CVCL_JF07; DEC-99
+AB   No
+//
+ID   CLPUB00439
+RA   Dorfler A., Eicheler W., Zips D., Petersen C., Baumann M.;
+RT   "Establishment and characterization of a radiation-sensitive
+RT   squamous cell carcinoma -- SKX -- cell line in vitro.";
+RL   Exp. Strahlenther. Klin. Strahlenbiol. 9:11-13(2000).
+DR   Cellosaurus; CVCL_VP43; SKX
 AB   No
 //
 ID   CLPUB00071
@@ -3115,6 +3110,36 @@ DR   Cellosaurus; CVCL_7127; SCMC-L11
 DR   Cellosaurus; CVCL_W267; UTP-5
 DR   Cellosaurus; CVCL_W268; UTP-6
 AB   No
+//
+ID   CLPUB00438
+RA   Wan Nur Baitty W.M.T., Hwa Li T., Noor Azam N., Selvalingam S.,
+RA   Rozita R., Nik Norliza N.H.;
+RT   "Establishment and characterization of USM-BC-1 cell line derived from
+RT   human urinary bladder cancer.";
+RL   Int. J. Med. Sci. Biotechnol. 1:4-23(2013).
+WW   http://www.oiirj.org/ijmsb/aug2013/01.pdf
+DR   Cellosaurus; CVCL_VP41; USM-BC-1
+AB   Yes
+Transitional cell carcinoma of the urinary bladder is one of the common
+diseases that causes morbidity and mortality worldwide. In Malaysia,
+bladder cancer is in the 10 most frequent cancer occurred among males.
+Since most of the current urinary bladder cancer cell lines were
+established from populations in western countries while significant
+genotypic variations have been reported among various populations, this
+project aimed at establishing the first continuous cell line for providing
+an ideal cancer cell model for Malaysian population and nearby countries
+acquires significance. The urinary bladder cancer cells were isolated from
+bladder cancer tissues obtained from a Malay patient. The obtained cells
+were cultured continuously over 30 passages. This cell line was
+characterized by observing its morphology, growth characteristics,
+presence of cytokeratin 7 and desmin markers, expression of Ki-67, VEGF as
+well as p21 proteins. The authenticity of the obtained cells was
+investigated using Short Tandem Repeat (STR) analysis and contamination by
+Mycoplasma was ascertained. Results revealed that this newly established
+cell line (USM-BC-1) has been well characterized as an ideal cancer cell
+model which may prove useful in cancer research towards developing future
+diagnostic and therapeutic targets, taking into consideration the
+genotypic variations among Asian population.
 //
 ID   CLPUB00432
 RA   Pandey G.;
@@ -4503,6 +4528,36 @@ RL   Nihon Rinsho 21:1201-1219(1963).
 DR   Cellosaurus; CVCL_0059; Vero
 AB   No
 //
+ID   CLPUB00434
+RA   Ishiwata L., Nozawa S., Kiguchi K., Kurihara S., Okumura H.;
+RT   "Establishment of human uterine cervical cancer cell line and comparative
+RT   studies between normal and malignant uterine cervical cells in vitro.";
+RL   Nihon Sanka Fujinka Gakkai Zasshi 30:731-738(1978).
+WW   http://ci.nii.ac.jp/naid/110002117678/en
+DR   Cellosaurus; CVCL_2794; SKG-II
+DR   Cellosaurus; CVCL_VI91; SKG-IIB
+AB   Yes
+The cell lines designated SKG-2 and SKG-2B were established from human
+uterine cervical cancer (epidermoid carcinoma) before and after bleomycin
+treatment. The SKG-2B cell line was subcultivated more than 45 times
+within 14 months. The cultured cells appeared epithelial in shape, with a
+pavement-like arrangement and grew in multi-layers without contact
+inhibition. The cytology revealed anaplastic and pleomorphic features. In
+electron microscopy, the cells were characterized by smooth nuclear
+membranes, multiple large nucleoli, numerous microvilli, desmosomal cell
+contacts and few tonofibrils. The chromosome studie showed aneuploidy and
+the modal chromosomal number was stable in the hypo-diploid range. Thc
+marker, a large submetacentric chromosome, was constantly present. The SKG-2B
+cells were transplanted subcutaneously to nude mice and submucousally to
+immunedepressed hamster cheek pouches, and produced tumor which resembled
+the original tumor. No differences between SKG-2 and SKG-2B could be
+identified in the growth and morphological characteristics. On the contrary,
+the normal uterine cervical squamous epithelial cells in vitro were uniform
+in shape and growth, and showed a limited life span. The cells showed a
+favorable outgrowth from the explant and cornification in the growing
+process. The cells could not be subcultivated and eventually degenerated
+after maintaining the culture for 2 months.
+//
 ID   CLPUB00050
 RA   Sekiya S., Kawata M., Iwasawa H., Takamizawa H.;
 RT   "Establishment of a human teratocarcinoma cell line of the ovary
@@ -4991,6 +5046,16 @@ RT   "Loss and restoration of tumorigenicity in a human mesothelioma cell
 RT   line.";
 RL   Proc. Am. Assoc. Cancer Res. 25:45-45(1984).
 DR   Cellosaurus; CVCL_A731; VAMT-1
+AB   No
+//
+ID   CLPUB00441
+RA   Zupi G., Mauro F., Balduzzi M.A., Pardini M.C., Cavaliere R.,
+RA   Greco C.;
+RT   "Established melanoma cell lines from different metastatic nodules of
+RT   a single patient. A useful model for cancer therapy.";
+RL   Proc. Am. Assoc. Cancer Res. 26:22-22(1985).
+DR   Cellosaurus; CVCL_L880; JR1
+DR   Cellosaurus; CVCL_5780; JR8
 AB   No
 //
 ID   CLPUB00383
@@ -5647,11 +5712,24 @@ pest of tea trees. The cell lines established from their ovary may thus be
 used in the study of the biology of this insect.
 //
 ID   CLPUB00043
-RA   Chew-Lim M., Ngoh G.H., Ng M.K., Lee J.M., Chew P., Li J., Chan Y.C.,
-RA   Howe J.L.C.;
+RA   Chew-Lim M., Ngoh G.H., Ng M.K., Lee J.M., Chew P.C., Li J., Chan Y.C.,
+RA   Howe L.C.J.;
 RT   "Grouper cell line for propagating grouper viruses.";
 RL   Singap. J. Prim. Ind. 22:113-116(1994).
 DR   Cellosaurus; CVCL_S009; GP
+AB   Yes
+This brief note describes the development of an immortalised grouper cell
+line (GP) which originated from the hatching embryo of the tropical food
+fish Epinephelus tauvina. The cell line was in its seventy fifth passage
+when it was successfully used for propagating viruses which originated
+from clinically sick groupers.
+//
+ID   CLPUB00436
+RA   Chong S.Y., Ngoh G.H., Ng M.K., Chu K.T.;
+RT   "Growth of lymphocystis virus in a sea bass, Lates calcarifer (Bloch)
+RT   cell line.";
+RL   Singap. Vet. J. 11:78-85(1987).
+DR   Cellosaurus; CVCL_VK76; SB
 AB   No
 //
 ID   CLPUB00032
@@ -6645,6 +6723,21 @@ RL   Thesis PhD (2000), University of Munich, Germany.
 WW   https://www.livivo.de/doc/SKH322687926
 DR   Cellosaurus; CVCL_2145; NT-92
 AB   No
+//
+ID   CLPUB00435
+RA   Bhalla K.;
+RT   "Positional cloning identifies a candidate gene for mental retardation.";
+RL   Thesis PhD (2001), Adelaide University, Australia.
+WW   https://digital.library.adelaide.edu.au/dspace/handle/2440/20326
+DR   https://web.expasy.org/cgi-bin/cellosaurus/search?input=CLPUB00435
+AB   Yes
+The work presented in this thesis provides the basis for further work to
+determine if A2BP1 is involved in sporadic autosomal mental retardation
+and/or epilepsy. Such studies are currently underway in the Department of
+Cytogenetics and Molecular Genetics, WCH, Adelaide. Identification of the
+gene related to mental retardation and/or epilepsy will further help in
+better understanding of the molecular basis of neuronal mechanisms
+underlying these disorders.
 //
 ID   CLPUB00411
 RA   Petek O.;
@@ -8297,28 +8390,6 @@ With another frightening virus imperiling pregnant women on the rise
 today, no medical story could have more human drama, impact, or urgency
 today than The Vaccine Race.
 //
-ID   CLPUB00290
-RA   Coriell L.L., Greene A.E.;
-RT   "The human genetic mutant cell repository: list of genetic variants,
-RT   chromosomal aberrations and normal cell cultures submitted to the
-RT   repository. 4th edition. October 1977.";
-RL   (In) Institute for Medical Research (Camden, N.J.); pp.1-171; National Institutes of Health; Bethesda (1977).
-WW   https://archive.org/stream/humangeneticmuta04inst/humangeneticmuta04inst_djvu.txt
-DR   https://web.expasy.org/cgi-bin/cellosaurus/search?input=CLPUB00290
-AB   Yes
-Acquisition of cell cultures by the Repository and shipment of cell
-cultures to investigators both continue to increase at an accelerating
-rate as shown on the graph which follows this preface. In addition to many
-new cell cultures and supplementary data on others, the present edition
-contains new features. McKusick's numbers, where applicable, are inserted
-immediately following the name of each disease. A bracket is placed around
-cell cultures from members of a family group. HL-A antigens have been
-determined on many of the lymphocyte cell cultures and this data is
-recorded in the table on pages 161-163. Eleven cultures are available from
-both this Repository and from the American Type Culture Collection in
-Rockville, Maryland under a different numerical designation. To avoid
-confusion we have listed the ATCC designation under "Remarks".
-//
 ID   CLPUB00387
 RA   Coriell L.L., Greene A.E., Mulivor R.A.;
 RT   "The human genetic mutant cell repository: list of genetic variants,
@@ -8762,6 +8833,14 @@ RL   (In) Proceedings of leukemia marker conference - Vienna; Knapp W. (eds.); p
 DR   Cellosaurus; CVCL_M706; JOK-1 [Human hairy cell leukemia]
 AB   No
 //
+ID   CLPUB00442
+RA   Khurad A.M., Raina S.K., Pandhripande T.N.;
+RT   "Establishment of pupal fat body cell line from Mythimna convecta and
+RT   its susceptibility to Nosema locustae (Microsporida).";
+RL   (In) Proceedings of the VIII international conference on invertebrate and fish tissue culture; Fraser M.J. Jr. (eds.); pp.26-35; Tissue Culture Association; Anaheim (1991).
+DR   Cellosaurus; CVCL_AV10; BPMNU-MyCo-1
+AB   No
+//
 ID   CLPUB00246
 RA   Belyantseva I., Kalinec G.M., Kalinec F., Kachar B.;
 RT   "In vitro differentiation of two immortalized cell lines derived
@@ -9124,6 +9203,9 @@ RX   DOI=10.11519/jjfs1953.71.12_491;
 ID   CLPUB00191
 RX   DOI=10.3969/j.issn.1673-5234.2000.04.020;
 //
+ID   CLPUB00194
+RX   DOI=10.2220/biomedres.2.599;
+//
 ID   CLPUB00198
 RX   DOI=10.1111/j.1439-0418.1976.tb03417.x;
 //
@@ -9157,8 +9239,14 @@ RX   DOI=10.12665/J63.Morgan;
 ID   CLPUB00267
 RX   DOI=10.20772/cancersci1907.40.1_1;
 //
+ID   CLPUB00270
+RX   DOI=10.2220/biomedres.5.517;
+//
 ID   CLPUB00289
 RX   DOI=10.1007/978-1-4684-5688-2_4;
+//
+ID   CLPUB00290
+RX   DOI=10.5962/bhl.title.4090;
 //
 ID   CLPUB00302
 RX   DOI=10.3354/dao011049;
@@ -9168,6 +9256,9 @@ RX   DOI=10.7508/ari.2015.03.004;
 //
 ID   CLPUB00357
 RX   DOI=10.6040/j.issn.1671-7554.2013.02.007;
+//
+ID   CLPUB00358
+RX   DOI=10.2220/biomedres.2.11;
 //
 ID   CLPUB00360
 RX   DOI=10.13130/grazia-giulia_phd2016-02-18;

@@ -2,7 +2,7 @@
 <!-- *****************************************************************************
         XML Schema Definition (XSD) for the Cellosaurus XML
 
-        Date: 2018-May-14; Release: 1.40
+        Date: 2018-September-7; Release: 1.41
 
         Copyright (c) CALIPHO group @ SIB - Swiss Institute of Bioinformatics
         Distributed under the Creative Commons Attribution-NoDerivs License
@@ -381,8 +381,8 @@
                         <xs:enumeration value="ChEBI"/>
                         <xs:enumeration value="DrugBank"/>
                         <xs:enumeration value="NCBI-Taxonomy"/>
-                        <xs:enumeration value="PubChem"/>
                         <xs:enumeration value="NCIt"/>
+                        <xs:enumeration value="PubChem"/>
                      </xs:restriction>
                   </xs:simpleType>
                </xs:attribute>

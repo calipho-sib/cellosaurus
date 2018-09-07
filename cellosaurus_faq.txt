@@ -4,8 +4,8 @@
 ----------------------------------------------------------------------------
 
  Description: Cellosaurus: frequently asked questions
- Version: 26.0
- Last update: 14-May-2018
+ Version: 27.0
+ Last update: 7-September-2018
 
 ----------------------------------------------------------------------------
 
@@ -32,12 +32,18 @@ Q16: My cell line XYZ is not in the Cellosaurus, how can I get it in?
 
 Q01: How do I cite the Cellosaurus in a publication?
 
-A: Currently there is no paper describing the Cellosaurus, so you can cite
-it in the following manner:
+A: The paper to cite that describes the Cellosaurus is:
 
 Bairoch A.
-The Cellosaurus: a cell line knowledge resource.
-https://web.expasy.org/cellosaurus/
+The Cellosaurus, a cell line knowledge resource.
+J. Biomol. Tech. (2018) 29:25-38
+
+DOI: 10.7171/jbt.18-2902-002
+PMID: 29805321
+PMCID: PMC5945021
+
+See:
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5945021/
 
 ----------------------------------------------------------------------------
 
@@ -51,7 +57,7 @@ Cellosaurus web pages or send an email to "cellosaurus@sib.swiss"
 Q03: How frequently is the Cellosaurus upated?
 
 A: Currently there is no regular update schedule, but we try to release new
-versions of the Cellosaurus at least 4 to 6 times per year.
+versions of the Cellosaurus at least 4 to 5 times per year.
 
 ----------------------------------------------------------------------------
 
@@ -122,11 +128,13 @@ provide cell lines. We encourage you to browse their online catalog.
 AddexBio:
  http://www.addexbio.com/productshow?id=4
 Allen Cell Collection:
- http://www.allencell.org/cell-catalog.html
+ https://www.allencell.org/cell-catalog.html
 American Type Culture Collection (ATCC):
  https://www.atcc.org/
 Applied Biological Materials (ABM):
  https://www.abmgood.com/Immortalized-Cells.html
+Astarte Biologics:
+ https://astartebio.com/product-category/cells/
 Banco de Celulas do Rio de Janeiro (BCRJ):
  http://bcrj.org.br/
 BioIVT
@@ -149,8 +157,6 @@ Children's Oncology Group (COG) Cell Culture and Xenograft Repository:
  https://www.cccells.org/cellreqs-leuk.php
 Chordoma Foundation cell line repository:
  https://www.chordomafoundation.org/research/disease-models/
-Clontech Laboratories (Takara):
- http://www.clontech.com/
 CLS - Cell lines Services:
  http://www.clsgmbh.de/
 Collection of Cell Lines in Veterinary Medicine (CCLV):
@@ -221,8 +227,6 @@ Memorial Sloan Kettering Cancer Center:
  https://www.mskcc.org/research-advantage/support/office-technology-development/tangible-materials-available-licensing
 Merck Millipore (EMD Millipore)
  http://www.merckmillipore.com/
-Montreal Children's Hospital Cell Repository:
- http://www.cellbank.mcgill.ca/
 National Cell Bank of Iran (NCBI):
  http://en.pasteur.ac.ir/pages.aspx?id=823
 National Laboratory for the Genetics of Israeli Populations (NLGIP):
@@ -263,6 +267,8 @@ Selexis:
  http://selexis.com/technology/proprietary-cho-k1-cell-line/
 Sigma-Aldrich:
  https://www.sigmaaldrich.com/life-science/cell-culture.html
+Takara (Clontech Laboratories):
+ https://www.takarabio.com/
 ThermoFischer Scientific:
  http://www.thermofisher.com/ch/en/home/life-science.html
 Tiandz:
@@ -272,7 +278,7 @@ Tick Cell Biobank:
 Tohoku University cell line catalog (TKG):
  http://www2.idac.tohoku.ac.jp/dep/ccr/
 Valneva:
- http://www.valneva.com/en/technologies/35
+ http://www.valneva.com/en/technologies/82
 Vircell:
  https://en.vircell.com/products/?technique=34
 WiCell:
@@ -471,7 +477,7 @@ Example: prostate[Title/Abstract] AND loprovCellosaurus[filter]
 
 https://www.ncbi.nlm.nih.gov/pubmed/?term=prostate%5BTitle%2FAbstract%5D+AND+loprovCellosaurus%5Bfilter%5D
 
-will retrieve all papers that mention the word prostate in their title or
+will retrieve all papers that mention the word "prostate" in their title or
 abstract and are cited in the Cellosaurus.
 
 ----------------------------------------------------------------------------
