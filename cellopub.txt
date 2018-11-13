@@ -4,8 +4,8 @@
 ----------------------------------------------------------------------------
 
  Description: CelloPub, Cellosaurus publications
- Version: 27.0
- Last update: 7-September-2018
+ Version: 28.0
+ Last update: 13-November-2018
 
 ----------------------------------------------------------------------------
 ID   CLPUB00222
@@ -289,16 +289,60 @@ ID   CLPUB00054
 RA   de Castro M.P.;
 RT   "Behaviour of the foot-and-mouth disease virus in cell cultures:
 RT   susceptibility of the IB-RS-2 cell line.";
-RL   Arch. Inst. Biol. Sao Paulo 31:63-78(1964).
+RL   Arq. Inst. Biol. (Sao Paulo) 31:63-78(1964).
 WW   https://eurekamag.com/research/014/358/014358372.php
 DR   Cellosaurus; CVCL_4528; IB-RS-2
 AB   Yes
-The cell line (which is described) was of value for the isolation and
-titration of virus Types A, O and C; results of serum neutralization tests
-were parallel to those of serum protection tests in unweaned mice. Some
-primary bovine kidney cell cultures were resistant to various strains of
-all three types. One strain of Type C had low infectivity for the IB-RS-2
-line and one was non-infective.
+The IB-RS-2 cell line derived from swine kidney, after two years and a
+half of continuous cultivation, is described. This cell line has shown to
+be useful for titration and isolation of the foot-and-mouth disease
+virus, types A, O and C. The results obtained in sera-neutralization test
+in this cell line run parallel to the results obtained in sera-protection
+test in unweaned mice. It is also reported here that some batches of
+primary cultures of bovine kidney "resistant" to several samples of the
+types A, O and C may occur; this observation seems to limit the use of
+this system. From several samples of the three types of virus tested in
+IB-RS-2 cell line, one, type C, was an exception and showed to be unable to
+induce CPE, in first passage, in this cell line. However, after the third
+passage, it became "adapted". On the other hand, another sample, also
+typed as C, to which the IB-RS-2 cell line was as susceptible as swine
+kidney primary cultures, was not able to induce CPE, nor could it be
+isolated In "normal" bovine kidney primary cultures which were
+susceptible to other samples. Evidence was observed that a virus sample
+with a high number of passages in IB-RS-2 cell line, became modified, as
+far as pathogenicity to unweaned mice and 'capacity to induce CPE in
+"normal" bovine primary cultures are concerned. The advantages of the use
+of the IB-RS-2 cell line are: it grows actively in a relatively simple
+and unexpensive medium, It is apparently free of contaminants, and
+replicates can be prepared easily for experimental purposes at any time
+desired.
+//
+ID   CLPUB00449
+RA   de Castro M.P., Koseki I.;
+RT   "Evolution of the chromosome complement of the swine cell line
+RT   IB-RS-2.";
+RL   Arq. Inst. Biol. (Sao Paulo) 34:285-294(1967).
+DR   Cellosaurus; CVCL_4528; IB-RS-2
+AB   Yes
+Evolution of the chromosome complement of the swine cell line IB-RS-2. Arq.
+Inst. Biol. S. Paulo, 84(4):285-294, 1967. — A continuation of the
+history of the swine kidney cell line, IB-RS-2, as well as the evolution
+of its chromosome complement, from the 56th to the 154th cell transfers
+are given. Up to the 75th transfer, there was a prevalence of cells with
+37 centromeres belonging to 1.1 type (Table I). After the recovery of the
+cultures from a dramatic cell necrosis, the prevalent karyotypes had 38
+centromeres. These karyotypes could be found in the cell clones derived
+from the parental cell population. It would appear that the seven clones
+which could be analysed are descendants of cells with 38 chromosomes, type
+2.2: two of them, C-12 and C-19 are type 2.2, but C-19 presents a
+secondary constriction in one of the largest GIV-XX chromosomes not found
+in C-12; five of them have a new large subacrocentric chromosome (SA).
+C-16, C-17, C-18 and C-60 (karyotype 2.2.1) have also a microchromosome
+which is not found in C-13 (karyotype 2.2.2). It seems that these five
+clones had been originated from a cell of 2.2 karyotype, through a
+recombination between one of the largest GIV-XX and one of the GVI
+chromosomes, giving rise to the large SA and to the microchromosome.
+Afterwards, in C-13, this microchromosome was lost.
 //
 ID   CLPUB00285
 RA   Tabata N., Katsuki T., Kumura K., Nakagawa N., Kondo K., Nagatomo H.,
@@ -307,7 +351,24 @@ RT   "Establishment and characterization of a rat hepatocyte line
 RT   transformed by the SV40 T antigen gene.";
 RL   Artif. Organs Today 3:43-56(1993).
 DR   Cellosaurus; CVCL_8753; RTH33
-AB   No
+AB   Yes
+Hepatocytes isolated from an adult male Wistar rat were transfected with
+plasmid pMTIOD containing the early region of simian virus 40 (SV40)
+genome by using the electroporation method and a hepatocyte line,
+designated RTH33, has been established from the transformed cells. The
+presence of SV40 T antigen in the RTH33 cells showed that the cell line
+resulted from the introduction of SV40 genetic information. RTH33 cells
+were similar in morphology to the primary hepatocytes in monolayer culture.
+The cells multiplied vigorously in a serum-containing medium and, as is
+evident in the case of primary hepatocytes, the DNA synthesis was
+stimulated by insulin and the epidermal growth factor (EGF). RTH33 cells
+retained hepatocytic functions including albumin synthesis, urea
+synthesis, gluconeogenesis, ketogenesis and glucuronidation of bilirubin
+even after more than 100 passages over a period of 2 years. The cell line,
+RTH33, is a useful and stable cell source not only for biological studies
+of hepatocytes, but also in the development of bioartificial livers using
+cultured hepatocytes, which is a promising therapeutic method in the case
+of fulminant hepatic failure.
 //
 ID   CLPUB00099
 RA   Karunasagr I., Miller S.D., Frerichs G.N.;
@@ -823,6 +884,39 @@ Conclusion: We have successfully established bortezomib-resistant cell
 line KM3/BTZ. MDR-1 was not involved in bortezomib-resistant multiple
 myeloma cells. HSPB2, ZNF and MS4A family genes are probably related to
 bortezomib.
+//
+ID   CLPUB00448
+RA   Lohmeyer J., Albers J., Pralle H., Hadam M.;
+RT   "The antigenic phenotype of multiple myeloma cells as defined by a
+RT   monoclonal antibodies.";
+RL   Blut 55:360-360(1987).
+DR   Cellosaurus; CVCL_M481; LOPRA-1
+DR   Cellosaurus; CVCL_M533; LOPRA-2
+DR   Cellosaurus; CVCL_UE00; LOPRA-3
+WW   https://link.springer.com/article/10.1007%2FBF00320091
+AB   Yes
+In contrast to other B-cell neoplasias the immunologic phenotype of
+myeloma cells is only poorly defined. Therefore we have performed an
+extensive immunephenotypic analysis of 3 human myeloma cell lines
+established in vitro in our laboratory (LOPRA-1 (IgA2/kappa), LOPRA-2
+(IgG1/lambda), LOPRA-3 (IgG3/kappa)) by flow cytometry (FACS 440) and
+immunocytochemical staining (APAP). In addition, 10 bone marrow samples of
+multiple myeloma patients were phenotyped by APAP technique. The myeloma
+cells were consistently negative for surface immunoglobulin and NLA class
+II (NLA-DR/DP, HLA-DQ) antigens. Moreover, HLA class II antigens were not
+inducible by IFN-alpha or IFN-gamma. The myeloma cells did not stain for
+most B-cell differentiation antigens (CD10 (CALLA), CD19 (B4), CD20 (B1),
+CD21 (B2), CD22 (HD39), CD23 (MHM6), CD37 (BL14), CD39 (G28-8)) except PCA-
+1 and CD38 (OKT10). Monoclonal antibodies of the CD24 cluster gave a
+heterogeneous staining pattern: Some monoclonal antibodies were
+consistently negative, whereas others showed a broad reactivity peak which
+may be due to posttranslational modifications of the CD24 molecule
+synthesized in myeloma cells. In addition, we have employed hybridoma
+technology to produce monoclonal antibodies to cell surface antigens
+restricted to myeloma/plasma cells. Six antibodies detected antigens on
+the immunizing myeloma cells; two of them displayed a staining pattern
+restricted to late B-cell differentiation stages as analysed on a panel of
+normal and neoplastic tissues.
 //
 ID   CLPUB00037
 RA   Freund M., Kleine H.D., Lux E., Exeriede G., Hanauske A.-R.,
@@ -1417,6 +1511,19 @@ senescent after only 65 generations, but one, CGBQ, has continued to grow
 well past 100 cell generations in culture. This has been considered
 indicative of the form of an "established cell line".
 //
+ID   CLPUB00446
+RA   Shchelkunova T.I., Shchelkunov I.S.;
+RT   "Establishment, characterisation and use of the continuous cell line
+RT   ICO from immature carp, Cyprinus carpio, ovaries.";
+RL   Cell Cult. Inform. Bull. 25:24-36(2010).
+WW   http://www.cytspb.rssi.ru/eotk/infbull_25_en.htm
+DR   Cellosaurus; CVCL_UC80; ICO
+AB   Yes
+Data on establishment of the ICO cell line from carp, its morphological
+and caryological characteristics, cultivation parameters, verification of
+origin, fish virus susceptibility and the use for detection of virus
+neutralizing antibodies in fish sera are presented.
+//
 ID   CLPUB00301
 RA   Shchelkunova T.I., Shchelkunov I.S.;
 RT   "Properties of two continuous cell lines established from fin tissue
@@ -1430,6 +1537,16 @@ Data on establishment of two cell lines (SSF-1 and SSF-2) from Siberian
 sturgeon caudal fin tissue, their morphological peculiarities and
 cultivation parameters, verification of origin and fish virus
 susceptibility are presented.
+//
+ID   CLPUB00127
+RA   Vrba M., Anton M., Krizova M., Fialova K., Cihalova V., Vymazalova M.;
+RT   "Chorioideal melanoblastoma in long-term cell culture.";
+RL   Cesk. Oftalmol. 27:282-284(1971).
+DR   Cellosaurus; CVCL_J307; VUP
+AB   Yes
+A heteroploid cell culture of epitheloid cells was cultivated from a
+melanoblastoma of the choroidea, which was possible to cultivate in
+artificial media for a long time.
 //
 ID   CLPUB00216
 RA   Lawrence E.C., Daneker G.W., Waite-Reese P.A., Lund S.A., Candal F.J.,
@@ -1599,20 +1716,50 @@ method with a combined quinacrine mustard and 33258 Hoechst staining.
 //
 ID   CLPUB00421
 RA   de Castro M.P.;
-RT   "The swine cell line IB-RS-11 and its strains [animal genetic
-RT   improvement, animal anatomy, Sus domesticus].";
+RT   "The swine cell line IB-RS-11 and its strains.";
 RL   Cienc. Cult. 30:221-226(1978).
 WW   http://agris.fao.org/agris-search/search.do?recordID=BR19810598971
+DR   Cellosaurus; CVCL_UF34; IB-RS-11
 DR   Cellosaurus; CVCL_RX33; IB-RS-11 S6
-AB   No
+AB   Yes
+A new pig kidney cell line, IB-RS-11, and 6 cell strains derived
+therefrom, are described. After 17 months of continuous culture, without
+antibiotics, the cell line showed to belong to a diploid chromosome level
+but, apparently, two chromosome deletions created two markers. The cell
+line and its strains are shown to be susceptible to two cloned strains of
+FMD-V, although differences of susceptibility and permissivity were
+observed among the cell strains. Besides, results obtained suggest that
+the new cell line and AgC-19, a cytopathogenic strain of HCV, constitute a
+cell-virus system worthy of further studies.
 //
 ID   CLPUB00319
 RA   Samid D., Mandler R.;
 RT   "Human osteosarcoma cells transformed by ras-oncogenes: a new model for
 RT   in vivo studies of pulmonary metastasis.";
-RL   Clin. Biol. 1:21-26(1989).
+RL   Clin. Biotechnol. 1:21-26(1989).
 DR   Cellosaurus; CVCL_AU05; KRIB
-AB   No
+AB   Yes
+Hematogenous metastasis to the lungs is a major complication in patients
+with different types of sarcomas. Investigations of the mechanisms of
+tumor spread and the search for new treatment modalities have been
+hindered by the lack of appropriate in vivo model systems. We have now
+established such a model involving the experimental metastasis of human
+osteosarcoma (HOS) cells in immunodeficient nude mice. Malignant subdones
+were isolated from HOS cells transformed by either the viral Ki-ras or a
+mutated cellular Ha-ras oncogene. The ras transformants, unlike most other
+human malignancies, were capable of forming pulmonary metastases following
+intravenous transplantation into mice, an assay that mimics the later
+events of blood-borne metastasis. One of the v-Ki-ras-transformed cell
+lines, designated KRIB, formed lung tumors in 80%-100% of recipient mice
+with a median number of 20 nodules per animal. The tumors, composed of
+poorly differentiated human sarcoma cells, were easily detected as
+macroscopic nodules within 5 weeks post inoculation. Detection and
+isolation of metastatic cells from cultured lung tissue was improved by
+the use of selectable geneticin-resistant KRIB cells, obtained by
+transfection with pSV2neo DNA. The ability to test the metastatic
+potential of human KRIB sarcoma cells in mice makes this model valuable
+for both basic and applied research on factors affecting tumor
+dissemination to the lungs.
 //
 ID   CLPUB00028
 RA   Mini E., Medina W.D., Srimatkandada S., Moroson B.A., Bertino J.R.;
@@ -1649,13 +1796,6 @@ from 6 to 8 or the osmolarity from 200 to 600 mmol/kg could support the
 growth of JF cell line. JF cells were also demonstrated to the susceptible
 to Infectious Pancreatic Necrosis Virus (IPNV) AB, S, VR-299 serotypes and
 Chum Salmon Virus (CSV).
-//
-ID   CLPUB00127
-RA   Vrba M., Anton M., Krizova M., Fialova K., Cihalova V., Vymazalova M.;
-RT   "Chorioideal melanoblastoma in long-term tissue culture.";
-RL   Cs. Oftab 27:282-282(1971).
-DR   Cellosaurus; CVCL_J307; VUP
-AB   No
 //
 ID   CLPUB00178
 RA   Singh K.R.P.;
@@ -1946,7 +2086,6 @@ RA   Chen M.C.-Y., Rosen D.M., Mohler M.A., Luben R.A.;
 RT   "Hormonal modulation of bone cell metabolism: activities of MMB-1, an
 RT   established osteoblast-like cell line.";
 RL   Endocrinology 104:488A-488A(1979).
-WW   https://academic.oup.com/endo/article-abstract/104/2/566/2593840/Abstracts-of-the-Annual-Meeting-of-The-Endocrine
 DR   Cellosaurus; CVCL_IW89; MMB-1
 AB   No
 //
@@ -2243,7 +2382,8 @@ tract of animals and human.
 //
 ID   CLPUB00393
 RA   Ivanov I.G., Kril A.I.;
-RT   "Establishment and characterization of a permanent duck embryo cell line.";
+RT   "Establishment and characterization of a permanent duck embryo cell
+RT   line.";
 RL   Exp. Pathol. Parasitol. 4:41-44(2000).
 DR   Cellosaurus; CVCL_JF07; DEC-99
 AB   No
@@ -2254,7 +2394,16 @@ RT   "Establishment and characterization of a radiation-sensitive
 RT   squamous cell carcinoma -- SKX -- cell line in vitro.";
 RL   Exp. Strahlenther. Klin. Strahlenbiol. 9:11-13(2000).
 DR   Cellosaurus; CVCL_VP43; SKX
-AB   No
+AB   Yes
+Squamous cell carcinomas of various locations are among the most commonly
+treated radiotherapy tumors. In general these tumors are only
+intermediately radiosensitive. The concern of the present work consisted
+in the establishment of an in vitro human oral squamous cell carcinoma
+cell line from an in vivo xenograft tumor established in 1991 in nude mice
+with a unusually high radiation sensitivity. The cell line cellular
+characteristics were studied such as its stability, growth, colony
+formation, DNA ploidy, p53 status, microsatellite analysis, as well as
+tumorigenicity in nude mice and radiation sensitivity.
 //
 ID   CLPUB00071
 RA   Davis E.V., Bolin V.S.;
@@ -3020,7 +3169,16 @@ RL   Indian J. Exp. Biol. 15:244-245(1977).
 WW   http://agris.fao.org/agris-search/search.do?recordID=US201302975958
 WW   https://eurekamag.com/research/016/092/016092626.php
 DR   Cellosaurus; CVCL_Z988; G01-874
-AB   No
+AB   Yes
+Cells from embryonic tissue of G. operculella have been grown in vivo on
+Mitsuhashi and Maramorosch's medium (containing yeast extract, lactalbumin
+hydrolysate and foetal bovine serum) for about 600 days and subcultured 77
+times. Cells consist of morphologically different cell types. They grow
+well both as a monolayer attached to glass or in suspension culture on a
+shaker. Cell doubling time in stationary culture is about 48 hr. Cells
+also grow well on medium containing bovine serum albumin instead of foetal
+bovine serum and have been subcultured 16 times on this medium without
+decrease in growth rate.
 //
 ID   CLPUB00080
 RA   Sathe P.S., Maurya D.T., Basu A., Gogate S.S., Banerjee K.;
@@ -3663,7 +3821,7 @@ RA   Yuan C.-C., Ng H.-T.;
 RT   "The expression of transforming growth factors in three ovarian cell
 RT   lines.";
 RL   J. Gynecol. Oncol. Rep. China 4:15-19(1998).
-WW   http://libir.tmu.edu.tw/handle/987654321/17336
+WW   https://tmu.pure.elsevier.com/zh/publications/the-expression-of-transforming-growth-factors-in-three-ovarian-ce
 DR   Cellosaurus; CVCL_GT34; OC-109-VGH
 AB   No
 //
@@ -4440,10 +4598,15 @@ ID   CLPUB00292
 RA   Lavappa K.S., Hay R.J.;
 RT   "Constitutive heterochromatin, nucleus organizing regions and sister
 RT   chromatid exchanges in the Armenian hamster.";
-RL   Mamm. Chromosome Newsl. 2:74-74(1979).
+RL   Mamm. Chromosomes Newsl. 2:74-74(1979).
 WW   https://eurekamag.com/research/020/771/020771459.php
 DR   Cellosaurus; CVCL_4611; AHL-1
-AB   No
+AB   Yes
+G-banding and Q-banding patterns of chromosomes in the Armenian hamster,
+Cricetulus migratorius, have been reported previously (Lavappa, 1977). The
+present report deals with constitutive heterochromatin (C-banding),
+nucleolus organizing regions (NORs) and sister chromatid exchanges (SCEs)
+in cultured lung cells from this same species.
 //
 ID   CLPUB00102
 RA   Iwakata S., Grace J.T. Jr.;
@@ -5398,6 +5561,32 @@ susceptible to Eel Virus America (EVA), Eel Virus Europe (EVE) or Eel
 Virus Europe X (EVEX). The EK-1 cell line was demonstrated to be free of
 bacterial, fungal and mycoplasmic contamination.
 //
+ID   CLPUB00451;
+RA   Capes-Davis A.;
+RT   "PubMed Common comment 14851 from 20-Mar-2016 on PubMed=26934856.";
+RL   PubMed Common 2016:14851-14851(2016).
+DR   Cellosaurus; CVCL_4769; CABA I
+AB   Yes
+STR loci used in today's STR profiling kits come from multiple
+chromosomes, and the technique can generate a full STR profile even in the
+presence of microsatellite instability. So I find the absence of STR loci
+in these profiles from CABA I puzzling. Some additional testing is needed
+to further explore these findings. 1) It is important to perform separate
+species testing to confirm that CABA I is of human origin. STR profiling
+is typically considered species-specific, however, it has been clearly
+documented that related species can be detected. This has been documented
+previously by Almeida et al (http://www.ncbi.nlm.nih.gov/pubmed/22059503),
+Ren et al (http://www.ncbi.nlm.nih.gov/pubmed/22206866), and others. STR
+profiles generated from non-human species can produce patterns similar to
+those seen here. 2) Human cell line STR profiles have clearly defined
+quality criteria, including some requirements that are unique to cell
+lines (see ANSI/ATCC ASN-0002-2011 Authentication of Human Cell Lines:
+Standardization of STR Profiling). To my eye, the electropherograms seen
+here do not meet all quality criteria. It would be helpful to see other
+cell lines used as positive controls alongside CABA I data, to demonstrate
+adherence to quality criteria, in addition to the "typical male" and
+"typical female" results shown here.
+//
 ID   CLPUB00261
 RA   Parker K.A., Pilkington G.J.;
 RT   "Apoptosis of human malignant glioma-derived cell cultures treated
@@ -5457,7 +5646,22 @@ RT   patients with adult T-cell leukemia-lymphoma.";
 RL   Recent Adv. RES Res. 25:124-133(1985).
 DR   Cellosaurus; CVCL_G036; KUT-1
 DR   Cellosaurus; CVCL_G037; KUT-2
-AB   No
+DR   Cellosaurus; CVCL_G038; KUT-3
+AB   Yes
+Since Miyoshi et al. reported the first establishment of T-cell line
+derived from a patient with adult T-cell leukemia (ATL), many T-cell
+lines derived from patients with ATL were reported. These cell lines,
+especially MT-1 were played important role in the etiological study of
+ATL, such as detection of ATL associated antigen (ATLA) and finding
+Of ATL virus (ATLV). Recent studies showed that ATLV and Human T-cell
+leukemia virus type I (HTLV-I) isolated from T-cell lymphoma-leukemia
+patients in USA are the same species and thought to cause ATL. However
+the relation between ATLV/HTLV-I infection and leukemogenesis of ATL has
+been unclear. Recently, we also established T-cell lines derived from
+patients with adult T-cell leukemia-lymphoma (ATLL) and produced
+monoclonal antibodies to one of these cell lines. In this paper, we report
+the characteristics of these cell lines and the specificity of our
+monoclonal antibodies.
 //
 ID   CLPUB00100
 RA   Zhu D.;
@@ -6061,7 +6265,40 @@ RT   "Multidrug resistance and collateral sensitivity in a human renal
 RT   carcinoma selected for resistance to 2'-deoxytubercidin.";
 RL   UroOncology 1:165-174(2001).
 DR   Cellosaurus; CVCL_0B30; Caki-dTub
-AB   No
+AB   Yes
+Caki-1 cells were selected for 2'-deoxyribosyl-7-deazaadenine
+(deoxytubercidin, dTub) resistance by exposure to incrementally increasing
+dTub concentrations over a one-year period. The resulting cells, Caki-dTub,
+were moderately resistant to dTub (5-fold). and were approximately
+200-fold cross resistant to 2'-deoxyribosyl-2-chloroadenine (CldAdo). The
+resistance to these two agents was stable during maintenance of the cells
+in the absence of dTub. They were also cross resistant (20-fold) to the
+deoxy-cytidine kinase substrates arabinosyl cytosine and gemcitahine.
+Surprisingly, the Caki-dTub cells were collaterally sensitive
+(approximately 20-fold) to the deoxycytidine kinase substrates, arabinosy1-
+2-fluoroadenine (FaraA) and BCH-4556 [Beta-L-(-)-dioxola-necytidineJ,
+suggesting that deoxycytidine kinase activity was retained in the
+resistant cell line. The presence of kinase activity was confirmed by
+measurement of the uptake of radiolabeled CldAdo into acid-insoluble
+material of Caki-1 and Caki-dTub cells, and by measurement of kinase
+activity in cell homogenates. The Caki-dTub cells were also cross
+resistant to the organic cations tetraethylammonium (8-fold). cyanine 863
+(11-fold), and quinidine (2.5-fold). Cytotoxic organic cations are thought
+to express their carcinoma toxicity via upjake into mitochondria. A
+mechanism for CldAdo action involves binding of its 5'-triphosphate
+metabolite to Apaf-I that enhances cytochrome c activation of caspase-9 in
+the induction of apoptosis (Proc. Natl. Acad. Sci. USA, 95: 9567-9571,
+1998). Consequently, we tested whether cytochrome c release from
+mitochondria might be reduced in the Caki-dTub cells. Release of
+cytochrome c induced after 16-24h incubation in 1 uM CldAdo (toxic to Caki-1
+but not Caki-dTub cells) was approximately 20% of the total cytochrome
+c in both cell types. Thus, either cytochrome c release is not related to
+the mechanism of cell killing in these cells or perhaps more likely, the
+resistant cells are impaired in their ability to induce apoptosis at a
+step beyond cytochrome c release. The cross resistance to some
+deoxycytidine kinase sub-strates and collateral sensitivity to FaraA and
+BCH-4556 in the Caki-dTub cells is a novel phenotype of potential clinical
+importance.
 //
 ID   CLPUB00314
 RA   Yu H.-C., Zheng G.-L., Wang X.-Y., Li G.-X., Zhao K.-J.;
@@ -6814,8 +7051,8 @@ ID   CLPUB00139
 RA   Liu M.-C.;
 RT   "Establishment and characterization of a new human D/lambda multiple
 RT   myeloma cell line, STW-1.";
-RL   Thesis PhD (2004), National Taiwan University Graduate Institute of Pathology, Taiwan.
-WW   http://www.airitilibrary.com/Publication/alDetailPrint?DocID=U0001-1908200415253800
+RL   Thesis MSc (2004), National Taiwan University Graduate Institute of Pathology, Taiwan.
+WW   https://hdl.handle.net/11296/262p4f
 DR   Cellosaurus; CVCL_W828; STW-1
 AB   Yes
 A new multiple myeloma (MM) cell line, STW-1, was established from pleural
@@ -6979,6 +7216,51 @@ genetic variance and the cell strains conserved in different institutes
 had been found large difference. Liu junxu etc have made H22 cloning and
 got 4 clone strains, including H22-H8D8, H22-H2C4, H22-H2G4 and H22-H2E10.
 //
+ID   CLPUB00444
+RA   Mezzano-Robinson V.;
+RT   "Skeletal muscle fibrosis: role of fibroblasts in muscular dystrophy.";
+RL   Thesis MD (2007), Pontificia Universidad Catolica de Chile, Chile.
+ww   http://repositorio.conicyt.cl/handle/10533/175866
+DR   Cellosaurus; CVCL_VR09; C2C12i
+AB   Yes
+Duchenne muscular dystrophy (DMD) is the most frequent muscular dystrophy
+in children. It is characterized by progressive muscle degeneration
+leading to muscle atrophy, disability and death around the 2nd decade of
+life. The mdx mouse has been widely studied as an animal model of DMD
+since it also presents progressive muscle degeneration. In DMD and in the
+mdx mouse, the disease is the result of the absence of the dystrophin
+protein under the sarcolemma, which translates into membrane instability
+against mechanical stimulation of muscle contraction and therefore fiber
+disruption. It should be noted that in the mouse dystrophy is less severe than
+in the child. Affected mice present an almost normal survival compared to
+unaffected mice. Nevertheless, the amount of damage to the tissue depends
+on the muscle group and this is why the diaphragm is the most damaged muscle
+and the most comparable to that of sick children. In
+recent years, the study of treatments for DMD by means of stem cell
+transplantation has increased considerably. The possibility of modulating
+the activity/bioavailability of growth factors (eg, IGF, myostatin) and
+the use of drugs is also being studied. All these studies aim to recover
+damaged muscle tissue and that is why the working model has focused on
+myoblasts and myofibers. However, an aggravating factor of DMD is the
+presence and progressive increase of muscle fibrosis. Fibroblasts residing
+in fibrotic tissues are, to a large extent, responsible for the deposition
+of extracellular matrix (ECM). In the presence of damage, they are capable
+of activating what involves greater proliferation, MEC synthesis and the
+acquisition of a contractile phenotype. Activation responds to various
+stimuli including mechanical stress, hormones, and growth factors present
+in damaged tissue. Among the latter, the most studied up to now is the
+transforming growth factor type beta (TGF-beta) that is able to induce the
+synthesis and deposit of MEC. The connective tissue growth factor (CTGF),
+and very recently the growth factor derived from platelets type D (PDGF-D)
+have also been studied. CTGF is present in different pathologies that
+present with fibrosis but little is known about the role it plays in
+skeletal muscle fibrosis. This factor responds to stimulation by TGF-13,
+and it has been reported that both increase their expression in the muscle
+tissue of the mdx mouse. However, the response to these factors in
+fibroblasts isolated from skeletal muscle has not been reported. The study
+of this cell group in muscular dystrophy is important since it is also a
+target to be evaluated in therapies that favor muscle regeneration.
+//
 ID   CLPUB00053
 RA   Ren G.-C.;
 RT   "The establishment, identification and application of cell lines from
@@ -7099,6 +7381,32 @@ metal exposure, which correlates with their in vivo behavior. Both could
 be useful for understanding mechanisms of neural growth and
 differentiation in vertebrate and invertebrate species as well as in
 toxicity response and resistance in aquatic animals.
+//
+ID   CLPUB00445
+RA   Shchelkunova T.I.;
+RT   "Transplantable cell lines from carp (Cyprinus carpio) and Siberian
+RT   sturgeon (Acipenser baeri) -- their use in ichthyovirology.";
+RL   Thesis PhD (2008), All Russian Scientific Research Institute of Experimental Veterinary Science, Russia.
+WW   http://earthpapers.net/perevivaemye-linii-kletok-karpa-cyprinus-carpio-i-sibirskogo-osetra-acipenser-baeri-ih-ispolzovanie-v-ihtiovirusologii
+DR   Cellosaurus; CVCL_UC80; ICO
+DR   Cellosaurus; CVCL_L009; SSF-1
+DR   Cellosaurus; CVCL_L010; SSF-2
+DR   Cellosaurus; CVCL_UC79; SSO-1
+DR   Cellosaurus; CVCL_6E45; SSO-2
+AB   Yes
+The aim of this work is to obtain transplantable carp lines (Cyprius
+carpio) and Siberian sturgeon (Acipenser baeri) and to assess the
+possibility of their use for virological studies of fish. To achieve this
+goal, it was necessary to solve the following tasks: to explant and
+maintain for a long time the cells of the ovarian tissue of carp,
+parenchymal organs and fins of Siberian sturgeon in their primary culture
+for use as a starting material in the production of transfected cell lines.
+We establishd a transplantable line of ovary cells of immature carp,
+transplantable cell lines of a pool of parenchymal organs and fins of
+Siberian sturgeon, we determined the sensitivity of the resulting cell
+lines to widespread fish viruses of different taxonomic groups, we carred
+out the certification of the obtained cell lines and deposited them in the
+Russian collection of cell cultures.
 //
 ID   CLPUB00416
 RA   Oberlin L.;
@@ -7410,6 +7718,50 @@ mathematical model depicting a theoretical cancer cell population that
 comprises two sub-populations with different kinetic properties is
 presented to describe the transition of a primary culture to a cell line
 cell population.
+//
+ID   CLPUB00443
+RA   Meyer C.;
+RT   "Characterisation of the direct antiproliferative effects of a
+RT   gonadotrophin-releasing hormone analogue.";
+RL   Thesis PhD (2012), University of Edinburgh, United Kingdom.
+WW   http://hdl.handle.net/1842/6476
+DR   Cellosaurus; CVCL_VQ66; MCF7-h14
+DR   Cellosaurus; CVCL_VQ64; SCL60
+DR   Cellosaurus; CVCL_VQ64; SCL215
+AB   Yes
+Gonadotrophin-releasing hormone (GnRH) can inhibit proliferation of
+multiple reproductive tissue cancer cell lines through direct interaction
+with GnRH receptors (GnRHR) on tumour cells. GnRH analogues may therefore
+have a role in treating some cancers. The signalling pathways associated
+with these inhibitory effects are poorly defined, and characterising them
+may help to understand therapeutic sensitivity. To elucidate these
+pathways, transcriptomic and proteomic approaches were used to compare the
+effects of the GnRH agonist Triptorelin in responsive GnRHR-transfected
+HEK293 cells (SCL60) and unresponsive (HEK293) cells both in vitro for up
+to 24h and in vivo for up to 7 days. Gene expression profiling
+demonstrated that SCL60 gene expression was temporally regulated with
+Triptorelin treatment, with expression of some genes increased at one time
+point but decreased at another. Early and mid-phase gene expression
+changes comprised mainly transcription factors and late changes included
+the hormonal signalling component CGA. Pathway analysis implicated mitogen-
+activated protein kinase and cell cycle pathways, supporting the detection
+of G2/M arrest. Signalling effects within SCL60 xenografts, 4 and 7 days
+following Triptorelin treatment, were investigated using a
+phosphoproteomic antibody array. Changes included cell cycle and apoptosis
+regulators, as well as cell surface receptors and NFkappaB signalling
+pathway members. Reverse-phase protein arrays and western blotting also
+showed that pAkt was decreased and pNFkappaB-p65 was increased after
+Triptorelin treatment in vitro. An NFkappaB inhibitor enhanced the anti-
+proliferative effect of Triptorelin in SCL60 cells in vitro, suggesting
+that NFkappaB acts as a survival factor in the response to GnRHR
+stimulation. A range of GnRHR expression was observed in breast cancer
+tumours by immunohistochemistry, and on average GnRHR expression was
+significantly higher in the Triple Negative Phenotype (TNP) subgroup and
+in grade 3 tumours. A GnRHR-transfected breast cancer cell line, MCF7-h14,
+was developed. Despite this expressing a similar level of GnRHR to
+responsive SCL60 cells, MCF7-h14 cells were not inhibited by GnRHR
+activation, indicating that a high level of GnRHR is insufficient for the
+antiproliferative effects of Triptorelin.
 //
 ID   CLPUB00403
 RA   MacLeod M.J.;
@@ -8425,6 +8777,76 @@ the submission of specimens from well documented patients representing
 disease catagories which are not currently stored in the Repository are
 welcomed.
 //
+ID   CLPUB00447
+RA   Mulivor R.A., Suchy S.F.;
+RT   "1992/1993 catalog of cell lines. NIGMS human genetic mutant cell
+RT   repository. 16th edition. October 1992.";
+RL   (In) Institute for Medical Research (Camden, N.J.) NIH 92-2011; pp.1-918; National Institutes of Health; Bethesda (1992).
+WW   http://hdl.handle.net/2027/mdp.39015026044019
+DR   https://web.expasy.org/cgi-bin/cellosaurus/search?input=CLPUB00447
+AB   Yes
+This edition of the catalog is dedicated to Dr. Arthur E. Green who
+retired from the Coriell Institute for Medical Research on May 1, 1992
+after 39 years of dedicated service. Since its inception in 1972, Dr.
+Greene served as either the Director or Assistant Director of the National
+Institute of General Medical Sciences (NIGMS) Human Genetic Mutant Cell
+Repository. Dr. Greene helped to develop many of the basic techniques of
+culture which have become standard around the world. He coauthored more
+than 170 publications covering a wide range of topics, including polio
+virus cultivation, insect cell line cultivation and identification, and
+the cryogenic storage of cell lines. His easy-going manner and his
+encyclopedic knowledge of the collections will be greatly missed.
+
+Nineteen ninety-two marked the twentieth anniversary of the NIGMS Human
+Genetic Mutant Cell Repository. During the 1950's and 1960's, scientific
+research had turned increasingly toward working with cultured cells.
+However serious problems with interspecies and intraspecies contamination
+and misidentification were discovered that invalidated research findings.
+Dr. DeWitt Stetten, Director of the NIGMS, realized that the solution
+would be to establish a national collection which would house well
+documented, highly characterized, contamination-free cell cultures which
+would be available to all qualified scientists. Following a national
+competition, the Coriell Institute was awarded its first contract in 1972.
+As science advanced, so have the services offered by the CCR. Somatic cell
+hybrid mapping panels, regional mapping panels, extended family pedigrees
+and cultures from vanishing populations are now part of collection. DNA is
+also being provided for many of the cultures in the collection. The next
+decade will probably witness additional changes in the scope of the NIGMS
+Repository's activities.
+
+Since 1972, the CCR have processed more than 13,000 submitted cell
+cultures, solid tissue biopsies, and peripheral blood specimens and
+provided more than 60,000 cell cultures and 2,500 DNA samples to
+investigators. These activities have resulted in a worldwide reputation
+for excellent, well characterized, thoroughly documented and contamination
+free cell cultures and high quality DNA samples.
+
+This edition of the catalog lists a total of 5,270 cell cultures and 275
+DNA samples. The format of the catalog has been revised and three sections
+have been added or updated: Specially Characterized Lymphoblast Cultures,
+Extended Families - Lymphoblast Cultures, and Human Diversity Collection -
+Lymphoblast Cultures. The first section contains cultures characterized by
+HLA typing, the second contains cultures from the Amish, Utah, and
+Venezuelan pedigrees as well as a listing of pedigrees found elsewhere in
+the catalog that should prove useful for gene linkage studies, and the
+third section lists cultures from a variety of diverse human populations
+such as Amerindians, Melanesians, Pygmies, Japanese, Cambodians, and
+Chinese. Many of the cultures found in this section are part of the Yale-
+Stanford collection and are a representative sample of the larger
+collection that is available from the contributor, Dr. Kenneth Kidd (Yale
+University).
+
+Appendix D, which presents the diagrammatic representation of
+chromosomally aberrant cell cultures has been revised and updated for the
+16th edition and a new series of diagrams showing the human chromosomes or
+of human chromosomes present in the collection of human/rodent somatic
+cell hybrids has been added to the catalog section containing the to this
+collection.
+
+Investigators are encouraged to contact the Repository to submit specimens
+from individuals with well documented genetic diseases or somatic cell
+hybrids retaining human chromosomes not currently in the collection.
+//
 ID   CLPUB00400
 RA   Nishikawa T., Maruo N., Tatarazako N., Shiraishi H., Morita M.;
 RT   "Establishment and characterization of medaka vitellogenin monoclonal
@@ -8896,6 +9318,32 @@ RL   (In) Proceedings of the third international colloquium on invertebrate tiss
 DR   Cellosaurus; CVCL_Z437; IPRI-MD-66
 DR   Cellosaurus; CVCL_Z482; IPRI-MD-108
 AB   No
+//
+ID   CLPUB00450
+RA   Rasheed S., Gardner M.B.;
+RT   "Characterization of cat cell cultures for expression of retrovirus,
+RT   FOCMA and endogenous sarc genes.";
+RL   (In) Proceedings of the third international feline leukemia virus meeting; Hardy W.D., Essex M., McClelland A.J. (eds.); pp.393-400; Elsevier; New York (1980).
+DR   Cellosaurus; CVCL_UG19; CF927
+AB   Yes
+An improved understanding of the feline retroviruses, FeLV and RD-114, and
+endogenous sarc genes in relation to FOCMA and neoplastic transformation
+depends mainly upon the availability of well characterized feline cell
+cultures. Over the past decade we have attempted to establish tumor cell
+lines from numerous spontaneous tumors of domestic house cats.
+Contamination with foamy and other indigenous viruses destroyed many of
+these cultures but we were successful in deriving several long-term
+epithelial tumor cell lines and many embryo fibroblastic cell cultures of
+both long and short duration. These cultures were treated extensively with
+chemicals and/or infected with heterolo-gous retroviruses in an effort to
+transform them, to induce endogenous viruses or to rescue endogenous sarc
+genes. Of special interest was one embryo cell culture (CF-927) that has
+been maintained in our laboratory for over nine years. This culture
+underwent spontaneous transformation at late subpassage but transformed
+sooner if treated with a chemical carcinogen or infected with FeLV,
+subgroup C. In this paper we describe this particular embryo culture and
+summarize major findings concerning expression of retrovirus, FOCMA and
+endogenous sarc genes in the cultured cat cells.
 //
 ID   CLPUB00278
 RA   Manuelidis E.E., Manuelidis L.;

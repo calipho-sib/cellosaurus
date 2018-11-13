@@ -2,7 +2,7 @@
 <!-- *****************************************************************************
         XML Schema Definition (XSD) for the Cellosaurus XML
 
-        Date: 2018-September-7; Release: 1.41
+        Date: 2018-November-13; Release: 1.5
 
         Copyright (c) CALIPHO group @ SIB - Swiss Institute of Bioinformatics
         Distributed under the Creative Commons Attribution-NoDerivs License
@@ -118,6 +118,7 @@
              <xs:element ref="same-origin-as" minOccurs="0" maxOccurs="1"/>
              <xs:element ref="web-page-list" minOccurs="0" maxOccurs="1"/>
              <xs:element ref="reference-list" minOccurs="0" maxOccurs="1"/>
+             <xs:element ref="hla-lists" minOccurs="0" maxOccurs="1"/>
              <xs:element ref="xref-list" minOccurs="0" maxOccurs="1"/>
           </xs:sequence>
           <xs:attribute name="category" use="required">
@@ -531,6 +532,63 @@
       </xs:complexType>
    </xs:element>
    <!-- Species list element definition ends -->
+
+   <!-- HLA lists element definition begins -->
+   <xs:element name="hla-lists">
+      <xs:annotation>
+         <xs:documentation>Describes HLA lists for a cell line.</xs:documentation>
+      </xs:annotation>
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element ref="hla-list" minOccurs="1" maxOccurs="unbounded"/>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <!-- HLA lists element definition ends -->
+
+   <!-- HLA list element definition begins -->
+   <xs:element name="hla-list">
+      <xs:annotation>
+         <xs:documentation>Describes the HLA genes and alleles for the cell line.</xs:documentation>
+      </xs:annotation>
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element ref="hla-gene" minOccurs="1" maxOccurs="unbounded"/>
+            <xs:element ref="hla-list-source" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <!-- HLA list element definition ends -->
+
+   <!-- HLA gene data element definition begins -->
+   <xs:element name="hla-gene">
+      <xs:annotation>
+         <xs:documentation>Describes one HLA gene for a cell line.</xs:documentation>
+      </xs:annotation>
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element ref="alleles" minOccurs="1" maxOccurs="1"/>
+         </xs:sequence>
+         <xs:attribute name="id" type="xs:string" use="required"/>
+      </xs:complexType>
+   </xs:element>
+   <!-- HLA gene data element definition ends -->
+
+   <!-- HLA list source element definition begins -->
+   <xs:element name="hla-list-source">
+      <xs:annotation>
+         <xs:documentation>Describes the HLA source for a cell line and a HLA typing list.</xs:documentation>
+      </xs:annotation>
+      <xs:complexType>
+         <xs:sequence>
+            <xs:choice maxOccurs="1">
+               <xs:element ref="source"/>
+               <xs:element ref="reference"/>
+            </xs:choice>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <!-- HLA list source element definition ends -->
 
    <!-- Derived from element definition begins -->
    <xs:element name="derived-from">

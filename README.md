@@ -23,7 +23,7 @@ For each cell line we provide the following information:
 - A recommended name. This is most frequently the name provided in the original publication.
 - A list of synonyms. We try to list all the different synonyms for the cell line, including alternative use of lower and upper cases characters.
 - A unique accession number.
-- Structured comments that are describe a number of topics such as: contaminated cell lines, misspellings, breed/subspecies a cell line is derived from, gene transfection, metastatic or sampling site for cancer cell lines, transformant, population doubling time, sequence variations, etc.
+- Structured comments that are describe a number of topics such as: contaminated cell lines, misspellings, breed/subspecies a cell line is derived from, gene transfection, metastatic or sampling site for cancer cell lines, transformant, population doubling time, HLA typing, sequence variations, etc.
 - For cell lines originating from a diseased patient/animal, we provide the NCI Thesaurus entry code for the disease(s) that the individual from which the cell line originated was suffering from.
 - For human and dog cell lines where this information is available, we provide the STR (short tandem repeat) profile information.
 - The species of origin.
@@ -59,7 +59,7 @@ The files that are distributed by FTP and are on GitHub are:
 
 - cellosaurus.obo: Cellosaurus in OBO format
 
-- cellosaurus.xml: Cellosaurus in XML format
+- cellosaurus.xml: Cellosaurus in XML format [*]
 - cellosaurus.xsd: XML Schema Definition (XSD) for cellosaurus.xml
 
 - cellosaurus_deleted_ACs.txt: List of deleted accession numbers/entries
@@ -69,7 +69,7 @@ The files that are distributed by FTP and are on GitHub are:
 
 - cellopub.txt: Abstracts and web links for references that are not in PubMed, DOI or Patent (identifiers CLPUBnnnnn)
 
-Important note: the cellosaurus.xml file is only available on the FTP site as it is too big to be stored in GitHub.
+[*] Important note: the cellosaurus.xml file is only available on the FTP site as it is too big to be stored in GitHub.
 
 ##Reference
 

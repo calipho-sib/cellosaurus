@@ -4,8 +4,8 @@
 ----------------------------------------------------------------------------
 
  Description: Cellosaurus: frequently asked questions
- Version: 27.0
- Last update: 7-September-2018
+ Version: 28.0
+ Last update: 13-November-2018
 
 ----------------------------------------------------------------------------
 
@@ -27,6 +27,7 @@ Q13: How to make best use of the Cellosaurus in the context of literature text-m
 Q14: What is the meaning of the "CVCL" prefix in Cellosaurus accession numbers?
 Q15: Can I search inside NCBI PubMed for papers that are cited in the Cellosaurus?
 Q16: My cell line XYZ is not in the Cellosaurus, how can I get it in?
+Q17: Is there a one to one relationship between the cell lines listed in the ICLAC register and the Cellosaurus "Problematic cell lines"?
 
 ----------------------------------------------------------------------------
 
@@ -136,7 +137,7 @@ Applied Biological Materials (ABM):
 Astarte Biologics:
  https://astartebio.com/product-category/cells/
 Banco de Celulas do Rio de Janeiro (BCRJ):
- http://bcrj.org.br/
+ http://bcrj.org.br/celula/bcrj
 BioIVT
  https://www.bioivt.com/cell-products/?_sf_s=cell%20lines
 Biopredic International:
@@ -183,10 +184,12 @@ European Collection of Cell Cultures (ECACC):
  http://www.phe-culturecollections.org.uk/products/celllines/index.aspx
 Evercyte:
  http://www.evercyte.com/medizin/cell-lines.html
+FujiFilm Cellular Dynamics, Inc:
+ https://fujifilmcdi.com/the-cirm-ipsc-bank
 Genea Biocells:
  http://geneabiocells.com/services/shelf-products/human-embryonic-stem-cells/
 GenHunter:
- http://www.genhunter.com/cell-lines/
+ https://www.genhunter.com/cell-lines/
 GenScript:
  https://www.genscript.com/cell_lines.html
 HGDP-CEPH Human Genome Diversity Cell Line Panel:
@@ -221,6 +224,8 @@ Korean Cell Line Bank (KCLB):
  http://cellbank.snu.ac.kr/main/index.html
 Kunming Cell Bank of Type Culture Collection (KCB):
  http://english.kiz.cas.cn/about/an/201108/t20110824_74162.html
+KYinno:
+ http://www.kyinno.com/
 Lurie Children Hospital of Chicacgo Human iPS & Stem Cell Core Facility:
  https://www.luriechildrens.org/en/research/core-facilities/ips-stem-cell/
 Memorial Sloan Kettering Cancer Center:
@@ -524,3 +529,75 @@ entry for feedback.
 The preliminary entry will already contain the accession number of the
 future entry and you can cite it as a RRID (Research Resource Identifier)
 in your manuscripts.
+
+----------------------------------------------------------------------------
+
+Q17: Is there a one to one relationship between the cell lines listed in the ICLAC register and the Cellosaurus "Problematic cell lines"?
+
+A: There is not a one to one relationship between the ICLAC register of
+misidentified cell lines and the Cellosaurus entries that contain the comment
+statement "Problematic cell line".
+
+To understand the differences between the two sets one first need to be aware
+that the ICLAC register is composed of two tables:
+
+-Table 1: cell lines where there is no known authentic stock
+-Table 2: cell lines where some stocks have been shown to be misidentified,
+ but where authentic stock is known to exist.							
+
+For all cell lines listed in Table 1 of the ICLAC register, there is in the
+corresponding Cellosaurus entries a comment "Problematic cell line". That
+comment starts with either "Contaminated" or "Misidentified". Example:
+
+Problematic cell line: Contaminated. Shown to be a HT-29 derivative (PubMed=10508494; PubMed=20143388). Originally thought to originate from a 60 year old male patient gastric carcinoma.
+
+In addition these Cellosaurus entries will have a "Registration" comment line
+indicating the ICLAC register number for the cell line. Example:
+
+Registration: International Cell Line Authentication Committee, Register of Misidentified Cell Lines; ICLAC-00444.
+
+But there are additional Cellosaurus entries that contains "Problematic cell
+line" comments, these belongs to 3 categories:
+
+1) Cell lines that are derived from a cell line in ICLAC Table 1. Currently
+ICLAC does not provide register numbers for all known derivative of a
+contaminated/misidentified cell line. For example: the cell line KB is in the
+ICLAC register (ICLAC-00010) as well as two of its derivatives: KB-3-1
+(ICLAC-00372) and KB-V1 (ICLAC-00373). But KB-A1, KB-C1.5, KB-C2 as well as
+25 other KB-derived cell lines are not reported in the ICLAC register.
+
+2) Cell lines that will be added to Table 1 but which have not yet appeared
+in the current version of the register. In the past six years the ICLAC
+register has been updated every second year. Thus quite a number of Table 1
+cell lines can accumulate between two register updates.
+
+3) Cell lines which have either not yet been considered by ICLAC for inclusion
+in the register or that have been considered but for which there is not enough
+evidence for them to appear in Table 1. The entries generally have a
+"Problematic cell line" comment that starts with "Probably". Example:
+
+Problematic cell line: Probably contaminated. The STR profile is identical to that of the T24 cell line.
+
+All the entries in the above 3 categories do not have a "Registration" comment
+for the ICLAC register.
+
+Concerning ICLAC Table 2 the situation in the Cellosaurus is the following:
+the majority of these cell lines contains a "Problematic cell line" comment
+that starts with "Partially contaminated" or "Partially misidentified" as
+well as an ICLAC "Registration" comment. But about one third of the 43 cell
+lines that are currently reported in Table 2 are not associated with a
+"Problematic cell line" nor an ICLAC "Registration" comment in their
+corresponding Cellosaurus entries. These are well known and widely used cell
+lines (examples: BJA-B, BT-20, J82, RT-4, etc.) where stock contamination was
+reported a very long time ago in a very limited number of laboratories. We
+believe that flagging them with the "Problematic cell line" comment would
+create confusion for researchers and would lead them to unnecessarily
+question their use of these cell lines.
+
+Finally you should note that the list of Cellosaurus entries that are listed
+in tables 1 and 2 of the current public release of the ICLAC register can be
+retrieved using either one of the following two queries:
+
+https://web.expasy.org/cgi-bin/cellosaurus/search?input="iclac.org"
+https://web.expasy.org/cgi-bin/cellosaurus/search?input=%22Register%20of%20Misidentified%20Cell%20Lines%22
+

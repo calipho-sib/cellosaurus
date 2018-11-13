@@ -4,8 +4,8 @@
 ----------------------------------------------------------------------------
 
  Description: Cellosaurus: cross-referencing to external resources
- Version: 27.0
- Last update: 7-September-2018
+ Version: 28.0
+ Last update: 13-November-2018
 
 ----------------------------------------------------------------------------
 
@@ -58,7 +58,7 @@ here:
 1) DR lines
 
 Format: DR   Resource_abbrev; %s
-Where : Resource_abbrev is one of: 4DN|ABCD|AddexBio|ArrayExpress|ATCC|BCGO|BCRC|BCRJ|BEI_Resources|BTO|BioSample|BioSamples|CBA|CCLE|CCLV|CCRID|Cell_Biolabs|CGH-DB|ChEMBL-Cells|ChEMBL-Targets|CLDB|CLO|CLS|ColonAtlas|Coriell|Cosmic|Cosmic-CLP|dbMHC|DGRC|DiscoverX|DSMZ|eagle-i|EBiSC|ECACC|EFO|ENCODE|ESTDAB|FlyBase|GDSC|GEO|HipSci|hPSCreg|ICLC|IGRhCellID|IGSR|IHW|Imanis|IMGT/HLA|ISCR|IZSLER|JCRB|KCB|KCLB|LINCS_HMS|LINCS_LDP|Lonza|MCCL|MeSH|MetaboLights|Millipore|MMRRC|NCBI_Iran|NCI-DTP|NHCDR |NISES|NIH-ARP|PRIDE|RCB|RSCB|SKIP|SKY/M-FISH/CGH|TCB|TKG|TNGB|TOKU-E|WiCell|Wikidata|Ximbio
+Where : Resource_abbrev is one of: 4DN|ABCD|AddexBio|ArrayExpress|ATCC|BCGO|BCRC|BCRJ|BEI_Resources|BTO|BioSample|BioSamples|CBA|CCLE|CCLV|CCRID|Cell_Biolabs|CGH-DB|ChEMBL-Cells|ChEMBL-Targets|CLDB|CLO|CLS|ColonAtlas|Coriell|Cosmic|Cosmic-CLP|dbMHC|DGRC|DiscoverX|DSMZ|eagle-i|EBiSC|ECACC|EFO|ENCODE|ESTDAB|FCDI|FlyBase|GDSC|GEO|HipSci|hPSCreg|ICLC|IGRhCellID|IGSR|IHW|Imanis|IMGT/HLA|ISCR|IZSLER|JCRB|KCB|KCLB|KYinno|LINCS_HMS|LINCS_LDP|Lonza|MCCL|MeSH|MetaboLights|Millipore|MMRRC|NCBI_Iran|NCI-DTP|NHCDR |NISES|NIH-ARP|PRIDE|RCB|RSCB|SKIP|SKY/M-FISH/CGH|TCB|TKG|TNGB|TOKU-E|WiCell|Wikidata|Ximbio
 
 2) RX lines
 
@@ -139,14 +139,14 @@ Cat   : Ontologies
 //
 Abbrev: BCRC
 Name  : Taiwan Bioresource Collection and Research Center
-Server: https://catalog.bcrc.firdi.org.tw/Welcome
+Server: https://catalog.bcrc.firdi.org.tw/
 Db_URL: https://catalog.bcrc.firdi.org.tw/BcrcContent?bid=%s
 Cat   : Cell line collections
 //
 Abbrev: BCRJ
 Name  : Banco de Celulas do Rio de Janeiro
-Server: http://bcrj.org.br
-Db_URL: http://bcrj.org.br/catalogo/cell/?celula=%s
+Server: http://bcrj.org.br/celula/bcrj
+Db_URL: http://bcrj.org.br/celula/%s
 Cat   : Cell line collections
 //
 Abbrev: BEI_Resources
@@ -177,7 +177,7 @@ Cat   : Ontologies
 Abbrev: CBA
 Name  : CellBank Australia
 Server: http://www.cellbankaustralia.com/cellbank-australia-exclusive-lines/
-Db_URL: None
+Db_URL: http://www.cellbankaustralia.com/%s
 Cat   : Cell line collections
 //
 Abbrev: CCLE
@@ -369,6 +369,12 @@ Server: http://flybase.org
 Db_URL: http://flybase.org/reports/%s.html
 Cat   : Organism-specific databases
 //
+Abbrev: FCDI
+Name  : FujiFilm Cellular Dynamics, Inc
+Server: https://fujifilmcdi.com/the-cirm-ipsc-bank
+Db_URL: None
+Cat   : Cell line databases/resources
+//
 Abbrev: GDSC
 Name  : Genomics of Drug Sensitivity in Cancer Project
 Server: http://www.cancerrxgene.org
@@ -437,8 +443,8 @@ Cat   : Cell line databases/resources
 //
 Abbrev: ISCR
 Name  : International Stem Cell Registry
-Server: http://www.iscr-admin.com
-Db_URL: http://www.iscr-admin.com/Default.aspx?Action=viewsc&StemCellLine=%s
+Server: https://www.umassmed.edu/iscr/
+Db_URL: None
 Cat   : Cell line databases/resources
 //
 Abbrev: IZSLER
@@ -465,6 +471,12 @@ Server: https://cellbank.snu.ac.kr/main/index.html
 Db_URL: https://cellbank.snu.ac.kr/english/sub/catalog.php?page=detail&CatNo=59&strQ=%s&submit1=Find+it
 Cat   : Cell line collections
 //
+Abbrev: KYinno
+Name  : KYinno cell lines
+Server: http://www.kyinno.com/
+Db_URL: https://innopedia.kyinno.com/DataBase/CellLine.aspx?file=%s.pdf
+Cat   : Cell line collections
+//
 Abbrev: LINCS_HMS
 Name  : Harvard Medical School (HMS) LINCS Center
 Server: http://lincs.hms.harvard.edu/db/cells/
@@ -479,8 +491,8 @@ Cat   : Cell line databases/resources
 //
 Abbrev: Lonza
 Name  : Lonza Cell and Transfection Database
-Server: http://bio.lonza.com/6.html
-Db_URL: http://bio.lonza.com/6.html?tx_lzcelldatabase_pi_view[id]=%s
+Server: http://knowledge.lonza.com
+Db_URL: http://knowledge.lonza.com/cell?id=%s
 Cat   : Cell line databases/resources
 //
 Abbrev: MCCL
@@ -651,8 +663,8 @@ Cat   : Sequence databases
 //
 Abbrev: WiCell
 Name  : WiCell Research Institute Cell Collection
-Server: http://www.wicell.org
-Db_URL: http://www.wicell.org/home/stem-cell-lines/catalog-of-stem-cell-lines/%s.cmsx
+Server: https://www.wicell.org
+Db_URL: https://www.wicell.org/home/stem-cells/catalog-of-stem-cell-lines/%s.cmsx?closable=true
 Cat   : Cell line collections
 //
 Abbrev: Wikidata

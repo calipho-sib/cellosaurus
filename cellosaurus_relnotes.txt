@@ -6,34 +6,60 @@
    \_____\___|_|_|\___/|___/\__,_|\__,_|_|   \__,_|___/
 
 
-This is the release notes for Cellosaurus version 27 of September 2018.
+This is the release notes for Cellosaurus version 28 of November 2018.
 
 1) Statistics
 
-108266 cell lines (80928 human, 19365 mouse, 1949 rat)
-   597 species represented
- 69019 synonyms
-320333 cross-references to 78 ontologies, databases, catalogs, etc.
- 88185 references to 15796 distinct publications (papers, patents, theses, etc.)
- 16861 web links
+109135 cell lines (81617 human, 19451 mouse, 1952 rat)
+   603 species represented
+ 70021 synonyms
+324705 cross-references to 80 ontologies, databases, catalogs, etc.
+ 89915 references to 16131 distinct publications (papers, patents, theses, etc.)
+ 16922 web links
 
-  5664 human and dog cell lines with STR profiles (from 350 distinct sources)
+  5916 human and dog cell lines with STR profiles (from 373 distinct sources)
 
-2) Changes in the DR lines
+2) Changes in the CC lines
 
-2a) Cross-references were added to the AntiBodies Chemically Defined (ABCD)
-database.
+2a) New "HLA typing" CC line topic.
+
+We are now capturing information on the HLA alleles that are present in human
+cell lines. This data is stored in a new CC line type: 'HLA typing".
+
+Examples:
+CC   HLA typing: A*03,25; B*37:01:01:01,47:01:01:03; C*06; DPA1*01; DPB1*04:01:01; DQA1*01:01:01:01,01:03:01; DQB1*05:01:01;06:03:01:02; DRB1*01:01:01,14:17 (IMGT/HLA; 10074).
+CC   HLA typing: A*23:01,24:02:01; B*35:02,44:03:01; C*04:01:01:01; DPB1*02:01:02,10:01; DQB1*02:02,03; DRB1*07:01,11:04:01 (PubMed=15748285).
+
+3) Changes in the DR lines
+
+3a) Cross-references were added to the FujiFilm Cellular Dynamics (FCDI)
+cell lines.
 
 Corresponding entry in the file cellosaurus_xrefs.txt:
 
-Abbrev: ABCD
-Name  : AntiBodies Chemically Defined database
-Server: https://web.expasy.org/abcd/
-Db_URL: https://web.expasy.org/abcd/%s
-Cat   : Biological sample resources
+Abbrev: FCDI
+Name  : FujiFilm Cellular Dynamics, Inc
+Server: https://fujifilmcdi.com/the-cirm-ipsc-bank
+Db_URL: None
+Cat   : Cell line databases/resources
+//
 
 Example:
-DR   ABCD; ABCD_AA379
+DR   FCDI; CW10001
+
+3b) Cross-references were added to KYinno cell lines.
+
+Corresponding entry in the file cellosaurus_xrefs.txt:
+
+Abbrev: KYinno
+Name  : KYinno cell lines
+Server: http://www.kyinno.com/
+Db_URL: https://innopedia.kyinno.com/DataBase/CellLine.aspx?file=%s.pdf
+Cat   : Cell line collections
+//
+
+Example:
+DR   KYinno; KC-0127
 
 ----------------------------------------
 Amos Bairoch
