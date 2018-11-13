@@ -77,3 +77,4 @@ Bairoch A.
 The Cellosaurus, a cell line knowledge resource.
 J. Biomol. Tech. (2018) 29:25-38
 DOI: 10.7171/jbt.18-2902-002; PMID: 29805321
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5945021/
