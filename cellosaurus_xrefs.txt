@@ -4,8 +4,8 @@
 ----------------------------------------------------------------------------
 
  Description: Cellosaurus: cross-referencing to external resources
- Version: 28.0
- Last update: 13-November-2018
+ Version: 29.0
+ Last update: 25-February-2019
 
 ----------------------------------------------------------------------------
 
@@ -58,7 +58,7 @@ here:
 1) DR lines
 
 Format: DR   Resource_abbrev; %s
-Where : Resource_abbrev is one of: 4DN|ABCD|AddexBio|ArrayExpress|ATCC|BCGO|BCRC|BCRJ|BEI_Resources|BTO|BioSample|BioSamples|CBA|CCLE|CCLV|CCRID|Cell_Biolabs|CGH-DB|ChEMBL-Cells|ChEMBL-Targets|CLDB|CLO|CLS|ColonAtlas|Coriell|Cosmic|Cosmic-CLP|dbMHC|DGRC|DiscoverX|DSMZ|eagle-i|EBiSC|ECACC|EFO|ENCODE|ESTDAB|FCDI|FlyBase|GDSC|GEO|HipSci|hPSCreg|ICLC|IGRhCellID|IGSR|IHW|Imanis|IMGT/HLA|ISCR|IZSLER|JCRB|KCB|KCLB|KYinno|LINCS_HMS|LINCS_LDP|Lonza|MCCL|MeSH|MetaboLights|Millipore|MMRRC|NCBI_Iran|NCI-DTP|NHCDR |NISES|NIH-ARP|PRIDE|RCB|RSCB|SKIP|SKY/M-FISH/CGH|TCB|TKG|TNGB|TOKU-E|WiCell|Wikidata|Ximbio
+Where : Resource_abbrev is one of: 4DN|ABCD|ABM|AddexBio|ArrayExpress|ATCC|BCGO|BCRC|BCRJ|BEI_Resources|BTO|BioSample|BioSamples|CBA|CCLE|CCLV|CCRID|Cell_Biolabs|Cell_Model_Passport|CGH-DB|ChEMBL-Cells|ChEMBL-Targets|CLDB|CLO|CLS|ColonAtlas|Coriell|Cosmic|Cosmic-CLP|dbMHC|DGRC|DiscoverX|DSMZ|eagle-i|EBiSC|ECACC|EFO|ENCODE|ESTDAB|FCDI|FlyBase|GDSC|GEO|HipSci|hPSCreg|IARC_TP53|ICLC|IGRhCellID|IGSR|IHW|Imanis|IMGT/HLA|ISCR|IZSLER|JCRB|KCB|KCLB|KYinno|LINCS_HMS|LINCS_LDP|Lonza|MCCL|MeSH|MetaboLights|Millipore|MMRRC|NCBI_Iran|NCI-DTP|NHCDR |NISES|NIH-ARP|PRIDE|RCB|RSCB|SKIP|SKY/M-FISH/CGH|TCB|TKG|TNGB|TOKU-E|WiCell|Wikidata|Ximbio
 
 2) RX lines
 
@@ -69,7 +69,7 @@ Where : Resource_abbrev is one of: CelloPub|DOI¦Patent¦PubMed
 
 Topic:  Knockout cell
 Format: CC   Knockout cell: Method=Method_name; Resource_abbrev; %s; Gene/protein_name.
-Where : Resource_abbrev is one of: FlyBase|HGNC|MGI|RGD|UniProtKB
+Where : Resource_abbrev is one of: FlyBase|HGNC|MGI|RGD|UniProtKB|VGNC
 
 Topic:  Monoclonal antibody target
 Format: CC   Monoclonal antibody target: Resource_abbrev; %s; Gene/protein_name.
@@ -81,7 +81,7 @@ Where : Resource_abbrev is one of: ChEBI|DrugBank|NCIt|PubChem|UniProtKB
 
 Topic:  Transfected with
 Format: CC   Transfected with: Resource_abbrev; %s; Gene/protein_name.
-Where : Resource_abbrev is one of: FlyBase|HGNC|MGI|RGD|UniProtKB
+Where : Resource_abbrev is one of: FlyBase|HGNC|MGI|RGD|UniProtKB|VGNC
 
 Topic:  Transformant
 Format: CC   Transformant: Resource_abbrev; %s; Transformant_name.
@@ -110,6 +110,15 @@ Name  : AntiBodies Chemically Defined database
 Server: https://web.expasy.org/abcd/
 Db_URL: https://web.expasy.org/abcd/%s
 Cat   : Biological sample resources
+//
+Abbrev: ABM
+Name  : Applied Biological Materials cell line products
+Server: https://www.abmgood.com/Cell-Biology.html
+Db_URL: https://www.abmgood.com/IHC/ihcCells-dispOne.php?&catanumber=%s
+        Note:
+        For cell lines of the category (CA) "Cancer cell line" use:
+        https://www.abmgood.com/prodTumorCells/prodTumorCells-dispOne.php?catno=%s
+Cat   : Cell line collections
 //
 Abbrev: AddexBio
 Name  : AddexBio cell line products
@@ -203,6 +212,12 @@ Name  : Cell Biolabs cell line products
 Server: https://www.cellbiolabs.com
 Db_URL: https://www.cellbiolabs.com/search/apachesolr_search/%s
 Cat   : Cell line collections
+//
+Abbrev: Cell_Model_Passport
+Name  : Sanger Cell Model Passports
+Server: https://cellmodelpassports.sanger.ac.uk/
+Db_URL: https://cellmodelpassports.sanger.ac.uk/passports/%s
+Cat   : Cell line databases/resources
 //
 Abbrev: CelloPub
 Name  : Cellosaurus Publication
@@ -373,7 +388,7 @@ Abbrev: FCDI
 Name  : FujiFilm Cellular Dynamics, Inc
 Server: https://fujifilmcdi.com/the-cirm-ipsc-bank
 Db_URL: None
-Cat   : Cell line databases/resources
+Cat   : Cell line collections
 //
 Abbrev: GDSC
 Name  : Genomics of Drug Sensitivity in Cancer Project
@@ -388,9 +403,9 @@ Db_URL: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=%s
 Cat   : Gene expression databases
 //
 Abbrev: HGNC
-Name  : Human Gene Nomenclature Database
+Name  : Human Gene Nomenclature Committee Database
 Server: https://www.genenames.org
-Db_URL: https://www.genenames.org/cgi-bin/gene_symbol_report?hgnc_id=%s
+Db_URL: https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:%s
 Cat   : Organism-specific databases
 //
 Abbrev: HipSci
@@ -404,6 +419,12 @@ Name  : Human Pluripotent Stem Cell Registry
 Server: https://hpscreg.eu
 Db_URL: https://hpscreg.eu/cell-line/%s
 Cat   : Cell line databases/resources
+//
+Abbrev: IARC_TP53
+Name  : IARC TP53 Database
+Server: http://p53.iarc.fr/CellLines.aspx
+Db_URL: None
+Cat   : Polymorphism and mutation databases
 //
 Abbrev: ICLC
 Name  : Interlab Cell Line Collection
@@ -660,6 +681,12 @@ Name  : UniProt knowledgebase
 Server  http://www.uniprot.org
 Db_URL: http://www.uniprot.org/uniprot/%s
 Cat   : Sequence databases
+//
+Abbrev: VGNC
+Name  : Vertebrate Gene Nomenclature Committee Database
+Server: https://vertebrate.genenames.org/
+Db_URL: https://vertebrate.genenames.org/data/gene-symbol-report/#!/vgnc_id/VGNC:%s
+Cat   : Organism-specific databases
 //
 Abbrev: WiCell
 Name  : WiCell Research Institute Cell Collection

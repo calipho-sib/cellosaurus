@@ -4,8 +4,8 @@
 ----------------------------------------------------------------------------
 
  Description: Cellosaurus: deleted accession numbers
- Version: 28.0
- Last update: 13-November-2018
+ Version: 29.0
+ Last update: 25-February-2019
 
 ----------------------------------------------------------------------------
 
@@ -42,3 +42,8 @@ CVCL_F733  Deleted in release 17; according to Ximbio cell clone does not exist 
 CVCL_F894  Was never publicly available
 CVCL_J529  Was never publicly available
 CVCL_J537  Was never publicly available
+CVCL_UH01  Deleted in release 29; error from submitter of cell line to Kerafast (HEK293 CYP2C19*1A)
+CVCL_UH06  Deleted in release 29; error from submitter of cell line to Kerafast (HEK293 CYP2D6*1A)
+CVCL_UH55  Deleted in release 29; submitter indicated cell line was not established (LM-MEL-63)
+
+

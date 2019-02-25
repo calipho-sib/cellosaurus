@@ -4,8 +4,8 @@
 ----------------------------------------------------------------------------
 
  Description: Cellosaurus: frequently asked questions
- Version: 28.0
- Last update: 13-November-2018
+ Version: 29.0
+ Last update: 25-February-2019
 
 ----------------------------------------------------------------------------
 
@@ -58,7 +58,7 @@ Cellosaurus web pages or send an email to "cellosaurus@sib.swiss"
 Q03: How frequently is the Cellosaurus upated?
 
 A: Currently there is no regular update schedule, but we try to release new
-versions of the Cellosaurus at least 4 to 5 times per year.
+versions of the Cellosaurus at least 4 times per year.
 
 ----------------------------------------------------------------------------
 
@@ -132,8 +132,8 @@ Allen Cell Collection:
  https://www.allencell.org/cell-catalog.html
 American Type Culture Collection (ATCC):
  https://www.atcc.org/
-Applied Biological Materials (ABM):
- https://www.abmgood.com/Immortalized-Cells.html
+Applied Biological Materials (abm):
+ https://www.abmgood.com/Cell-Biology.html
 Astarte Biologics:
  https://astartebio.com/product-category/cells/
 Banco de Celulas do Rio de Janeiro (BCRJ):
@@ -542,22 +542,27 @@ To understand the differences between the two sets one first need to be aware
 that the ICLAC register is composed of two tables:
 
 -Table 1: cell lines where there is no known authentic stock
+
 -Table 2: cell lines where some stocks have been shown to be misidentified,
  but where authentic stock is known to exist.							
 
 For all cell lines listed in Table 1 of the ICLAC register, there is in the
 corresponding Cellosaurus entries a comment "Problematic cell line". That
-comment starts with either "Contaminated" or "Misidentified". Example:
+comment starts with either "Contaminated" or "Misidentified".
+
+Example:
 
 Problematic cell line: Contaminated. Shown to be a HT-29 derivative (PubMed=10508494; PubMed=20143388). Originally thought to originate from a 60 year old male patient gastric carcinoma.
 
 In addition these Cellosaurus entries will have a "Registration" comment line
-indicating the ICLAC register number for the cell line. Example:
+indicating the ICLAC register number for the cell line.
+
+Example:
 
 Registration: International Cell Line Authentication Committee, Register of Misidentified Cell Lines; ICLAC-00444.
 
-But there are additional Cellosaurus entries that contains "Problematic cell
-line" comments, these belongs to 3 categories:
+But there are additional Cellosaurus entries that contain "Problematic cell
+line" comments, these belong to 3 categories:
 
 1) Cell lines that are derived from a cell line in ICLAC Table 1. Currently
 ICLAC does not provide register numbers for all known derivative of a
@@ -574,7 +579,9 @@ cell lines can accumulate between two register updates.
 3) Cell lines which have either not yet been considered by ICLAC for inclusion
 in the register or that have been considered but for which there is not enough
 evidence for them to appear in Table 1. The entries generally have a
-"Problematic cell line" comment that starts with "Probably". Example:
+"Problematic cell line" comment that starts with "Probably".
+
+Example:
 
 Problematic cell line: Probably contaminated. The STR profile is identical to that of the T24 cell line.
 
