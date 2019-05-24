@@ -4,8 +4,8 @@
 ----------------------------------------------------------------------------
 
  Description: Cellosaurus: cross-referencing to external resources
- Version: 29.0
- Last update: 25-February-2019
+ Version: 30.0
+ Last update: 24-May-2019
 
 ----------------------------------------------------------------------------
 
@@ -58,7 +58,7 @@ here:
 1) DR lines
 
 Format: DR   Resource_abbrev; %s
-Where : Resource_abbrev is one of: 4DN|ABCD|ABM|AddexBio|ArrayExpress|ATCC|BCGO|BCRC|BCRJ|BEI_Resources|BTO|BioSample|BioSamples|CBA|CCLE|CCLV|CCRID|Cell_Biolabs|Cell_Model_Passport|CGH-DB|ChEMBL-Cells|ChEMBL-Targets|CLDB|CLO|CLS|ColonAtlas|Coriell|Cosmic|Cosmic-CLP|dbMHC|DGRC|DiscoverX|DSMZ|eagle-i|EBiSC|ECACC|EFO|ENCODE|ESTDAB|FCDI|FlyBase|GDSC|GEO|HipSci|hPSCreg|IARC_TP53|ICLC|IGRhCellID|IGSR|IHW|Imanis|IMGT/HLA|ISCR|IZSLER|JCRB|KCB|KCLB|KYinno|LINCS_HMS|LINCS_LDP|Lonza|MCCL|MeSH|MetaboLights|Millipore|MMRRC|NCBI_Iran|NCI-DTP|NHCDR |NISES|NIH-ARP|PRIDE|RCB|RSCB|SKIP|SKY/M-FISH/CGH|TCB|TKG|TNGB|TOKU-E|WiCell|Wikidata|Ximbio
+Where : Resource_abbrev is one of: 4DN|ABCD|ABM|AddexBio|ArrayExpress|ATCC|BCGO|BCRC|BCRJ|BEI_Resources|BTO|BioSample|BioSamples|CBA|CCLE|CCLV|CCRID|CCTCC|Cell_Biolabs|Cell_Model_Passport|CGH-DB|ChEMBL-Cells|ChEMBL-Targets|CLDB|CLO|CLS|ColonAtlas|Coriell|Cosmic|Cosmic-CLP|dbMHC|DGRC|DiscoverX|DSMZ|eagle-i|EBiSC|ECACC|EFO|ENCODE|ESTDAB|FCDI|FlyBase|GDSC|GEO|HipSci|hPSCreg|IARC_TP53|IBRC|ICLC|IGRhCellID|IGSR|IHW|Imanis|IPD-IMGT/HLA|ISCR|IZSLER|JCRB|KCB|KCLB|KYinno|LINCS_HMS|LINCS_LDP|Lonza|MCCL|MeSH|MetaboLights|Millipore|MMRRC|NCBI_Iran|NCI-DTP|NHCDR |NISES|NIH-ARP|PRIDE|RCB|RSCB|SKIP|SKY/M-FISH/CGH|TCB|TKG|TNGB|TOKU-E|WiCell|Wikidata|Ximbio
 
 2) RX lines
 
@@ -206,6 +206,12 @@ Name  : Chinese Cell Resource Information Database
 Server: http://cellresource.cn/
 Db_URL: None
 Cat   : Cell line databases/resources
+//
+Abbrev: CCTCC
+Name  : China Center for Type Culture Collection
+Server: http://www.cctcc.org/
+Db_URL: None
+Cat   : Cell line collections
 //
 Abbrev: Cell_Biolabs
 Name  : Cell Biolabs cell line products
@@ -426,6 +432,12 @@ Server: http://p53.iarc.fr/CellLines.aspx
 Db_URL: None
 Cat   : Polymorphism and mutation databases
 //
+Abbrev: IBRC
+Name  : Iranian Biological Research Center cell line collection
+Server: http://www.en.ibrc.ir/
+Db_URL: None
+Cat   : Cell line collections
+//
 Abbrev: ICLC
 Name  : Interlab Cell Line Collection
 Server: http://www.iclc.it
@@ -456,8 +468,8 @@ Server: https://www.imanislife.com/collections/cell-lines/
 Db_URL: https://www.imanislife.com/?s=%s
 Cat   : Cell line collections
 //
-Abbrev: IMGT/HLA
-Name  : IMGT/HLA database
+Abbrev: IPD-IMGT/HLA
+Name  : IPD-IMGT/HLA database
 Server: https://www.ebi.ac.uk/ipd/imgt/hla/
 Db_URL: https://www.ebi.ac.uk/cgi-bin/imgt/hla/fetch_cell.cgi?%s
 Cat   : Cell line databases/resources
@@ -591,7 +603,7 @@ Db_URL: https://www.aidsreagent.org/reagentdetail.cfm?t=cell_lines&id=%s
 Cat   : Cell line collections
 //
 Abbrev: NISES
-Name  : NISES Cell Database
+Name  : National Institute of Sericultural and Entomological Science Cell Database
 Server: https://web.archive.org/web/20160709065305/https://www.gene.affrc.go.jp/ex-nises/NISESCells/CellindexE1.html
 Db_URL: None
 Cat   : Cell line collections
@@ -640,8 +652,8 @@ Cat   : Cell line collections
 //
 Abbrev: SKIP
 Name  : Stemcell Knowledge and Information Portal
-Server: https://www.skip.med.keio.ac.jp/en/
-Db_URL: https://www.skip.med.keio.ac.jp/SKIPSearch/cell_line_detail?accession=%s
+Server: https://www.skip.stemcellinformatics.org/en/
+Db_URL: https://skip.stemcellinformatics.org/SKIPSearch/cell_line_detail?accession=%s
 Cat   : Cell line databases/resources
 //
 Abbrev: SKY/M-FISH/CGH

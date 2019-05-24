@@ -2,7 +2,7 @@
 <!-- *****************************************************************************
         XML Schema Definition (XSD) for the Cellosaurus XML
 
-        Date: 2019-February-25; Release: 1.51
+        Date: 2019-May-24; Release: 2.0
 
         Copyright (c) CALIPHO group @ SIB - Swiss Institute of Bioinformatics
         Distributed under the Creative Commons Attribution-NoDerivs License
@@ -119,6 +119,8 @@
              <xs:element ref="web-page-list" minOccurs="0" maxOccurs="1"/>
              <xs:element ref="reference-list" minOccurs="0" maxOccurs="1"/>
              <xs:element ref="hla-lists" minOccurs="0" maxOccurs="1"/>
+             <xs:element ref="genome-ancestry" minOccurs="0" maxOccurs="1"/>
+             <xs:element ref="registration-list" minOccurs="0" maxOccurs="1"/>
              <xs:element ref="xref-list" minOccurs="0" maxOccurs="1"/>
           </xs:sequence>
           <xs:attribute name="category" use="required">
@@ -152,7 +154,10 @@
                 </xs:restriction>
              </xs:simpleType>
           </xs:attribute>
-          <xs:attribute name="age" use="optional"> </xs:attribute>
+          <xs:attribute name="created" type="xs:date" use="required"/>
+          <xs:attribute name="last_updated" type="xs:date" use="required"/>
+          <xs:attribute name="entry_version" type="xs:integer" use="required"/>
+          <xs:attribute name="age" use="optional"/>
        </xs:complexType>
    </xs:element>
    <!-- Cell line element definition ends -->
@@ -589,6 +594,86 @@
       </xs:complexType>
    </xs:element>
    <!-- HLA list source element definition ends -->
+
+   <!-- Genome ancestry element definition begins -->
+   <xs:element name="genome-ancestry">
+      <xs:annotation>
+         <xs:documentation>Describes the genome ancestry for a cell line.</xs:documentation>
+      </xs:annotation>
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element ref="population" minOccurs="7" maxOccurs="7"/>
+            <xs:element ref="genome-ancestry-source" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <!-- Genome ancestry element definition ends -->
+
+   <!-- Population data element definition begins -->
+   <xs:element name="population">
+      <xs:annotation>
+         <xs:documentation>Describes the population percentage</xs:documentation>
+      </xs:annotation>
+      <xs:complexType>
+          <xs:attribute name="population-name" use="required">
+            <xs:simpleType>
+             <xs:restriction base="xs:string">
+                   <xs:enumeration value="African"/>
+                   <xs:enumeration value="Native American"/>
+                   <xs:enumeration value="East Asian, North"/>
+                   <xs:enumeration value="East Asian, South"/>
+                   <xs:enumeration value="South Asian"/>
+                   <xs:enumeration value="European, North"/>
+                   <xs:enumeration value="European, South"/>
+             </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+          <xs:attribute name="population-percentage" type="xs:string" use="required"/>
+      </xs:complexType>
+   </xs:element>
+
+   <!-- Population data element definition ends -->
+
+   <!-- Genome ancestry source element definition begins -->
+   <xs:element name="genome-ancestry-source">
+      <xs:annotation>
+         <xs:documentation>Describes the source for a genome ancestry record.</xs:documentation>
+      </xs:annotation>
+      <xs:complexType>
+         <xs:sequence>
+            <xs:choice maxOccurs="1">
+               <xs:element ref="source"/>
+               <xs:element ref="reference"/>
+            </xs:choice>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <!-- Genome ancestry source element definition ends -->
+
+   <!-- Registration list element definition begins -->
+   <xs:element name="registration-list">
+      <xs:annotation>
+         <xs:documentation>Describes the collection of registration for a cell line.</xs:documentation>
+      </xs:annotation>
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element ref="registration" minOccurs="1" maxOccurs="unbounded"/>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <!-- Registration list element definition ends -->
+
+   <!-- Registration element definition begins -->
+   <xs:element name="registration">
+      <xs:annotation>
+         <xs:documentation>Describes a registration.</xs:documentation>
+      </xs:annotation>
+      <xs:complexType>
+         <xs:attribute name="registry" use="required"/>
+         <xs:attribute name ="registration_number" use="required"/>
+      </xs:complexType>
+   </xs:element>
+   <!-- Registration element definition ends -->
 
    <!-- Derived from element definition begins -->
    <xs:element name="derived-from">

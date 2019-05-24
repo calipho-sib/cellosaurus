@@ -6,79 +6,137 @@
    \_____\___|_|_|\___/|___/\__,_|\__,_|_|   \__,_|___/
 
 
-This is the release notes for Cellosaurus version 29 of February 2019.
+This is the release notes for Cellosaurus version 30 of May 2019.
 
 1) Statistics
 
-110948 cell lines (83151 human, 19550 mouse, 1985 rat)
-   609 species represented
- 72261 synonyms
-328753 cross-references to 83 ontologies, databases, catalogs, etc.
- 98321 references to 16699 distinct publications (papers, patents, theses, etc.)
- 17125 web links
+112983 cell lines (84432 human, 19675 mouse, 2075 rat)
+   625 species represented
+ 73553 synonyms
+331707 cross-references to 85 ontologies, databases, catalogs, etc.
+104057 references to 17422 distinct publications (papers, patents, theses, etc.)
+ 17769 web links
 
-  6130 human and dog cell lines with STR profiles (from 399 distinct sources)
+  6482 human, mouse and dog cell lines with STR profiles (from 434 distinct sources)
 
-2) Changes in the CC lines
+2) Addition of a date/entry history line
 
-2a) New cross-references in the "Knockout cell" and "Transfected with" CC
-topics.
+Starting with this release we introduced a new line type ("DT") which provides
+information on when a Cellosaurus entry was created, when it was last updated
+and which version of the entry is currently available.
 
-In addition to FlyBase, HGNC, MGI, RGD and UniProtKB, these two topics now
-also accept cross-references to the Vertebrate Gene Nomenclature Committee
-Database (VGNC).
+In the text version of the Cellosaurus, the format of the DT line is the
+following:
+
+DT   Created: DD-MM-YY; Last updated: DD-MM-YY; Version: nn
 
 Examples:
-CC   Knockout cell: Method=CRISPR/Cas9; VGNC; 37431; ABCB1.
-CC   Transfected with: VGNC; 30323; Bovine ITGAV.
+DT   Created: 06-06-12; Last updated: 07-09-18; Version: 5
+DT   Created: 22-10-12; Last updated: 13-11-18; Version: 11
 
-3) Changes in the DR lines
+The DT line is mandatory. It is the last line of the entry before the "//"
+termination line.
 
-3a) Cross-references were added to the Applied Biological Materials (ABM)
-cell line products.
+In the XML version of the Cellosaurus, the information on the DT line is
+available using the following definition:
+
+<xs:attribute name="created" type="xs:date" use="required"/>
+<xs:attribute name="last_updated" type="xs:date" use="required"/>
+<xs:attribute name="entry_version" type="xs:integer" use="required"/>
+
+In the OBO version of the Cellosaurus only the date of creation of the
+entry is indicated using the "creation_date" tag. Example:
+
+creation_date: 2012-10-22T00:00:00Z
+
+3) Changes in the CC lines
+
+3a) Genome ancestry
+
+Julie Dutil has accepted to make available in the Cellosaurus the data from
+the ECLA (Estimated Cell Line Ancestry) tool (http://ecla.moffitt.org/)
+developed by her group. Currently ECLA computes the estimated ancestry of about
+1,400 cancer cell lines. This data is stored in a new CC line termed
+"Genome ancestry".
+
+In the text version of the Cellosaurus, the format of this CC line is the
+following:
+
+CC   Genome ancestry: African=x1%; Native American=x2%; East Asian, North=x3%; East Asian, South=x4%; South Asian=x5%; European, North=x6%; European, South=x7% (Reference_or_Xref).
+
+Example:
+CC   Genome ancestry: African=0.21%; Native American=0.92%; East Asian, North=1.76%; East Asian, South=0.01%; South Asian=1.21%; European, North=67.1%; European, South=28.8% (PubMed=30894373).
+
+4) Changes in the DR lines
+
+4a) Cross-references were added to the China Center for Type Culture
+Collection.
 
 Corresponding entry in the file cellosaurus_xrefs.txt:
 
-Abbrev: ABM
-Name  : Applied Biological Materials cell line products
-Server: https://www.abmgood.com/Cell-Biology.html
-Db_URL: https://www.abmgood.com/IHC/ihcCells-dispOne.php?&catanumber=%s
-        Note:
-        For cell lines of the category (CA) "Cancer cell line" use:
-        https://www.abmgood.com/prodTumorCells/prodTumorCells-dispOne.php?catno=%s
-        For cell lines with a "Transfected" comment use:
-        https://www.abmgood.com/StableCellLines/cellLine-New-dispOne.php?&catno=%s
+Abbrev: CCTCC
+Name  : China Center for Type Culture Collection
+Server: http://www.cctcc.org/
+Db_URL: None
 Cat   : Cell line collections
 
 Example:
-DR   ABM; T0599
+DR   CCTCC; GDC057
 
-3b) Cross-references were added to the Sanger Cell Model Passport resource.
-
-Corresponding entry in the file cellosaurus_xrefs.txt:
-
-Abbrev: Cell_Model_Passport
-Name  : Sanger Cell Model Passports
-Server: https://cellmodelpassports.sanger.ac.uk/
-Db_URL: https://cellmodelpassports.sanger.ac.uk/passports/%s
-Cat   : Cell line databases/resources
-
-Example:
-DR   Cell_Model_Passport; SIDM00992
-
-3c) Cross-references were added to the IARC TP53 database.
+4b) Cross-references were added to the Iranian Biological Research Center
+(IBRC) cell line collection.
 
 Corresponding entry in the file cellosaurus_xrefs.txt:
 
-Abbrev: IARC_TP53
-Name  : IARC TP53 Database
-Server: http://p53.iarc.fr/
+Abbrev: IBRC
+Name  : Iranian Biological Research Center cell line collection
+Server: http://www.ibrc.ir
 Db_URL: None
-Cat   : Polymorphism and mutation databases
+Cat   : Cell line collections
 
 Example:
-DR  IARC_TP53; 2946
- 
+DR   IBRC; C10001
+
+4c) Change in the abbreviation of a cross-reference
+
+The IPD-IMGT/HLA database was previously abbreviated IMGT/HLA.
+
+Example:
+DR   IMGT/HLA; 10074
+Is now:
+DR   IPD-IMGT/HLA; 10074
+
+5) Change in the ST lines: introduction of STR markers for mouse cell lines
+
+Starting with this release we will capture STR marker information relevant to
+mouse cell lines. In a first instance we are introducing 19 markers: STR 1-1,
+STR 1-2, STR 2-1, STR 3-2, STR 4-2, STR 5-5, STR 6-4, STR 6-7, STR 7-1,
+STR 8-1, STR 9-2, STR 11-2, STR 12-1, STR 13-1, STR 15-3, STR 17-2, STR 18-3,
+STR 19-2 and STR X-1
+
+We are prefixing these STR markers with the word "Mouse" to insure that there
+is no confusion with human STR markers. Example:
+
+ST   Source(s): NIST
+ST   Mouse STR 1-1: 10,15
+ST   Mouse STR 1-2: 13
+ST   Mouse STR 11-2: 15
+ST   Mouse STR 12-1: 19
+ST   Mouse STR 13-1: 15
+ST   Mouse STR 15-3: 20.3
+ST   Mouse STR 17-2: 12,15
+ST   Mouse STR 18-3: 17,21
+ST   Mouse STR 19-2: 12
+ST   Mouse STR 2-1: 9
+ST   Mouse STR 3-2: 14
+ST   Mouse STR 4-2: 19.3
+ST   Mouse STR 5-5: 13,15
+ST   Mouse STR 6-4: 15.3
+ST   Mouse STR 6-7: 12,15
+ST   Mouse STR 7-1: 25.2,29
+ST   Mouse STR 8-1: 15,16
+ST   Mouse STR X-1: 26,27
+
 ----------------------------------------
 Amos Bairoch
 CALIPHO group; neXtProt project

@@ -4,8 +4,8 @@
 ----------------------------------------------------------------------------
 
  Description: CelloPub, Cellosaurus publications
- Version: 29.0
- Last update: 25-February-2019
+ Version: 30.0
+ Last update: 24-May-2019
 
 ----------------------------------------------------------------------------
 ID   CLPUB00222
@@ -147,8 +147,22 @@ RA   Nakagawa H., Yumura K., Kawa K., Morioka Y., Imashuku S.;
 RT   "Establishment of a monocytoid cell line (KP-MO-TS) from a patient
 RT   with acute monocytic leukemia and a mediastinal mass.";
 RL   Acta Haematol. Jpn. 53:678-687(1990).
+WW   https://eurekamag.com/research/007/312/007312820.php
 DR   Cellosaurus; CVCL_7985; KP-MO-TS
-AB   No
+AB   Yes
+A monocytoid cell line (KP-MO-TS) has been established from the peripheral
+blood of a patient with acute monocytic leukemia (AMoL). The cells,
+showing monoblastoid or promonocytoid morphology, expressed CD15, CD33,
+CD4 and HLA-DR antigens. Retinoic acid and 12-O-tetradecanoyl phorbol-13-
+acetate induced maturation of the cells into monocytoid or macrophage-like
+cells. The expression of CD11b and/or CD13 and an increase in phagocytic
+activity accompanied the morphological differentiation. Cytogenetic
+studies revealed t(10;11)(p13:q21), the same abnormality initially found
+in the patient's leukemic blasts. Immunoglobulin (Ig) kappa gene was
+rearranged, however, the IgH gene, T cell-receptor beta and gamma genes
+showed germ line configuration. This cell line may be useful in
+investigating the biological features and the pathogenesis of monocytic
+leukemia possessing a breakpoint at 11q21-23.
 //
 ID   CLPUB00016
 RA   Kashima Y.;
@@ -229,12 +243,65 @@ drug accumulation and P-glycoprotein expression in cancer cells, and that
 the differential resistance-modifying activity of VPM depends on the level
 of drug resistance.
 //
+ID   CLPUB00504
+RA   Fukuda Y.;
+RT   "Clonal heterogeneity in gastric cancer cells.";
+RL   Acta Med. Nagasaki. 31:346-360(1986).
+WW   http://hdl.handle.net/10069/17503
+DR   Cellosaurus; CVCL_WL42; UMK-1 [Human gastric adenocarcinoma]
+AB   Yes
+A heterogeneitic human gastric cancer cell line was isolated and
+established as a UMK-1 line. Eight clones were selected for studies on
+morphology, growth pattern, cellular DNA and RNA contents and drug
+sensitivity in comparison with those in parent cell line of UMK-1. There
+were differences in morphology, growth pattern, saturation density,
+cloning efficiency and cellular DNA and RNA contents among the 8 clones.
+The drug sensitivity to mitomycine C (MMC), adriamycine (ADM) and cis-
+diamindichloroplatinum (CDDP) varied in each of the clones although that
+of UMK-1 line had been in-between them. Such is a reflection of a presence
+of clonal heterogeneity. Selection of drugs time by time offers the
+greatest effectiveness on tumor regression due to responses to accidental
+loss of sensitivity to drugs used.
+//
+ID   CLPUB00506
+RA   Fukuda Y.;
+RT   "Clonal heterogeneity in gastric cancer cells.";
+RL   Acta Med. Nagasaki. 31:346-360(1986).
+WW   http://hdl.handle.net/10069/15904
+DR   Cellosaurus; CVCL_WL46; HITS glioma
+AB   Yes
+In order to evaluate the proliferation and differentiation potentials of
+ethylnitrosourea (ENU)-induced glioma cells, the author attempted to
+obtain a cell line that maintains glial features in long term culture. One
+of five cell lines cultivated from ENU-induced rat gliomas deserved
+particular interest because of the differentiation of the neoplastic glia.
+This cell line, designated as HITS glioma, had a polygonal cell body and
+formed a monolayer with pile-up foci in vitro, in contrast to the other
+cell lines, which showed a mesenchymal drift through passages. GFAP-
+positive cells, found in the primary culture, disappeared in the late
+passages of HITS glioma as they did in the other cell lines.
+Galactocerebroside (GC) and GD3 ganglioside were not expressed in the cell
+lines during culture. Subcutaneous inoculation of HITS glioma into
+neonatal rats induced tumors with various histopathological components
+mimicking the histopathological appearance of ENU-induced gliomas. The
+components also had a fraction of GFAP-positive cells. These findings
+indicate that HITS glioma cells may be composed of immature glial cells
+and differentiate into astrocytic cells under certain conditions. Insulin-
+like growth factor I (IGF-I), which promoted the proliferation of GFAP-
+positive cells in neonatal glia, was used to evaluate the mechanism(s) of
+proliferation and/or differentiation of HITS glioma. IGF-I did not induce
+the expression of GFAP in HITS glioma, even though it promoted the
+proliferation of HITS glioma. Although the mechanism involving the
+astrocytic differentiation of HITS glioma is unknown, HITS glioma may
+serve as a research tool in evaluating the mechanisms of proliferation and
+differentiation of neoplastic glia.
+//
 ID   CLPUB00026
 RA   Kaneko Y., Koura M., Yoshii H.;
 RT   "Characterization of a newly established human rectal adenocarcinoma
 RT   cell line.";
 RL   Acta Med. Univ. Kagoshimaensis 19:71-81(1977).
-WW   http://jglobal.jst.go.jp/en/public/201002059764349366
+WW   https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=201002059764349366
 DR   Cellosaurus; CVCL_1116; CaR-1
 AB   Yes
 Cultivation of human cancer in vitro provides an efficient tool for cancer
@@ -1366,23 +1433,28 @@ RA   Mitsuhashi J.;
 RT   "A new continuous cell line from the larval fat bodies of the mulberry
 RT   tiger moth, Spilosoma imparilis (Lepidoptera: Arctiidae).";
 RL   Bull. Natl. Inst. Seric. Entomol. Sci. 11:1-8(1994).
-WW   https://eurekamag.com/research/008/051/008051671.php
+WW   http://agris.fao.org/agris-search/search.do?recordID=JP9503033
 DR   Cellosaurus; CVCL_Z546; FFPRI-SpIm-2AM
 AB   Yes
 The author established a new continuous cell line from the larval fat
 bodies of Spilosoma imparilis. In the early stage of the process of
 establishing the cell line, the culture experienced critical conditions
 several times. However, after a cell suspension by pipetting was
-introduced into a newly set-up primary culture of the same species and
+introduced into a newly setted-up primary culture of the same species and
 tissues, the transferred cells recovered their ability of cell division in
-about half a month.
+about half a month. In this cell line many cells showed strong anchorage-
+dependency. Population doubling time of this cell line was about 3.5 days.
+Chromosome numbers frequently observed were around 100 and 190. Five
+isozyme patterns were identified. The cell line was highly susceptible to
+Spilosoma imparilis nuclear polyhedrosis virus and Hyphantria cunea
+nuclear polyhedrosis virus.
 //
 ID   CLPUB00048
 RA   Hozumi Y.;
 RT   "Establishment and characterization of a cell line (HKA-1) derived
 RT   from a human skin keratoacanthoma.";
 RL   Bull. Yamagata Univ. Med. Sci. 10:15-24(1992).
-WW   http://jglobal.jst.go.jp/en/public/200902024265716871
+WW   https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=200902024265716871
 DR   Cellosaurus; CVCL_2943; HKA-1
 AB   Yes
 A cell line (HKA-1) derived from a keratoacanthoma occurring on human skin
@@ -1403,8 +1475,8 @@ RT   "Characterization of two hepatoid adenocarcinoma cell lines: with
 RT   special references to invasive-metastatic activity and
 RT   chemosensitivity.";
 RL   Bull. Yamagata Univ. Med. Sci. 19:129-140(2001).
-WW   http://ci.nii.ac.jp/naid/110000177918/en
-WW   http://jglobal.jst.go.jp/en/public/200902195675773081
+WW   https://ci.nii.ac.jp/naid/110000177918/en
+WW   https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=200902195675773081
 DR   Cellosaurus; CVCL_B472; TGBG3
 DR   Cellosaurus; CVCL_B477; TSG11
 AB   Yes
@@ -1454,7 +1526,7 @@ RT   "Establishment and characterization of a new human pancreatic cancer
 RT   cell Line, YPK-1.";
 RL   Bull. Yamaguchi Med. Sch. 49:33-42(2002).
 WW   http://www.lib.yamaguchi-u.ac.jp/yunoca/handle/A020049000105
-WW   http://ci.nii.ac.jp/naid/120000865703/en
+WW   https://ci.nii.ac.jp/naid/120000865703/en
 DR   Cellosaurus; CVCL_CZ89; YPK-1
 AB   Yes
 A new human pancreatic cancer cell line, designated YPK-1, was established
@@ -1540,7 +1612,7 @@ RA   Inomata M., Sasaki M.S., Hirota T., Itabashi M., Tsumuraga M.,
 RA   Kaneko A., Hoshi A., Koyama Y., Saijo N.;
 RT   "Establishment of a human retinoblastoma cell line: NCC-RbC-39.";
 RL   Cancer J. 4:18-23(1991).
-WW   http://cat.inist.fr/?aModele=afficheN&cpsidt=5493222
+WW   http://refdoc-info.inist.fr/c4/refdoc.html?cpsidt=5493222
 DR   Cellosaurus; CVCL_3047; NCC-RbC-39
 AB   Yes
 A new human retinoblastoma cell line (NCC-RbC-39) was established from a
@@ -1680,6 +1752,49 @@ chromosome number of 41 and evidence of chromosomal abnormalities. We
 believe that LCSC-1 represents a cancer stem cell line. Transplantation
 studies to assess the tumorigenicity of these cells are currently underway.
 //
+ID   CLPUB00483
+RA   Rhim J., Li H., Furusato B., Miki J., Sun C., Sreenath T., Dobi A.,
+RA   Petrovics G., Hukku B., Sesterhenn I., McLeod D., Srivastava S.;
+RT   "A new cell line expressing a novel type of TMPRSS2-ERG gene fusion
+RT   derived from primary tumors of familial prostate cancer patient.";
+RL   Cancer Res. 68 Suppl. 9:194-194(2008).
+WW   http://cancerres.aacrjournals.org/content/68/9_Supplement/194
+DR   Cellosaurus; CVCL_VV24; RC-123T/E
+AB   Yes
+Recent studies have established that a high proportion of prostate cancer
+harbors a gene fusion between the androgen regulated TMPRSS2 gene and the
+ETS genes ERG, ETV1 or ETV4. However in vitro model representing primary
+tumors to study the molecular mechanisms and functional consequences of
+this important chromosomal rearrangement are currently limited and are
+greatly needed. The tumor tissue (RC-123T) used for generating the RC-
+123T/E cell line with HPV-16 E6E7 genes was obtained from a 57 year old
+familial prostate cancer patient who had adenocarcinoma with well
+differentiation (Gleason 3+3). The cell line was characterized
+phenotypically and cytogenically. Dual color fluorescence in situ
+hybridization (FISH) assay was used to test for ERG (3’5’) break aparts,
+and for translocation of TMPRSS2 and ERG and ETV1, in both interphase
+nuclei as well as metaphases. The cells were also characterized for
+putative stem cell markers CD133, SOX2 and prostate cell markers by
+immunohistochemistry and RT-PCR. We have successfully established an
+immortalized human prostate epithelial cell culture derived from primary
+tumors of familial prostate cancer patients carrying TMPRSS2-ERG fusion
+genes with HPV16 E6E7 genes (RC-123T/E). RC-123T/E cells are currently
+growing well at passage 30, whereas RC-123T cells senesced at passage 5.
+Expression of an androgen-regulated prostate specific homeobox gene, NKX3.
+1, the epithelial cell-specific cytokeratin 8 and androgen receptor but
+not prostate specific antigen, was detected in RC-123T/E cells. TMPRSS2-
+ERG genes were also expressed in this line. The RC-123T/E cells formed
+spheres under suspension culture and branched differentiated in matrigel.
+The RC-123T/E cells also expressed putative stem cell markers CD133 and
+SOX2. Interestingly, the FISH analysis showed the translocation of
+chromosome t(7;21)(q21:q21) in the RC-123T/E cell line and also in its
+primary tumor tissue. We demonstrate that RC-123T/E cell line and its
+primary tumor tissue possess the translocation of TMPRSS2/ERG to
+chromosome 7q which adds another class of gene arrangement in prostate
+cancer. In addition, this cell line expressed putative stem cell markers
+and TMPRSS2-ERG gene fusion. This model provides a novel tool to study the
+cellular and molecular mechanisms of TMPRSS2-ETS genes in prostate cancer.
+//
 ID   CLPUB00418
 RA   Xu J., Erdreich-Epstein A., Biegel J.A., Reynolds C.P.;
 RT   "Fenretinide combined with thiotepa is active against 3 newly
@@ -1737,6 +1852,30 @@ only fifty doublings of chicken cells. Two of the three cell lines became
 senescent after only 65 generations, but one, CGBQ, has continued to grow
 well past 100 cell generations in culture. This has been considered
 indicative of the form of an "established cell line".
+//
+ID   CLPUB00499
+RA   Beiswanger C.;
+RT   "A brief history of IMR-90.";
+RL   Cell Collections 2004:5-6(2004).
+WW   https://www.coriell.org/0/PDF/IPBIR/CCRNews.pdf_4.pdf
+DR   Cellosaurus; CVCL_0347; IMR-90
+AB   Yes
+In 1975, the Coriell Institute for Medical Research, under contract to the
+National Institute on Aging (NIA) to establish and maintain an Aging Cell
+Repository, was directed to establish and bank for future research a new
+human diploid cell line as a replacement for the cell line known as WI-38.
+WI-38 had been established and characterized in the early 1960’s as a
+standard (reference cell line) in the burgeoning field of cell biology;
+but in the early 70’s, the NIH stock of low passage WI-38 cells had become
+seriously depleted. The cell line developed at Coriell, identified as IMR-
+90, was the first of several lines planned in support of NIA research
+programs and general cell biology research. IMR-90 was developed and
+characterized in such a way as to parallel WI-38 as closely as possible to
+minimize the variables in replacing WI-38 within ongoing laboratory
+programs. Extensive frozen stocks of IMR-90 at various passages were laid
+down to ensure future resources for cell biology research. The IMR-90 cell
+line, like WI-38, was derived from lung tissue of a human female embryo
+following therapeutic abortion.
 //
 ID   CLPUB00446
 RA   Shchelkunova T.I., Shchelkunov I.S.;
@@ -2157,7 +2296,7 @@ RA   Suyama I., Etoh H.;
 RT   "A cell line derived from the fin of the goldfish, Carassius
 RT   auratus.";
 RL   Dobutsugaku Zasshi 88:321-324(1979).
-WW   http://ci.nii.ac.jp/naid/110003331929/en
+WW   https://ci.nii.ac.jp/naid/110003331929/en
 DR   Cellosaurus; CVCL_R883; CAF
 AB   Yes
 A new fibroblastic cell line was established from the caudal fin of the
@@ -2176,7 +2315,8 @@ ID   CLPUB00082
 RA   Takaoka T., Kasai M., Katsuta H.;
 RT   "A cell line derived from the Indian Muntjac thymus.";
 RL   Dokkyo J. Med. Sci. 9:133-138(1982).
-WW   http://ci.nii.ac.jp/naid/80001471920/en
+WW   https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=200902076648491202
+WW   https://ci.nii.ac.jp/naid/80001471920/en
 DR   Cellosaurus; CVCL_3026; Mm2T
 AB   Yes
 A new cell line, Mm-2T, derived from the thymus of an Indian muntjac was
@@ -2196,7 +2336,7 @@ RA   Kurayama H., Ogata S., Nanba M., Ikeguchi S., Takaoka T., Shida S.;
 RT   "Establishment of a new cell line secreting colony stimulating factor
 RT   and growth inhibiting factor from metastatic lymph nodes of a rat.";
 RL   Dokkyo J. Med. Sci. 13:9-13(1986).
-WW   http://jglobal.jst.go.jp/en/public/200902071698605541
+WW   https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=200902071698605541
 DR   Cellosaurus; CVCL_4859; LYM-1
 AB   Yes
 A new tissue culture cell line (LYM-1) has been established from
@@ -2215,7 +2355,7 @@ RA   Ooshima F.;
 RT   "Establishment of a new cell line from human extraskeletal myxoid
 RT   chondrosarcoma.";
 RL   Dokkyo J. Med. Sci. 19:1-9(1992).
-WW   http://jglobal.jst.go.jp/en/public/200902057629996951
+WW   https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=200902057629996951
 DR   Cellosaurus; CVCL_1238; H-EMC-SS
 AB   Yes
 A new cell line has been derived from a human extraskeletal myxoid
@@ -2228,6 +2368,77 @@ has undergone 20 passages and continues to exhibit the original
 morphological, chromosomal, and biological characteristics. From our
 studies, it is strongly suggested that tumor cells of human extraskeletal
 myxoid chondrosarcoma might be cartilaginous cells.
+//
+ID   CLPUB00502
+RA   Shi L.-M., He W.-S., Chen Y.-Z.;
+RT   "Studies of mutagenicity of chemicals on red muntjac cells.";
+RL   Dong Wu Xue Yan Jiu 1:297-302(1980).
+WW   http://www.zoores.ac.cn/EN/Y1980/V1/I3/297
+DR   Cellosaurus; CVCL_WL31; KIZ-7901
+AB   Yes
+A diploid cell strain (KIZ-7901) of red muntjac (Muntiacus muntjak) has
+been established in our laboratory. The diploid chromosome number of red
+muntjac (male=7, female=6) is the lowest among all vertebrates,so it is a
+good assay system for the testing of chemical mutagens. We use N,N-
+methylene-bis(2-amino-1,3,4-thiadiazole) as the chemical mutagen. The
+experimental results show that the greater the dosage of this chemical
+uses and the longer the duration of the treatment lasts, the greater the
+rates of the sister chromatid exchanges (SCEs) are, especially the
+frequencies of chromosome aberrations.
+//
+ID   CLPUB00215
+RA   Zhang X.-R., Wang J.-H., Chen Y.-Z.;
+RT   "Establishment of lung cell strain KIZ-81A of tufted deer (Elaphodus
+RT   cephalophus) and study of its biological characteristics.";
+RL   Dong Wu Xue Yan Jiu 5:71-77(1984).
+WW   http://www.zoores.ac.cn/EN/Y1984/V5/I1/71
+DR   Cellosaurus; CVCL_0A01; KIZ-81A
+AB   Yes
+A cell strain (designated KIZ-81A) derived from lung tissue of a young
+male tufted deer (E. cephalophus) is presented. The animal was caught in
+southern China in 1981. The KIZ-81A cells were fibroblasts in morphology.
+The primary cells died at passage 67 after 13 mo. in vitro, while KIZ-81A
+cells, which had been frozen since passage 3 and kept in liquid nitrogen
+for 132 days before thawing, attained only 64 passages. Growth rates of
+KIZ-81A cells were determined at passage 7, 11, 30. Comparison was made at
+generation 11 of primary cells and cells once frozen. After a lag phase,
+all cultures entered the logarithmic growth phase and then the stationary
+phase again. The range of cell cycle time, determined by
+BUdR[bromodeoxyuridine]-Giemsa method for detection of sister chromatid
+exchanges, was from 24-36 h. Karyotype analysis revealed the chromosome
+number and construction in KIZ-81A cells (without being frozen and stored)
+were more stable than those of the cells once frozen in liquid nitrogen.
+In the former, the obvious increase of chromosome number and changes in
+construction started from the 51st generation and in the latter from the
+30th generation. Cells with chromosome number from 49-52 greatly increased.
+Effects of some experimental factors, including temperature and pH
+changes, on cell growth and division are also analyzed and discussed.
+//
+ID   CLPUB00503
+RA   Liu A.-H., Lin S.-Y., Xiong X.-K.;
+RT   "Observations on new cell line of Indian muntjac transformed with
+RT   MNNG.";
+RL   Dong Wu Xue Yan Jiu 13:77-82(1992).
+WW   http://www.zoores.ac.cn/EN/Y1992/V13/I1/77
+DR   Cellosaurus; CVCL_WL31; KIZ-7901
+DR   Cellosaurus; CVCL_WL32; KIZ-8401
+AB   Yes
+Lung fibroblast line of Indian muntjac (KIZ-7901) was transformed with
+MNNG (N-methyl-N-nitro-N-nitrosoguanidine). The transformed Indian muntjac
+cells (KIZ-8401) possessed the new karyotype with chromosome number of 8
+in male and polyploid. The morphology and cell cycle as well as mitotic
+index in MNNG-transformed muntjac cells were different from diploid cell
+line of Indian muntjac (KIZ-7901). Moreover, the MNNG-transformed muntjac
+cells possessed colony-forming capacity in vitro.
+//
+ID   CLPUB00501
+RA   Chen Y.-Z., Liu R.-Q., Nai W.-H., Yang M., He C.-H., Bao Y.-F.,
+RA   Lei W.-H.;
+RT   "The chromosome of Asian elephant.";
+RL   Dong Wu Xue Yan Jiu 19:93-94(1998).
+WW   http://www.zoores.ac.cn/EN/Y1998/V19/I1/93
+DR   Cellosaurus; CVCL_WL30; KCB 96008
+AB   No
 //
 ID   CLPUB00208
 RA   Kakpakov V.T., Polukarova L.G., Cherdanzeva E.M.;
@@ -2304,7 +2515,7 @@ ID   CLPUB00248
 RA   Kim S., Gonzalez D., Brazma D., Hu Y., Peters G., Bouloux P.;
 RT   "Telomerase-mediated immortalisation of human embryonic olfactory GnRH
 RT   neuroblasts.";
-RL   Endocrine Abstracts 9:129-129(2005).
+RL   Endocr. Abstr. 9:129-129(2005).
 WW   http://www.endocrine-abstracts.org/ea/0009/ea0009p129.htm
 DR   Cellosaurus; CVCL_M960; FNCB4-hTERT
 AB   Yes
@@ -2646,7 +2857,15 @@ RT   "Establishment and characterization of a permanent duck embryo cell
 RT   line.";
 RL   Exp. Pathol. Parasitol. 4:41-44(2000).
 DR   Cellosaurus; CVCL_JF07; DEC-99
-AB   No
+AB   Yes
+A duck embryo permanent cell line, free from endogenous avian retroviruses
+has been established. The cell line, designated as DEC 99 has been
+cultured over 140 consecutive passages and it is not tumorigenic for birds.
+The DEC 99 cell line is a standard cell culture system that has been used
+for research and can be applied for the needs of biotechnology. This cell
+line is a suitable model for studies in the field of cell biology,
+virology, immunology, toxicology and for the production of diagnostics and
+vaccines.
 //
 ID   CLPUB00439
 RA   Dorfler A., Eicheler W., Zips D., Petersen C., Baumann M.;
@@ -2680,6 +2899,33 @@ RT   in culture.";
 RL   Fed. Proc. 27:720-720(1968).
 DR   Cellosaurus; CVCL_0194; C6
 AB   No
+//
+ID   CLPUB00500
+RA   Collins J.K., O'Mahony A., O'Brien F., Corbett A., Morrissey D.,
+RA   O'Donoghue M., O'Sullivan G.;
+RT   "Evaluation of newly established cell lines as models to study
+RT   growth, invasion and metastatic spread in oesophageal cancer.";
+RL   Fibrinolysis 6 Suppl. 4:83-88(1992).
+WW   https://eurekamag.com/research/007/320/007320341.php
+DR   Cellosaurus; CVCL_WL07; OC-1
+DR   Cellosaurus; CVCL_WL08; OC-2
+DR   Cellosaurus; CVCL_WL09; OC-3
+AB   Yes
+Three oesophageal cell lines were established from two squamous carcinomas
+and one from an adenocarcinoma. Each cell line expressed both cytokeratin
+and vimentin intermediate filaments. They exhibited clonogenic growth in
+serum free media and grew in an anchorage independent fashion in soft agar.
+Each cell line produced both mitogenic and transforming growth factor
+activities. All three cell lines were invasive in the in vitro chick heart
+fragment invasion assay, albeit to different degrees, with OC2 cells
+showing the highest degree of invasiveness. In tumourigenicity studies in
+athymic nude mice, all three cell lines induced primary subcutaneous
+tumours at the site of injection. OC1 and OC3 cells gave rise to
+metastases, while the OC2 cells, although the most rapidly growing, failed
+in every case to metastasize. OC1 and OC3 cells were found to express
+urokinase-type plasminogen activator (uPA), while OC2 cells did not. Our
+findings suggest a role for uPA in conferring metastatic potential on
+oesophageal carcinoma cells.
 //
 ID   CLPUB00471
 RA   Wang S.-B., Guo L., Niu W.-Z.;
@@ -3077,6 +3323,7 @@ RA   Moriyama I., Imai S.;
 RT   "Establishment and characterization of CA125 and TPA producing human
 RT   ovarian serous cystadenocarcinoma cell line (SHIN-3).";
 RL   Hum. Cell 1:334-335(1988).
+WW   https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=200902025659214371
 DR   Cellosaurus; CVCL_A670; SHIN-3
 AB   No
 //
@@ -3085,7 +3332,7 @@ RA   Kataoka A., Yokota D., Yakushiji M., Kojiro M.;
 RT   "Establishment and characterization of ovarian serous adenocarcinoma
 RT   cell line (KOC-1S).";
 RL   Hum. Cell 1:336-336(1988).
-WW   http://jglobal.jst.go.jp/en/public/200902005383061192
+WW   https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=200902005383061192
 DR   Cellosaurus; CVCL_L701; KOC-1S
 AB   No
 //
@@ -3094,7 +3341,7 @@ RA   Kataoka A., Yokota D., Yakushiji M., Kojiro M.;
 RT   "Establishment and characterization of ovarian serous adenocarcinoma
 RT   cell line (KOC-2S).";
 RL   Hum. Cell 1:337-337(1988).
-WW   http://jglobal.jst.go.jp/en/public/200902091159902142
+WW   https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=200902091159902142
 DR   Cellosaurus; CVCL_L702; KOC-2S
 AB   No
 //
@@ -3134,6 +3381,7 @@ RA   Takeshita I., Takaki T., Nakamura T., Maeyama R., Fukui M.,
 RA   Kitamura K.;
 RT   "Established cell lines derived from human gliomas.";
 RL   Hum. Cell 3:255-256(1990).
+WW   https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=200902037414221974
 DR   Cellosaurus; CVCL_2864; B2-17
 DR   Cellosaurus; CVCL_0378; KNS-42
 DR   Cellosaurus; CVCL_2798; KNS-60
@@ -3146,7 +3394,7 @@ RA   Shigemori M., Kuramoto S., Yokoyama S.;
 RT   "Characterization of an established human malignant glioma cell line,
 RT   KALS-1.";
 RL   Hum. Cell 3:259-260(1990).
-WW   http://jglobal.jst.go.jp/en/public/20090422/200902066061689845
+WW   https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=200902066061689845
 DR   Cellosaurus; CVCL_1323; KALS-1
 AB   No
 //
@@ -3157,14 +3405,6 @@ RT   "Human medulloblastoma cell lines: ONS-76 and ONS-81.";
 RL   Hum. Cell 3:265-266(1990).
 DR   Cellosaurus; CVCL_1624; ONS-76
 DR   Cellosaurus; CVCL_M702; ONS-81
-AB   No
-//
-ID   CLPUB00084
-RA   Iguchi H., Katakami H., Masuda N., Takada M., Kohno A.;
-RT   "Establishment and characterization of the hormone-related protein
-RT   (PTHrP) producing human small cell lung carcinoma cell line (MS-1).";
-RL   Hum. Cell 9:75-78(1996).
-DR   Cellosaurus; CVCL_1429; MS-1 [Human lung carcinoma]
 AB   No
 //
 ID   CLPUB00154
@@ -3181,6 +3421,7 @@ RA   Iguchi M., Ishiwata I., Kiguchi K., Tokieda Y., Soma M., Ishikawa H.;
 RT   "Establishment and characterization of the ovarian endometrioid
 RT   carcinoma cell line (HIOAnu).";
 RL   Hum. Cell 13 Suppl. 2:50-50(2000).
+WW   https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=200902171513658240
 DR   Cellosaurus; CVCL_X937; HIOAnu
 AB   No
 //
@@ -3474,7 +3715,7 @@ RA   Swaminathan T.R., Gopalakrishnan A., Basheer V.S., Divya P.R.,
 RA   Jena J.K.;
 RT   "Development and characterization of a new fish cell line from
 RT   honeycomb grouper, Epinephelus merra, Bloch 1793.";
-RL   Indian J. Animal Sci. 82:1100-1105(2012).
+RL   Indian J. Anim. Sci. 82:1100-1105(2012).
 WW   http://epubs.icar.org.in/ejournal/index.php/IJAnS/article/view/23682
 DR   Cellosaurus; CVCL_6E26; HGF [Epinephelus]
 AB   Yes
@@ -3501,7 +3742,7 @@ RA   Zhan C.-Y., Qian Y.-G., Sun R.-L., Xia L., Tong W.-W., Wang L.-F.,
 RA   Hua J., Tao L.-W.;
 RT   "A new cell line from goat embryonic kidney may be a candidate to
 RT   produce influenza virus vaccine.";
-RL   Indian J. Animal Sci. 85:828-831(2015).
+RL   Indian J. Anim. Sci. 85:828-831(2015).
 WW   https://www.researchgate.net/publication/282951008_A_new_cell_line_from_goat_embryonic_kidney_may_be_a_candidate_to_produce_influenza_virus_vaccine
 DR   Cellosaurus; CVCL_GU03; GEK
 AB   Yes
@@ -3614,6 +3855,65 @@ As THK-72 arose from a classical myeloma, this oligosecretory myeloma
 cell line will be useful for studies regarding the biological nature of
 plasma cell neoplasms.
 //
+ID   CLPUB00490
+RA   Chen Y., Yi Y.-H., Han H.-J., Cui H., Shen D.-H., Wei L.-H.,
+RA   Cheng H.-Y., Ye X., Ma R.-Q., Chang X.-H.;
+RT   "Establishment of human endometriosis-derived immortalized eutopic
+RT   endometrium stromal and epithelial cell lines.";
+RL   Int. J. Clin. Exp. Med. 9:16450-16458(2016).
+WW   http://www.ijcem.com/files/ijcem0027741.pdf
+DR   Cellosaurus; CVCL_WJ05; hEM15A
+DR   Cellosaurus; CVCL_WJ06; hEM5B2
+AB   Yes
+Endometriosis (EM) is commonly seen in women at reproductive age and can
+have a significant social and psychological impact. However, reliable,
+simple in vitro models of endometriosis are not common. To establish human
+EM-derived immortalized cell lines, we transfected cells from eutopic and
+ectopic endometria of endometriosis patients with the plasmid PCD2SV40T.
+The cells were then screened with G418, and monoclonal cells were isolated
+by the limited dilution method. Subclones were evaluated by karyotype
+analysis, immunocytochemistry, reverse transcription-polymerase chain
+reaction, cell doubling time, and nude mice implantation. The established
+immortalized eutopic stromal cell line was named hEM15A, and the ectopic
+epithelial cell line was named hEM5B2. hEM15A cells exhibited the
+characteristics of endometrium stromal cells, and no abnormalities in
+chromosome structure or number were observed. hEM5B2 cells exhibited the
+characteristics of epithelial cells, but had a polyploid karyotype. Both
+of these cell lines could be passaged continuously. No tumourigenicity was
+observed. hEM15A is the first immortalized EM-derived eutopic endometrium
+stromal cell line, and hEM5B2 is an immortalized ectopic endometrium
+epithelial cell line from Asian EM tissues. These cells could facilitate
+studies on the aetiology, molecular mechanisms, and therapeutic models of
+EM.
+//
+ID   CLPUB00484
+RA   Xu Z.-H., Sun W.-W., Hang J.-B., Gao B.-L., Hu J.-A.;
+RT   "RNA-seq identified a novel functional MET fusion in head and neck
+RT   cancer 5-8F cell line.";
+RL   Int. J. Clin. Exp. Pathol. 9:8308-8317(2016).
+WW   http://www.ijcep.com/files/ijcep0020169.pdf
+DR   Cellosaurus; CVCL_C528; 5-8F
+DR   Cellosaurus; CVCL_6889; CNE-2
+DR   Cellosaurus; CVCL_1218; FaDu
+DR   Cellosaurus; CVCL_1906; HEp-2
+DR   Cellosaurus; CVCL_0308; HNE-1
+DR   Cellosaurus; CVCL_FA07; HNE-2
+DR   Cellosaurus; CVCL_8706; HONE-1
+DR   Cellosaurus; CVCL_0372; KB
+AB   Yes
+The mortality of head and neck squamous cell carcinoma (HNSCC) has
+remained nearly unchanged for the past two decades. Deepening our
+understanding of genomic alterations and their influence on biological
+function of HNSCC cells will help develop effective and personalized
+treatment. In present study, paired-end whole-transcriptome sequencing
+(RNA-seq) was performed across 8 HNSCC cell lines. A novel MET fusion,
+CAPZA2-MET fusion, was identified by fusion analysis with FusionMap
+software and validated by nested reverse transcription-polymerase chain
+reaction (RT-PCR) and Sanger sequencing in HNSCC 5-8F cell line. 5-8F
+cells harboring this fusion were very sensitive to tivantinib, a specific
+small molecular inhibitor to MET kinase, demonstrating that this novel MET
+fusion may serve as a potential therapeutic target for HNSCC patients.
+//
 ID   CLPUB00408
 RA   Zach S., Grun J., Bauer A.T., Pilarsky C., Grutzmann R., Weng H.,
 RA   Dooley S., Wilhelm T.J., Gaiser T., Ruckert F.;
@@ -3643,6 +3943,36 @@ Conclusion: The new cell line displays the typical characteristics of a
 CCC cell line. This new cell line might help to add new insights into this
 tumor entity and thereby help to find better treatment options for
 patients with CCC.
+//
+ID   CLPUB00475
+RA   Yin C.-H., Li J.-Q., He Q., Liu S.-S., He L.-S.;
+RT   "Mutations and reduced expression of p53 gene are involved in HPV-
+RT   independent oncogenesis of cervical cancer.";
+RL   Int. J. Clin. Exp. Pathol. 10:4356-4362(2017).
+WW   http://www.ijcep.com/files/ijcep0036136.pdf
+DR   Cellosaurus; CVCL_VT59; CTCC-1
+AB   Yes
+Cervical cancer is one of the most prevalent malignancies in women, which
+has human papillomavirus infection as the major risk factor. Here we
+report the establishment of a new HPV-negative cervical cancer cell line
+and characterization of genetic alterations relevant to the pathogenesis
+of cervical cancer. A new cervical cancer cell line was established by
+extensive culture and natural selection of cells a cervical cancer sample
+of a 53-year woman. Human papillomavirus was detected by ELISA and PCR.
+The expression levels of p53 and k-ras were analyzed by immunocytochemical
+staining, the mutations of p53 and k-ras were assessed by PCR-sequencing,
+the sensitivity to cisplatin and taxol was measured by MTT assay,
+chromosomal anomaly was detected by karyotyping. The newly established
+cervical cancer cell line (CTCC-1) did not have detectable HPV DNA or HPV
+viral particle. CTCC-1 cells had massive chromosomal changes and harbored
+heterozygous mutations at 870 C>T (protein Pro223Leu) and 1022 G>T
+(protein Val274Phe) of p53 gene (NM_000546) with reduced p53 expression
+compared to C33A cells whereas k-ras was not mutated nor inhibited in CTCC-
+1 cells. CTCC-1 cells were more sensitive to cisplatin and taxol than Hela
+but more resistant to taxol than C33A cells. Overexpressing wild type p53
+significantly increased the sensitivity of CTCC-1 to those chemotherapy
+agents. Mutant p53 might be responsible for the oncogenesis of some HPV-
+negative cervical cancers.
 //
 ID   CLPUB00463
 RA   Lal Meena L., Haldar C., Ram R., Kumar M.;
@@ -3788,7 +4118,7 @@ oligosaccharide on the recombinant glycoprotein, prothoracicotropic
 hormone (PTTH), and compared with those in four different lepidopteran
 cell lines.
 //
-ID   CLPUB00473
+ID   CLPUB00479
 RA   Ward S.L., Walker T.L., Trocme S.D., Hallberg C.K., Kruszewski F.H.,
 RA   DiPasquale L.C.;
 RT   "Tight epithelial barrier established by transfected human
@@ -4146,6 +4476,41 @@ DR   Cellosaurus; CVCL_9904; UKF-NB-3
 DR   Cellosaurus; CVCL_9907; UKF-NB-4
 AB   No
 //
+ID   CLPUB00485
+RA   Kuiper C.M., Broxterman H.J., Baas F., Schuurhuis G.J., Haisma H.,
+RA   Scheffer G.L., Lankelma J., Pinedo H.M.;
+RT   "Drug transport variants without P-glycoprotein overexpression from a
+RT   human squamous lung cancer cell line after selection with doxorubicin.";
+RL   J. Cell. Pharmacol. 1:35-41(1990).
+DR   Cellosaurus; CVCL_1720; SW1573
+DR   Cellosaurus; CVCL_WG75; SW1573/2R50
+DR   Cellosaurus; CVCL_WG76; SW1573/2R80
+DR   Cellosaurus; CVCL_WG70; SW1573/2R120
+DR   Cellosaurus; CVCL_WG71; SW1573/2R160
+DR   Cellosaurus; CVCL_WG77; SW1573/2R250
+AB   Yes
+A series of cell lines with increasing levels of multidrug resistance,
+SW-1573/2R50, 2R80, 2R120, 2R160 and 2R250, was derived by selection with
+doxorubicin from the human squamous lung cancer cell line SW-1573 in order
+to study the expression of P-glycoprotcin during subsequent stages of
+resis-tance development. Up to SW-1573/2R120 the cell lines exhibited low
+levels of cross-resistance to vincristine, and gramicidin D, but
+relatively high levels of cross-resistance to etoposide. Cellular
+accumulation of daunorubicin and vincristine was markedly decreased in all
+sublines and a small modulation of resistance levels and drug accumulation
+by verapamil could be detected. However, no P-glycoprotein could be
+detected by Western blotting using C219 and no overexpression of the indr1
+gene occurred in these sublines. Cell lines SW-1573/2R160 and SW-1573/2R250
+display a large increase in doxorubicin resistance levels coinciding with a
+large overexpression of P-glycoprotein (about 3.5 x 10E5 molecules/cell) as
+calculated from binding experiments with 125I-labeled MRK-16. These findings
+indicate that early steps of pleiotropic resistance to anticancer drugs,
+induced by doxorubicin selection, can be mediated by other mechanisms than a
+gradual increase in P-glycoprotein expression. This mechanism gives a
+relatively high etoposide resistance. As a consequence, low level, drug
+transport-dependent resistance might be missed by detection methods using
+mdr-1 specific reagents.
+//
 ID   CLPUB00355
 RA   Franca C.M., Oliveira P.T., Jaeger M.M.M., Jaeger R.G.;
 RT   "Salivary gland tumors: a cytodifferentiation in vitro study.";
@@ -4263,7 +4628,7 @@ RA   Iryo O.;
 RT   "Establishment and characterization of a human glioma cell-line
 RT   (KINGS-1) carrying leukocytes differentiation antigens.";
 RL   J. Kurume Med. Assoc. 51:304-316(1988).
-WW   http://jglobal.jst.go.jp/en/public/200902006921871899
+WW   https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=200902006921871899
 DR   Cellosaurus; CVCL_1328; KINGS-1
 AB   Yes
 A novel human glioma cell-line designated KINGS-1 was estalished in a
@@ -4437,6 +4802,29 @@ dpi. These identified DE genes in both the in vitro and in vivo model
 could help in understanding the diagnosis and pathogenesis of prion
 diseases.
 //
+ID   CLPUB00505
+RA   Komatsu K., Weemaes C.M.R., Smeets D.F.C.M., Oshimura M., Okumura Y.;
+RT   "Establishment of cell line derived from the patient with Nijmegen
+RT   breakage syndrome and the genetic complementation with ataxia
+RT   telangiectasia disease.";
+RL   J. Radiat. Res. 34:320-320(1993).
+WW   http://hdl.handle.net/10069/18906
+DR   Cellosaurus; CVCL_7464; GM07166
+DR   Cellosaurus; CVCL_WL44; GM07166SV
+AB   Yes
+Fibroblasts from patients with Nijmegen breakage syndrome (MBS) were
+transformed by infection of SV40 virus. The cells used were 0816J, 0823H,
+1129W, 1022Q, 1217G (each Czech), GM07166(USA), 2239, 2240 (each German).
+Although all virus-infected fibroblasts showed the prolonged life span,
+only GM07166SV clone was immortalized. Southern blot analysis indicated
+the SV40 virus genome present at this clone. The GM07166SV clone was
+high sensitive to ionizing radiation-induced cell killing, similar to
+parental GM07166 cells. The hybrid clones obtained between GM07166SV(gpt)
+and AT5BIVA(neo) showed the restoration of radiation sensitivity, implying
+the different mutations of both diseases. We are also trying to determine
+the chromosome carrying NBS gene, by introduction of a single chromosome
+via micro-cell fusion technique.
+//
 ID   CLPUB00275
 RA   Zach S., Birgin E., Ruckert F.;
 RT   "Primary cholangiocellular carcinoma cell lines.";
@@ -4466,9 +4854,9 @@ AB   No
 //
 ID   CLPUB00004
 RA   Wang Q.-M., Li Y., Li X., Tong X., Li T.;
-RT   "NeferiNE   reverses resistance to carboplatin in Tca8113/CBP cells.";
+RT   "Neferine reverses resistance to carboplatin in Tca8113/CBP cells.";
 RL   J. Third Mil. Med. Univ. 33:1615-1619(2011).
-WW   http://jglobal.jst.go.jp/en/public/201202248853793603
+WW   https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=201202248853793603
 DR   Cellosaurus; CVCL_T058; Tca8113/CBP [Chongqing]
 AB   Yes
 Objective: To establish a carboplatin (CBP)-resistant tongue squamous
@@ -4487,7 +4875,7 @@ changes of cytoskeleton between reversed Tca8113/CBP and non-reversed
 Tca8113/CBP were compared.
 
 Results: After 5 month's CBP treatment, Tca8113/CBP cells which can be
-stably resistant to carboplatin (16 µg/ml) was successfully established.
+stably resistant to carboplatin (16 mug/ml) was successfully established.
 The resistance index is 4.06. Neferine reversed the resistance of
 Tca8113/CBP cells with a reversal fold of 2.12. Compared to the Tca8113
 cells, the expression of LRP and FMT at mRNA level was increased obviously
@@ -4507,9 +4895,30 @@ RA   Naohiko M.;
 RT   "Establishment and characterization of a new Ewing's sarcoma cell line
 RT   TY-ES: neural differentiation by treatment with db-cAMP.";
 RL   J. Wakayama Med. Soc. 51:283-292(2000).
-WW   http://jglobal.jst.go.jp/en/public/200902180900948441
+WW   https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=200902180900948441
 DR   Cellosaurus; CVCL_S804; TY-ES
-AB   No
+AB   Yes
+A new cell line TY-ES was established from Ewing's sarcoma derived from a
+14-years-old Japanese boy, and its characteristics were analyzed. This
+cell line was found to be oncogenic in severe combined immunodeficiency
+(SCID) mice. When incubated in a standard culture dish, this cell line
+(TY-ES) grew in suspension, but in the presence of type I collagen and
+gelatin, the cells grew and adhered to the dish wall. The doubling time of
+the cells was 40 hours. When stained immunohistochemically, TY-ES cells
+reacted positively with antibody to MIC2 (Ewing's sarcoma specific
+antibody) and antibody to vimentin. They also showed partially positive
+reactions to the stains for NFP and NSE. It was previously reported that
+treatment with dibutyryl cyclic adenosine monophosphate (db-cAMP) induced
+neural differentiation of Ewing's sarcoma cells. In the present study, we
+examined the effects of db-cAMP treatment on the characteristics of TY-ES
+and three other Ewing's sarcoma cell lines (SCCH-196, RD-ES and SK-ES).
+The growth of all 4 cell lines was suppressed by db-cAMP treatment in a
+dose-dependent manner. Tumor formation following transplantation of db-
+cAMP-treated TY-ES or RD-ES cells into SCID mice was also significantly
+suppressed. The growth of db-cAMP treated SK-ES or SCCH-196 cells in these
+mice did not show significant suppression. Chemoinvasion, examined as an
+indicator of tumor invasive potential, was reduced by db-cAMP treatment in
+3 of the 4 cell lines excluding SK-ES.
 //
 ID   CLPUB00372
 RA   Inoue H.;
@@ -4595,7 +5004,7 @@ RT   "Studies on the establishment and some biological characteristics of
 RT   cultured human liver cancer cell lines. Their growth, functional and
 RT   morphological characteristics and temperature sensitivities.";
 RL   Jikeikai Med. J. 32:289-315(1985).
-WW   http://jglobal.jst.go.jp/en/public/200902096368650900
+WW   https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=200902096368650900
 DR   Cellosaurus; CVCL_2785; JHH-1
 DR   Cellosaurus; CVCL_2786; JHH-2
 DR   Cellosaurus; CVCL_2787; JHH-4
@@ -4615,7 +5024,7 @@ RT   "Biological characteristics of adenocarcinoma cell line (HOUA-I) and
 RT   B-lymphoblastoid cell line (HOUA-II) established from the same tissue
 RT   of endometrial adenocarcinoma.";
 RL   Jikeikai Med. J. 36:303-315(1989).
-WW   http://jglobal.jst.go.jp/en/public/200902086883036321
+WW   https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=200902086883036321
 DR   Cellosaurus; CVCL_3867; HOUA-I
 DR   Cellosaurus; CVCL_A778; HOUA-II
 AB   Yes
@@ -4643,7 +5052,7 @@ RA   Hanaoka K., Kawaguchi Y., Sakai O.;
 RT   "Transformed cloned cells from microdissected tubules (proximal
 RT   tubules).";
 RL   Jikeikai Med. J. 39:119-126(1992).
-WW   http://jglobal.jst.go.jp/en/public/200902063451579073
+WW   https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=200902063451579073
 DR   Cellosaurus; CVCL_4679; PST-S2
 AB   Yes
 Renal tubules are composed of heterogeneous segments and different types
@@ -4661,11 +5070,31 @@ future study.
 ID   CLPUB00086
 RA   Miyake S., Shimo T., Kitamura Y., Nojyo T., Nakamura S., Imashuku S.,
 RA   Abe T.;
-RT   "Characteristics of continuous and functional cell line NB-1, derived
+RT   "Characteristics of continuous and functional cell line NB-I, derived
 RT   from a human neuroblastoma.";
-RL   Jiritsu-shinkei 10:115-120(1973).
+RL   Jiritsu Shinkei 10:115-120(1973).
 DR   Cellosaurus; CVCL_1440; NB1
-AB   No
+AB   Yes
+NB-I is a continuous and functional cell line of hypodipolidy, bearing two
+marker chromosomes typical of this line, obtained from metastatic neck
+lymph node of a human neuroblastoma. The cells were exponentially
+proliferated in 20% fetal calf serum in Eagle's MEM, in floating and/or
+attached types. This line grew in soft agar media. Plating efficiency
+increased in paraller with cell numbers in inoculum. The floating cell
+were ligh-refractile, spherical in shape, with tendency to cluster and
+estimated to be a blast type. The attached cells made up fine mesh works
+on glass surface connected each other with slender processes, defined as a
+differentiated and mature type. Growth curves of both cells were somewhat
+different, i.e., the former grew rapidly and the latter slowly. The
+generation time of both cells in toto showed Tg = 29.6 hr, Ts = 13.2 hr by
+means of 3H-TdR autoradiography. The cell processes were stained brownish
+in color by Bodian's method and electromicroscopic studies revealed that
+they contained small number of microtubules. The paperchrom tographic
+investigation of cultured media, treated by 3H-tyrosine in advance,
+indicated that DOPA and HVA was synthesized in cells in vitro.
+Histochemically, cultured cells revealed positive catecholamine
+fluorescense and monoamine oxidase activity. It is concluded that this
+line is derived from malignant sympathetic neurons.
 //
 ID   CLPUB00230
 RA   Ogura M., Morishima Y., Ohno R., Saito H., Kalo K.;
@@ -4749,7 +5178,7 @@ RT   "Establishment and characterization of human undifferenciated
 RT   carcinoma cell line of the stomach KKLS, and a trial of new
 RT   chemosensitivity test, liquid top layer-MTT assay (LMA).";
 RL   Kanazawa Daigaku Juzen Igakkai Zasshi 100:425-444(1991).
-WW   http://ci.nii.ac.jp/naid/110006573131/en
+WW   https://ci.nii.ac.jp/naid/110006573131/en
 DR   Cellosaurus; CVCL_1B37; KKLS
 AB   Yes
 In this study, a human undifferentiated carcinoma cell line of the
@@ -4815,7 +5244,7 @@ RA   Shimoda T.;
 RT   "A study on the cellular proliferation and HCG secretion of
 RT   choriocarcinoma cells in hyperthermic condition.";
 RL   Kitasato Igakkai Gakkai 12:672-679(1982).
-WW   http://ci.nii.ac.jp/naid/110004691644/en
+WW   https://ci.nii.ac.jp/naid/110004691644/en
 DR   Cellosaurus; CVCL_AR87; GCH-nu
 DR   Cellosaurus; CVCL_2910; GCH-nu-YS
 AB   Yes
@@ -5262,7 +5691,7 @@ RA   Ueda R., Shamoto M.;
 RT   "A novel cell line of acute lymphoblastic leukemia (ALL-L3, Burkitt's
 RT   type), NCU-L-3.";
 RL   Nagoya Med. J. 37:101-109(1992).
-WW   http://ci.nii.ac.jp/naid/110000023730/en
+WW   https://ci.nii.ac.jp/naid/110000023730/en
 DR   Cellosaurus; CVCL_0G12; NCU-L3
 AB   Yes
 A new human cell line, NCU-L-3, is established from the peripheral blood
@@ -5373,7 +5802,7 @@ RA   Ishiwata L., Nozawa S., Kiguchi K., Kurihara S., Okumura H.;
 RT   "Establishment of human uterine cervical cancer cell line and comparative
 RT   studies between normal and malignant uterine cervical cells in vitro.";
 RL   Nihon Sanka Fujinka Gakkai Zasshi 30:731-738(1978).
-WW   http://ci.nii.ac.jp/naid/110002117678/en
+WW   https://ci.nii.ac.jp/naid/110002117678/en
 DR   Cellosaurus; CVCL_2794; SKG-II
 DR   Cellosaurus; CVCL_VI91; SKG-IIB
 AB   Yes
@@ -5403,7 +5832,7 @@ RA   Sekiya S., Kawata M., Iwasawa H., Takamizawa H.;
 RT   "Establishment of a human teratocarcinoma cell line of the ovary
 RT   (HOTC3) and its cell biological characteristics.";
 RL   Nihon Sanka Fujinka Gakkai Zasshi 33:2249-2249(1981).
-WW   http://ci.nii.ac.jp/naid/110002209233/en
+WW   https://ci.nii.ac.jp/naid/110002209233/en
 DR   Cellosaurus; CVCL_8707; HOTC-3
 AB   Yes
 We established a human teratocarcinoma cell line of the ovary (HOTC3) and
@@ -5430,7 +5859,7 @@ RA   Sakamoto M., Okabe K., Matayoshi K., Negishi Y., Akiya K.;
 RT   "Characterization of a newly established cell line (TMCC-1) from human
 RT   uterine cervical adenocarcinoma.";
 RL   Nihon Sanka Fujinka Gakkai Zasshi 39:1489-1489(1987).
-WW   http://ci.nii.ac.jp/naid/110002123495/en
+WW   https://ci.nii.ac.jp/naid/110002123495/en
 DR   Cellosaurus; CVCL_IM28; TMCC-1
 AB   Yes
 A new cell line, designated as TMCC-1, has been established from the
@@ -5459,7 +5888,7 @@ RA   Hayakawa O., Koizumi M., Yamauchi O., Yamamoto H., Kudo R., Hashimoto M.;
 RT   "Establishment of a cell line derived from human uterine cervical
 RT   adenocarcinoma and the sensitivity to anticancer drugs.";
 RL   Nihon Sanka Fujinka Gakkai Zasshi 39:1489-1489(1987).
-WW   http://ci.nii.ac.jp/naid/110002123498/en
+WW   https://ci.nii.ac.jp/naid/110002123498/en
 DR   Cellosaurus; CVCL_JX14; CAC-1 [Human cervical adenocarcinoma]
 AB   Yes
 A new cell line of a human uterine cervical adenocarcinoma, designated as
@@ -5483,7 +5912,7 @@ RA   Shimoda T., Kuramoto H., Morisawa T., Tsunoda S., Shiotsu H., Arai M.;
 RT   "A new cell line (HCSC-1) established from small cell carcinoma of the
 RT   uterine cervix.";
 RL   Nihon Sanka Fujinka Gakkai Zasshi 40:1325-1325(1988).
-WW   http://ci.nii.ac.jp/naid/110002226658/en
+WW   https://ci.nii.ac.jp/naid/110002226658/en
 DR   Cellosaurus; CVCL_2919; HCSC-1
 AB   Yes
 A new cell-line (HCSC-1) was established from the ascites of the patient
@@ -5961,7 +6390,7 @@ RA   Knuth A., Gabbert H.E., Moll R., Dippold W.G.,
 RA   Meyer zum Buschenfelde K.-H.;
 RT   "Markers in medullary thyroid cancer established in tissue culture.";
 RL   Proc. Am. Assoc. Cancer Res. 28:83-83(1987).
-WW   http://eurekamag.com/research/028/671/028671834.php
+WW   https://eurekamag.com/research/028/671/028671834.php
 DR   Cellosaurus; CVCL_A656; MZ-CRC-1
 AB   No
 //
@@ -6391,13 +6820,44 @@ monoclonal antibodies to one of these cell lines. In this paper, we report
 the characteristics of these cell lines and the specificity of our
 monoclonal antibodies.
 //
-ID   CLPUB00100
-RA   Zhu D.;
-RT   "Establishment and comparison of non-malignant liver cell QSG-7701 and
-RT   liver cancer cells.";
-RL   Res. Cancer Prev. Treat. 5:7-9(1979).
-DR   Cellosaurus; CVCL_6944; QSG-7701
-AB   No
+ID   CLPUB00481
+RA   Kuno H., Yoshida T.;
+RT   "Detection of human papillomavirus types 16, 18, and 33 in cell lines
+RT   derived from human genital organs by polymerase chain reaction.";
+RL   Res. Commun. Inst. Ferment. Osaka 18:6-12(1997).
+WW   http://www.ifo.or.jp/rc_pdf/18.pdf
+DR   https://web.expasy.org/cgi-bin/cellosaurus/search?input=CLPUB00481
+AB   Yes
+Human papillomavirus (HPV) types 16, 18, and 33 play a causative role in
+the development of uterine cervix cancer. Fourteen cell lines derived from
+human genital organs are maintained at the Institute for Fermentation,
+Osaka (IFO). To know whether these cell lines were infected by HPV types
+16, 18, and 33, we tried to detect these viral DNAs by polymcrase chain
+reaction (PCR) with specific primers homologous to the E6 open reading
+frame. All seven cell lines derived from uterine cervix carcinoma
+possessed the HPV types 16 or 18 DNA, whereas none of seven cell lines
+derived from uterus body cancer or ovarian cancer possessed the HPV types
+16, 18, and 33 DNA. In addition, this PCR was applicable to detect the
+cross-contamination of cell lines by HeLa cells.
+//
+ID   CLPUB00482
+RA   Satoh M., Yanai N., Yoshida T., Takeuchi M.;
+RT   "Establishment and characterization of a murine astroglial cell line.";
+RL   Res. Commun. Inst. Ferment. Osaka 19:6-14(1999).
+WW   http://www.ifo.or.jp/rc_pdf/19.pdf
+DR   Cellosaurus; CVCL_5549; KT-5
+AB   Yes
+A murine cell line, designated as KT-5, was established from a brain tumor
+induced by the interplacental injection of N-nitrosomethyl urea. KT-5
+cells grew in vitro with a doubling time of 17h. The karyotype of KT-5
+cells was pseudotriploid with a modal chromosome number of 61. KT-5 was
+tumorigenic when transplanted ether intraperitoneally or subcutaneously
+into C3H/He mouse. Immunocytochemical analysis demonstrated that KT-5 was
+immunopositive for glial fibrillary acidic protein (GFAP) and S100 protein
+but not for Thy-1, myelin basic protein, or neurofilament, suggesting that
+KT-5 cell derives from a murine astrocyte. Conditioned medium of KT-5
+contained neurite-promoting activity for neurons and growth-promoting
+activity for KT-5 cells themselves.
 //
 ID   CLPUB00097
 RA   Stocker J.W., Forster H.K., Miggiano V., Stahli C., Staiger G.,
@@ -6439,7 +6899,7 @@ RA   Caviedes R.;
 RT   "Characterization of human parathyroid cell line (RCPTH) and
 RT   tumorigenicity evaluation in NOD/SCID.";
 RL   Rev. Chil. Endocrinol. Diabetes 6:59-68(2013).
-WW   http://www.soched.cl/Revista%20Soched/2-2013/3-2_2013.pdf
+WW   http://pesquisa.bvsalud.org/portal/resource/pt/lil-726576
 DR   Cellosaurus; CVCL_9Y59; RCPTH
 AB   Yes
 Background: Cell therapy could be an alternative for the treatment of
@@ -6520,7 +6980,7 @@ incubation.
 ID   CLPUB00348
 RA   Rangel-Corona R., Ramirez-Gaytan J.L., Rocha-Zavaleta L.,
 RA   Solorza-Luna G., Monroy A., Martinez-Perez R.D., Trejo-Becerril C.,
-RA   de Ibarra-Sanchez M., Weiss-Steider B.;
+RA   de Ibarra-Sanchez M., Steider B.W.;
 RT   "Establishment and characterization of a cell line (CaLo) and a clone
 RT   (KaLo), obtained from a cervix carcinoma and the effect of IL-2, IL-3,
 RT   GM-CSF, M-CSF, TNF-alpha and IFN-gamma on its proliferation.";
@@ -6547,22 +7007,66 @@ While highlighting the risk of using in vivo IL-2, as it activates the
 proliferation of tumor cells of the cervix, as has been reported for some
 head and neck carcinomas.
 //
+ID   CLPUB00507
+RA   Pultarova T.;
+RT   "HeLa cells: immortal space travellers.";
+RL   Space Saf. Mag. 7:10-12(2013).
+WW   http://www.spacesafetymagazine.com/wp-content/uploads/2013/04/Space_Safety_Magazine_-_Issue_7_-_Spring_2013.pdf
+DR   Cellosaurus; CVCL_0030; HeLa
+AB   Yes
+It was early April 1961. As 27 year old Yuri Gagarin and 26 year old
+Gherman Titov were getting ready for the historic first manned
+spaceflight, still unaware of which of them would be chosen to fly first,
+a team of microbiologists from the Institute of Experimental Biology of
+the Soviet Academy of Medical Sciences were keen not to miss this
+excellent opportunity. The upcoming event meant they could send some new
+experiments into orbit and start answering the question: what effect does
+space environment have on cells and tissues? It was not simple scientific
+curiosity driving them. Everyone involved in the nascent space program was
+aware that such information would be vital if any future long duration
+exploration and maybe even colonization of outer space by humans were to
+be considered. Among the samples they prepared for the journey were
+cultures of bacteria Escherichia Coli and human cancerous cells known as
+HeLa. Despite the reality of the Cold War, the team led by microbiologist
+N.N. Zhukov-Verezhnikov had acquired vials of HeLa cells from their
+American colleagues several years earlier. In fact, these cells made it to
+space prior to Gagarin, as they were on board the satellite Korabl-Sputnik
+2 in 1960 [1]. HeLa cells were known since 1951 when George Gey, a
+scientist from the John Hopkins University Medical Center in Baltimore,
+US, managed to turn tissue taken from a cervical tumor of a 30 year old
+African American woman into the first immortal line of human cells.
+//
 ID   CLPUB00110
 RA   Hayashi Y., Hanada R., Moriwaki K., Yamamoto K., Imaizumi S.,
 RA   Hirata A., Nishida T.;
 RT   "Establishment and characterization of cell lines derived from
 RT   malignant tumors in children.";
 RL   Saitama Shoni Iryo Senta Igaku-shi 8:16-23(1991).
-DR   Cellosaurus; CVCL_7123; SCMC-ES1
-DR   Cellosaurus; CVCL_7124; SCMC-ES2
-AB   No
+DR   https://web.expasy.org/cgi-bin/cellosaurus/search?input=CLPUB00110
+AB   Yes
+Morphologic, cytogenetic, immunologic, and molecular studies were
+performed on 11 solid tumor cell lines and four leukemia cell lines
+established from 15 patients in children. Four neuroblastoma cell lines
+(SCMC-N2—N5) had N-myc amplification, three of them had DMs, and remaining
+one had HSRs. One of the two rhabdomyosarcoma cell lines (SCMC-RM1, RM2)
+had N-myc amplification and t(9:13). Two Wilms tumor cell lines (SCMC-W1,
+W2) were derived from rhabdoid type, and two Ewing sarcoma cell lines
+(SCMC-ES1, ES2) had t(11:22). One cell line derived from malignant
+mesenchymoma had the capacity of differentiation into muscle or neuron,
+suggesting to be of undifferentiated stem cell origin. SCMC-L1 derived
+from infant ALL expressed early precursor B lineage, and SCMC-L2 with Ph1ALL
+expressed both lymphoid and myeloid antigens, having mixed lineage
+characteristic. Two cell lines from Burkitt's lymphoma (SCMC-L3, L4) had
+t(8:22) and t(8:14), respectively. These cell lines will be valuable
+resources in ascertaining the biological characteristics and
+clinicopathology of the childhood malignant tumors.
 //
 ID   CLPUB00307
 RA   Hayakawa O., Tsumura N., Koizumi M., Endo T., Kudo R.;
 RT   "Establishment and characterization of cell line (OMC-1) derived from
 RT   mucinous cystadenocarcinoma of human ovary.";
 RL   Sapporo Igaku Zasshi 55:153-160(1986).
-WW   http://ci.nii.ac.jp/naid/120001796574/en
+WW   https://ci.nii.ac.jp/naid/120001796574/en
 WW   http://ir.cc.sapmed.ac.jp/dspace/handle/123456789/2294
 DR   Cellosaurus; CVCL_9T73; OMC-1 [Human ovarian carcinoma]
 AB   Yes
@@ -6599,7 +7103,7 @@ RT   "Establishment and characterization of a cell line derived from human
 RT   uterine cervical adenocarcinoma (CAC-1) and its chemosensitivity to
 RT   anticancer drugs.";
 RL   Sapporo Igaku Zasshi 57:603-611(1988).
-WW   http://ci.nii.ac.jp/naid/120001796711/en
+WW   https://ci.nii.ac.jp/naid/120001796711/en
 WW   http://ir.cc.sapmed.ac.jp/dspace/handle/123456789/2431
 DR   Cellosaurus; CVCL_JX14; CAC-1 [Human cervical adenocarcinoma]
 AB   Yes
@@ -6629,7 +7133,18 @@ RL   Sericologia 22:25-31(1982).
 WW   http://agris.fao.org/agris-search/search.do?recordID=FR19830951589
 WW   https://ci.nii.ac.jp/naid/10010964512/
 DR   Cellosaurus; CVCL_Z327; SPC-BM-36
-AB   No
+AB   Yes
+A cell line with continuous multiplication has been established from
+ovarian tissue of Lepidoptera B. mori chrysalids. This cell line which has
+been remarkably stabilized during numerous subcultures, is at the basis of
+several in vitro pathological studies. In virology it now enables the
+ultrastructural study of the chronology of pathogenesis to be carried out
+in the baculovirus of nuclear polyhedrosis, the reovirus of cytoplasmic
+polyhedrosis and the densovirus. It is also used for studies on the action
+of toxic substances produced by entomopathogenic fungi, on the cultivated
+cells as well as on the antiviral action of these substances on in vitro
+multiplied viruses. Necently, it enabled the obtention and the analysis of
+genetic recombinants of Baculovirus.
 //
 ID   CLPUB00284
 RA   Chu T.-H., Yeh H.-J., Chen J.-M.;
@@ -6718,7 +7233,7 @@ RA   Ginot L., Jeammesson P., Angiboust J.-F., Jardillier J.-C., Manfait M.;
 RT   "Interactions of adriamycin in sensitive and resistant leukemic cells:
 RT   a comparative study by microspectrofluorometry.";
 RL   Studia Biophys. 104:145-153(1984).
-WW   http://jglobal.jst.go.jp/en/public/200902099133470377
+WW   https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=200902099133470377
 WW   https://eurekamag.com/research/028/559/028559879.php
 DR   Cellosaurus; CVCL_D573; K562/R7
 AB   Yes
@@ -6759,7 +7274,21 @@ RL   Tianjin Yiyao 24:416-418(1996).
 WW   http://www.cqvip.com/qk/92492X/199607/2218099.html
 DR   Cellosaurus; CVCL_B264; TJ899
 DR   Cellosaurus; CVCL_6975; TJ905
-AB   No
+AB   Yes
+The author established in vitro cell lines derived from two glioblastomas
+of the occipital and occipital regions of the human cerebral palsy. It has
+survived for 5 years and passed over 500 generations. Methods and Results
+1. Establishment of cell lines: 1. Source of material: TJ899 cell line was
+obtained from a surgically removed specimen of a male patient with
+occipital glioma. The TJ905 in vitro cell line was obtained from a male
+TOP glioma patient. Both were diagnosed as glioblastoma multiforme by
+histopathology. 2. Construction: After aseptic conditions, the tissue was
+rinsed with Hanks' solution to remove blood and visible electrocautery and
+necrotic tissue. Mechanically fragmented, inoculate the tissue block in a
+25cm~2 flask, add Waymouth's MAB 87/3 (Gibco Lab, USA) containing 15%
+fetal bovine serum (FCS), incubate at 37 Celsius, 5% CO2 72 hour. Most
+tissue blocks have different degrees of cell migration, and the cell body
+is small. After 1 week, most of the culture flask walls are full of cells.
 //
 ID   CLPUB00142
 RA   Tanaka K., Takeuchi S.;
@@ -6794,6 +7323,29 @@ cell junctions such as desmosomes were observed by transmission electron
 microscopy. Virus granule, mycoplasma and bacteria were negative.
 Conclusion: SGC-996 cells accorded with the general characteristics of the
 cell line in vitro.
+//
+ID   CLPUB00480
+RA   Shih C.C.-Y., Truitt P., Abramoff P., Bortin M.M.;
+RT   "Relationship between IL-2 receptors and cyclosporine-induced
+RT   suppression of T leukemia and T helper cells.";
+RL   Transplant. Proc. 15 Suppl. 11:2394-2397(1983).
+DR   Cellosaurus; CVCL_VU13; A9.12
+DR   Cellosaurus; CVCL_VV44; AKIL-1.E8
+DR   Cellosaurus; CVCL_VV47; AKIL-3.H5
+DR   Cellosaurus; CVCL_VV49; AKIL-6.A3
+DR   Cellosaurus; CVCL_VV50; AKIL-6.D12
+DR   Cellosaurus; CVCL_VV45; AKIL-20
+AB   Yes
+Cyclosporine A (CsA), an immuno-suppressive agent, has been shown to
+preferentially abrogate cell-mediated immune responses, presumably by
+blocking early events in T helper cell activation. T-cell suppression by
+CsA has been shown to be reversed by the addition of exogenous interleukin
+2 (IL-2). Although many studies have shown the cytostatic effects of CsA
+on T-malignant cells, little has been done to compare the mechanisms of
+suppression on malignant vs. normal T cells. We have therefore undertaken
+studies on the effects of CsA on IL-2—dependent and IL-2—independent tumor
+cells and on T helper cell clones in order to elucidate the mechanism of
+suppression by CsA.
 //
 ID   CLPUB00297
 RA   Sato T., Sato N., Takahashi S., Koshiba H., Usui T., Hirata K.,
@@ -6927,7 +7479,7 @@ RA   Yokoi T., Homma H., Odajima T.;
 RT   "Establishment and characterization of OSC-19 cell line in serum- and
 RT   protein-free culture.";
 RL   Tumor Res. 24:57-73(1989).
-WW   http://ci.nii.ac.jp/naid/120001796460/en
+WW   https://ci.nii.ac.jp/naid/120001796460/en
 DR   Cellosaurus; CVCL_3086; OSC-19
 AB   Yes
 Morphological properties and keratin profiles of a human squamous cell
@@ -6994,7 +7546,7 @@ RA   Fujii N.;
 RT   "Interferon-alpha and interferon-gamma augment apoptosis in oral
 RT   carcinoma cells treated with Shiga toxin 2 (Stx2).";
 RL   Tumor Res. 35:25-33(2000).
-WW   http://ci.nii.ac.jp/naid/110000027875/en
+WW   https://ci.nii.ac.jp/naid/110000027875/en
 DR   Cellosaurus; CVCL_3086; OSC-19
 DR   Cellosaurus; CVCL_3087; OSC-20
 DR   Cellosaurus; CVCL_A399; OSC-30
@@ -7164,7 +7716,7 @@ RA   Ohno K., Takeshita K., Kimura G.;
 RT   "Thymidine kinase deficient sublines from rat fibroblast-like line
 RT   3Y1.";
 RL   Yonago Acta Med. 28:70-78(1985).
-WW   http://jglobal.jst.go.jp/en/public/200902086268099496
+WW   https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=200902086268099496
 DR   Cellosaurus; CVCL_U201; 3Y1BU^(r-1)
 DR   Cellosaurus; CVCL_U202; 3Y1BU^(r-2)
 DR   Cellosaurus; CVCL_U203; 3Y1BU^(r-3)
@@ -7183,6 +7735,14 @@ et al., 1981), and in somatic cell genetics (Ohno et al., 1984). Sublines
 of 3Y1 deficient in thymidine kinase (ATP: thymidine 5'-
 phosphotransferase, EC 2.7.1.75; TK) should be useful in gene-transfer
 experiments and cell hybridization.
+//
+ID   CLPUB00100
+RA   Zhu D.-H., Wang J.-B.;
+RT   "Establishment and comparison of non-malignant liver cell QSG-7701 and
+RT   liver cancer cells.";
+RL   Zhong Liu Fang Zhi Yan Jiu 5:7-9(1979).
+DR   Cellosaurus; CVCL_6944; QSG-7701
+AB   No
 //
 ID   CLPUB00189
 RA   Lan M.-Y., Zhao Y.-G., Shen B.-X., Zhou H.-Y., Fang H.-Y.;
@@ -7429,41 +7989,13 @@ determined at 27 Celsius and 20 Celsius, and doubling time was between
 100-144 hr. The cell culture of Spodoptera litura can be heavily infected
 with both Spodoptera litura NPY and Trichoplusia ni NPV.
 //
-ID   CLPUB00215
-RA   Zhang X.-R., Wang J.-H., Chen Y.-Z.;
-RT   "Establishment of lung cell strain KIZ-81A of tufted deer (Elaphodus
-RT   cephalophus) and study of its biological characteristics.";
-RL   Zool. Res. 5:71-77(1984).
-WW   https://eurekamag.com/research/005/385/005385153.php
-DR   Cellosaurus; CVCL_0A01; KIZ-81A
-AB   Yes
-A cell strain (designated KIZ-81A) derived from lung tissue of a young
-male tufted deer (E. cephalophus) is presented. The animal was caught in
-southern China in 1981. The KIZ-81A cells were fibroblasts in morphology.
-The primary cells died at passage 67 after 13 mo. in vitro, while KIZ-81A
-cells, which had been frozen since passage 3 and kept in liquid nitrogen
-for 132 days before thawing, attained only 64 passages. Growth rates of
-KIZ-81A cells were determined at passage 7, 11, 30. Comparison was made at
-generation 11 of primary cells and cells once frozen. After a lag phase,
-all cultures entered the logarithmic growth phase and then the stationary
-phase again. The range of cell cycle time, determined by
-BUdR[bromodeoxyuridine]-Giemsa method for detection of sister chromatid
-exchanges, was from 24-36 h. Karyotype analysis revealed the chromosome
-number and construction in KIZ-81A cells (without being frozen and stored)
-were more stable than those of the cells once frozen in liquid nitrogen.
-In the former, the obvious increase of chromosome number and changes in
-construction started from the 51st generation and in the latter from the
-30th generation. Cells with chromosome number from 49-52 greatly increased.
-Effects of some experimental factors, including temperature and pH
-changes, on cell growth and division are also analyzed and discussed.
-//
 ID   CLPUB00195
 RA   Mitsuhashi J.;
 RT   "Isolation of a continuous cell line from larval fat bodies of an
 RT   Arctiid moth, Spilarctia seriatopunctata (Insecta, Lepidoptera,
 RT   Arctiidae).";
 RL   Zool. Sci. 1:415-419(1984).
-WW   http://ci.nii.ac.jp/naid/110003368871/en
+WW   https://ci.nii.ac.jp/naid/110003368871/en
 DR   Cellosaurus; CVCL_Z545; NIAS-SpSe-1
 AB   Yes
 A continuous cell line was obtained from the culture of fat bodies of a
@@ -7481,7 +8013,7 @@ RT   "Establishment of a cell line (PF line) from a gynogenetic teleost,
 RT   Poecilia formosa (Girard) and characterization of its repair ability
 RT   of UV-induced DNA damage.";
 RL   Zool. Sci. 2:477-483(1985).
-WW   http://ci.nii.ac.jp/naid/110003372874/en
+WW   https://ci.nii.ac.jp/naid/110003372874/en
 DR   Cellosaurus; CVCL_R981; PF
 AB   Yes
 Fibroblast-like cells obtained from explant culture of an one-day-old fry
@@ -8123,6 +8655,33 @@ chromophilic/papillary differentiated renal cell carcinomas. The decrease
 of proapototic survivin-2B could reduce the willingness to apoptotic cell
 death during tumor progression.
 //
+ID   CLPUB00371
+RA   Wang X.-F.;
+RT   "Study on RAPD characteristics of 4 H22 clonal cell strains and
+RT   biological characteristics of passage cells from H22-H8D8.";
+RL   Thesis MSc (2006), Hebei Medical University, China.
+WW   http://med.wanfangdata.com.cn/Paper/Detail?id=DegreePaper_Y914010
+WW   http://www.globethesis.com/?t=2144360185452789
+WW   http://www.dissertationtopic.net/doc/940351
+DR   Cellosaurus; CVCL_IR42; H22-H8D8
+AB   Yes
+The transplantable tumor animal model may objectively simulate the process
+of growTH in human tumor. Accordingly, it was generally applied to the
+research of the tumorigenic mechanism and the screening of the anti-tumor
+drugs. In the long process of passage, tumor cell strains are exposed to
+variety of unstable factors, such as genetic pollution and genovariation.
+Therefore, through a long time it is possible that variation of genetic
+mass and the following changes in biological characteristics may decrease
+the homogenicity and comparison of tumor animal models. If wanting to keep
+the stability of the animal models of transplanted tumors, we have to give
+quality control on the tumor cell strains. Hepatoma 22 (H22) is one of the
+most usually used mice transplanted tumor cell lines and widely applied to
+make the mouse tumor models. This cell line has been set up for nearly 50
+years. Many scholars reported that it had already undergone biggish
+genetic variance and the cell strains conserved in different institutes
+had been found large difference. Liu junxu etc have made H22 cloning and
+got 4 clone strains, including H22-H8D8, H22-H2C4, H22-H2G4 and H22-H2E10.
+//
 ID   CLPUB00225
 RA   Zhang Z.;
 RT   "Studies on prolification of cells of insect fat bodies in vitro and
@@ -8169,32 +8728,57 @@ armigera (Lepidoptera: Noctuidae). The spherical cells were predominant
 among the various cell types. The population doubling times for
 IOZCAS-Spex-II and IOZCAS-Ha-I were 108.8h and 65h, respectively.
 //
-ID   CLPUB00371
-RA   Wang X.-F.;
-RT   "Study on RAPD characteristics of 4 H22 clonal cell strains and
-RT   biological characteristics of passage cells from H22-H8D8.";
-RL   Thesis MSc (2006), Hebei Medical University, China.
-WW   http://med.wanfangdata.com.cn/Paper/Detail?id=DegreePaper_Y914010
-WW   http://www.globethesis.com/?t=2144360185452789
-WW   http://www.dissertationtopic.net/doc/940351
-DR   Cellosaurus; CVCL_IR42; H22-H8D8
+ID   CLPUB00478
+RA   Reinders J.;
+RT   "Head and neck squamous cell carcinoma susceptibility genes in the HLA
+RT   region.";
+RL   Thesis PhD (2006), Universiteit Utrecht, Netherlands.
+WW   https://dspace.library.uu.nl/handle/1874/8025
+DR   Cellosaurus; CVCL_VU44; AHPEN
 AB   Yes
-The transplantable tumor animal model may objectively simulate the process
-of growTH in human tumor. Accordingly, it was generally applied to the
-research of the tumorigenic mechanism and the screening of the anti-tumor
-drugs. In the long process of passage, tumor cell strains are exposed to
-variety of unstable factors, such as genetic pollution and genovariation.
-Therefore, through a long time it is possible that variation of genetic
-mass and the following changes in biological characteristics may decrease
-the homogenicity and comparison of tumor animal models. If wanting to keep
-the stability of the animal models of transplanted tumors, we have to give
-quality control on the tumor cell strains. Hepatoma 22 (H22) is one of the
-most usually used mice transplanted tumor cell lines and widely applied to
-make the mouse tumor models. This cell line has been set up for nearly 50
-years. Many scholars reported that it had already undergone biggish
-genetic variance and the cell strains conserved in different institutes
-had been found large difference. Liu junxu etc have made H22 cloning and
-got 4 clone strains, including H22-H8D8, H22-H2C4, H22-H2G4 and H22-H2E10.
+The Human Leukocyte Antigen (HLA) region on the short arm of chromosome 6
+includes the classical HLA genes and in addition HLA-related and non-HLA
+related genes. The majority of the genes located in this region are
+directly or indirectly involved in the immune response. The polymorphic
+HLA molecules, encoded by the HLA genes, bind endogenous and exogenous
+peptides. Stable bound peptides are recognized by CD4+ and CD8+ T-cells,
+which elicit a humoral or cytotoxic immune response to pathogens. The
+immunological function of HLA molecules in transplantation has been widely
+studied. The role of HLA in autoimmune disease and cancer however is less
+obvious. In head and neck squamous cell carcinoma (HNSCC) aberrant HLA
+expression patterns have been observed on primary tumour cells and lymph
+node metastases, suggesting an aberrant immune response. Whether the
+aberrant expression resides in the HLA genes themselves or is as a result
+of other genes within the HLA region is poorly understood. This thesis
+describes how the HLA region on the short arm of chromosome 6 is
+associated with the pathogenesis of HNSCC. Associations with particular
+HLA-B alleles and HLA-B-DRB1 haplotypes were identified. However, since
+few patients carried these alleles and haplotype, this could not be the
+primary risk factor for the pathogenesis of HNSCC. The MICA gene is in
+linkage disequilibrium with HLA-B and involved in the innate and adaptive
+immune system. Allelic polymorphism for the MICA gene was evaluated with a
+refined method for determination of MICA allele polymorphism based upon
+the combination of nucleotide polymorphisms in exons 2, 3 and 4 and repeat
+polymorphism in exon 5. No differences in MICA allelic polymorphism were
+identified between patients and controls. Repeat length polymorphism,
+present in the MICA transmembrane region and encoded by exon 5, revealed a
+significant decrease in the frequency for the MICA-A9 repeat in the
+patients. Analysis of MICA protein expression indicated that the majority
+of tumours expressed MICA. The expression of MICA was not correlated with
+the length of the repeat present in the transmembrane region. To evaluate
+the role of non-HLA related genes, located within the HLA region and which
+confer susceptibility to HNSCC, disease-associated regions were defined
+using microsatellite analysis in pooled DNA analysis. Microsatellite
+analysis revealed three associated regions, one in the class I region and
+two in the class II region. From the associated regions 18 genes were
+selected and evaluated for their RNA expression in tumour tissue compared
+to surrounding healthy tissue. MICA RNA expression was significantly
+increased in tumour tissue while a significant decrease in RNA expression
+was observed for hydroxysteroid (17-beta) dehydrogenase 8 (HSD17B8) in
+tumour tissue. For retinoid X receptor beta (RXRbeta) and NOTCH4 a
+decreased, but non-significant, RNA expression in tumour tissue was
+observed. These results show that apart from HLA genes also other genes in
+the HLA region are associated with the pathogenesis of HNSCC.
 //
 ID   CLPUB00444
 RA   Mezzano-Robinson V.;
@@ -9547,6 +10131,38 @@ specific expansion around 20 KYA with a more recent peak around 10 KYA.
 This study demonstrates the value of the use of haplotype blocks, and the
 accurate ascertainment of rare variants to infer human demographic history.
 //
+ID   CLPUB00477
+RA   Leon C.G.C.;
+RT   "Characterization of a strain of human preadipocytes as a experimental
+RT   model system for in vitro adipogenesis.";
+RL   Thesis MSc (2016), Instituto Potosino de Investigacion Cientifica y Tecnologica, Mexico.
+WW   https://ipicyt.repositorioinstitucional.mx/jspui/handle/1010/1175
+DR   Cellosaurus; CVCL_VT90; PASH-4
+AB   Yes
+The study of adipose tissue takes advantage of in vitro experimental
+models constituted by cultures of primary preadipocytes or adipose cell
+lines. The first ones represent with high fidelity the metabolism of the
+cell adipose lineage but have a limited life span and decreasing capacity
+when subcultivated. The second ones show an ilimited proliferative
+capacity but they do not necessarily have all the functional attributes of
+the adipose cell lineage. The most commonly used adipogenic cell lines
+have a murine origin and present genetic and metabolic differences
+withrespect to the human cells. Although human adipogenic cell lines have
+been described, its use is limited, and currently there is not an vitro
+model system widely used for the study of human adipogenesis. Here we
+characterize a clonal cell strain of human subcutaneous preadipocytes,
+PASH-4, to explore its utility as an in vitro model system for human
+adipogenesis. The PASH-4 cells proliferated for 30 serial subcultures,
+showing population doubling times of 47 h and 95 h in the 17th and 26th
+subculture, and a clonogenic capacity of 7% and 2% in the 15th and 25th
+subculture, respectively. The PASH-4 cells maintained their adipogenic
+capacity until the 26th subculture, expressing the early adipose molecular
+markers C/EBPbeta and C/EBPdelta even as preadipocytes. The PASH-4 cells
+were diploid (46XY) at least until 20th subculture. All these
+characteristics make the PASH-4 strain a useful model for in vitro human
+adipogenesis studies and a population suitable of normal human
+preadipocytes to generate an established cell line of human preadipocytes.
+//
 ID   CLPUB00424
 RA   Mishra H.K.;
 RT   "Modeling neurodevelopment and cortical dysfunction in SPG11-linked
@@ -9796,6 +10412,33 @@ approaches. This thesis research was designed to develop a humpback whale
 derived fibroblast cell culture for species-specific assessment of the
 toxicological impact of priority POPs and other potential stressors.
 //
+ID   CLPUB00486
+RA   Thellman N.M.;
+RT   "A human neuronal model for herpes simplex virus latency and
+RT   reactivation.";
+RL   Thesis PhD (2017), Van Andel Research Institute, USA.
+WW   https://pqdtopen.proquest.com/doc/1925039032.html?FMT=ABS
+DR   Cellosaurus; CVCL_WG82; HD10.6
+AB   Yes
+A defining characteristic of alphaherpesviruses is the establishment of
+lifelong latency in host sensory ganglia with occasional reactivation
+causing recurrent lytic infections. Much remains unknown regarding the
+cellular and viral mechanisms involved in HSV exit from latency. We
+hypothesize that VP16 recruits chromatin-remodeling enzymes to immediate
+early gene promoters on compact-latent chromatin as a necessary step for
+reactivation. In order to test this hypothesis, a robust in vitro assay in
+which HSV latency can be established in neurons was required. In this
+dissertation, I explored the use of a human sensory neuron cell line as a
+novel in vitro model of HSV-1 latency and reactivation. HD10.6 cells were
+derived from embryonic human dorsal root ganglia and immortalized by a
+tetracycline-regulated v-myc oncogene. HD10.6 cells mature to express a
+sensory neuron-associated phenotype when treated with doxycycline which
+suppresses proliferation mediated by the v-myc oncogene. Infection at a
+low MOI in the presence of acyclovir results in a quiescent infection
+resembling latency in matured cells. HD10.6 cells provide a novel context
+in which to study the host and viral mechanisms of HSV-1 latency
+establishment, maintenance, and reactivation.
+//
 ID   CLPUB00262
 RA   Gold M.;
 RT   "A conspiracy of cells. One woman's immortal legacy and the medical
@@ -9962,6 +10605,31 @@ save countless lives.
 With another frightening virus imperiling pregnant women on the rise
 today, no medical story could have more human drama, impact, or urgency
 today than The Vaccine Race.
+//
+ID   CLPUB00476
+RA   Deramoudt F.-X., Monnet S., Rabaud J.-N., Quiot J.-M., Cerutti M.,
+RA   Devauchelle G., Kaczorek M.;
+RT   "Production of a recombinant protein in a high density insect cell
+RT   cytoflow reactor.";
+RL   (In) Animal cell technology. Products of today, prospects for tomorrow; Spier R.E., Griffiths J.B., Berthold W. (eds.); pp.222-226; Butterworth-Heinemann; Oxford (1984).
+DR   Cellosaurus; CVCL_VT61; SPC-Mb 92
+AB   Yes
+The production of a recombinant protein was assayed in a new Mamestra
+brassicae cell line grown at high density in a serum free medium. The gene
+coding for Drosophila melanogaster acetylcholinesteraes (AchE) was
+inserted in a baculovirus under the control of the P10 promoter. Cell
+growth rate and metabolism, together with the rate of production of the
+recombinant protein, were comparatively measured in a standard stirred
+bioreactor and in a perfused stirred bioreactor coupled to an external
+cell recycling system (the Cytoflow of SGI). In the perfused culture the
+cell growth was linear and reached a maximum cell density of 5x10^7 cells
+per ml, with a stable cell viability near 90% in 13 days. Cell
+concentration was ten fold the concentration observed in batch. Compared
+to the batch culture, total yield of AchE in the perfused culture was 13-
+fold higher within a period time that was only twice. The perfusion
+culture increased the cell specific productivity 8.6 fold. In terms of
+medium cost, the perfusion rate used in these experiments never exceeded
+2.7 working volume per day.
 //
 ID   CLPUB00387
 RA   Coriell L.L., Greene A.E., Mulivor R.A.;
@@ -10142,6 +10810,25 @@ leads to NIS re-expression and radioiodide uptake, we are exploring
 whether these cells when exposed to combinatorial therapy respond to
 iodine uptake and retention.
 //
+ID   CLPUB00488
+RA   Taneera J., Haataja L., Wollheim C.B., Groop L.C.;
+RT   "FTO silencing inhibits insulin secretion in GRINCH cells: a new
+RT   pancreatic beta cell line tool for beta cell function.";
+RL   (In) Abstracts of EASD virtual meeting; pp.AB338-AB338; EASD; Munich (2016).
+WW   https://www.easd.org/virtualmeeting/home.html#!resources/fto-silencing-inhibits-insulin-secretion-in-grinch-cells-a-new-pancreatic-beta-cell-line-tool-for-beta-cell-function
+DR   Cellosaurus; CVCL_WH61; GRINCH
+AB   Yes
+FTO (Fat mass and obesity-associated) has been identified as an obesity-
+susceptibility gene, which is strongly associated with increased risk of
+obesity. A recent study showed that the FTO gene product has a rapid
+turnover in pancreatic beta cells and affects the regulation of insulin
+secretion under glucose stimulation. However, the functional role and
+molecular mechanisms of FTO in pancreatic beta cells is still unclear. In
+this study, we aim to investigate the role of FTO in the pancreatic beta
+cells using a new pancreatic beta cell line tool for beta cell function
+called GRINCH cells (Glucose-Responsive Insulin-secreting C-peptide-
+modified Human-proinsulin).
+//
 ID   CLPUB00401
 RA   Arifin M.A., Azmir M., Maizirwan M., Raha A.R., Sharifah S.H., Aini I.;
 RT   "Comparison of growth rate and viability of DF-1 cell line in
@@ -10308,6 +10995,26 @@ tissues have not yet been performed. Therefore the main question as to
 whether the particles are of exogenous or endogenous origin remains
 unanswered.
 //
+ID   CLPUB00495
+RA   Cavalloro R., Scovassi A.I., Bertazzoni U.;
+RT   "Aspects of DNA synthesis in cells and embryos of med­fly (Ceratitis
+RT   capitata Wied.).";
+RL   (In) Fruit flies of economic importance; Cavalloro R. (eds.); pp.212-218; A.A.Balkema Publishers; Rotterdam (1983).
+WW   https://nucleus.iaea.org/sites/naipc/twd/Lists/Symposia/Attachments/1/1st-ISFFEI-1982-Athens-Greece.pdf
+DR   Cellosaurus; CVCL_Z884; CEC CC 130
+AB   Yes
+We have analyzed the DNA polymerase activities in cultured cells and
+embryos of Ceratitis capitata Wied. and we have observed that the three
+eukaryotic polymerases­alpha, ­beta and ­ gamma were detectable in crude
+extracts. However the activity responding to polymerase­beta did not
+correspond to a true DNA polymerase-beta upon subsequent sedimentation and
+purification procedures. Our studies with aphidicolin, the specific
+inhibitor of polymerase­alpha, indicate that cultured Med­fly cells show
+an arrest in cellular growth at much higher concentration of the drug than
+that observed for other eukaryotic cells. This is reflected also by a
+decreased sensitivity to aphidicolin of DNA polymerase­alpha purified from
+Med­fly embryos.
+//
 ID   CLPUB00113
 RA   Shimoyama M.;
 RT   "Malignant melanoma, SEKI strain.";
@@ -10393,12 +11100,95 @@ WW   http://www.springer.com/de/book/9783642736285
 DR   Cellosaurus; CVCL_5641; ULF-23
 AB   No
 //
+ID   CLPUB00492
+RA   Mitsuhashi J.;
+RT   "Nutritional requirements of insect cells in vitro.";
+RL   (In) Invertebrate cell system applications, Vol. I; Mitsuhashi J. (eds.); pp.3-20; CRC Press; Boca Raton (1989).
+DR   https://web.expasy.org/cgi-bin/cellosaurus/search?input=CLPUB00492
+AB   Yes
+Nutritional requirements of insect cells cultured in vitro have attracted
+the attention of many investigators in this field for a long time. During
+the last decade many continuous cell lines were obtained. Among them were
+some cell lines which had been considered very difficult to culture, if
+not impossible. Success of obtaining such cell lines seems most likely to
+be due to the improvement of culture media. In other words, the
+modification of the culture media satisfied nutritional requirements of
+the cells for multiplication. There are still many insect species from
+which cell lines cannot be obtained. In order to develop culture media
+which can support the cell growth of such insects, information on the
+nutritional requirements of the cells will give a clue.
+
+Unfortunately, nutritional requirements of the cultured insect cells have
+not been studied extensively, and the available information is limited. In
+this article, the author has tried to summarize the information on
+nutritional requirements of insect cells hitherto obtained.
+//
+ID   CLPUB00497
+RA   Kurtti T.J., Munderloh U.G.;
+RT   "Advances in the definition of culture media for mosquito cells.";
+RL   (In) Invertebrate cell system applications, Vol. I; Mitsuhashi J. (eds.); pp.21-29; CRC Press; Boca Raton (1989).
+DR   Cellosaurus; CVCL_WK40; RU-ASE-IV
+DR   Cellosaurus; CVCL_Z238; RU-TAE-12V
+AB   Yes
+Mosquitoes are a problem in temperate and tropical zones of the world. The
+adult female requires vertebrate blood for her eggs to develop and seeks a
+host soon after emergence. During the blood meal, a variety of human and
+animal pathogens may be exchanged between host and mosquito, including
+viruses, bacteria, protozoa, and filarial worms. Unfortunately, the
+relationship between vector and pathogen is in most cases poorly
+understood because of a lack of suitable in vitro culture systems. We use
+mosquito cells to study the metabolic characteristics of these
+invertebrates at the cellular level and their relationship with
+mosquitoborne protozoan parasites. We are working mainly with two cell
+lines: one, ASE-IV, isolated by us from a vector of malaria, Anopheles
+stephensi the other, TAE-12V, isolated from a nonbiting mosquito,
+Toxorhynchites amboinensis.
+//
+ID   CLPUB00491
+RA   Harvey G.T., Sohi S.S.;
+RT   "Isozyme characterization of 8 hymenopteran and 20 lepidopteran cell
+RT   lines.";
+RL   (In) Invertebrate cell system applications, Vol. I; Mitsuhashi J. (eds.); pp.71-75; CRC Press; Boca Raton (1989).
+DR   https://web.expasy.org/cgi-bin/cellosaurus/search?input=CLPUB00491
+AB   Yes
+Several continuous cell lines have been developed at the Forest Pest
+Management Institute (FPMI) from the tissues of major forest insect pests
+to facilitate the in vitro investigations of insect pathogens. These cell
+lines originated from the spruce budworm (Choristoneura fumiferana), the
+forest tent caterpillar (Malacosoma disstria), the red-headed pine sawfly
+(Neodiprion lecontei), and the white-marked tussock moth (Orgyia
+leucostigma). Isozyme analyses were performed to confirm the identity of
+the new cell lines. Results of these analyses are presented here.
+//
+ID   CLPUB00498
+RA   Ninaki O., Takada N., Fujiwara H., Ogura T., Miyajima N., Kiyota A.,
+RA   Maekawa H.;
+RT   "Gene analysis by blot hybridization on the silkworm, Bombyx mori, cell
+RT   lines.";
+RL   (In) Invertebrate cell system applications, Vol. I; Mitsuhashi J. (eds.); pp.143-149; CRC Press; Boca Raton (1989).
+DR   Cellosaurus; CVCL_Z633 ! BM-N
+DR   Cellosaurus; CVCL_WK41 ! SES-Bm-1 30
+DR   Cellosaurus; CVCL_WK42 ! SES-Bm-e 21
+DR   Cellosaurus; CVCL_Z108 ! SES-BoMo-15A
+DR   Cellosaurus; CVCL_Z327 ! SPC-BM-36
+AB   Yes
+In the silkworm, Bombyx mori, three cell lines (S.P.C.Bm36, BM-N, and SES-
+BoMo-15A) have been established. These cell lines were already
+characterized, but genetic and physiologic data are rare. Furthermore, one
+of them, S.P.C.Bm36(Bm36) cell line in the currently available form, is not
+B. mori type. The original cell source of the BM-N(Bm) has not been
+determined. Thus, we tried to establish and characterize new cell lines of
+B. mori. An appropriate method to characterize the genome of the new cell
+lines and the previously established cell lines is blot hybridization with
+the gene probes proper to B. mori. It is a useful method for biochemical
+analysis.
+//
 ID   CLPUB00170
 RA   Sato T.;
 RT   "Establishment of eight cell lines from neonate larvae of tortricids
 RT   (Lepidoptera) and their several characteristics including
 RT   susceptibility to insect viruses.";
-RL   (In) Invertebrate cell system applications, Vol.2; Mitsuhashi J. (eds.); pp.187-198; CRC Press; Boca Raton (1989).
+RL   (In) Invertebrate cell system applications, Vol.II; Mitsuhashi J. (eds.); pp.187-198; CRC Press; Boca Raton (1989).
 DR   Cellosaurus; CVCL_Z298; FTRS-AbL81
 DR   Cellosaurus; CVCL_Z296; FTRS-AfL
 DR   Cellosaurus; CVCL_Z294; FTRS-AoL1
@@ -10406,7 +11196,23 @@ DR   Cellosaurus; CVCL_Z295; FTRS-AoL2
 DR   Cellosaurus; CVCL_Z300; FTRS-H1L1
 DR   Cellosaurus; CVCL_Z301; FTRS-H1L2
 DR   Cellosaurus; CVCL_Z299; FTRS-HmL45
-AB   No
+AB   Yes
+Recently, continuous cell lines of insects increased in number by
+improvement of culture media and procedures. According to Hink, it reached
+more than 130 from more than 60 species of invertebrates. In the family of
+Tortricidae, eight continuous cell lines from three species have been
+established by Hink and Ellis, Sohi, Mahr and Miltenburger (unpublished),
+and Peter (unpublished). Eight new cell lines from six species have been
+added to the list. These six species are Adoxophyes orana fasciata,
+Adoxophyes sp., Pandemis heparana, Archippus breviplicanus, Hoshinoa
+longicellana. and Homona magnanima. They are serious pests for fruit
+growing and tea cultivation in Japan. With some of them, microbiological
+control using insect viruses has been demonstrated; however, the
+fundamental properties of these viruses are not so clear for want of
+established cell lines that are capable of replicating these viruses. In
+this paper, the method used for establishing several characteristics of
+eight new continuous cell lines including susceptibility to insect
+pathogenic viruses are described.
 //
 ID   CLPUB00207
 RA   Bernhard H.P., Lienhard S., Reganass U.;
@@ -10414,6 +11220,7 @@ RT   "Isolation and characterization of mutant Drosophila cell lines.";
 RL   (In) Invertebrate systems in vitro; Kurstak E., Maramorosch K., Dubendorfer A. (eds.); pp.13-26; Elsevier; Oxford (1980).
 WW   http://flybase.org/reports/FBrf0035336.html
 DR   Cellosaurus; CVCL_Z901; E-Adh-n1
+DR   Cellosaurus; CVCL_WK71; E-Aldox-n1
 DR   Cellosaurus; CVCL_Z893; E-CS
 DR   Cellosaurus; CVCL_Z902; E-E12[ts] mal[1]
 DR   Cellosaurus; CVCL_Z903; E-FM1
@@ -10422,7 +11229,71 @@ DR   Cellosaurus; CVCL_Z905; E-mal[F3]
 DR   Cellosaurus; CVCL_Z894; E-OR
 DR   Cellosaurus; CVCL_Z906; E-r[1]
 DR   Cellosaurus; CVCL_Z907; E-r[36]
-AB   No
+AB   Yes
+Since the first successful establishment of Drosophila cell lines by
+Echalier and Ohanessian (1969) and Kakpakov et al. (1969), a large number
+of permanent Drosophila cell lines have been established by several groups
+but the collection of available cell lines is of limited genetic diversity
+(Schneider and Blumenthal 1978). We have established a set of 14 different
+cell lines that are derived from 10 well defined mutant Drosophila stocks.
+The mutants were selected with respect to cytologically recognizable
+marker chromosomes, allozyme variants, enzyme deficiencies, and
+conditional lethality. The mutant cell lines were demonstrated to express
+the respective mutant phenotypes at the cellular level and under in vitro
+conditions. Cell lines carrying genetic markers and conditional lethal
+mutations will prove useful for the isolation and identification of hybrid
+Drosophila cells following somatic cell fusion (Bernhard 1976). The
+conditional lethal cell lines will allow the study of in vitro mutagenesis
+by determining the reversion frequency of defined mutations under
+restrictive con-ditions. They provide further a critical and sensitive
+assay system to study possible transformation in eucaryotic cells by means
+of cloned gene sequences that might become available in the near future
+(Gehring 1978).
+//
+ID   CLPUB00493
+RA   Eppler A., Adam G., Sander E.;
+RT   "Nutritional requirements and growth of two cell-lines from the
+RT   aphid parasite, Ephedrus plagiator under different culture conditions.";
+RL   (In) Invertebrate systems in vitro; Kurstak E., Maramorosch K., Dubendorfer A. (eds.); pp.59-62; Elsevier; Oxford (1980).
+DR   Cellosaurus; CVCL_WK70; IBT-EP 1
+DR   Cellosaurus; CVCL_WK36; IBT-EP 2
+AB   Yes
+For the investigation of virus-vector relationships on a cellular level,
+cell lines of vectors are a useful tool (Black 1969). Aphids are the most
+prominent group of insect vectors of plant viruses and cell lines of
+aphids would be a useful tool. However, no aphid cell lines are as yet
+available (Valenta 1977). While dealing with primary cultures of the
+Damson hop aphid Phorodon humuli Schrk.,two cell lines of the insect
+Ephedrus plagiator (Aphidiidae, Hymenoptera), a parasite of the aphid were
+established in 1976. The cell lines were derived from larval tissue. Since
+parasite and aphid embryos develop under comparable conditions, the new
+cell lines were tried as a tool to optimize media and culture conditions
+for aphid cells. Several media developed for aphid cell culture, an insect
+cell line medium and an artificial medium were tested.
+//
+ID   CLPUB00494
+RA   Cavalloro R., Rozi G., Zaffaroni G.;
+RT   "Radiosensitivity and DNA content of an in vitro cell line of the
+RT   Mediterranean fruit-fly.";
+RL   (In) Invertebrate systems in vitro; Kurstak E., Maramorosch K., Dubendorfer A. (eds.); pp.79-86; Elsevier; Oxford (1980).
+DR   Cellosaurus; CVCL_W343; 45 M
+DR   Cellosaurus; CVCL_Z884; CEC CC 130
+AB   Yes
+Up to now, research on the sensitivity to ionising radiations of cell
+lines of eukariotes in vitro has been carried out principally on plant
+cells (Howland and Hart 1977) and on vertebrate animal cells (Puck 1960;
+Watch and Okada 1969; Okumura and Uchiyama 1974), but not on invertebrate
+cell lines. Stabilized cultures of cells of the Mediterranean fruit-fly
+(Ceratitis capitate, Wied.), recently obtained in our laboratories
+(Cavalloro, in press) have permitted the testing of such materials (Fig.
+I, left part). The principal aim of the research was the ascertaining of
+the radiosensitivity in relation to the DNA content of the nuclei of C.
+capitata, and comparison with a line of Aedes albopictus (Skuse) (Singh
+1967), which has a chromosome number half that of the Mediterranean fruit
+fly (Southern 1976). The comparison between the two species was made with
+both untreated material and material irradiated with gamma radiation,
+using in parallel cytophotometric measurements of the DNA content in the
+nuclei and measuring the survival and cell multiplication.
 //
 ID   CLPUB00202
 RA   Gateff E., Gissmann L., Shrestha R., Plus N., Pfister H., Schroder J.,
@@ -10432,7 +11303,38 @@ RT   melanogaster and the viruses they contain.";
 RL   (In) Invertebrate systems in vitro; Kurstak E., Maramorosch K., Dubendorfer A. (eds.); pp.517-533; Elsevier; Oxford (1980).
 DR   Cellosaurus; CVCL_Z706; mbn-2
 DR   Cellosaurus; CVCL_0A30; mbn-3
-AB   No
+AB   Yes
+A number of recessive-lethal mutants of Drosophila melanogaster, causing
+malignant growth in different tissues and cells, have been isolated
+(Gateff 1978a,b,c). Among these were three mutants which develop
+malignancies of the larval hematopoietic system. The mutant larvae are
+characterized by extremely enlarged, hematopoietic organs and an enormous
+increase of free blood cells in the hemolymph. The increased numbers of
+free blood cells in the mutant larvae facilitated the establishment of
+tumorous blood cell lines in vitro from two of the three mutants. This
+paper describes the growth pattern, cell morphology and fine structure of
+two tumorous blood cell lines in vitro and the viruses they contain.
+//
+ID   CLPUB00496
+RA   Hink W.F.;
+RT   "The 1979 compilation of invertebrate cell lines and culture media.";
+RL   (In) Invertebrate systems in vitro; Kurstak E., Maramorosch K., Dubendorfer A. (eds.); pp.553-578; Elsevier; Oxford (1980).
+DR   https://web.expasy.org/cgi-bin/cellosaurus/search?input=CLPUB00496
+AB   Yes
+This compilation contains information on 76 cell lines or strains from 22
+species of invertebrates. The new lines are only from ticks and two
+families (Lepidoptera and Diptera) of insects. Most cell lines described
+in my earlier paper (Hink 1976) are not included in this publication. This
+compilation includes only those lines that were incompletely described in
+the 1976 listing or have been established since the earlier list. Media
+formulations are also not repeated if they were listed in the 1976 paper.
+These lines are used for exciting research that includes cell and hormone
+interactions, genetics of somatic cells, biochemistry of mutations that
+affect cellular metabolism, and replication of viruses, microfilaria,
+coxiella, trypanosomes, and babesia. Some new techniques have succeeded in
+establishment of primary cultures that are more likely to continue to
+multiply and become cell lines, growth of lines in serum-free and protein-
+free media, and culture of many lines in suspension or roller bottles.
 //
 ID   CLPUB00076
 RA   Prozesky O.W., Brits C., Grabow W.O.K.;
@@ -10459,6 +11361,49 @@ RL   (In) Normal and neoplastic hematopoiesis, UCLA symposia on molecular and ce
 DR   Cellosaurus; CVCL_1196; EM-2
 DR   Cellosaurus; CVCL_2033; EM-3
 AB   No
+//
+ID   CLPUB00489
+RA   Liao S.-K., Kwong P.C., Dent P.B., McCulloch P.B.;
+RT   "Relationship of malignant potential to in vitro saturation density of
+RT   human melanoma cell clones.";
+RL   (In) Pathophysiology of melanocytes, Pigment cell, Vol. 5; Klaus S.N. (eds.); pp.235-241; Karger; Basel (1979).
+DR   Cellosaurus; CVCL_T325; CaCL 74-36
+AB   Yes
+The malignant potential of neoplastic or transformed cells correlates with
+their ability to multiply to a high saturation density in vitro. This
+property has been demonstrated in a number of syngeneic mouse and hamster
+cell-host systems. In human work, tests for tumorigenicity must
+necessarily be indirect, since autologous and allogeneic transplantation
+experiments are precluded by ethical considerations. The ability of a
+given population of human cells to grow as a solid hetero-transplant in
+immunologically privileged sites or immuno-deprived hosts of rodent origin
+seems to reflect their malignant potential. With the definition of a
+marked deficiency of thymus-dependent immune function in the congenitally
+athymic nude mice, this model has been widely used for
+heterotransplantation and chemotherapy studies of human tumors. A number
+of human tumor biopsies and cultured cells including malignant melanoma
+have been successfully transplanted to nude mice. Some attempts have been
+made to correlate heterotransplantability of virally transformed human
+fibroblastic cells or human cell lines of both neoplastic and non-
+neoplastic origin, with their in vitro growth characteristics. To our
+knowledge, however, no quantitative studies by a more analytical approach
+have been reported to confirm such correlation in human tumor cells.
+
+We have recently investigated seven well-characterized human melanoma cell
+lines in terms of their transplantability in the cheek pouch of the
+cortisonized hamster and have found no correlation between
+heterotransplantability and saturation density, although progressive in
+vivo growth was noted only among the melanoma lines which were grossly
+pigmented. Within heterogeneous cell populations, there may be variable
+expression of a common genotype depending on the relative influence of the
+prevalent selective pressures. Thus, in an uncloned population the ability
+to grow as a xenograft may be predominantly manifest by certain
+subpopulations while the in vitro growth potential may be more dependent
+on different subpopulations. Therefore, in the present study we used
+clonal sublines of a human melanoma line to reexamine whether any
+relationship exists between saturation density and tumorigenicity.
+Tumorigenicity (malignant potential) was determined by tumor production in
+nude mice.
 //
 ID   CLPUB00197
 RA   Kobayashi J., Inoue H.;
@@ -10629,13 +11574,57 @@ the first cell division. The follicle forming potential was very different
 from one cell to the next. In addition, fully functional follicles were
 observed after in vivo growth of a FRTL-5 mutant in nude mice.
 //
+ID   CLPUB00487
+RA   Vennegoor C., Jonker A., van Smeerdijk D., van Es A., Rumke P.;
+RT   "Specificity of a monkey antiserum for a melanoma cell line IPC-48.";
+RL   (In) Protides of the biological fluids. Proceedings of the twenty-fifth colloquium, Brugge, 1977; Peeters H. (eds.); pp.731-734; Pergamon Press, Oxford (1978).
+WW   https://books.google.ch/books?id=v4jIDAAAQBAJ&pg=PA731&lpg=PA731&dq=%22ipc-48%22&source=bl&ots=LLJhFyh0z_&sig=ACfU3U1MyEudxyShRwVNDeCjuFkQOoUZzQ&hl=en&sa=X&ved=2ahUKEwithMyTzKThAhWoy6YKHW-pCBQQ6AEwAXoECBQQAQ#v=onepage&q=%22ipc-48%22&f=false
+DR   Cellosaurus; CVCL_WG89; IPC-48
+AB   Yes
+Surface antigens of human melanoma cells have been studied using
+heterologous antisera from monkeys (Macaca speciosa). An antiserum against
+shortly cultured melanoma cells was cytotoxic for cells from different
+melanomas, brain and embryonal fibroblasts, but not for normal or tumor
+cells other than melanoma. A second antiserum against a cell line (IPC-48)
+reacted with IPC-48 cells only. These results suggest a specific antigen
+for the melanoma cell line IPC-48. The antiserum against IPC-48 was used
+to compare two solubilization methods of membrane antigens. Antigens
+solubilized in 2M KI appeared to be purer than antigens extracted with
+hypotonic salt, the recovery of membrane antigens being comparably high in
+both cases.
+//
 ID   CLPUB00150
 RA   Willard-Gallo K.E.;
 RT   "Two-dimensional gel analysis of gene expression in human cell lines
 RT   established from patients with T-cell malignancies.";
 RL   (In) Recent progress in two-dimensional electrophoresis; Galteau M.-M., Siest G. (eds.); pp.205-214; University Press of Nancy; Nancy (1986).
 DR   Cellosaurus; CVCL_X625; WE17/10
-AB   No
+AB   Yes
+The analysis of gene expression in human lymphocytes by two-dimensional
+polyacrylamide gel electrophoresis (2-D) has been the subject of many
+papers. The identification of protein sets that characterize both the
+normal and abnormal phenotypes of different subpopulations has been
+documented. We have also shown that regulation studies performed by the
+selective introduction of a variety of biological response modifiers into
+the labeling cultures can be carefully and reproducibly analyzed by 2-D
+gels and the set or sets of proteins under their control can be defined.
+The work done over the past few years is largely responsible for our
+current understanding of human lymphocyte 2-D patterns. As a continuation
+of my studies of gene expression in normal and abnormal human lymphocytes,
+I have analyzed the human T-cell leukemia virus (HTLV)-infected cell line,
+HUT-102, by high-resolution two dimensional gel electrophoresis.
+Comparisons of this pattern with HTLV-negative cell lines such as Jurkat,
+GM-607, and HL-60 were made in order to preliminarily identify a set of
+protein-gene-products whose expression is either related to viral proteins
+in the cell or viral induction of host cellular proteins. During this
+study, I also attempted to establish cell lines from Belgian patients with
+T-cell malignancies and have been successful in obtaining several
+different lines. This paper will mainly concern the cell line, WE17/10,
+which was the first to be established in my laboratory and has been the
+most thoroughly characterized at the present time. It is interesting to
+note that most incidences of HTLV-related leukemia in Europe have been
+associated with individuals who immigrated from the endemic regions of the
+world or native Europeans who travelled to those areas.
 //
 ID   CLPUB00168
 RA   Harawan O., Charoensak S., Belloncik S.;
@@ -10655,7 +11644,7 @@ RA   Kurebayashi J., Tanaka K., Yamamoto Y., Okubo S., Sonoo H.;
 RT   "Human epidermal growth factor receptor 1 and thrombospondin-1 in
 RT   thyroid cancer.";
 RL   (In) Trends in thyroid cancer research. Horizons in cancer research, Vol.37; Milton C.A. (eds.); pp.89-116; Nova Science Publishers; Hauppauge (2007).
-WW   https://www.novapublishers.com/catalog/product_info.php?products_id=3816
+WW   http://www.novapublishers.org/catalog/product_info.php?products_id=3816
 DR   Cellosaurus; CVCL_6300; KTC-1
 DR   Cellosaurus; CVCL_6476; KTC-2
 DR   Cellosaurus; CVCL_W911; KTC-3
@@ -10810,9 +11799,9 @@ RL   (In) Vero cells: origin, properties and biomedical applications; Simizu B.,
 DR   Cellosaurus; CVCL_0059; Vero
 DR   Cellosaurus; CVCL_0603; Vero 76
 DR   Cellosaurus; CVCL_0574; Vero C1008
-AB   Ye
+AB   Yes
 On June 15, 1964, Dr. Bunsiti Simizu from the Department of Microbiology
-of the Chi-ba University School of Medicine in Chiba, Japan arrived as a
+of the Chiba University School of Medicine in Chiba, Japan arrived as a
 visiting fellow to work with Dr. Ned Wiebenga in the Laboratory of
 Tropical Virology (LTV), at the National Institute of Allergy and
 Infectious Diseases (NIAID) in Bethesda, Maryland. Dr. Simizu brought with
@@ -10866,6 +11855,9 @@ RX   DOI=10.2957/kanzo.25.532;
 //
 ID   CLPUB00075
 RX   DOI=10.11418/jtca1981.19.4_203;
+//
+ID   CLPUB00084
+RX   PubMed=9183634;
 //
 ID   CLPUB00101
 RX   DOI=10.2331/suisan.44.415;

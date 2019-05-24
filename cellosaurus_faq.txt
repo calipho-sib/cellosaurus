@@ -4,8 +4,8 @@
 ----------------------------------------------------------------------------
 
  Description: Cellosaurus: frequently asked questions
- Version: 29.0
- Last update: 25-February-2019
+ Version: 30.0
+ Last update: 24-May-2019
 
 ----------------------------------------------------------------------------
 
@@ -28,6 +28,8 @@ Q14: What is the meaning of the "CVCL" prefix in Cellosaurus accession numbers?
 Q15: Can I search inside NCBI PubMed for papers that are cited in the Cellosaurus?
 Q16: My cell line XYZ is not in the Cellosaurus, how can I get it in?
 Q17: Is there a one to one relationship between the cell lines listed in the ICLAC register and the Cellosaurus "Problematic cell lines"?
+Q18: What is the difference between a Cellosaurus accession number and a cell line RRID?
+Q19: Why are primary cells not included in the Cellosaurus (while it includes many finite cell lines).
 
 ----------------------------------------------------------------------------
 
@@ -288,6 +290,8 @@ Vircell:
  https://en.vircell.com/products/?technique=34
 WiCell:
  https://www.wicell.org/
+XCell Science:
+ http://www.xcellscience.com/products/ipsc
 Ximbio reagents online portal:
  https://ximbio.com/
 XIP:
@@ -607,4 +611,38 @@ retrieved using either one of the following two queries:
 
 https://web.expasy.org/cgi-bin/cellosaurus/search?input="iclac.org"
 https://web.expasy.org/cgi-bin/cellosaurus/search?input=%22Register%20of%20Misidentified%20Cell%20Lines%22
+
+----------------------------------------------------------------------------
+
+Q18: What is the difference between a Cellosaurus accession number and a cell line RRID?
+
+A: There is no difference. The Cellosaurus accession number (in the format
+CVCL_xxxx) is identical to the Research Resource Identifier (RRID).
+
+----------------------------------------------------------------------------
+
+Q19: Why are primary cells not included in the Cellosaurus (while it includes many finite cell lines).
+
+A: In the Cellosaurus we include finite cell lines (that have a limited
+lifespan and will senesce after a number of population doublings) if they
+are well defined in term of their origin (species, gender, age at
+sampling) and if they are distributed by an academic or commercial entity
+or used widely by one or more laboratory. Although it has a limited
+lifespan, a finite cell line from a single donor may be used extensively
+provided it is stored early in its lifespan.
+
+Primary cells also know as primary culture are generally taken directly
+from a living tissue, are established for growth in vitro and have
+undergone very few population doubling before they are distributed. They
+are generally more heterogeneous than a cell line which has been
+continually passaged over a long period of time and has acquired
+homogenous genotypic and phenotypic characteristics. Companies
+distributing primary cells will often replenish their stock of primary
+cells and each batch may originate from a different donor, thus while the
+product catalog number of a primary cell may be stable, its genetic and
+phenotypic background may change.
+
+As primary cells do not represent a precisely defined entity, they are out
+of the scope of the Cellosaurus. This is also why we will not assign RRIDs
+for these entities.
 
