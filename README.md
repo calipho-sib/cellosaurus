@@ -35,6 +35,7 @@ For each cell line we provide the following information:
 - Web links.
 - Publication references. We principally provide the references for publications describing the establishment of a cell line or its characterization. We do not attempt to capture all the literature that make use of a particular cell line.
 - Cross-references to cell line catalogs/collections, ontologies, cell lines databases/resources and to databases that list cell lines as samples.
+- Information on when a Cellosaurus entry was created, when it was last updated and which version of the entry is currently available.
 
 ##Availability
 
@@ -47,6 +48,11 @@ Individual entry pages: 'https://web.expasy.org/cellosaurus/%s' where %s is the 
 
 Example:
 https://web.expasy.org/cellosaurus/CVCL_0033
+
+Text version of entry pages are also available: 'https://web.expasy.org/cellosaurus/%s.txt' where %s is the accession number of the cell line
+
+Example:
+https://web.expasy.org/cellosaurus/CVCL_0033.txt
 
 FTP: 
 ftp://ftp.expasy.org/databases/cellosaurus
