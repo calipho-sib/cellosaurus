@@ -4,8 +4,8 @@
 ----------------------------------------------------------------------------
 
  Description: CelloPub, Cellosaurus publications
- Version: 30.0
- Last update: 24-May-2019
+ Version: 31.0
+ Last update: 05-July-2019
 
 ----------------------------------------------------------------------------
 ID   CLPUB00222
@@ -500,25 +500,23 @@ RT   IB-RS-2.";
 RL   Arq. Inst. Biol. (Sao Paulo) 34:285-294(1967).
 DR   Cellosaurus; CVCL_4528; IB-RS-2
 AB   Yes
-Evolution of the chromosome complement of the swine cell line IB-RS-2. Arq.
-Inst. Biol. S. Paulo, 84(4):285-294, 1967. — A continuation of the
-history of the swine kidney cell line, IB-RS-2, as well as the evolution
-of its chromosome complement, from the 56th to the 154th cell transfers
-are given. Up to the 75th transfer, there was a prevalence of cells with
-37 centromeres belonging to 1.1 type (Table I). After the recovery of the
-cultures from a dramatic cell necrosis, the prevalent karyotypes had 38
-centromeres. These karyotypes could be found in the cell clones derived
-from the parental cell population. It would appear that the seven clones
-which could be analysed are descendants of cells with 38 chromosomes, type
-2.2: two of them, C-12 and C-19 are type 2.2, but C-19 presents a
-secondary constriction in one of the largest GIV-XX chromosomes not found
-in C-12; five of them have a new large subacrocentric chromosome (SA).
-C-16, C-17, C-18 and C-60 (karyotype 2.2.1) have also a microchromosome
-which is not found in C-13 (karyotype 2.2.2). It seems that these five
-clones had been originated from a cell of 2.2 karyotype, through a
-recombination between one of the largest GIV-XX and one of the GVI
-chromosomes, giving rise to the large SA and to the microchromosome.
-Afterwards, in C-13, this microchromosome was lost.
+A continuation of the history of the swine kidney cell line, IB-RS-2, as
+well as the evolution of its chromosome complement, from the 56th to the
+154th cell transfers are given. Up to the 75th transfer, there was a
+prevalence of cells with 37 centromeres belonging to 1.1 type (Table I).
+After the recovery of the cultures from a dramatic cell necrosis, the
+prevalent karyotypes had 38 centromeres. These karyotypes could be found
+in the cell clones derived from the parental cell population. It would
+appear that the seven clones which could be analysed are descendants of
+cells with 38 chromosomes, type 2.2: two of them, C-12 and C-19 are type 2.2,
+but C-19 presents a secondary constriction in one of the largest GIV-XX
+chromosomes not found in C-12; five of them have a new large
+subacrocentric chromosome (SA). C-16, C-17, C-18 and C-60 (karyotype 2.2.1)
+have also a microchromosome which is not found in C-13 (karyotype 2.2.2)
+It seems that these five clones had been originated from a cell of 2.2
+karyotype, through a recombination between one of the largest GIV-XX and
+one of the GVI chromosomes, giving rise to the large SA and to the
+microchromosome. Afterwards, in C-13, this microchromosome was lost.
 //
 ID   CLPUB00285
 RA   Tabata N., Katsuki T., Kumura K., Nakagawa N., Kondo K., Nagatomo H.,
@@ -1014,6 +1012,32 @@ reminiscent of the presence of KSHV in PEL but not in other types of non-
 Hodgkin's lymphoma, and further suggests an association behmen KSHV and
 the effusion phenotype.
 //
+ID   CLPUB00512
+RA   Miranda E.I., Montesinos J.J., Lopez E.E., Martinez A., Collazo J.,
+RA   Perez P., Mayani H., Garcia-Carranca A., Zentella A., Gutierrez M.;
+RT   "Establishment and characterization of a Hodgkin's lymphoma cell
+RT   line.";
+RL   Blood 94 Suppl. 1:250b-250b(1999).
+DR   Cellosaurus; CVCL_WT21; EU-HE
+AB   Yes
+In order to gain more knowledge in the biology of Hodgkin's lymphoma, we
+have established a new cell line (EuHe) from a 15 year-old girl with mixed
+cellularity Hodgkin's disease. A lymph node biopsy of patient was
+explanted and kept in culture using conventional tissue culture methods.
+Cytogenetic methods were used for karyotype analysis. Clonogenic assay was
+applied to test cloning efficiency. Flow cytometry was used for cell cycle
+analysis. The tumorigenic capacity of the cells was determined by
+inoculating them into athymic nude mice. Immunological and cytochemical
+staining were performed using conventional techniques. The EuHe cells are
+CD20 antigen positive and their population doubling lime is 16 hrs. In
+addition, the EuHe cells possess a complex karyotype with several
+abnormalities. Cloning efficiency in soft agar was found to be >60%. They
+produced tumors when 10^6 cells were injected into NIH Swiss and NCr
+strains of athymic nude mice. The figure shows a cytospin preparation of
+EuHe cells stained with Wright. The EuHe cell line is suitable for
+studying the nature of B lymphomas and testing compounds against
+lymphoproliferative disorders.
+//
 ID   CLPUB00252
 RA   Keats J.J., Arendt B.K., Braggio E., Barrett M., Price-Troska T.L.,
 RA   Fonseca R., Bergsagel P.L., Jelinek D.F.;
@@ -1189,6 +1213,30 @@ Conclusion: We have successfully established bortezomib-resistant cell
 line KM3/BTZ. MDR-1 was not involved in bortezomib-resistant multiple
 myeloma cells. HSPB2, ZNF and MS4A family genes are probably related to
 bortezomib.
+//
+ID   CLPUB00509
+RA   Gramatzki M., Grunert C., Koch B., Burmester G.R., Kalden J.R.;
+RT   "Monoclonal antibodies developed for diagnosis of T cell and very
+RT   immature leukemias.";
+RL   Blut 50:216-216(1985).
+WW   https://link.springer.com/article/10.1007%2FBF00320029
+DR   Cellosaurus; CVCL_WP02; TH-69
+AB   Yes
+Monoclonal antibodies (TH 69, TH 126, TC 25) were raised by immunization
+of mice with T-cell acute lymphoblastic leukemia (ALL) cell lines CEM and
+HSB-2. Analyzing blood cells from normal donors (n = 10), TH 69 and TH 126
+did react with approx. 30% of T-cells, independently whether of helper or
+suppressor/cytotoxic phenotype, while the determinant detected by TC 25
+was expressed only on platelets and, less intense, on monocytes. A variety
+of human cell lines (n > 30) was employed for characterizing antibody
+specificity. All three antibodies did react with 4 of 4 T-ALL lines, but
+little reactivity was seen outside the T-lineage. Fresh Sezary cells as
+well as Sezary line HUT 78 were stained only by TH 126. Testing leukemias
+and lymphomas (n > 25), only TC 25 showed major reactivity outside the T-
+cell tumors, namely on chronic myelogeneous leukemia in blast crisis and
+very immature acute leukemias. Thus, while TH 69 and TH 126 will help to
+dissect T-cell tumors, TC 25 may be useful in analysis of CML in blast
+crisis and immature leukemias.
 //
 ID   CLPUB00448
 RA   Lohmeyer J., Albers J., Pralle H., Hadam M.;
@@ -1705,7 +1753,7 @@ AB   Yes
 The chromosome constitution was determined in nine established, long-term
 cultures of cells obtained from the effusions or excised tissues of
 cancer patients. The cultures were characterized by chromosome modes near
-the triploid range (66–75), with a considerable spread of the chromosome
+the triploid range (66-75), with a considerable spread of the chromosome
 number about the mode. Analysis of the karyotypes revealed that most of
 the chromosomes could be grouped superficially into the various groups
 described for the normal human karyotype. The heteroploidy of the cells
@@ -2175,6 +2223,37 @@ RT   myeloid leukemia cell line.";
 RL   Clin. Res. 33:460a-460a(1985).
 DR   Cellosaurus; CVCL_D591; RWLeu-4
 AB   No
+//
+ID   CLPUB00519
+RA   Roberts W.W.S., Uribe L., Weinberg K.;
+RT   "The ARR cell line: a model of acute leukemias expressing both T
+RT   lymphoid and myeloid associated genes.";
+RL   Clin. Res. 40:30a-30a(1992).
+DR   Cellosaurus; CVCL_WV44; ARR
+AB   Yes
+Most acute leukemias can be assigned to a specific stage of either
+lymphoid or hematopoietic differentiation. However. in approximately 20%
+of pediatric T-ALL there is expression of one or both of tho myeloid-
+associated antigens CD13 and CD33. Conversely, in approximately 20% of
+pediatric ANLL there is expression of the T lymphoid associated antigen
+CD7. In order to further characterize the phenotype and genotype of mixed
+lineage leukemia cells, we have established a cell line, ARR, from a CD7+,
+surface CD3-(sCD3-), CD33+ T-ALL. Like the original leukemia, the ARR cell
+line expressed CD7 and CD33. but not sCD3. The ARR cell line contained a
+rearranged TCRbeta gene. Analysis of the mRNA phenotype using reverse
+transcription PCR revealed that the ARR cell line expressed GM-CSF
+receptor (GM-CSFR) alpha and beta chains, IL7 receptor, and CD3delta. Phorbol
+myristate acetate (PHA) treatment induced mRNA for IL6 receptor and the
+myelomonocytic antigen CD13. This mRNA phenotype after PMA stimulation was
+identical to the mRNA phenotype of 3 cases of myeloid antigen (CD13, CD33)
+positive T-ALL and 2 cases of T lymphoid antigen (CD7) positive ANLL. The
+phenotype however was different from 1 case of T-ALL not expressing
+myeloid features (My- T-ALL) and a My- T-ALL cell line (CEM). The ARR cell
+line is a model of a closely related group of acute leukemias which
+express transcripts for both myeloid and lymphoid growth factor receptors
+and the T lymphoid specific CD3delta. This subgroup differs from My- T-ALL
+and may have as its origin a leukemic progenitor cell which possesses a
+unique phenotype and genotype.
 //
 ID   CLPUB00059
 RA   Wen C.-M., Chen S.-N., Kou G.-H.;
@@ -3368,6 +3447,13 @@ RL   Hum. Cell 1:454-454(1988).
 DR   Cellosaurus; CVCL_V411; NUZ
 AB   No
 //
+ID   CLPUB00513
+RA   Ishiwata I., Soma M.;
+RT   "A cultured human gastric carcinoma cell line, HNGA.";
+RL   Hum. Cell 2:335-335(1989).
+DR   Cellosaurus; CVCL_WT61; HNGA
+AB   No
+//
 ID   CLPUB00089
 RA   Onda K., Washiyama K., Tanaka R., Nishiyama A., Usui H., Kumanishi T.;
 RT   "GFAP-positive human glioma cell lines: No. 10, no. 11.";
@@ -3848,7 +3934,7 @@ supernatant of these cells by immunoelectrophoresis analysis.
 Morphological analyses indicated that THK-72 cells had plasmacytoid
 appearance, while PCR and flow cytometry analyses demonstrated that the
 cells were negative for B-cell marker and EBV-infection, thereby
-indicating that THK-72 comprises a “true” myeloma cell line.
+indicating that THK-72 comprises a 'true' myeloma cell line.
 Interestingly, contrary to the bortezomib resistance observed during the
 clinical course, the THK-72 cells were sensitive to bortezomib in vitro.
 As THK-72 arose from a classical myeloma, this oligosecretory myeloma
@@ -4058,9 +4144,9 @@ RT   "Overview of fish cell lines and their uses.";
 RL   Int. J. Pharmaceut. Res. Sci. 2:580-590(2013).
 WW   https://www.researchgate.net/publication/270175135_Overview_of_fish_cell_lines_and_their_uses
 AB   Yes
-By “cell lines”, an important biological tool can be obtained for carrying
+By 'cell lines', an important biological tool can be obtained for carrying
 out researches in physiology, virology, pharmacology, toxicology,
-cancer/carcinogenesis and transgenic fields. Several “fish cell lines”
+cancer/carcinogenesis and transgenic fields. Several fish cell lines
 have been developed from a broad range of tissues, e.g., ovary, fin, swim
 bladder, heart, spleen, liver, eye muscle, vertebrae, brain, skin. One
 hundred and twenty-four new fish cell lines from different fish species
@@ -4436,6 +4522,25 @@ RT   "[3H]bumetanide binding to a mouse medullary thick limb (MTAL) cell
 RT   line.";
 RL   J. Am. Soc. Nephrol. 3:808-808(1992).
 DR   Cellosaurus; CVCL_0536; ST-1 [Mouse medullary thick limb]
+AB   No
+//
+ID   CLPUB00515
+RA   Liu W.-T., Chen S.-C., Lee N., Tan S.-K., Liu S.-F., Dunn P.,
+RA   Chang K.S.-S.;
+RT   "Establishment and characterization of a cell line of monocytic origin,
+RT   HL-CZ, from human leukemia.";
+RL   J. Biomed. Lab. Sci. 4:284-292(1989).
+WW   http://readopac3.ncl.edu.tw/nclserialFront/search/detail.jsp?sysId=0005305277&dtdId=000040&search_type=detail&la=ch
+DR   Cellosaurus; CVCL_WU73; HL-CZ
+AB   No
+//
+ID   CLPUB00516
+RA   Lieu C.-W., Liu W.-T., Sun K.-H., Wang S.-Y.;
+RT   "Some special characteristics of the novel human promonocyte cell
+RT   line, HL-CZ.";
+RL   J. Biomed. Lab. Sci. 5:196-204(1993).
+WW   http://readopac2.ncl.edu.tw/nclJournal/search/detail.jsp?sysId=0005397467&dtdId=000040&search_type=detail&la=ch
+DR   Cellosaurus; CVCL_WU73; HL-CZ
 AB   No
 //
 ID   CLPUB00140
@@ -4825,6 +4930,17 @@ the different mutations of both diseases. We are also trying to determine
 the chromosome carrying NBS gene, by introduction of a single chromosome
 via micro-cell fusion technique.
 //
+ID   CLPUB00510
+RA   Kleinschuster S.J., Parent J., Walker C.W., Farley A.;
+RT   "A cardiac cell line from Mya arenaria (Linnaeus, 1759).";
+RL   J. Shellfish Res. 15:605-707(1996).
+WW   https://archive.org/details/cbarchive_38285_acardiaccelllinefrommyaarenari1981
+AB   Yes
+Using standard tissue culture techniques, we report here the development
+of a cardiac cell line from Mya arenaria that exhibits anchorage
+dependency and an observable, high mitotic coefficient. The cultures can
+be subcultured while retaining reduced mitotic activity.
+//
 ID   CLPUB00275
 RA   Zach S., Birgin E., Ruckert F.;
 RT   "Primary cholangiocellular carcinoma cell lines.";
@@ -4998,7 +5114,7 @@ high malignancy and with properties of myogenic tumour. Other observations
 such as the Con-A agglutination, planting efficiency, animal
 transplantation and electron microscopic examination are briefly discussed.
 //
-ID   CLPUB00469;
+ID   CLPUB00469
 RA   Homma S.;
 RT   "Studies on the establishment and some biological characteristics of
 RT   cultured human liver cancer cell lines. Their growth, functional and
@@ -5643,31 +5759,64 @@ such rare attributes as to result single-handedly in a scientific paradigm
 shift. More typically, it is the study of vast numbers of tissue samples,
 in concert, that allows science to move forward. Indeed, recent genetic
 discoveries made possible by the study of vast repositories of tissue
-samples known as “biobanks” have made clear that, when studied in the
+samples known as 'biobanks' have made clear that, when studied in the
 aggregate, the biological information contained in each of our individual
 bodies can yield scientific insights and medical advances impossible
 through the study of any one individual.
 
 But the use of cells and tissues for research brings with it myriad legal
 and ethical questions. How should we think about the contributors of these
-cells and tissues? Are they— increasingly “we” as the number of samples
-contained in biobanks grows—human subjects of research? And, if so, what
+cells and tissues? Are they - increasingly 'we' as the number of samples
+contained in biobanks grows - human subjects of research? And, if so, what
 consequences should flow from this classification? Should contributors be
 given the opportunity to specify the type of research that they will
 permit, or prohibit, with their specimen? Should they be told about
 potential profits that may accrue to researchers from the use of their
 tissues and, more to the point, be entitled to a share of such profits?
 And what about potential health information derived from the
-research—should they have access to it? Should others? Even more
+research-should they have access to it? Should others? Even more
 challenging, what rules should govern the voluntary provision of tissues
 by patient groups to researchers solely for the purpose of identifying the
 cause of their disease and developing diagnostics and potential cures for
 their condition? And perhaps most thorny of all: if, as some argue,
-providing our tissues and cells for research is a moral imperative—part of
-our collective civic responsibility—does that give rise to a reciprocal
+providing our tissues and cells for research is a moral imperative-part of
+our collective civic responsibility-does that give rise to a reciprocal
 moral imperative to ensure that all participants have access to the
 medical therapies that their cells, among millions of others, helped to
 produce.
+//
+ID   CLPUB00508
+RA   Chen D., Chen H., Feng J.Q., Windle J.J., Koop B.A., Harris M.A.,
+RA   Bonewald L.F., Boyce B.F., Wozney J.M., Mundy G.R., Harris S.E.;
+RT   "Osteoblastic cell lines derived from a transgenic mouse containing the
+RT   osteocalcin promoter driving SV40 T-antigen.";
+RL   Mol. Cell. Differ. 3:193-212(1995).
+DR   Cellosaurus; CVCL_WN86; OCT-1
+DR   Cellosaurus; CVCL_WN87; OCT-2
+AB   Yes
+The object of this study was to develop new murine osteoblast-like cell
+lines for studying bone cell differentiation. In an attempt to develop
+cell lines representing a specific stage in osteoblast differentiation, we
+utilized transgenic mice. Immortalized osteoblastic cells were isolated
+and cloned from the calvaria of a transgenic mouse containing a 2.6-kb
+fragment of the rat osteocalcin promoter driving the expression of SV40
+large T antigen. Two clonal cell lines, OCT-1 and OCT-2, were
+characterized. T-antigen expression by these two cell lines was confirmed
+using T-antigen antibody. Cell lines were tested for their responsiveness
+to parathyroid hormone (PTH), prostaglandin B2 (PGE2), 1,25-
+dihydroxyvitamin D3 (1,25D3), bone morphogenetic protein-2 (BMP-2),
+transforming growth factor beta (TGF-beta), and retinoic acid. Their
+capacity to produce mineralized bone nodules and to express type I
+collagen, alkaline phosphatase (ALP), and osteocalcin at the mRNA level
+was also evaluated. Osteocalcin expression was found to be very low: OCT-1
+and OCT-2 cells injected into nude mice subcutaneously over the surface of
+calvaria caused osteosarcomas in 10 and 6 weeks, respectively. Significant
+new bone formation was associated with the tumors. OCT-1 and OCT-2 cells
+have different response profiles to BMP-2, retinoic acid, PTH, and PGE2.
+These results demonstrate that OCT-1 and OCT-2 are cells representative of
+different stages of osteoblast differentiation. They have low levels of
+osteocalcin expression and may offer a tool to study the role of
+osteocalcin in bone formation and mineralization.
 //
 ID   CLPUB00102
 RA   Iwakata S., Grace J.T. Jr.;
@@ -5953,8 +6102,8 @@ AB   Yes
 A new human leukemic cell line MG-S was established from the peripheral
 blood of a patient of Down's syndrome with acute leukemia. MG-S cells
 which grew in single cell suspension were blastic microscopically.
-Karyotype of MG-S was 46,XY,—4,—12,—17,—17,+der(17),t(4;17)
-(4qter->4q21::17p11—>17qter),+21,+mar,+mar,7p+,7q+, 13p+. Cytochemically,
+Karyotype of MG-S was 46,XY,-4,-12,-17,-17,+der(17),t(4;17)
+(4qter->4q21::17p11->17qter),+21,+mar,+mar,7p+,7q+, 13p+. Cytochemically,
 they were positive for acid phosphatase and periodic acid-Sciff reaction,
 but negative for myeloperoxidase, alfa naphthyl butylate esterase, and
 naphthol AS-D chloroacetate esterase. Electromicroscopically, 90% cells
@@ -6310,7 +6459,25 @@ RT   "Antigenics characteristics of Rauscher virus cultivated in human
 RT   embryonic kidney cells.";
 RL   Proc. Am. Assoc. Cancer Res. 11:54-54(1970).
 DR   Cellosaurus; CVCL_M624; HEK
-AB   No
+AB   Yes
+The antigenicity of Rauscher murine leukemia virus (RV) grown in human
+embryonic kidney cells and cellular material extracted from infected cells
+were compared to the same type of antigens extracted from mouse infected
+cells. The purity of the infected human line was verified by karyotype
+analysis and by the cell mixed agglutination test. Group specific rat
+antisera reacted in a similar manner with mouse and human derived infected
+cells by the complement fixation test. Similar findings were revealed by
+immunofluorescence test where no difference could be detected between the
+human or mouse infected cells. The virus agglutination test revealed
+differences between both viruses. Rabbit anti-mouse RV serum agglutinated
+the homotypic but not the heterotypic virus. Group specific rat antisera
+failed to agglutinate both types of virus. Gel diffusion studies conducted
+with intact and ether treated viruses showed lines of identity with the
+nucleoids of the two viruses. The mouse grown virus showed a coat
+component which was absent from the human grown RV. The results presented
+here indicate that the RV grown in human cells acquires new immunological
+characteristics as a result of the new human envelope acquired during
+virus formation.
 //
 ID   CLPUB00114
 RA   Seman G., Hunter S.J., Dmochowski L.;
@@ -6318,7 +6485,25 @@ RT   "Two cell lines (SH-2 and SH-3) derived from human breast cancer.";
 RL   Proc. Am. Assoc. Cancer Res. 16:59-59(1975).
 DR   Cellosaurus; CVCL_M622; SH-2 [Human contaminated breast cancer]
 DR   Cellosaurus; CVCL_M383; SH-3
-AB   No
+AB   Yes
+A cell line (SH-2) has been established from breast tumor biopsy after 3
+years in culture and another (SH-3) after 13 months in culture from
+pleural effusion of a breast cancer patient. Both lines from Caucasian
+patients have been established after spontaneous emergence of refractile,
+fast-growing cells. Line SH-2 differs from line SH-3 by the presence of
+multinucleated cells. By electron microscopy, the cells contain
+desmosomes, tonofibrils, are undifferentiated, and are free of mycoplasma.
+Chromosome complement of the cells is hypotetraploid, is different from
+that of HeLa cells, and contains a large metacentric chromosome. Like HeLa
+and MAC-21 cells, SH-2 and SH-3 cells possess only the A band of glucose
+phosphate dehydrogenase. Unlike our HeLa cells, cells of both lines
+contain the bone-type alkaline phosphatase. They release in tissue culture
+medium a number of human serum proteins, including IgG, alpha-2
+macroglobulin and transferrin. Tissue culture medium does not contain
+reverse transcriptase activity. Attempts to induce virus particles
+synthesis with BdUr have so far been unsuccessful. Cells of both lines
+grow in nude mice. The cell lines are a valuable tool for virological,
+immunological and hormonal studies.
 //
 ID   CLPUB00085
 RA   Minowada J., Oshimura M., Abe S., Greaves M.F., Janossy G.,
@@ -6334,8 +6519,23 @@ DR   Cellosaurus; CVCL_L059; NALM-10
 DR   Cellosaurus; CVCL_L060; NALM-11
 DR   Cellosaurus; CVCL_5660; NALM-12
 DR   Cellosaurus; CVCL_L061; NALM-13
-DR   Cellosaurus; CVCL_QX00; NALM-14
-AB   No
+AB   Yes
+Blood cultures from a 19 y.o. male patient with a non-T,non-B acute
+lymphoblastic leukemia in relapse gave rise to 8 "leukemia" and 2 "normal-
+B" cell lines. At the time of culture (Nov.'76), the membrane phenotype of
+his leukemic blasts consisted of SmIg (lambda and mu chain
+immunoglobulins), Ia-like B cell associated antigen (Ia) and common form
+of ALL specific antigen (cALL), despite a typical non-T,non-B ALL
+phenotype at the disease onset in Oct.'75. Among 8 established leukemia
+cell lines (NALM 6-13), there exist some differences in profiles of the
+membrane phenotype. Except B85 and B86, all NALM lines represent the
+leukemia cells on the basis of the presence of the cALL antigen and two
+common marker chromosomes (5q- and 12p+) which had been present in the
+original uncultured leukemia cells as well. Variations in membrane
+phenotype expression seen in this study, despite the presence of common 2
+cytogenetic markers and monoclonoal SmIg (lambda, mu) suggest that intra-
+clonal differentiation of the leukemia clone could take place to a limited
+extent.
 //
 ID   CLPUB00035
 RA   Ohnuma T., Wolman S.R., Daum S.M., Holland J.F.;
@@ -6343,15 +6543,62 @@ RT   "Establishment and characterization of a human mesothelioma cell
 RT   line.";
 RL   Proc. Am. Assoc. Cancer Res. 20:162-162(1979).
 DR   Cellosaurus; CVCL_E994; DND-10B
-AB   No
+AB   Yes
+An epithelial, cell line designated DND-10B was established from
+peritoneal mesothelioma tissue of a 66 year old insulation trade worker
+(blood type 0+) exposed to asbestos. The original specimen, obtained in
+1975, was cut into <1mm3 pieces, suspended in RPMI 1640 medium with 20%
+fetal calf serum, penicillin, streptomycin, and placed in plastic flasks.
+The cells grow as a monolayer with a doubling time of 48 hr; they have
+been subcultured more than 30 times. When subcultured the cells grow by
+extending pseudopods. When densely propagated some grow in sheets and
+others stack in layers; individual cells are cuboidal or polygonal in
+shape. They contain abundant cytoplasm, with one or two nuclei and
+prominent nucleoli. Nuclear chromatin is relatively fine. "Giant forms"
+constitute less than 1% of the population. On electron microscopy cells
+are equipped with microvilli, tight junction-like structures,
+tonofilaments, and a well developed Golgi apparatus. These ultrastructural
+findings are similar to those of the original mesothelioma cells. Large
+numbers of lipid (or lipo-proteinaceous) granules are present in the
+established cells. Karyotypically, the cultured cells are hypotetraploid
+(modal number of 81) with several marker chromosomes. The availability of
+an established cell line representative of a cancer which has a striking
+association with specific environmental exposure is of importance for
+multiple areas of research.
 //
 ID   CLPUB00271
 RA   Wallace R.E., Lindh D., Durr F.E.;
 RT   "Studies on the development of resistance to mitoxantrone in human
 RT   colon carcinoma cells in vitro.";
 RL   Proc. Am. Assoc. Cancer Res. 23:767-767(1982).
+DR   Cellosaurus; CVCL_2760; WiDr
 DR   Cellosaurus; CVCL_2N03; WiDr/R
-AB   No
+AB   Yes
+Tumor cells acquire resistance to initially effective cytotoxic drugs by
+changes in enzyme activity, alteration in drug transport, or reduced drug
+retention. Efforts have been made to develop a drug-resistant cell line
+and study the mechanism(s) of resistance to the anticancer agent,
+mitoxantrone, 1,4-dihydroxy-5,8-bis[[24(2-hydroxyethyl) amino]ethyl]-
+amino]-9,10-anthracenedione dihydro-chloride (NSC 301739). Resistance to
+mitoxantrone was established in human colon carcinoma cells (strain WiDr)
+by continuous exposure of cell cultures to increasing concentrations of
+drug. After 20 culture passages in the presence of drug, (0.02->0.08
+mcg/ml a population of cells (WiDr/R) emerged which was approximately 30-
+40X more resistant to the cytotoxic effect of mitoxantrone than the
+parent (WiDr/S) line; cross resistance to adriamycin was demonstrated.
+Resistance to mitoxantrone was stable, evident in WiDr/R cells after >42
+cell generations following removal of drug from the culture medium.
+Studies with 14C-labeled mitoxantrone revealed that drug uptake was slowed
+in WiDr/R cells. Maximum uptake was achieved in 4-5 h in WiDr/S cells
+compared to >24 h in WiDr/R cells, and the total amount of drug associated
+with cellular DNA of WiDr/R cells was about one-half the amount of drug
+associated with DNA of WiDr/S cells. Drug uptake by WiDr/R cells was
+clearly enhanced by Tween 80. When incubated in drug-free medium following
+drug exposure, WiDr/R cells retained 80% of the drug compared to 100%
+retention by WiDr/S cells. These studies suggest that resistance to
+mitoxantrone may be due to an alteration of the cell membrane and/or
+cytoplasm, resulting in decreased uptake and impaired interaction of drug
+with DNA.
 //
 ID   CLPUB00009
 RA   Vogelzang N.J., Andrew P.W., Bronson D.L.;
@@ -6445,9 +6692,9 @@ a similar way, three new immortalized normal prostate epithelial cell
 lines have been derived from prostatectomy tissue. These lines are OPCN-1,
 OPCN-2 and OPCN-3. The doubling times (Td), calculated from a series of
 growth curves, suggest that the tumor lines proliferate more rapidly than
-the normal lines with Td of 1.1 ± 0.02 (SEM) days for OPCT-1, 1.8 ± 0.2
-days for OPCT-2 and 1.9 ± 0.3 days for OPCT-3 compared to 2.7 ± 0.5 of
-OPCN-1, 2.9 ± 0.5 for OPCN-2 and 2.5 ± 0.5 days for OPCN-3.
+the normal lines with Td of 1.1 +- 0.02 (SEM) days for OPCT-1, 1.8 +- 0.2
+days for OPCT-2 and 1.9 +- 0.3 days for OPCT-3 compared to 2.7 +- 0.5 of
+OPCN-1, 2.9 +- 0.5 for OPCN-2 and 2.5 +- 0.5 days for OPCN-3.
 Immunohistochemistry results indicate that OPCT-1 is positive for
 cytokeratins 18 (CK18+), 5 and 8 (CK5/8+), vimentin, MUC-1 and flotillin.
 It is negative for desmin, alpha smooth muscle actin, and factor 8. The
@@ -6718,7 +6965,7 @@ susceptible to Eel Virus America (EVA), Eel Virus Europe (EVE) or Eel
 Virus Europe X (EVEX). The EK-1 cell line was demonstrated to be free of
 bacterial, fungal and mycoplasmic contamination.
 //
-ID   CLPUB00451;
+ID   CLPUB00451
 RA   Capes-Davis A.;
 RT   "PubMed Common comment 14851 from 20-Mar-2016 on PubMed=26934856.";
 RL   PubMed Common 2016:14851-14851(2016).
@@ -7047,7 +7294,7 @@ AB   Yes
 Morphologic, cytogenetic, immunologic, and molecular studies were
 performed on 11 solid tumor cell lines and four leukemia cell lines
 established from 15 patients in children. Four neuroblastoma cell lines
-(SCMC-N2—N5) had N-myc amplification, three of them had DMs, and remaining
+(SCMC-N2-N5) had N-myc amplification, three of them had DMs, and remaining
 one had HSRs. One of the two rhabdomyosarcoma cell lines (SCMC-RM1, RM2)
 had N-myc amplification and t(9:13). Two Wilms tumor cell lines (SCMC-W1,
 W2) were derived from rhabdoid type, and two Ewing sarcoma cell lines
@@ -7166,7 +7413,7 @@ in morphology with definite malignant characteristics by light and
 electron microscopy. AFP was present in the cytoplasm as shown by
 unlabelled immunoperoxidase technique. The homotransplantability of this
 line of cells was high. Chromosome analysis showed a wide variation with a
-mode around 70—80.
+mode around 70-80.
 //
 ID   CLPUB00312
 RA   Liu Q.-G., Hu Y.-J., Shen L.-M.;
@@ -7343,7 +7590,7 @@ CsA has been shown to be reversed by the addition of exogenous interleukin
 2 (IL-2). Although many studies have shown the cytostatic effects of CsA
 on T-malignant cells, little has been done to compare the mechanisms of
 suppression on malignant vs. normal T cells. We have therefore undertaken
-studies on the effects of CsA on IL-2—dependent and IL-2—independent tumor
+studies on the effects of CsA on IL-2-dependent and IL-2-independent tumor
 cells and on T helper cell clones in order to elucidate the mechanism of
 suppression by CsA.
 //
@@ -8093,7 +8340,7 @@ RL   Thesis PhD (1981), John Hopkins University, United States.
 DR   Cellosaurus; CVCL_DE18; TerC
 AB   No
 //
-ID   CLPUB00465;
+ID   CLPUB00465
 RA   Esposito D.;
 RT   "Cytogenetic and mutagenic studies with an opossum cell line
 RT   (Didelphys virginiana).";
@@ -8123,7 +8370,7 @@ increased with increasing dose for all agents tested. The methyl
 derivative of the alkane sulfonates and the methyl derivative of the
 nitrosamides were more potent inducers of SCEs than their ethyl analogs.
 //
-ID   CLPUB00466;
+ID   CLPUB00466
 RA   Herrera R.J.;
 RT   "Cytological, cytogenetic and biochemical studies on several permanent
 RT   insect cell lines.";
@@ -9182,6 +9429,30 @@ identify breast cancer stem cells; (ii) the role of breast cancer stem
 cells in disease from both clinical samples and using xenograft assays;
 and (iii) the potential to target these cells.
 //
+ID   CLPUB00514
+RA   Cheng X.-H.;
+RT   "Screening for differentially expressed genes in dengue infection under
+RT   antibody dependent enhancement conditions.";
+RL   Thesis MSc (2010), National University of Singapore, Singapore.
+WW   https://scholarbank.nus.edu.sg/handle/10635/25809
+DR   Cellosaurus; CVCL_WU73; HL-CZ
+AB   Yes
+In this study, establishment of HL-CZ (a promonocytic cell line) as a new
+platform for study of antibody dependent enhancement (ADE) of dengue virus
+infection in vitro was achieved. Characteristics of HL-CZ that enable it
+to support ADE were also investigated.
+
+We performed microarray gene expression profiling to compare HL-CZ cells
+infected with dengue virus under antibody dependent enhancement (ADE)
+conditions versus HL-CZ cells infected to an equivalent degree but under
+non-enhancing conditions. We observed differential expression of several
+genes belonging to the DEAD-box family of RNA helicases (DDX). These
+observations were confirmed at a protein level by immunoblotting for these
+proteins in cell lysates obtained from infected cells. Subsequent
+experiments employing siRNA-mediated knock-down of protein expression
+suggested that DDX31 and DDX47 may be crucial in supporting infection of
+dengue virus under ADE conditions.
+//
 ID   CLPUB00245
 RA   Pareja Gomez J.;
 RT   "Molecular characterization of pluripotency in embryos and embryonic
@@ -9274,8 +9545,8 @@ Proving the hypothesis under testing, the results show that the in vitro-
 derived biomarkers are complementary, often with superior accuracy, to
 those generated from direct assessment of cancer tissue specimens.
 Overall, the application of technologies and methods as described possibly
-generated a first description of an “in vitro systems biology model of
-oral cancer development” with potential for wide further application in
+generated a first description of an 'in vitro systems biology model of
+oral cancer development' with potential for wide further application in
 experimental and translational research.
 //
 ID   CLPUB00344
@@ -9591,6 +9862,14 @@ conducted in order to understand if these viral vectors could be
 applicable regardless the origin (spontaneous vs. vaccine induced) of
 feline fibrosarcomas.
 //
+ID   CLPUB00518
+RA   Goldie S.J.;
+RT   "Studies of FRMD4A in two models of squamous cell carcinoma.";
+RL   Thesis PhD (2013), University of Cambridge, United Kingdom.
+WW   https://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.648321
+DR   https://web.expasy.org/cgi-bin/cellosaurus/search?input=CLPUB00518
+AB   No
+//
 ID   CLPUB00277
 RA   Saleh R.;
 RT   "Isolation of new human mast cell lines expressing a functional
@@ -9744,7 +10023,7 @@ inefficacy. Using a primary care pharmacogenetic database, we first
 analyzed TPMT distribution and genotype-phenotype correlation, in relation
 with thiopurine metabolites in a large population. Using a PheWAS study
 based on a clinical data warehouse we then reported that a very high TPMT
-activity (“ultra-rapid” phenotype) was associated with parameters of
+activity ('ultra-rapid' phenotype) was associated with parameters of
 active IBD and poor response to thiopurines. Furthermore, a retrospective
 study in pediatric IBD identified factors predicting the occurrence of
 lymphopenia during thiopurine therapy. Finally, using a lymphoblastoid
@@ -9946,7 +10225,7 @@ cell line has been maintained for over 2 years. Cultures have been
 passaged over 60 times, and successfully cryopreserved and thawed. YPF5 is
 grown at room temperature in Leibovitz-15 (L-15) media, supplemented with
 10% fetal bovine serum and 3% penicillin-streptomycin. The origin of YPF5
-has been confirmed as Perca flavescens through “DNA Barcoding” and
+has been confirmed as Perca flavescens through 'DNA Barcoding' and
 reaffirmed through Karyotyping (2n = 48) as per literature reported
 karyology for percidae including the yellow perch. YPF5 tested positive
 for alkaline phosphatase and negative for beta-galactosidase, markers of
@@ -10439,6 +10718,54 @@ resembling latency in matured cells. HD10.6 cells provide a novel context
 in which to study the host and viral mechanisms of HSV-1 latency
 establishment, maintenance, and reactivation.
 //
+ID   CLPUB00517
+RA   Pritchard A.J.;
+RT   "Correlating genetic change with changes in cell behaviour in squamous
+RT   cell carcinoma of the head and neck (SCCHN). Focus on inactivating
+RT   NOTCH1 mutations.";
+RL   Thesis PhD (2018), King's College London, United Kingdom.
+WW   https://core.ac.uk/download/pdf/157818958.pdf
+WW   https://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.745402
+DR   https://web.expasy.org/cgi-bin/cellosaurus/search?input=CLPUB00517
+AB   Yes
+Squamous Cell Carcinoma of the Head and Neck (SCCHN) is a heterogeneous
+cancer at the genetic and cellular levels. Whole exome-sequencing studies
+have identified inactivating mutations in NOTCH1 in 11-15% of SCCHN. It
+was the aim of this research to correlate genetic changes in NOTCH1
+expression with changes in cell behaviour. A human oral SCC line
+harbouring two truncating NOTCH1 mutations was rescued via lentiviral
+transduction of the NOTCH intracellular domain (NICD). In vitro assays
+provided evidence to suggest that expression of NICD was able to inhibit
+proliferation, clonogenicity and cell migration into a scratch wound. At
+high expression levels, NICD also promoted differentiation. Microarray
+data supported the in vitro findings and further associated NOTCH1
+expression with increased cell death and decreased angiogenesis. SERPINE 1
+was highlighted as a potential regulator of NICD-mediated changes in cell
+behaviour. A high number of histone related genes were also found to be
+down-regulated in response to increased NICD expression. These findings
+were not explored further in this thesis but are of interest for future
+work. Microarray analysis also identified SPANXA1/2 as the most up-
+regulated gene in response to NICD expression. The fold change increase of
+SPANXA1/2 was 3x that of any other gene. In order to investigate the
+functional consequence of SPANXA1/2 expression, a shRNA system was used to
+knockdown SPANXA1/2 in the NICD-rescued cell line. Primary findings
+provide evidence to associate the expression of SPANXA1/2 with a potential
+increase in cell proliferation, increased cell migration into a scratch
+wound and a change in cell morphology. Current literature suggests that
+changes in cell morphology may be associated with the inhibition of
+epithelial to mesenchymal transition (EMT) and the induction of
+mesenchymal to epithelial transition (MET). However, data is preliminary
+and further studies are required to confirm this association. A murine
+xenograft model was established to assess tumour formation in vivo. The
+expression of NICD resulted in significantly larger tumours. However, no
+difference in proliferation was recorded over the two hour period prior to
+sacrifice. Histological observations also suggest that the expression of
+NICD may be associated with reduced keratin pearl formation and increased
+areas of what pathologically presents as comedo-type necrosis. Finally,
+the expression of NICD was not found to give rise to any significant
+difference in angiogenesis. Together, these findings suggest a tumour
+suppressor role for NOTCH1 in SCCHN.
+//
 ID   CLPUB00262
 RA   Gold M.;
 RT   "A conspiracy of cells. One woman's immortal legacy and the medical
@@ -10465,11 +10792,11 @@ DR   Cellosaurus; CVCL_0030; HeLa
 AB   Yes
 Her name was Henrietta Lacks, but scientists know her as HeLa. She was a
 poor Southern tobacco farmer who worked the same land as her slave
-ancestors, yet her cells—taken without her knowledge—became one of the
-most important tools in medicine. The first “immortal” human cells grown
+ancestors, yet her cells-taken without her knowledge-became one of the
+most important tools in medicine. The first 'immortal' human cells grown
 in culture, they are still alive today, though she has been dead for more
 than sixty years. If you could pile all HeLa cells ever grown onto a
-scale, they'd weigh more than 50 million metric tons—as much as a hundred
+scale, they'd weigh more than 50 million metric tons-as much as a hundred
 Empire State Buildings. HeLa cells were vital for developing the polio
 vaccine; uncovered secrets of cancer, viruses, and the atom bomb's effects;
 helped lead to important advances like in vitro fertilization, cloning,
@@ -10477,24 +10804,24 @@ and gene mapping; and have been bought and sold by the billions. Yet
 Henrietta Lacks remains virtually unknown, buried in an unmarked grave.
 
 Now Rebecca Skloot takes us on an extraordinary journey, from the
-“colored” ward of Johns Hopkins Hospital in the 1950s to stark white
+'colored' ward of Johns Hopkins Hospital in the 1950s to stark white
 laboratories with freezers full of HeLa cells; from Henrietta's small,
-dying hometown of Clover, Virginia—a land of wooden slave quarters, faith
-healings, and voodoo—to East Baltimore today, where her children and
+dying hometown of Clover, Virginia-a land of wooden slave quarters, faith
+healings, and voodoo-to East Baltimore today, where her children and
 grandchildren live and struggle with the legacy of her cells.
 
-Henrietta's family did not learn of her “immortality” until more than
+Henrietta's family did not learn of her 'immortality' until more than
 twenty years after her death, when scientists investigating HeLa began
 using her husband and children in research without informed consent. And
 though the cells had launched a multimillion-dollar industry that sells
 human biological materials, her family never saw any of the profits. As
-Rebecca Skloot so brilliantly shows, the story of the Lacks family—past
-and present—is inextricably connected to the dark history of
+Rebecca Skloot so brilliantly shows, the story of the Lacks family-past
+and present-is inextricably connected to the dark history of
 experimentation on African Americans, the birth of bioethics, and the
 legal battles over whether we control the stuff we are made of.
 
 Over the decade it took to uncover this story, Rebecca became enmeshed in
-the lives of the Lacks family—especially Henrietta's daughter Deborah, who
+the lives of the Lacks family-especially Henrietta's daughter Deborah, who
 was devastated to learn about her mother's cells. She was consumed with
 questions: Had scientists cloned her mother? Did it hurt her when
 researchers infected her cells with viruses and shot them into space? What
@@ -10533,12 +10860,12 @@ RL   (In) ISBN 9780983617198; pp.1-264; Parquetry Press; Tallevast (2015).
 WW   http://susanlgarbett.com/books/confronting-chordoma-cancer/
 DR   Cellosaurus; CVCL_L154; JHC7
 AB   Yes
-When I heard the gut-wrenching words “very rare cancer” and “one in a
-million” used to describe a type of cancer I had never heard of, it felt
+When I heard the gut-wrenching words 'very rare cancer' and 'one in a
+million' used to describe a type of cancer I had never heard of, it felt
 as if all the breath had been sucked out of my lungs. I was immediately
 launched into a place I'd never dreamed I would be. Like most people
 dealing with life-threatening illness, the immediate, blood-draining fear
-can be enormous, and the accompanying “what-ifs” overwhelming. I gave The
+can be enormous, and the accompanying 'what-ifs' overwhelming. I gave The
 Fear time to do its thing, and then used it to motivate me and push me
 forward to do research, to gain knowledge, and to hopefully make
 appropriate choices for the unwelcome challenges, obstacles, and burdens
@@ -10597,7 +10924,7 @@ to German measles and recounts testing on infants, prisoners, orphans, and
 the intellectually disabled, which was common in the era. These events
 take place at the dawn of the battle over using human fetal tissue in
 research, during the arrival of big commerce in campus labs, and as huge
-changes take place in the laws and practices governing who “owns” research
+changes take place in the laws and practices governing who 'owns' research
 cells and the profits made from biological inventions. It is also the
 story of yet one more unrecognized woman whose cells have been used to
 save countless lives.
@@ -11336,6 +11663,32 @@ establishment of primary cultures that are more likely to continue to
 multiply and become cell lines, growth of lines in serum-free and protein-
 free media, and culture of many lines in suspension or roller bottles.
 //
+ID   CLPUB00511
+RA   Bierkens J., Maes J., Ooms D., Collier M., Vangenechten C.,
+RA   Borremans B., van Vlasselaer P., Schoeters G.;
+RT   "Decreased acquisition of osteoblastic phenotype markers and increased
+RT   response to interleukin-1 and parathyroid hormone in pre-osteoblast
+RT   like cells under microgravity.";
+RL   (In) Life sciences research in space. Proceedings of the fifth European symposium held 26 September-1 October 1993 in Arcachon France, ESA SP-366; Oser H., Guyenne T.D. (eds.); pp.25-30; European Space Agency; Noordwijk (1994).
+WW   http://articles.adsabs.harvard.edu/full/1994ESASP.366...25B
+DR   Cellosaurus; CVCL_WS34; MN7
+AB   Yes
+Some evidence exists that the response of bone to microgravity is
+osteoblast mediated. In order to test this hypothesis we have made a
+comparative study in space and on earth of the acquisition of early
+osteoblastic phenotype markers (ALP and Collagen type I) in a pre-
+osteoblastoid cell line MN7 mounted on a collagen matrix. In addition, the
+response of MN7 cells to two potent bone effectors. 11-1 (1 ng/ml) and FTH
+(10-7 M), was studied under micro- and unit gravity. The results show
+that although the proliferation of the MN7 cells is not affected by
+microgravity, differentiation as measured by the expression of ALP and
+collagep type I, is slowed down In contrast. interleukin-1 and PTH seem
+to elicit a larger response in space than on earth. These results may
+indicate that microgravity alters bone metabolism in space by a dual mode
+of action: (i) suppressed differentiation of pre-osteoblasts towards
+mature osteoblasts and (ii) an exaggerated response to bone resorption
+inducing effector molecules in osteoblasts.
+//
 ID   CLPUB00076
 RA   Prozesky O.W., Brits C., Grabow W.O.K.;
 RT   "In vitro culture of cell lines from Australia antigen positive and
@@ -11761,7 +12114,7 @@ manufacturing sector is still demanding effective production processes to
 replace/supplement embryonated egg-based process and to provide efficient
 response to such threats. Cell-based production, with a focus on avian
 cell lines, is one of the promising solutions. Indeed, three avian cell
-lines ; namely duck EB66®cells (Vivalis), duck AGE.CR® cells (Probiogen)
+lines; namely duck EB66 cells (Vivalis), duck AGE.CR cells (Probiogen)
 and quail QOR/2E11 cells (Baxter), are now competing with traditional
 mammalian cell platforms used for influenza vaccine productions (Vero and
 MDCK cells) and are currently at advance stage of commercial development

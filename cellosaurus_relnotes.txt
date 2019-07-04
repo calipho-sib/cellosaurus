@@ -6,136 +6,71 @@
    \_____\___|_|_|\___/|___/\__,_|\__,_|_|   \__,_|___/
 
 
-This is the release notes for Cellosaurus version 30 of May 2019.
+This is the release notes for Cellosaurus version 31 of July 2019.
 
 1) Statistics
 
-112983 cell lines (84432 human, 19675 mouse, 2075 rat)
+113576 cell lines (84952 human, 19726 mouse, 2080 rat)
    625 species represented
- 73553 synonyms
-331707 cross-references to 85 ontologies, databases, catalogs, etc.
-104057 references to 17422 distinct publications (papers, patents, theses, etc.)
- 17769 web links
+ 74399 synonyms
+337114 cross-references to 88 ontologies, databases, catalogs, etc.
+106802 references to 17710 distinct publications (papers, patents, theses, etc.)
+ 17823 web links
 
-  6482 human, mouse and dog cell lines with STR profiles (from 434 distinct sources)
+  6556 human, mouse and dog cell lines with STR profiles (from 444 distinct sources)
 
-2) Addition of a date/entry history line
+Since the last release 594 new entries were created and 5382 were updated
 
-Starting with this release we introduced a new line type ("DT") which provides
-information on when a Cellosaurus entry was created, when it was last updated
-and which version of the entry is currently available.
+2) Changes in the DR lines
 
-In the text version of the Cellosaurus, the format of the DT line is the
-following:
-
-DT   Created: DD-MM-YY; Last updated: DD-MM-YY; Version: nn
-
-Examples:
-DT   Created: 06-06-12; Last updated: 07-09-18; Version: 5
-DT   Created: 22-10-12; Last updated: 13-11-18; Version: 11
-
-The DT line is mandatory. It is the last line of the entry before the "//"
-termination line.
-
-In the XML version of the Cellosaurus, the information on the DT line is
-available using the following definition:
-
-<xs:attribute name="created" type="xs:date" use="required"/>
-<xs:attribute name="last_updated" type="xs:date" use="required"/>
-<xs:attribute name="entry_version" type="xs:integer" use="required"/>
-
-In the OBO version of the Cellosaurus only the date of creation of the
-entry is indicated using the "creation_date" tag. Example:
-
-creation_date: 2012-10-22T00:00:00Z
-
-3) Changes in the CC lines
-
-3a) Genome ancestry
-
-Julie Dutil has accepted to make available in the Cellosaurus the data from
-the ECLA (Estimated Cell Line Ancestry) tool (http://ecla.moffitt.org/)
-developed by her group. Currently ECLA computes the estimated ancestry of about
-1,400 cancer cell lines. This data is stored in a new CC line termed
-"Genome ancestry".
-
-In the text version of the Cellosaurus, the format of this CC line is the
-following:
-
-CC   Genome ancestry: African=x1%; Native American=x2%; East Asian, North=x3%; East Asian, South=x4%; South Asian=x5%; European, North=x6%; European, South=x7% (Reference_or_Xref).
-
-Example:
-CC   Genome ancestry: African=0.21%; Native American=0.92%; East Asian, North=1.76%; East Asian, South=0.01%; South Asian=1.21%; European, North=67.1%; European, South=28.8% (PubMed=30894373).
-
-4) Changes in the DR lines
-
-4a) Cross-references were added to the China Center for Type Culture
-Collection.
+2a) Cross-references were added to the Cancer Dependency Map (DepMap).
 
 Corresponding entry in the file cellosaurus_xrefs.txt:
 
-Abbrev: CCTCC
-Name  : China Center for Type Culture Collection
-Server: http://www.cctcc.org/
-Db_URL: None
-Cat   : Cell line collections
+Abbrev: DepMap
+Name  : Cancer Dependency Map
+Server: https://depmap.org/portal/
+Db_URL: https://depmap.org/portal/cell_line/%s
+Cat   : Cell line databases/resources
 
 Example:
-DR   CCTCC; GDC057
+DR   DepMap; ACH-000770
 
-4b) Cross-references were added to the Iranian Biological Research Center
-(IBRC) cell line collection.
+2b) Cross-references were added to the Fetal Calf Serum-Free Database
+(FCS-Free).
 
 Corresponding entry in the file cellosaurus_xrefs.txt:
 
-Abbrev: IBRC
-Name  : Iranian Biological Research Center cell line collection
-Server: http://www.ibrc.ir
-Db_URL: None
-Cat   : Cell line collections
+Abbrev: FCS-free
+Name  : Fetal Calf Serum-Free Database
+Server: https://fcs-free.org/
+Db_URL: https://fcs-free.org/fcs-database?%s
+Cat   : Cell line databases/resources
 
 Example:
-DR   IBRC; C10001
+DR   FCS-Free; 166-2-308-1-3-3
 
-4c) Change in the abbreviation of a cross-reference
+2c) Cross-references were added to the Cancer cell LInes GEne fusions portAl
+(LiGeA).
 
-The IPD-IMGT/HLA database was previously abbreviated IMGT/HLA.
+Corresponding entry in the file cellosaurus_xrefs.txt:
+
+Abbrev: LiGeA
+Name  : Cancer cell LInes GEne fusions portAl
+Server: http://hpc-bioinformatics.cineca.it/fusion/main
+Db_URL: http://hpc-bioinformatics.cineca.it/fusion/cell_line/%s
+Cat   : Polymorphism and mutation databases
 
 Example:
-DR   IMGT/HLA; 10074
-Is now:
-DR   IPD-IMGT/HLA; 10074
+DR   LiGeA; CCLE_001
 
-5) Change in the ST lines: introduction of STR markers for mouse cell lines
+3) Change in the ST lines
 
-Starting with this release we will capture STR marker information relevant to
-mouse cell lines. In a first instance we are introducing 19 markers: STR 1-1,
-STR 1-2, STR 2-1, STR 3-2, STR 4-2, STR 5-5, STR 6-4, STR 6-7, STR 7-1,
-STR 8-1, STR 9-2, STR 11-2, STR 12-1, STR 13-1, STR 15-3, STR 17-2, STR 18-3,
-STR 19-2 and STR X-1
+Two new human STR markers have been added: DYS570 and DYS576
 
-We are prefixing these STR markers with the word "Mouse" to insure that there
-is no confusion with human STR markers. Example:
-
-ST   Source(s): NIST
-ST   Mouse STR 1-1: 10,15
-ST   Mouse STR 1-2: 13
-ST   Mouse STR 11-2: 15
-ST   Mouse STR 12-1: 19
-ST   Mouse STR 13-1: 15
-ST   Mouse STR 15-3: 20.3
-ST   Mouse STR 17-2: 12,15
-ST   Mouse STR 18-3: 17,21
-ST   Mouse STR 19-2: 12
-ST   Mouse STR 2-1: 9
-ST   Mouse STR 3-2: 14
-ST   Mouse STR 4-2: 19.3
-ST   Mouse STR 5-5: 13,15
-ST   Mouse STR 6-4: 15.3
-ST   Mouse STR 6-7: 12,15
-ST   Mouse STR 7-1: 25.2,29
-ST   Mouse STR 8-1: 15,16
-ST   Mouse STR X-1: 26,27
+Example:
+ST   DYS570: 18
+ST   DYS576: 17
 
 ----------------------------------------
 Amos Bairoch

@@ -4,8 +4,8 @@
 ----------------------------------------------------------------------------
 
  Description: Cellosaurus: cross-referencing to external resources
- Version: 30.0
- Last update: 24-May-2019
+ Version: 31.0
+ Last update: 05-July-2019
 
 ----------------------------------------------------------------------------
 
@@ -58,7 +58,7 @@ here:
 1) DR lines
 
 Format: DR   Resource_abbrev; %s
-Where : Resource_abbrev is one of: 4DN|ABCD|ABM|AddexBio|ArrayExpress|ATCC|BCGO|BCRC|BCRJ|BEI_Resources|BTO|BioSample|BioSamples|CBA|CCLE|CCLV|CCRID|CCTCC|Cell_Biolabs|Cell_Model_Passport|CGH-DB|ChEMBL-Cells|ChEMBL-Targets|CLDB|CLO|CLS|ColonAtlas|Coriell|Cosmic|Cosmic-CLP|dbMHC|DGRC|DiscoverX|DSMZ|eagle-i|EBiSC|ECACC|EFO|ENCODE|ESTDAB|FCDI|FlyBase|GDSC|GEO|HipSci|hPSCreg|IARC_TP53|IBRC|ICLC|IGRhCellID|IGSR|IHW|Imanis|IPD-IMGT/HLA|ISCR|IZSLER|JCRB|KCB|KCLB|KYinno|LINCS_HMS|LINCS_LDP|Lonza|MCCL|MeSH|MetaboLights|Millipore|MMRRC|NCBI_Iran|NCI-DTP|NHCDR |NISES|NIH-ARP|PRIDE|RCB|RSCB|SKIP|SKY/M-FISH/CGH|TCB|TKG|TNGB|TOKU-E|WiCell|Wikidata|Ximbio
+Where : Resource_abbrev is one of: 4DN|ABCD|ABM|AddexBio|ArrayExpress|ATCC|BCGO|BCRC|BCRJ|BEI_Resources|BTO|BioSample|BioSamples|CBA|CCLE|CCLV|CCRID|CCTCC|Cell_Biolabs|Cell_Model_Passport|CGH-DB|ChEMBL-Cells|ChEMBL-Targets|CLDB|CLO|CLS|ColonAtlas|Coriell|Cosmic|Cosmic-CLP|dbMHC|DepMap|DGRC|DiscoverX|DSMZ|eagle-i|EBiSC|ECACC|EFO|ENCODE|ESTDAB|FCDI|FCS-free|FlyBase|GDSC|GEO|HipSci|hPSCreg|IARC_TP53|IBRC|ICLC|IGRhCellID|IGSR|IHW|Imanis|IPD-IMGT/HLA|ISCR|IZSLER|JCRB|KCB|KCLB|KYinno|LiGeA|LINCS_HMS|LINCS_LDP|Lonza|MCCL|MeSH|MetaboLights|Millipore|MMRRC|NCBI_Iran|NCI-DTP|NHCDR |NISES|NIH-ARP|PRIDE|RCB|RSCB|SKIP|SKY/M-FISH/CGH|TCB|TKG|TNGB|TOKU-E|WiCell|Wikidata|Ximbio
 
 2) RX lines
 
@@ -307,6 +307,12 @@ Server: https://www.ncbi.nlm.nih.gov/gv/mhc/main.cgi?cmd=init
 Db_URL: https://www.ncbi.nlm.nih.gov/projects/gv/mhc/xslcgi.fcgi?cmd=subj&ID=%s
 Cat   : Cell line databases/resources
 //
+Abbrev: DepMap
+Name  : Cancer Dependency Map
+Server: https://depmap.org/portal/
+Db_URL: https://depmap.org/portal/cell_line/%s
+Cat   : Cell line databases/resources
+//
 Abbrev: DGRC
 Name  : Drosophila Genomics Resource Center
 Server: https://dgrc.bio.indiana.edu/cells/Catalog
@@ -327,8 +333,8 @@ Cat   : Reference resources
 //
 Abbrev: DSMZ
 Name  : Deutsche Sammlung von Mikroorganismen und Zellkulturen
-Server: https://www.dsmz.de/catalogues/catalogue-human-and-animal-cell-lines.html
-Db_URL: https://www.dsmz.de/catalogues/details/culture/%s.html
+Server: https://www.dsmz.de/collection/catalogue/human-and-animal-cell-lines/catalogue
+Db_URL: https://www.dsmz.de/collection/catalogue/details/culture/%s
 Cat   : Cell line collections
 //
 Abbrev: DrugBank
@@ -384,17 +390,23 @@ Server: https://www.ebi.ac.uk/ipd/estdab/
 Db_URL: https://www.ebi.ac.uk/cgi-bin/ipd/estdab/print_cell.cgi?%s
 Cat   : Cell line databases/resources
 //
-Abbrev: FlyBase
-Name  : Drosophila genome database
-Server: http://flybase.org
-Db_URL: http://flybase.org/reports/%s.html
-Cat   : Organism-specific databases
-//
 Abbrev: FCDI
 Name  : FujiFilm Cellular Dynamics, Inc
 Server: https://fujifilmcdi.com/the-cirm-ipsc-bank
 Db_URL: None
 Cat   : Cell line collections
+//
+Abbrev: FCS-free
+Name  : Fetal Calf Serum-Free Database
+Server: https://fcs-free.org/
+Db_URL: https://fcs-free.org/fcs-database?%s
+Cat   : Cell line databases/resources
+//
+Abbrev: FlyBase
+Name  : Drosophila genome database
+Server: http://flybase.org
+Db_URL: http://flybase.org/reports/%s.html
+Cat   : Organism-specific databases
 //
 Abbrev: GDSC
 Name  : Genomics of Drug Sensitivity in Cancer Project
@@ -509,6 +521,12 @@ Name  : KYinno cell lines
 Server: http://www.kyinno.com/
 Db_URL: https://innopedia.kyinno.com/DataBase/CellLine.aspx?file=%s.pdf
 Cat   : Cell line collections
+//
+Abbrev: LiGeA
+Name  : Cancer cell LInes GEne fusions portAl
+Server: http://hpc-bioinformatics.cineca.it/fusion/main
+Db_URL: http://hpc-bioinformatics.cineca.it/fusion/cell_line/%s
+Cat   : Polymorphism and mutation databases
 //
 Abbrev: LINCS_HMS
 Name  : Harvard Medical School (HMS) LINCS Center

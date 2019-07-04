@@ -4,8 +4,8 @@
 ----------------------------------------------------------------------------
 
  Description: Cellosaurus: frequently asked questions
- Version: 30.0
- Last update: 24-May-2019
+ Version: 31.0
+ Last update: 05-July-2019
 
 ----------------------------------------------------------------------------
 
@@ -25,11 +25,13 @@ Q11: Is there a difference in the content of the Cellosaurus in the ASCII (TXT),
 Q12: Why is cell line XYZ reported to originate from a male individual but its authentication value for amelogenin is reported as "X" instead of "X,Y"?
 Q13: How to make best use of the Cellosaurus in the context of literature text-mining activities?
 Q14: What is the meaning of the "CVCL" prefix in Cellosaurus accession numbers?
-Q15: Can I search inside NCBI PubMed for papers that are cited in the Cellosaurus?
+Q15: Can I search inside NCBI PubMed or Europe PMC for papers that are cited in the Cellosaurus?
 Q16: My cell line XYZ is not in the Cellosaurus, how can I get it in?
 Q17: Is there a one to one relationship between the cell lines listed in the ICLAC register and the Cellosaurus "Problematic cell lines"?
 Q18: What is the difference between a Cellosaurus accession number and a cell line RRID?
 Q19: Why are primary cells not included in the Cellosaurus (while it includes many finite cell lines).
+Q20: Does the Cellosaurus include references to all papers relevant to a given cell line?
+Q21: Why are there different entries for the 3T3 cell line in the Cellosaurus?
 
 ----------------------------------------------------------------------------
 
@@ -362,8 +364,14 @@ https://www.ncbi.nlm.nih.gov/pubmed/9462733
 https://www.ncbi.nlm.nih.gov/pubmed/15637111
 https://www.ncbi.nlm.nih.gov/pubmed/25714623
 
-PS: Thanks to Richard Neve and Amanda Capes-Davies for providing this very
+PS1: Thanks to Richard Neve and Amanda Capes-Davies for providing this very
 informative answer.
+
+PS2: In June 2019 we were asked by Barbara Parodi in how many male cancer cell
+lines the amelogenin "Y" allele was not detected. We found out that out of
+2358 human male patient cancer cell lines that have a STR profile in the
+Cellosaurus, 845 of them have at least one report of a STR profile with no
+"Y" allele detected.
 
 ----------------------------------------------------------------------------
 
@@ -476,11 +484,15 @@ what "CVCL" means!
 
 ----------------------------------------------------------------------------
 
-Q15: Can I search inside NCBI PubMed for papers that are cited in the Cellosaurus?
+Q15: Can I search inside NCBI PubMed or Europe PMC for papers that are cited in the Cellosaurus?
 
-A: Yes, the Cellosaurus is part of the "Linkout" program of NCBI. To
-restrict searches in PubMed to papers cited in the Cellosaurus, you need
-to add "AND loprovCellosaurus [filter]" to your search pattern.
+A: Yes, the Cellosaurus is part of both the NCBI "Linkout" and Europe PMC
+"External Links" services.
+
+A) For PubMed:
+
+To restrict searches to papers cited in the Cellosaurus, you need to add
+"AND loprovCellosaurus [filter]" to your search pattern.
 
 Example: prostate[Title/Abstract] AND loprovCellosaurus[filter]
 
@@ -488,6 +500,18 @@ https://www.ncbi.nlm.nih.gov/pubmed/?term=prostate%5BTitle%2FAbstract%5D+AND+lop
 
 will retrieve all papers that mention the word "prostate" in their title or
 abstract and are cited in the Cellosaurus.
+
+B) For Europe PMC:
+
+To restrict searches to papers cited in the Cellosaurus, you need to add
+"AND (LABS_PUBS:"1815")" to your search pattern.
+
+Example: (ABSTRACT:"prostate") AND (LABS_PUBS:"1815")
+
+https://europepmc.org/search?query=%28ABSTRACT:%22prostate%22%29+AND+%28LABS_PUBS:%221815%22%29&page=1
+
+will retrieve all papers that mention the word "prostate" in their abstract
+and are cited in the Cellosaurus.
 
 ----------------------------------------------------------------------------
 
@@ -646,3 +670,60 @@ As primary cells do not represent a precisely defined entity, they are out
 of the scope of the Cellosaurus. This is also why we will not assign RRIDs
 for these entities.
 
+----------------------------------------------------------------------------
+
+Q20: Does the Cellosaurus include references to all papers relevant to a given cell line?
+
+A: We try to include references to papers that describe the establishment and
+characterization of a cell line. We are definitively not attempting to
+capture all papers that make use of a cell line, as this would be, in many
+case, quite consequential.
+
+An important rule is that we always include in a Cellosaurus entry the
+references for the papers from which we have extracted information that was
+added to that entry.
+
+For hybridomas we do not capture references pertinent to the use of the
+monoclonal antibody (mAB) produced by the hybridoma as this is outside of
+the scope of the Cellosaurus. We make an exception for papers that report
+the exact molecular target of the mAb as this information is useful to
+describe the hybridoma.
+
+If you believe we are missing a reference to a paper that should be
+included in a Cellosaurus entry, please let us know so that we can add it.
+
+----------------------------------------------------------------------------
+
+Q21: Why are there different entries for the 3T3 cell line in the Cellosaurus?
+
+A: As nicely explained in a Wikidata page and an ASBMB Today blog entry:
+
+https://en.wikipedia.org/wiki/3T3_cells
+http://www.asbmb.org/asbmbtoday/201501/Generations/3T3/
+
+the term 3T3 not only refers to a number of cell lines but originates in
+the method that Todaro and Green used to establish these cell lines,
+namely primary mouse embryonic fibroblasts were transferred ("T") every 3
+days (the first "3") and inoculated at the rigid density of 3×10^5 cells
+per 20 cm2 dish (the second "3") continuously.
+
+Therefore there are a variety of "3T3" cell lines that have been
+established over the years. Most of them are pre- or post-fixed with the
+name of the mouse breed from which they originate (like: 3T3-Swiss albino,
+BALB/3T3 or NIH 3T3).
+
+There is however grounds for confusion with these names and specifically one
+of the problem lies with the 3T3-Swiss albino and NIH 3T3 lines:
+
+https://web.expasy.org/cellosaurus/CVCL_0120
+https://web.expasy.org/cellosaurus/CVCL_0594
+
+The first one is from a Swiss-Albino mouse and was published in 1963,
+while the second is from a NIH Swiss mouse and was published in 1969. Many
+authors abbreviate them both to 3T3-Swiss or Swiss-3T3 thus blurring the
+distinction between the two cell lines. The only way to know which one was
+used in a paper is to look up the catalog number of the cell line
+collection where they got their "3T3" line and to see to which Cellosaurus
+entry it is linked with. Unfortunately many papers do not contain this
+information and the only possibility to disambiguate between the two cell
+lines is to directly contact the authors.
