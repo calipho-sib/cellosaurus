@@ -6,71 +6,36 @@
    \_____\___|_|_|\___/|___/\__,_|\__,_|_|   \__,_|___/
 
 
-This is the release notes for Cellosaurus version 31 of July 2019.
+This is the release notes for Cellosaurus version 32 of September 2019.
 
 1) Statistics
 
-113576 cell lines (84952 human, 19726 mouse, 2080 rat)
-   625 species represented
- 74399 synonyms
-337114 cross-references to 88 ontologies, databases, catalogs, etc.
-106802 references to 17710 distinct publications (papers, patents, theses, etc.)
- 17823 web links
+114697 cell lines (85532 human, 20061 mouse, 2127 rat)
+   631 species represented
+ 75209 synonyms
+339808 cross-references to 89 ontologies, databases, catalogs, etc.
+108796 references to 18232 distinct publications (papers, patents, theses, etc.)
+ 18974 web links
 
-  6556 human, mouse and dog cell lines with STR profiles (from 444 distinct sources)
+  6757 human, mouse and dog cell lines with STR profiles (from 454 distinct sources)
 
-Since the last release 594 new entries were created and 5382 were updated
+Since the last release 1122 new entries were created and 3344 were updated
 
 2) Changes in the DR lines
 
-2a) Cross-references were added to the Cancer Dependency Map (DepMap).
+2a) Cross-references were added to the PharmacoDB integrative pharmacogenomic
+database.
 
 Corresponding entry in the file cellosaurus_xrefs.txt:
 
-Abbrev: DepMap
-Name  : Cancer Dependency Map
-Server: https://depmap.org/portal/
-Db_URL: https://depmap.org/portal/cell_line/%s
-Cat   : Cell line databases/resources
+Abbrev: PharmacoDB
+Name  : PharmacoDB integrative pharmacogenomic database
+Server: http://pharmacodb.ca/
+Db_URL: http://pharmacodb.ca/cell_lines/%s
+Cat   : Chemistry resources
 
 Example:
-DR   DepMap; ACH-000770
-
-2b) Cross-references were added to the Fetal Calf Serum-Free Database
-(FCS-Free).
-
-Corresponding entry in the file cellosaurus_xrefs.txt:
-
-Abbrev: FCS-free
-Name  : Fetal Calf Serum-Free Database
-Server: https://fcs-free.org/
-Db_URL: https://fcs-free.org/fcs-database?%s
-Cat   : Cell line databases/resources
-
-Example:
-DR   FCS-Free; 166-2-308-1-3-3
-
-2c) Cross-references were added to the Cancer cell LInes GEne fusions portAl
-(LiGeA).
-
-Corresponding entry in the file cellosaurus_xrefs.txt:
-
-Abbrev: LiGeA
-Name  : Cancer cell LInes GEne fusions portAl
-Server: http://hpc-bioinformatics.cineca.it/fusion/main
-Db_URL: http://hpc-bioinformatics.cineca.it/fusion/cell_line/%s
-Cat   : Polymorphism and mutation databases
-
-Example:
-DR   LiGeA; CCLE_001
-
-3) Change in the ST lines
-
-Two new human STR markers have been added: DYS570 and DYS576
-
-Example:
-ST   DYS570: 18
-ST   DYS576: 17
+DR   PharmacoDB; 105KC_1_2019
 
 ----------------------------------------
 Amos Bairoch

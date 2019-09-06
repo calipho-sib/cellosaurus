@@ -4,8 +4,8 @@
 ----------------------------------------------------------------------------
 
  Description: Cellosaurus: frequently asked questions
- Version: 31.0
- Last update: 05-July-2019
+ Version: 32.0
+ Last update: 06-September-2019
 
 ----------------------------------------------------------------------------
 
@@ -572,7 +572,7 @@ that the ICLAC register is composed of two tables:
 -Table 1: cell lines where there is no known authentic stock
 
 -Table 2: cell lines where some stocks have been shown to be misidentified,
- but where authentic stock is known to exist.							
+ but where authentic stock is known to exist.
 
 For all cell lines listed in Table 1 of the ICLAC register, there is in the
 corresponding Cellosaurus entries a comment "Problematic cell line". That
