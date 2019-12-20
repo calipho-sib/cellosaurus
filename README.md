@@ -85,7 +85,9 @@ J. Biomol. Tech. (2018) 29:25-38
 DOI: 10.7171/jbt.18-2902-002; PMID: 29805321
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5945021/
 
-Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
+##Licensing
+
+[![CC BY 4.0][cc-by-shield]][cc-by]
 
 This work is licensed under a [Creative Commons Attribution 4.0 International
 License][cc-by].
