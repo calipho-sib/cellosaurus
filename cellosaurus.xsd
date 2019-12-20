@@ -2,10 +2,10 @@
 <!-- *****************************************************************************
         XML Schema Definition (XSD) for the Cellosaurus XML
 
-        Date: 2019-September-6; Release: 2.02
+        Date: 2019-December-19; Release: 2.04
 
         Copyright (c) CALIPHO group @ SIB - Swiss Institute of Bioinformatics
-        Distributed under the Creative Commons Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0) licence
+        Distributed under the Creative Commons Attribution 4.0 International (CC BY 4.0) licence
 *******************************************************************************-->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" version="1.0">
 

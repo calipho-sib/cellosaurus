@@ -4,8 +4,8 @@
 ----------------------------------------------------------------------------
 
  Description: Cellosaurus: frequently asked questions
- Version: 32.0
- Last update: 06-September-2019
+ Version: 33.0
+ Last update: 19-December-2019
 
 ----------------------------------------------------------------------------
 
@@ -32,6 +32,8 @@ Q18: What is the difference between a Cellosaurus accession number and a cell li
 Q19: Why are primary cells not included in the Cellosaurus (while it includes many finite cell lines).
 Q20: Does the Cellosaurus include references to all papers relevant to a given cell line?
 Q21: Why are there different entries for the 3T3 cell line in the Cellosaurus?
+Q22: What is the licence under which the Cellosaurus is provided?
+Q23: What can I search for using the search bar?
 
 ----------------------------------------------------------------------------
 
@@ -212,6 +214,8 @@ INCELL:
  http://www.incell.com/product-category/proprietary-cell-lines/
 IncuCyte (Essen BioScience):
  https://www.essenbioscience.com/en/products/reagents-consumables/category/cell-lines/
+Innoprot:
+ http://www.innoprot.com/en_productos_escaparate.asp
 Interlab Cell Line Collection (ICLC):
  http://www.iclc.it/
 InvivoGen:
@@ -467,7 +471,7 @@ Cell line names be contextualized on the basis of:
 -Disease: through the "disease-list" which makes use of NCI Thesaurus codes.
 
 -Tissue: Not yet possible. We plan to add the tissue of origin using Uberon
- as the standardization resource, but this will not take place until 2018.
+ as the standardization resource, but this will not take place until 2020.
 
 ----------------------------------------------------------------------------
 
@@ -727,3 +731,37 @@ collection where they got their "3T3" line and to see to which Cellosaurus
 entry it is linked with. Unfortunately many papers do not contain this
 information and the only possibility to disambiguate between the two cell
 lines is to directly contact the authors.
+
+----------------------------------------------------------------------------
+
+Q22: What is the licence under which the Cellosaurus is provided?
+
+A: We have chosen to apply to the Cellosaurus the Creative Commons Attribution
+4.0 International (CC BY 4.0) license:
+
+https://creativecommons.org/licenses/by/4.0/
+
+This means that you are free to:
+
+Share: copy and redistribute the Cellosaurus in any medium or format
+
+Adapt: remix, transform, and build upon the Cellosaurus for any purpose, even
+commercially.
+
+Under the following terms:
+
+Attribution: You must give appropriate credit, provide a link to the license,
+and indicate if changes were made. You may do so in any reasonable manner,
+but not in any way that suggests we (the licensor) endorses you or your use.
+
+No additional restrictions: You may not apply legal terms or technological
+measures that legally restrict others from doing anything the license permits.
+
+----------------------------------------------------------------------------
+
+Q23: What can I search for using the search bar?
+
+A: The search bar offers access to a full text index of the Cellosaurus.
+This means you can not only search for a cell line name, but also other
+things such as catalog numbers in cell line collections, disease names,
+species, reference authors, PubMed IDs, etc.

@@ -4,8 +4,8 @@
 ----------------------------------------------------------------------------
 
  Description: CelloPub, Cellosaurus publications
- Version: 32.0
- Last update: 06-September-2019
+ Version: 33.0
+ Last update: 19-December-2019
 
 ----------------------------------------------------------------------------
 ID   CLPUB00222
@@ -184,7 +184,7 @@ Thirty percent of those rats inoculated with ACL-15 cells into the
 subserosa of the cecum and all rats which received intrasplenic
 inoculations of ACL-15 cells developed hepatic metastases. All rats
 injected with ACL-15 into subcutis and into the tail vein developed
-multiple pulmonary metastases. This newly established cell line, ACL15,
+multiple pulmonary metastases. This newly established cell line, ACL-15,
 can serve for a model of metastatic colonic cancer.
 //
 ID   CLPUB00209
@@ -198,10 +198,10 @@ DR   Cellosaurus; CVCL_5A05; KY-Rb
 AB   Yes
 Two human myelomonocytic leukemia cell lines highly resistant to 1-beta-D-
 arabinofuranosylcytosine (ara-C) were established. One line, designated KY-Ra,
-has been proliferating with 1×10^-4 M ara-C for over one year. The
-other one, KY-Rb, has proliferated with 1×10-5 M N^4-behenoyl-1-beta-D-
+has been proliferating with 1x10^-4 M ara-C for over one year. The
+other one, KY-Rb, has proliferated with 1x10-5 M N^4-behenoyl-1-beta-D-
 arabinofuranosylcytosine (BH-AC) after it reached a proliferative capacity
-with 1×10^-6 M ara-C. These two ara-C-resistant cell lines have shown
+with 1x10^-6 M ara-C. These two ara-C-resistant cell lines have shown
 approximately 5,900 fold and 18,000 fold resistance to ara-C over the
 parental KY-821 cell line. The deoxycytidine kinase activity of each cell
 line was 0.39 (dCMP/min/mug protein) for KY-Ra, 0.26 for KY-Rb, 1.23 for
@@ -1300,8 +1300,8 @@ DR   Cellosaurus; CVCL_2031; ELF-153
 AB   Yes
 A novel GM-CSF dependent cell line derived from a patient with acute
 myelofibrosis and subsequent overt AML M1 FAB has been established.
-Cytochemistry of ELF-153 is undifferentiated. Surface markers are: CD33:
-93%, CD34 99%, CDw41 72%, CD7 46% CDw42b 7%. Electron microscopy shows a
+Cytochemistry of ELF-153 is undifferentiated. Surface markers are: CD33
+93%, CD34 99%, CDw41 72%, CD7 46%, CDw42b 7%. Electron microscopy shows a
 clear megakaryocytic component with demarkation membranes in mature cells.
 Cytogenetics was identical to that of the patient and revealed a monosomy
 7, 14 and 17, a deletion (5)(q13q31), and t(12;14) (p11.2;q11.2). The
@@ -1707,9 +1707,9 @@ ID   CLPUB00272
 RA   Pessina A., Mineo E., Gribaldo L., Mancina G., Neri M.G., Moran E.,
 RA   Cleary I., Clynes M.;
 RT   "Susceptibility of leukemia cell lines to quinolones and induction of
-RT   resistance to ciprofloxacin in WEHI-3B (D+) leukemia cells.";
+RT   resistance to ciprofloxacin in WEHI-3B(D+) leukemia cells.";
 RL   Cancer J. 6:291-297(1993).
-WW   http://cat.inist.fr/?aModele=afficheN&cpsidt=3791557
+WW   http://refdoc-info.inist.fr/c4/refdoc.html?cpsidt=3791557
 DR   Cellosaurus; CVCL_3430; WEHI-3B/CPX
 AB   Yes
 In this study the in-vitro susceptibility of murine myeloid precursors (GM-
@@ -1739,6 +1739,32 @@ stable CPX-resistant variant with a phenotype which is not cross-resistant
 to other quinolones, novobiocin, and antineoplastic drugs active on
 topoisomerase II, it represents a new, interesting model for studying the
 mechanism of drug resistance of mammalian cells.
+//
+ID   CLPUB00547
+RA   Fabien N., Cespuglio R., Burlet S., Pages M.-P., Paulin C.;
+RT   "Co-localization of three neuropeptides and NADPH diaphorase in a
+RT   small cell lung carcinoma cell line.";
+RL   Cancer J. 7:198-201(1994).
+DR   Cellosaurus; CVCL_1146; CPC-N
+AB   Yes
+Background: The small cell lung cancer (SCLC) is an epithelial tumour with
+the morphological and secretory characteristics of neuroendocrine cells
+(neurone-specific enolase, N-CAM, neuropeptides). The establishment of a
+SCLC cell line provides an in vitro model to analyze the neuroendocrine
+secretion of these malignant cells.
+
+Methods: Bombesin, delta sleep inducing factor (DSIP) and arginine
+vasopressin (AVP) were studied by immunohistochemistry and by in situ
+hybridization. NADPH diaphorase activity was detected using an
+histochemical technique.
+
+Results: All the cells contained bombesin, DSIP, AVP and displayed a NADPH
+diaphorase activity with reflects a nitric oxide (NO) synthase activity.
+
+Conclusions: These data present the characteristics of a new SCLC cell
+line (CPN) and show the complexity of its neuroendocrine secretion; for
+example, the presence of DSIP and NO synthase activity which have not yet
+been demonstrated in other SCLC cell lines.
 //
 ID   CLPUB00047
 RA   Gey G.O., Coffman W.D., Kubicek M.T.;
@@ -2084,7 +2110,7 @@ spindle shaped and adhered to the bottom of the culture plate, forming a
 monolayer of cells. The growth curve of the cells was Y=e-0.6736+0. 0323x,
 r2=0.98. The population doubling time during logarithmic growth at 28
 Celsius was 21.4h. The saturated population of cells was approximately
-2×10^7 cells in a 25-T flask, representing a 20-fold increase over the
+2x10^7 cells in a 25-T flask, representing a 20-fold increase over the
 initial population in 4 days. Karyotype analysis revealed that the nucleus
 of SL7A cells contained numerous microchromosomes. The number of
 chromosomes appeared to follow a normal distribution in the range from 63
@@ -2237,6 +2263,38 @@ transfection with pSV2neo DNA. The ability to test the metastatic
 potential of human KRIB sarcoma cells in mice makes this model valuable
 for both basic and applied research on factors affecting tumor
 dissemination to the lungs.
+//
+ID   CLPUB00543
+RA   Min Q., Cao S.-N., Gan Y.-P., Song T.-S., Liu F.-X., Ning Z.-F.;
+RT   "Bladder cancer chemotherapy resistant cell harbors stem-like
+RT   characteristics construction and characterization of T24 resistance
+RT   strain of bladder cancer.";
+RL   Clin. Oncol. J. 1:1004.09-1004.12(2019).
+WW   http://www.medtextpublications.com/open-access/pbladder-cancer-chemotherapy-resistant-cell-harbors-stem-like-characteristics-construction-and-characterization-of-t24-resistance-strain-of-bladder-cancerp-160.pdf
+DR   Cellosaurus; CVCL_0554; T24
+DR   Cellosaurus; CVCL_XX49; T24/MMC
+AB   Yes
+Objective: Establish a human drug-resistant bladder cancer cell line
+(T24/MMC), which are integral to the initiation, high recurrence and chemo-
+resistance of bladder cancer. BCSCs are heterogeneous and originate from
+multiple cell types, including urothelial stem cells and differentiated
+cell types, including basal, intermediate stratum and umbrella cells, then
+investigate its characteristics.
+
+Methods: Human bladder cancer cell line T24 was established using
+gradually increased concentration of mitomycin (MMC) in culture. Basic
+characteristics of both the parental cell line T24 and the drug-resistant
+cell line (T24/MMC) were analyzed and compared, including the ability of
+proliferation, colony formation, mobility and invasion, sphere forming
+ability.
+
+Results: Compared with T24, the (T24/MMC) cell grows quickly, and the
+ability of proliferation, colony formation, mobility and invasion,
+stemness gene, sphere forming ability increased.
+
+Conclusion: Gradually increased concentration of MMC can induce drug-
+resistant bladder cancer cell line, and it was enriched of cancer stem
+cells.
 //
 ID   CLPUB00028
 RA   Mini E., Medina W.D., Srimatkandada S., Moroson B.A., Bertino J.R.;
@@ -3133,6 +3191,31 @@ produce a tumor. Thus, serially propagated clonal strains of brain. cells
 are able to perform at least one organ specific function for prolonged
 periods in culture.
 //
+ID   CLPUB00541
+RA   Klietmann W., Kato K., Sato N., Koprowski H.;
+RT   "Characterization of an SV40 transformed cell line resistant to
+RT   ethidium bromide.";
+RL   Fed. Proc. 31:620-620(1972).
+DR   Cellosaurus; CVCL_XK46; F2
+DR   Cellosaurus; CVCL_XK45; F5-1
+AB   Yes
+Ethidium bromide (EB) efficiently induces respiratory mutants in yeast. In
+all studies reported, the effect of sublethal concentrations of EB in
+mammalian cells was either reversible after omission of the drug or
+resulted in cell death. We describe a cell line, F, derived from the SV40-
+transformed hamster cell line F5-1, iwhich is completely resistant to EB
+at a concentration of 2 mug/ml, as shown by its colony-forming ability. At
+this concentration, cytochromes c and b are present in almost normal, or
+only slightly diminished, amounts whereas cytochromes a + a3 show a
+significant decrease. All cytochrome changes are reversible when EB is
+discontinued. The biophysical properties of the mitochondrial DNA of the
+resistant cell are characterized and compared to the parental cell line.
+The mitochondria of the F cell have a normal ultrastructure, not distinct
+from the parental F5-1 cell line. The induced resistance to EB has been
+hereditarily transmitted to the progeny cells for 11 months. Possible
+underlying mechanisms of the resistance to EB and the significance of the
+establishment of this cell line are discussed.
+//
 ID   CLPUB00500
 RA   Collins J.K., O'Mahony A., O'Brien F., Corbett A., Morrissey D.,
 RA   O'Donoghue M., O'Sullivan G.;
@@ -3180,6 +3263,31 @@ clone 10, the value of D0 was 1.58 Gy, DQ was 2.04 Gy, N was 3.63, SF2 was
 of wild type. There was amplification of H-ras gene in clone 10 after 2 Gy
 irradiation. The amplification of H-ras gene in clone 10 after 2 Gy
 irradiation might be involved in heterogeneity of CaEs-17 cell line.
+//
+ID   CLPUB00542
+RA   Miyoshi I., Taguchi H., Kubonishi I., Yoshimoto S., Ohtsuki Y.,
+RA   Shiraishi Y., Akagi T.;
+RT   "Type C virus-producing cell lines derived from adult T cell leukemia.";
+RL   Gann Monogr. Cancer Res. 28:219-228(1982).
+DR   Cellosaurus; CVCL_M518; MT-1 [Human leukemia]
+DR   Cellosaurus; CVCL_2631; MT-2
+DR   Cellosaurus; CVCL_M517; MT-3 [Human leukocytes]
+DR   Cellosaurus; CVCL_2632; MT-4
+AB   Yes
+We have established four unique cell lines, MT-1 to MT-4, by co-
+cultivation of adult T-cell leukemia (ATL) cells and human cord blood
+lymphocytes. All four cell lines possessed T-cell properties and lacked
+Epstein-Barr virus nuclear antigen. Chromosome analysis revealed MT-1 to
+be of ATL cell origin whereas at least two others, MT-2 and MT-3, were of
+cord lymphocyte origin. All these cell lines were found to be persistently
+infected with type C virus particles (ATLV) and positive for ATL-
+associated antigens (ATLA) which reacted specifically with sera from ATL
+patients. MT-2 was the highest producer of ATLV and MT-1 the lowest. The
+three cell lines tested, MT-1 to MT-3, were tumorigenic when transplanted
+into immunosuppressed newborn hamsters. Only the tumors produced with MT-3
+were examined for virus and they were positive for ATLV and ATLA. Lymphoid
+cell lines with human chromosomes were readily recultured from MT-3-
+induced tumors.
 //
 ID   CLPUB00235
 RA   Polianova M.T., Ivanov I.G., Jordanova P.K., Argirova R.M.,
@@ -3534,8 +3642,8 @@ floating cells were always observed in the medium. Most cells of this line
 were round and oval in shape, some were elongated or spindle shaped,
 although there were some other types of cells in the mixed cell population.
 The population doubling time at 28 Celsius in 96 hours was 30 +- 2.06 and
-the cell density reached, from 1×10^5 cells/ml inoculated, a level of
-approximately 1.3×10^6 cells/ml after 8 days. Chromosomes were typical of
+the cell density reached, from 1x10^5 cells/ml inoculated, a level of
+approximately 1.3x10^6 cells/ml after 8 days. Chromosomes were typical of
 other lepidopteran cells. BCIRL-PX2-HNU3 was distinguished from cell lines
 derived from other insect species by isoelectric focusing using the enzyme
 phosphoglucoisomerase. Preliminary studies indicated that BCIRL-PX2-HNU3
@@ -3580,7 +3688,7 @@ rounded, with some elongated and spindled forms. The SO4 cells seemed to
 be a little bit larger than those of SO3. At 28 Celsius during 120 hrs,
 the cell doubling time for SO3 was 47 +- 3.2 hrs, while SO4 at 28 Celsius
 during 72 hrs being 54 +- 5.07 hrs. The maximum cell densities of SO3 and
-SO4 attained 1. 36×10^6/ml and 1.28×10^6/ml respectively. The chromosomes
+SO4 attained 1. 36x10^6/ml and 1.28x10^6/ml respectively. The chromosomes
 were typical of Lepidoptera, they appeared to be blunt, short and
 numerous, but variable in number. The results of the preliminary
 experiments have shown that these two cell lines seemed to be neither
@@ -4970,7 +5078,7 @@ culture supernatant using ELISA assays. Large amounts of IL10 (26218 pg/ml
 detected. Intracytoplasmic IL10 production and the expression of the IL10
 receptor were demonstrated using flow cytometry.
 
-Animal model: 5×10^6 cells were infused intra peritoneously in 6 NOD/SCID
+Animal model: 5x10^6 cells were infused intra peritoneously in 6 NOD/SCID
 mice. All mice developed lymphomatous ascitis between day 27 and 96. Nodal
 and splenic involvement were present in 3/3. New cell lines (ISI-11, ISI-12)
 could be established from the ascitis and spleen of two mice and
@@ -5236,7 +5344,7 @@ of single epithelial-like cells is also obtained from ZC-7901 cells of
 11th generation, which is named substrain ZC-7901S1. At present both the
 strain and substrain have been maintained in proliferation for over 22
 months through 120 and 90 generations respectively, and the cells of them
-are able to reproduce with approximately 1.5×10^5 cells per millilitre in
+are able to reproduce with approximately 1.5x10^5 cells per millilitre in
 concentration. About 4 days, a monolayer cells can be found clearly in the
 culture. After 36 hours, the index of mitotic division of the ZC-7901 is
 36.5% while that of the ZC-7901S1 is 32.3%; and then at 156 hours after
@@ -5398,7 +5506,17 @@ RT   "Characterization of a human ovarian carcinoma cell line, OC-89-VGH,
 RT   derived from a mucinous carcinoma.";
 RL   J. Obstet. Gynecol. Rep. China 30:30-36(1991).
 DR   Cellosaurus; CVCL_GT39; OC-89-VGH
-AB   No
+AB   Yes
+A human ovarian carcinoma cell line, OC-89-VGH, established from a
+mucinous cystadenocarcinoma of the ovary. OC-89-VGH has a varied number of
+chromosome number ranging from 69 to 80 with a model number of 75. The
+doubling time of cells was 51 hours. Immunohistochemical studies of OC-89-VGH
+cells for epithelial membrane antigen (EMA), desmin and fibronectin
+were negative, while the markers of cytokeratin, myoglobin, vimentin, CA-125,
+carcino-embryonic antigen (CEA) and human placental alkaline
+phosphatase (PLAP) were all positive. The secretion of ectopic proteins by
+OC-89-VGH cells was also investigated and it was highest in CA-125 (>600 U/ml),
+followed by CEA (220 ng/ml) and PLAP (6 mIU/ml) secretion.
 //
 ID   CLPUB00353
 RA   Chao K.-C., Ng H.-T., Yen M.-S., Chang C.-C.;
@@ -6328,11 +6446,11 @@ MDCK-E including MDCK with various ranges of multiplicity of infection
 (MOI) to confirm the optimal amount of virus inoculation. The virus titer
 of TCID50/ml was calculated by inoculation of serially diluted virus into
 96-well plate of MDCK cells. The titer and cytopathic effect (CPE) in MDCK-E
-were compared to those in MDCK-F. The titer of seed CDV was 1.24×10^6
+were compared to those in MDCK-F. The titer of seed CDV was 1.24x10^6
 TCID50/ml. Optimal MOI was about 0.1 for both MDCK-F and MDCK-E to obtain
-highest titers of 10^8 TCID50/ml and 5×10^8 TCID50/ml respectively. CPE in
+highest titers of 10^8 TCID50/ml and 5x10^8 TCID50/ml respectively. CPE in
 MDCK-E was shown 4 days after inoculation whether in MNCK-F 5~6 days after
-inoculation. We can obtain highest titer of 5×10^8 TCID50/ml with 0.1 MOI
+inoculation. We can obtain highest titer of 5x10^8 TCID50/ml with 0.1 MOI
 using MDCK-E. MDCK-E was more susceptible for CDV production than MDCK-F.
 //
 ID   CLPUB00364
@@ -6458,6 +6576,31 @@ Conclusion: The paclitaxel-induced MDR sublines may be used as an
 experimental system for the search of a means to overcome drug resistance
 and elucidate possible mechanisms of acquired MDR involved in human lung
 adenocarcinoma.
+//
+ID   CLPUB00544
+RA   Jeyarani S.;
+RT   "Establishment of cell line from Helicoverpa armigera (Hubner) embryo:
+RT   effect of temperature on its susceptibility to baculoviruses.";
+RL   Madras Agric. J. 99:121-124(2012).
+WW   https://www.cabdirect.org/cabdirect/abstract/20123198833
+WW   https://www.researchgate.net/publication/267707694_Establishment_of_Cell_Line_from_Helicoverpa_armigera_Hubner_Embryo_Effect_of_Temperature_on_its_Susceptibility_to_Baculoviruses
+DR   Cellosaurus; CVCL_YA22; HaE9
+AB   Yes
+Attempts were made to establish new cell lines from the embryos of
+Helicoverpa armigera (Hubner) to study its susceptibility to baculoviruses.
+Three primary cell cultures were initiated from the embryo of H. armigera.
+Among the three cultures, HaE9 alone produced sufficient cell growth to
+allow subculturing and led to establishment. Population doubling time
+(PDT) of the cell line HaE9 ranged from 3.63 days to 4.75 days for five
+consecutive generations. Susceptibility studies of different baculoviruses
+revealed that HaE9 was permissive for HearNPV alone. Studies on the
+influence of incubation temperature regimes (26, 27 and 28 Celsius) on cell
+infection and polyhedral occlusion body (POB) yield of HearNPV in HaE9
+cell line revealed that the temperature regime of 27 Celsius could yield a
+maximum of 5.63 and 5.75x10^7 POB/ml in 20th and 21st passage respectively.
+Bioassays with cell cultured viruses in comparison with in vivo produced
+virus had similar effects against 2nd instar H. armigera larvae with LC50
+values of 0.029 and 0.017 POB/mm2, respectively.
 //
 ID   CLPUB00292
 RA   Lavappa K.S., Hay R.J.;
@@ -7281,6 +7424,17 @@ tissue culture supernatants CEA and high levels of calcitonin were
 detectable. Monoclonal antibodies Leu-7 and NKH1A defining NK cells were
 strongly positive with MZ-CRC-1. This is the second known human medullary
 thyroid cancer cell line established in tissue culture.
+//
+ID   CLPUB00545
+RA   McLemore T.L., Alley M.C., Liu M.C.;
+RT   "Histopathologic, biochemical, and molecular genetic characterization
+RT   of four newly established pulmonary carcinoma cell lines.";
+RL   Proc. Am. Assoc. Cancer Res. 30:225-225(1989).
+DR   Cellosaurus; CVCL_H642; HOP-18
+DR   Cellosaurus; CVCL_H643; HOP-19
+DR   Cellosaurus; CVCL_YA86; HOP-27
+DR   Cellosaurus; CVCL_1285; HOP-62
+AB   No
 //
 ID   CLPUB00240
 RA   Roth B.J., Sledge G.W. Jr., Heerema N.A., Schultz S.;
@@ -8124,7 +8278,7 @@ RA   Chew-Lim M., Ngoh G.H., Ng M.K., Lee J.M., Chew P.C., Li J., Chan Y.C.,
 RA   Howe L.C.J.;
 RT   "Grouper cell line for propagating grouper viruses.";
 RL   Singap. J. Prim. Ind. 22:113-116(1994).
-DR   Cellosaurus; CVCL_S009; GP
+DR   Cellosaurus; CVCL_S009; GEC
 AB   Yes
 This brief note describes the development of an immortalised grouper cell
 line (GP) which originated from the hatching embryo of the tropical food
@@ -8828,7 +8982,7 @@ subcultivation, the cloning efficiencies considerably fluctuated between
 approx. 1 to 20%. Although the number of chromosomes was the same (46) at
 12, 75, and 175 PDNs, all of the 46 chromosomes were acrocentric at 12 PDN
 while 45 acrocentric and 1 submetacentric chromosomes were found at 75 and
-175 PDNs. The saturation cell density ranged from 6.8 to 12×10^4
+175 PDNs. The saturation cell density ranged from 6.8 to 12x10^4
 cells/cm^2 during passage and the contact inhibition of growth generally
 worked well. The cells were highly proficient in photoreactivation of
 UV-induced cell killing as well as DNA damage in terms of UV-specific
@@ -8874,6 +9028,57 @@ could also be employed for this purpose. He suggested that parasexual
 events, detected in certain fungi, might occur also in in vitro cultured
 cells. Now, ten years later, there are strong indications that this
 prediction will indeed come true.
+//
+ID   CLPUB00548
+RA   Steele C.M.;
+RT   "A study of human lymphoblastoid cell lines in tissue culture.";
+RL   Thesis PhD (1972), University of Edinburgh, United Kingdom.
+WW   https://www.semanticscholar.org/paper/A-study-of-human-lymphoblastoid-cell-lines-in-Steel/faec8ee1f799b3cc838a2f23295be5c9a5a0dc77
+DR   https://web.expasy.org/cgi-bin/cellosaurus/search?input=CLPUB00548
+AB   Yes
+The properties and potential applications of human lymphoblastoid cell
+lines have been investigated. Such lines have been established by others
+from Burkitt's lymphoma tissue, from leukaemic patients, from those with
+infectious mononucleosis and latterly from healthy subjects. There is an
+association between EB virus (Herpes-like virus of Epstein and Barr) and
+the growth of human lymphoblastoid cell lines in vitro. The sane virus is
+linked sero-epidemiologically with Burkitt's lymphoma, nasopharyngeal
+carcinoma, infectious mononucleosis and a number of other diseases of man.
+The exact role of the virus both in vivo and in vitro is a matter of some
+controversy. Using a simple culture technique, 40 cell lines were
+established from the peripheral blood leukocytes of a diagnostically
+mixed group of patients, from normal cord blood and from one healthy
+adult. 25 of these cultures were initiated by adding EB virus (in the form
+of lethally irradiated cells of a virus-positive line) to the fresh blood
+leukocytes. Evidence from experiments of this type suggest that EB virus
+has a lymphoproliferative action in vitro.
+
+The cell lines are morphologically almost indistinguishable. They resemble
+primitive cells of the lymphoid series and appear to have the property of
+indefinite growth in vitro. They include some phagocytic cells and
+imunoglobulins are released into the culture medium. Few of the lines
+were chromosomally abnormal when examined shortly after establishment but
+all of those examined after more than 1 year of continuous growth had
+abnormal karyotypes. There vas no evidence for the recurrence of any
+specific chromosome aberration in a significant proportion of the lines.
+
+Antigenically the established lines differ from the original donor's fresh
+lymphocytes. This is shown by measurement of tritiated thymidine uptake by
+lymphocytes exposed in vitro to irradiated cells from an autochthonous
+line. Together with the activation process, the fresh lymphocytes acquire
+cytotoxic potential directed specifically against the cell line used in
+the activation phase. It is suggested that this system constitutes a model
+for an immunological surveillance mechanism operating in vivo to eliminate
+deviant cells. Cell lines of this type offer ecope for detailed investiga-
+tion of the induction of proliferation in human tissue (in this case
+probably by EB virus) and of the immunological processes by which altered
+autochthonous cells may be recognised and destroyed. Both of these topics
+a relevant to the basic study of malignant disease. The prolonged life span
+and relative stability of these lines in vitro also presents opportunities
+in the field of human genetics, both for the investigation of inherited
+disorders of man and, experimentally, for the measurement of spontaneous
+and induced mutation rates, analysis of gene linkage and chromosome
+mapping.
 //
 ID   CLPUB00156
 RA   Leung J.W.;
@@ -9634,7 +9839,7 @@ DR   Cellosaurus; CVCL_IM35; SFEC
 DR   Cellosaurus; CVCL_J026; TEC
 AB   Yes
 The research of fish cell culture has developed rapidly since 1960s when
-Wolf and Quimby established the first fish cell line - RTG22 - in the world.
+Wolf and Quimby established the first fish cell line - RTG-2 - in the world.
 At the present time, fish cell culturing has become an essential research
 technology which has been used extensively, ranged from virology,
 environmental toxicology, cytobiology, oncology, genomics, genetics and
@@ -11375,6 +11580,187 @@ the expression of NICD was not found to give rise to any significant
 difference in angiogenesis. Together, these findings suggest a tumour
 suppressor role for NOTCH1 in SCCHN.
 //
+ID   CLPUB00549
+RA   Moore J.C.;
+RT   "Establishment Of CRISPR/Cas-9 aided knockout of the ZIC2 gene in the
+RT   African-American prostate cancer cell line E006AA-PR.";
+RL   Thesis MSc (2019), Clark Atlanta University, United States.
+WW   http://hdl.handle.net/20.500.12322/cau.td:2019_moore_janelle
+DR   Cellosaurus; CVCL_4834; E006AA
+DR   Cellosaurus; CVCL_YI81; E006AA ZIC2-/- E5
+DR   Cellosaurus; CVCL_YI82; E006AA ZIC2-/- G12
+AB   Yes
+The largest U.S. cancer health disparity exists in prostate cancer, with
+African American men having the highest incidence and mortality rates. The
+present study evaluated the effects of ZIC2 and the underlying mechanisms
+in the E006 parental African-American cell line that produces tumors at
+accelerated growth rates because of the increase of ZIC2 genes in African-
+American males. We analyzed the experimental research that the
+overexpression of ZIC2 contributes to progression of prostate cancer.
+E006AA cells with overexpressed or suppressed ZIC2 were analyzed to
+determine phenotypic differences, PCR, cell proliferation and immunoblot
+assays. The expression levels of ZIC2 were analyzed by CRISPR-Cas9,
+Western blot and proliferation growth curves. We discovered using these
+experimental techniques to knockout ZIC2, reduced cell proliferation
+occurred. This research investigated the role of ZIC2 in prostate cancer
+progression and the effects of the loss or gain of function of ZIC2 by
+using CRISPR-Cas 9 genome editing technology.
+//
+ID   CLPUB00539
+RA   Cemalovic E.;
+RT   "TLR9 trafficking and signaling.";
+RL   Thesis MSc (2019), Norwegian University of Science and Technology, Norway.
+WW   http://hdl.handle.net/11250/2613199
+DR   Cellosaurus; CVCL_XI46; CAL-1 TLR9 mCherry
+DR   Cellosaurus; CVCL_XI47; THP-1 TLR9 mCherry
+AB   Yes
+Toll-like Receptor 9 (TLR9) is an endosomal receptor found highly
+expressed in B cells and plasmacytoid dendritic cells (pDCs). It is
+activated by unmethylated CpG DNA and synthetic CpG
+oligodeoxyribonucleotides (ODNs) to produce pro-inflammatory cytokines
+(TNFalpha, IL-12) and type I interferons (IFNs). It senses viral and
+bacterial pathogens and activates adaptive immune responses. Dysregulation
+of TLR9 signaling can lead to progression and regression of various
+cancers and autoimmune diseases. Thus, modulation of TLR9 activity is an
+attractive target for immunotherapy. Due to scarcity of pDCs in the blood
+and a lack of a suitable model for studying of TLR9, knowledge about this
+receptor is lacking. The goal of this project was to characterize two
+experimental model cell lines (THP-1 TLR9 mCherry and CAL-1 TLR9 mCherry)
+for in vitro studies of TLR9, use them to study TLR9 expression,
+trafficking and signaling in pDC-like cells and investigate the role of
+Rab11a and Rab39a in these processes. Both cell lines express doxycycline-
+inducible TLR9 mCherry. The results showed that IL-4, GM-CSF-
+differentiated THP-1 TLR9 mCherry cells resemble immature dendritic cells
+in their ability to induce IFNbeta1 and TNFalpha in response to CpG ODNs.
+Undifferentiated CAL-1 TLR9 mCherry cells potently induced IFNbeta1 in
+response to CpG ODNs, validating their pDC-like properties. In IL-4, GM-
+CSF-differentiated THP-1 TLR9 mCherry cells TLR9 was primarily found in
+LAMP1-positive vesicles (late endosomes/lysosomes) before and after
+stimulation, indicating that TLR9 may reside and interact with its ligands
+in late endosomes. In CAL-1 TLR9 mCherry cells, the majority of TLR9
+colocalized with late endosomes/lysosomes before and after stimulation
+with CpG ODN 2216, a CpG ligand thought to signal from early endosomes.
+Stimulation of TLR9 with CpG ODN 2006, a CpG ligand thought to signal from
+late endosomes, in CAL-1 TLR9 mCherry cells led to a decrease in TLR9-
+LAMP1 colocalization, indicating that TLR9 may be signaling and
+interacting with this ligand from other endosomal compartments. Rab11a
+regulates TLR4-induced IRF3 activation and IFNbeta production, but its
+role in TLR9 signaling is unknown. Rab39a has been identified as a
+potential regulator of TLR9 signaling, but its exact role is still unclear.
+The results showed that both Rab11a and Rab39a may potentially play a role
+in TLR9-induced IFNbeta1 signaling in IL-4, GM-CSF-differentiated THP-1
+TLR9 mCherry cells. However, further experiments are required to validate
+these findings. In conclusion, the ability to study TLR9 expression,
+subcellular localization and response upon ligand stimulation, makes both
+THP-1 TLR9 mCherry and CAL-1 TLR9 mCherry cells promising experimental
+models for studying TLR9 signaling and trafficking in vitro.
+//
+ID   CLPUB00540
+RA   Wang C.;
+RT   "Characterization of a model cell line to study Toll-like receptor 9
+RT   signaling and trafficking.";
+RL   Thesis MSc (2019), Norwegian University of Science and Technology, Norway.
+WW   http://hdl.handle.net/11250/2613188
+DR   Cellosaurus; CVCL_XI47; THP-1 TLR9 mCherry
+AB   Yes
+Toll-like receptors (TLRs) are a family of innate immune receptors that
+function to mount an immune response upon recognition of molecules
+associated with infection or injury. Toll-like receptor 9 (TLR9) is
+expressed predominantly in endosomes of plasmacytoid dendritic cells
+(pDCs), where it is responsible for recognition of unmethylated CpG DNA
+derived from virus or bacteria. Activated TLR9 initiates immune responses
+which are important in antiviral immunity. Upon activation, TLR9 locates
+to early endosomes and initiates the production of interferons (IFNs)
+through transcription factor IRF7. Further sorting of TLR9 to late
+endosomes stimulates the production of proinflammatory cytokines like
+TNFalpha and IL-12B through transcription factor NF-kappaB. In pDCs, TLR9
+can trigger potent anti-tumor immunity, however, the receptor has also
+been found involved in driving tumor progression. Since pDCs are rare in
+the human blood, this project sought to establish and characterize a model
+cell system that resembles human pDCs. A THP-1 cell line with inducible
+expression of TLR9 mCherry was characterized and optimized for studying
+TLR9 signaling and trafficking. Different differentiation protocols were
+applied to the THP-1 TLR9 mCherry cells before cells were induced to
+express TLR9 and stimulated with CpG. PMA differentiation of these cells
+failed to produce a potent IFNbeta1 response in response to CpG. In
+contrast, GM-CSF and IL-4-differentiated and undifferentiated THP-1 TLR9
+mCherry cells mimicked pDC responses and induced marked levels of
+IFNbeta1, as well as TNFalpha, in response to CpG. Previous findings in
+HEK293 cells indicated a role for the GTPase Rab39a in TLR9 signaling.
+Undifferentiated THP-1 TLR9 mCherry cells were used as a model cell line
+for studying how Rab39a silencing might affect TLR9 signaling. siRNA
+experiments targeting Rab39a revealed an increased tendency of IFNbeta1
+and TNFalpha mRNA levels in response to CpG in undifferentiated THP-1 TLR9
+mCherry cells. Combined, this project provides a novel model system to
+study TLR9 signaling and trafficking and suggests that Rab39a might be
+involved in regulation of signaling from TLR9.
+//
+ID   CLPUB00546
+RA   Seo H.-Y.;
+RT   "Establishment and characterization of 28 human lung cancer cell lines
+RT   derived from pleural effusions.";
+RL   Thesis MSc (2019), Seoul National University College of Medicine, South Korea.
+WW   http://hdl.handle.net/10371/161541
+DR   https://web.expasy.org/cgi-bin/cellosaurus/search?input=CLPUB00546
+AB   Yes
+Although lung cancer is a common disease, its diagnosis remains poor.
+While the incidence of lung cancer has decreased in western countries,
+lung cancer rates are predicted to increase generally in Asia. Studies
+investigating the mutation patterns of Asian cases compared with Caucasian
+types, lack adequate resources. Especially, lung cancer cell lines that
+are acquired from pleural effusion exudates are rare in cell line models.
+Pleural effusions in patients with NSCLC show progressive status and
+malignant features. In our study, 28 lung cancer cell lines derived from
+pleural effusions were newly established and their cellular and molecular
+characteristics were analyzed. Representative mutations in BRAF, EGFR,
+ERBB2, FGFR4, KRAS and TP53 as well as fusions such as ALK, CD74 and RET
+genes were detected and validated. Based on mutation profiles, drug
+sensitivities to gefitinib, erlotinib and crizotinib were measured. Cell
+lines that carry target mutations to each drug are generally sensitive.
+Cell lines originating from pleural effusions are relatively more
+resistant than cell lines derived from tissues that harbor similar
+mutation. Analysis of mutational pattern and drug sensitivity of these
+cell lines can facilitate database construction for case study. Expression
+levels of specific oncoproteins such as ERK, ERBB2, c-MET and PTEN were
+detected in our cell lines. EMT markers such as EpCAM, E-cadherin, N-
+cadherin and Vimentin were also detected. These 28 well characterized lung
+cancer cell lines originating from malignant pleural effusions support
+studies associated with sensitivity to anti-cancer drugs and
+representative mutations in lung cancers. the few experimental results and
+small patient numbers still limit our knowledge of the acquired resistance
+to crizotinib. To meet this need, we established crizotinib-resistant
+sublines. Their parental cell lines were derived from a pleural effusion
+exudate which was thought to be more aggressive and resistant to anti-
+cancer drugs.
+//
+ID   CLPUB00550
+RA   Benhamron S.;
+RT   "Validating WDR12 as a potential drug target in triple negative breast
+RT   cancer.";
+RL   Thesis MSc (2019), University of Toronto, Canada.
+WW   https://tspace.library.utoronto.ca/handle/1807/97854
+DR   Cellosaurus; CVCL_YJ25; MCF-7 shWDR12-4
+DR   Cellosaurus; CVCL_YJ26; MDA-MB-231 shWDR12-4
+DR   Cellosaurus; CVCL_YJ27; MDA-MB-468 shWDR12-4
+DR   Cellosaurus; CVCL_YJ28; SK-BR-3 shWDR12-4
+DR   Cellosaurus; CVCL_YJ29; ZR-75-1 shWDR12-4
+AB   Yes
+Compared to other breast cancers (BC), triple negative breast cancers
+(TNBCs) confer lower survival and higher disease recurrence. TNBCs lack
+receptors targeted by current therapies, requiring new therapeutic target
+identification. Recently, the ribosome biogenesis protein WDR12 was
+identified as a potential target from RNAi databases. WDR12 belongs to the
+WD40-repeat family of scaffolding proteins, which have become interesting
+targets due to their druggable structure. I hypothesized that TNBC cell
+lines would be more sensitive to WDR12 knockdown (KD) due to their
+increased rate of ribosome biogenesis. WDR12 depletion led to decreased
+proliferation in all BC cell lines that could not be attributed to
+apoptosis or cell cycle arrest. Interestingly, WDR12 KD decreased
+nucleolar size to a greater extent in TNBC, indicating a potential role
+for WDR12 in ribosome biogenesis. In conclusion, WDR12 may be a promising
+therapeutic target in TNBC, although additional confirmatory testing will
+be required.
+//
 ID   CLPUB00262
 RA   Gold M.;
 RT   "A conspiracy of cells. One woman's immortal legacy and the medical
@@ -12828,7 +13214,46 @@ DR   Cellosaurus; CVCL_N712; TC 526
 DR   Cellosaurus; CVCL_N713; TC 593
 DR   Cellosaurus; CVCL_N714; TC 620
 DR   Cellosaurus; CVCL_5G73; TC 691
-AB   No
+AB   Yes
+Although a great deal is known about the ultrastructure of both normal and
+neoplastic cells of neuroectodermal origin, our appreciation of the three-
+dimensional architecture and relationships of various neurons and glial
+cells rests largely on classic light microscopic studies employing silver
+impregnations of Golgi and Cajal. Ultrastructural serial sectioning
+techniques have also been combined with computer assisted reconstruction
+methods to further extend some of these relationships, e.g., synaptic
+contacts of a neuron in well-defined anatomical systems. An alternate
+complementary approach to three-dimensional architecture and relationships
+of cells in the nervous system should also be possible utilizing
+techniques of scanning electron microscopy (SEM). However, in order to
+visualize cells with this technique, cells must either be isolated or
+fractured in situ for examination. Isolation of cells from the central
+nervous system (CNS) may significantly truncate or distort the processes
+of cells as well as result in artefactual changes in their surfaces.
+Cleavage of CNS tissue along natural fracture planes, as freeze fracture,
+also gives only a limited plane of view in which many processes of a cell
+are incompletely visualized, and in SEM the interpretation of surfaces
+cleaved after critical point drying, and the various artefacts created by
+such methods, are not well established and thus preclude definitive
+interpretation.
+
+Tissue culture would seem to present a more ideal starting point for
+surface studies and visualization of relationships between different cells.
+Growth patterns of various neuroectodermal elements can be studied after
+there is repair of the initial damage incurred during cellular isolation.
+The temporal development, or morphological changes in particular cells in
+the living state, may be followed by light microscopy and then selected
+for SEM evaluation. Finally, in isolated defined tissue culture systems
+such as those of organotypic culture or monolayer culture, selected cells
+may be exposed to agents or isotopes under controlled experimental
+conditions for further evaluation of given morphological states. Tissue
+culture, however, represents only one starting point since the most
+exquisite anatomical definitions are lost, and only selected special
+cellular elements are capable of growth and maintenance in such systems, i.
+e., embryonic and fetal CNS, and tumor cells. The purpose of this chapter
+is to describe similarities and differences clarified by SEM in identified
+developing neurons and glial cells in culture with their "transformed"
+counterparts, neuronal and glial neoplasms in culture.
 //
 ID   CLPUB00429
 RA   Gerber H., Peter H.-J., Bosiger J., Studer H., Drews R., Ferguson D.C.,

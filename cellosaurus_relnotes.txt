@@ -6,36 +6,30 @@
    \_____\___|_|_|\___/|___/\__,_|\__,_|_|   \__,_|___/
 
 
-This is the release notes for Cellosaurus version 32 of September 2019.
+This is the release notes for Cellosaurus version 33 of December 2019.
 
 1) Statistics
 
-114697 cell lines (85532 human, 20061 mouse, 2127 rat)
-   631 species represented
- 75209 synonyms
-339808 cross-references to 89 ontologies, databases, catalogs, etc.
-108796 references to 18232 distinct publications (papers, patents, theses, etc.)
- 18974 web links
+117636 cell lines (87495 human, 20817 mouse, 2131 rat)
+   669 species represented
+ 78709 synonyms
+343275 cross-references to 89 ontologies, databases, catalogs, etc.
+110953 references to 18758 distinct publications (papers, patents, theses, etc.)
+ 20724 web links
 
-  6757 human, mouse and dog cell lines with STR profiles (from 454 distinct sources)
+  6874 human, mouse and dog cell lines with STR profiles (from 478 distinct sources)
 
-Since the last release 1122 new entries were created and 3344 were updated
+Since release 32 of September 2019:
+  2943 entries were created
+  6049 entries were updated
 
-2) Changes in the DR lines
+2) Change in the distribution licence of the Cellosaurus
 
-2a) Cross-references were added to the PharmacoDB integrative pharmacogenomic
-database.
-
-Corresponding entry in the file cellosaurus_xrefs.txt:
-
-Abbrev: PharmacoDB
-Name  : PharmacoDB integrative pharmacogenomic database
-Server: http://pharmacodb.ca/
-Db_URL: http://pharmacodb.ca/cell_lines/%s
-Cat   : Chemistry resources
-
-Example:
-DR   PharmacoDB; 105KC_1_2019
+We changed the licence of the Cellosaurus from the Creative Commons
+Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0) licence to the
+Attribution 4.0 International (CC BY 4.0) licence which is conformant with
+the "Open Definition" for content and data from the Open Knowledge
+Foundation.
 
 ----------------------------------------
 Amos Bairoch

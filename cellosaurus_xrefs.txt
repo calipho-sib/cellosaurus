@@ -4,8 +4,8 @@
 ----------------------------------------------------------------------------
 
  Description: Cellosaurus: cross-referencing to external resources
- Version: 32.0
- Last update: 06-September-2019
+ Version: 33.0
+ Last update: 19-December-2019
 
 ----------------------------------------------------------------------------
 
@@ -412,7 +412,7 @@ Abbrev: GDSC
 Name  : Genomics of Drug Sensitivity in Cancer Project
 Server: http://www.cancerrxgene.org
 Db_URL: http://www.cancerrxgene.org/translation/CellLine/%s
-Cat   : Cell line databases/resources
+Cat   : Chemistry resources
 //
 Abbrev: GEO
 Name  : Gene Expression Omnibus
