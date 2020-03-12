@@ -25,7 +25,7 @@ For each cell line we provide the following information:
 - A unique accession number.
 - Structured comments that are describe a number of topics such as: contaminated cell lines, misspellings, breed/subspecies a cell line is derived from, gene transfection, metastatic or sampling site for cancer cell lines, transformant, population doubling time, HLA typing, sequence variations, etc.
 - For cell lines originating from a diseased patient/animal, we provide the NCI Thesaurus entry code for the disease(s) that the individual from which the cell line originated was suffering from. For human rare diseases we also provide the ORDO entry code of the disease.
-- For human and dog cell lines where this information is available, we provide the STR (short tandem repeat) profile information.
+- For human, mouse and dog cell lines where this information is available, we provide the STR (short tandem repeat) profile information.
 - The species of origin.
 - If a cell line originate from another one we provide a link to the parent cell line.
 - If a cell line originate from the same individual as other cell line(s) (sister cell lines) cross-reference to these sister cell line(s) are provided.
