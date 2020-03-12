@@ -4,8 +4,8 @@
 ----------------------------------------------------------------------------
 
  Description: Cellosaurus: cross-referencing to external resources
- Version: 33.0
- Last update: 19-December-2019
+ Version: 34.0
+ Last update: 12-March-2020
 
 ----------------------------------------------------------------------------
 
@@ -90,7 +90,7 @@ Where : Resource_abbrev is one of: ChEBI|NCBI_TaxID|NCIt|PubChem
 4) DI lines
 
 Format: DI   Resource_abbrev; %s; Disease_name
-Where : Resource_abbrev is: NCIt
+Where : Resource_abbrev is one of: NCIt|ORDO
 
 5) OX lines
 
@@ -143,7 +143,7 @@ Cat   : Cell line collections
 Abbrev: BCGO
 Name  : Beta Cell Genomics Ontology
 Server: https://github.com/obi-bcgo/bcgo
-Db_URL: http://purl.obolibrary.org/obo/%s
+Db_URL: http://www.ontobee.org/ontology/BCGO?iri=http://purl.obolibrary.org/obo/%s
 Cat   : Ontologies
 //
 Abbrev: BCRC
@@ -266,13 +266,13 @@ Cat   : Cell line databases/resources
 Abbrev: CLO
 Name  : Cell Line Ontology
 Server: http://www.clo-ontology.org
-Db_URL: http://purl.obolibrary.org/obo/%s
+Db_URL: https://www.ebi.ac.uk/ols/ontologies/clo/terms?iri=http://purl.obolibrary.org/obo/%s
 Cat   : Ontologies
 //
 Abbrev: CLS
 Name  : Cell Lines Service
-Server: http://www.clsgmbh.de
-Db_URL: http://www.clsgmbh.de/%s.html
+Server: https://www.clsgmbh.de
+Db_URL: https://www.clsgmbh.de/%s.html
         Note: %s is the value after the slash "/" in the DR line.
         Example: for "DR   CLS; 400294/p2677_MSC-P5": %s=p2677_MSC-P5
 Cat   : Cell line collections
@@ -291,14 +291,14 @@ Cat   : Cell line collections
 //
 Abbrev: Cosmic
 Name  : Catalogue of somatic mutations in cancer
-Server: http://cancer.sanger.ac.uk/cosmic
-Db_URL: http://cancer.sanger.ac.uk/cosmic/sample/overview?id=%s
+Server: https://cancer.sanger.ac.uk/cosmic
+Db_URL: https://cancer.sanger.ac.uk/cosmic/sample/overview?id=%s
 Cat   : Polymorphism and mutation databases
 //
 Abbrev: Cosmic-CLP
 Name  : COSMIC Cell lines Project
-Server: http://cancer.sanger.ac.uk/cell_lines
-Db_URL: http://cancer.sanger.ac.uk/cell_lines/sample/overview?id=%s
+Server: https://cancer.sanger.ac.uk/cell_lines
+Db_URL: https://cancer.sanger.ac.uk/cell_lines/sample/overview?id=%s
 Cat   : Cell line databases/resources
 //
 Abbrev: dbMHC
@@ -327,8 +327,8 @@ Cat   : Cell line collections
 //
 Abbrev: DOI
 Name  : Digital Object Identifier
-Server: http://dx.doi.org
-Db_URL: http://dx.doi.org/%s
+Server: https://dx.doi.org
+Db_URL: https://dx.doi.org/%s
 Cat   : Reference resources
 //
 Abbrev: DSMZ
@@ -346,7 +346,7 @@ Cat   : Chemistry resources
 Abbrev: eagle-i
 Name  : eagle-i resource discovery tool
 Server: https://www.eagle-i.net/
-Db_URL: http://%s
+Db_URL: https://%s
 Cat   : Biological sample resources
 //
 Abbrev: EBiSC
@@ -410,8 +410,8 @@ Cat   : Organism-specific databases
 //
 Abbrev: GDSC
 Name  : Genomics of Drug Sensitivity in Cancer Project
-Server: http://www.cancerrxgene.org
-Db_URL: http://www.cancerrxgene.org/translation/CellLine/%s
+Server: https://www.cancerrxgene.org
+Db_URL: https://www.cancerrxgene.org/translation/CellLine/%s
 Cat   : Chemistry resources
 //
 Abbrev: GEO
@@ -464,8 +464,8 @@ Cat   : Cell line databases/resources
 //
 Abbrev: IGSR
 Name  : International Genome Sample Resource
-Server: http://www.internationalgenome.org/
-Db_URL: http://www.internationalgenome.org/data-portal/sample/%s
+Server: https://www.internationalgenome.org/
+Db_URL: https://www.internationalgenome.org/data-portal/sample/%s
 Cat   : Biological sample resources
 //
 Abbrev: IHW
@@ -542,8 +542,8 @@ Cat   : Cell line databases/resources
 //
 Abbrev: Lonza
 Name  : Lonza Cell and Transfection Database
-Server: http://knowledge.lonza.com
-Db_URL: http://knowledge.lonza.com/cell?id=%s
+Server: https://knowledge.lonza.com
+Db_URL: https://knowledge.lonza.com/cell?id=%s
 Cat   : Cell line databases/resources
 //
 Abbrev: MCCL
@@ -572,8 +572,8 @@ Cat   : Organism-specific databases
 //
 Abbrev: Millipore
 Name  : Merck Millipore (EMD Millipore)
-Server: http://www.merckmillipore.com/
-Db_URL: http://www.merckmillipore.com/catalogue/item/%s
+Server: https://www.merckmillipore.com/
+Db_URL: https://www.merckmillipore.com/catalogue/item/%s
 Cat   : Cell line collections
 //
 Abbrev: MMRRC
@@ -626,6 +626,12 @@ Server: https://web.archive.org/web/20160709065305/https://www.gene.affrc.go.jp/
 Db_URL: None
 Cat   : Cell line collections
 //
+Abbrev: ORDO
+Name  : Orphanet Rare Disease Ontology
+Server: https://www.ebi.ac.uk/ols/ontologies/ordo
+Db_URL: https://www.ebi.ac.uk/ols/ontologies/ordo/terms?iri=http://www.orpha.net/ORDO/%s
+Cat   : Ontologies
+//
 Abbrev: Patent
 Name  : Google Patents
 Server: https://patents.google.com
@@ -634,8 +640,8 @@ Cat   : Reference resources
 //
 Abbrev: PharmacoDB
 Name  : PharmacoDB integrative pharmacogenomic database
-Server: http://pharmacodb.ca/
-Db_URL: http://pharmacodb.ca/cell_lines/%s
+Server: https://pharmacodb.ca/
+Db_URL: https://pharmacodb.ca/cell_lines/%s
 Cat   : Chemistry resources
 //
 Abbrev: PRIDE
@@ -658,8 +664,8 @@ Cat   : Reference resources
 //
 Abbrev: RCB
 Name  : RIKEN Bioresource Center Cell Bank
-Server: http://cell.brc.riken.jp/en/rcb
-Db_URL: http://cellbank.brc.riken.jp/cell_bank/CellInfo/?cellNo=%s&lang=En
+Server: https://cell.brc.riken.jp/en/rcb
+Db_URL: https://cellbank.brc.riken.jp/cell_bank/CellInfo/?cellNo=%s&lang=En
 Cat   : Cell line collections
 //
 Abbrev: RGD
@@ -714,8 +720,8 @@ Cat   : Cell line databases/resources
 //
 Abbrev: UniProtKB
 Name  : UniProt knowledgebase
-Server  http://www.uniprot.org
-Db_URL: http://www.uniprot.org/uniprot/%s
+Server  https://www.uniprot.org
+Db_URL: https://www.uniprot.org/uniprot/%s
 Cat   : Sequence databases
 //
 Abbrev: VGNC

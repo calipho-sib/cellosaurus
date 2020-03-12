@@ -4,8 +4,8 @@
 ----------------------------------------------------------------------------
 
  Description: CelloPub, Cellosaurus publications
- Version: 33.0
- Last update: 19-December-2019
+ Version: 34.0
+ Last update: 12-March-2020
 
 ----------------------------------------------------------------------------
 ID   CLPUB00222
@@ -414,6 +414,21 @@ conversion of P388 into a reticulum cell sarcoma has been repeated twice,
 the "derived" lines in the three instances showing characteristics
 differing only slightly from one another, and all three being thus far
 continuously cultivated.
+//
+ID   CLPUB00555
+RA   Valensin P.E., Di Caraino M.L., Figura N.;
+RT   "Altered sensitivity to animal viruses as a phenotypic expression of
+RT   the oncogenic transformation of human cells.";
+RL   Ann. Sclavo 18:883-884(1976).
+DR   Cellosaurus; CVCL_YU09; WI-38 (HSV-2)Tr
+DR   Cellosaurus; CVCL_5605; WI-38 Tr
+AB   Yes
+The present research is aimed at the characterization of two transformed
+human cell lines, derived from WI-38 cells, originally infected, and not,
+with Herpesvirus hominis of subtype 2 (HSV-2). Of the two cell lines,
+indicated respectively with the abbreviations WI-38Tr and WI-38 (HSV-2)
+Tr, high oncogenic activity and typical cell dimorphism (fibroblastic and
+epithelial-like elements) have already been described.
 //
 ID   CLPUB00460
 RA   Pays A., Picard J.-J.;
@@ -1057,182 +1072,6 @@ EuHe cells stained with Wright. The EuHe cell line is suitable for
 studying the nature of B lymphomas and testing compounds against
 lymphoproliferative disorders.
 //
-ID   CLPUB00252
-RA   Keats J.J., Arendt B.K., Braggio E., Barrett M., Price-Troska T.L.,
-RA   Fonseca R., Bergsagel P.L., Jelinek D.F.;
-RT   "Comparison of multiple myeloma donor patient samples and derived cell
-RT   lines identifies a confirmed hyperdiploid myeloma cell line and
-RT   demonstrates remarkable genetic similarity between cell lines and
-RT   patient samples.";
-RL   Blood 112 Suppl. 1:2732a-2732a(2008).
-WW   http://www.bloodjournal.org/content/112/11/2732?sso-checked=true
-DR   Cellosaurus; CVCL_M525; ALMC-1
-DR   Cellosaurus; CVCL_M526; ALMC-2
-AB   Yes
-Our understanding of the molecular pathogenesis of myeloma is largely
-based on observations made from the available human myeloma cell lines.
-Cell lines have proved invaluable to the characterization of the known
-immunoglobulin translocations, recurrent deletions and amplifications, and
-the development of novel therapies. However, it has long been perceived
-that the cell lines are not representative of patient samples as they
-often have complex genomes and not even a single cell line has been
-described with a typical hyperdiploid karyotype. The absence of a
-hyperdiploid model system is significant as conventional cytogenetic
-studies of myeloma patient samples has established that patients can be
-almost evenly split into two broad categories of hyperdiploid and
-non-hyperdiploid based on their chromosome counts, with the hyperdiploid
-patients having recurrent trisomies of chromosomes 3, 5, 7, 9, 11, 15, 19,
-and 21 plus periodic gains of 1q, 18, 20 and loss of 13. Though all of the
-cell lines have abnormal genomes none of the previously tested cell lines
-had the characteristic pattern of chromosomal gains seen in hyperdiploid
-patients and the majority have immunoglobulin translocations, which are
-more commonly associated with non-hyperdiploid patients. These
-observations have provided the basis for the assumption that the cell
-lines are only representative of the non-hyperdiploid patient population.
-Furthermore, even though very few cell lines have been directly compared
-to the patient sample from which they were derived it is widely believed
-that the cell line genomes are unstable and have diverged significantly
-from the patient samples from which they were derived.
-
-Therefore, we decided to compare patient-cell line pairs available from
-the Mayo Clinic using Agilent 244k array-based comparative genomic
-hybridization (aCGH) and Affymetrix U133Plus2.0 gene expression profiling
-and repeated the analysis of our previously studied 46 cell lines on the
-higher resolution Agilent 244k platform. To date we have completed the
-analysis of four patient cell line pairs (ALMC-1; ALMC-2; KP-6; KAS-6/1,
-KAS-6/2) and have repeated our entire cell line panel on the higher
-resolution array. Four additional patient-cell line pairs (DP-6, JMW-1,
-SPMC, and VPC-6) are currently being completed.
-
-The first compelling observation from this study was that the patient
-sample from which KP-6 was derived is a perfect match to the
-characteristic hyperdiploid karyotype with a CGH defined karyotype (51,
-XY, -1p, +1q, +3, +7, +11, -13, +15, -16q, -17p, +19, +21). The KP-6 cell
-line showed a similar aCGH defined karyotype (50, X, -Y, -1p, +1q, +3q,
-+7, -8p, +9p, +11, +15, -16q, -17p, +17q, +19, +21) with the most
-significant changes occurring on the trisomic chromosomes as many
-transitioned from trisomies to single arm gains. Therefore, KP-6 appears
-to be the first myeloma cell line derived from a patient with a
-characteristic hyperdiploid phenotype. The ALMC patient cell line series
-is comprised of patient samples at diagnosis and relapse and cell lines
-derived from both stages. The two patient-cell line pairs only show five
-and two aCGH definable changes, respectively. In comparison the two
-matched patient sample pairs have diverged at six regions in the genome.
-The KAS patient-cell line series is actually two cell lines derived from
-pre-(KAS-6/1) and post-transplant (KAS-6/2) samples and the KAS-6/2
-matching post-transplant patient sample. The comparison of the paired
-patient sample and derived cell line shows only four aCGH detectable
-changes. Similarly, there are only three changes between the KAS-6/1 cell
-line and post-transplant patient sample suggesting that the evolution of
-this tumor in both the patient and tissue culture is very limited.
-
-In conclusion, this study has identified the first bona fide hyperdiploid
-cell line, thereby providing a valuable investigative tool to better
-understand the biological differences between the two broad genetic
-categories of myeloma. Moreover, we demonstrate that the genomes of
-myeloma cell lines are typically stable and highly representative of the
-patient sample that was placed into culture to establish the cell line
-thereby validating their use in the study of this disease.
-//
-ID   CLPUB00017
-RA   Tsunekawa N., Hanamura I., Yamamoto H., Nagoshi H., Wakabayashi M.,
-RA   Sakamoto N., Horio T., Gotoh M., Mizuno S., Takahashi M., Suganuma K.,
-RA   Goto M., Hiramatsu A., Watarai M., Shikami M., Imamura A., Mihara H.,
-RA   Taki T., Taniwaki M., Miwa H., Nitta M.;
-RT   "Establishment and characterization of a novel human cell line of
-RT   triple hit lymphoma, AMU-ML1, carrying t(2;18)(p11.2;q21) and
-RT   t(3;8;14)(q27;q24;q32) that involve BCL2, BCL6 and MYC.";
-RL   Blood 118 Suppl. 1:5210a-5210a(2011).
-WW   http://www.bloodjournal.org/content/118/21/5210?sso-checked=true
-DR   Cellosaurus; CVCL_M583; AMU-ML1
-AB   Yes
-Mature B-cell lymphomas with both BCL2 and MYC translocations to IG loci
-are rarely identified and most of them are classified as B-cell lymphoma,
-unclassifiable, with features intermediate between diffuse large B-cell
-lymphoma and Burkitt lymphoma (IL) in the new World Health Organization
-classification. In this study, we established a novel human lymphoma cell
-line, AMU-ML1, from pericardial effusion (PE) of a patient with IL before
-the initiation of chemotherapy and analyzed its characters. A 60-year-old
-male was admitted to our hospital because of PE and diagnosed as having IL
-from the atypical lymphocytes in PE. He was treated with rituximab plus
-hyper-CVAD and other regimens but died of lymphoma approximately 10 months
-after diagnosis without reaching complete remission. The cells from
-patient's PE at diagnosis were cultured in RPMI 1640 supplemented with 20%
-heat-inactivated fetal bovine serum (FBS). After 5 months of culture, cell
-proliferation became continuous with 10% FBS and the cell line was
-designated as AMU-ML1 (Aichi Medical University, malignant lymphoma, no.1)
-after confirmation that the cells began growing again after the
-conventional freeze-thaw procedure. AMU-ML1 cells were positive for CD10,
-CD19, CD20, CD79a, HLA-DR and cytoplasmic lambda chain and negative for
-CD3, CD4, CD5, CD8, CD13, CD23, CD33 and CD56 by flow cytometry analysis
-and showed a complex karyotypes including t(2;18)(p11.2;q21) and t(3;8;
-14)(q27;q24;q32) by G-banding analysis. This profile is consistent with
-the profile of the patient's cells. Spectral karyotyping and fluorescent
-in situ hybridization analysis of AMU-ML1 cells revealed that
-t(2;18)(p11.2;q21) was IGL/BCL2 and t(3;8;14)(q27;q24;q32) was BCL6/MYC,
-MYC/IGH and IGH/BCL6. Subcutaneous transplantation of AMU-ML1 cells into
-NOD/scid mice treated with anti-asialo GM1 antibody resulted in formation
-of primary tumors. Thus, the AMU-ML1 cell line is useful for studying the
-biological consequences of IL with triple hit of BCL2, BCL6 and MYC, and
-possibly invasion to PE of lymphoma.
-//
-ID   CLPUB00356
-RA   Wang L.-Q., Liu Q., Li H., Li L.-Z., Wang X.;
-RT   "The establishment of bortezomib resistant myeloma cell line KM3/BTZ
-RT   and explore the resistance mechanism.";
-RL   Blood 124 Suppl. 1:5226a-5226a(2014).
-WW   http://www.bloodjournal.org/content/124/21/5226?sso-checked=true
-DR   Cellosaurus; CVCL_GZ66; KM3/BTZ
-AB   Yes
-Background: Multiple myeloma (MM) is an incurable B-cell malignancy
-resulting in significant morbidity and mortality, the incidence of second
-place in hematological malignancies. The proteasome inhibitor bortezomib
-inhibits IkappaB degradation, prevents NF-kappaB activation, and induces
-apoptosis in MM cells, has become first-line drug to MM. Despite its
-promising activity in traditional chemoresistant myeloma patients,
-however, some patients are resistant or become refractory to bortezomib.
-Chauhan D et al reported that Blockade of Hsp27 overcomes bortezomib
-resistance in lymphoma cells (Chauhan D et al., Cancer Res., 2003).
-However, bortezomib resistance mechanisms in MM remain controversial, the
-molecular basis of this reduced responsiveness is currently not fully
-understood. Objective: To establish a bortezomib-resistant cell line
-KM3/BTZ of MM, then search for genes related to bortezomib resistance
-phenotype by analyzing the differential gene expression patterns with cDNA
-microarray, and explain the mechanism of bortezomib-resistant multiple
-myeloma.
-
-Methods: Bortezomib-resistant KM3/BTZ cell line was generated by
-increasing concentration of bortezomib to induce KM3 cells in vitro. MTT
-assay was employed to detect the cytotoxic effect on KM3 and KM3/BTZ cells.
-The cells apoptosis were analyzed by flow cytometry. We detect the gene
-expression profile changes between KM3/BTZ and its parent cell line KM3
-cells by cDNA microarray. Combining of molecular annotation system MAS3.0
-software and detailed analysis of documented resistance genes were used to
-analyze the data. Specific differentially expressed genes were chosen for
-further verification using real-time RT-PCR. The expression of multi-drug
-resistance 1 (MDR-1) gene mRNA was determined by RT-PCR.
-
-Results: The KM3/BTZ cell line was established successfully. Bortezomib
-resistance index values were significantly higher in KM3/BTZ (IC50 =351.2
-+- 3.51ng/ml) when compared to KM3 cells (IC50 = 17.8 +- 1.03ng/ml), and the
-resistance index is 19.7 (p<0.05). Through gene expression profiling
-filtering, compared with KM3, 770 significantly differently expressed
-genes were screened out in the KM3/BTZ cell line, of which up and down
-regulated genes were 287 and 383 respectively, in which heat shock protein
-family gene HSPB2 was significantly upregulated (Ratio=14.7455).
-Downregulated gene list in KM3/BTZ cell line included transcriptional
-regulators like ZNF family proteins. Upregulated genes in KM3/BTZ cell
-line included signal transduction related genes like MS4A family protein
-also transcriptional regulators like ZNF family proteins. The expression
-trend of eight genes for further verification was almost consistent with
-the microarray, excepting gene of JUN. The expression of MDR-1 mRNA was
-not observed in either resistant or parental cells.
-
-Conclusion: We have successfully established bortezomib-resistant cell
-line KM3/BTZ. MDR-1 was not involved in bortezomib-resistant multiple
-myeloma cells. HSPB2, ZNF and MS4A family genes are probably related to
-bortezomib.
-//
 ID   CLPUB00509
 RA   Gramatzki M., Grunert C., Koch B., Burmester G.R., Kalden J.R.;
 RT   "Monoclonal antibodies developed for diagnosis of T cell and very
@@ -1647,32 +1486,6 @@ Lymantria dispar L. The "fibroblast" type cells, which are partially
 floating in the medium, were found to be susceptible to various
 baculoviruses, entomopoxvirus and iridovirus. The cell line is already
 widely used in experimental pathology.
-//
-ID   CLPUB00158
-RA   Anagnostopoulos A.K., Vougas K., Kolialexi A., Mavrou A.,
-RA   Fountoulakis M., Tsangaris G.M.;
-RT   "The protein profile of the human immature T-cell line CCRF-CEM.";
-RL   Cancer Genomics Proteomics 2:271-299(2005).
-WW   http://cgp.iiarjournals.org/content/2/5/271.short
-DR   Cellosaurus; CVCL_0207; CCRF-CEM
-AB   Yes
-The human immature T-cell line CCRF-CEM is widely used for all kinds of in
-vitro studies in biochemistry, biology, toxicology and medicine. Knowledge
-about protein expression is limited and no comprehensive study on the
-proteome of this cell type has been reported to date. Proteomics
-technologies were applied in order to analyse the proteins of the CEM cell
-line. The proteins were separated by two-dimensional (2-D) gel
-electrophoresis and analysed by MALDI-MS and MALDI-MS-MS following in-gel
-digestion with trypsin and, finally, protein identification was carried
-out by peptide mass fingerprint (PMF) and post source decay (PSD),
-respectively. Approximately 4,500 spots, excised from four 2-D gels, were
-analysed. The analysis resulted in the identification of about 1,150
-proteins, the products of 451 different genes. The majority of the
-identified proteins were enzymes, regulatory proteins and transporters,
-while leukocyte markers and oncogenes were also included. The CCRF-CEM
-cell database today represents one of the largest 2-D databases for
-eukaryotic proteomes, forming the basis for future expressional studies at
-the protein level.
 //
 ID   CLPUB00087
 RA   Inomata M., Sasaki M.S., Hirota T., Itabashi M., Tsumuraga M.,
@@ -3880,7 +3693,7 @@ multilayering without contact inhibition. The cells formed gland-like
 structures in vitro. The population doubling time was 83 hours. The
 chromosomes showed a wide distribution of aneuploidy, the mode was in the
 hypo-triploid range, and many marker chromosomes were observed. The cells
-produced a large amount of CEA and TPA but were not able to be transplant
+produced a large amount of CEA and TPA but were not able to be transplanted
 into the nude mouse.
 //
 ID   CLPUB00153
@@ -5375,6 +5188,7 @@ RT   lines.";
 RL   J. Gynecol. Oncol. Rep. China 4:15-19(1998).
 WW   https://tmu.pure.elsevier.com/zh/publications/the-expression-of-transforming-growth-factors-in-three-ovarian-ce
 DR   Cellosaurus; CVCL_GT34; OC-109-VGH
+DR   Cellosaurus; CVCL_GT35; OC-117-VGH
 AB   No
 //
 ID   CLPUB00151
@@ -7426,7 +7240,9 @@ strongly positive with MZ-CRC-1. This is the second known human medullary
 thyroid cancer cell line established in tissue culture.
 //
 ID   CLPUB00545
-RA   McLemore T.L., Alley M.C., Liu M.C.;
+RA   McLemore T.L., Alley M.C., Liu M.C., Hubbard W.C., Adelberg S.,
+RA   Czerwinski M.J., Yu S., Stinson S., Storeng R., Eggleston J.C.,
+RA   Boyd M.R.;
 RT   "Histopathologic, biochemical, and molecular genetic characterization
 RT   of four newly established pulmonary carcinoma cell lines.";
 RL   Proc. Am. Assoc. Cancer Res. 30:225-225(1989).
@@ -7434,7 +7250,27 @@ DR   Cellosaurus; CVCL_H642; HOP-18
 DR   Cellosaurus; CVCL_H643; HOP-19
 DR   Cellosaurus; CVCL_YA86; HOP-27
 DR   Cellosaurus; CVCL_1285; HOP-62
-AB   No
+AB   Yes
+Four new human lung cancer cell lines (LCCL) have been developed in vitro
+from surgically resected primary pulmonary carcinoma tissue. These
+include: Hop 18 large cell undifferentiated carcinoma, Hop 19 and 62
+adenocarcinomas, and Hop 27 large cell undifferentiated/small cell mixed
+carcinoma. These 4 new LCCL have been extensively characterized according
+to their individual histologic, cytologic, ultrastructural, biochemical
+and molecular genetic features and when possible these characteristics
+were compared with the original tumor specimens from which they were
+derived in order to confirm the authenticity of individual LCCL. Each LCCL
+was generally similar to the original tumor specimens from which they were
+derived, demonstrating that the LCCL have retained their original
+histopathologic, and biochemical characteristics. Individual LCCL were
+biochemically characterized for endogenous prostaglandin biosynthesis as
+well as metabolism of different xenobiotics including 4-ipomeanol and
+benzo(a)-pyrene. Expression of different cytochrome P-450 genes, a multidrug
+resistant gene and glutathione-S-transferase gene were also studied
+in the 4 LCCL as well as DNA fingerprint analyses using variable tandem
+repeat DNA probes. These biochemical and molecular genetic markers were
+effectively used to fingerprint the individual LCCL. These new, well
+characterized LCCL should be useful for study of the biology of human LC.
 //
 ID   CLPUB00240
 RA   Roth B.J., Sledge G.W. Jr., Heerema N.A., Schultz S.;
@@ -9591,6 +9427,148 @@ missense mutations in codon 61 of K-ras (CAT->CAA) and in codon 221
 found. This new IgD cell line may offer a tool to further investigate other
 biologic characteristics that are clinically unique to the rare IgD MM.
 //
+ID   CLPUB00551
+RA   Qi W.-C.;
+RT   "Establishment, identification and application of gonadal cell lines
+RT   from southern catfish (Silurus meridionalis Chen).";
+RL   Thesis MSc (2004), Southwest University, China.
+WW   http://d.oldg.wanfangdata.com.cn/Thesis_Y2574066.aspx
+DR   Cellosaurus; CVCL_9U52; SCO1
+DR   Cellosaurus; CVCL_YL76; SCT1
+AB   Yes
+The establishment of fish cell lines plays an important role in aquatic
+animal virology, environmental toxicology, fish resource protection and
+genetic breeding, and fish endocrinology. Since the establishment of the
+world's first fish cell line, the rainbow trout (Oncorhynchus mykiss)
+gonadal cell line RTG-2, more than 280 cell lines of different tissue
+origin including freshwater fish and marine fish have been established so
+far, but the gonad origin somatic cell lines are relatively rare. Fish
+gonadal cells include granulosa cells, sheath cells, interstitial cells of
+the ovary, and Sertoli cells and Leydig cells of the testis. They play a
+decisive role in the proliferation, differentiation and development of
+germ cells, especially in recent years The focus of stem cell research
+makes the cultivation of gonadal cells and the establishment of cell lines
+particularly necessary. Studies have shown that using zebrafish (Danio
+rerio) gonadal cells as a feeder layer, their reproductive stem cells can
+be cultured in vitro for months. The southern catfish (Silurus meridionalis
+Chen) belongs to the genus Polygonaceae and is a valuable economic fish
+mainly distributed in the middle and upper reaches of the Yangtze River in
+China. It has fast growth speed, tender meat, wide temperature range, and
+strong disease resistance. It has become one of the important farmed fish
+in China. Under natural conditions, the sex ratio of southern catfish
+is about 1:1. Interestingly, the offspring of southern catfish are
+almost all females under artificial breeding conditions. Although this has
+been explored for many years now, its specific mechanism remains to be
+further studied. The establishment of the southern catfish gonadal cell
+line is expected to provide a powerful tool for the study of the culture,
+proliferation and differentiation of germ cells, especially germ stem
+cells, the effects of functional genes and environmental endocrine
+disruptors.
+
+On the other hand, in recent years, more and more reports show that
+environmental estrogen pollution in waters around the world is increasing,
+which has significant effects on human and animal reproductive
+developmental abnormalities, malignant tumors, and metabolic disorders.
+Real-time and efficient monitoring is a prerequisite for preventing and
+controlling its pollution. There are many types of environmental estrogen
+substances, large quantities and small amounts, and their biological
+detection has an irreplaceable status and role. It has been reported that
+the pEGFP-ERa, a eukaryotic expression vector capable of stably expressing
+mammalian estrogen receptor (Estrogen Receptora, ERa) and the true
+expression vector containing four tandem estrogen receptor response
+elements (ERE) The nuclear expression plasmid pGL3-ERE4-luc was co-
+transfected into mammalian cells to monitor the estrogen activity of
+environmental estrogens. This method has the advantages of high
+efficiency, speed, and high sensitivity. However, the expression of the
+environment and related molecules in fish cells is significantly different
+from that of mammalian cells, and the sensitivity to environmental
+estrogen is also significantly different. Therefore, can the above-
+mentioned detection system of mammalian cells reflect the effects of
+environmental estrogen on fish, For further study. In view of this, this
+study mainly carried out two aspects of work. On the one hand, the
+southern catfish ovary and testis somatic cell lines were established and
+their biological characteristics were identified; on the other hand, the
+channel catfish (Ictalurus punctatus) ERa was established. The eukaryotic
+expression vectors pEGFP-ccERa and pGL3-ERE4-luc were co-transformed into
+mammalian cells and fish gonadal cell lines, respectively, and compared
+and analyzed in order to establish a highly sensitive detection system for
+the effects of environmental estrogens on fish. details as follows:
+
+(I) Establishment and biological characteristics of the southern catfish
+ovary and testis somatic cell line
+
+(1) Southern catfish ovary somatic cell line About 3 months old Southern
+catfish ovary tissue was digested with collagenase IV and trypsin-EDTA,
+and contained 15% fetal bovine Serum (FBS), 25 mM Hepes, 1% non-essential
+amino acids, 0.5 mM beta-mercaptoethanol, 10 ng/mL basic fibroblast growth
+factor (bFGF), 1 ng/mL leukemia inhibitory factor (LIF), 500 U/mL L-15
+medium of penicillin, streptomycin, and 5% southern catfish serum was
+cultured at 28 Celsius. The chromosome karyotype analysis, RT-PCR, gene
+transfection and other methods were used to identify its biological
+characteristics. The results showed that: after 2-3 days of isolation and
+culture, fibroblast-like growth began. After about 15 days, a monolayer
+was grown, digested with 0.25% trypsin-EDTA, and subcultured at 1:2. The
+initial cell growth was slower after passage, with an average of 7-passage
+on 10 days, after the passage to the 9th passage, the cell growth is
+accelerated, and the passage is performed on average 3-6 days; the current
+cells have been stably passaged to the 90th passage after 18 months of
+subculture, and named SCO1. SCO1 in different media: (DMEM, L-15,
+DMEM/F12), different blood concentration (5%, 15%, 25%) and culture at
+different temperature conditions (18, 28, 37 Celsius). The results showed
+that the culture was performed at 28 Celsius in L-15 medium of 15% fetal
+bovine serum. SCO1 optimal growth: RT-test results showed the PCR, the
+expression SCO1 Foxl2, Sf1 and Wt1b, do not express Vasa, Wt1a, Cyp19a and
+Dmrt1 (d) The 70th generation SCO1 karyotype analysis results show that
+the chromosome number of more than 80% of the cells is 50-65, of which the
+division phase of 2n=58 accounts for 62%, and shows a normal diploid
+karyotype. The hrGFP-1a plasmid was transfected with SCO1 with TransIT(@)-
+2020. The expression of green fluorescent protein was observed 24 hours
+later. By 48 hours, the expression of the target protein was visible in
+about 30% of the cells.
+
+(2) Southern catfish testis cell line The same method as above was used to
+establish the southern catfish testis cell line. The cell morphology is
+fibroblast-like. It has been cultured for 15 months and has been stably
+passed to the 56th generation. It is named SCT1. Analysis of the
+chromosome number and karyotype of SCT1 at the 19th and 43th generation
+showed that the chromosome number of more than 70% of the cells was 50-65,
+and the division phase of 2n=58 accounted for 52%, showing a normal
+diploid karyotype; RT-PCR The analysis showed that SCT1 expressed Sf1 and
+Foxl2, but not Vasa, Wt1a, Wt1b, Cyp19a, and Dmrt1; pIRES-hrGFP-1a plasmid
+was transfected with SCT1, and about 25% of cells expressed green
+fluorescent protein 48 hours later.
+
+(II) Establishment of environmental estrogen detection system (a) RT-PCR
+cloning and obtaining the full-length cDNA sequence of the estrogen a
+receptor of Ictalurus punctatus, and the eukaryotic expression vector
+pEGFP-ccERa was successfully constructed. (b) pEGFP-ccERa and pGL3-ERE4-
+luc were co-transformed into HEK293 and SCO1, and compared with the human
+estrogen receptor expression vector pEGFP-hERa. The results show that the
+detection limit of E2 in HEK293 cells for pEGFP-hERa is 10-10 mmol/L, 10-9
+mmol/L in SCO1, and pEGFP-ccERa is just the opposite, that is, the
+detection limit of E2 in HEK293 is 10-9 mmol/L, and 10-10 mmol/L in SCO1.
+Therefore, it was shown that pEGFP-ccERa has higher sensitivity to detect
+estrogen luciferase activity in fish cells SCO1 than pEGFP-hERa. (c) 17a-
+methyltestosterone (MT), 17a-ethinylestradiol (EE2), estradiol (E2),
+bisphenol propane with different estrogen-like activity levels at the same
+concentration (10-5 mmol/L) (BPA), nonylphenol (NP), ethylestradiol (DES)
+and octylphenol (OP) treated cells. After 48 h, the relative activity of
+luciferase was measured. The results showed that the relative activity of
+environmental estrogen luciferase The size is consistent with its
+corresponding estrogen activity (ie EE2> E2> DES> BPA> OP> NP> MT), which
+indicates that pEGFP-ccERa can accurately detect the estrogen activity of
+environmental estrogens.
+
+To sum up, this study successfully established the southern catfish ovary
+and testis somatic cell lines, namely SCO1 and SCT1, and successfully
+constructed the P. punctatus estrogen a receptor expression vector pEGFP-
+ccERa, which was co-transformed with pGL3-ERE4-luc into SCO1, thus
+establishing an environmental estrogen detection system. The research not
+only provided the necessary platform and tools for the culture of germ
+cells, especially germline stem cells, and functional genes, etc., but
+also laid an important foundation for the detection of environmental
+estrogens.
+//
 ID   CLPUB00404
 RA   Mokashi A.A.;
 RT   "Characterization of SEM-1, a seminoma cell line.";
@@ -11076,7 +11054,7 @@ kinases. ERBB4 is unique within the ERBB family for alternate splicing in
 its juxtamembrane and cytoplasmic regions, which produces four
 juxtamembrane isoforms and two cytoplasmic isoforms. The cleavable
 juxtamembrane isoforms, Jm-a and Jm-d, can undergo proteolytic cleavage
-and produce an 80-kDa cytoplasmic fragment referred to as “p80” which has
+and produce an 80-kDa cytoplasmic fragment referred to as "p80" which has
 been demonstrated to enhance cellular survival and malignant behavior in
 many solid tumors. ERBB4 was almost exclusively 80 kDa in size and
 localized to the nucleus in primary tumors and metastases in studies
@@ -11505,6 +11483,40 @@ approaches. This thesis research was designed to develop a humpback whale
 derived fibroblast cell culture for species-specific assessment of the
 toxicological impact of priority POPs and other potential stressors.
 //
+ID   CLPUB00552
+RA   Gatinois V.;
+RT   "Pathologies of helicases and premature aging: study by derivation of
+RT   induced pluripotent stem cells.";
+RL   Thesis PhD (2017), Universite de Montpellier, France.
+WW   https://tel.archives-ouvertes.fr/tel-01690758
+WW   http://www.biu-montpellier.fr/florabium/jsp/nnt.jsp?nnt=2017MONTT042
+DR   Cellosaurus; CVCL_XC58; REGUi003-A
+DR   Cellosaurus; CVCL_YM43; REGUi004-A
+DR   Cellosaurus; CVCL_YM44; REGUi005-A
+AB   Yes
+Helicases process the double-stranded DNA dissociation. They are involved
+in replication, DNA repair and maintenance of telomeres. In human, 3
+helicases display mutations responsible for clinical syndromes: WRN for
+the Werner syndrome, BLM for the Bloom syndrome and RECQL4 for the
+Rothmund-Thomson syndrome. All these diseases cause premature ageing and
+high risk of cancer. Molecular and cellular mechanisms involved in these
+diseases are not well defined. Particularly, little is known concerning
+the link between genomic instability and ageing. During this project, we
+used blood samples and skin biopsies of affected patients to generate
+models by reprogramming cells to induced pluripotent stem cells (iPSCs).
+These cells have the advantage of self-renewing and theoretically could be
+differentiated in all cell types. At the same time, an iPSC senescence
+control was performed from cells of a Hutchinson-Gilford Progeria syndrome
+patient. iPSCs were characterized for pluripotency. In the aim of
+recapitulate these pathologies in vitro, we identified sets of cellular
+and molecular phenotypes. We also engaged differentiation of iPSCs in cell
+pathways closed to the affected tissues in vivo. Finally, we studied the
+genomic stability of iPSCs and derived cells. We observed that Bloom cells
+are susceptible to frequent recombinations and are characterized by a
+genome instability through all studied cell types. Werner cells showed an
+instability of telomeres length. Finally, all premature ageing diseases
+displayed mitochondrial defects.
+//
 ID   CLPUB00486
 RA   Thellman N.M.;
 RT   "A human neuronal model for herpes simplex virus latency and
@@ -11760,6 +11772,76 @@ nucleolar size to a greater extent in TNBC, indicating a potential role
 for WDR12 in ribosome biogenesis. In conclusion, WDR12 may be a promising
 therapeutic target in TNBC, although additional confirmatory testing will
 be required.
+//
+ID   CLPUB00553
+RA   Larsen S.;
+RT   "Phenotypic characterization of cellular models of VPS35-associated
+RT   mutation in Parkinson's disease.";
+RL   Thesis PhD (2019), University of Luxembourg, Luxembourg.
+WW   https://orbilu.uni.lu/handle/10993/40938
+DR   Cellosaurus; CVCL_YD64; LCSBi001-A
+AB   Yes
+Parkinson’s disease was first described more than 200 years ago and yet
+the aetiology of the disease is not fully understood. Cellular phenotypes
+include mitochondrial impairment, lysosomal clearance dysfunction with a-
+synuclein accumulation and intracellular trafficking alterations. In most
+cases PD develops sporadically and the causes are yet unknown. However, in
+10% of the cases, PD is inherited and the cause is genetic. Currently, 23
+PARK loci have been identified within genes causing PD. Here, we focus on
+PARK17, where a point mutation leading to an amino acid exchange p.D620N
+in VPS35 has been found to cause an autosomal-dominant form of PD.
+
+Fibroblasts from a patient carrying the p.D620N mutation and from two age
+and gendermatched control were derived from a skin biopsy. Functional
+analyses of these fibroblasts revealed that mitochondrial membrane
+potential (MMP) was decreased in the patient cells compared to controls
+without any alteration of mitochondrial morphology. Next, the fibroblasts
+were reprogrammed into induced pluripotent stem cells (iPSCs),that were
+characterised in detail. The iPSCs were first differentiated in small
+molecule neuronal precursor cells (smNPCs), where we analysed
+mitochondrial function and lysosomal clearance capacity. We found no
+significant difference in MMP between patient and control smNPCs. However,
+we observed a decreased autophagic flux and lower levels of mature
+cathepsin D protein, a lysosomal hydrolase responsible for the degradation
+of a-synuclein. Nonetheless, we found no difference in a-synuclein protein
+level. In order to study the impact of p.D620N on PD-related neuronal
+phenotypes we differentiated the smNPCs in this more disease-relevant cell
+population. We generated a neuronal culture enriched in dopaminergic
+neurons. We found that the mitochondrial network was fragmented with
+smaller mitochondria and less branching. Mitochondria had lower MMP and
+increased intra-mitochondrial reactive oxygen species (ROS) levels. In
+addition, mitochondrial respiration was impaired which resulted in lower
+production of ATP. After CCCP treatment, mitophagy was induced in the
+patient neurons to the same level as in the control neurons. However,
+while in the control neurons the autophagosomes containing mitochondrial
+fragments were successfully cleared, in the patient neurons they
+accumulated and were not cleared properly. In line with this observation,
+the autophagic flux was decreased and late endosome/lysosomal mass was
+decreased. This decreased autophagic flux was accompanied by an increase
+of alpha-synuclein protein levels.
+
+We further wanted to pinpoint how p.D620N VPS35 caused mitochondrial
+impairment in patient neurons. Accumulation of a-synuclein has been shown
+to induce similar mitochondrial alterations. Therefore, we measured a-
+synuclein protein levels in the mitochondrial and the cytosolic fraction
+and found that it was increased in both fractions to the same ratio.
+However, when we knocked down alpha-synuclein to the levels of the
+controls, it was not sufficient to rescue the decreased MMP and increased
+ROS level in the patient neurons. We conclude that alpha-synuclein
+accumulation in the mitochondrial fraction was not sufficient to cause the
+observed phenotype.
+
+Recently, an increased LRRK2 kinase activity was identified in p.D620N
+VPS35 mutant monocytes and erythrocytes from patients, as well as brains
+from homozygous mice. Therefore, we hypothesized that pathological LRRK2
+kinase activity may induce mitochondrial impairment. We measured the
+phosphorylation levels of Rab10, one of LRRK2 kinase substrates, however,
+no significant difference between patient and control neurons was observed.
+
+In this study, we show for the first time that p.D620N VPS35 causes PD-
+related cellular phenotypes in patient-derived neurons. The patient-
+derived neurons displayed impaired mitochondria and lysosomal clearance,
+with accumulation of alpha-synuclein.
 //
 ID   CLPUB00262
 RA   Gold M.;
@@ -12303,6 +12385,30 @@ associated protein-like 4 (EML4)-anaplastic lymphoma kinase (ALK) fusion
 oncogene, a key oncogenic driver, and then tested for its sensitivity to
 known selective inhibitors of ALK.
 //
+ID   CLPUB00554
+RA   Omasa T., Yamano N.;
+RT   "Newly established cell lines derived from Chinese hamster for
+RT   production of biologics.";
+RL   (In) Cell Culture Engineering XVI; Robinson A., Venkat R., Schaefer E. (eds.); pp.177-177; ECI Symposium Series; New York (2018).
+WW   https://dc.engconfintl.org/ccexvi/177/
+DR   Cellosaurus; CVCL_YS94; CHK-Q
+DR   Cellosaurus; CVCL_YS93; CHL-YN
+DR   Cellosaurus; CVCL_YS95; CHO-MK
+AB   Yes
+The Chinese hamster (Cricetulus griseus) is a species of hamster that was
+used as a laboratory animal more than 50 years ago. The Chinese hamster
+ovary (CHO) cell line was established in 1957 by Puck et al. and
+maintained in ex vivo conditions. CHO cells are now a workhorse for
+recombinant biopharmaceutical production. Puck et al. continuously
+cultivated lung, kidney, spleen and ovary-derived cells for more than 10
+months using serum medium. In this study, we established a cell line from
+female Chinese hamster tissues: lung, kidney and ovary. Primary cells were
+obtained from these tissues and maintained for several months or more. We
+were ultimately able to construct three immortal cell lines, CHL-YN
+(fibroblast) from lung, CHK-Q (epitheliocyte) from kidney and CHO-MK
+(epitheliocyte) from ovary, respectively. Infinite proliferation of these
+cell lines is obtained by spontaneous transformation.
+//
 ID   CLPUB00212
 RA   Yang S.-Y., Xie R.-D.;
 RT   "Establishment of two cell lines from Helicoverpa armigera (SIE-Ha-798,
@@ -12419,9 +12525,9 @@ AB   Yes
 Some cell lines originated from M.brassicae are able to be subcultured
 with an autoclaved serum-free medium. The medium was modified to omit
 components of sodium hydrogen carbonate, sodium dihydrogen phosphate and
-serum. These cell lines were SES-MaBr-1,-2, -3,-4 (from fat cells), NIAS-
-MaBr-92,-93 (from hemolymph), NIAS-MaBr-32 (from ovary). An inoculum of
-2x10^5 cells/ml of each cell line produced more than a concentration of
+serum. These cell lines were SES-MaBr-1, -2, -3, -4 (from fat cells),
+NIAS-MaBr-92, -93 (from hemolymph), NIAS-MaBr-32 (from ovary). An inoculum
+of 2x10^5 cells/ml of each cell line produced more than a concentration of
 10^6 cells/ml in stationary cultures (5ml). In a spinner flask culture of
 500ml, MaBr-93 grew to 1x10^6 cells/ml from 2x10^5 cells/ml. In a jar
 fermenter culture of 40 liters,it grew to 6.5x10^5 cells/ml from 1.5x10^5
@@ -13575,6 +13681,9 @@ RX   DOI=10.4044/joma1947.97.7-8_691;
 ID   CLPUB00015
 RX   DOI=10.4044/joma1947.92.5-6_763;
 //
+ID   CLPUB00017
+RX   DOI=10.1182/blood.V118.21.5210.5210;
+//
 ID   CLPUB00021
 RX   DOI=10.1016/B978-0-12-470270-7.50011-2;
 //
@@ -13626,6 +13735,9 @@ RX   DOI=10.1360/sb1982-27-12-1355;
 ID   CLPUB00146
 RX   PubMed=2841669;
 //
+ID   CLPUB00158
+RX   PubMed=31394625;
+//
 ID   CLPUB00160
 RX   DOI=10.15114/tr.22.87;
 //
@@ -13673,6 +13785,9 @@ RX   DOI=10.3760/j.issn:0254-1416.2004.11.010;
 //
 ID   CLPUB00244
 RX   DOI=10.15114/tr.35.25;
+//
+ID   CLPUB00252
+RX   DOI=10.1182/blood.V112.11.2732.2732;
 //
 ID   CLPUB00256
 RX   DOI=10.4044/joma1947.104.9-10_905;
@@ -13727,6 +13842,9 @@ RX   DOI=10.15114/smj.55.153;
 //
 ID   CLPUB00309
 RX   DOI=10.7508/ari.2015.03.004;
+//
+ID   CLPUB00356
+RX   DOI=10.1182/blood.V124.21.5226.5226;
 //
 ID   CLPUB00357
 RX   DOI=10.6040/j.issn.1671-7554.2013.02.007;

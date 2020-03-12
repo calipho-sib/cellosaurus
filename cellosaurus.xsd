@@ -2,7 +2,7 @@
 <!-- *****************************************************************************
         XML Schema Definition (XSD) for the Cellosaurus XML
 
-        Date: 2019-December-19; Release: 2.04
+        Date: 2020-March-12; Release: 2.10
 
         Copyright (c) CALIPHO group @ SIB - Swiss Institute of Bioinformatics
         Distributed under the Creative Commons Attribution 4.0 International (CC BY 4.0) licence
@@ -270,6 +270,7 @@
                   <xs:enumeration value="Doubling time"/>
                   <xs:enumeration value="From"/>
                   <xs:enumeration value="Group"/>
+                  <xs:enumeration value="Karyotypic information"/>
                   <xs:enumeration value="Knockout cell"/>
                   <xs:enumeration value="Microsatellite instability"/>
                   <xs:enumeration value="Miscellaneous"/>
@@ -388,6 +389,7 @@
                         <xs:enumeration value="DrugBank"/>
                         <xs:enumeration value="NCBI-Taxonomy"/>
                         <xs:enumeration value="NCIt"/>
+                        <xs:enumeration value="ORDO"/>
                         <xs:enumeration value="PubChem"/>
                      </xs:restriction>
                   </xs:simpleType>

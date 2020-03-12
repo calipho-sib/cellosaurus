@@ -4,8 +4,8 @@
 ----------------------------------------------------------------------------
 
  Description: Cellosaurus: deleted accession numbers
- Version: 33.0
- Last update: 19-December-2019
+ Version: 34.0
+ Last update: 12-March-2020
 
 ----------------------------------------------------------------------------
 

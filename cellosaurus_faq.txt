@@ -4,8 +4,8 @@
 ----------------------------------------------------------------------------
 
  Description: Cellosaurus: frequently asked questions
- Version: 33.0
- Last update: 19-December-2019
+ Version: 34.0
+ Last update: 12-March-2020
 
 ----------------------------------------------------------------------------
 
@@ -34,6 +34,8 @@ Q20: Does the Cellosaurus include references to all papers relevant to a given c
 Q21: Why are there different entries for the 3T3 cell line in the Cellosaurus?
 Q22: What is the licence under which the Cellosaurus is provided?
 Q23: What can I search for using the search bar?
+Q24: Why can't I find a recently created entry in the Cellosaurus?
+Q25: How can I access an old version of the Cellosaurus?
 
 ----------------------------------------------------------------------------
 
@@ -765,3 +767,81 @@ A: The search bar offers access to a full text index of the Cellosaurus.
 This means you can not only search for a cell line name, but also other
 things such as catalog numbers in cell line collections, disease names,
 species, reference authors, PubMed IDs, etc.
+
+----------------------------------------------------------------------------
+
+Q24: Why can't I find a recently created entry in the Cellosaurus?
+
+A: We create new entries and provide the corresponding accession number (RRIDs)
+as quickly as possible so that researchers can cite them in their manuscripts
+in a timely manner. But the Cellosaurus is not updated daily, new releases are
+prepared every 3 or 4 months. Thus depending on when a new RRID was created it
+can take up to 4 months before you can find it in the Cellosaurus on ExPASy.
+However you do not need to wait until a RRID is made public to cite it in a
+publication.
+
+----------------------------------------------------------------------------
+
+Q25: How can I access an old version of the Cellosaurus?
+
+A:Lets start by some preliminary explanations and a bit of "history":
+
+-The Cellosaurus is updated regularly through a release mechanism with new
+versions being released at least 4 times per year.
+
+-The first version to be publicly distributed was release 2.0 on 04-Apr-2012.
+
+-Each subsequent release is consecutively numbered with one exception:
+release 9.0 of 16-Apr-2014 was followed by release 9.1 of 17-Jul-2014.
+
+-Initially the Cellosaurus files were available for download on the neXtProt
+FTP site but since May 2015 (with release 12.0 of 10-Apr-2015) they have been
+distributed from the ExPASy FTP site:
+
+ftp://ftp.expasy.org/databases/cellosaurus
+
+-The number of files distributed at each release has evolved through time:
+
+File name                       Release and date of first distribution
+------------------------------  --------------------------------------
+cellosaurus.txt                 2.0 of 04-Apr-2012
+cellosaurus_relnotes.txt        2.0 of 04-Apr-2012
+cellosaurus.obo                 4.0 of 22-Oct-2012
+cellosaurus_deleted_ACs.txt     7.0 of 05-Nov-2013
+cellosaurus_refs.txt            9.0 of 16-Apr-2014
+cellosaurus_xrefs.txt           9.1 of 17-Jul-2014
+cellosaurus_faq.txt             15.0 of 14-Dec-2015
+cellosaurus.xml                 20.0 of 01-Dec-2016
+cellosaurus.xsd                 20.0 of 01-Dec-2016
+cellopub.txt                    21.0 of 03-Mar-2017
+cellosaurus_name_conflicts.txt  23.0 of 22-Aug-2017
+
+So where can you find old versions of the Cellosaurus files?
+
+a) Starting with release 11.0 of 07-Nov-2014 the Cellosaurus files are on
+a GitHub directory at:
+
+https://github.com/calipho-sib/cellosaurus
+
+So to get the files for a particular release go to:
+
+https://github.com/calipho-sib/cellosaurus/commits/master
+
+Look for the commit labelled with the release number you are interested in
+(example "Release 15"). Click on that commit then click on the "Browse files"
+button and when the list of files is displayed click on the green button
+"Clone or download" and select the "Download ZIP" option.
+
+All the Cellosaurus files are on GitHub with one exception: the XML file
+(cellosaurus.xml) which is too big to be stored on this platform.
+
+b) We have archived all releases of the Cellosaurus on Yareta, the research
+data repository of Geneva's higher education institutions. To access the
+Cellosaurus archives go to:
+
+https://yareta.unige.ch/frontend/search
+
+and search for "Cellosaurus".
+
+Note that the Yareta archives for releases 2 up to 32 do not include the OBO
+and XML files.
