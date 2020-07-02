@@ -519,7 +519,7 @@ Cat   : Cell line collections
 Abbrev: Kerafast
 Name  : Kerafast cell lines
 Server: https://www.kerafast.com/
-Db_URL: https://www.kerafast.com/Search?SearchTerm=&quot%s&quot;
+Db_URL: https://www.kerafast.com/Search?SearchTerm=&quot;%s&quot;
 Cat   : Cell line collections
 //
 Abbrev: KYinno
