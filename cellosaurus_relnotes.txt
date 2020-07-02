@@ -6,62 +6,54 @@
    \_____\___|_|_|\___/|___/\__,_|\__,_|_|   \__,_|___/
 
 
-This is the release notes for Cellosaurus version 34 of March 2020.
+This is the release notes for Cellosaurus version 35 of July 2020.
 
 1) Statistics
 
-118785 cell lines (88553 human, 20872 mouse, 2136 rat)
-   671 species represented
- 79419 synonyms
-345031 cross-references to 89 ontologies, databases, catalogs, etc.
-112586 references to 19047 distinct publications (papers, patents, theses, etc.)
- 20864 web links
+123199 cell lines (92668 human, 20991 mouse, 2150 rat)
+   687 species represented
+ 84537 synonyms
+356197 cross-references to 91 ontologies, databases, catalogs, etc.
+119736 references to 19758 distinct publications (papers, patents, theses, etc.)
+ 20909 web links
 
-  6927 human, mouse and dog cell lines with STR profiles (from 496 distinct sources)
+  7061 human, mouse and dog cell lines with STR profiles (from 526 distinct sources)
 
-Since release 33 of December 2019:
-  1151 entries were created
- 54273 entries were updated
+Since release 34 of March 2020:
+  4422 entries were created
+ 30088 entries were updated
 
-2) Change in the DI line: introduction of links to Orphanet Rare Disease
-Ontology
+2) Changes in the DR lines
 
-Starting with this release cell lines that are originating from patients
-suffering from a rare disease or that have been engineered to contain a
-causal mutation for a rare disease are annotated with a disease line ("DI")
-can now contain links to the the Orphanet Rare Disease Ontology (ORDO).
-
-Note that the mapping of diseased cell lines to ORDO is not complete and is
-expected to be finished in release 35.
+2a) Cross-references were added to the Kerafast cell line collection. Up to
+now we provided web links to the product description pages but having found
+a way to use the Kerafast catalog number we have converted these links to
+cross-references. 
 
 Corresponding entry in the file cellosaurus_xrefs.txt:
 
-Abbrev: ORDO
-Name  : Orphanet Rare Disease Ontology
-Server: https://www.ebi.ac.uk/ols/ontologies/ordo
-Db_URL: https://www.ebi.ac.uk/ols/ontologies/ordo/terms?iri=http://www.orpha.net/ORDO/%s
-Cat   : Ontologies
+Abbrev: Kerafast
+Name  : Kerafast cell lines
+Server: https://www.kerafast.com/
+Db_URL: https://www.kerafast.com/Search?SearchTerm=&quot%s&quot;
+Cat   : Cell line collections
 
 Example:
-DI   ORDO; Orphanet_586; Cystic fibrosis
+DR   Kerafast; EF3003
 
-In the XML version the ORDO mappings are, like those to the NCIt in the
-"<disease-list>". Example:
+2b) Cross-references were added to the Liver Cancer Model Repository
+(LIMORE)
 
-<disease-list>
-  <cv-term terminology="NCIt" accession="C75463">Prader-Willi syndrome</cv-term>
-  <cv-term terminology="ORDO" accession="Orphanet_739">Prader-Willi syndrome</cv-term>
-</disease-list>
+Corresponding entry in the file cellosaurus_xrefs.txt:
 
-3) Changes in the CC lines
+Abbrev: LIMORE
+Name  : Liver Cancer Model Repository
+Server: https://www.picb.ac.cn/limore/home
+Db_URL: https://www.picb.ac.cn/limore/cellLines/single?para=%s
+Cat   : Cell line databases/resources
 
-Introduction of a new topic: "Karyotypic information".
-
-Examples:
-CC   Karyotypic information: Haploid except for a disomy of chromosome 8.
-CC   Karyotypic information: Has lost chromosome Y.
-CC   Karyotypic information: Triploid karyotype.
-
+Example:
+DR   LIMORE; CLC1
 
 ----------------------------------------
 Amos Bairoch

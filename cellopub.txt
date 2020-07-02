@@ -4,8 +4,8 @@
 ----------------------------------------------------------------------------
 
  Description: CelloPub, Cellosaurus publications
- Version: 34.0
- Last update: 12-March-2020
+ Version: 35.0
+ Last update: 02-July-2020
 
 ----------------------------------------------------------------------------
 ID   CLPUB00222
@@ -693,6 +693,14 @@ examined by light microscope, titration of tissue culture infection dose
 results showed that this baculovirus can replicate in the homologous cell
 line Bs-484, but not in the other three lepidopteran cell lines.
 //
+ID   CLPUB00568
+RA   Debec A., Szollosi A., Szollosi D.;
+RT   "A Drosophila melanogaster cell line lacking centriole.";
+RL   Biol. Cell 44:133-138(1982).
+WW   http://pascal-francis.inist.fr/vibad/index.php?action=getRecordDetail&idt=PASCALZOOLINEINRA83X0058827
+DR   Cellosaurus; CVCL_Z708; 1182-4H
+AB   No
+//
 ID   CLPUB00335
 RA   Royston I., Majda J.A., Baird S.M., Meserve B.L., Griffiths J.C.;
 RT   "Monoclonal antibody specific for human T lymphocytes: identification
@@ -1304,6 +1312,15 @@ and hormonal regulation as well as endocrine disruption by environmental
 contaminants. Here we report on the development of two continuous cell
 lines derived from adult Atlantic salmon pituitary and their preliminary
 characteristics.
+//
+ID   CLPUB00559
+RA   Sakamoto H.;
+RT   "Establishment of a continuous cell line, NSC-HyCu15B, from the larval
+RT   fat body of the fall webworm, Hyphantria cunea, (Lepidoptera:
+RT   arctiidae).";
+RL   Bull. Nagano Sericult. Cent. 3:11-14(1994).
+DR   Cellosaurus; CVCL_ZF41; NSC-HyCu15B
+AB   No
 //
 ID   CLPUB00184
 RA   Inoue H., Taniai K., Kobayashi J.;
@@ -3437,7 +3454,7 @@ ID   CLPUB00165
 RA   Chen Q.-H., McIntosh A.H., Ignoffo C.M.;
 RT   "Establishment of a new cell line from the pupae of diamond-back moth,
 RT   Plutella xylostella (Lepidoptera: Plutellidae).";
-RL   Hua Zhong Shi Fan Da Xue Xue Bao Zi Ran Ke Xue Ban 17:99-104(1983).
+RL   Hua Zhong Shi Fan Da Xue Xue Bao. Zi Ran Ke Xue Ban 17:99-104(1983).
 WW   http://en.cnki.com.cn/Article_en/CJFDTOTAL-HZSZ198303014.htm
 DR   Cellosaurus; CVCL_Z570; BCIRL-PX2-HNU3
 AB   Yes
@@ -3476,7 +3493,7 @@ ID   CLPUB00166
 RA   Chen Q.-H., McIntosh A.H., Ignoffo C.M.;
 RT   "Establishment of two new cell lines from the yellow-striped armyworm,
 RT   Spodoptera ornithogalle (Lepidoptera: Noctuidae).";
-RL   Hua Zhong Shi Fan Da Xue Xue Bao Zi Ran Ke Xue Ban 18:101-106(1984).
+RL   Hua Zhong Shi Fan Da Xue Xue Bao. Zi Ran Ke Xue Ban 18:101-106(1984).
 WW   http://en.cnki.com.cn/Article_en/CJFDTOTAL-HZSZ198403016.htm
 DR   Cellosaurus; CVCL_Z567; BCIRL-SO3-HNU1
 DR   Cellosaurus; CVCL_Z568; BCIRL-SO4-HNU4
@@ -3512,7 +3529,7 @@ ID   CLPUB00167
 RA   Li L.-L., Yu Z.-H., Peng J.-X., Chen Q.-H.;
 RT   "Characterization of BM-21E-HNU5, a cell line from embryos of Bombyx
 RT   mori.";
-RL   Hua Zhong Shi Fan Da Xue Xue Bao Zi Ran Ke Xue Ban 25:469-473(1991).
+RL   Hua Zhong Shi Fan Da Xue Xue Bao. Zi Ran Ke Xue Ban 25:469-473(1991).
 WW   http://en.cnki.com.cn/Article_en/CJFDTOTAL-HZSZ199104022.htm
 DR   Cellosaurus; CVCL_Z569; BM-21E-HNU5
 AB   Yes
@@ -3524,15 +3541,38 @@ H.armigera, P.cynthia rictini and A.californica could replicate in the cells.
 And the cell line supported replication of granulosis virus of Plutella
 xylostella (PxGV).
 //
+ID   CLPUB00558
+RA   Li L.-L., Chen Q.-H.;
+RT   "Continuous culture of embryos cells from Pieris rapae.";
+RL   Hua Zhong Shi Fan Da Xue Xue Bao. Zi Ran Ke Xue Ban 29:364-366(1995).
+WW   http://en.cnki.com.cn/Article_en/CJFDTOTAL-HZSZ503.021.htm
+DR   Cellosaurus; CVCL_Z573; Pr-E-HNU9
+DR   Cellosaurus; CVCL_ZF36; Pr-E-HNU9(A)
+DR   Cellosaurus; CVCL_ZF37; Pr-E-HNU9(B)
+DR   Cellosaurus; CVCL_ZF38; Pr-E-HNU9(C)
+AB   Yes
+A primary culture was set up from of Pieris rapae in TC-100 medium. It was
+refed 6 months post explantation, and the cells propagated from the tissues
+culture were subcultured two month later. Three substrains, designated Pr-
+E(A), Pr-E(B) and Pr-E(C) respectively, developed from the primary cell
+line. They differ in morphology, behavior and growth of cells. The cells
+of Pr-E(A), Pr-E(B) and Pr-E(C) in their second, fifth and tenth generation
+in respect, were preserved at 4 Celsius for 5 months. The Pr-E(A) and Pr-
+E(B) cells, which adhere to the bottom of the flasks and grow slowly in
+culture,recovered after being transfered to incubator at 28 Celsius, But
+the Pr-E(C) cells, which suspend in medium and grow quickly died during
+the period.
+//
 ID   CLPUB00177
 RA   Li L.-L., Chen Q.-H.;
 RT   "Storage of insect cell lines by a simple method.";
-RL   Hua Zhong Shi Fan Da Xue Xue Bao Zi Ran Ke Xue Ban 29:511-512(1995).
+RL   Hua Zhong Shi Fan Da Xue Xue Bao. Zi Ran Ke Xue Ban 29:511-512(1995).
 WW   http://en.cnki.com.cn/Article_en/CJFDTOTAL-HZSZ504.025.htm
 DR   Cellosaurus; CVCL_Z570; BCIRL-PX2-HNU3
 DR   Cellosaurus; CVCL_Z569; BM-21E-HNU5
 DR   Cellosaurus; CVCL_Z571; Pa-E-HNU6
-DR   Cellosaurus; CVCL_Z573; Pr-E-HNU9
+DR   Cellosaurus; CVCL_ZF36; Pr-E-HNU9(A)
+DR   Cellosaurus; CVCL_ZF38; Pr-E-HNU9(C)
 DR   Cellosaurus; CVCL_0518; Sf21
 AB   Yes
 The cells from 6 insect cell lines Bm-21E-HNU5, BCI RL-Px-HNU3, Pa-E-HNU6,
@@ -4861,6 +4901,15 @@ studying the antigenic structure of these organisms. Further experiments
 may confirm the idea that some of these epitopes are suitable vaccine
 candidates.
 //
+ID   CLPUB00556
+RA   Wagner L.E., Venta P.J., Tashian R.E.;
+RT   "A human carbonic anhydrase I deficiency appears to be caused by a
+RT   destabilizing amino acid substitution (246Arg->His).";
+RL   Isozyme Bull. 24:35-35(1991).
+DR   Cellosaurus; CVCL_IX35; GM02744
+DR   Cellosaurus; CVCL_IX36; GM02745
+AB   No
+//
 ID   CLPUB00135
 RA   Oksenhendler E., Agbalika F., Barateau V., Daniel M.T., Autran B.,
 RA   Carcelain G.;
@@ -5191,6 +5240,100 @@ DR   Cellosaurus; CVCL_GT34; OC-109-VGH
 DR   Cellosaurus; CVCL_GT35; OC-117-VGH
 AB   No
 //
+ID   CLPUB00563
+RA   Ueda T., Khan S.G., Emmert S., Shahlavi T., Busch D.B., Schneider T.D.,
+RA   Kraemer K.H.;
+RT   "A G to A change at the splice donor site of intron 2 in the xeroderma
+RT   pigmentosum group C (XPC) gene alters the efficiency of premRNA
+RT   splicing.";
+RL   J. Invest. Dermatol. 117:515-515(2001).
+DR   Cellosaurus; CVCL_M313; XP86BE
+AB   Yes
+We studied the molecular defects in the XPC gene in a 47 y old woman with
+XP (XP86BE) with severe sun sensitivity and multiple cutaneous neoplasms.
+UV cell killing was 3 times normal in XP86BE skin fibroblasts. Host cell
+reactivation of a UV-treated reporter plasmid cotransfected with a vector
+expressing wild type XPC message assigned XP86BE to XP complementation
+group C. RT-PCR of total RNA revealed two alternatively spliced XPC mRNA
+isoforms in the exon 2 region: (I) a deletion of 68 bases at the 3' end of
+exon 2 and (II) a 141 base insertion between exons 2 and 3 that retains
+the 5' end of intron 2. These changes resulted in frameshifts with new
+termination sites that would encode truncated XPC proteins. Genomic DNA
+analysis showed a homozygous G to A mutation at the splice donor site of
+XPC intron 2. This mutation reduces the information content of splice
+donor 2 from 10.2 to +- 2.6 bits and results in use of cryptic donor sites
+of 8.6 bits (isoform I) and 9.5 bits (isoform II). The mutation
+inactivates a Bsu36 I site in intron 2 that can be used to diagnose the
+genomic status of other family members. The splice donor site mutation
+identified in XP86BE cells resulted in alternatively spliced XPC mRNA
+isoforms which utilize cryptic donors with high information content and
+are predicted to encode truncated XPC proteins with defective DNA repair
+function resulting in clinical disease.
+//
+ID   CLPUB00562
+RA   Imoto K., Boyle J., Oh K.-S., Khan S.G., Ueda T., Nadem C., Slor H.,
+RA   Orgal S., Gadoth N., Busch D.B., Jaspers N.G.J., Tamura D.,
+RA   DiGiovanna J.J., Kraemer K.H.;
+RT   "Patients with defects in the interacting nucleotide excision repair
+RT   proteins ERCC1 or XPF show xeroderma pigmentosum with late onset severe
+RT   neurological degeneration.";
+RL   J. Invest. Dermatol. 127 Suppl. 1:S92-S92(2007).
+DR   Cellosaurus; CVCL_ZP22; XP202DC
+AB   Yes
+Xeroderma pigmentosum (XP) is a rare autosomal recessive disease
+characterized by sun sensitivity and a high incidence of skin cancer in
+association with defective nucleotide excision repair (NER). XP patient
+(XP202DC) had progressive neurodegeneration with dementia, severe
+generalized brain atrophy beginning at age 15 years, and death by 37 years.
+The ERCC1 gene in her cells had heterozygous mutations: one nonsense
+mutation (K226X) and one splice mutation (IVS6-26G>A). The delayed onset
+and severe neurological degeneration with generalized brain atrophy were
+very different from other XP patients but very similar to three XP
+patients in 2 new families (XP48DC and siblings CO14TA and CO107TA) who
+were heterozygous for a missense mutation (R788W) in the XPF gene. XPF and
+ERCC1 form a heterodimer that functions as a 5’ endonuclease in a late
+stage of the NER reaction. XPF and ERCC1 interact in the region that is
+disrupted by the mutations found in our patients. The similarity of the
+neurologic abnormalities among the patients with ERCC1 and XP-F defects
+suggests that dysfunction of the XPF/ERCC1 complex causes this unusual
+form of severe neurological degeneration. These findings describe an
+important new role of NER proteins in maintaining the integrity of the
+central nervous system.
+//
+ID   CLPUB00565
+RA   Khan S.G., Oh K.-S., Inui H., Emmert S., Tamura D., DiGiovanna J.J.,
+RA   Shahlavi T., Baker C.C., Schneider T.D., Kraemer K.H.;
+RT   "Impaired lariat-loop formation causing abnormal XPC pre-mRNA splicing
+RT   resulted in xeroderma pigmentosum.";
+RL   J. Invest. Dermatol. 129 Suppl. 1:S28-S28(2009).
+DR   Cellosaurus; CVCL_U671; XP14BE
+DR   Cellosaurus; CVCL_ZS41; XP377BE
+AB   Yes
+The lariat-loop formation involving branch point sequence (BPS) near the
+3’ end of introns is crucial for precise processing of the pre-mRNA. We
+previously reported that mutations within -4 and -24 branch point
+sequences (BPS) in intron3 of the XPC gene differentially affects the XPC
+premRNA splicing by disrupting lariat-loop formation in xeroderma
+pigmentosum (XP) patients (Hum. Mol. Genetics, 13: 343 (2004)). Here we
+studied two related XP patients, XP14BE and XP377BE, with multiple skin
+cancers and reduced DNA repair. Their cells had the same 9 base-pair
+deletion (-13 to -21) that lies 3 bases downstream of the -25 ‘A’ of the
+mapped BPS in intron6 of the XPC gene. This deletion mutation moved the
+BPS closer to intron6/exon7 junction and abolished lariat-loop formation.
+This change reduced the information content of the intron6 splice acceptor
+from 12.3 to 6.2 bits. These cells exclusively expressed XPC mRNA with an
+in-frame exon7 deletion. The cells had reduced amounts of mutant XPC
+protein. This mutation abolished DNA repair activity since an expression
+vector containing XPC cDNA devoid of exon7 failed to correct DNA repair
+defect in other XP-C cells in a post-UV host cell reactivation assay. The
+mutant XPC protein did not localize to UV-induced DNA-lesions in the
+patient’s cells. Thus, the 30 amino acid sequence derived from exon7 of
+the XPC gene is an important motif for localization of XPC protein to the
+site of damaged-DNA. Abolishing lariat-loop formation resulted in
+expression of mutant XPC protein with reduced nucleotide excision repair
+function that resulted in multiple sunlight-induced skin cancers in these
+XP-C patients.
+//
 ID   CLPUB00151
 RA   Iryo O.;
 RT   "Establishment and characterization of a human glioma cell-line
@@ -5503,6 +5646,30 @@ which may be relate to decrease of LRP and FMT expression, increase of
 intracellular content of carboplatin, change of the microfilament, reduce
 of mechanical properties of adhesion, and interference of cell cycle in
 Tca8113/CBP cells.
+//
+ID   CLPUB00561
+RA   Hashiguchi T., Hashiguchi M., Sakai S.;
+RT   "Relationship between membrane potential change and glucagon secretion
+RT   in a glucagon producing tumor cell line, ITC-1.";
+RL   J. Tokyo Med. Univ. 45:744-748(1987).
+WW   http://mol.medicalonline.jp/en/archive/search?jo=cr4tokyo&ye=1987&vo=45&number=5&issue=5&st=744
+DR   Cellosaurus; CVCL_F644; ITC-1
+AB   Yes
+A relationship between the membrane potential and the secretion of
+glucagon was studied using a glucagon-producing tumor cell line, ITC-1,
+which was established by Sugimoto et al. The membrane potential was
+monitored by the potential-sensitive dye, NK-2453. Fluorescence at 505 nm
+emission with excitation wave length at 460 nm was increased by changing
+the potassium concentration from 5.7 to 10, 20, 40 or 60 mM, thereby
+suggesting that ITC-1 cells depolarized in high-K+ Hanks solutions. An
+increase in glucagon release was noticeable only when the external
+potassium concentration exceeded 40 mM. In the concentration range under
+20 mM, the amount of glucagon released was in the same range as that of
+spontaneously released glucagon in normal Hanks solution. These results
+suggest that there are two mechanisms of the glucagon secretion in ITC-1
+cells. One is critically regulated by the membrane potential. The other is
+responsible for the spontaneous secretion of glucagon, independently of
+the membrane potential.
 //
 ID   CLPUB00122
 RA   Naohiko M.;
@@ -6931,6 +7098,30 @@ will make great contribution to the study of mechanisms of cell-virus
 interactions and the development of viral vaccine for fish viral disease
 control.
 //
+ID   CLPUB00567
+RA   Al-Musawi H.M., Al-Shammari A.M., Al-Bazii S.J.;
+RT   "Biological and physiological characterization of HCAM
+RT   hepatocellular carcinoma cell line.";
+RL   Prensa Med. Argent. 106 Suppl. 1:9.2-9.5(2020).
+WW   https://www.researchgate.net/publication/342476146_Biological_and_Physiological_Characterization_of_HCAM_Hepatocellular_Carcinoma_Cell_Line
+DR   Cellosaurus; CVCL_ZV40; HCAM
+AB   Yes
+A new liver cancer cell line (HCAM) has been characterized; it is
+considered as a useful tool in liver cancer research. The HCAM cell line
+was established from the primary tumor of a white Swiss albino male mouse
+with spontaneous diffuse hepatocellular carcinoma. The current study aimed
+to physiologically characterize the cells by comparing it to normal liver
+cells from embryo and adult mice. The eighth passage of HCAM cell line was
+used in this study. Investigation of liver functions showed high values of
+liver enzymes (ALT, AST, GGT, LDH, CRP) in HCAM cell line compared with
+normal liver cells that were taken from healthy mice; these enzymes rates
+were (52.94, 53.06, 63.63, 390.67, 10.50) U/L respectively (P <=0.05).
+High values of tumor marker proteins (AFP, CEA, CA19-9) were also found in
+HCAM cell line compared with normal hepatocytes; the rates were (24.23,
+15.26, 15.54) U/L respectively (P<=0.05). The hepatic cancer cell line
+showing high liver enzyme functional activity, and this makes it useful as
+a liver cancer model in functional studies.
+//
 ID   CLPUB00339
 RA   Mayyasi S.A., Traul K.A., Garon C.E., Wright B., Maywood N.J.;
 RT   "Antigenics characteristics of Rauscher virus cultivated in human
@@ -7813,6 +8004,28 @@ KT-5 cell derives from a murine astrocyte. Conditioned medium of KT-5
 contained neurite-promoting activity for neurons and growth-promoting
 activity for KT-5 cells themselves.
 //
+ID   CLPUB00557
+RA   Bahekar R.S.;
+RT   "Growth kinetics and baculovirus productivity of indigenously developed
+RT   cell line DZNU-Bm-1 of Bombyx mori (L) in different medium.";
+RL   Res. Dir. 6:67-76(2018).
+WW   http://www.researchdirections.org/abstractread.php?id=426
+DR   Cellosaurus; CVCL_Z082; DZNU-Bm-1
+AB   Yes
+Lepidopterian cell lines is the primary prerequisites for studying
+baculoviruses in culture and baculovirus based vector system for the
+expression of recombinant proteins. DZNU-Bm-1 cell line was initiated in
+MGM-448 medium supplemented with 10% FBS and 3% heat inactivated B. mori
+haemolymph (BMS), originated from larval overies of silkworm Bombyx mori
+(L). In the present study, The cells were adapted first adapted to MGM-448
+with 10% foetal bovine serum and without haemolymph from MGM-448. Bm-1
+cells took about 10-12 months to adapt in haemolymph free MGM-448 medium.
+In haemolymph free MGM-448 medium, the cell line became freely suspended
+and also showed reduced clumping of cells particularly. This cell lines
+adapted to MGM-448 with 10% FBS were subsequently adapted to a cheaper TNM-
+FH medium supplemented with 10% FBS. The cell line took about 1-2 months
+to get adapted to TNM-FH medium.
+//
 ID   CLPUB00097
 RA   Stocker J.W., Forster H.K., Miggiano V., Stahli C., Staiger G.,
 RA   Takacs B., Stachein T.;
@@ -7985,6 +8198,30 @@ characteristic. Two cell lines from Burkitt's lymphoma (SCMC-L3, L4) had
 t(8:22) and t(8:14), respectively. These cell lines will be valuable
 resources in ascertaining the biological characteristics and
 clinicopathology of the childhood malignant tumors.
+//
+ID   CLPUB00560
+RA   Ravi M.;
+RT   "Sources of cell lines.";
+RL   Scitech J. 1:14-16(2014).
+WW   http://oaji.net/articles/2014/215-1411120971.pdf
+AB   Yes
+Animal cell cultures have become indispensible for several applications.
+Their utility for research and biotech industrial applications are growing
+exponentially and these support a parallel growth in the imaging,
+analytical and other related technologies. As with the increasing number
+of available cell lines, there is a tremendous ongoing progress in the
+?elds of instrumentation, durables, consumables and supplements that make
+cells grown in vitro more efficient. Cell cultures have become integral for
+research in a wide range of areas and there is a constant evolution in the
+cell based assays/techniques. Sources of cell lines are important as they
+not only provide the required cell lines, they form cell line repositories
+and can provide authenticate information of the cell lines being supplied.
+This is critical to ensure consistent and reliable data from work
+involving cell lines. In this manuscript, various prominent sources of
+cell lines are presented including a brief description, their web site
+addresses and their contact details. It is hoped that this compilation of
+major sources of cell lines would be useful for many researchers as a
+reference.
 //
 ID   CLPUB00172
 RA   Quiot J.-M.;
@@ -8247,6 +8484,46 @@ DR   Cellosaurus; CVCL_W853; GCH-2
 DR   Cellosaurus; CVCL_1687; SCH
 AB   No
 //
+ID   CLPUB00564
+RA   Suda S.;
+RT   "Heterogeneity and biological activity of glucagon extracted from
+RT   glucagon producing tumor cells (ITC-1).";
+RL   Tokyo Ika Daigaku Zasshi 53:281-288(1985).
+WW   https://ci.nii.ac.jp/naid/10008686140
+DR   Cellosaurus; CVCL_F644; ITC-1
+AB   Yes
+It is known that glucagon is synthesized via a large precursor molecule
+and that conversion of the precursor to glucagon is accomplished by
+selective proteolytic cleavage of proglucagon. lmmuno-reactive glucagons
+(IRGs) with various molecular weights were obtained from acid-ethanol
+extracts of glucagon-producing tumor cells (ITC-1) in Syrian golden
+hamster by gelfiltration on Bio-Gel P-30 and CNBr-activated Sepharose 4B.
+The biological activity of various IRGs in vitro was examined by measuring
+the release of cAMP from the isolated hamster liver cells. Liver cells
+were isolated from adult Syrian hamsters by the method of Seglen. The
+cells were preincubated in RPMI-1640 medium for 5 hours. The release of
+cAMP into the culture medium was deterrnined by radioimmunoassay.
+
+Cyclic AMP accumulation in the medium containing porcine crystalline
+glucagon was observed. At addition of 10-ii moles it was O.73 pmole/10^6
+cells/h, while at addition of 10^-8 moles it was 4.14 pmole/10^6 cells/h.
+Extracted IRGs from the tumor also had elevated cAMP concentration. (In
+the case of IRG3500, at addition of 2.4 × 10^-10 moles it was 2.67
+pmole/10^6 cells/h, while with addition of 7.5×10^-10 moles it was 16.7
+pmole/10^6 cells/h. ln the case of IRG9000, and addition of 0.7×10^-10
+moles it was 0.7 pmole/10^6 cells/h, while with addition of 2.9 × 10 ^-10
+moles it was 0.93 pmole/10^6 cells/h).
+
+A similar tendency in the result of intracellular cAMP and the results
+obtained from the medium. Glucagon from extracted ITC-1 tumor has
+biological activity causing a quantity of glucagon release from liver
+cells of hamsters, cAMP component in liver cells. The release of cAMP from
+liver cells was low in animals with tumors compared with control animals.
+These results suggested that the biological activity of extracted tumor
+glucagon was highest in glucagon with a molecular weight of 3500. IRG of
+molecular weight 3500 showed biological activity similar to that of
+standard glucagon.
+//
 ID   CLPUB00379
 RA   Yang Y.-Q., Tao H.-H., Yang H.-C.;
 RT   "Establishment of human primary gallbladder cell line SGC-996.";
@@ -8487,7 +8764,7 @@ DR   Cellosaurus; CVCL_6944; QSG-7701
 AB   No
 //
 ID   CLPUB00531
-RA   Cheng L.;
+RA   Cheng L., Kong X.-S., Huang C.-M., Xiong X.-L.;
 RT   "Studies on leukemogenic activity of cell-free extract of mouse SRS-82
 RT   cell line.";
 RL   Zhongguo Bing Li Sheng Li Za Zhi 4:9-11(1988).
@@ -9198,6 +9475,52 @@ of integrating into expressed zebrafish genes, indicating that random DNA
 integration is a feasible approach for insertional mutagenesis in the
 zebrafish.
 //
+ID   CLPUB00566
+RA   Mallery D.L.;
+RT   "The identification and analysis of mutation in the Cockayne Syndrome
+RT   B gene.";
+RL   Thesis PhD (1999), The Open University, United Kingdom.
+WW   http://oro.open.ac.uk/id/eprint/57982
+DR   https://web.expasy.org/cgi-bin/cellosaurus/search?input=CLPUB00566
+AB   Yes
+Cockayne syndrome (CS) is a rare autosomal recessive disorder
+characterised by neurodegeneration, dwarfism and at least three of the
+following; hearing loss, dental caries, pigmentary retinopathy,
+characteristic facial appearance and photosensitivity. Cells from CS
+patients fail to recover RNA synthesis after irradiation and exhibit a
+loss of transcription-coupled repair, with overall genome repair being
+unaffected. There are two genetic complementation groups of CS alone, A
+and B, with the majority of patients belonging to group B. The genes
+defective in each of the complementation groups have been cloned, the CSA
+gene in 1995 and CSB in 1990.
+
+For the purposes of this study the CSB gene was sequenced in patients from
+complementation group B, in an attempt to identify the causative mutations.
+The analysis of thirteen patients from different backgrounds has revealed
+a wide variety of mutations in the CSB gene. A considerable number of the
+mutations found in CS-B patients resulted in severely truncated products.
+Several patients possessed two alleles affected in this way and it is
+unlikely that any functional protein is produced, confirming that CSB is a
+nonessential gene. The mutations identified did not reveal any regions
+within the gene that could be termed as hotspots. There was, however a
+tendency for the mutations to be located towards the 3' two thirds of the
+gene, indicated by the clustering of the mutations in this region. The
+severity of the mutation does not however correlate with the site or type
+of mutation.
+
+Clustering of the mutations towards the 3' end and the high levels of
+conservation in the central part of the gene prompted a study into the
+functional significance of the N-and Cterminal ends of the protein. Also,
+the presence of a highly acidic region of amino acids and a stretch of
+glycine residues led to a study of the effects of removing and replacing
+these regions. Removal of the glycine domain results in non-functional
+protein with respect to cell survival after UV irradiation, whereas the
+removal of seven glutamic acid residues from the acidic rich region, does
+not appear to have a particularly dramatic effect. Deletion of the C-
+terminal 25 amino acids of CSB totally destroys the repair ability of the
+gene. In contrast, cDNAs deleted at the N-terminus are able to at least,
+partially retain repair activity.
+//
 ID   CLPUB00243
 RA   Kahlos K.;
 RT   "The expression and possible role of manganese superoxide dismutase in
@@ -9396,36 +9719,6 @@ transcripts were found in RCC cell lines (58%), in RCC biopsies (80%) and
 only in 10% of kidney epithelium biopsies. In the RCC cell line MZ2733RC a
 constitutive HLA-G1 protein expression was observed, which is inducible by
 IFN-gamma-treatment.
-//
-ID   CLPUB00139
-RA   Liu M.-C.;
-RT   "Establishment and characterization of a new human D/lambda multiple
-RT   myeloma cell line, STW-1.";
-RL   Thesis MSc (2004), National Taiwan University Graduate Institute of Pathology, Taiwan.
-WW   http://hdl.handle.net/11296/262p4f
-DR   Cellosaurus; CVCL_W828; STW-1
-AB   Yes
-A new multiple myeloma (MM) cell line, STW-1, was established from pleural
-effusion of a 70-year-old man in the late phase of disease. The "M
-protein" in this patient's serum was determined to be D/lambda type
-immunoglobulin (Ig). STW-1 could be cultured in the absence of feeder
-cells or exogenous cytokines. This autonomously growing pattern seemed not
-related to interleukin-6 (IL-6), an important growth factor of myeloma
-cells, because no IL-6 was detected in the culture medium of STW-1.
-Morphology examination showed typical features of plasma cells, also did
-the flow cytometric analysis of cell-surface markers. Chromosomal
-abnormalities included translocation t(11;14)(q13;q32) and monosomy 13.
-The expression of cyclin D1, which has been well known to be associated
-with t(11;14), was identified in STW-1. STW-1 responded to IL-6 with
-respect to proliferative rate as assessed by labeling index. Since STW-1
-was derived from late phase of disease, as expected, it was resistant to
-dexamethasone-induced apoptosis. Comparing with the levels of Bcl-2, there
-were no significant differences between STW-1 cells treated with
-dexamethasone or not. Among genes commonly affected in MM, we found
-missense mutations in codon 61 of K-ras (CAT->CAA) and in codon 221
-(GAG->GAT) and codon 249 (AGG->AGC) of p53; also methylation of p16 was
-found. This new IgD cell line may offer a tool to further investigate other
-biologic characteristics that are clinically unique to the rare IgD MM.
 //
 ID   CLPUB00551
 RA   Qi W.-C.;
@@ -11432,8 +11725,8 @@ RA   Zhou K.;
 RT   "Establishing, characterizing and deploying novel insect cell lines.";
 RL   Thesis MSc (2017), University of Missouri, United States.
 WW   http://hdl.handle.net/10355/62375
-DR   Cellosaurus; CVCL_UZ18; SfMG-0617
-DR   Cellosaurus; CVCL_UZ19; SfMG1-0611
+DR   Cellosaurus; CVCL_UZ18; CT/BCIRL-SfMG-0617
+DR   Cellosaurus; CVCL_UZ19; CT/BCIRL-SfMG1-0611
 AB   Yes
 Insect cell lines are convenient and powerful tools that were initially
 used in viral propagation, optimization of viral pesticides, cell-virus
@@ -13460,6 +13753,24 @@ note that most incidences of HTLV-related leukemia in Europe have been
 associated with individuals who immigrated from the endemic regions of the
 world or native Europeans who travelled to those areas.
 //
+ID   CLPUB00569
+RA   Dickman P.S., Tsokos M., Triche T.J.;
+RT   "Biology of rhabdomyosarcoma: cell culture, xenografts, and animal
+RT   models.";
+RL   (In) Rhabdomyosarcoma and related tumors in children and adolescents; Maurer H.M., Ruymann F.B., Pochedly C.E. (eds); pp.49-88; CRC Press; Boca Raton (1991).
+DR   https://web.expasy.org/cgi-bin/cellosaurus/search?input=CLPUB00569
+AB   Yes
+Experimental models of human neoplasms have provided valuable tools for
+exploring numerous biological and clinical features of tumors.
+Rhabdomyosarcoma (RMS) has been studied using tumors induced in
+experimental animals, in cell lines derived from such tumors, in cell
+lines developed from human tumors, and in xenografts in athymic or nude
+mice using both human primary tumors and tumor cell lines. In this chapter
+the authors will describe these models, and information derived from the
+various tumor systems will be reviewed. Special emphasis is placed on
+biological and molecular biological findings, as well as using clinical or
+therapeutic relevance of studies of human cell lines and xenografts.
+//
 ID   CLPUB00168
 RA   Harawan O., Charoensak S., Belloncik S.;
 RT   "Establishment and characterization of cell line from embryonic tissue
@@ -13731,6 +14042,9 @@ RX   DOI=10.14930/jsma1939.51.429;
 //
 ID   CLPUB00138
 RX   DOI=10.1360/sb1982-27-12-1355;
+//
+ID   CLPUB00139
+RX   DOI=10.6342/NTU.2004.01000;
 //
 ID   CLPUB00146
 RX   PubMed=2841669;

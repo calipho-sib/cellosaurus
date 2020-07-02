@@ -4,8 +4,8 @@
 ----------------------------------------------------------------------------
 
  Description: Cellosaurus: frequently asked questions
- Version: 34.0
- Last update: 12-March-2020
+ Version: 35.0
+ Last update: 02-July-2020
 
 ----------------------------------------------------------------------------
 
@@ -398,6 +398,7 @@ element.
 
 Example (CVCL_0030):
 
+<pre>
 <name-list>
  <name type="identifier">HeLa</name>
  <name type="synonym">HELA</name>
@@ -407,6 +408,7 @@ Example (CVCL_0030):
  <name type="synonym">Henrietta Lacks cells</name>
  <name type="synonym">Helacyton gartleri</name>
 </name-list>
+</pre>
 
 Important notes:
 
@@ -426,10 +428,12 @@ Important notes:
  ambiguous names are disambiguated by post-fixing the name with a short
  description between square brackets. Examples:
 
+<pre>
  CVCL_5246:
  <name type="identifier">C32 [Human colon adenocarcinoma]</name>
  CVCL_1097:
  <name type="identifier">C32 [Human melanoma]</name>
+</pre>
 
  The description field should be ignored when building a cell name
  dictionary.
@@ -439,11 +443,13 @@ Important notes:
 Misspellings are captured in the Cellosaurus through the comment category
 "Misspelling". Examples:
 
+<pre>
 CVCL_0197:
 <comment category="Misspelling"> C19PL; In PubMed=11737246 </comment>
 CVCL_0201:
 <comment category="Misspelling"> CACOV-3; Occasionally </comment>
 <comment category="Misspelling"> CACOV3; Occasionally </comment>
+</pre>
 
 3) Accession numbers
 
@@ -455,10 +461,12 @@ cell line dictionary. The accession numbers are stored in the
 
 Example:
 
+<pre>
 <accession-list>
  <accession type="primary">CVCL_0298</accession>
  <accession type="secondary">CVCL_4526</accession>
 </accession-list>
+</pre>
 
 4) Contextualization
 
@@ -666,7 +674,7 @@ from a living tissue, are established for growth in vitro and have
 undergone very few population doubling before they are distributed. They
 are generally more heterogeneous than a cell line which has been
 continually passaged over a long period of time and has acquired
-homogenous genotypic and phenotypic characteristics. Companies
+homogeneous genotypic and phenotypic characteristics. Companies
 distributing primary cells will often replenish their stock of primary
 cells and each batch may originate from a different donor, thus while the
 product catalog number of a primary cell may be stable, its genetic and
@@ -784,7 +792,7 @@ publication.
 
 Q25: How can I access an old version of the Cellosaurus?
 
-A:Lets start by some preliminary explanations and a bit of "history":
+A: Lets start by some preliminary explanations and a bit of "history":
 
 -The Cellosaurus is updated regularly through a release mechanism with new
 versions being released at least 4 times per year.
@@ -802,6 +810,7 @@ ftp://ftp.expasy.org/databases/cellosaurus
 
 -The number of files distributed at each release has evolved through time:
 
+<pre>
 File name                       Release and date of first distribution
 ------------------------------  --------------------------------------
 cellosaurus.txt                 2.0 of 04-Apr-2012
@@ -815,6 +824,7 @@ cellosaurus.xml                 20.0 of 01-Dec-2016
 cellosaurus.xsd                 20.0 of 01-Dec-2016
 cellopub.txt                    21.0 of 03-Mar-2017
 cellosaurus_name_conflicts.txt  23.0 of 22-Aug-2017
+</pre>
 
 So where can you find old versions of the Cellosaurus files?
 

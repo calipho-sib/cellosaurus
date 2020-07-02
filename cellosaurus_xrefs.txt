@@ -4,8 +4,8 @@
 ----------------------------------------------------------------------------
 
  Description: Cellosaurus: cross-referencing to external resources
- Version: 34.0
- Last update: 12-March-2020
+ Version: 35.0
+ Last update: 02-July-2020
 
 ----------------------------------------------------------------------------
 
@@ -58,7 +58,7 @@ here:
 1) DR lines
 
 Format: DR   Resource_abbrev; %s
-Where : Resource_abbrev is one of: 4DN|ABCD|ABM|AddexBio|ArrayExpress|ATCC|BCGO|BCRC|BCRJ|BEI_Resources|BTO|BioSample|BioSamples|CBA|CCLE|CCLV|CCRID|CCTCC|Cell_Biolabs|Cell_Model_Passport|CGH-DB|ChEMBL-Cells|ChEMBL-Targets|CLDB|CLO|CLS|ColonAtlas|Coriell|Cosmic|Cosmic-CLP|dbMHC|DepMap|DGRC|DiscoverX|DSMZ|eagle-i|EBiSC|ECACC|EFO|ENCODE|ESTDAB|FCDI|FCS-free|FlyBase|GDSC|GEO|HipSci|hPSCreg|IARC_TP53|IBRC|ICLC|IGRhCellID|IGSR|IHW|Imanis|IPD-IMGT/HLA|ISCR|IZSLER|JCRB|KCB|KCLB|KYinno|LiGeA|LINCS_HMS|LINCS_LDP|Lonza|MCCL|MeSH|MetaboLights|Millipore|MMRRC|NCBI_Iran|NCI-DTP|NHCDR |NISES|NIH-ARP|PharmacoDB|PRIDE|RCB|RSCB|SKIP|SKY/M-FISH/CGH|TCB|TKG|TNGB|TOKU-E|WiCell|Wikidata|Ximbio
+Where : Resource_abbrev is one of: 4DN|ABCD|ABM|AddexBio|ArrayExpress|ATCC|BCGO|BCRC|BCRJ|BEI_Resources|BTO|BioSample|BioSamples|CBA|CCLE|CCLV|CCRID|CCTCC|Cell_Biolabs|Cell_Model_Passport|CGH-DB|ChEMBL-Cells|ChEMBL-Targets|CLDB|CLO|CLS|ColonAtlas|Coriell|Cosmic|Cosmic-CLP|dbMHC|DepMap|DGRC|DiscoverX|DSMZ|eagle-i|EBiSC|ECACC|EFO|ENCODE|ESTDAB|FCDI|FCS-free|FlyBase|GDSC|GEO|HipSci|hPSCreg|IARC_TP53|IBRC|ICLC|IGRhCellID|IGSR|IHW|Imanis|IPD-IMGT/HLA|ISCR|IZSLER|JCRB|KCB|KCLB|Kerafast|KYinno|LiGeA|LIMORE|LINCS_HMS|LINCS_LDP|Lonza|MCCL|MeSH|MetaboLights|Millipore|MMRRC|NCBI_Iran|NCI-DTP|NHCDR |NISES|NIH-ARP|PharmacoDB|PRIDE|RCB|RSCB|SKIP|SKY/M-FISH/CGH|TCB|TKG|TNGB|TOKU-E|WiCell|Wikidata|Ximbio
 
 2) RX lines
 
@@ -516,6 +516,12 @@ Server: https://cellbank.snu.ac.kr/main/index.html
 Db_URL: https://cellbank.snu.ac.kr/english/sub/catalog.php?page=detail&CatNo=59&strQ=%s&submit1=Find+it
 Cat   : Cell line collections
 //
+Abbrev: Kerafast
+Name  : Kerafast cell lines
+Server: https://www.kerafast.com/
+Db_URL: https://www.kerafast.com/Search?SearchTerm=&quot%s&quot;
+Cat   : Cell line collections
+//
 Abbrev: KYinno
 Name  : KYinno cell lines
 Server: http://www.kyinno.com/
@@ -527,6 +533,12 @@ Name  : Cancer cell LInes GEne fusions portAl
 Server: http://hpc-bioinformatics.cineca.it/fusion/main
 Db_URL: http://hpc-bioinformatics.cineca.it/fusion/cell_line/%s
 Cat   : Polymorphism and mutation databases
+//
+Abbrev: LIMORE
+Name  : Liver Cancer Model Repository
+Server: https://www.picb.ac.cn/limore/home
+Db_URL: https://www.picb.ac.cn/limore/cellLines/single?para=%s
+Cat   : Cell line databases/resources
 //
 Abbrev: LINCS_HMS
 Name  : Harvard Medical School (HMS) LINCS Center
@@ -665,7 +677,7 @@ Cat   : Reference resources
 Abbrev: RCB
 Name  : RIKEN Bioresource Center Cell Bank
 Server: https://cell.brc.riken.jp/en/rcb
-Db_URL: https://cellbank.brc.riken.jp/cell_bank/CellInfo/?cellNo=%s&lang=En
+Db_URL: http://cellbank.brc.riken.jp/cell_bank/CellInfo/?cellNo=%s&lang=En
 Cat   : Cell line collections
 //
 Abbrev: RGD
