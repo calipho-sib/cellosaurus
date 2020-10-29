@@ -1,11 +1,11 @@
-----------------------------------------------------------------------------
+.---------------------------------------------------------------------------
         CALIPHO group at the SIB - Swiss Institute of Bioinformatics
         Geneva, Switzerland
 ----------------------------------------------------------------------------
 
  Description: Cellosaurus: frequently asked questions
- Version: 35.0
- Last update: 02-July-2020
+ Version: 36.0
+ Last update: 29-October-2020
 
 ----------------------------------------------------------------------------
 
@@ -53,6 +53,19 @@ PMCID: PMC5945021
 
 See:
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5945021/
+
+In addition, if you have used the CLASTR STR similarity search tool we would
+be pleased that you cite:
+
+Robin T., Capes-Davis A., Bairoch A.
+CLASTR: the Cellosaurus STR similarity search tool -- A precious help for cell line authentication.
+Int. J. Cancer 146:1299-1306(2020)
+
+DOI: 10.1002/ijc.32639
+PMID: 31444973
+
+See
+https://dx.doi.org/10.1002/ijc.32639
 
 ----------------------------------------------------------------------------
 

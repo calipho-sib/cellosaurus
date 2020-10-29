@@ -4,8 +4,8 @@
 ----------------------------------------------------------------------------
 
  Description: Cellosaurus: cross-referencing to external resources
- Version: 35.0
- Last update: 02-July-2020
+ Version: 36.0
+ Last update: 29-October-2020
 
 ----------------------------------------------------------------------------
 
@@ -58,7 +58,7 @@ here:
 1) DR lines
 
 Format: DR   Resource_abbrev; %s
-Where : Resource_abbrev is one of: 4DN|ABCD|ABM|AddexBio|ArrayExpress|ATCC|BCGO|BCRC|BCRJ|BEI_Resources|BTO|BioSample|BioSamples|CBA|CCLE|CCLV|CCRID|CCTCC|Cell_Biolabs|Cell_Model_Passport|CGH-DB|ChEMBL-Cells|ChEMBL-Targets|CLDB|CLO|CLS|ColonAtlas|Coriell|Cosmic|Cosmic-CLP|dbMHC|DepMap|DGRC|DiscoverX|DSMZ|eagle-i|EBiSC|ECACC|EFO|ENCODE|ESTDAB|FCDI|FCS-free|FlyBase|GDSC|GEO|HipSci|hPSCreg|IARC_TP53|IBRC|ICLC|IGRhCellID|IGSR|IHW|Imanis|IPD-IMGT/HLA|ISCR|IZSLER|JCRB|KCB|KCLB|Kerafast|KYinno|LiGeA|LIMORE|LINCS_HMS|LINCS_LDP|Lonza|MCCL|MeSH|MetaboLights|Millipore|MMRRC|NCBI_Iran|NCI-DTP|NHCDR |NISES|NIH-ARP|PharmacoDB|PRIDE|RCB|RSCB|SKIP|SKY/M-FISH/CGH|TCB|TKG|TNGB|TOKU-E|WiCell|Wikidata|Ximbio
+Where : Resource_abbrev is one of: 4DN|ABCD|ABM|AddexBio|ArrayExpress|ATCC|BCGO|BCRC|BCRJ|BEI_Resources|BTO|BioSample|BioSamples|CBA|CCLE|CCLV|CCRID|CCTCC|Cell_Biolabs|Cell_Model_Passport|CGH-DB|ChEMBL-Cells|ChEMBL-Targets|CLDB|CLO|CLS|ColonAtlas|Coriell|Cosmic|Cosmic-CLP|dbMHC|DepMap|DGRC|DiscoverX|DSMZ|eagle-i|EBiSC|ECACC|EFO|ENCODE|ESTDAB|FCDI|FCS-free|FlyBase|GDSC|GEO|HipSci|hPSCreg|IARC_TP53|IBRC|ICLC|IGRhCellID|IGSR|IHW|Imanis|IPD-IMGT/HLA|ISCR|IZSLER|JCRB|KCB|KCLB|Kerafast|KYinno|LiGeA|LIMORE|LINCS_HMS|LINCS_LDP|Lonza|MCCL|MeSH|MetaboLights|Millipore|MMRRC|NCBI_Iran|NCI-DTP|NHCDR |NISES|NIH-ARP|PharmacoDB|PRIDE|Progenetix|RCB|RSCB|SKIP|SKY/M-FISH/CGH|TCB|TKG|TNGB|TOKU-E|WiCell|Wikidata|Ximbio
 
 2) RX lines
 
@@ -122,8 +122,8 @@ Cat   : Cell line collections
 //
 Abbrev: AddexBio
 Name  : AddexBio cell line products
-Server: http://www.addexbio.com/productshow?id=4
-Db_URL: http://www.addexbio.com/productdetail?pid=%s
+Server: https://www.addexbio.com/productshow?id=4
+Db_URL: https://www.addexbio.com/productdetail?pid=%s
         Note: %s is the value after the slash "/" in the DR line.
         Example: for "DR   AddexBio; T0016001/4918": %s=4918
 Cat   : Cell line collections
@@ -216,7 +216,7 @@ Cat   : Cell line collections
 Abbrev: Cell_Biolabs
 Name  : Cell Biolabs cell line products
 Server: https://www.cellbiolabs.com
-Db_URL: https://www.cellbiolabs.com/search/apachesolr_search/%s
+Db_URL: https://www.cellbiolabs.com/search?keywords=%s
 Cat   : Cell line collections
 //
 Abbrev: Cell_Model_Passport
@@ -303,8 +303,8 @@ Cat   : Cell line databases/resources
 //
 Abbrev: dbMHC
 Name  : dbMHC database
-Server: https://www.ncbi.nlm.nih.gov/gv/mhc/main.cgi?cmd=init
-Db_URL: https://www.ncbi.nlm.nih.gov/projects/gv/mhc/xslcgi.fcgi?cmd=subj&ID=%s
+Server: https://www.ncbi.nlm.nih.gov/gv/mhc/
+Db_URL: None
 Cat   : Cell line databases/resources
 //
 Abbrev: DepMap
@@ -470,7 +470,7 @@ Cat   : Biological sample resources
 //
 Abbrev: IHW
 Name  : International Histocompatibility Workshop cell lines
-Server: https://www.fredhutch.org/en/labs/clinical/projects/ihwg.html
+Server: https://www.fredhutch.org/en/research/institutes-networks-ircs/international-histocompatibility-working-group.html
 Db_URL: None
 Cat   : Cell line databases/resources
 //
@@ -506,7 +506,7 @@ Cat   : Cell line collections
 //
 Abbrev: KCB
 Name  : Kunming Cell Bank of Type Culture Collection
-Server: http://kcb.kiz.cas.cn/
+Server: http://www.kmcellbank.com/
 Db_URL: None
 Cat   : Cell line collections
 //
@@ -662,6 +662,12 @@ Server: https://www.ebi.ac.uk/pride/archive/
 Db_URL: https://www.ebi.ac.uk/pride/archive/projects/%s
 Cat   : Proteomic databases
 //
+Abbrev: Progenetix
+Name  : Cancer genome data @ progenetix.org
+Server: https://progenetix.org/
+Db_URL: https://progenetix.org/biosamples/by-curie/cellosaurus:%s
+Cat   : Polymorphism and mutation databases
+//
 Abbrev: PubChem
 Name  : PubChem compound database
 Server: https://pubchem.ncbi.nlm.nih.gov
@@ -683,7 +689,7 @@ Cat   : Cell line collections
 Abbrev: RGD
 Name  : Rat Genome Database
 Server: https://rgd.mcw.edu
-Db_URL: https://rgd.mcw.edu/rgdweb/report/gene/main.html?id=%s
+Db_URL: http://rgd.mcw.edu/rgdweb/report/gene/main.html?id=%s
 Cat   : Organism-specific databases
 //
 Abbrev: RSCB
@@ -706,8 +712,8 @@ Cat   : Cell line databases/resources
 //
 Abbrev: TCB
 Name  : Tick Cell Biobank
-Server: https://www.liverpool.ac.uk/infection-and-global-health/research/tick-cell-biobank/tick-cell-lines/
-Db_URL: http://www.pirbright.ac.uk/node/%s
+Server: https://www.pirbright.ac.uk/tick-cell-lines-views-page
+Db_URL: https://www.pirbright.ac.uk/node/%s
 Cat   : Cell line collections
 //
 Abbrev: TKG
