@@ -4,8 +4,8 @@
 ----------------------------------------------------------------------------
 
  Description: Cellosaurus: cross-referencing to external resources
- Version: 36.0
- Last update: 29-October-2020
+ Version: 37.0
+ Last update: 22-January-2021
 
 ----------------------------------------------------------------------------
 
@@ -58,7 +58,7 @@ here:
 1) DR lines
 
 Format: DR   Resource_abbrev; %s
-Where : Resource_abbrev is one of: 4DN|ABCD|ABM|AddexBio|ArrayExpress|ATCC|BCGO|BCRC|BCRJ|BEI_Resources|BTO|BioSample|BioSamples|CBA|CCLE|CCLV|CCRID|CCTCC|Cell_Biolabs|Cell_Model_Passport|CGH-DB|ChEMBL-Cells|ChEMBL-Targets|CLDB|CLO|CLS|ColonAtlas|Coriell|Cosmic|Cosmic-CLP|dbMHC|DepMap|DGRC|DiscoverX|DSMZ|eagle-i|EBiSC|ECACC|EFO|ENCODE|ESTDAB|FCDI|FCS-free|FlyBase|GDSC|GEO|HipSci|hPSCreg|IARC_TP53|IBRC|ICLC|IGRhCellID|IGSR|IHW|Imanis|IPD-IMGT/HLA|ISCR|IZSLER|JCRB|KCB|KCLB|Kerafast|KYinno|LiGeA|LIMORE|LINCS_HMS|LINCS_LDP|Lonza|MCCL|MeSH|MetaboLights|Millipore|MMRRC|NCBI_Iran|NCI-DTP|NHCDR |NISES|NIH-ARP|PharmacoDB|PRIDE|Progenetix|RCB|RSCB|SKIP|SKY/M-FISH/CGH|TCB|TKG|TNGB|TOKU-E|WiCell|Wikidata|Ximbio
+Where : Resource_abbrev is one of: 4DN|ABCD|ABM|AddexBio|ArrayExpress|ATCC|BCGO|BCRC|BCRJ|BEI_Resources|BTO|BioSample|BioSamples|CBA|CCLE|CCLV|CCRID|CCTCC|Cell_Biolabs|Cell_Model_Passport|CGH-DB|ChEMBL-Cells|ChEMBL-Targets|CLDB|CLO|CLS|ColonAtlas|Coriell|Cosmic|Cosmic-CLP|dbMHC|DepMap|DGRC|DiscoverX|DSMZ|eagle-i|EBiSC|ECACC|EFO|ENCODE|ESTDAB|FCDI|FCS-free|FlyBase|GDSC|GEO|HipSci|Horizon_Discovery|hPSCreg|IARC_TP53|IBRC|ICLC|IGRhCellID|IGSR|IHW|Imanis|IPD-IMGT/HLA|ISCR|IZSLER|JCRB|KCB|KCLB|Kerafast|KYinno|LiGeA|LIMORE|LINCS_HMS|LINCS_LDP|Lonza|MCCL|MeSH|MetaboLights|Millipore|MMRRC|NCBI_Iran|NCI-DTP|NHCDR |NISES|NIH-ARP|PharmacoDB|PRIDE|Progenetix|RCB|RSCB|SKIP|SKY/M-FISH/CGH|TCB|TKG|TNGB|TOKU-E|WiCell|Wikidata|Ximbio
 
 2) RX lines
 
@@ -148,7 +148,7 @@ Cat   : Ontologies
 //
 Abbrev: BCRC
 Name  : Taiwan Bioresource Collection and Research Center
-Server: https://catalog.bcrc.firdi.org.tw/
+Server: https://www.bcrc.firdi.org.tw/en/home/
 Db_URL: https://catalog.bcrc.firdi.org.tw/BcrcContent?bid=%s
 Cat   : Cell line collections
 //
@@ -432,6 +432,12 @@ Server: http://www.hipsci.org
 Db_URL: http://www.hipsci.org/lines/#/lines/%s
 Cat   : Cell line databases/resources
 //
+Abbrev: Horizon_Discovery
+Name  : Horizon Discovery cell line collection
+Server: https://horizondiscovery.com/
+Db_URL: https://horizondiscovery.com/en/search?searchterm=%s
+Cat   : Cell line collections
+//
 Abbrev: hPSCreg
 Name  : Human Pluripotent Stem Cell Registry
 Server: https://hpscreg.eu
@@ -524,7 +530,7 @@ Cat   : Cell line collections
 //
 Abbrev: KYinno
 Name  : KYinno cell lines
-Server: http://www.kyinno.com/
+Server: https://www.kyinno.com/
 Db_URL: https://innopedia.kyinno.com/DataBase/CellLine.aspx?file=%s.pdf
 Cat   : Cell line collections
 //

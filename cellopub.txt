@@ -4,8 +4,8 @@
 ----------------------------------------------------------------------------
 
  Description: CelloPub, Cellosaurus publications
- Version: 36.0
- Last update: 29-October-2020
+ Version: 37.0
+ Last update: 22-January-2021
 
 ----------------------------------------------------------------------------
 ID   CLPUB00222
@@ -1022,7 +1022,7 @@ diseases. Both cell lines are EBNA negative and show morphological and
 immunophenotypical features of plasma cells. INA-6 expresses the CD39 and
 CDw75 antigens, JK-6 is strongty positive with CD38 and CD39 antibodies.
 By flow cytometry they were non-reactive with Ia antibodies and B ceil
-reagents CD19, CD2O, CD21, CD22, and CD24. While INA-6 cells are releasing
+reagents CD19, CD20, CD21, CD22, and CD24. While INA-6 cells are releasing
 kappa light chains only, JK-6 cells produce IgG kappa. Both cell lines
 could only be initiated with IL-6 supplemented medium and remained IL-6
 responsive throughout continuous culture. INA-6 is strictly dependent on
@@ -2560,7 +2560,7 @@ ID   CLPUB00502
 RA   Shi L.-M., He W.-S., Chen Y.-Z.;
 RT   "Studies of mutagenicity of chemicals on red muntjac cells.";
 RL   Dong Wu Xue Yan Jiu 1:297-302(1980).
-WW   http://www.zoores.ac.cn/EN/Y1980/V1/I3/297
+WW   http://www.zoores.ac.cn/en/article/id/916
 DR   Cellosaurus; CVCL_WL31; KIZ-7901
 AB   Yes
 A diploid cell strain (KIZ-7901) of red muntjac (Muntiacus muntjak) has
@@ -2578,7 +2578,7 @@ RA   Zhang X.-R., Wang J.-H., Chen Y.-Z.;
 RT   "Establishment of lung cell strain KIZ-81A of tufted deer (Elaphodus
 RT   cephalophus) and study of its biological characteristics.";
 RL   Dong Wu Xue Yan Jiu 5:71-77(1984).
-WW   http://www.zoores.ac.cn/EN/Y1984/V5/I1/71
+WW   http://www.zoores.ac.cn/en/article/id/2363
 DR   Cellosaurus; CVCL_0A01; KIZ-81A
 AB   Yes
 A cell strain (designated KIZ-81A) derived from lung tissue of a young
@@ -2606,7 +2606,7 @@ RA   Liu A.-H., Lin S.-Y., Xiong X.-K.;
 RT   "Observations on new cell line of Indian muntjac transformed with
 RT   MNNG.";
 RL   Dong Wu Xue Yan Jiu 13:77-82(1992).
-WW   http://www.zoores.ac.cn/EN/Y1992/V13/I1/77
+WW   http://www.zoores.ac.cn/en/article/id/2009
 DR   Cellosaurus; CVCL_WL31; KIZ-7901
 DR   Cellosaurus; CVCL_WL32; KIZ-8401
 AB   Yes
@@ -2623,7 +2623,7 @@ RA   Chen Y.-Z., Liu R.-Q., Nai W.-H., Yang M., He C.-H., Bao Y.-F.,
 RA   Lei W.-H.;
 RT   "The chromosome of Asian elephant.";
 RL   Dong Wu Xue Yan Jiu 19:93-94(1998).
-WW   http://www.zoores.ac.cn/EN/Y1998/V19/I1/93
+WW   http://www.zoores.ac.cn/en/article/id/454
 DR   Cellosaurus; CVCL_WL30; KCB 96008
 AB   No
 //
@@ -2711,6 +2711,25 @@ RT   established osteoblast-like cell line.";
 RL   Endocrinology 104:488A-488A(1979).
 DR   Cellosaurus; CVCL_IW89; MMB-1
 AB   No
+//
+ID   CLPUB00601
+RA   Fernandez-Puentes C., Novoa B., Figueras A.;
+RT   "Growth requirements of a new cell line (TV-1) derived from turbot
+RT   (Scophthalmus maximus L.). Measures for success.";
+RL   Eur. Aquac. Soc. Spec. Publ. 21:264-265(1994).
+WW   https://www.observatorio-acuicultura.es/recursos/bases-de-datos/publicaciones/growth-requirements-new-cell-line-tv-1-derived-turbot
+DR   Cellosaurus; CVCL_R817; TV-1
+AB   Yes
+The availability of fish cell lines is important for the isolation of
+viruses. Some cell lines from fresh water fishes have been established but
+very few from marine fishes are available. A new cell line of turbot has
+been established in our laboratory and one of the sublines (TV-1) has been
+characterized (chromosome number, enzymatic analysis and growth
+requirements).Also the growth conditions for fish cell lines have not been
+extensively studied, we have done some studies: optimum temperature of
+growth and saline reqprements. But a more detailed study remains to be
+done. In this communication we study the serum, salt and amino acid
+requirements of this cell line.
 //
 ID   CLPUB00129
 RA   Schlage W.K., Kuhn C., Bereiter-Hahn J.;
@@ -3552,7 +3571,7 @@ causative agent of viral epithelial hyperplasia and Japanese flounder
 nervous necrosis virus (JF-NNV). HINAE cells showed a susceptibility to
 Japanese flounder lymphocystis disease virus (JF-LCDV) and produced
 enlarged rounded cells. Infectivity of culture grown JF-LCDV using the
-HINAE cells reached 10**5.30 TCID50/ml. HINAE is a first cell line to
+HINAE cells reached 10^5.30 TCID50/ml. HINAE is a first cell line to
 support a growth of JF-LCDV.
 //
 ID   CLPUB00165
@@ -3738,6 +3757,14 @@ RA   Suzumori K., Yasui Y.;
 RT   "NUZ-1.";
 RL   Hum. Cell 1:454-454(1988).
 DR   Cellosaurus; CVCL_V411; NUZ
+AB   No
+//
+ID   CLPUB00594
+RA   Aoki Y., Adachi S., Yoshiya N., Honma S., Kanazawa K.;
+RT   "Establishment and characterization of human ovarian endometrioid
+RT   carcinoma cell line.";
+RL   Hum. Cell 2:46-46(1989).
+DR   Cellosaurus; CVCL_A1TQ; Nakajima
 AB   No
 //
 ID   CLPUB00513
@@ -4153,7 +4180,7 @@ esophageal cell lines should be useful for studies of carcinogen-induced
 cell transformation.
 //
 ID   CLPUB00186
-RA   Sohi S.S., Lalouette W., Macdonald J.A., Gringorten J.L., Budau C.B.;
+RA   Sohi S.S., Lalouette W., MacDonald J.A., Gringorten J.L., Budau C.B.;
 RT   "Establishment of continuous midgut cell lines of spruce budworm
 RT   (Lepidoptera: Tortricidae).";
 RL   In Vitro Cell. Dev. Biol. Anim. 29:56A-56A(1993).
@@ -5009,7 +5036,7 @@ candidates.
 ID   CLPUB00556
 RA   Wagner L.E., Venta P.J., Tashian R.E.;
 RT   "A human carbonic anhydrase I deficiency appears to be caused by a
-RT   destabilizing amino acid substitution (246Arg->His).";
+RT   destabilizing amino acid substitution (246-Arg->His).";
 RL   Isozyme Bull. 24:35-35(1991).
 DR   Cellosaurus; CVCL_IX35; GM02744
 DR   Cellosaurus; CVCL_IX36; GM02745
@@ -5202,7 +5229,7 @@ RA   Sugimoto T., Kuroda H., Yagyu S., Gotoh T., Osone S., Tamura T.,
 RA   Iehara T., Hosoi H.;
 RT   "Cellular and molecular characteristics of established neuroblastoma
 RT   cell lines.";
-RL   J. Cancer Res. Therap. Oncol. 7:1-15(2019).
+RL   J. Cancer Res. Therap. Oncol. 7:201.1-201.15(2019).
 WW   http://www.jscholaronline.org/full-text/JCRTO/7_201/Cellular-and-Molecular-Characteristics.php
 DR   https://web.expasy.org/cgi-bin/cellosaurus/search?input=CLPUB00582
 AB   Yes
@@ -5225,6 +5252,32 @@ improvement of NB prognosis with fenretinide, an apoptosis inducer in NB
 cell lines, and apoptotic induction using gefitinib (EGFR inhibitor) in NB
 cell lines have been discussed, along with potential novel therapeutic
 agents.
+//
+ID   CLPUB00599
+RA   Sugimoto T., Kuroda H., Kuwahara Y., Katsumi Y., Misawa A.,
+RA   Moritake H., Hosoi H.;
+RT   "Cellular and molecular characteristics of established childhood
+RT   soft-tissue sarcoma cell lines.";
+RL   J. Cancer Res. Therap. Oncol. 7:202.1-202.12(2019).
+WW   http://www.jscholaronline.org/full-text/JCRTO/7_202/Soft-Tissue-Sarcoma-Cell-Lines.php
+DR   https://web.expasy.org/cgi-bin/cellosaurus/search?input=CLPUB00599
+AB   Yes
+From 1984 to 2013, we established 29 childhood tumor cell lines, including
+13 soft-tissue-sarcoma cell lines. Here, we provide an overview of these
+soft-tissue sarcoma cell lines, their origins, characteristics, and
+highlight their potential as valuable research tools for fundamental
+research and development of new treatments. The cell lines were
+established from three patients with rhabdomyosarcoma (RMS), five patients
+with Ewing sarcoma family tumors, four patients with rhabdoid tumors, and
+one patient with clear cell sarcoma of soft parts. In particular, we
+demonstrate the potential of the MRT cell lines in preclinical in vivo and
+in vitro studies to evaluate molecular target therapy using gefitinib and
+trastuzumab activated antibody-dependent cellular cytotoxicity. Moreover,
+the clear cell sarcoma cell line, MP-CCS-SY, was established from a
+metastatic tumor in the left Achilles tendon of a 17-year-old girl, which
+represents a rare cell line for this cancer, and will help to gain a
+better understanding of the molecular biology of this malignancy and serve
+as a useful tool for developing boron neutron capture therapy.
 //
 ID   CLPUB00485
 RA   Kuiper C.M., Broxterman H.J., Baas F., Schuurhuis G.J., Haisma H.,
@@ -5344,7 +5397,7 @@ are able to reproduce with approximately 1.5x10^5 cells per millilitre in
 concentration. About 4 days, a monolayer cells can be found clearly in the
 culture. After 36 hours, the index of mitotic division of the ZC-7901 is
 36.5% while that of the ZC-7901S1 is 32.3%; and then at 156 hours after
-propagation the former is gradually decreased to 12.3‰ and the latter to
+propagation the former is gradually decreased to 12.3% and the latter to
 14.3%. The chromosome number of each cell in these two strains is 2n = 48.
 //
 ID   CLPUB00329
@@ -5496,7 +5549,7 @@ cells were carried out using anti-GFAP, anti-S-100 protein, and anti-
 vimentin antibodies. These antibodies reactive with the KINGS-1 cells as
 well as original fresh tumor cells. To investigate the glial cells
 proliferation, differentiation and relationship about cell surface
-antigens between glial cells and hernatopoietic cells, KINGS-1 will be an
+antigens between glial cells and hematopoietic cells, KINGS-1 will be an
 useful model in vitro and a tool for better understanding of human glioma.
 //
 ID   CLPUB00067
@@ -6762,6 +6815,33 @@ present report deals with constitutive heterochromatin (C-banding),
 nucleolus organizing regions (NORs) and sister chromatid exchanges (SCEs)
 in cultured lung cells from this same species.
 //
+ID   CLPUB00595
+RA   Hamaguchi Y.;
+RT   "Establishment of human osteosarcoma cell line from mandible and it's
+RT   sensitivity of rhodamine 123.";
+RL   Mie Igaku 33:109-120(1989).
+DR   Cellosaurus; CVCL_A2BI; HOSM-1
+AB   No
+//
+ID   CLPUB00596
+RA   Tagawa T., Nomura J., Kihira H., Murata M.;
+RT   "A new established osteosarcoma cell line from human mandible.";
+RL   Mie Med. J. 39:279-286(1989).
+DR   Cellosaurus; CVCL_A2BJ; HOSM-2
+AB   Yes
+The characteristics of a cell line HOSM-2, which derived from osteosarcoma
+of human mandible, were investigated. The cultures consisted mainly of
+polygonal cells, which had an epithelial-like growth pattern with a
+tendency to pile up. The cells produced both alkaline phosphatases and
+acid phosphatases. Transmission electron micrographs showed the presence
+of intercellular collagen filaments. The population doubling time of these
+cells was about 74.8 hours. The number of chromosomes ranged widely from
+59 to 81 with the modal number being 70. This cell line has passed through
+over 112 population doublings since its primary culture 2 years and 6
+months previously. These findings suggest that HOSM-2 are osteosarcoma
+cells rather than stromal cells. HOSM-2 may be useful in a variety of
+studies of human osteosarcoma.
+//
 ID   CLPUB00468
 RA   Javitt G.;
 RT   "Why not take all of me? Reflections on the immortal life of Henrietta
@@ -6853,6 +6933,34 @@ myeloblastic morphology after more than 25 subcultures. The use of the
 irradiated feeder layer was apparently important in initiating the culture.
 The significance of the virus-like particles associated with these cells
 has not been determined.
+//
+ID   CLPUB00593
+RA   Kodama S., Komatsu K., Okumura Y., Sasaki M.S.;
+RT   "Chromosome alterations in the X-ray-induced transformants of cultured
+RT   mouse cell line.";
+RL   Nagasaki Igakkai Zasshi 63 Suppl. 1:651-657(1989).
+WW   https://www.osti.gov/etdeweb/biblio/5129513
+WW   https://inis.iaea.org/search/searchsinglerecord.aspx?recordsFor=SingleRecord&RN=21023402
+DR   Cellosaurus; CVCL_A1SU; m5S/1M
+DR   Cellosaurus; CVCL_A1SV; m5S/1M cl.4103
+DR   Cellosaurus; CVCL_A1SW; m5S/1M cl.6310
+AB   Yes
+Mouse m5S cells were subjected to soft X-ray irradiation. Twenty-four
+transformants were separated as indicators of focus formation. Two clones,
+cl.4103 and cl.6310, were chosen for the analysis of chromosome
+alterations in transformants. A parent strain, m5S/1M, served as the
+control. Anchorage independence (AG) was not detected in the control
+strain, irrespective of culture conditions and population doubling number
+(PDN). In the case of transformants, the frequency of AG was increased
+with increasing PDN for cl.4103, and was constant for cl.6310,
+irrespective of PDN. Karyotype of m5S/1M was 42, X, -Y, +der(6) t(6;13),
+t(8;8), +8, +15. In addition, -13, der(10) and -der(6)t(6;13), der(5),
++mar occurred as karyotype alterations for cl.4103 and cl. 6310,
+respectively. The present experiment indicated that chromosome alterations
+secondary to primary alterations occur in a high frequency in the
+transforming process of X-ray irradiated cells, and that the secondary
+chromosome alterations result in selective proliferation of transformed
+clones.
 //
 ID   CLPUB00229
 RA   Nitta M., Iida S., Komatsu H., Maeda H., Banno S., Wakita A.,
@@ -9946,6 +10054,88 @@ cells. MnSOD immunostaining can thus possibly be used to distinguish
 mesothelioma from metastatic adenocarcinoma but not from reactive
 mesothelium.
 //
+ID   CLPUB00591
+RA   Seppanen M.;
+RT   "Cytokines and gynecological cancer. In vitro effects of cytokines on
+RT   ovarian, endometrial and vulvar carcinoma cells.";
+RL   Thesis PhD (2000), Tampere University, Finland.
+WW   http://urn.fi/urn:isbn:951-44-4884-7
+DR   Cellosaurus; CVCL_X002; UM-EC-3
+DR   Cellosaurus; CVCL_0568; UM-SCV-1A
+DR   Cellosaurus; CVCL_0569; UM-SCV-6
+DR   Cellosaurus; CVCL_A1QW; UT-OC-2
+DR   Cellosaurus; CVCL_A1QX; UT-OC-3
+DR   Cellosaurus; CVCL_A1QZ; UT-OC-5
+AB   Yes
+Immunological mechanisms, ie the body's own defense systems, are central
+to the defense against malignant cells as well. Cytokines are molecules
+produced by the immune system that have been shown in the literature to
+have an anti-proliferative effect on both normal cells and cancer cells.
+Several clinical and experimental findings suggest that this is also the
+case for gynecological cancer. Quite encouraging are the findings that in
+certain patient cases, cancer can even be treated with molecules produced
+by the immune system: cytokines.
+
+In this thesis, which consists of five parts, I have studied a number of
+commercial cytokines in human impact of gynecological cancer cell growth.
+The subject of the study is ovarian, uterine trunk and ectopic cancer
+cells.
+
+As the cell prepares to divide, it begins to synthesize a new genetic
+material, DNA. This dissertation research focuses on the inhibition of
+cytokine-induced DNA synthesis in cancer cells, and in particular the
+mechanisms by which cytokines inhibit cell proliferation. Cytokines
+possible mechanisms of cell growth inhibitory concentration,
+intracellularly in programmed cell death (apoptosis), and transcription
+factors AP-1 (activating protein 1) and NF-kB (nuclear factor kappaB)
+activation. AP-1 and NF-kappaB are proteins that, when bound to DNA,
+regulate the function of genes involved in growth and development in many
+cells.
+
+The effect of cytokines on the proliferation of cancer cells was studied
+with radiolabeled uridine, which, as a "building block" of DNA, applied to
+the nuclei of cells the more new DNA was produced in the cell. The effect
+of cell growth inhibitory cytokines on the activity of transcription
+factors was investigated by so-called EMSA tests (electrophoretic mobility
+shift assay). AP-1 was found to be activated in the nucleus under stem
+cell culture conditions without cytokine activity in all cell lines. Its
+activity was increased by some cell growth inhibitory cytokines in uterine
+and ovarian cancer cells. Although a direct relationship between AP-1
+activation and growth inhibitory activity cannot be demonstrated in these
+tests, it is possible that AP-1 plays an important role in the regulation
+of cytokine-induced growth inhibition. This interpretation is supported by
+the findings in the literature on the role of AP-1 as a regulator of cell
+growth.
+
+The transcription factor NF-kappaB was also found to be continuously
+activated in the nucleus in all cell lines. Binding of DNA was increased
+by a cell growth inhibitory cytokine, the so-called The effect of TNF-
+alpha in ovarian and vulvar cancer cells. Based on the literature, NF-
+kappaB is also an important regulator of cell growth, and it is possible
+that NF-kappaB is involved in the regulation of TNF-alpha-mediated
+inhibition of cell division in cancer cells studied.
+
+According to the literature, several cytokines also cause apoptosis in
+malignant cells. It is typical of so-called programmed cell death that in
+a dying cell, the DNA is cleaved into short fragments, which can be
+detected when colored DNA fragments of different weights travel through
+the gel in an electric field. In that study, spontaneous apoptosis was
+observed in only one ovarian cancer cell line, which interferon gamma was
+able to reduce. According to the literature, NF-kappaB is capable of
+inhibiting apoptosis. This phenomenon may well explain the inability of
+cell growth inhibitory cytokines to induce apoptosis in the cancer cells
+studied.
+
+Very little is known about the growth-regulating effect of cytokines,
+especially in ectopic cancer. The function of transcription factors that
+regulate cell growth in gynecological cancer cells has also been studied a
+little in the past, and therefore this dissertation provides new
+information about the biology of these cancers. The project may have
+concrete clinical applications in terms of the biology of malignant cell
+changes and the treatment of cancer. The role of immunological regulatory
+molecules (cytokines) in support of traditional cancer therapies in
+gynecological cancer, for example, may be significant in the near future.
+//
 ID   CLPUB00308
 RA   Valerius M.T.;
 RT   "Downstream effectors of the homeobox transcription factor Hoxa 11.";
@@ -9997,10 +10187,76 @@ RA   Kerler R.;
 RT   "In vivo rats liver cells induced by chemical carcinogens in vitro:
 RT   establishment, cytogenetic and cell biology characterization of
 RT   immortalized and neoplastically transformed cell lines.";
-RL   Thesis PhD (2000), University of Munich, Germany.
+RL   Thesis PhD (2000), Ludwig Maximilians University of Munich, Germany.
 WW   https://www.livivo.de/doc/SKH322687926
-DR   Cellosaurus; CVCL_2145; NT-92
-AB   No
+DR   https://web.expasy.org/cgi-bin/cellosaurus/search?input=CLPUB00363
+AB   Yes
+In the in vitro establishment initiated in vivo by carcinogens
+(pre)neoplastic liver cells showed similarities and differences to the
+processes of hepatocarcinogenesis in test animals. In vivo and in vitro
+only some of the initiated cells are able to survive in the long term,
+only a few are immortalized or neoplaslically transformed in vitro. The
+tumor promoter phenobarbital has an inhibiting effect on diethyl
+nitrosamine-induced, established liver cell lines. Epidermal growth
+factors such as hepatocyte-stimulating substances can promote DNA
+synthesis or migration when the receptors are expressed. Depending on the
+liver cell type and degree of differentiation, growth factors act
+differently and synergistically with a large number of other components.
+They are only partially cell-specific and often have a paracrine effect,
+which results in different effects in primary, mixed-cell cultures than in
+pure hepatocyte cultures.
+
+The ten examined liver cell lines showed partly good differentiation and
+stable morphology (CL 38). In lines that were difficult to establish (CL
+52), the in vitro progression correlated with the occurrence of genetic
+instability. The chromosome analyzes did not reveal any aberrations
+specifically attributable to immortalization or neoplastic transformation.
+A 3p or 11p deletion was often found, but with the progression and
+occurrence of a mitotic rate sufficient for karyotyping, several
+structural aberrations, karyotype heterogeneity and, not only after in
+vivo transplantation, variability were detectable. Regardless of the
+degree of differentiation or a morphology that remained stable for years,
+all cell lines showed constant and increasing karyotype alterations. Thus,
+newly occurring chromosome aberrations were only associated with changes
+in growth or morphology in exceptional cases. A comparison with liver cell
+lines from the literature and two spontaneous tumors, however, showed that
+some regions of the RNO # 1, 3, 10 and # 11, 4, 6 and 7 not only in liver
+cells, but generally in carcinomas of the rat are involved. The CL and FL
+induced in vivo by continuous diethyl nitrosamine administration did not
+show any carcinogen-specific chromosome alteration. In contrast, a single
+dose of methylnitrosourea in vivo resulted in # 4 aberrations in all three
+examined NT cell lines, as were also described for ethylnitrosourea-
+induced neurogenic tumors.
+
+Numerical chromosome losses associated with the progression were only
+partially due to translocations, preferably to centromeres and dead cells.
+When hypodiploidy was reached, the cell lines only remained if they were
+able to (hypo) tetraploidize. Endoreduplication of individual chromosomes
+or non-disjunction preserved For the limited survival time of already
+propagated subcultures, as well as the lines CL 44 and CL 49-VII, a
+telomere loss or a lack of telomerase is possible. The cell line CL 50
+shows considerable cell division disorders with its mononuclear cells,
+multipolar mitoses, micronuclei and PCCs. In relation to the latency
+period until tumor formation, the degree of malignancy of the lines
+correlates neither with the heterogeneity of the cell population, nor does
+the aneuploidy correlate with the number of cylogenetically recognizable
+aberrations. The essentially adherent line CL 49-VIII shows high cell
+death in mitosis in the event of hyperconfluence. Nevertheless, it shows
+short latency times and high metastasis in vivo. Oligonucleosomes typical
+of apoptosis could be determined for cell loss, which is dependent on cell
+density. The established lines CL 50 and CL 49 are a suitable in vitro
+system for investigating the complex mechanisms of karyo-and cytokinesis,
+or factors that lead to cell death through apoptosis.
+
+As a sensitive in vitro system, the establishment of the liver cell lines
+can provide generally valid information for primary epilhelic cell
+cultures from parenchymal tissues.The classic karyotype analysis is not
+very suitable for the detection of genetic aberrations in the case of
+insufficient proliferation and lack of mitoses in initiated or
+preneoplastic cells. For the cell type-specific investigation of early
+stages of the cancerogenesis process, in situ hybridization on interphase
+nuclei is the current method of choice. However, chromosome and gene
+specific probes are not commercially available for Rattus norvegicus.
 //
 ID   CLPUB00435
 RA   Bhalla K.;
@@ -10296,34 +10552,6 @@ chromophilic/papillary differentiated renal cell carcinomas. The decrease
 of proapototic survivin-2B could reduce the willingness to apoptotic cell
 death during tumor progression.
 //
-ID   CLPUB00580
-RA   Euer N.I.;
-RT   "Identification of target genes for the therapy and diagnosis of
-RT   ovarian carcinoma.";
-RL   Thesis PhD (2005), Ludwig Maximilian University of Munich, Germany.
-WW   https://1library.net/document/q730g7vy-identifizierung-zielgenen-therapie-diagnose-ovarkarzinomen-dissertation-munchen-fakultat.html
-DR   https://web.expasy.org/cgi-bin/cellosaurus/search?input=CLPUB00580
-AB   Yes
-The aim of this work was to use the Affymetrix GeneChip technology to
-determine genes in ovarian cancer cells which can serve as new targets in
-the diagnosis or therapy of ovarian cancer. Suitable target genes for this
-purpose should be overexpressed in the carcinoma in comparison with normal
-epithelial cells of the ovary.
-
-By comparing the gene expression profile of eleven ovary tumor cell lines
-with that of two control cell lines that were established from healthy
-epithelial tissue of the ovary, differentially expressed genes should
-first be determined. In the search for candidate genes, particular focus
-should be placed on genes which are overexpressed in the tumor cells and
-whose proteins are either located on the surface of the cells or on those
-that code for secreted proteins.
-
-Candidate genes should be tested for their potential as tumor markers in
-expression studies in ovarian tumor tissue samples or patient sera. In
-functional studies, a transfected ovarian tumor cell line should then be
-used to examine whether a candidate gene can change the phenotype of the
-tumor cells and contribute to malignancy.
-//
 ID   CLPUB00371
 RA   Wang X.-F.;
 RT   "Study on RAPD characteristics of 4 H22 clonal cell strains and
@@ -10357,7 +10585,7 @@ RT   "Studies on prolification of cells of insect fat bodies in vitro and
 RT   establishment of seven cell lines susceptible to homologous virus.";
 RL   Thesis PhD (2006), Chinese Academy of Forestry, China.
 WW   http://www.globethesis.com/?t=1103360185976209
-WW   http://sunzi.lib.hku.hk/ER/detail/hkul/5595666
+WW   https://julac.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=HKU_IZ51535154650003414&context=L&vid=hku_er&lang=en_US&search_scope=HKU_ER&adaptor=Local%20Search%20Engine&tab=er&query=any,contains,Studies%20on%20prolification%20of%20cells%20of%20insect%20fat%20bodies%20in%20vitro&offset=0
 DR   Cellosaurus; CVCL_Z303; IOZCAS-Ha-1
 DR   Cellosaurus; CVCL_0A49; IOZCAS-Spex-II
 DR   Cellosaurus; CVCL_0A51; IOZCAS-Spex-III
@@ -10571,7 +10799,7 @@ DR   Cellosaurus; CVCL_1D78; LS277
 DR   Cellosaurus; CVCL_N596; LS310
 AB   Yes
 Lung cancer continues to have by far the highest cancer mortality in the
-UK. Beyond stage of disease and the patient’s Performance Status there are
+UK. Beyond stage of disease and the patient's Performance Status there are
 no other robust clinical or molecular markers of prognosis available today.
 One major reason for the high mortality rate of this disease is the
 significant proportion of patients who present with advanced incurable
@@ -10611,7 +10839,7 @@ cisplatin chemotherapy treated patients were assessed relative to the
 level of protein expression. Despite the small size of the biopsies good
 inter-observer kappa scores were demonstrated between 2 independent
 scorers for each protein immunohistochemistry score (IHC) (MLH1 -0.6062,
-MSH2 – 0.4313, p53 – 0.591). Although this demonstrates that historic
+MSH2 -0.4313, p53 -0.591). Although this demonstrates that historic
 bronchoscopy samples can be used for such studies, the number of markers
 studied was limited due to small sample size and in this study there was
 insufficient tissue to assess expression levels of Ki67. No significant
@@ -11149,13 +11377,13 @@ further increases productivity of the cell line for certain viral vectors.
 However the AGE1.CR.pIX cell line showed an increased glucose consumption
 and propensity to cell-cell aggregation. Given that cell contacts and
 glycosylation are closely related, the N-glycosylation profile of both
-avian cell lines -AGE1.CR and AGE1.CR.pIX -was characterised. With regard
+avian cell lines (AGE1.CR and AGE1.CR.pIX) was characterised. With regard
 to functionality the focus of the characterisation was on cell-specific
 sialylation and fucosylation. In addition, native cell membrane
 glycoproteins and recombinant glycoproteins were analysed by specific
 lectin staining, chromatography and mass spectrometry. Sole expression of
 N-acetylneuraminic acid (Neu5Ac) instead of typical N-glycolylneuraminic
-acid (Neu5Gc) was determined by RP-HPLC for the AGE1.CR-and AGE1.CR.pIX
+acid (Neu5Gc) was determined by RP-HPLC for the AGE1.CR and AGE1.CR.pIX
 cell line as in human cells. Surprisingly, specific lectin staining
 coupled with FACS-analysis showed an alpha2-3-and alpha2-6-glycosidic
 linked Neu5Ac for avian cell lines. In comparison, the common used
@@ -11188,7 +11416,7 @@ bisecting GlcNAc structures similar to IgG in human serum.
 
 Furthermore a new strategy for stable reduction of fucosylation was
 successfully implemented in avian and CHO cell lines expressing rec.IgG.
-This method inhibits the de novo synthesis of GDP-Fucose and demonstrates
+This method inhibits the de novo synthesis of GDP-fucose and demonstrates
 a novel alternative to common strategies such as the
 alpha1-6-fucosyltransferase (FUT8)-knockout. rec.IgG with demonstrated
 reduction in fucosylation showed an increased Fc-mediated effector function.
@@ -11207,8 +11435,8 @@ alpha2-3-and alpha2-6-linked Neu5Ac, bisecting-GlcNAc and core-
 fucosylation. Finally, in the avian N-glycosylation pro le no for human
 potent immunogenic monosaccharides, such as Xylose or Neu5Gc, could be
 found. Recombinant human IgG from AGE1.CR resembled low amounts of mannose
-rich structures as detected with CHO cells. Thus the new avian cell lines -
-AGE1. CR and AGE1.CR.pIX -exhibit a human-like N-glycosylation profile and
+rich structures as detected with CHO cells. Thus the new avian cell lines
+(AGE1. CR and AGE1.CR.pIX) exhibit a human-like N-glycosylation profile and
 appear suitable not only for virus production but also for production of
 therapeutic proteins.
 //
@@ -12160,6 +12388,88 @@ offers an ideal platform to screen novel therapeutic compounds for an
 intervention during early disease stages, thereby paving the road to
 discover new treatment strategies for SPG11 related HSPs.
 //
+ID   CLPUB00603
+RA   Junker M.;
+RT   "Development and characterization of monoclonal antibodies to GDF-15
+RT   for potential use in cancer therapy.";
+RL   Thesis PhD (2016), Julius Maximilians University of Wurzburg, Germany.
+WW   https://opus.bibliothek.uni-wuerzburg.de/frontdoor/index/index/year/2016/docId/13242
+DR   Cellosaurus; CVCL_A3CI; B1-23
+AB   Yes
+Background GDF-15 is a divergent member of the TGF-superfamily, which was
+first described as macrophage inhibitory cytokine-1 (MIC-1), revealing an
+immune modulatory function. GDF-15 is a soluble protein which is, under
+physiological conditions, highly expressed in the placenta and found in
+elevated levels in blood sera of pregnant women. Apart from the placenta,
+GDF-15 is expressed in healthy tissue, albeit to a lower extent and
+overexpressed in many solid tumors. A variety of different functions are
+attributed to GDF-15 in healthy as well as diseased humans. On the one
+hand, GDF-15 is required for successful pregnancy and low GDF-15 serum
+levels during pregnancy correlate with fetal abortion. On the other hand,
+overexpression of GDF-15, which can be observed in several malignancies is
+correlated with a poor prognosis. Furthermore, tumor derived GDF-15 leads
+to cancer associated anorexia-cachexia syndrome in mice. The aim of my PhD
+thesis was to further investigate the role of GDF-15 as an immune
+modulatory factor in cancer, in particular, by inhibiting the target
+molecule in vitro and in vivo. Therefore, the main focus was placed on the
+generation and characterization of monoclonal GDF-15 specific blocking
+antibodies, which were tested in vitro and in vivo, which represents a
+substantial part of my work. Results Here, GDF-15 was shown to be highly
+expressed in human gynecological cancer and brain tumors. We could then
+demonstrate that GDF-15 modulates effector immune cells in vitro. GDF-15
+mediated a slight downregulation of the activating NKG2D receptor on NK
+and CD8+ T cells, which is crucial for proper anti-tumoral immune
+responses. Furthermore, we could demonstrate that GDF-15 reduces the
+adhesion of CD4+ and CD8+ T cells on endothelial cells in vitro. A
+negatively affected trans-endothelial migration of leukocytes into
+inflamed tissue could explain the low T cell infiltration in GDF-15
+expressing tumors, which were observed in vivo, where mice bearing (shRNA
+mediated) GDF-15 deficient glioma cells revealed enhanced immune cell
+infiltrates in the tumor microenvironment, compared with the GDF-15
+expressing control group. Those animals further exhibited a decreased
+tumor growth and prolonged survival. GDF-15 is a soluble protein, secreted
+by more than 50% of solid tumors and associated with grade of malignancy.
+Therefore a neutralizing monoclonal antibody to GDF-15 was assumed to be
+an auspicious therapeutically anti-cancer tool. Search an antibody was
+thus generated in GDF-15 knock out mice against human GFD-15. Amongst many
+clones, the GDF-15 antibody clone B1-23 was found to be applicable in
+Western blot as well as in ELISA techniques, detecting a three-dimensional
+epitope of the mature GDF-15 dimer with high affinity and specificity. To
+enable the humanization for a later administration in humans, the variable
+regions of antibody B1-23 were identified by a special PCR method using
+degenerate primers and cloned into a sequencing vector. The sequence
+obtained thereby enabled the generation of chimeric and humanized B1-23
+variants. After further comprehensive characterization, the original mouse
+antibody B1-23 as well as the chimeric antibody (ChimB1-23) and the
+humanized B1-23 antibody (H1L5) were applied in a melanoma xenograft study
+in vivo. None of the antibodies could significantly inhibit tumor growth.
+However of utmost importance, body weight loss mediated by tumor derived
+GDF-15 could be significantly prevented upon administration of all three
+GDF-15 specific antibodies, which confirmed the antagonizing functionality
+of the immunoglobulin. Conclusion GDF-15 is a promising cancer target,
+involved in tumor progression and cancer related cachexia. A monoclonal
+GDF-15 antibody was generated, which served on one hand as a tool for
+molecular biological applications (Western Blot, ELISA, etc.) and on the
+other hand was applied as an antagonizing antibody in vitro and in vivo.
+Even though tumor growth inhibition by GDF-15 depletion in T cell
+deficient athymic mice failed using B1-23, the same antibody and
+derivatives thereof (chimeric and humanized) impressively prevented tumor
+associated cachexia in UACC-257 melanoma bearing nude mice. The missing
+anti-tumor effect in our own melanoma model in nude mice can only
+partially be explained by the missing secondary immunity, in particular
+cytotoxic T cells, in the athymic animals, since in a similar melanoma
+model, performed by an external company, a tumor reduction in
+immunocompromised animals was observed when B1-23 was administered. These
+findings support the idea that T cells are substantial for an effective
+tumor immunity and are in line with the results of the syngeneic, T cell
+comprising, mouse glioma model, where silencing of tumor expressed GDF-15
+led to an enhanced intratumoral T cell infiltration and a prolonged
+survival. Taken together our data allow for the conclusion that tumor
+associated cachexia can be combatted with the GDF-15 antibody B1-23.
+Further, B1-23 might elicit direct anti-tumor effects in immune competent
+models, which contain T cells, rather than in an athymic, T cell deficient
+nude mouse model.
+//
 ID   CLPUB00426
 RA   Sansac C.;
 RT   "Modelling human bronchial epithelium by induced pluripotent stem cell
@@ -12669,6 +12979,56 @@ for WDR12 in ribosome biogenesis. In conclusion, WDR12 may be a promising
 therapeutic target in TNBC, although additional confirmatory testing will
 be required.
 //
+ID   CLPUB00592
+RA   Patel V.M.;
+RT   "Functional interrogations of phospholipase c gamma 1 (PLCG1)
+RT   mutations in Sezary syndrome.";
+RL   Thesis PhD (2019), King's College London, United Kingdom.
+WW   https://kclpure.kcl.ac.uk/portal/en/theses/functional-interrogations-of-phospholipase-c-gamma-1-plcg1-mutations-in-sezary-syndrome(93db48da-f54b-46b1-b76d-0e6b94ec1853).html
+DR   Cellosaurus; CVCL_A1SD; CY-6
+DR   Cellosaurus; CVCL_X908; KK-1 [Human leukemia]
+DR   Cellosaurus; CVCL_VN49; KOB
+DR   Cellosaurus; CVCL_VN50; LM-Y1
+DR   Cellosaurus; CVCL_VN52; LMWT5
+AB   Yes
+Sezary syndrome (SS) is an aggressive leukaemic variant of cutaneous T-
+cell lymphoma (CTCL). After the tumour suppressor gene TP53, PLCG1 is the
+most frequently mutated gene in CTCL. PLCgamma1 (encoded by PLCG1) is
+fundamental in Tcell receptor (TCR) signalling as it hydrolyses a plasma
+membrane component to trigger pathways that induce NFkappaB, NFAT and AP-1
+transcriptional activity. This thesis aimed to functionally interrogate
+nine PLCgamma1 mutations (p.R48W, p.S312L, p.D342N, p.S345F, p.S520F,
+p.R1158H, p.E1163K, p.D1165H and the indel p.VYEEDM1161V) identified in SS.
+PLCG1 mutations detected in diagnostic samples persisted in multiple
+tumour compartments several months after diagnosis, suggesting that these
+are likely driver gene mutations. A comprehensive analysis of whole-exome
+and targeted gene sequencing studies in addition to database
+interrogations revealed frequent PLCG1 mutations in 7/10 different types
+of mature T-cell lymphomas and highlighted five hotspot mutations. In
+basal conditions, five mutant proteins directly increased PLCgamma1
+activity by elevating inositol phosphate production and significantly
+enhanced downstream NFkappaB and NFAT activity, demonstrating bona fide
+gain-of-function properties. The hotspot p.R48W protein required
+stimulation to significantly elevate NFkappaB activity. Four activating
+mutations mapped to the PLCgamma2 protein surface that likely interacts with
+the plasma membrane. These four mutant proteins are hypothesised to have
+increased access to substrate, resulting in augmented TCR signalling.
+Abrogation of the key PLCgamma1 phosphorylation residue did not influence
+the elevated NFkappaB, NFAT and AP-1 activity induced by gain-of-function
+proteins in basal conditions or NFkappaB activity in stimulated cells,
+suggesting that the mutant proteins act in a phosphorylation-independent
+manner. The indel in the C2 domain of PLCgamma1 reduced total protein
+expression but importantly mediated gain-of-function, proposing a novel
+and critical role for this domain in regulating protein activity. An
+IKKbeta inhibitor was ineffective at reducing PLCgamma1-induced NFkappaB
+activity. In conclusion, PLCG1 mutations frequently occur in mature T-cell
+lymphomas and persist in multiple tumour tissues throughout the course of
+disease in SS. Five mutant proteins potently activate proximal and distal
+signalling independently of extracellular stimuli and contribute to the
+dysregulated TCR signalling that is characteristic of CTCL. The data
+presented here provides compelling evidence for the development of novel
+mutation-specific PLCgamma1 inhibitors.
+//
 ID   CLPUB00553
 RA   Larsen S.;
 RT   "Phenotypic characterization of cellular models of VPS35-associated
@@ -12738,6 +13098,44 @@ In this study, we show for the first time that p.D620N VPS35 causes PD-
 related cellular phenotypes in patient-derived neurons. The patient-
 derived neurons displayed impaired mitochondria and lysosomal clearance,
 with accumulation of alpha-synuclein.
+//
+ID   CLPUB00598
+RA   Behrang Y.;
+RT   "Establishment and characterization of a new human, highly
+RT   differentiated and functionally active tumor model of a pancreatic
+RT   neuroendocrine tumor.";
+RL   Thesis MD (2020), University of Hamburg, Germany.
+WW   https://ediss.sub.uni-hamburg.de/handle/ediss/8633
+DR   Cellosaurus; CVCL_3985; BON-1
+DR   Cellosaurus; CVCL_VG81; NT-3
+DR   Cellosaurus; CVCL_3143; QGP-1
+AB   Yes
+The aim of this project was to characterize the newly established
+pancreatic NET cell line NT-3 and to study its behavior in direct
+comparison to the existing cell lines (QGP-1 and BON), upon treatment with
+therapeutics and as a xenograft animal model. This is to evaluate if NT-3
+provides a representative, well-differentiated neuroendocrine tumor model
+for targeted and significant research on this tumor entity. Research on
+new therapies for pancreatic neuroendocrine tumors (pNET) has been
+hampered by the absence of a clinically relevant tumor model system. The
+neuroendocrine identity of NT-3 was verified by the expression of multiple
+NET-specific markers, which were highly expressed in NT-3 compared with
+BON and QGP-1. As a sign of functional activity, we were able to detect
+the expression and secretion of insulin in NT-3, corresponding to the
+clinical insulinoma of the patient providing the tumor that NT-3 was
+derived from. Until now, this well-differentiated phenotype is stable
+since 58 passages. The proliferative labeling index Ki-67 of 14.6% +- 1.0%
+in NT-3 is akin to the original tumor (15%-20%) and was lower than in BON
+(80.6% +- 3.3%) and QGP-1 (82.6% +. 1.0%). Moreover, NT-3 showed high
+expression of somatostatin receptors (SSTRs: 1, 2, 3, and 5), which are
+targets of therapeutics successfully used in the treatment of pancreatic
+NETs. In vivo growth was assessed in a xenograft mouse model. Upon
+subcutaneous transplantation of NT-3 cells, recipient mice developed
+tumors with an efficient tumor take rate (94%) and growth rate (139% +-
+13%) by 4 weeks. Morphology and neuroendocrine marker expression of
+xenograft tumors resembled the original human tumor. These outstanding
+characteristics qualify NT-3 as a relevant model to study neuroendocrine
+tumor biology and to develop new NET treatments.
 //
 ID   CLPUB00262
 RA   Gold M.;
@@ -12931,6 +13329,46 @@ culture increased the cell specific productivity 8.6 fold. In terms of
 medium cost, the perfusion rate used in these experiments never exceeded
 2.7 working volume per day.
 //
+ID   CLPUB00600
+RA   Coriell L.L., Greene A.E., Mulivor R.A.;
+RT   "The human genetic mutant cell repository: list of genetic variants,
+RT   chromosomal aberrations and normal cell cultures submitted to the
+RT   repository. 6th edition. October 1979.";
+RL   (In) Institute for Medical Research (Camden, N.J.) NIH 80-2011; pp.1-168; National Institutes of Health; Bethesda (1979).
+WW   https://books.google.ch/books?id=jN43Iv1U38cC
+DR   https://web.expasy.org/cgi-bin/cellosaurus/search?input=CLPUB00600
+AB   Yes
+Since its inception in 1972, an increasing number of investi-gators have
+utilized the Human Genetic Mutant Cell Repository as a source of
+contaminant free, verified, biochemically mutant or chromosomally aberrant
+cell cultures. This increased demand is illustrated on the following two
+pages. A newly instituted utilization survey indicates that these cell
+cultures are in demand in almost every discipline of biomedical research.
+In 1979, the Repository has continued its efforts to assure the high
+quality of cell cultures established and shipped: lymphoblast cell
+cultures are being established from over 90% of the heparinized blood
+specimens received, the collection is continually reviewed and cell
+cultures are added or deleted as better cultures become available,
+advanced equipment has been added for programmed freezing and liquid
+nitrogen storage, and a new shipping container employed during the cold
+winter months has guaranteed that over 94% of the cell cultures shipped
+via air mail arrive in good condition. The sixth edition of the catalog
+includes a number of changes which make it more informative and easier to
+use. These changes include: a simplified table of contents, a section on
+use of the catalog, a new format, a Repository number versus page number
+index, a comprehensive list of references, and improvements to the
+alphabetical diagnosis index. As submissions to the Repository approach
+3,600 specimens it is becoming increasingly difficult to justify the
+addition of an inadequately documented line to the collection. For this
+reason, as much information as is available to support the clinical
+diagnosis as well as a detailed pedigree should accompany the submission
+of a specimen. This is especially important in the case of disorders with
+unknown biochemical defects. Several collections have been judged complete
+and, unless a specimen represents a unique opportunity i.e., blood and
+skin from the same individual, a family unit, or a variant, the specimen
+may not be banked. Improving the quality and characterization of the
+existing collection will take precedence over expanding its size.
+//
 ID   CLPUB00387
 RA   Coriell L.L., Greene A.E., Mulivor R.A.;
 RT   "The human genetic mutant cell repository: list of genetic variants,
@@ -13035,6 +13473,25 @@ collection.
 Investigators are encouraged to contact the Repository to submit specimens
 from individuals with well documented genetic diseases or somatic cell
 hybrids retaining human chromosomes not currently in the collection.
+//
+ID   CLPUB00597
+RG   National Institute on Aging;
+RT   "1994 catalog of cell lines. NIA Aging Cell Repository.";
+RL   (In) Institute for Medical Research (Camden, N.J.); pp.1-351; National Institutes of Health; Bethesda (1994).
+WW   https://books.google.ch/books?id=5D0I26efIhwC
+DR   https://web.expasy.org/cgi-bin/cellosaurus/search?input=CLPUB00597
+AB   Yes
+This catalog of the Aging Cell Repository lists many categories of cell
+cultures for cellular aging studies.
+//
+ID   CLPUB00602
+RA   Lenk M., Riebe R.;
+RT   "Authenticity controls of used cell lines ensure the quality of
+RT   scientific publications.";
+RL   (In) 2003 annual report of the Federal Research Centre for Virus Diseases of Animals; pp.41-48; BFAV; Insel Riem (2004).
+WW   https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.461.8400&rep=rep1&type=pdf
+DR   Cellosaurus; CVCL_R817; TV-1
+AB   No
 //
 ID   CLPUB00400
 RA   Nishikawa T., Maruo N., Tatarazako N., Shiraishi H., Morita M.;
@@ -13536,7 +13993,7 @@ CF, LF, SK, BGF are epithelioid in morphology. However, both epithelioid
 and fibroblastic cells were observed in GON and EK-1 cell lines. the cell
 lines were demonstrated to be free of mycoplasmal, fungal and bacterial
 contaminations. With the exception of LF cells, thirteen cell lines were
-susceptible to IPNV of various serotypes, CV, LV-1, EVE,EVA and EVEX.
+susceptible to IPNV of various serotypes, CV, LV-1, EVE, EVA and EVEX.
 Application of cell lines to the study of fish virology, cell physiology,
 biochemistry and toxicology are discussed.
 //
@@ -14021,7 +14478,7 @@ Progenitor cell populations derived from human embryonic stem cells
 primary neural cells for basic research and drug discovery. Repeated
 derivation of neural progenitors from hESCs can lead to increased
 variability, along with the difficulty and expense of hESC culture.
-Millipore’s new ENStem-A cells offer an attractive alternative: they
+Millipore's new ENStem-A cells offer an attractive alternative: they
 proliferate as an adherent monolayer in serum-free, feeder-free conditions.
 Here we discuss the characteristics and functional assays in which ENStem-A
 cells can be used.
@@ -14038,11 +14495,25 @@ AB   No
 ID   CLPUB00038
 RA   Keating A., Martin P.J., Bernstein I.D., Papayannopoulou T.,
 RA   Raskind W., Singer J.W.;
-RT   "EM-2 and EM-3: two new Ph'+ myeloid cell lines.";
+RT   "EM-2 and EM-3: two new Ph1+ myeloid cell lines.";
 RL   (In) Normal and neoplastic hematopoiesis, UCLA symposia on molecular and cellular biology, New Series Vol. 9; Golde D.W., Marks P.M. (eds.); pp.513-520; Alan R. Liss; New York (1983).
 DR   Cellosaurus; CVCL_1196; EM-2
 DR   Cellosaurus; CVCL_2033; EM-3
-AB   No
+AB   Yes
+Two new cell lines, EM-2 and EM-3, were established from a patient who
+relapsed with chronic myelogenous leukemia (CML) after marrow
+transplantation. Both lines have been in continuous culture for one year,
+are heteroploid with multiple copies of the Ph1 chromosome, and are of
+host origin. Both lines expressed an increased frequency of NBT.dye-
+reducing cells after incubation with retinoic acid (RA). The lines were
+also examined for the expression of myeloid determinants recognized by a
+panel of monoclonal antibodies before and after incubation with RA or
+phorbol-ester (TPA). Similar studies were conducted with BB-2 monoclonal
+antibody recognizing a B cell blast associated antigen. We found that EM-2
+and EM-3 have myeloid features and that both lines could be induced to
+undergo further myeloid differentiation with TPA and/or RA. Incubation of
+both lines with TPA increased the expression of the B cell blast
+associated antigen.
 //
 ID   CLPUB00489
 RA   Liao S.-K., Kwong P.C., Dent P.B., McCulloch P.B.;
@@ -14897,4 +15368,7 @@ RX   DOI=10.4044/joma1947.76.4-6_215;
 //
 ID   CLPUB00399
 RX   DOI=10.15114/smj.57.603;
+//
+ID   CLPUB00580
+RX   DOI=10.5282/edoc.3898;
 //

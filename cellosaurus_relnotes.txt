@@ -6,39 +6,40 @@
    \_____\___|_|_|\___/|___/\__,_|\__,_|_|   \__,_|___/
 
 
-This is the release notes for Cellosaurus version 36 of October 2020.
+This is the release notes for Cellosaurus version 37 of January 2021.
 
 1) Statistics
 
-124601 cell lines (93805 human, 21139 mouse, 2180 rat)
-   689 species represented
- 86409 synonyms
-367930 cross-references to 92 ontologies, databases, catalogs, etc.
-123206 references to 20382 distinct publications (papers, patents, theses, etc.)
- 21139 web links
+126502 cell lines (95468 human, 21235 mouse, 2190 rat)
+   705 species represented
+ 89515 synonyms
+381327 cross-references to 93 ontologies, databases, catalogs, etc.
+127685 references to 20901 distinct publications (papers, patents, theses, etc.)
+ 15184 web links
 
-  7378 human, mouse and dog cell lines with STR profiles (from 563 distinct sources)
+  7551 human, mouse and dog cell lines with STR profiles (from 586 distinct sources)
 
-Since release 35 of July 2020:
-  1422 entries were created
- 37459 entries were updated
+Since release 36 of October 2020:
+  1908 entries were created
+ 28590 entries were updated
 
 2) Changes in the DR lines
 
-2a) Cross-references were added to the Progenetix database that provides an
-overview of mutation data in cancer with a focus on copy number abnormalities
-(CNV / CNA), for all types of human malignancies.
+2a) Cross-references were added to the Horizon Discovery cell line collection.
+Up to now we provided web links to the product description pages but having
+found a way to use the Horizon Discovery catalog number we have converted
+these links to cross-references.
 
 Corresponding entry in the file cellosaurus_xrefs.txt:
 
-Abbrev: Progenetix
-Name  : Cancer genome data @ progenetix.org
-Server: https://progenetix.org/
-Db_URL: https://progenetix.org/samples/search?bioontology=cellosaurus:%s&datasetIds=progenetix&filterLogic=OR&executeSearch=true
-Cat   : Polymorphism and mutation databases
+Abbrev: Horizon_Discovery
+Name  : Horizon Discovery cell line collection
+Server: https://horizondiscovery.com/
+Db_URL: https://horizondiscovery.com/en/search?searchterm=%s
+Cat   : Cell line collections
 
 Example:
-DR   Progenetix; CVCL_7943
+DR   Horizon_Discovery; HZGHC000248c027
 
 ----------------------------------------
 Amos Bairoch

@@ -1,11 +1,11 @@
-.---------------------------------------------------------------------------
+----------------------------------------------------------------------------
         CALIPHO group at the SIB - Swiss Institute of Bioinformatics
         Geneva, Switzerland
 ----------------------------------------------------------------------------
 
  Description: Cellosaurus: frequently asked questions
- Version: 36.0
- Last update: 29-October-2020
+ Version: 37.0
+ Last update: 22-January-2021
 
 ----------------------------------------------------------------------------
 
@@ -148,15 +148,13 @@ Hereunder we provide links to a number of companies and organisation that
 provide cell lines. We encourage you to browse their online catalog.
 
 AddexBio:
- http://www.addexbio.com/productshow?id=4
+ https://www.addexbio.com/productshow?id=4
 Allen Cell Collection:
  https://www.allencell.org/cell-catalog.html
 American Type Culture Collection (ATCC):
  https://www.atcc.org/
 Applied Biological Materials (abm):
  https://www.abmgood.com/Cell-Biology.html
-Astarte Biologics:
- https://astartebio.com/product-category/cells/
 Banco de Celulas do Rio de Janeiro (BCRJ):
  http://bcrj.org.br/celula/bcrj
 BioIVT
@@ -164,17 +162,17 @@ BioIVT
 Biopredic International:
  https://www.biopredic.com/
 Bioresource Collection and Research Center (BCRC) from Taiwan:
- http://www.bcrc.firdi.org.tw/
+ https://www.bcrc.firdi.org.tw/en/home/
 Cedarlane Cellutions Biosystems:
  https://www.cedarlanelabs.com/Cellutions
 Cell Biolabs:
  https://www.cellbiolabs.com/
 CellBank Australia (CBA):
  http://www.cellbankaustralia.com/
+Cellero:
+ https://cellero.com/products/immune-cells/
 Cellular Engineering Technologies (CET):
- http://www.celleng-tech.com/ips-cell-lines
-ChemoScreen:
- http://www.chemoscreen.com/
+ https://www.celleng-tech.com/ips-cell-lines
 Children's Oncology Group (COG) Cell Culture and Xenograft Repository:
  https://www.cccells.org/cellreqs-leuk.php
 Chordoma Foundation cell line repository:
@@ -240,27 +238,27 @@ Istituto Zooprofilattico Sperimentale della Lombardia e dell’Emilia Romagna biob
 Japanese Collection of Research Bioresources Cell Bank (JCRB):
  http://cellbank.nibiohn.go.jp/english/
 Kerafast:
- http://www.kerafast.com/category/227/cells-tissue-samples
+ https://www.kerafast.com/cat/60/cells-tissue-samples
 King's College London hES cell line catalog:
  https://www.kcl.ac.uk/lsm/research/divisions/wh/groups/medicine/hescell.aspx
 Korean Cell Line Bank (KCLB):
- http://cellbank.snu.ac.kr/main/index.html
+ https://cellbank.snu.ac.kr/main/index.html
 Kunming Cell Bank of Type Culture Collection (KCB):
  http://english.kiz.cas.cn/about/an/201108/t20110824_74162.html
 KYinno:
- http://www.kyinno.com/
+ https://www.kyinno.com/
 Lurie Children Hospital of Chicacgo Human iPS & Stem Cell Core Facility:
  https://www.luriechildrens.org/en/research/core-facilities/ips-stem-cell/
 Memorial Sloan Kettering Cancer Center:
  https://www.mskcc.org/research-advantage/support/office-technology-development/tangible-materials-available-licensing
 Merck Millipore (EMD Millipore)
- http://www.merckmillipore.com/
+ https://www.merckmillipore.com/
 National Cell Bank of Iran (NCBI):
  http://en.pasteur.ac.ir/pages.aspx?id=823
 National Laboratory for the Genetics of Israeli Populations (NLGIP):
  http://yoran.tau.ac.il/nlgip/
 Ncardia
- http://ncardia.com/
+ https://ncardia.com/
 NIA ES Cell Bank:
  https://esbank.nia.nih.gov/
 NIH AIDS Reagent Program (NIH-ARP):
@@ -270,23 +268,21 @@ NIMH Repository and Genomic Resource:
 NINDS Human Cell and Data Repository (NHCDR):
  https://stemcells.nindsgenetics.org
 Novus Biologicals:
- http://www.novusbio.com/
+ https://www.novusbio.com/
 Oxford Expression Technology (OET):
  https://oetltd.com/product-category/insect-cell-culture/insect-cells/
 ParaTechs:
- http://www.paratechs.com/ve-bevs-cell-lines/
+ https://www.paratechs.com/ve-bevs-cell-lines/
 PerkinElmer:
- http://www.perkinelmer.com/
+ https://www.perkinelmer.com/
 ProBioGen:
  https://www.probiogen.de/virus-production-cell-lines.html
 Progeria Research Foundation:
  https://www.progeriaresearch.org/available-cell-lines/
-Reliance Life Sciences:
- http://www.rellife.com/rm_cellsresearch.html
 RIKEN Bioresource Center Cell Bank (RCB):
- http://cell.brc.riken.jp/en/rcb
+ https://cell.brc.riken.jp/en/rcb
 Rockefeller University Embryonic Stem Cell Lines:
- http://rues.rockefeller.edu/
+ https://rues.rockefeller.edu/
 Rockland Immunochemicals:
  https://www.rockland-inc.com/patient-derived-tumor-models.aspx
 Royan Stem Cell Bank (RSCB):
@@ -731,7 +727,7 @@ http://www.asbmb.org/asbmbtoday/201501/Generations/3T3/
 the term 3T3 not only refers to a number of cell lines but originates in
 the method that Todaro and Green used to establish these cell lines,
 namely primary mouse embryonic fibroblasts were transferred ("T") every 3
-days (the first "3") and inoculated at the rigid density of 3×10^5 cells
+days (the first "3") and inoculated at the rigid density of 3x10^5 cells
 per 20 cm2 dish (the second "3") continuously.
 
 Therefore there are a variety of "3T3" cell lines that have been
@@ -793,10 +789,10 @@ species, reference authors, PubMed IDs, etc.
 
 Q24: Why can't I find a recently created entry in the Cellosaurus?
 
-A: We create new entries and provide the corresponding accession number (RRIDs)
+A: We create new entries and provide the corresponding accession numbers (RRIDs)
 as quickly as possible so that researchers can cite them in their manuscripts
 in a timely manner. But the Cellosaurus is not updated daily, new releases are
-prepared every 3 or 4 months. Thus depending on when a new RRID was created it
+prepared every 3 to 4 months. Thus depending on when a new RRID was created it
 can take up to 4 months before you can find it in the Cellosaurus on ExPASy.
 However you do not need to wait until a RRID is made public to cite it in a
 publication.
