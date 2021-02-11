@@ -60,7 +60,7 @@ ftp://ftp.expasy.org/databases/cellosaurus
 The files that are distributed by FTP and are on GitHub are:
 
 - cellosaurus.txt: Cellosaurus in structured flat file format
-- cellosaurus_refs.txt: Reference file: publications, patents, book chapters
+- cellosaurus_refs.txt: Reference records file: publications, patents, book chapters
 - cellosaurus_xrefs.txt: File describing how to build live links to all the resources listed in the Cellosaurus
 
 - cellosaurus.obo: Cellosaurus in OBO format
@@ -84,6 +84,16 @@ The Cellosaurus, a cell line knowledge resource.
 J. Biomol. Tech. (2018) 29:25-38
 DOI: 10.7171/jbt.18-2902-002; PMID: 29805321
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5945021/
+
+##The Cellosaurus "ecosystem"
+
+The Cellosaurus:
+
+* contributes to the Research Identification Initiative by being the supplier of Research Resource Identifiers (RRIDs) for cell lines (https://scicrunch.org/resources)
+* contributes to the efforts of the International Cell Line Authentication Committee (ICLAC) (https://iclac.org/databases/)
+* closely collaborate with hPSCreg in the framework of the annotation of hESCs and hiPSCs (https://hpscreg.eu/about/structures-and-partners)
+* is a participant in the European Joint Programme on Rare Diseases (EJP RD) (https://www.ejprarediseases.org/index.php/coordinated-access-data-services/access-to-data-resources/)
+* is an ELIXIR Core Data Resource (https://elixir-europe.org/platforms/data/core-data-resources)
 
 ##Licensing
 
