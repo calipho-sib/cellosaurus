@@ -3,7 +3,7 @@ Cellosaurus
 
 From the CALIPHO group of the SIB - Swiss Institute of Bioinformatics; neXtProt project
 
-##A knowledge resources on cell lines
+## A knowledge resources on cell lines
 
 The Cellosaurus is a knowledge resource on cell lines. It attempt to describe all cell lines used in biomedical research.
 
@@ -37,7 +37,7 @@ For each cell line we provide the following information:
 - Cross-references to cell line catalogs/collections, ontologies, cell lines databases/resources and to databases that list cell lines as samples.
 - Information on when a Cellosaurus entry was created, when it was last updated and which version of the entry is currently available.
 
-##Availability
+## Availability
 
 The Cellosaurus is available/searchable on the web and downloadable by FTP
 
@@ -77,7 +77,7 @@ The files that are distributed by FTP and are on GitHub are:
 
 [*] Important note: the cellosaurus.xml file is only available on the FTP site as it is too big to be stored in GitHub.
 
-##Reference
+## Reference
 
 Bairoch A.
 The Cellosaurus, a cell line knowledge resource.
@@ -85,7 +85,7 @@ J. Biomol. Tech. (2018) 29:25-38
 DOI: 10.7171/jbt.18-2902-002; PMID: 29805321
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5945021/
 
-##The Cellosaurus "ecosystem"
+## The Cellosaurus "ecosystem"
 
 The Cellosaurus:
 
@@ -95,7 +95,7 @@ The Cellosaurus:
 * is a participant in the European Joint Programme on Rare Diseases (EJP RD) (https://www.ejprarediseases.org/index.php/coordinated-access-data-services/access-to-data-resources/)
 * is an ELIXIR Core Data Resource (https://elixir-europe.org/platforms/data/core-data-resources)
 
-##Licensing
+## Licensing
 
 [![CC BY 4.0][cc-by-shield]][cc-by]
 
