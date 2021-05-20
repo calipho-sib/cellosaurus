@@ -4,8 +4,8 @@
 ----------------------------------------------------------------------------
 
  Description: Cellosaurus: frequently asked questions
- Version: 37.0
- Last update: 22-January-2021
+ Version: 38.0
+ Last update: 20-May-2021
 
 ----------------------------------------------------------------------------
 
@@ -21,7 +21,7 @@ Q07: Can I save the Cellosaurus records corresponding to the result of a search?
 Q08: I would like to order cell line XYZ from you?
 Q09: Where can I buy cell line XYZ?
 Q10: Why is supplier XYZ not listed in the answer to question Q09?
-Q11: Is there a difference in the content of the Cellosaurus in the ASCII (TXT), OBO and XML formats?
+Q11: Is there a difference in the content of the Cellosaurus in the structured text (TXT), OBO and XML formats?
 Q12: Why is cell line XYZ reported to originate from a male individual but its authentication value for amelogenin is reported as "X" instead of "X,Y"?
 Q13: How to make best use of the Cellosaurus in the context of literature text-mining activities?
 Q14: What is the meaning of the "CVCL" prefix in Cellosaurus accession numbers?
@@ -36,6 +36,7 @@ Q22: What is the licence under which the Cellosaurus is provided?
 Q23: What can I search for using the search bar?
 Q24: Why can't I find a recently created entry in the Cellosaurus?
 Q25: How can I access an old version of the Cellosaurus?
+Q26: Do vaccines contain cell lines?
 
 ----------------------------------------------------------------------------
 
@@ -45,11 +46,9 @@ A: The paper to cite that describes the Cellosaurus is:
 
 Bairoch A.
 The Cellosaurus, a cell line knowledge resource.
-J. Biomol. Tech. (2018) 29:25-38
+J. Biomol. Tech. 29:25-38(2018).
 
-DOI: 10.7171/jbt.18-2902-002
-PMID: 29805321
-PMCID: PMC5945021
+DOI: 10.7171/jbt.18-2902-002; PMID: 29805321; PMCID: PMC5945021
 
 See:
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5945021/
@@ -59,12 +58,11 @@ be pleased that you cite:
 
 Robin T., Capes-Davis A., Bairoch A.
 CLASTR: the Cellosaurus STR similarity search tool -- A precious help for cell line authentication.
-Int. J. Cancer 146:1299-1306(2020)
+Int. J. Cancer 146:1299-1306(2020).
 
-DOI: 10.1002/ijc.32639
-PMID: 31444973
+DOI: 10.1002/ijc.32639; PMID: 31444973
 
-See
+See:
 https://dx.doi.org/10.1002/ijc.32639
 
 ----------------------------------------------------------------------------
@@ -143,6 +141,12 @@ as a proof that the cell line is not available somewhere.
 The list of cell lines distributed by a given entity is very dynamic and
 we can't insure to be in perfect synchronization with all the entities that
 are involved in cell line distribution.
+
+If you are unable to find and organisation that distributes your cell line
+of interest, you could try to contact the laboratory that  established it
+or, if it is no longer in activity, a laboratory that makes use of that cell
+line. The papers referenced in the relevant Cellosaurus cell line entry
+should help you to find the right person to contact.
 
 Hereunder we provide links to a number of companies and organisation that
 provide cell lines. We encourage you to browse their online catalog.
@@ -232,7 +236,9 @@ Innoprot:
 Interlab Cell Line Collection (ICLC):
  http://www.iclc.it/
 InvivoGen:
- http://www.invivogen.com/reporter-cells
+ https://www.invivogen.com/reporter-cells
+ISENET Biobanking:
+ https://www.isenetbiobanking.com/stem-cells-catalogue
 Istituto Zooprofilattico Sperimentale della Lombardia e dell’Emilia Romagna biobank (IZSLER):
  http://www.ibvr.org/Services/CellCultures.aspx
 Japanese Collection of Research Bioresources Cell Bank (JCRB):
@@ -296,13 +302,11 @@ Takara (Clontech Laboratories):
 ThermoFischer Scientific:
  http://www.thermofisher.com/ch/en/home/life-science.html
 Tiandz:
- http://www.tiandz.com/
+ http://www.tiandz.com/en/
 Tick Cell Biobank:
  https://www.liverpool.ac.uk/infection-and-global-health/research/tick-cell-biobank/
 Tohoku University cell line catalog (TKG):
  http://www2.idac.tohoku.ac.jp/dep/ccr/
-Valneva:
- http://www.valneva.com/en/technologies/82
 Vircell:
  https://en.vircell.com/products/?technique=34
 WiCell:
@@ -314,7 +318,7 @@ Ximbio reagents online portal:
 XIP:
  https://xip.uclb.com/ct/materials/cell_lines/?redirected
 ZenBio:
- http://www.zen-bio.com/products/cells/
+ https://www.zen-bio.com/products/cells/
 
 ----------------------------------------------------------------------------
 
@@ -337,24 +341,26 @@ organisation.
 
 ----------------------------------------------------------------------------
 
-Q11: Is there a difference in the content of the Cellosaurus in the ASCII (TXT), OBO and XML formats?
+Q11: Is there a difference in the content of the Cellosaurus in the structured text (TXT), OBO and XML formats?
 
 A: Yes, you should be aware that:
 
-The OBO format file (cellosaurus.obo) does not contain STR profile data.
+The OBO format file (cellosaurus.obo) does not contain: the STR profile data,
+the age at sampling and the full reference records (authors, title, journal).
+All the comments are concatenated.
 
-And while the ASCII and XML versions of the Cellosaurus have the same
+And while the TXT and XML versions of the Cellosaurus have the same
 data content, there are some differences in terms of the organization of
 the data. These differences are described below.
 
-The ASCII version is split into two data files: cellosaurus.txt and
+The TXT version is split into two data files: cellosaurus.txt and
 cellosaurus_refs.txt, the first file contains all the Cellosaurus
 information except for the full reference records which are stored in the
 second file. This is not the case for the XML version which consists of
 a single data file, cellosaurus.xml and a XML schema definition file,
 cellosaurus.xsd
 
-In the ASCII file cross-references to external resources do not contain
+In the TXT file cross-references to external resources do not contain
 the URLs of these cross-references, these can be instantiated using the
 information stored in the file cellosaurus_xrefs.txt
 
@@ -557,13 +563,9 @@ meanwhile, the best strategy is to send us in a first step a minimal set
 of information which consist of:
 
 -Name
-
 -Species of origin (and if not human the strain/breed of the animal)
-
 -Gender and age of donor
-
 -Category of cell line (examples: cancer, hybridoma, iPSC, ESC, etc).
-
 -If the donor is suffering from a disease (cancer or genetic), that disease name
 
 There are many other information items that could be useful and you should
@@ -783,7 +785,8 @@ Q23: What can I search for using the search bar?
 A: The search bar offers access to a full text index of the Cellosaurus.
 This means you can not only search for a cell line name, but also other
 things such as catalog numbers in cell line collections, disease names,
-species, reference authors, PubMed IDs, etc.
+species, reference authors, reference titles, PubMed IDs, sequence
+variations, tranfected genes, etc.
 
 ----------------------------------------------------------------------------
 
@@ -805,12 +808,9 @@ A: Lets start by some preliminary explanations and a bit of "history":
 
 -The Cellosaurus is updated regularly through a release mechanism with new
 versions being released at least 4 times per year.
-
 -The first version to be publicly distributed was release 2.0 on 04-Apr-2012.
-
 -Each subsequent release is consecutively numbered with one exception:
 release 9.0 of 16-Apr-2014 was followed by release 9.1 of 17-Jul-2014.
-
 -Initially the Cellosaurus files were available for download on the neXtProt
 FTP site but since May 2015 (with release 12.0 of 10-Apr-2015) they have been
 distributed from the ExPASy FTP site:
@@ -821,7 +821,7 @@ ftp://ftp.expasy.org/databases/cellosaurus
 
 <pre>
 File name                       Release and date of first distribution
-------------------------------  --------------------------------------
+------------------------------	--------------------------------------
 cellosaurus.txt                 2.0 of 04-Apr-2012
 cellosaurus_relnotes.txt        2.0 of 04-Apr-2012
 cellosaurus.obo                 4.0 of 22-Oct-2012
@@ -858,9 +858,35 @@ b) We have archived all releases of the Cellosaurus on Yareta, the research
 data repository of Geneva's higher education institutions. To access the
 Cellosaurus archives go to:
 
-https://yareta.unige.ch/frontend/search
-
-and search for "Cellosaurus".
+https://yareta.unige.ch/#/home/search?search=search%3Dcellosaurus
 
 Note that the Yareta archives for releases 2 up to 32 do not include the OBO
 and XML files.
+
+----------------------------------------------------------------------------
+
+Q26: Do vaccines contain cell lines?
+
+A: Cell lines are used in the production of human and veterinary vaccines.
+They were first used for the testing and production of poliovirus vaccine.
+An estimated 10.3 million lives globally have been saved due to vaccines
+developed in WI-38 and other cell lines (see 2nd web link below).
+
+Their purpose is to produce the active component of the vaccine. For some
+vaccines, it is an attenuated or killed virus, for some others an engineered
+virus vector and it can also be to produce the recombinant viral or bacterial
+proteins that will directly elicit an immune response.
+
+During the vaccine production process the cellular debris and growth reagents
+are removed using a variety of purification methods and any remaining cell
+line DNA is broken down using nucleases.
+
+So vaccines do NOT contain cell lines.
+
+For further reading:
+https://en.wikipedia.org/wiki/Cell-based_vaccine
+http://www.aimspress.com/article/10.3934/publichealth.2017.2.127
+https://bioscience.lonza.com/lonza_bs/CH/en/vaccine-manufacturing
+https://www.welch-us.com/address-the-problem-of-vaccine-purification/
+https://www.tandfonline.com/doi/full/10.1080/14712598.2020.1693541
+

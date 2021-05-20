@@ -6,40 +6,110 @@
    \_____\___|_|_|\___/|___/\__,_|\__,_|_|   \__,_|___/
 
 
-This is the release notes for Cellosaurus version 37 of January 2021.
+This is the release notes for Cellosaurus version 38 of May 2021.
 
 1) Statistics
 
-126502 cell lines (95468 human, 21235 mouse, 2190 rat)
-   705 species represented
- 89515 synonyms
-381327 cross-references to 93 ontologies, databases, catalogs, etc.
-127685 references to 20901 distinct publications (papers, patents, theses, etc.)
- 15184 web links
+128806 cell lines (96820 human, 21791 mouse, 2444 rat)
+   712 species represented
+ 91983 synonyms
+385950 cross-references to 94 ontologies, databases, catalogs, etc.
+132166 references to 21875 distinct publications (papers, patents, theses, etc.)
+ 13447 web links
 
-  7551 human, mouse and dog cell lines with STR profiles (from 586 distinct sources)
+  7758 human, mouse and dog cell lines with STR profiles (from 613 distinct sources)
 
-Since release 36 of October 2020:
-  1908 entries were created
- 28590 entries were updated
+Since release 37 of January 2021:
+  2307 entries were created
+ 31156 entries were updated
 
-2) Changes in the DR lines
+2) Changes in the CC "Sequence variation" lines
 
-2a) Cross-references were added to the Horizon Discovery cell line collection.
+These lines have been completely structured, contains cross-references
+to HGNC, MGI, RGD, UniProtKB and to VGNC to indicate the variation target
+gene and to ClinVar or dbSNP when the variation is described in one of
+these resources.
+
+In addition the "Sequence variation" topic has 4 subtopics:
+
+ [1] Gene amplification
+ [2] Gene deletion
+ [3] Gene fusion
+ [4] Mutation
+
+[1]
+Gene amplification;
+ HGNC|VGNC|MGI|RGD|UniProtKB; Accession; Gene_name;
+ Duplication|Triplication;
+ Zygosity=Hemizygous|Heteroplasmic|Heterozygous|Homoplasmic|Homozygous|Mosaic|Unspecified|-
+ [Note=Free_text]
+ (Sources).
+
+Examples:
+CC   Sequence variation: Gene amplification; HGNC; 11138; SNCA; Triplication; Zygosity=Heterozygous (Coriell).
+CC   Sequence variation: Gene amplification; HGNC; 1960; CHRNA7; Duplication; Zygosity=Unspecified; Note=15q13.3 interstitial duplication (PubMed=30218896).
+
+[2]
+Gene deletion;
+ HGNC|VGNC|MGI|RGD|UniProtKB; Accession; Gene_name;
+ Zygosity=Hemizygous|Heteroplasmic|Heterozygous|Homoplasmic|Homozygous|Mosaic|Unspecified|-
+ [Note=Free_text]
+ (Sources).
+
+Examples:
+CC   Sequence variation: Gene deletion; HGNC; 7765; NF1; Zygosity=Heterozygous; Note=Somatic LOH (PubMed=27617404).
+CC   Sequence variation: Gene deletion; MGI; MGI:104738; Cdkn2a; Zygosity=Homozygous (PubMed=28577549).
+
+[3]
+Gene fusion;
+ HGNC|VGNC|MGI|RGD|UniProtKB; Accession; Gene_name;
+ +
+ HGNC|VGNC|MGI|RGD|UniProtKB; Accession; Gene_name;
+ Names(s)=Name1[, Name2][, NameX]
+ [Note=Free_text]
+ (Sources).
+
+Examples;
+CC   Sequence variation: Gene fusion; HGNC; 76; ABL1 + HGNC; 1014; BCR; Name(s)=BCR-ABL1, BCR-ABL (PubMed=10071072).
+CC   Sequence variation: Gene fusion; HGNC; 3508; EWSR1 + HGNC; 3749; FLI1; Name(s)=EWSR1-FLI1, EWS-FLI1; Note=Type 4 fusion (Ex10/Ex5) (PubMed=9738976).
+
+[4]
+Mutation;
+ HGNC|VGNC|MGI|RGD|UniProtKB; Accession; Gene_name;
+ Simple|Simple_corrected|Simple_edited|Repeat_expansion|Repeat_expansion_corrected|Unexplicit|Unexplicit_corrected|None_reported
+ Mutation_description;
+ [ClinVar|dbSNP=Accession]
+ Zygosity=Hemizygous|Heteroplasmic|Heterozygous|Homoplasmic|Homozygous|Mosaic|Unspecified|-
+ [Note=Free_text]
+ (Sources).
+
+Examples:
+CC   Sequence variation: Mutation; HGNC; 11998; TP53; Simple; p.Tyr220Cys (c.659A>G); ClinVar=VCV000127819; Zygosity=Homozygous (PubMed=17260012; PubMed=21156289; PubMed=23851445; CCLE; Cosmic-CLP).
+CC   Sequence variation: Mutation; MGI; MGI:1913975; Lrrk2; Simple_edited; p.Thr1348Asn (c.4043A>C); Zygosity=Homozygous; Note=By ZFN (ATCC).
+CC   Sequence variation: Mutation; HGNC; 28337; C9orf72; Repeat_expansion; c.-45+163GGGGCC[>24] (GGGGCC repeat expansion); ClinVar=VCV000031151; Zygosity=Unspecified (PubMed=24704492).
+
+Note that in this release the XML format file has not yet been modified to
+accomodate these changes and the sequence variation information is in the
+structured string format described above. We will make the changes to the
+XML format for the next release.
+
+3) Changes in the DR lines
+
+3a) Cross-references were added to the PerkinElmer cell line collection.
 Up to now we provided web links to the product description pages but having
-found a way to use the Horizon Discovery catalog number we have converted
-these links to cross-references.
+found a way to use the PerkinElmer catalog number we have converted these
+links to cross-references.
 
 Corresponding entry in the file cellosaurus_xrefs.txt:
 
-Abbrev: Horizon_Discovery
-Name  : Horizon Discovery cell line collection
-Server: https://horizondiscovery.com/
-Db_URL: https://horizondiscovery.com/en/search?searchterm=%s
+Abbrev: PerkinElmer
+Name  : PerkinElmer cell line collection
+Server: https://www.perkinelmer.com/
+Db_URL: https://www.perkinelmer.com/searchresult?searchName=%s
 Cat   : Cell line collections
 
 Example:
-DR   Horizon_Discovery; HZGHC000248c027
+DR   PerkinElmer; BW119262
 
 ----------------------------------------
 Amos Bairoch

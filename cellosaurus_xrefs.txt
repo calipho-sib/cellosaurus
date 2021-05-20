@@ -4,8 +4,8 @@
 ----------------------------------------------------------------------------
 
  Description: Cellosaurus: cross-referencing to external resources
- Version: 37.0
- Last update: 22-January-2021
+ Version: 38.0
+ Last update: 20-May-2021
 
 ----------------------------------------------------------------------------
 
@@ -58,14 +58,14 @@ here:
 1) DR lines
 
 Format: DR   Resource_abbrev; %s
-Where : Resource_abbrev is one of: 4DN|ABCD|ABM|AddexBio|ArrayExpress|ATCC|BCGO|BCRC|BCRJ|BEI_Resources|BTO|BioSample|BioSamples|CBA|CCLE|CCLV|CCRID|CCTCC|Cell_Biolabs|Cell_Model_Passport|CGH-DB|ChEMBL-Cells|ChEMBL-Targets|CLDB|CLO|CLS|ColonAtlas|Coriell|Cosmic|Cosmic-CLP|dbMHC|DepMap|DGRC|DiscoverX|DSMZ|eagle-i|EBiSC|ECACC|EFO|ENCODE|ESTDAB|FCDI|FCS-free|FlyBase|GDSC|GEO|HipSci|Horizon_Discovery|hPSCreg|IARC_TP53|IBRC|ICLC|IGRhCellID|IGSR|IHW|Imanis|IPD-IMGT/HLA|ISCR|IZSLER|JCRB|KCB|KCLB|Kerafast|KYinno|LiGeA|LIMORE|LINCS_HMS|LINCS_LDP|Lonza|MCCL|MeSH|MetaboLights|Millipore|MMRRC|NCBI_Iran|NCI-DTP|NHCDR |NISES|NIH-ARP|PharmacoDB|PRIDE|Progenetix|RCB|RSCB|SKIP|SKY/M-FISH/CGH|TCB|TKG|TNGB|TOKU-E|WiCell|Wikidata|Ximbio
+Where : Resource_abbrev is one of: 4DN|ABCD|ABM|AddexBio|ArrayExpress|ATCC|BCGO|BCRC|BCRJ|BEI_Resources|BTO|BioSample|BioSamples|CBA|CCLE|CCLV|CCRID|CCTCC|Cell_Biolabs|Cell_Model_Passport|CGH-DB|ChEMBL-Cells|ChEMBL-Targets|CLDB|CLO|CLS|ColonAtlas|Coriell|Cosmic|Cosmic-CLP|dbMHC|DepMap|DGRC|DiscoverX|DSMZ|eagle-i|EBiSC|ECACC|EFO|ENCODE|ESTDAB|FCDI|FCS-free|FlyBase|GDSC|GEO|HipSci|Horizon_Discovery|hPSCreg|IARC_TP53|IBRC|ICLC|IGRhCellID|IGSR|IHW|Imanis|IPD-IMGT/HLA|ISCR|IZSLER|JCRB|KCB|KCLB|Kerafast|KYinno|LiGeA|LIMORE|LINCS_HMS|LINCS_LDP|Lonza|MCCL|MeSH|MetaboLights|Millipore|MMRRC|NCBI_Iran|NCI-DTP|NHCDR |NISES|NIH-ARP|PerkinElmer|PharmacoDB|PRIDE|Progenetix|RCB|RSCB|SKIP|SKY/M-FISH/CGH|TCB|TKG|TNGB|TOKU-E|WiCell|Wikidata|Ximbio
 
 2) RX lines
 
 Format: RX   Resource_abbrev=%s;
 Where : Resource_abbrev is one of: CelloPub|DOI¦Patent¦PubMed
 
-3) CC lines
+3) CC lines (except "sequence variation")
 
 Topic:  Knockout cell
 Format: CC   Knockout cell: Method=Method_name; Resource_abbrev; %s; Gene/protein_name.
@@ -87,12 +87,28 @@ Topic:  Transformant
 Format: CC   Transformant: Resource_abbrev; %s; Transformant_name.
 Where : Resource_abbrev is one of: ChEBI|NCBI_TaxID|NCIt|PubChem
 
-4) DI lines
+4) CC lines "Sequence variation"
+
+The "Sequence variation" CC topic has 4 subtopics:
+
+Format: CC   Sequence variation: Gene amplification; Resource_abbrev; %s; Gene_name; Duplication|Triplication; Zygosity=Zyg_value [; Note=Free_text] (Sources).
+Format: CC   Sequence variation: Gene deletion; Resource_abbrev; %s; Gene_name; Zygosity=Zyg_value [; Note=Free_text] (Sources).
+Format: CC   Sequence variation: Gene fusion; Resource_abbrev; %s; Gene_name + Resource_abbrev; %s; Gene_name; Names(s)=Name1[, Name2][, NameX] [; Note=Free_text] (Sources).
+Format: CC   Sequence variation: Mutation; Resource_abbrev; %s; Gene_name; Mutation_type; Mutation_description [; ClinVar=%s|dbSNP=%s]; Zygosity=Zyg_value [; Note=Free_text] (Sources).
+
+Where:
+
+Resource_abbrev is one of: HGNC|MGI|RGD|UniProtKB|VGNC
+Mutation_type is one of: Simple|Simple_corrected|Simple_edited|Repeat_expansion|Repeat_expansion_corrected|Unexplicit|Unexplicit_corrected|None_reported
+Mutation_description is: the description of the mutation using, when possible the HGVS nomenclature.
+Zyg_value is one of: Hemizygous|Heteroplasmic|Heterozygous|Homoplasmic|Homozygous|Mosaic|Unspecified|-
+
+5) DI lines
 
 Format: DI   Resource_abbrev; %s; Disease_name
 Where : Resource_abbrev is one of: NCIt|ORDO
 
-5) OX lines
+6) OX lines
 
 Format: OX   Resource_abbrev=%s; ! Species_name
 Where : Resource_abbrev is: NCBI_TaxID
@@ -148,7 +164,7 @@ Cat   : Ontologies
 //
 Abbrev: BCRC
 Name  : Taiwan Bioresource Collection and Research Center
-Server: https://www.bcrc.firdi.org.tw/en/home/
+Server: https://catalog.bcrc.firdi.org.tw/
 Db_URL: https://catalog.bcrc.firdi.org.tw/BcrcContent?bid=%s
 Cat   : Cell line collections
 //
@@ -204,7 +220,7 @@ Cat   : Cell line collections
 Abbrev: CCRID
 Name  : Chinese Cell Resource Information Database
 Server: http://cellresource.cn/
-Db_URL: None
+Db_URL: http://www.cellresource.cn/cellsearch.aspx?sc=1&where=%s
 Cat   : Cell line databases/resources
 //
 Abbrev: CCTCC
@@ -263,6 +279,12 @@ Server: http://bioinformatics.hsanmartino.it/cldb/
 Db_URL: http://bioinformatics.hsanmartino.it/cldb/%s.html
 Cat   : Cell line databases/resources
 //
+Abbrev: ClinVar
+Name  : ClinVar
+Server: https://www.ncbi.nlm.nih.gov/clinvar/
+Db_URL: https://www.ncbi.nlm.nih.gov/clinvar/variation/%s
+Cat   : Polymorphism and mutation databases
+//
 Abbrev: CLO
 Name  : Cell Line Ontology
 Server: http://www.clo-ontology.org
@@ -307,6 +329,12 @@ Server: https://www.ncbi.nlm.nih.gov/gv/mhc/
 Db_URL: None
 Cat   : Cell line databases/resources
 //
+Abbrev: dbSNP
+Name  : Single Nucleotide Polymorphism database
+Server: https://www.ncbi.nlm.nih.gov/snp/
+Db_URL: https://www.ncbi.nlm.nih.gov/snp/%s
+Cat   : Polymorphism and mutation databases
+//
 Abbrev: DepMap
 Name  : Cancer Dependency Map
 Server: https://depmap.org/portal/
@@ -339,8 +367,8 @@ Cat   : Cell line collections
 //
 Abbrev: DrugBank
 Name  : DrugBank database
-Server: https://www.drugbank.ca/
-Db_URL: https://www.drugbank.ca/drugs/%s
+Server: https://go.drugbank.com/
+Db_URL: https://go.drugbank.com/drugs/%s
 Cat   : Chemistry resources
 //
 Abbrev: eagle-i
@@ -404,8 +432,8 @@ Cat   : Cell line databases/resources
 //
 Abbrev: FlyBase
 Name  : Drosophila genome database
-Server: http://flybase.org
-Db_URL: http://flybase.org/reports/%s.html
+Server: https://flybase.org
+Db_URL: https://flybase.org/reports/%s.html
 Cat   : Organism-specific databases
 //
 Abbrev: GDSC
@@ -655,6 +683,12 @@ Name  : Google Patents
 Server: https://patents.google.com
 Db_URL: https://patents.google.com/patent/%s
 Cat   : Reference resources
+//
+Abbrev: PerkinElmer
+Name  : PerkinElmer cell line collection
+Server: https://www.perkinelmer.com/
+Db_URL: https://www.perkinelmer.com/searchresult?searchName=%s
+Cat   : Cell line collections
 //
 Abbrev: PharmacoDB
 Name  : PharmacoDB integrative pharmacogenomic database
