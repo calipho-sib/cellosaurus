@@ -6,110 +6,68 @@
    \_____\___|_|_|\___/|___/\__,_|\__,_|_|   \__,_|___/
 
 
-This is the release notes for Cellosaurus version 38 of May 2021.
+This is the release notes for Cellosaurus version 39 of September 2021.
 
 1) Statistics
 
-128806 cell lines (96820 human, 21791 mouse, 2444 rat)
-   712 species represented
- 91983 synonyms
-385950 cross-references to 94 ontologies, databases, catalogs, etc.
-132166 references to 21875 distinct publications (papers, patents, theses, etc.)
- 13447 web links
+130952 cell lines (97714 human, 22740 mouse, 2493 rat)
+   741 species represented
+ 93693 synonyms
+389462 cross-references to 95 ontologies, databases, catalogs, etc.
+135305 references to 22861 distinct publications (papers, patents, theses, etc.)
+ 13576 web links
 
-  7758 human, mouse and dog cell lines with STR profiles (from 613 distinct sources)
+  7956 human, mouse and dog cell lines with STR profiles (from 647 distinct sources)
 
-Since release 37 of January 2021:
-  2307 entries were created
- 31156 entries were updated
+Since release 38 of May 2021:
+  2154 entries were created
+ 15049 entries were updated
 
-2) Changes in the CC "Sequence variation" lines
+2) Changes in the DR lines
 
-These lines have been completely structured, contains cross-references
-to HGNC, MGI, RGD, UniProtKB and to VGNC to indicate the variation target
-gene and to ClinVar or dbSNP when the variation is described in one of
-these resources.
-
-In addition the "Sequence variation" topic has 4 subtopics:
-
- [1] Gene amplification
- [2] Gene deletion
- [3] Gene fusion
- [4] Mutation
-
-[1]
-Gene amplification;
- HGNC|VGNC|MGI|RGD|UniProtKB; Accession; Gene_name;
- Duplication|Triplication;
- Zygosity=Hemizygous|Heteroplasmic|Heterozygous|Homoplasmic|Homozygous|Mosaic|Unspecified|-
- [Note=Free_text]
- (Sources).
-
-Examples:
-CC   Sequence variation: Gene amplification; HGNC; 11138; SNCA; Triplication; Zygosity=Heterozygous (Coriell).
-CC   Sequence variation: Gene amplification; HGNC; 1960; CHRNA7; Duplication; Zygosity=Unspecified; Note=15q13.3 interstitial duplication (PubMed=30218896).
-
-[2]
-Gene deletion;
- HGNC|VGNC|MGI|RGD|UniProtKB; Accession; Gene_name;
- Zygosity=Hemizygous|Heteroplasmic|Heterozygous|Homoplasmic|Homozygous|Mosaic|Unspecified|-
- [Note=Free_text]
- (Sources).
-
-Examples:
-CC   Sequence variation: Gene deletion; HGNC; 7765; NF1; Zygosity=Heterozygous; Note=Somatic LOH (PubMed=27617404).
-CC   Sequence variation: Gene deletion; MGI; MGI:104738; Cdkn2a; Zygosity=Homozygous (PubMed=28577549).
-
-[3]
-Gene fusion;
- HGNC|VGNC|MGI|RGD|UniProtKB; Accession; Gene_name;
- +
- HGNC|VGNC|MGI|RGD|UniProtKB; Accession; Gene_name;
- Names(s)=Name1[, Name2][, NameX]
- [Note=Free_text]
- (Sources).
-
-Examples;
-CC   Sequence variation: Gene fusion; HGNC; 76; ABL1 + HGNC; 1014; BCR; Name(s)=BCR-ABL1, BCR-ABL (PubMed=10071072).
-CC   Sequence variation: Gene fusion; HGNC; 3508; EWSR1 + HGNC; 3749; FLI1; Name(s)=EWSR1-FLI1, EWS-FLI1; Note=Type 4 fusion (Ex10/Ex5) (PubMed=9738976).
-
-[4]
-Mutation;
- HGNC|VGNC|MGI|RGD|UniProtKB; Accession; Gene_name;
- Simple|Simple_corrected|Simple_edited|Repeat_expansion|Repeat_expansion_corrected|Unexplicit|Unexplicit_corrected|None_reported
- Mutation_description;
- [ClinVar|dbSNP=Accession]
- Zygosity=Hemizygous|Heteroplasmic|Heterozygous|Homoplasmic|Homozygous|Mosaic|Unspecified|-
- [Note=Free_text]
- (Sources).
-
-Examples:
-CC   Sequence variation: Mutation; HGNC; 11998; TP53; Simple; p.Tyr220Cys (c.659A>G); ClinVar=VCV000127819; Zygosity=Homozygous (PubMed=17260012; PubMed=21156289; PubMed=23851445; CCLE; Cosmic-CLP).
-CC   Sequence variation: Mutation; MGI; MGI:1913975; Lrrk2; Simple_edited; p.Thr1348Asn (c.4043A>C); Zygosity=Homozygous; Note=By ZFN (ATCC).
-CC   Sequence variation: Mutation; HGNC; 28337; C9orf72; Repeat_expansion; c.-45+163GGGGCC[>24] (GGGGCC repeat expansion); ClinVar=VCV000031151; Zygosity=Unspecified (PubMed=24704492).
-
-Note that in this release the XML format file has not yet been modified to
-accomodate these changes and the sequence variation information is in the
-structured string format described above. We will make the changes to the
-XML format for the next release.
-
-3) Changes in the DR lines
-
-3a) Cross-references were added to the PerkinElmer cell line collection.
-Up to now we provided web links to the product description pages but having
-found a way to use the PerkinElmer catalog number we have converted these
-links to cross-references.
+2a) Cross-references were added to the SUM Breast Cancer Cell Line Knowledge
+Base (SLKBase). This resource contains information not only on the SUM series
+of cell lines but on many other breast cancer cell lines.  
 
 Corresponding entry in the file cellosaurus_xrefs.txt:
 
-Abbrev: PerkinElmer
-Name  : PerkinElmer cell line collection
-Server: https://www.perkinelmer.com/
-Db_URL: https://www.perkinelmer.com/searchresult?searchName=%s
+Abbrev: SLKBase
+Name  : SUM Breast Cancer Cell Line Knowledge Base  
+Server: https://sumlineknowledgebase.com/
+Db_URL: https://sumlineknowledgebase.com/?page_id=%s
+Cat   : Cell line databases/resources
+
+Example:
+DR   SLKBase; 241
+
+2b) The NIH AIDS Reagent Program (NIH-ARP) has transitioned to become NIH HIV
+Reagent Program (HIVReagentProgram). We have thus renamed the cross-references
+to the new designation and are cross-referencing to the new site.
+
+Corresponding entry in the file cellosaurus_xrefs.txt:
+
+Abbrev: HIVReagentProgram
+Name  : NIH HIV Reagent Program
+Server: https://www.hivreagentprogram.org/Home.aspx
+Db_URL: https://www.hivreagentprogram.org/Catalog/HRPCellLinesUninfected/%s.aspx
 Cat   : Cell line collections
 
 Example:
-DR   PerkinElmer; BW119262
+DR   HIVReagentProgram; ARP-4407
+
+2c) CCLE cross references will be removed at the next release
+
+Because the data of the Cancer Cell Line Encyclopedia (CCLE) is now
+completely integrated in the Dependency Map (DepMap) portal and that
+links that goes to the original CCLE web site are now redirected to
+DepMap we will remove these extraenous cross-references in release 40.
+
+3) New version of the cellosaurus.xsd file
+
+As announced in the last release we have completely restructured our
+sequence variation annotations. With this release, these changes are
+fully supported in the XML format of the Cellosaurus and this required
+some in depth changes to the corresponding XSD file.
 
 ----------------------------------------
 Amos Bairoch

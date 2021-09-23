@@ -2,7 +2,7 @@
 <!-- *****************************************************************************
         XML Schema Definition (XSD) for the Cellosaurus XML
 
-        Date: 2021-May-21; Release: 2.14
+        Date: 2021-September-23; Release: 3.0
 
         Copyright (c) CALIPHO group @ SIB - Swiss Institute of Bioinformatics
         Distributed under the Creative Commons Attribution 4.0 International (CC BY 4.0) licence
@@ -121,6 +121,7 @@
              <xs:element ref="hla-lists" minOccurs="0" maxOccurs="1"/>
              <xs:element ref="genome-ancestry" minOccurs="0" maxOccurs="1"/>
              <xs:element ref="registration-list" minOccurs="0" maxOccurs="1"/>
+             <xs:element ref="sequence-variation-list" minOccurs="0" maxOccurs="1"/>
              <xs:element ref="xref-list" minOccurs="0" maxOccurs="1"/>
           </xs:sequence>
           <xs:attribute name="category" use="required">
@@ -281,9 +282,7 @@
                   <xs:enumeration value="Part of"/>
                   <xs:enumeration value="Population"/>
                   <xs:enumeration value="Problematic cell line"/>
-                  <xs:enumeration value="Registration"/>
                   <xs:enumeration value="Selected for resistance to"/>
-                  <xs:enumeration value="Sequence variation"/>
                   <xs:enumeration value="Transfected with"/>
                   <xs:enumeration value="Transformant"/>
                </xs:restriction>
@@ -597,6 +596,94 @@
    </xs:element>
    <!-- HLA list source element definition ends -->
 
+   <!-- Sequence variation list element definition begins -->
+   <xs:element name="sequence-variation-list">
+      <xs:annotation>
+         <xs:documentation>Describes the sequence variations annotated for a cell line.</xs:documentation>
+      </xs:annotation>
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element ref="sequence-variation" minOccurs="1" maxOccurs="unbounded"/>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <!-- Sequence variation list element definition ends -->
+
+   <xs:element name="mutation-description" type="xs:string"/>
+   <xs:element name="variation-note" type="xs:string"/>
+
+   <!-- variation-sources list element definition begins -->
+   <xs:element name="variation-sources">
+      <xs:annotation>
+         <xs:documentation>Describes the sources for sequence variation for a cell line.</xs:documentation>
+      </xs:annotation>
+      <xs:complexType>
+         <xs:sequence>
+            <xs:choice maxOccurs="unbounded">
+               <xs:element ref="source"/>
+               <xs:element ref="reference-list"/>
+            </xs:choice>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <!-- variation-sources list element definition ends -->
+
+   <!-- Sequence variation element definition begins -->
+    <xs:element name="sequence-variation">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element ref="mutation-description" minOccurs="0" maxOccurs="1"/>
+            <xs:element ref="variation-note" minOccurs="0" maxOccurs="1"/>
+            <xs:element ref="xref-list" minOccurs="1" maxOccurs="1"/>
+            <xs:element ref="variation-sources" minOccurs="0" maxOccurs="unbounded"/>
+         </xs:sequence>
+         <xs:attribute name="variation-type" use="required">
+             <xs:simpleType>
+                <xs:restriction base="xs:string">
+                   <xs:enumeration value="Gene amplification"/>
+                   <xs:enumeration value="Gene deletion"/>
+                   <xs:enumeration value="Gene fusion"/>
+                   <xs:enumeration value="Mutation"/>
+                </xs:restriction>
+             </xs:simpleType>
+         </xs:attribute>
+         <xs:attribute name="mutation-type" use="optional">
+             <xs:simpleType>
+                <xs:restriction base="xs:string">
+                   <!-- For amplification -->
+                   <xs:enumeration value="Duplication"/>
+                   <xs:enumeration value="Triplication"/>
+                   <!-- For mutation -->
+                   <xs:enumeration value="Simple"/>
+                   <xs:enumeration value="Simple_corrected"/>
+                   <xs:enumeration value="Simple_edited"/>
+                   <xs:enumeration value="Repeat_expansion"/>
+                   <xs:enumeration value="Repeat_expansion_corrected"/>
+                   <xs:enumeration value="Repeat_expansion_edited"/>
+                   <xs:enumeration value="Unexplicit"/>
+                   <xs:enumeration value="Unexplicit_corrected"/>
+                   <xs:enumeration value="None_reported"/>
+                </xs:restriction>
+             </xs:simpleType>
+         </xs:attribute>
+         <xs:attribute name="zygosity-type" use="optional">
+             <xs:simpleType>
+                <xs:restriction base="xs:string">
+                   <xs:enumeration value="Hemizygous"/>
+                   <xs:enumeration value="Heteroplasmic"/>
+                   <xs:enumeration value="Heterozygous"/>
+                   <xs:enumeration value="Homoplasmic"/>
+                   <xs:enumeration value="Homozygous"/>
+                   <xs:enumeration value="Mosaic"/>
+                   <xs:enumeration value="Unspecified"/>
+                   <xs:enumeration value="-"/>
+                </xs:restriction>
+             </xs:simpleType>
+         </xs:attribute>
+      </xs:complexType>
+   </xs:element>
+   <!-- Sequence variation element definition ends -->
+
    <!-- Genome ancestry element definition begins -->
    <xs:element name="genome-ancestry">
       <xs:annotation>
@@ -633,7 +720,6 @@
           <xs:attribute name="population-percentage" type="xs:string" use="required"/>
       </xs:complexType>
    </xs:element>
-
    <!-- Population data element definition ends -->
 
    <!-- Genome ancestry source element definition begins -->

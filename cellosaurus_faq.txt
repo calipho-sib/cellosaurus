@@ -4,8 +4,8 @@
 ----------------------------------------------------------------------------
 
  Description: Cellosaurus: frequently asked questions
- Version: 38.0
- Last update: 20-May-2021
+ Version: 39.0
+ Last update: 23-September-2021
 
 ----------------------------------------------------------------------------
 
@@ -37,6 +37,7 @@ Q23: What can I search for using the search bar?
 Q24: Why can't I find a recently created entry in the Cellosaurus?
 Q25: How can I access an old version of the Cellosaurus?
 Q26: Do vaccines contain cell lines?
+Q27: How do I get cell line XYZ to grow?
 
 ----------------------------------------------------------------------------
 
@@ -209,8 +210,6 @@ Evercyte:
  http://www.evercyte.com/medizin/cell-lines.html
 FujiFilm Cellular Dynamics, Inc:
  https://fujifilmcdi.com/the-cirm-ipsc-bank
-Genea Biocells:
- http://geneabiocells.com/services/shelf-products/human-embryonic-stem-cells/
 GenHunter:
  https://www.genhunter.com/cell-lines/
 GenScript:
@@ -228,7 +227,7 @@ Imanis Life Sciences:
 Inbiomed:
  http://www.inbiomed.org/Index.php/servicios_externos/inbiobank
 INCELL:
- http://www.incell.com/product-category/proprietary-cell-lines/
+ https://www.incell.com/product-category/proprietary-cell-lines/
 IncuCyte (Essen BioScience):
  https://www.essenbioscience.com/en/products/reagents-consumables/category/cell-lines/
 Innoprot:
@@ -236,13 +235,13 @@ Innoprot:
 Interlab Cell Line Collection (ICLC):
  http://www.iclc.it/
 InvivoGen:
- https://www.invivogen.com/reporter-cells
+ https://www.invivogen.com/cell-lines
 ISENET Biobanking:
  https://www.isenetbiobanking.com/stem-cells-catalogue
 Istituto Zooprofilattico Sperimentale della Lombardia e dell’Emilia Romagna biobank (IZSLER):
  http://www.ibvr.org/Services/CellCultures.aspx
 Japanese Collection of Research Bioresources Cell Bank (JCRB):
- http://cellbank.nibiohn.go.jp/english/
+ https://cellbank.nibiohn.go.jp/english/
 Kerafast:
  https://www.kerafast.com/cat/60/cells-tissue-samples
 King's College London hES cell line catalog:
@@ -263,7 +262,7 @@ National Cell Bank of Iran (NCBI):
  http://en.pasteur.ac.ir/pages.aspx?id=823
 National Laboratory for the Genetics of Israeli Populations (NLGIP):
  http://yoran.tau.ac.il/nlgip/
-Ncardia
+Ncardia:
  https://ncardia.com/
 NIA ES Cell Bank:
  https://esbank.nia.nih.gov/
@@ -493,10 +492,11 @@ Cell line names be contextualized on the basis of:
 -Subspecies/breed: through the comment category "Breed/subspecies" which is
  free text.
 
--Disease: through the "disease-list" which makes use of NCI Thesaurus codes.
+-Disease: through the "disease-list" which makes use of NCI Thesaurus and
+ Orphanet ORDO codes.
 
 -Tissue: Not yet possible. We plan to add the tissue of origin using Uberon
- as the standardization resource, but this will not take place until 2020.
+ as the standardization resource, but this will not take place until 2022.
 
 ----------------------------------------------------------------------------
 
@@ -889,4 +889,28 @@ http://www.aimspress.com/article/10.3934/publichealth.2017.2.127
 https://bioscience.lonza.com/lonza_bs/CH/en/vaccine-manufacturing
 https://www.welch-us.com/address-the-problem-of-vaccine-purification/
 https://www.tandfonline.com/doi/full/10.1080/14712598.2020.1693541
+
+----------------------------------------------------------------------------
+
+Q27: How do I get cell line XYZ to grow?
+
+A: Unfortunatly we are not experts in lab techniques and thus are not able to
+help you to solve problems relevant to cell culture.
+
+So what you can do?
+
+- If you have obtained your cell line from a cell collection or a colleague,
+you should contact that institution or person.
+- If you have a ResearchGate account you can use that platform to ask your
+question. Technical questions are very often answered in a timely and
+satisfactory manner by users of this platform.
+- Finally, you should consider acquiring what we consider to be the "bible"
+of cell culture:
+
+Freshney's Culture of Animal Cells: A Manual of Basic Technique and Specialized Applications, 8th Edition
+Amanda Capes-Davis and R. Ian Freshney
+Wiley-Blackwell, 2021
+ISBN: 978-1-119-51304-9
+
+https://www.wiley.com/en-sg/Freshney%27s+Culture+of+Animal+Cells%3A+A+Manual+of+Basic+Technique+and+Specialized+Applications%2C+8th+Edition-p-9781119513049
 
