@@ -71,7 +71,7 @@ The files that are distributed by FTP and are on GitHub are:
 - cellosaurus_deleted_ACs.txt: List of deleted accession numbers/entries
 - cellosaurus_name_conflicts.txt: Tables of cell lines with identical names
 - cellosaurus_faq.txt: Frequently asked questions
-- cellosaurus_relnotes.txt: Release notes: statistics and description of format changes
+- cellosaurus_relnotes.txt: Release notes: release statistics and description of format changes
 
 - cellopub.txt: Abstracts and web links for references that are not in PubMed, DOI or Patent (identifiers CLPUBnnnnn)
 
@@ -81,7 +81,7 @@ The files that are distributed by FTP and are on GitHub are:
 
 Bairoch A.
 The Cellosaurus, a cell line knowledge resource.
-J. Biomol. Tech. (2018) 29:25-38
+J. Biomol. Tech. 29:25-38(2018).
 DOI: 10.7171/jbt.18-2902-002; PMID: 29805321
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5945021/
 
@@ -94,6 +94,7 @@ The Cellosaurus:
 * closely collaborate with hPSCreg in the framework of the annotation of hESCs and hiPSCs (https://hpscreg.eu/about/structures-and-partners)
 * is a participant in the European Joint Programme on Rare Diseases (EJP RD) (https://www.ejprarediseases.org/index.php/coordinated-access-data-services/access-to-data-resources/)
 * is an ELIXIR Core Data Resource (https://elixir-europe.org/platforms/data/core-data-resources)
+* is an IRDiRC Recognized Resource (https://irdirc.org/research/irdirc-recognized-resources/)
 
 ## Licensing
 
