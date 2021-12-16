@@ -4,8 +4,8 @@
 ----------------------------------------------------------------------------
 
  Description: Cellosaurus: frequently asked questions
- Version: 39.0
- Last update: 23-September-2021
+ Version: 40.0
+ Last update: 16-December-2021
 
 ----------------------------------------------------------------------------
 
@@ -38,6 +38,8 @@ Q24: Why can't I find a recently created entry in the Cellosaurus?
 Q25: How can I access an old version of the Cellosaurus?
 Q26: Do vaccines contain cell lines?
 Q27: How do I get cell line XYZ to grow?
+Q28: What are the differences between the Cellosaurus and hPSCreg
+Q29: Are fetuses aborted to derive cell lines?
 
 ----------------------------------------------------------------------------
 
@@ -668,6 +670,9 @@ Q18: What is the difference between a Cellosaurus accession number and a cell li
 A: There is no difference. The Cellosaurus accession number (in the format
 CVCL_xxxx) is identical to the Research Resource Identifier (RRID).
 
+To cite a cell line in a publication use the format: Cell_line_name (RRID:CVCL_xxxx).
+Example: HeLa (RRID:CVCL_0030)
+
 ----------------------------------------------------------------------------
 
 Q19: Why are primary cells not included in the Cellosaurus (while it includes many finite cell lines).
@@ -821,7 +826,7 @@ ftp://ftp.expasy.org/databases/cellosaurus
 
 <pre>
 File name                       Release and date of first distribution
-------------------------------	--------------------------------------
+------------------------------  --------------------------------------
 cellosaurus.txt                 2.0 of 04-Apr-2012
 cellosaurus_relnotes.txt        2.0 of 04-Apr-2012
 cellosaurus.obo                 4.0 of 22-Oct-2012
@@ -894,7 +899,7 @@ https://www.tandfonline.com/doi/full/10.1080/14712598.2020.1693541
 
 Q27: How do I get cell line XYZ to grow?
 
-A: Unfortunatly we are not experts in lab techniques and thus are not able to
+A: Unfortunately we are not experts in lab techniques and thus are not able to
 help you to solve problems relevant to cell culture.
 
 So what you can do?
@@ -912,5 +917,103 @@ Amanda Capes-Davis and R. Ian Freshney
 Wiley-Blackwell, 2021
 ISBN: 978-1-119-51304-9
 
-https://www.wiley.com/en-sg/Freshney%27s+Culture+of+Animal+Cells%3A+A+Manual+of+Basic+Technique+and+Specialized+Applications%2C+8th+Edition-p-9781119513049
+https://www.wiley.com/en-gb/Freshney%27s+Culture+of+Animal+Cells%3A+A+Manual+of+Basic+Technique+and+Specialized+Applications%2C+8th+Edition-p-9781119513049
+
+----------------------------------------------------------------------------
+
+Q28: What are the differences between the Cellosaurus and hPSCreg
+
+A: In a nutshell, the Cellosaurus is a knowledge resource on all types of
+cell lines from a wide range of organisms, hPSCreg is a registry for human
+pluripotent stem cell lines (ESCs and iPSCs).
+
+Because of this difference in scope, all cell lines (with very few
+exceptions) that are described by hPSCreg can be found in the Cellosaurus but
+not the converse. It should also be noted that currently only 20% of human
+ESC and 40% of human iPSC cell lines described in the Cellosaurus have been
+registered in hPSCreg but that these percentages are rising as the majority
+of newly established human pluripotent cell lines do get registered.
+
+For a given cell line both resources contain information on its name and
+synonyms; provider; donor age, sex and ethnicity; disease status and
+associated sequence variations; engineered KOs and KIs; tissue/organ of
+sampling of the original cells and information on the relationship between
+lines originating from the same donor. Both also provide literature
+references as well as cross-references to external resources.
+
+But additionally hPSCreg will contain information that are not captured by
+the Cellosaurus, namely: the reprogramming method; culture conditions;
+pluripotency markers expression; morphology; differentiation potency, in
+depth karyotyping information, the consent under which a cell line has been
+derived and if the cell line is readily obtainable to third parties.
+
+Entry of information in hPSCreg is directly performed by the groups that have
+established the relevant cell lines while Cellosaurus entries are manually
+curated. This has an impact on the update "strategies": the Cellosaurus is
+updated 4-6 times per year and thus new entries and updates will only be
+available every 2-3 months. In contrast hPSCreg is updated on a daily basis.
+
+The Cellosaurus and hPSCreg are bi-directionally cross-referenced and these
+cross-references are updated at each release of the Cellosaurus.
+
+There is a very active collaboration between the two resources that include
+regular extraction of information by both sides as well as feedback on
+potential issues and errors.
+
+----------------------------------------------------------------------------
+
+Q29: Are fetuses aborted to derive cell lines?
+
+A: No! While fetuses have and are been used to derive cell lines, abortion
+is not carried out with the specific purpose of establishing cell lines.
+
+Cell lines obtained from human fetuses can be classified into two categories:
+
+1) Cell lines obtained from fetuses originating from a pregnancy loss.
+Pregnancy loss is often called miscarriage or spontaneous abortion if it
+occurs before 20 weeks of pregnancy and stillbirth after the 20th week. As
+such pregnancy loss can frequently be due to genetic defects such as
+chromosomal abnormalities or genetic diseases. Deriving cell lines from
+such type of fetus is very useful as it allows researchers to perform
+experiments to better understand the effects of such genetic anomalies.
+
+For example, cell line AG13074 is a skin fibroblast cell line obtained
+from a 19 week miscarried fetus which was affected with a trisomy of
+chromosome 18. This cell line is used for studies of gene dosage imbalance.
+
+2) Cell lines obtained from fetuses obtained after an elected or medical
+abortion. The cell lines established from these fetuses are expected to be
+"normal", ie not suffering from any genetic disease and, because of the
+youth of the tissues, not likely to have been the target of mutations that
+would give rise to cancers. A small number of such fetal cell lines were
+established, most of them in the 1960-70's. We do not know of any instance
+where an abortion was carried out with the purpose of establishing such
+type of cell lines.
+
+These fetal cell lines were very useful to study life processes in cells
+that were not derived from cancerous growth nor derived from older
+individuals and thus representing good models of young healthy cells. Two
+of them, MRC-5 and WI-38, are often used to grow a range of human viruses
+and thus also to produce viral vaccines against these viruses. A third
+cell line, HEK293, was immortalized by transformation with an adenovirus
+and is used by thousands of laboratories worldwide. More than one thousand
+different cell lines are known to have been derived from HEK293 by genetic
+engineering, mostly to disable (knock out) or add (knock in) specific
+genes so as to be able to study their cellular roles and functions.
+
+Fetal cell lines were also used to address safety concerns when producing
+early vaccines. Many cell lines at that time were contaminated with
+microorganisms and fetal cell lines were believed to have a lower risk of
+such problems. As better methods were developed to test cell lines for
+microorganisms, contaminated cell lines became less of a problem in
+vaccine manufacture. Today's manufacturing methods rely on more than a
+century of continuous efforts to improve vaccine safety.
+
+Relevant Cellosaurus entries:
+AG13074 https://web.expasy.org/cellosaurus/CVCL_X801
+HEK293  https://web.expasy.org/cellosaurus/CVCL_0045
+MRC-5   https://web.expasy.org/cellosaurus/CVCL_0440
+WI-38   https://web.expasy.org/cellosaurus/CVCL_0579
+
+Thanks to Amanda Capes-Davies for important contributions to this FAQ.
 

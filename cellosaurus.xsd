@@ -2,7 +2,7 @@
 <!-- *****************************************************************************
         XML Schema Definition (XSD) for the Cellosaurus XML
 
-        Date: 2021-September-23; Release: 3.0
+        Date: 2021-December-16; Release: 4.0
 
         Copyright (c) CALIPHO group @ SIB - Swiss Institute of Bioinformatics
         Distributed under the Creative Commons Attribution 4.0 International (CC BY 4.0) licence
@@ -156,8 +156,8 @@
              </xs:simpleType>
           </xs:attribute>
           <xs:attribute name="created" type="xs:date" use="required"/>
-          <xs:attribute name="last_updated" type="xs:date" use="required"/>
-          <xs:attribute name="entry_version" type="xs:integer" use="required"/>
+          <xs:attribute name="last-updated" type="xs:date" use="required"/>
+          <xs:attribute name="entry-version" type="xs:integer" use="required"/>
           <xs:attribute name="age" use="optional"/>
        </xs:complexType>
    </xs:element>
@@ -214,7 +214,7 @@
    <!-- Name element definition begins -->
    <xs:element name="name">
       <xs:annotation>
-         <xs:documentation>Describes the identifier (cell line name) and synonyms for a cell line.</xs:documentation>
+         <xs:documentation>Describes the identifier (cell line recommanded name) and synonyms for a cell line.</xs:documentation>
       </xs:annotation>
       <xs:complexType>
          <xs:simpleContent>
@@ -321,22 +321,22 @@
          <xs:attribute name="category" use="required">
             <xs:simpleType>
                <xs:restriction base="xs:string">
+                  <xs:enumeration value="Anatomy/cell type resources"/>
                   <xs:enumeration value="Biological sample resources"/>
-                  <xs:enumeration value="Chemistry resources"/>
                   <xs:enumeration value="Cell line collections"/>
                   <xs:enumeration value="Cell line databases/resources"/>
-                  <xs:enumeration value="Cell lines databases"/>
+                  <xs:enumeration value="Chemistry resources"/>
+                  <xs:enumeration value="Encyclopedic resources"/>
+                  <xs:enumeration value="Experimental variables resources"/>
                   <xs:enumeration value="Gene expression databases"/>
+                  <xs:enumeration value="Medical resources"/>
                   <xs:enumeration value="Metabolomic databases"/>
-                  <xs:enumeration value="Ontologies"/>
                   <xs:enumeration value="Organism-specific databases"/>
-                  <xs:enumeration value="Other"/>
                   <xs:enumeration value="Polymorphism and mutation databases"/>
-                  <xs:enumeration value="Publication databases"/>
                   <xs:enumeration value="Proteomic databases"/>
-                  <xs:enumeration value="Reference"/>
                   <xs:enumeration value="Reference resources"/>
                   <xs:enumeration value="Sequence databases"/>
+                  <xs:enumeration value="Taxonomy"/>
                </xs:restriction>
             </xs:simpleType>
          </xs:attribute>
@@ -504,14 +504,15 @@
       </xs:annotation>
       <xs:complexType>
          <xs:sequence>
-            <xs:element ref="alleles" minOccurs="1" maxOccurs="1"/>
+            <xs:element ref="marker-alleles" minOccurs="1" maxOccurs="1"/>
             <xs:element ref="source-list" minOccurs="0" maxOccurs="1"/>
          </xs:sequence>
       </xs:complexType>
    </xs:element>
    <!-- STR marker data element definition ends -->
 
-   <xs:element name="alleles" type="xs:string"/>
+   <xs:element name="hla-alleles" type="xs:string"/>
+   <xs:element name="marker-alleles" type="xs:string"/>
 
    <!-- Disease list element definition begins -->
    <xs:element name="disease-list">
@@ -573,7 +574,7 @@
       </xs:annotation>
       <xs:complexType>
          <xs:sequence>
-            <xs:element ref="alleles" minOccurs="1" maxOccurs="1"/>
+            <xs:element ref="hla-alleles" minOccurs="1" maxOccurs="1"/>
          </xs:sequence>
          <xs:attribute name="id" type="xs:string" use="required"/>
       </xs:complexType>
@@ -662,6 +663,7 @@
                    <xs:enumeration value="Repeat_expansion_edited"/>
                    <xs:enumeration value="Unexplicit"/>
                    <xs:enumeration value="Unexplicit_corrected"/>
+                   <xs:enumeration value="Unexplicit_edited"/>
                    <xs:enumeration value="None_reported"/>
                 </xs:restriction>
              </xs:simpleType>
@@ -758,7 +760,7 @@
       </xs:annotation>
       <xs:complexType>
          <xs:attribute name="registry" use="required"/>
-         <xs:attribute name ="registration_number" use="required"/>
+         <xs:attribute name="registration-number" use="required"/>
       </xs:complexType>
    </xs:element>
    <!-- Registration element definition ends -->
@@ -837,6 +839,7 @@
                   <xs:enumeration value="patent"/>
                   <xs:enumeration value="thesis BSc"/>
                   <xs:enumeration value="thesis MD"/>
+                  <xs:enumeration value="thesis MDSc"/>
                   <xs:enumeration value="thesis MSc"/>
                   <xs:enumeration value="thesis PhD"/>
                   <xs:enumeration value="thesis VMD"/>
@@ -845,18 +848,18 @@
          </xs:attribute>
          <xs:attribute name="date" use="optional">
             <xs:simpleType>
-               <xs:union memberTypes="xs:date xs:gYearMonth xs:gYear patentdate"/>
+               <xs:union memberTypes="xs:date xs:gYearMonth xs:gYear patent-date"/>
             </xs:simpleType>
          </xs:attribute>
-         <xs:attribute name="name" type="xs:string" use="optional"/>
+         <xs:attribute name="journal-name" type="xs:string" use="optional"/>
          <xs:attribute name="volume" type="xs:string" use="optional"/>
-         <xs:attribute name="firstpage" type="xs:string" use="optional"/>
-         <xs:attribute name="lastpage" type="xs:string" use="optional"/>
+         <xs:attribute name="first-page" type="xs:string" use="optional"/>
+         <xs:attribute name="last-page" type="xs:string" use="optional"/>
          <xs:attribute name="publisher" type="xs:string" use="optional"/>
          <xs:attribute name="city" type="xs:string" use="optional"/>
          <xs:attribute ref="database" use="optional"/>
          <xs:attribute name="patent" type="xs:string" use="optional"/>
-         <xs:attribute name="institute" type="xs:string" use="optional"/>
+         <xs:attribute name="institution" type="xs:string" use="optional"/>
          <xs:attribute name="country" type="xs:string" use="optional"/>
          <xs:attribute name="location" type="xs:string" use="optional"/>
          <xs:attribute name="internal-id" type="xs:string" use="required"/>
@@ -865,7 +868,7 @@
    <!-- Publication definition ends -->
 
    <!-- Patent date definition begins -->
-   <xs:simpleType name="patentdate">
+   <xs:simpleType name="patent-date">
       <xs:restriction base="xs:string">
          <xs:pattern value="[0-3][0-9]-[A-S][a-z][a-z]-[1-2][0-9][0-9][0-9]"/>
       </xs:restriction>
