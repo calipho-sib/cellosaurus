@@ -4,8 +4,8 @@
 ----------------------------------------------------------------------------
 
  Description: CelloPub, Cellosaurus publications
- Version: 40.0
- Last update: 16-December-2021
+ Version: 41.0
+ Last update: 17-March-2022
 
 ----------------------------------------------------------------------------
 ID   CLPUB00222
@@ -193,7 +193,7 @@ the IC50 is not reproducible and influenced by the 3 factors above
 mentioned. Therefore, it might be concluded that IC50 is not suitable as
 an index of sensitivity of cancer cells to anticancer drugs at least in
 terms of cytocidal activity. Secondly, the result of sensitivity tests of
-9 human stomach cancer cell lines to Mitomycin C measured by regrowth
+9 human stomach cancer cell lines to mitomycin C measured by regrowth
 assay is reported. In general, cell lines derived from poorly
 differentiated adenocarcinoma are more sensitive to the test drug than
 those from well differentiated tubular adenocarcinoma.
@@ -380,8 +380,8 @@ AB   Yes
 Gash, a cell line established from a 34 year old male with hairy cell
 leukemia has been confirmed as a hairy cell leukemia line by electron
 microscopy, surface and cytoplasmic markers and positive TRAP (tartrate
-resistant acid phosphatase) stain. The cell line involves rather mature B-
-cells. Cytogenetic analysis showed 79% of the cells to be
+resistant acid phosphatase) stain. The cell line involves rather mature
+B-cells. Cytogenetic analysis showed 79% of the cells to be
 46,XY,del(6)(p23), 13% to be pseudotetraploid with an exact duplication of
 the pseudodiploid cells, and 8% to have random abnormalities in addition
 to the deleted 6p. Twenty-seven percent of the pseudodiploid and 50% of
@@ -774,12 +774,53 @@ of the spindle apparatus in metazoan cells. More importantly, this is the
 first report on the existence of a metazoan cell line in which cells
 regularly divide without a centriole.
 //
+ID   CLPUB00687
+RA   Sonneborn H.-H., Uthemann H., Pfeffer A.;
+RT   "Monoclonal antibody specific for human blood group k (Cellano).";
+RL   Biotest Bull. 1:328-330(1983).
+DR   Cellosaurus; CVCL_B6SM; BS 45
+AB   Yes
+Monoclonal antibodies to erythrocyte antigens are of major and practical
+interest to blood transfusion workers. They provide better standardised
+reagents in economic bulk production. In addition the use of several
+monoclonal antibodies to partial specificities of a blood group antigen
+will assist in the further immunochemical characterisation of antigenic
+determinants. Recently we discovered the first example of a monoclonal
+anti-k (Cellano). In this paper we describe its properties and
+characterisation and also report the interesting observation that anti-
+human globulin reagents cross react well with mouse IgG antibodies. Thus
+the routine antiglobulin test can be used effectively in agglutination
+tests with mouse IgG antibodies to human erythrocyte antigens.
+//
+ID   CLPUB00688
+RA   Ball M., Cant B., Garwood P., Rogers K.L., Tills D., Sonneborn H.H.;
+RT   "Evaluation of a murine monoclonal anti-K (BS45).";
+RL   Biotest Bull. 4:15-18(1989).
+DR   Cellosaurus; CVCL_B6SM; BS 45
+AB   Yes
+A mouse monoclonal anti-k (BS45) has been tested for potency and
+specificity. Tests were performed on just over 20,000 random blood donors
+and against Kpa, Ko, Mc Leod cells and cells treated with
+2-aminoethylisothiouronium bromide (AET). The tests were performed in
+parallel with a human anti-k. The monoclonal antibody behaved as well as
+the human antibody the only differences being that it was a better
+detector of the weakened k antigen in Kpa positives and it failed to
+react, with the McLeod samples.
+//
 ID   CLPUB00335
 RA   Royston I., Majda J.A., Baird S.M., Meserve B.L., Griffiths J.C.;
 RT   "Monoclonal antibody specific for human T lymphocytes: identification
 RT   of normal and malignant T-cells.";
 RL   Blood 54 Suppl. 1:106a-106a(1979).
 DR   Cellosaurus; CVCL_DC79; T101 [Mouse hybridoma against human CD5]
+AB   No
+//
+ID   CLPUB00690
+RA   Knight R.D., Khan E.C., Mallet M.R., Wright D.G.;
+RT   "Establishment of a new myeloid cell line from a patient with TdT(+)
+RT   acute leukemia.";
+RL   Blood 66 Suppl. 1:224a-224a(1985).
+DR   Cellosaurus; CVCL_8907; RED-3.
 AB   No
 //
 ID   CLPUB00343
@@ -880,8 +921,8 @@ the doubling time is 60 hr in methylcellulose with IMDM and 15% FCS. JB
 cells were injected intraperitoneally to form a metastasizing tumor in
 SCID mice. The transplanted tumor maintains the original morphology,
 immunophenotype and genotype. Tumor fragments have been passaged
-repeatedly subcutaneously reaching a tumor size of greater than 1 cm in 4-
-6 weeks. The subcutaneous tumors remain outside the abdominal wall fascia
+repeatedly subcutaneously reaching a tumor size of greater than 1 cm in
+4-6 weeks. The subcutaneous tumors remain outside the abdominal wall fascia
 and do not metastasize. Preliminary experiments of tumor directed therapy
 have been initiated. This cell line should provide a means of designing
 more effective therapies for treatment-resistant Ki-1 + ALCL.
@@ -1171,8 +1212,8 @@ of human cell lines (n > 30) was employed for characterizing antibody
 specificity. All three antibodies did react with 4 of 4 T-ALL lines, but
 little reactivity was seen outside the T-lineage. Fresh Sezary cells as
 well as Sezary line HUT 78 were stained only by TH 126. Testing leukemias
-and lymphomas (n > 25), only TC 25 showed major reactivity outside the T-
-cell tumors, namely on chronic myelogeneous leukemia in blast crisis and
+and lymphomas (n > 25), only TC 25 showed major reactivity outside the
+T-cell tumors, namely on chronic myelogeneous leukemia in blast crisis and
 very immature acute leukemias. Thus, while TH 69 and TH 126 will help to
 dissect T-cell tumors, TC 25 may be useful in analysis of CML in blast
 crisis and immature leukemias.
@@ -1198,8 +1239,8 @@ cells were consistently negative for surface immunoglobulin and NLA class
 II (NLA-DR/DP, HLA-DQ) antigens. Moreover, HLA class II antigens were not
 inducible by IFN-alpha or IFN-gamma. The myeloma cells did not stain for
 most B-cell differentiation antigens (CD10 (CALLA), CD19 (B4), CD20 (B1),
-CD21 (B2), CD22 (HD39), CD23 (MHM6), CD37 (BL14), CD39 (G28-8)) except PCA-
-1 and CD38 (OKT10). Monoclonal antibodies of the CD24 cluster gave a
+CD21 (B2), CD22 (HD39), CD23 (MHM6), CD37 (BL14), CD39 (G28-8)) except
+PCA-1 and CD38 (OKT10). Monoclonal antibodies of the CD24 cluster gave a
 heterogeneous staining pattern: Some monoclonal antibodies were
 consistently negative, whereas others showed a broad reactivity peak which
 may be due to posttranslational modifications of the CD24 molecule
@@ -1655,8 +1696,8 @@ RT   resistance to ciprofloxacin in WEHI-3B(D+) leukemia cells.";
 RL   Cancer J. 6:291-297(1993).
 DR   Cellosaurus; CVCL_3430; WEHI-3B/CPX
 AB   Yes
-In this study the in-vitro susceptibility of murine myeloid precursors (GM-
-CFU) and murine leukemia cells (WEHI-3B(D+) and L1210 lines) to
+In this study the in-vitro susceptibility of murine myeloid precursors
+(GM-CFU) and murine leukemia cells (WEHI-3B(D+) and L1210 lines) to
 ciprofloxacin (CPX), lomefloxacin (LMX), ofloxacin (OFX), pefloxacin (PFX)
 and rufloxacin (RFX) was compared. The two leukemia lines were equally
 susceptible and significantly more sensitive than GM-CFU. To develop a
@@ -1803,8 +1844,8 @@ harbors a gene fusion between the androgen regulated TMPRSS2 gene and the
 ETS genes ERG, ETV1 or ETV4. However in vitro model representing primary
 tumors to study the molecular mechanisms and functional consequences of
 this important chromosomal rearrangement are currently limited and are
-greatly needed. The tumor tissue (RC-123T) used for generating the RC-
-123T/E cell line with HPV-16 E6E7 genes was obtained from a 57 year old
+greatly needed. The tumor tissue (RC-123T) used for generating the
+RC-123T/E cell line with HPV-16 E6E7 genes was obtained from a 57 year old
 familial prostate cancer patient who had adenocarcinoma with well
 differentiation (Gleason 3+3). The cell line was characterized
 phenotypically and cytogenically. Dual color fluorescence in situ
@@ -1904,8 +1945,8 @@ human diploid cell line as a replacement for the cell line known as WI-38.
 WI-38 had been established and characterized in the early 1960's as a
 standard (reference cell line) in the burgeoning field of cell biology;
 but in the early 70's, the NIH stock of low passage WI-38 cells had become
-seriously depleted. The cell line developed at Coriell, identified as IMR-
-90, was the first of several lines planned in support of NIA research
+seriously depleted. The cell line developed at Coriell, identified as
+IMR-90, was the first of several lines planned in support of NIA research
 programs and general cell biology research. IMR-90 was developed and
 characterized in such a way as to parallel WI-38 as closely as possible to
 minimize the variables in replacing WI-38 within ongoing laboratory
@@ -1973,6 +2014,50 @@ the Lys373 and/or Ser378 of the C-terminus is acetylated and/or
 phosphorylated. The nuclear location signal of p53 is preserved. Induction
 of the MDM2 protein is uncoupled from the cell regulatory machinery and
 the induction of p21WAF1 by p53 is impaired in OvBH-1 cells.
+//
+ID   CLPUB00684
+RA   Sikora J., Lawniczak M., Dworacki G., Zeromski J.;
+RT   "Production and partial characterisation of mouse monoclonal antibody
+RT   against human fibronectin.";
+RL   Centr. Eur. J. Immunol. 22:255-261(1997).
+WW   https://eurekamag.com/research/009/249/009249585.php
+DR   Cellosaurus; CVCL_B6RW; JS-1
+AB   Yes
+This paper describes the preparation of a mouse monoclonal antibody JS-1
+directed against human fibronectin. This is a fusion product of mouse
+myeloma X63Ag8.653 and of spleen cells from a BALB/c mice which had been
+immunized with fibronectin isolated from human serum. This antigen was
+visualized as two bands (MW 200-250 kD) in SDS-PAGE electrophoresis. ELISA
+and immunohistology have shown that the produced antibodies react with
+structures containing fibronectin and extracellular protein and belonged
+to the IgM class of immunoglobulin. Flow cytometric analysis of the
+hybridoma cells had tetraploid DNA content and a high percentage of cells
+in the S-phase fraction of the cell cycle.
+//
+ID   CLPUB00685
+RA   Petrova Y.I., Kameneva O.V., Zhukova A.I., Scudder L., Gnatenko D.V.,
+RA   Bahou W.F., Komisarenko S.V., Skok M.V.;
+RT   "The role of proteinase-activated receptor 3 (PAR3) in mouse hybridoma
+RT   studied with monoclonal antibody generated against thrombin cleavage
+RT   site.";
+RL   Centr. Eur. J. Immunol. 33:14-18(2008).
+WW   https://www.termedia.pl/Experimental-immunology-The-role-of-proteinase-activated-receptor-3-PAR3-in-mouse-hybridoma-studied-with-monoclonal-antibody-generated-against-thrombin-cleavage-site,10,10091,1,1.html
+DR   Cellosaurus; CVCL_B6RX; 8E8
+AB   Yes
+Thrombin produced upon tissue damage provides a link between
+inflammation/blood coagulation and immune reactions through proteinase-
+activated receptor (PAR) types 1, 3 and 4. In contrast to PAR1 and PAR4,
+functions of PAR3 in cells other than platelets are poorly understood. We
+generated mAb 8E8 against fragment 31-47, which includes the thrombin
+cleavage site of human PAR3. MAb 8E8 bound mouse platelets and delayed
+their aggregation induced by thrombin. This antibody also specifically
+stained B-lymphocyte-derived hybridoma in flow cytometry. Thrombin dose-
+dependently inhibited hybridoma cell proliferation and so did mAb 8E8 and
+PAR3 31-47 fragment, but not the PAR4 activating peptide. It is concluded
+that mAb 8E8 recognizes PAR3 expressed in hybridoma and mimics the
+inhibitory effect of thrombin on hybridoma proliferation mediated by PAR3.
+The data obtained also suggest that, unlike in platelets, targeting PAR3
+in mouse B lymphocyte-derived cells doesn't involve PAR4.
 //
 ID   CLPUB00127
 RA   Vrba M., Anton M., Krizova M., Fialova K., Cihalova V., Vymazalova M.;
@@ -2443,6 +2528,22 @@ the cells from the attached sheet have undergone 34 passages. The hollow
 vesicles, which are also maintained as a separate sub-line, have undergone
 12 passages. Cells from attached sheet and hollow vesicles have been
 stored in liquid nitrogen and regenerated successfully.
+//
+ID   CLPUB00683
+RA   Bhat U.K.M., Goverdhan M.K.;
+RT   "Susceptibility of Aedes vittatus cell line to infection with some
+RT   arboviruses.";
+RL   Curr. Sci. 41:480-482(1972).
+WW   https://www.jstor.org/stable/24074628
+DR   Cellosaurus; CVCL_Z224; ATC-121
+AB   Yes
+Susceptibility of Aedes vittatus cell line to infection with Chikungunya
+(group-A); Japanese encephalitis, West Nile, Dengue type 2 and Kyasanur
+Forest disease (group-B); Chandipura (piry group) and Ganjam (ungrouped)
+viruses has been studied. Chikungunya, Japanese encephalitis, West Nile
+and Chandipura viruses multiplied in this cell line, whereas, Dengue type
+2, Kyasanur Forest disease and Ganjam viruses did not. No obvious
+cytopathic effect was detected with any of the viruses.
 //
 ID   CLPUB00280
 RA   Bai L.-H., Qian Z.-C.;
@@ -2927,8 +3028,8 @@ of melanoma cells by immune effectors, we stabilised in vitro 25 human
 melanoma cell lines starting from surgical removed primary and/or
 metastatic tumors. All the lines showed, by cytofluorimetric analysis,
 significant expression of HMW-MAA, a melanoma associated antigen.
-Moreover, HLA Class-I and Class-II expression revealed complete HLA class-
-I loss only in two cell lines, ANAD-63 and COPA-159, whereas aberrant
+Moreover, HLA Class-I and Class-II expression revealed complete HLA class-I
+loss only in two cell lines, ANAD-63 and COPA-159, whereas aberrant
 Class-II expression was observed in 5/25 melanoma cell lines. Our
 attention is now focused on the lines that seem to have aberrant
 expression of HLA antigens trying to understand, by molecular techniques,
@@ -3075,8 +3176,8 @@ can be used to model blood diseases and as an alternate source of blood
 cells for transplantation. However, robust methods to differentiate hPSCs
 to hematopoietic progenitor cells (HPCs) have been difficult to develop.
 The STEMdiff Hematopoietic Kit reproducibly generates HPCs from multiple
-embryonic (H1, H9) and induced pluripotent (WLS-1C, STiPS-F016, STiPS-
-M001, STiPS-B004) stem cell lines under serum-and feeder-free conditions.
+embryonic (H1, H9) and induced pluripotent (WLS-1C, STiPS-F016, STiPS-M001,
+STiPS-B004) stem cell lines under serum-and feeder-free conditions.
 Briefly, hPSC aggregates were plated on Corning Matrigel in TeSR medium.
 The cells were then sequentially incubated in two STEMdiff differentiation
 media and harvested on day 10 or 12. Most HPCs were detected in the
@@ -3211,6 +3312,36 @@ characteristics were studied such as its stability, growth, colony
 formation, DNA ploidy, p53 status, microsatellite analysis, as well as
 tumorigenicity in nude mice and radiation sensitivity.
 //
+ID   CLPUB00686
+RA   Kushniruk V.O., Ruban T.P., Lukash L.L.;
+RT   "Morphological and growth peculiarities of new human cell line 4BL.";
+RL   Fakt. Eksp. Evol. Org. 13:315-319(2013).
+WW   http://utgis.org.ua/journals/index.php/Faktory/article/view/188
+DR   Cellosaurus; CVCL_B6S0; 4BL
+AB   Yes
+Morphology of cells and growth curve are important characteristics of cell
+line, so the aim of this research was to study these peculiarities.
+
+Methods: We investigated original cell line 4BL, obtained from peripheral
+blood of healthy donor, which was successfully passed through the Heyflick
+limit. Methods of cell cultivation and standard cytological methods were
+used.
+
+Results: Cell line 4BL and its clones consist of two main types of cells:
+fibroblast-like and epithelioid. Cells have non-random distribution on the
+surface of culture dish and form cycle-like structures. These properties
+indirectly denote about stem potential of these cells, what have been
+confirmed by special investigations. Growth curves had graded character:
+virtually absence of lag-phase, two periods of exponential growth with
+phase of growth impairment between them, virtually absence of stationary
+phase and two peaks with maximum quantity of cells and accordingly two-
+step decreasing.
+
+Conclusions: Fibroblast-like and epithelioid cells are two main
+morphological types of cell line 4BL, so as it’s clones 1, 2 and 3.
+Ability to form cycle structures at the surface of culture dish was
+observed. Growth curves had graded character.
+//
 ID   CLPUB00071
 RA   Davis E.V., Bolin V.S.;
 RT   "Continuous cultivation of isogenous cell lines from the human
@@ -3280,6 +3411,13 @@ hereditarily transmitted to the progeny cells for 11 months. Possible
 underlying mechanisms of the resistance to EB and the significance of the
 establishment of this cell line are discussed.
 //
+ID   CLPUB00691
+RA   Mallet M.R., Knight R.D., Khan E.C., Wright D.G.;
+RT   "Characterization of RED-3: a biphenotypic myeloid leukemia cell line.";
+RL   Fed. Proc. 45:958-958(1986).
+DR   Cellosaurus; CVCL_8907; RED-3.
+AB   No
+//
 ID   CLPUB00500
 RA   Collins J.K., O'Mahony A., O'Brien F., Corbett A., Morrissey D.,
 RA   O'Donoghue M., O'Sullivan G.;
@@ -3306,6 +3444,31 @@ in every case to metastasize. OC1 and OC3 cells were found to express
 urokinase-type plasminogen activator (uPA), while OC2 cells did not. Our
 findings suggest a role for uPA in conferring metastatic potential on
 oesophageal carcinoma cells.
+//
+ID   CLPUB00689
+RA   Lukash L.L., Iatsyshyna A.P., Pidpala O.V., Vagina I.M.,
+RA   Kochubey T.P.;
+RT   "Establishment of new lines of murine stem cells and investigation of
+RT   the influence of microenvironment on their karyotypical variability in
+RT   vitro.";
+RL   Fiziol. Biokhim. Kul't. Rast. 38:144-152(2006).
+WW   https://eurekamag.com/research/012/970/012970119.php
+DR   Cellosaurus; CVCL_B6W8; G1
+DR   Cellosaurus; CVCL_B6XA; G4
+DR   Cellosaurus; CVCL_B6XB; G6
+DR   Cellosaurus; CVCL_B6XC; G7
+AB   Yes
+New lines of murine stem cells G1, G4, G6 and G7 have been obtained. They
+have been passed in vitro during from 50 to 140 passages without
+appearence of crisis in cellular populations. When cultivating in
+monolayer the cells had similar fibroblast-like morphology. The
+cytogenetical investigation has been carried out after long time cell
+growth at the conditions established for standard monolayer cultures and
+at the conditions developed for stem cells. Comparative cytogenetical
+analysis of cell samples isolated from populations of G1, G4 and G7 have
+revealed manifestation of genomic and chromosomal instability after long
+time cultivation and dependence of karyotype changing on the conditions of
+microenvironment.
 //
 ID   CLPUB00471
 RA   Wang S.-B., Guo L., Niu W.-Z.;
@@ -3361,8 +3524,8 @@ RT   vivo by SR-RSV.";
 RL   Gen. Comp. Pathol. 28:31-40(1991).
 DR   Cellosaurus; CVCL_0J67; LSR-SF (SR)
 AB   Yes
-A cell line from RSV virus-induced rat tumour, strain Schmidt-Ruppin (SR-
-RSV) was established. The line consists of two morphologically different
+A cell line from RSV virus-induced rat tumour, strain Schmidt-Ruppin
+(SR-RSV) was established. The line consists of two morphologically different
 types of cells —round or polygonal— with strongly expressed growth
 properties. The time for duplication of the cell population is about 48 h.
 The cells proliferate in a medium with low concentration of normal bovine
@@ -3467,6 +3630,34 @@ NCAM), the late mature neural markers (MAP2, NF200, GFAP), and the mature
 motor neurons' markers (ISL1 and CHAT). neurons derived from patient-
 specific iPSCs are perspective model for studying the features of the
 cells, which are altered in spinal muscular atrophy.
+//
+ID   CLPUB00677
+RA   Jha K.K., Ozer H.L.;
+RT   "Genetic studies with a mutant mouse cell, ts-2 Balb/3T3, with a
+RT   temperature sensitive defect in DNA synthesis.";
+RL   Genetics 86 Suppl. 2:S32-S33(1977).
+WW   https://eurekamag.com/research/026/681/026681029.php
+DR   Cellosaurus; CVCL_B5VE; BALB/3T3 clone A31 ts2
+DR   Cellosaurus; CVCL_B5VK; BALB/3T3 clone A31 ts2-TGO
+AB   Yes
+ts-2 permits cellular and polyoma viral DNA synthesis at 33 Celsius but
+not at 38 Celsius. Somatic cell hybrids of ts-2 and a non ts 3T3 which is
+thioguanine-resistant (Tgr) and ouabain resistant (OUAr) can be isolated
+at 33 Celsius in selective medium containing hypoxanthine, aminopterin,
+thymidine (HAT) plus ouabain. Such hybrids are able to grow at 38 Celsius
+demonstrating the recessive nature of the ts-2 phenotype. For obtaining
+hybrids between ts-2 and other ts or normal cells of rodent or human
+origin the TGr (inability to grow in HAT medium) and OUAr markers were
+induced in the ts-2 cell line. Somatic cell hybrids between this doubly
+marked ts-2 cell line, 2TGO-13, and human fibroblasts were isolated in
+HAT, ouabain (10^-5M) medium at 33 Celsius. The human ts-2 hybrid cells
+were thioguanine-sensitive and back selection for thioguanine-resistance
+(loss of hypoxanthine-guanine phosphoribosyltransferase gene on the human
+X chromosome) resulted in loss of temperature-resistance of hybrid cells
+in greater than 95% of the hybrid colonies, suggesting synteny of the two
+genetic markers. Cell hybrids between ts-2 and five other mouse cells with
+ts phenotype for DNA synthesis do not show complementation for the ts
+defect.
 //
 ID   CLPUB00185
 RA   Kakpakov V.T., Gvozdev V.A., Platova T.P., Polukarova L.G.;
@@ -3827,12 +4018,12 @@ DR   Cellosaurus; CVCL_ZF38; Pr-E-HNU9(C)
 AB   Yes
 A primary culture was set up from of Pieris rapae in TC-100 medium. It was
 refed 6 months post explantation, and the cells propagated from the tissues
-culture were subcultured two month later. Three substrains, designated Pr-
-E(A), Pr-E(B) and Pr-E(C) respectively, developed from the primary cell
+culture were subcultured two month later. Three substrains, designated
+Pr-E(A), Pr-E(B) and Pr-E(C) respectively, developed from the primary cell
 line. They differ in morphology, behavior and growth of cells. The cells
 of Pr-E(A), Pr-E(B) and Pr-E(C) in their second, fifth and tenth generation
-in respect, were preserved at 4 Celsius for 5 months. The Pr-E(A) and Pr-
-E(B) cells, which adhere to the bottom of the flasks and grow slowly in
+in respect, were preserved at 4 Celsius for 5 months. The Pr-E(A) and Pr-E(B)
+cells, which adhere to the bottom of the flasks and grow slowly in
 culture, recovered after being transfered to incubator at 28 Celsius, But
 the Pr-E(C) cells, which suspend in medium and grow quickly died during
 the period.
@@ -4631,8 +4822,8 @@ myeloma cell lines remain rare. Here, we describe the development of a
 new myeloma cell line, designated THK-72, from the pleural effusion of a
 myeloma patient initially diagnosed with IgG kappa type myeloma, which
 subsequently transformed to oligosecretory myeloma. THK-72 cells
-proliferated in single suspension culture without any feeder layer or IL-
-6 supplementation, and no immunoglobulin secretion was detected in the
+proliferated in single suspension culture without any feeder layer or IL-6
+supplementation, and no immunoglobulin secretion was detected in the
 supernatant of these cells by immunoelectrophoresis analysis.
 Morphological analyses indicated that THK-72 cells had plasmacytoid
 appearance, while PCR and flow cytometry analyses demonstrated that the
@@ -4760,8 +4951,8 @@ cervical cancer cell line (CTCC-1) did not have detectable HPV DNA or HPV
 viral particle. CTCC-1 cells had massive chromosomal changes and harbored
 heterozygous mutations at 870 C>T (protein Pro223Leu) and 1022 G>T
 (protein Val274Phe) of p53 gene (NM_000546) with reduced p53 expression
-compared to C33A cells whereas k-ras was not mutated nor inhibited in CTCC-
-1 cells. CTCC-1 cells were more sensitive to cisplatin and taxol than Hela
+compared to C33A cells whereas k-ras was not mutated nor inhibited in CTCC-1
+cells. CTCC-1 cells were more sensitive to cisplatin and taxol than Hela
 but more resistant to taxol than C33A cells. Overexpressing wild type p53
 significantly increased the sensitivity of CTCC-1 to those chemotherapy
 agents. Mutant p53 might be responsible for the oncogenesis of some HPV-
@@ -5768,8 +5959,8 @@ had a normal number of chromosomes of grass carp (2n=48) accounted for 86.7%,
 so the line was determined as a diploid fish cell line. So far, the
 line hes been maintained in proliferating for over 32 months. Using the
 technique of BrdU-labeling and sister chromatid differential staining, we
-estimate the cell cycle time of mitotie division of GCCF-2 is between 21-
-33 hours. GCCF-2 was observed to be susceptible infection with grass carp
+estimate the cell cycle time of mitotie division of GCCF-2 is between 21-33
+hours. GCCF-2 was observed to be susceptible infection with grass carp
 reovirus (GCRV).
 //
 ID   CLPUB00674
@@ -5778,7 +5969,7 @@ RT   "Establishment of cell strain AHZC 88 resistant to pathogenic viruses
 RT   of grass carp hemorrhage by ultraviolet (UV) inducement.";
 RL   J. Fish. China 14:89-94(1990).
 WW   https://www.china-fishery.com/jfcen/article/abstract/19900202
-WW   http://en.cnki.com.cn/Article_en/CJFDTOTAL-SCKX199002001.htm
+WW   https://en.cnki.com.cn/Article_en/CJFDTOTAL-SCKX199002001.htm
 DR   Cellosaurus; CVCL_B5DK; AHZC 88
 AB   Yes
 The cell strain AHZC 88 of anti-hemorrhage of grass carp has been obtained
@@ -6317,8 +6508,8 @@ neural differentiation of Ewing's sarcoma cells. In the present study, we
 examined the effects of db-cAMP treatment on the characteristics of TY-ES
 and three other Ewing's sarcoma cell lines (SCCH-196, RD-ES and SK-ES).
 The growth of all 4 cell lines was suppressed by db-cAMP treatment in a
-dose-dependent manner. Tumor formation following transplantation of db-
-cAMP-treated TY-ES or RD-ES cells into SCID mice was also significantly
+dose-dependent manner. Tumor formation following transplantation of
+db-cAMP-treated TY-ES or RD-ES cells into SCID mice was also significantly
 suppressed. The growth of db-cAMP treated SK-ES or SCCH-196 cells in these
 mice did not show significant suppression. Chemoinvasion, examined as an
 indicator of tumor invasive potential, was reduced by db-cAMP treatment in
@@ -6467,8 +6658,8 @@ to become a homogeneous cell line. The cells were grown in FCS and
 aminoglycoside enriched media and in hormone enriched media. Parathyr-oid
 hormone, but not vasopressin, dose-dependently increased intracellular
 free calcium as well as production of cAMP. Sodium dependent phosphate
-transport was also active. Therefore, renal proximal tubule cells were suc-
-cessfully transformed by the plasmid, which provide a useful material for
+transport was also active. Therefore, renal proximal tubule cells were
+successfully transformed by the plasmid, which provide a useful material for
 future study.
 //
 ID   CLPUB00086
@@ -6550,6 +6741,41 @@ of isozymes of several enzymes. M. neustria testacea nuclear polyhedrosis
 virus (NPV) infected the cell line whereas Autographa californica,
 Malacosoma distria, and Lambdina fiscellaria somniaria NPVs did not.
 //
+ID   CLPUB00679
+RA   Ahmed I., Huebner H., Buchholz R.;
+RT   "Establishment and characterization of three new embryonic Spodoptera
+RT   littoralis cell lines and testing their susceptibility to SpliMNPV.";
+RL   JSM Biotechnol. Bioeng. 2:1031.1-1031.9(2014).
+WW   https://www.jscimedcentral.com/Biotechnology/biotechnology-spid-industrial-biotechnology-made-germany-1031.php
+DR   Cellosaurus; CVCL_B5ZK; Spli-B
+DR   Cellosaurus; CVCL_B5ZL; Spli-C
+DR   Cellosaurus; CVCL_B5ZM; Spli-S
+AB   Yes
+Baculoviruses have a significant potential as biological pesticides.
+Spodoptera littoralis multicapsid nucleopolyhedrovirus (SpliMNPV) could
+thus find an application to protect plants against the African Cotton
+Leafworm. For the in vitro production of SpliMNPV a cellular system has to
+be established. For this purpose three new continuous cell lines were
+established from the embryonic tissue of the cotton leaf worm S.
+littoralis.The three cell lines were designated Spli-C, Spli-S and Spli-B.
+They consisted mostly of spherical cells, but also contained spindle and
+giant cells. The population doubling time for the three cell lines Spli-C,
+Spli-S and Spli-B were 30.5, 31 and 44.5 hrs, respectively, at passage 19,
+while at passage 120 it decreased to 26, 27 and 32 hrs, respectively. RAPD
+and DAF DNA fingerprint confirmed that the cell lines originated from S.
+littoralis tissues. The lactate dehydrogenase (LDH) isozyme analysis
+demonstrated a distinguishable difference between the three new S.
+littoralis cell lines and the other insect cell lines which we use in our
+laboratory. All three new cell lines were susceptible to SpliMNPV and thus
+are suitable for virus multipication. Cells were immobilized using sodium
+cellulose sulfate (NaCS) and poly diallyl dimethyl ammoniumchloride
+(PDADMAC) capsules to protect cells from shear stress. This is caused
+during cultivation by agitation and gas sparging during supply of
+sufficient oxygen in order to reach high cell densities. The cell
+densities increased from 4-5x10^6 cells/ml in suspension culture to
+1.3x10^7 cells/ml in capsules. Our results suggest that large-scale
+production of SpliMNPV as a biopesticide is possible with these cell lines.
+//
 ID   CLPUB00171
 RA   Sato T.;
 RT   "Establishment of eight lines from newborn larvae of tortricids
@@ -6596,9 +6822,9 @@ cells increased in each cell line, at weekly intervals.
 the continuous cell line designated as IPLB-Sf21AE11.
 
 5. The two cell lines derived from Adoxophyes orana fasciata were
-designated as FTRS-AoL1 and FTRS-AoL2. The cell lines designated as FTRS-
-AfL, FTRS-PhL, FTRS-AbL81 and FTRS-HmL45 were derived from Adoxophyes sp.
-(smaller tea tortrix), Pandemis heparana, Archippus breviplicanus and
+designated as FTRS-AoL1 and FTRS-AoL2. The cell lines designated as
+FTRS-AfL, FTRS-PhL, FTRS-AbL81 and FTRS-HmL45 were derived from Adoxophyes
+sp. (smaller tea tortrix), Pandemis heparana, Archippus breviplicanus and
 Homona magnanima, respectively. Both the FTRS-H1L1 and FTRS-H1L2 lines
 were derived from Hoshinoa longicellana.
 
@@ -6611,10 +6837,10 @@ epithelium like morphology.
 7. Results of semi-quantitative analyses carried out by using an API ZYM
 kit, showed that the activity of the enzymes concerned was high in all the
 cell lines, except for the activity of beta-glucuronidase and beta-
-glucosaminidase. The pattern of activity of beta-glucuronidase in the FTRS-
-HmL45 cells was different from that of the other cell lines. The activity
-of beta-glucosaminidase, in the cell lines FTRS-AfL, FTRS-PhL, FTRS-AbL81
-and FTRS-H1L2 was distinctly weaker than that of the other lines.
+glucosaminidase. The pattern of activity of beta-glucuronidase in the
+FTRS-HmL45 cells was different from that of the other cell lines. The
+activity of beta-glucosaminidase, in the cell lines FTRS-AfL, FTRS-PhL,
+FTRS-AbL81 and FTRS-H1L2 was distinctly weaker than that of the other lines.
 
 8. Inoculation tests of strains of 2 nuclear polyhedrosis viruses (NPVs)
 and an entomopox virus (EPV), namely Plutella NPV (PxNPV), Adoxophyes
@@ -7401,6 +7627,42 @@ moral imperative to ensure that all participants have access to the
 medical therapies that their cells, among millions of others, helped to
 produce.
 //
+ID   CLPUB00682
+RA   Sheils B.R., Smyth A., Dickson J., McKellar S., Tetley L.,
+RA   Fujisaki K., Hutchinson B., Kinnaird J.H.;
+RT   "A stoichiometric model of stage differentiation in the protozoan
+RT   parasite Theileria annulata.";
+RL   Mol. Cell. Differ. 2:101-125(1994).
+**   PDF=Yes (Scan)
+DR   Cellosaurus; CVCL_B6P4; TaA2 clone D7
+DR   Cellosaurus; CVCL_B6P5; TaA2 clone D7B12
+AB   Yes
+Stage differentiation of protozoan parasites, such as higher eukaryotic
+cells, frequently occurs in response to altered environmental conditions
+that produce a reduction in the proliferative potential of the cell. This
+is followed by a step where commitment to the differentiation program is
+established and changes to the pattern of gene expression occur. To
+understand the events that immediately precede and follow the commitment
+step, we initiated this study to investigate the molecular changes that
+occur during the differentiation of Theileria annulata, a protozoan
+parasite of cattle. Using an established in vitro system, where the
+macroschizont stage of the parasite differentiates to the merozoite stage,
+a time course of differentiation was followed at the polypeptide and mRNA
+level. The results of the study showed that during the initial stages of
+the differentiation process, there is a low-level expression of genes that
+is fully expressed following commitment. This low-level expression was
+shown to be reversible before the commitment step, but following this
+event, expression became irreversible. The study also showed that the
+amplitude of reversible gene expres-sion is directly related to the
+ability of different infected cell lines to differentiate. From these
+results, a quantitative (stoichiometric) model of stage differentiation
+has been postulated. Such a model would explain the asynchrony of
+protozoan stage differentiation and the quantitative loss in the ability
+of particular parasite clones and lines to differentiate. We believe that
+this model is also applicable to higher eukaryotic cells and can account
+for the similarities between observations made for higher eukaryotic and
+protozoan differentiation systems.
+//
 ID   CLPUB00508
 RA   Chen D., Chen H., Feng J.Q., Windle J.J., Koop B.A., Harris M.A.,
 RA   Bonewald L.F., Boyce B.F., Wozney J.M., Mundy G.R., Harris S.E.;
@@ -7490,10 +7752,10 @@ AB   Yes
 A new human cell line, NCU-L-3, is established from the peripheral blood
 of a patient with acute lymphoblastic leukemia, FAB type L3. The cell line
 grows in a single-cell suspension with a dobuling time of 30 to 46 hours,
-and expresses L3 morphologic features. Immunologic study reveals that NCU-
-L-3 cells express IgM and IgA-kappa on their surface, and react with
-monoclonal antibodies to B-cell antigens. These cells are negative for T-
-cell and myeloid/monocyte antigens as well as Epstein-Barr virus nuclear
+and expresses L3 morphologic features. Immunologic study reveals that
+NCU-L-3 cells express IgM and IgA-kappa on their surface, and react with
+monoclonal antibodies to B-cell antigens. These cells are negative for
+T-cell and myeloid/monocyte antigens as well as Epstein-Barr virus nuclear
 antigen (EBNA). Both fresh peripheral blood and NCU-L-3 cells have a t(8;14)
 karyotype. This cell line should be contributive for future studies of
 cell proliferation and the oncogenesis of this neoplasm.
@@ -7571,8 +7833,8 @@ efficiency and colony formation in soft agar in NP-1 without S-100 and GFA
 proteins were higher than those in NP-2 and NP-3 with only a few GFAP
 staining cells. After 58 passages NP-1 (10^7 cells) began to produce
 tumors subcutaneously in asplenic athymic (lasat) mice in 1.5 months, and
-later in athymic (nude) mice in 3 to 8 months. But, after 122 passages NP-
-3 produced the first tumor only in lasat mouse in 4 months, and NP-2
+later in athymic (nude) mice in 3 to 8 months. But, after 122 passages
+NP-3 produced the first tumor only in lasat mouse in 4 months, and NP-2
 (7.5x10^7) had no tumorigenicity in either in 8 months. The histological
 features were maintained by serial passaging in nude mice, and so the
 tumor cells of heterotransplants of NP-1 had fewer 10nm filaments and
@@ -8096,8 +8358,8 @@ amino]-9,10-anthracenedione dihydro-chloride (NSC 301739). Resistance to
 mitoxantrone was established in human colon carcinoma cells (strain WiDr)
 by continuous exposure of cell cultures to increasing concentrations of
 drug. After 20 culture passages in the presence of drug, (0.02->0.08
-mcg/ml a population of cells (WiDr/R) emerged which was approximately 30-
-40X more resistant to the cytotoxic effect of mitoxantrone than the
+mcg/ml a population of cells (WiDr/R) emerged which was approximately
+30-40X more resistant to the cytotoxic effect of mitoxantrone than the
 parent (WiDr/S) line; cross resistance to adriamycin was demonstrated.
 Resistance to mitoxantrone was stable, evident in WiDr/R cells after >42
 cell generations following removal of drug from the culture medium.
@@ -8140,6 +8402,7 @@ median of 50 days. AFP and hCG were detected in the serum of tumor-bearing
 mice (mean AFP.695 ng/ml, mean hCG=375 mIU/ml). Cells off HEL-FFC produced
 EC in mice while cells on HEL-FFC produced tumors containing EC plus
 teratoma (well-differentiated epithelial cells arranged in'glands).
+
 Conclusions: 1) 1618K provides an in vitro comparison of gonadal and
 extragonadal EC and may provide a model for the study of cisplatin-
 resistance in human EC. 2) 1618K cells maintained on HEL-FFC retain
@@ -8908,8 +9171,8 @@ with 10% foetal bovine serum and without haemolymph from MGM-448. Bm-1
 cells took about 10-12 months to adapt in haemolymph free MGM-448 medium.
 In haemolymph free MGM-448 medium, the cell line became freely suspended
 and also showed reduced clumping of cells particularly. This cell lines
-adapted to MGM-448 with 10% FBS were subsequently adapted to a cheaper TNM-
-FH medium supplemented with 10% FBS. The cell line took about 1-2 months
+adapted to MGM-448 with 10% FBS were subsequently adapted to a cheaper
+TNM-FH medium supplemented with 10% FBS. The cell line took about 1-2 months
 to get adapted to TNM-FH medium.
 //
 ID   CLPUB00097
@@ -8983,13 +9246,14 @@ production is a problem that will require the search for mechanisms to
 activate it.
 //
 ID   CLPUB00433
-RA   Morier Diaz L., Lopez Santa Cruz D.I., Mayling Alvarez C., Lorenzo Y.C.,
+RA   Morier Diaz L., Lopez-Santa Cruz D.I., Alvarez C.M., Lorenzo Y.C.,
 RA   Llanes D.M.;
 RT   "Obtainment of CLA-HT cell subline and study of its susceptibility for
 RT   the isolation and multiplication of the dengue virus.";
 RL   Rev. Cubana Med. Trop. 66:424-432(2014).
 WW   https://www.medigraphic.com/cgi-bin/new/resumenI.cgi?IDARTICULO=56243
 WW   https://www.researchgate.net/publication/287745047_Obtainment_of_CLA-HT_cell_subline_and_study_of_its_susceptibility_for_the_isolation_and_multiplication_of_the_dengue_virus
+WW   http://scielo.sld.cu/scielo.php?pid=S0375-07602014000300010&script=sci_abstract
 DR   Cellosaurus; CVCL_VH38; CLA-HT
 AB   Yes
 Introduction: The identification of viral serotypes is an important issue
@@ -9059,6 +9323,24 @@ M-CSF may have clinical applicability because of their inhibitory properties;
 While highlighting the risk of using in vivo IL-2, as it activates the
 proliferation of tumor cells of the cervix, as has been reported for some
 head and neck carcinomas.
+//
+ID   CLPUB00681
+RA   Berezhnoy A.E., Zakeyeva I.R., Kibardin A.V., Chernysheva A.D.,
+RA   Moiseyenko V.M., Danilov A.O., Demidov L.V., Baryshnikov A.Y.,
+RA   Gnuchev N.V., Georgiev G.P., Larin S.S.;
+RT   "Analysis of HLA-E expression in human melanoma cells.";
+RL   Ross. Bioterap. Zh. 5:66-71(2006).
+WW   https://cyberleninka.ru/article/n/analiz-ekspressii-molekul-hla-e-v-kletkah-melanomy-cheloveka
+DR   https://web.expasy.org/cgi-bin/cellosaurus/search?input=CLPUB00681
+AB   Yes
+Recently, different antitumor immunotherapy approaches have not produced
+expected results in clinical applications. One conceivable explanation for
+this is that tumor cells can escape immunosurveillance or induce tolerance
+to CTL. A diversity of tumor-induced factors has been described, that are
+able to block immune response against tumors. In a this paper we analyzed
+the expression level of a ligand to inhibitory receptors of lymphocytes –
+the HLA-E molecule – in melanoma cell lines derived from patient biopsy
+with IV stage advanced melanoma.
 //
 ID   CLPUB00575
 RA   Prozesky O.W., Lecatsas G.;
@@ -9229,8 +9511,8 @@ DR   Cellosaurus; CVCL_XA36; SAC-IIC3
 DR   Cellosaurus; CVCL_XA37; SAC-IIB2
 AB   Yes
 Experimental results showed that the chromosome counts of the SRS-82 and
-SAC-IIC3 stem line cells were 43 and 41 respectively, where as the SAC-
-IIB2 stem line cells were polyploid. The chromosome markers A, B and M
+SAC-IIC3 stem line cells were 43 and 41 respectively, where as the
+SAC-IIB2 stem line cells were polyploid. The chromosome markers A, B and M
 were found in all three kinds of colls. The karyotype differences by G-
 binding were also observed.
 //
@@ -9298,7 +9580,7 @@ RT   "Susceptibility to grass carp reovirus (GCRV) of several fish cell
 RT   lines.";
 RL   Shui Sheng Sheng Wu Xue Ji Kan 9:351-358(1985).
 WW   http://ssswxb.ihb.ac.cn/article/id/cc673ed5-50c1-4e9a-a847-a767053a4158
-WW   http://en.cnki.com.cn/Article_en/CJFDTotal-SSWX198504005.htm
+WW   https://en.cnki.com.cn/Article_en/CJFDTotal-SSWX198504005.htm
 DR   Cellosaurus; CVCL_B5DI; CAB-80
 DR   Cellosaurus; CVCL_XE36; GCCF-2
 DR   Cellosaurus; CVCL_B5E3; GCK-84
@@ -10001,7 +10283,7 @@ RT   "Cloning and identification of PK15 cells for the sensitive
 RT   replication of porcine circovirus 2.";
 RL   Zhongguo Shou Yi Ke Xue 41:14-18(2011).
 WW   http://120.209.85.3:8091/KCMS/detail/detail.aspx?filename=ZGSY201101005&dbcode=CJFQ&dbname=CJFD2011
-WW   http://en.cnki.com.cn/Article_en/CJFDTotal-ZGSY201101005.htm
+WW   https://en.cnki.com.cn/Article_en/CJFDTotal-ZGSY201101005.htm
 DR   Cellosaurus; CVCL_A9EE; PK15-B1
 AB   Yes
 To improve the titers of porcine circovirus 2 (PCV2), PK15 cells were
@@ -10365,16 +10647,16 @@ line. Together with the activation process, the fresh lymphocytes acquire
 cytotoxic potential directed specifically against the cell line used in
 the activation phase. It is suggested that this system constitutes a model
 for an immunological surveillance mechanism operating in vivo to eliminate
-deviant cells. Cell lines of this type offer ecope for detailed investiga-
-tion of the induction of proliferation in human tissue (in this case
-probably by EB virus) and of the immunological processes by which altered
-autochthonous cells may be recognised and destroyed. Both of these topics
-a relevant to the basic study of malignant disease. The prolonged life span
-and relative stability of these lines in vitro also presents opportunities
-in the field of human genetics, both for the investigation of inherited
-disorders of man and, experimentally, for the measurement of spontaneous
-and induced mutation rates, analysis of gene linkage and chromosome
-mapping.
+deviant cells. Cell lines of this type offer ecope for detailed
+investigation of the induction of proliferation in human tissue (in this
+case probably by EB virus) and of the immunological processes by which
+altered autochthonous cells may be recognised and destroyed. Both of these
+topics a relevant to the basic study of malignant disease. The prolonged
+life span and relative stability of these lines in vitro also presents
+opportunities in the field of human genetics, both for the investigation of
+inherited disorders of man and, experimentally, for the measurement of
+spontaneous and induced mutation rates, analysis of gene linkage and
+chromosome mapping.
 //
 ID   CLPUB00156
 RA   Leung J.W.;
@@ -10444,8 +10726,8 @@ body. The presence of 2 condensed bodies frequently seen in this study
 supports the idea that there is no typical inactivation of one entire X
 chromosome in the opossum and may represent another method of dosage
 compensation in marsupials. The C-banding pattern revealed the exclusive
-localization of constitutive heterochromatin within the sex chromosomes. G-
-banding patterns enabled clear identification of all of the OK chromosomes.
+localization of constitutive heterochromatin within the sex chromosomes.
+G-banding patterns enabled clear identification of all of the OK chromosomes.
 The large, nearly metacentric, marker chromosome is shown to be the result
 of the fusion of two telocentric chromosomes. Q-banding methods, while
 producing some degree of longitudinal differentiation in the chromosomes,
@@ -10643,8 +10925,8 @@ DR   Cellosaurus; CVCL_0E64; WG1625
 AB   Yes
 Prolidase deficiency (McKusick 26413) is a rare autosomal recessive
 disorder charaeterized by iminodipeptiduria, skin lesions and mental
-retardation. The enzyme prolidase hydrolyzes dipeptides containing C-
-terminal proline or hydroxyproline. The results presented here indicate
+retardation. The enzyme prolidase hydrolyzes dipeptides containing
+C-terminal proline or hydroxyproline. The results presented here indicate
 that prolidase plays a major role in the recycling of dipeptide bound
 proline. Control fibroblasts were able to use iminodipeptides in lieu of
 proline to sustain nonnal growth and protein synthesis whereas prolidase
@@ -10688,8 +10970,8 @@ fragments of HMFG-1 were labelled with technetium and were used to
 determine the distribution of ovarian tumour in a patient with minimal
 residual disease. In the final experimental section, HMFG-1 was chemically
 conjugated to the photosensitiser hematoporphyrin, Hp. HMFG-l-Hp was shown
-to kill antigen-bearing MCF-7 cells in vitro after irradiation. The HMFG-l-
-Hp conjugate had no effect on EJ-138 cells under identical conditions. The
+to kill antigen-bearing MCF-7 cells in vitro after irradiation. The
+HMFG-l-Hp conjugate had no effect on EJ-138 cells under identical conditions. The
 EJ-138 cell line does not express the antigen to which the HMFG-1 antibody
 binds.
 //
@@ -11072,8 +11354,8 @@ growth.
 The transcription factor NF-kappaB was also found to be continuously
 activated in the nucleus in all cell lines. Binding of DNA was increased
 by a cell growth inhibitory cytokine, the so-called The effect of TNF-
-alpha in ovarian and vulvar cancer cells. Based on the literature, NF-
-kappaB is also an important regulator of cell growth, and it is possible
+alpha in ovarian and vulvar cancer cells. Based on the literature,
+NF-kappaB is also an important regulator of cell growth, and it is possible
 that NF-kappaB is involved in the regulation of TNF-alpha-mediated
 inhibition of cell division in cancer cells studied.
 
@@ -11179,8 +11461,8 @@ genes in these tumors had not been carried out. The aim of the present
 work was to investigate human renal cell carcinoma and epithelioid
 sarcomas on expression and the existence of mutations of genes nm23-H1 and
 nm23-H2. For this purpose, 26 human renal carcinoma cell lines and 3
-clonal cells subpopulations of the human epitheloid sarcoma cell line GRU-
-1 were analyzed by means of nm23-H1 and nm23-H2-specific RT-PCR and
+clonal cells subpopulations of the human epitheloid sarcoma cell line GRU-1
+were analyzed by means of nm23-H1 and nm23-H2-specific RT-PCR and
 followed by the sequencing of the complete open reading frames of nm23-H1
 and nm23-H2. In all 26 renal carcinoma cell lines nm23-H1 and nm23-H2 were
 detectable at RNA level. In the sequencing of both genes a point mutation
@@ -11193,9 +11475,9 @@ associated with an amino acid exchange, a functional relevance for these
 mutations can be excluded. Thus, mutations of nm23-H1 and nm23-H2 in human
 renal cell carcinoma appear to be a very rare event unlikely to affect the
 genesis and progression of these tumors. In addition, it was demonstrated
-for the first time in this work that epitheloid sarcomas also express nm23-
-H1 and nm23-H2. However, mutations of both genes could not be detected in
-the investigated cell lines, so that the known differences of these cell
+for the first time in this work that epitheloid sarcomas also express
+nm23-H1 and nm23-H2. However, mutations of both genes could not be detected
+in the investigated cell lines, so that the known differences of these cell
 lines in biological behavior can not be explained by mutations of nm23-H1
 and nm23-H2.
 //
@@ -11677,7 +11959,7 @@ RA   Davidson S.M.;
 RT   "Analysis of prognostic and drug and resistance markers in lung
 RT   cancer.";
 RL   Thesis PhD (2007), University of Glasgow, United Kingdom.
-WW   http://theses.gla.ac.uk/id/eprint/101
+WW   https://theses.gla.ac.uk/id/eprint/101
 DR   Cellosaurus; CVCL_1D76; LS106
 DR   Cellosaurus; CVCL_1D77; LS111
 DR   Cellosaurus; CVCL_1D79; LS112
@@ -12036,8 +12318,8 @@ CK5, CK14, PSCA, CK6, telomerase and p63, produced anchorage independent
 colonies, and was weakly positive for c-Myc expression.
 
 Spectral karyotyping analysis (SKY) showed P21s had a normal chromosome
-complement except an additional chromosome 20 whereas the P21s 40Gy (clone-
-a), P21d and P21d 0Gy (clone-a) cell lines had an abnormal chromosome
+complement except an additional chromosome 20 whereas the P21s 40Gy
+(clone-a), P21d and P21d 0Gy (clone-a) cell lines had an abnormal chromosome
 complement with P21d and P21d 0Gy (clone-a) cell lines expressing multiple
 copies of every chromosome including loss of the Y chromosome. These
 results were echoed in the single nucleotide polymorphism chip (SNP)
@@ -12207,7 +12489,7 @@ RT   "The neurogenic capacity of Muller glia and synaptic remodeling in the
 RT   mammalian retina: implications for regenerative therapies.";
 RL   Thesis PhD (2010), University of Houston, United States.
 WW   https://hdl.handle.net/10657/ETD-UH-2010-12-55
-DR   Cellosaurus;  CVCL_J384; ImM10
+DR   Cellosaurus; CVCL_J384; ImM10
 AB   Yes
 Stem cell based therapies offer hope for the treatment of retinal disease.
 In the mammalian retina, Muller glia possess some stem cell-like
@@ -12448,8 +12730,8 @@ resulted in a reduction in virus titer after 8 minutes. The virus appeared
 relatively resistant to changes in pH ranging between 2 to 11 after 1 hour
 incubation at 25 Celsius. Treatment with 2% formalin was not totally
 effective even after 6 hours. Iodine did not inactivate the virus.
-Molecular characterization of the tissue culture-propagated virus using RT-
-PCR and nested peR, showed positive amplifications of genome size of 460
+Molecular characterization of the tissue culture-propagated virus using
+RT-PCR and nested PCR, showed positive amplifications of genome size of 460
 bp and 220 bp respectively. The 220 bp nucleotides from the T4 region of
 the coat protein gene was sequenced and the phylogenetic analysis results
 showed close resemblance between the UPM08-1 M strain and SBNNV and GPNNV2
@@ -12667,8 +12949,8 @@ AB   Yes
 In mammalian cell culture, serum deprivation inhibits cell growth and
 induces apoptosis. Adapting host cells to serum-free medium is difficult
 and time-consuming, therefore anti-apoptosis engineering of mammalian cells
-were used to account the problems caused by serum deprivation. The X-
-linked inhibitor of apoptosis protein (XIAP) is the most effective member
+were used to account the problems caused by serum deprivation. The
+X-linked inhibitor of apoptosis protein (XIAP) is the most effective member
 of the inhibitor of apoptosis protein (IAP) family, where it inhibits
 apoptosis by retarding the downstream caspase activity in the apoptosis
 chain cascade. In an attempt to investigate the ability of XIAP to delay
@@ -13287,6 +13569,57 @@ to analyse and potentially undo Biology's inflexible binary classification
 system, allowing a more inclusive and less reductive reading of those who
 are subject to Biology's system of knowledge.
 //
+ID   CLPUB00678
+RA   Ahmed I.;
+RT   "Establishment and characterization of three new embryonic Spodoptera
+RT   littoralis cell lines and testing their susceptibility to SpliMNPV.";
+RL   Thesis PhD (2015), Friedrich-Alexander-Universitat Erlangen-Nurnberg, Germany.
+WW   https://opus4.kobv.de/opus4-fau/frontdoor/index/index/docId/6097
+DR   Cellosaurus; CVCL_B5ZK; Spli-B
+DR   Cellosaurus; CVCL_B5ZL; Spli-C
+DR   Cellosaurus; CVCL_B5ZM; Spli-S
+AB   Yes
+Baculoviruses have a significant potential as biological pesticides.
+Spodoptera littoralis multicapsid nucleopolyhedrovirus (SpliMNPV) could
+thus be applied to protect plants against the African Cotton Leafworm. For
+the in vitro production of SpliMNPV a cellular system has to be
+established. For this purpose three new continuous cell lines were
+established from embryonic tissues of S. littoralis. These three cell
+lines were designated as Spli-C, Spli-S and Spli-B. They consist mostly of
+spherical cells in addition to spindle and giant cells. The population
+doubling time for Spli-C, Spli-S and Spli-B were 30.5, 31 and 44.5 h,
+respectively, at passage 19, while at passage 120 it was 26, 27 and 32 h,
+respectively. The DNA fingerprinting techniques RAPD and DAF confirmed
+that the cell lines originated from S. littoralis tissues. Lactate
+dehydrogenase (LDH) isozyme analysis showed distinguishable differences
+between the three new cell lines and the other insect cell lines used in
+our laboratory. Susceptibility tests of the three cell lines showed that
+all the cell lines were non-permissive to Autographa californica
+multicapsid nucleopolyhedrovirus (AcMNPV), with the cells dying a few
+hours post-infection and forming apoptosis-like bodies. Nuclear DNA
+fragmentation was observed in all AcMNPV-infected cell lines by DNA gel
+electrophoresis analysis. At same time, the susceptibility of the three
+cell lines to SpliMNPV showed that all the cell lines were susceptible,
+whereby many viral occlusion bodies (OBs) were observed inside the
+infected cells. The SpliMNPV OB productivity of the three cell lines
+showed significant differences. The cell line Spli-C had the highest
+susceptibility to SpliMNPV compared to the other two cell lines. The
+average of OB production was about 1x10^7 OBs/ml in the Spli-C cell line,
+while in Spli-S and Spli-B it was 3.3x10^6 and 2x10^6 OBs/ml, respectively.
+In addition, the SpliMNPV polyhedrin gene expression and DNA replication
+in the three cell lines were also investigated over time using
+quantitative PCR (qPCR). The Spli-C cell line that showed higher OB
+production than the other two cell lines was immobilized using sodium
+cellulose sulfate (NaCS) and poly-diallyldimethylammonium chloride
+(PDADMAC) capsules to protect cells from shear stress caused by agitation
+and gas sparging during supply of sufficient oxygen. Cell culture in
+capsules leads to high cell densities resulting in increased viral OB
+production per volume. The Spli-C cell densities were increased from
+4-5x10^6 cells/ml in suspension culture to 1.3x10^7 cells/ml in capsules.
+Summarizing, our results suggest that large-scale production of SpliMNPV
+as a biopesticide is possible with the new S. littoralis cell lines Spli-C,
+Spli-S and Spli-B.
+//
 ID   CLPUB00334
 RA   Brennan J.C.;
 RT   "Development, optimization, and application of nuclear receptor
@@ -13505,7 +13838,7 @@ RL   Thesis PhD (2016), Julius Maximilians University of Wurzburg, Germany.
 WW   https://opus.bibliothek.uni-wuerzburg.de/frontdoor/index/index/year/2016/docId/13242
 DR   Cellosaurus; CVCL_A3CI; B1-23
 AB   Yes
-Background GDF-15 is a divergent member of the TGF-superfamily, which was
+Background: GDF-15 is a divergent member of the TGF-superfamily, which was
 first described as macrophage inhibitory cytokine-1 (MIC-1), revealing an
 immune modulatory function. GDF-15 is a soluble protein which is, under
 physiological conditions, highly expressed in the placenta and found in
@@ -13523,61 +13856,64 @@ modulatory factor in cancer, in particular, by inhibiting the target
 molecule in vitro and in vivo. Therefore, the main focus was placed on the
 generation and characterization of monoclonal GDF-15 specific blocking
 antibodies, which were tested in vitro and in vivo, which represents a
-substantial part of my work. Results Here, GDF-15 was shown to be highly
-expressed in human gynecological cancer and brain tumors. We could then
-demonstrate that GDF-15 modulates effector immune cells in vitro. GDF-15
-mediated a slight downregulation of the activating NKG2D receptor on NK
-and CD8+ T cells, which is crucial for proper anti-tumoral immune
-responses. Furthermore, we could demonstrate that GDF-15 reduces the
-adhesion of CD4+ and CD8+ T cells on endothelial cells in vitro. A
-negatively affected trans-endothelial migration of leukocytes into
-inflamed tissue could explain the low T cell infiltration in GDF-15
-expressing tumors, which were observed in vivo, where mice bearing (shRNA
-mediated) GDF-15 deficient glioma cells revealed enhanced immune cell
-infiltrates in the tumor microenvironment, compared with the GDF-15
-expressing control group. Those animals further exhibited a decreased
-tumor growth and prolonged survival. GDF-15 is a soluble protein, secreted
-by more than 50% of solid tumors and associated with grade of malignancy.
-Therefore a neutralizing monoclonal antibody to GDF-15 was assumed to be
-an auspicious therapeutically anti-cancer tool. Search an antibody was
-thus generated in GDF-15 knock out mice against human GFD-15. Amongst many
-clones, the GDF-15 antibody clone B1-23 was found to be applicable in
-Western blot as well as in ELISA techniques, detecting a three-dimensional
-epitope of the mature GDF-15 dimer with high affinity and specificity. To
-enable the humanization for a later administration in humans, the variable
-regions of antibody B1-23 were identified by a special PCR method using
-degenerate primers and cloned into a sequencing vector. The sequence
-obtained thereby enabled the generation of chimeric and humanized B1-23
-variants. After further comprehensive characterization, the original mouse
-antibody B1-23 as well as the chimeric antibody (ChimB1-23) and the
-humanized B1-23 antibody (H1L5) were applied in a melanoma xenograft study
-in vivo. None of the antibodies could significantly inhibit tumor growth.
-However of utmost importance, body weight loss mediated by tumor derived
-GDF-15 could be significantly prevented upon administration of all three
-GDF-15 specific antibodies, which confirmed the antagonizing functionality
-of the immunoglobulin. Conclusion GDF-15 is a promising cancer target,
-involved in tumor progression and cancer related cachexia. A monoclonal
-GDF-15 antibody was generated, which served on one hand as a tool for
-molecular biological applications (Western Blot, ELISA, etc.) and on the
-other hand was applied as an antagonizing antibody in vitro and in vivo.
-Even though tumor growth inhibition by GDF-15 depletion in T cell
-deficient athymic mice failed using B1-23, the same antibody and
-derivatives thereof (chimeric and humanized) impressively prevented tumor
-associated cachexia in UACC-257 melanoma bearing nude mice. The missing
-anti-tumor effect in our own melanoma model in nude mice can only
-partially be explained by the missing secondary immunity, in particular
-cytotoxic T cells, in the athymic animals, since in a similar melanoma
-model, performed by an external company, a tumor reduction in
-immunocompromised animals was observed when B1-23 was administered. These
-findings support the idea that T cells are substantial for an effective
-tumor immunity and are in line with the results of the syngeneic, T cell
-comprising, mouse glioma model, where silencing of tumor expressed GDF-15
-led to an enhanced intratumoral T cell infiltration and a prolonged
-survival. Taken together our data allow for the conclusion that tumor
-associated cachexia can be combatted with the GDF-15 antibody B1-23.
-Further, B1-23 might elicit direct anti-tumor effects in immune competent
-models, which contain T cells, rather than in an athymic, T cell deficient
-nude mouse model.
+substantial part of my work.
+
+Results: Here, GDF-15 was shown to be highly expressed in human
+gynecological cancer and brain tumors. We could then demonstrate that GDF-15
+modulates effector immune cells in vitro. GDF-15 mediated a slight
+downregulation of the activating NKG2D receptor on NK and CD8+ T cells,
+which is crucial for proper anti-tumoral immune responses. Furthermore, we
+could demonstrate that GDF-15 reduces the adhesion of CD4+ and CD8+ T
+cells on endothelial cells in vitro. A negatively affected trans-
+endothelial migration of leukocytes into inflamed tissue could explain the
+low T cell infiltration in GDF-15 expressing tumors, which were observed
+in vivo, where mice bearing (shRNA mediated) GDF-15 deficient glioma cells
+revealed enhanced immune cell infiltrates in the tumor microenvironment,
+compared with the GDF-15 expressing control group. Those animals further
+exhibited a decreased tumor growth and prolonged survival. GDF-15 is a
+soluble protein, secreted by more than 50% of solid tumors and associated
+with grade of malignancy. Therefore a neutralizing monoclonal antibody to
+GDF-15 was assumed to be an auspicious therapeutically anti-cancer tool.
+Search an antibody was thus generated in GDF-15 knock out mice against
+human GFD-15. Amongst many clones, the GDF-15 antibody clone B1-23 was
+found to be applicable in Western blot as well as in ELISA techniques,
+detecting a three-dimensional epitope of the mature GDF-15 dimer with high
+affinity and specificity. To enable the humanization for a later
+administration in humans, the variable regions of antibody B1-23 were
+identified by a special PCR method using degenerate primers and cloned
+into a sequencing vector. The sequence obtained thereby enabled the
+generation of chimeric and humanized B1-23 variants. After further
+comprehensive characterization, the original mouse antibody B1-23 as well
+as the chimeric antibody (ChimB1-23) and the humanized B1-23 antibody
+(H1L5) were applied in a melanoma xenograft study in vivo. None of the
+antibodies could significantly inhibit tumor growth. However of utmost
+importance, body weight loss mediated by tumor derived GDF-15 could be
+significantly prevented upon administration of all three GDF-15 specific
+antibodies, which confirmed the antagonizing functionality of the
+immunoglobulin.
+
+Conclusions: GDF-15 is a promising cancer target, involved in tumor
+progression and cancer related cachexia. A monoclonal GDF-15 antibody was
+generated, which served on one hand as a tool for molecular biological
+applications (Western Blot, ELISA, etc.) and on the other hand was applied
+as an antagonizing antibody in vitro and in vivo. Even though tumor growth
+inhibition by GDF-15 depletion in T cell deficient athymic mice failed
+using B1-23, the same antibody and derivatives thereof (chimeric and
+humanized) impressively prevented tumor associated cachexia in UACC-257
+melanoma bearing nude mice. The missing anti-tumor effect in our own
+melanoma model in nude mice can only partially be explained by the missing
+secondary immunity, in particular cytotoxic T cells, in the athymic
+animals, since in a similar melanoma model, performed by an external
+company, a tumor reduction in immunocompromised animals was observed when
+B1-23 was administered. These findings support the idea that T cells are
+substantial for an effective tumor immunity and are in line with the
+results of the syngeneic, T cell comprising, mouse glioma model, where
+silencing of tumor expressed GDF-15 led to an enhanced intratumoral T cell
+infiltration and a prolonged survival. Taken together our data allow for
+the conclusion that tumor associated cachexia can be combatted with the
+GDF-15 antibody B1-23. Further, B1-23 might elicit direct anti-tumor
+effects in immune competent models, which contain T cells, rather than in
+an athymic, T cell deficient nude mouse model.
 //
 ID   CLPUB00426
 RA   Sansac C.;
@@ -13625,7 +13961,7 @@ RA   Munro K.M.A.;
 RT   "Stabilising suppressor of cytokine signalling 3 (SOCS3) protein
 RT   levels to limit neointimal hyperplasia.";
 RL   Thesis PhD (2016), University of Glascow, United Kingdom.
-WW   http://theses.gla.ac.uk/id/eprint/7564
+WW   https://theses.gla.ac.uk/id/eprint/7564
 DR   Cellosaurus; CVCL_RN36; AS-M.5 SOCS3-Luc clone E
 AB   Yes
 Suppressor of cytokine signalling 3 (SOCS3) is a potent inhibitor of the
@@ -13803,12 +14139,14 @@ epithelial markers E-cadherin and cytokeratin. In turn, they are negative
 for vimentin (mesenchymal), CD31 (endothelial), alpha-smooth muscle actin
 (myoepithelial). AQP5 (serous acinar) staining is inconclusive. RNA
 expression reveals CK5, AQP5 and SV40. CFTR and CK19 expression are not
-found. Conclusion: STR analysis reveals that HSG is a HeLa derived cell
-line. Furthermore, as genotyping of the original cell line was not
-performed during its establishment, it will be impossible to authenticate
-a cell line that is supposedly an uncontaminated sample of HSG. Similarly,
-based on its characteristics and properties, HeLa derived cells, such as
-HSG, are not an accurate model of salivary gland cells. The use of HSG in
+found.
+
+Conclusions: STR analysis reveals that HSG is a HeLa derived cell line.
+Furthermore, as genotyping of the original cell line was not performed
+during its establishment, it will be impossible to authenticate a cell
+line that is supposedly an uncontaminated sample of HSG. Similarly, based
+on its characteristics and properties, HeLa derived cells, such as HSG,
+are not an accurate model of salivary gland cells. The use of HSG in
 salivary gland research should be discontinued and past findings should be
 reassessed with an accurate model, such as our newly established human
 submandibular salivary gland cell line (SMG-hu-1). SMG-hu-1 cells share
@@ -14225,8 +14563,8 @@ inducible TLR9 mCherry. The results showed that IL-4, GM-CSF-
 differentiated THP-1 TLR9 mCherry cells resemble immature dendritic cells
 in their ability to induce IFNbeta1 and TNFalpha in response to CpG ODNs.
 Undifferentiated CAL-1 TLR9 mCherry cells potently induced IFNbeta1 in
-response to CpG ODNs, validating their pDC-like properties. In IL-4, GM-
-CSF-differentiated THP-1 TLR9 mCherry cells TLR9 was primarily found in
+response to CpG ODNs, validating their pDC-like properties. In IL-4,
+GM-CSF-differentiated THP-1 TLR9 mCherry cells TLR9 was primarily found in
 LAMP1-positive vesicles (late endosomes/lysosomes) before and after
 stimulation, indicating that TLR9 may reside and interact with its ligands
 in late endosomes. In CAL-1 TLR9 mCherry cells, the majority of TLR9
@@ -14314,8 +14652,8 @@ resistant than cell lines derived from tissues that harbor similar
 mutation. Analysis of mutational pattern and drug sensitivity of these
 cell lines can facilitate database construction for case study. Expression
 levels of specific oncoproteins such as ERK, ERBB2, c-MET and PTEN were
-detected in our cell lines. EMT markers such as EpCAM, E-cadherin, N-
-cadherin and Vimentin were also detected. These 28 well characterized lung
+detected in our cell lines. EMT markers such as EpCAM, E-cadherin,
+N-cadherin and Vimentin were also detected. These 28 well characterized lung
 cancer cell lines originating from malignant pleural effusions support
 studies associated with sensitivity to anti-cancer drugs and
 representative mutations in lung cancers. the few experimental results and
@@ -14365,8 +14703,8 @@ DR   Cellosaurus; CVCL_VN49; KOB
 DR   Cellosaurus; CVCL_VN50; LM-Y1
 DR   Cellosaurus; CVCL_VN52; LMWT5
 AB   Yes
-Sezary syndrome (SS) is an aggressive leukaemic variant of cutaneous T-
-cell lymphoma (CTCL). After the tumour suppressor gene TP53, PLCG1 is the
+Sezary syndrome (SS) is an aggressive leukaemic variant of cutaneous
+T-cell lymphoma (CTCL). After the tumour suppressor gene TP53, PLCG1 is the
 most frequently mutated gene in CTCL. PLCgamma1 (encoded by PLCG1) is
 fundamental in Tcell receptor (TCR) signalling as it hydrolyses a plasma
 membrane component to trigger pathways that induce NFkappaB, NFAT and AP-1
@@ -14464,7 +14802,7 @@ and PEO1X while containing a different loss-of-function point mutation in
 PEO4 and being WT in PEO6 despite all being established from the same
 patient.
 
-Conclusion The cell line PEO1 contains a sub-population of Pt-
+Conclusions: The cell line PEO1 contains a sub-population of Pt-
 resistant cells that can be selected for, in vitro, by clinically relevant
 CDDP treatment. These cells are distinct from those having emerged
 clinically in the original patient.
@@ -14479,10 +14817,10 @@ DR   Cellosaurus; CVCL_YD64; LCSBi001-A
 AB   Yes
 Parkinson's disease was first described more than 200 years ago and yet
 the aetiology of the disease is not fully understood. Cellular phenotypes
-include mitochondrial impairment, lysosomal clearance dysfunction with a-
-synuclein accumulation and intracellular trafficking alterations. In most
-cases PD develops sporadically and the causes are yet unknown. However, in
-10% of the cases, PD is inherited and the cause is genetic. Currently, 23
+include mitochondrial impairment, lysosomal clearance dysfunction with
+alpha-synuclein accumulation and intracellular trafficking alterations. In
+most cases PD develops sporadically and the causes are yet unknown. However,
+in 10% of the cases, PD is inherited and the cause is genetic. Currently, 23
 PARK loci have been identified within genes causing PD. Here, we focus on
 PARK17, where a point mutation leading to an amino acid exchange p.D620N
 in VPS35 has been found to cause an autosomal-dominant form of PD.
@@ -14518,7 +14856,7 @@ of alpha-synuclein protein levels.
 
 We further wanted to pinpoint how p.D620N VPS35 caused mitochondrial
 impairment in patient neurons. Accumulation of a-synuclein has been shown
-to induce similar mitochondrial alterations. Therefore, we measured a-
+to induce similar mitochondrial alterations. Therefore, we measured alpha-
 synuclein protein levels in the mitochondrial and the cytosolic fraction
 and found that it was increased in both fractions to the same ratio.
 However, when we knocked down alpha-synuclein to the levels of the
@@ -15582,8 +15920,8 @@ larval fat bodies of Lymantria dispar and larval testes of Heliothis
 virescens. Four morphologically distinct lines were obtained from the
 embryonic cultures through various selection techniques, a highly
 vacuolated line was obtained from the fat body tissues, and epithelial
-cells were obtained from the testes. These lines have been designated IPLB-
-LdEp, IPLB-LdEG, IPLB-LdEI, IPLB-LdEIt, IPLB-LdFB and IPLB-HvT1,
+cells were obtained from the testes. These lines have been designated
+IPLB-LdEp, IPLB-LdEG, IPLB-LdEI, IPLB-LdEIt, IPLB-LdFB and IPLB-HvT1,
 respectively, and have been characterized by isozyme and chromosome
 analyses, growth kinetics, and susceptibility to various insect viruses.
 //
@@ -16001,7 +16339,7 @@ RT   "Decreased acquisition of osteoblastic phenotype markers and increased
 RT   response to interleukin-1 and parathyroid hormone in pre-osteoblast
 RT   like cells under microgravity.";
 RL   (In) Life sciences research in space. Proceedings of the fifth European symposium held 26 September-1 October 1993 in Arcachon France, ESA SP-366; Oser H., Guyenne T.D. (eds.); pp.25-30; European Space Agency; Noordwijk (1994).
-WW   http://articles.adsabs.harvard.edu/full/1994ESASP.366...25B
+WW   https://articles.adsabs.harvard.edu/full/1994ESASP.366...25B
 DR   Cellosaurus; CVCL_WS34; MN7
 AB   Yes
 Some evidence exists that the response of bone to microgravity is
@@ -16054,8 +16392,27 @@ properties that were similar to those of alpha1B channels, activation
 voltages that were depolarised relative to GH3 T-type current and potent
 block by Cd2+ and the non-selective calcium channel toxin omega-Aga-IIIA.
 These features of alpha1E calcium channels are similar to those of R-type
-calcium channels described in cerebellar granule neurons, and not to GH3 T-
-type or other LVA calcium channels.
+calcium channels described in cerebellar granule neurons, and not to GH3
+T-type or other LVA calcium channels.
+//
+ID   CLPUB00680
+RA   Mikhajlova I.N., Baryshnikov A.Y., Morozova L.F., Burova O.S.,
+RA   Shubina I.Z., Kovalevsky D.A., Voronina E.S., Treshalina H.M.,
+RA   Lushnikova A.A., Tsyganova I.V., Mazurenko N.N.;
+RT   "Human skin melanoma cell lines collection.";
+RL   (In) Management of malignant melanoma; pp.1-6; SM Group; Dover (2016).
+WW   http://www.smgebooks.com/management-of-malignant-melanoma/chapters/MMM-16-06.pdf
+DR   https://web.expasy.org/cgi-bin/cellosaurus/search?input=CLPUB00680
+AB   Yes
+Melanoma cell collection of 19 human skin melanoma cell lines derived from
+patients metastases was created in N.N. Blokhin Russian Cancer Research
+Center. The cell lines were encoded as mel Kor, mel Mtp, mel Il, mel Is,
+mel Si, mel Me, mel Gus, mel Z, mel Ksen, mel Hn, mel Gi, mel Ibr, mel R,
+mel Rac, mel Ch, mel Bgf, mel H and mel Cher. Except for mel P. all the
+lines are stored in the biobank of cryopreserved biological materials in
+liquid nitrogen at -196 Celsius as working bank and seeding bank in N.N.
+Blokhin Russian Cancer Research Center. 16 of these cell lines are stored
+in Russian Cell Culture Collection of Vertebrates (RCCC V, St. Petersburg).
 //
 ID   CLPUB00645
 RA   Langton B.C., Sliwkowski M.X., Tran K.V., Knapp S., Keitelmann E.,
@@ -16975,8 +17332,8 @@ level of thyroglobulin in any thyroid cancer cell lines. These findings
 suggest that gefitinib is effective for the treatment of aggressive
 thyroid cancer but its influences on cytokine secretion from tumor cells
 are different among thyroid cancers. Thrombospondin (TSP)-1 has been
-identified as an anti-angiogenic factor. We recently demonstrated that TSP-
-1 expression negatively related to extrathyroidal infiltration as well as
+identified as an anti-angiogenic factor. We recently demonstrated that
+TSP-1 expression negatively related to extrathyroidal infiltration as well as
 angiogenesis in patients with papillary thyroid carcinoma. To elucidate
 the relationship between expression levels of p53 and TSP-1 in thyroid
 cancer, we studied their expression levels in 75 papillary thyroid
@@ -17069,8 +17426,8 @@ constitutively expressing the duck telomerase reverse transcriptase
 DuckCeltTM-T17 cells were able to grow in batch suspension cultures and
 serum-free conditions up to 7 x 106 cell/ml and such growth was easily
 scalable in bioreactors up to 3L. Permissivity for different viruses
-including influenza has been evaluated. In the present study, DuckCeltTM-
-T17 cell line was tested for its abilities to produce various influenza
+including influenza has been evaluated. In the present study, DuckCeltTM-T17
+cell line was tested for its abilities to produce various influenza
 strains from different origins; human, avian and porcine. All strains were
 satisfyingly produced with titres higher than 5.8 log TCID50/ml. H1N1
 human strains and H5N2 and H7N1 avian strains were the most efficiently
@@ -17085,7 +17442,7 @@ concentration, medium and density at infection) allowing to improve the
 production level by 2 log.
 //
 ID   CLPUB00328
-RA   Earley E., Johnson K.;
+RA   Earley E.M., Johnson K.M.;
 RT   "The lineage of Vero, Vero 76 and its clone C1008 in the United
 RT   States.";
 RL   (In) Vero cells: origin, properties and biomedical applications; Simizu B., Terasima T. (eds.); pp.26-29; Department of Microbiology School of Medicine Chiba University; Chiba (1988).

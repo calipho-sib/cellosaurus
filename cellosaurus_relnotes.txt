@@ -6,141 +6,57 @@
    \_____\___|_|_|\___/|___/\__,_|\__,_|_|   \__,_|___/
 
 
-This is the release notes for Cellosaurus version 40 of December 2021.
+This is the release notes for Cellosaurus version 41 of March 2022
 
 1) Statistics
 
-134839 cell lines (101276 human, 22999 mouse, 2498 rat)
-   747 species represented
- 96745 synonyms
-396097 cross-references to 97 ontologies, databases, catalogs, etc.
-138234 references to 23257 distinct publications (papers, patents, theses, etc.)
- 13484 web links
+136313 cell lines (102081 human, 23519 mouse, 2537 rat)
+   759 species represented
+ 98213 synonyms
+400865 cross-references to 99 ontologies, databases, catalogs, etc.
+140507 references to 23950 distinct publications (papers, patents, theses, etc.)
+ 13347 web links
 
-  8032 human, mouse and dog cell lines with STR profiles (from 669 distinct sources)
+  8134 human, mouse and dog cell lines with STR profiles (from 705 distinct sources)
 
-Since release 39 of September 2021:
-  3890 entries were created
- 16818 entries were updated
+Since release 40 of December 2021:
+  1482 entries were created
+ 24553 entries were updated
 
 2) Changes concerning cross-references
 
-2a) Change in the file cellosaurus_xref.txt.
-
-We have changed the format of the description of resources to which the
-Cellosaurus cross-reference to. We have added a new field "Term." (for
-"Terminology") that can either have the value "Yes" or "No". This field
-allows to distinguish between resources that are used in the context of
-the Cellosaurus as a source of a terminology (examples: gene names, chemical
-compounds, species, etc) to those that are not.
-
-Examples of both type of cross-references:
-
-Abbrev: ATCC
-Name  : American Type Culture Collection
-Server: https://www.atcc.org/
-Db_URL: https://www.atcc.org/Products/%s
-Term. : No
-Cat   : Cell line collections
-
-Abbrev: NCBI_TaxID
-Name  : NCBI taxonomy database
-Server: https://www.ncbi.nlm.nih.gov/taxonomy
-Db_URL: https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=%s&lvl=3
-Term. : Yes
-Cat   : Taxonomy
-
-2b) Changes in the cross-references to FlyBase
-
-We have cross references to FlyBase for two types of "objects": cell lines
-and genes. In the first case we are cross-referencing to FlyBase as if it
-was a cell line database/resource and in the other case as a terminology
-resource for gene names and their associated information. We therefore
-decided to use distinct cross-references for FlyBase cell lines and genes so
-as to clear up any semantic confusion.
-
-Thus what was formerly:
-
-Abbrev: FlyBase
-Name  : Drosophila genome database
-Server: https://flybase.org
-Db_URL: https://flybase.org/reports/%s.html
-Cat   : Organism-specific databases
-
-is now split into:
-
-Abbrev: FlyBase_Cell_line
-Name  : Drosophila genome database; cell line entry
-Server: https://flybase.org/cgi-bin/cvreport.pl?id=FBbt%3A00005329
-Db_URL: https://flybase.org/reports/%s.html
-Term. : No
-Cat   : Cell line databases/resources
-
-Example:
-DR   FlyBase; FBtc9000017
-
-Abbrev: FlyBase_Gene
-Name  : Drosophila genome database; gene entry
-Server: https://flybase.org
-Db_URL: https://flybase.org/reports/%s.html
-Term. : Yes
-Cat   : Organism-specific databases
-
-Example:
-CC   Transfected with: FlyBase_Gene; FBgn0000546; EcR.
-
-2c) Cross-references were added to the Abcam cell line products.
+2a) Cross-references were added to the Innoprot cell line products.
+Previously web links were provided to this resource, but we upgraded them to
+cross-references.
 
 Corresponding entry in the file cellosaurus_xrefs.txt:
 
-Abbrev: Abcam
-Name  : Abcam cell line products
-Server: https://www.abcam.com/nav/cell-lines-and-lysates
-Db_URL: https://www.abcam.com/%s.html
+Abbrev: Innoprot
+Name  : Innoprot cell line products
+Server: https://innoprot.com/
+Db_URL: https://innoprot.com/?s=%s&lang=en
 Term. : No
 Cat   : Cell line collections
 
 Example:
-DR   Abcam; ab266619
+DR   Innoprot; P30125
 
-2d) Cross-references were added to the European Genome-phenome Archive
-(EGA).
-
-Corresponding entry in the file cellosaurus_xrefs.txt:
-
-Abbrev: EGA
-Name  : European Genome-Phenome Archive
-Server: https://ega-archive.org/
-Db_URL: https://ega-archive.org/studies/%s
-Term. : No
-Cat   : Sequence databases
-
-Example:
-DR   EGA; EGAS00000000056
-
-2e) Cross-references were added to the National Repository of Fish Cell
-line (NRFC) in Lucknow (India). Prevously web links were provided to this
-resources, but we upgraded them to cross-references.
+2b) Cross-references were added to the Rockland cell line products.
+Previously web links were provided to this resource, but we upgraded them to
+cross-references.
 
 Corresponding entry in the file cellosaurus_xrefs.txt:
 
-Abbrev: NRFC
-Name  : National Repository of Fish Cell Line
-Server: https://mail.nbfgr.res.in/nrfc/
-Db_URL: https://mail.nbfgr.res.in/nrfc/celldetail.php?id=%s
+Abbrev: Rockland
+Name  : Rockland cell line products
+Server: https://www.rockland.com/categories/cell-lines-and-lysates/
+Db_URL: https://www.rockland.com/search/?searchString=%s
 Term. : No
 Cat   : Cell line collections
+//
 
 Example:
-DR   NRFC; 16
-
-2f) CCLE cross references have been removed
-
-Because the data of the Cancer Cell Line Encyclopedia (CCLE) is now
-completely integrated in the Cancer Dependency Map (DepMap) portal and
-that links that go to the original CCLE web site are now redirected to
-DepMap we have removed these extraenous cross-references.
-
+DR   Rockland; WM1026-01-0001
 
 ----------------------------------------
 Amos Bairoch

@@ -4,8 +4,8 @@
 ----------------------------------------------------------------------------
 
  Description: Cellosaurus: frequently asked questions
- Version: 40.0
- Last update: 16-December-2021
+ Version: 41.0
+ Last update: 17-March-2022
 
 ----------------------------------------------------------------------------
 
@@ -40,6 +40,7 @@ Q26: Do vaccines contain cell lines?
 Q27: How do I get cell line XYZ to grow?
 Q28: What are the differences between the Cellosaurus and hPSCreg
 Q29: Are fetuses aborted to derive cell lines?
+Q30: Is the sequence of gene ABCD identical in cell line XYZ and in the reference human genome?
 
 ----------------------------------------------------------------------------
 
@@ -185,7 +186,7 @@ Children's Oncology Group (COG) Cell Culture and Xenograft Repository:
 Chordoma Foundation cell line repository:
  https://www.chordomafoundation.org/research/disease-models/
 CLS - Cell lines Services:
- http://www.clsgmbh.de/
+ https://cls.shop/
 Collection of Cell Lines in Veterinary Medicine (CCLV):
  https://www.fli.de/en/services/collection-of-cell-lines-in-veterinary-medicine-cclv/
 Coriell Institute Biorepositories:
@@ -209,7 +210,7 @@ European Collection for Biomedical Research:
 European Collection of Cell Cultures (ECACC):
  http://www.phe-culturecollections.org.uk/products/celllines/index.aspx
 Evercyte:
- http://www.evercyte.com/medizin/cell-lines.html
+ https://evercyte.com/products-cells-catalogued-by-cell-type/
 FujiFilm Cellular Dynamics, Inc:
  https://fujifilmcdi.com/the-cirm-ipsc-bank
 GenHunter:
@@ -236,6 +237,8 @@ Innoprot:
  http://www.innoprot.com/en_productos_escaparate.asp
 Interlab Cell Line Collection (ICLC):
  http://www.iclc.it/
+Inven2Biologics:
+ http://inven2biologics.com/shop/cell-lines
 InvivoGen:
  https://www.invivogen.com/cell-lines
 ISENET Biobanking:
@@ -291,7 +294,7 @@ RIKEN Bioresource Center Cell Bank (RCB):
 Rockefeller University Embryonic Stem Cell Lines:
  https://rues.rockefeller.edu/
 Rockland Immunochemicals:
- https://www.rockland-inc.com/patient-derived-tumor-models.aspx
+ https://www.rockland.com/categories/cell-lines-and-lysates/
 Royan Stem Cell Bank (RSCB):
  http://www.royaninstitute.org/cmsen/index.php?option=com_content&task=view&id=205&Itemid=40
 Selexis:
@@ -729,7 +732,7 @@ Q21: Why are there different entries for the 3T3 cell line in the Cellosaurus?
 A: As nicely explained in a Wikidata page and an ASBMB Today blog entry:
 
 https://en.wikipedia.org/wiki/3T3_cells
-http://www.asbmb.org/asbmbtoday/201501/Generations/3T3/
+https://www.asbmb.org/asbmbtoday/201501/Generations/3T3/
 
 the term 3T3 not only refers to a number of cell lines but originates in
 the method that Todaro and Green used to establish these cell lines,
@@ -1016,4 +1019,43 @@ MRC-5   https://web.expasy.org/cellosaurus/CVCL_0440
 WI-38   https://web.expasy.org/cellosaurus/CVCL_0579
 
 Thanks to Amanda Capes-Davies for important contributions to this FAQ.
+
+----------------------------------------------------------------------------
+
+Q30: Is the sequence of gene ABCD identical in cell line XYZ and in the reference human genome?
+
+A: This is a quite interesting question whose answer is dependent on a two
+distinct factors.
+
+First, if you are working with a cancer cell line, it will harbor a varying
+number of somatic mutations that the original tumor accumulated during the
+cancer progression. The number of these mutations will differ across
+different cancer types and goes up to more than 200 in melanomas (see
+https://pubmed.ncbi.nlm.nih.gov/23539594). It is also important to be aware
+that cancer cells generally undergo chromosomal rearrangements that lead to
+gene fusions, deletions and amplifications. All of those events have an
+impact on the sequence of the gene that you are interested to study.
+
+If the cell line in which you are interested to check for a particular gene
+sequence has been exome sequenced you will be able to check if that gene has
+been somatically mutated or not. Projects like DepMap (formerly the Cancer
+Cell Line Encyclopedia; CCLE) or the COSMIC cell line project have performed
+this analysis on about 2000 different cancer cell lines. In the Cellosaurus
+you will find cross-references to entries in both projects for these cell
+lines. And if your cell line has not been analyzed by these projects it
+still may be that this information is available; check if there is a "Omics:
+Deep exome analysis" comment in the relevant Cellosaurus entry. If it is the
+case you will find the relevant data sets in ArrayExpress, GEO or in
+supplementary tables of cited papers.
+
+The second reason that will lead to sequence variations are the presence of
+sequence polymorphisms. Resources such as the Genome Aggregation Database
+(GnomeAD; https://gnomad.broadinstitute.org/) already contains information on
+more than 700 millions sequence variants obtained from exome and genome
+sequence of more than 150000 individuals. While many of these variants are
+rare there are a significant number of variants that are present with a high
+frequency in one or more human populations. Thus there is a high probability
+that the sequence of a gene from an individual from which a cell line was
+established will be slightly different from that stored in the reference
+human genome.
 
