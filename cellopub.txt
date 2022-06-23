@@ -4,8 +4,8 @@
 ----------------------------------------------------------------------------
 
  Description: CelloPub, Cellosaurus publications
- Version: 41.0
- Last update: 17-March-2022
+ Version: 42.0
+ Last update: 23-June-2022
 
 ----------------------------------------------------------------------------
 ID   CLPUB00222
@@ -749,6 +749,7 @@ RA   Debec A., Szollosi A., Szollosi D.;
 RT   "A Drosophila melanogaster cell line lacking centriole.";
 RL   Biol. Cell 44:133-138(1982).
 WW   https://pascal-francis.inist.fr/vibad/index.php?action=getRecordDetail&idt=PASCALZOOLINEINRA83X0058827
+WW   https://eurekamag.com/research/004/572/004572486.php
 DR   Cellosaurus; CVCL_ZW02; 1182-4D
 DR   Cellosaurus; CVCL_Z708; 1182-4H
 DR   Cellosaurus; CVCL_Z833; Kc
@@ -821,7 +822,38 @@ RT   "Establishment of a new myeloid cell line from a patient with TdT(+)
 RT   acute leukemia.";
 RL   Blood 66 Suppl. 1:224a-224a(1985).
 DR   Cellosaurus; CVCL_8907; RED-3.
-AB   No
+AB   Yes
+A continuonsly maintained cell line, RED-3, was successfully isolated from
+the peripheral blood blasts of a 24 yo man with a TdT(+) acute leukemia in
+relapse. The patient presented with a mediastinal mass and a WBC count of
+30,000/mm3 with 24% blasts, which were lymphoblasts by morphology (FAB
+class L2), TdT(+), polar block acid phosphatase (+), PAS (-), peroxidase
+(-), nonspecific esterase (-), and 90% positive for E-rosette formation,
+leading to a diagnosis of T-ALL. An initial complete remission was
+achieved with vincristine, prednisone, daunomycin, and L-asparaginase. A
+subsequent remission was achieved with the same drugs when the patient
+relapsed 17 months after diagnosis. During a second relapse 9 mos later,
+leukemic blasts were obtained for tissue culture after an unsuccessful
+attempt to induce remission with mitoxantrone. Blasts were separated from
+blood by Hypaque-Ficoll gradients and cultured at 10^6 cells/ml in RPMI
+1640 supplemented with insulin, transferrin, selenium (ITS), 20% fetal
+calf serum (FBS), and 10% PHA stimulated human lymphocyte conditioned
+media (LCM). After 3 weeks' undisturbed incubation at 37 Celsius, 7% CO2,
+additional media was added and then renewed weekly by demi-depletion with
+gradual withdrawal of FBS and LCM. By 8 wks the cells were established in
+RPMI and ITS alone with an average doubling time of 26 hrs and have been
+maintained continuously since that time (>10 mos). Like the blast cells in
+vivo, RED-3 cells in culture were found to be TdT(+) and polar block acid
+phospatase(+). FACS analysis also showed them to be 86-96% positive for
+the T-cell antigens, Leu 3a and Leu 3b. However, at the same time, these
+cells were found to be histochemically positive for PAS, peroxidase, and
+Sudan black and to be 85% positive for the myeloid antigen, Leu M1.
+Moreover, when incubated with retinoic acid (10^-6M) or dimethylformamide
+(6x10^-2M), the cells underwent myeloid maturation as assessed by
+morphology, NBT reduction, and acquisition of the OKM1 antigen (78%+).
+They also partially lost Leu 3 reactivity. The characteristics of this new
+human leukemia cell line support previous reports that T-ALL lymphoblasts
+or their precursors may retain a potential for myloid differentiation.
 //
 ID   CLPUB00343
 RA   Hankins W.D., Chin K., Dons R., Szabo J.;
@@ -1275,6 +1307,32 @@ examination demonstrated a dense infiltration by blast cells, and a
 pronounced reticular fibrosis consisting exclusively of collagen III. The
 cell line ELF 153-GM will facilitate research on the interrelationship of
 malignant hemopoiesis and its stroma.
+//
+ID   CLPUB00701
+RA   Gioanni J., Mazeau C., Zanghellini E., Milano G., Fischel J.-L.,
+RA   Turc-Carel C., Schneider M.;
+RT   "Establishment of two human cell lines from the same patient suffering
+RT   from mammary adenocarcinoma and differentially expressing the MDR
+RT   gene.";
+RL   Bull. Cancer 80:472-472(1993).
+DR   Cellosaurus; CVCL_1114; CAL-85-1
+DR   Cellosaurus; CVCL_B7MJ; CAL-85-2
+AB   Yes
+We describe a representative cellular model of MDR resistance developed in
+a patient with breast adenocarcinoma. This model consists of two cell
+lines CAL 85-1 and CAL 85-2. CAL 85-1 comes from the primary tumor after
+first chemotherapy (adriamycin, 5-FU, cyclophosphamide). CAL 85-2 is
+obtained 9 months later, following adjuvant chemotherapy (5-FU,
+epirubicin, cyclophosphamide) and heavy chemotherapy (melphalan) before
+auto-grafting of bone marrow, from a chest recurrence. We give the
+morphological and cytogenetic characteristics of these two lines. For this
+model, MDR expression was measured by cytofluorimetry at using monoclonal
+antibodies C 219, JSB 1 and MRK 16. Only the latter shows a difference in
+MDR expression in favor of CAL 85-2. The efficacy of 3 MDR reversants,
+verapamil, cyclosporine and S 9788 is consistent with a moderate
+difference in MDR expression between CAL 85-1 and CAL 85-2. This cellular
+system seems closer to reality clinical than those previously established
+in vitro by artificial selective pressure.
 //
 ID   CLPUB00008
 RA   Chen S.-N., Ueno Y., Wen S.-C., Kou G.-H.;
@@ -1755,7 +1813,7 @@ RA   Gey G.O., Coffman W.D., Kubicek M.T.;
 RT   "Tissue culture studies of the proliferative capacity of cervical
 RT   carcinoma and normal epithelium.";
 RL   Cancer Res. 12:264-265(1952).
-WW   https://cancerres.aacrjournals.org/content/12/4
+WW   https://aacrjournals.org/cancerres/issue/12/4
 DR   Cellosaurus; CVCL_0030; HeLa
 AB   Yes
 This is a report of an evaluation in vitro of the growth potential of
@@ -1772,11 +1830,37 @@ keratinization of the cells grown in cultures whether from normal or
 neoplastic areas. Some of the hormonal aspects of the problem will be
 discussed.
 //
+ID   CLPUB00702
+RA   Sjogren H.O., Hellstrom I., Klein G.;
+RT   "Transplantation of polyoma virus-induced tumors in mice.";
+RL   Cancer Res. 21:329-337(1961).
+WW   https://aacrjournals.org/cancerres/article/21/3/329/474702/
+DR   Cellosaurus; CVCL_2188; SEWA
+AB   Yes
+Fifty-two polyoma-induced primary mouse tumors were tested for
+transplantability in isologous recipients. Thirty-five tumors grew
+progressively in the subcutaneous tissue, and several lines have been
+established in serial transplantation. The remaining tumors did not grow
+out at all upon transfer. Eleven among the transplantable tumors have been
+tested by inoculating known numbers of cells to the following three groups
+of adult isologous recipients: (a) untreated mice, maintained at a
+separate, polyoma-free colony, (b) mice preimmunized as adults against
+polyoma virus containing supernatant fluids from infected mouse embryo
+tissue cultures, and (c) mice pretreated with heavily irradiated cells of
+the same tumor. There was a clear and consistent difference between groups
+a and b for ten of eleven tumors, indicating a state of resistance against
+transplantation of the established polyoma tumors in the virus-immunized
+group. With the exception of two out of nine experiments, there was no
+evidence of resistance in group c, pretreated with irradiated tumor cells.
+Serum of virus-immunized mice had a certain inhibiting effect on viable
+polyoma tumor cells upon incubation in vitro with one of four tumors. The
+possible implications of these findings have been discussed.
+//
 ID   CLPUB00417
 RA   Ishihara T., Moore G.E., Sandberg A.A.;
 RT   "The in vitro chromosome constitution of cells from human tumors.";
 RL   Cancer Res. 22:375-379(1962).
-WW   https://cancerres.aacrjournals.org/content/22/3/375
+WW   https://aacrjournals.org/cancerres/article/22/3/375/474943/
 DR   Cellosaurus; CVCL_RP63; RPMI-1922
 AB   Yes
 The chromosome constitution was determined in nine established, long-term
@@ -3009,7 +3093,7 @@ RA   Pirozzi G., Curci A., Errico S., Luongo V., Di Gennaro E.,
 RA   Caraco C., Mozzillo N., Lombardi M.L.;
 RT   "A new mutation of the B2-microglobuline gene in the ANAD-63, a
 RT   melanoma cell line HLA class I negative.";
-RL   Eur. J. Immunogenet. 28:327-327(2001).
+RL   Eur. J. Immunogenet. 28:327.260-327.260(2001).
 WW   https://moh-it.pure.elsevier.com/en/publications/a-new-mutation-of-the-b2-microglobuline-gene-in-the-anad-63-a-mel
 DR   Cellosaurus; CVCL_VP94; ANAD 63
 DR   Cellosaurus; CVCL_VP95; COPA 159
@@ -3416,7 +3500,28 @@ RA   Mallet M.R., Knight R.D., Khan E.C., Wright D.G.;
 RT   "Characterization of RED-3: a biphenotypic myeloid leukemia cell line.";
 RL   Fed. Proc. 45:958-958(1986).
 DR   Cellosaurus; CVCL_8907; RED-3.
-AB   No
+AB   Yes
+A myeloid cell line, RED-3, has been established from the circulating
+blasts of a patient with TdT(+) acute leukemia in second relapse. The
+patient originally presented with T-ALL with 24% lymphoblasts by
+morphology (FAB class L2). The blasts were polar block acid
+phosphatase (ACP)(+), PAS(-), peroxidase (PX)(-), and non-specific esterase
+(-) with 90% E-rosette formation. Blasts wore separated from blood by
+Hypaque-Ficoll gradients and cultured at 10 cells/ml in RPMI 1640
+supplemented with insulin, transferrin, selenium (ITS), and 20% fetal calf
+serum (FBS). FBS was gradually withdrawn and by 8 wks the cells were
+established in RPMI and ITS alone with a mean doubling time of 26 hrs.
+Cells have been maintained for 15 mos at 37 Celsius, 7% CO2. Characterization
+by histochemical stains and FACS-analysis showed that the cells in culture
+were 9O%(+) for TdT and 95%(+) for the T-cell antigen Leu-3. However, the
+cells were also positive for Sudan black, ACP, PAS, PX and for the myeloid
+antigens M-1(97%), and My-7(99%). Retinoic acid (1 muM) and
+dimethylformamide (60 mM) induced the cells to undergo myeloid maturation
+and to acquire NBT reduction, additional myeloid antigens, Mo-1 (58%) and
+OKM-1 (78%), and enhanced nonspecific binding of IgG1 and IgG2a but not IgM
+indicating the presence of Fc receptors. The characteristics of this cell
+line support previous reports that T-ALL blasts may retain the capacity
+for myeloid differentiation.
 //
 ID   CLPUB00500
 RA   Collins J.K., O'Mahony A., O'Brien F., Corbett A., Morrissey D.,
@@ -4242,6 +4347,42 @@ mode was in the triploid range, and many marker chromosomes were observed.
 The HIOAnu cells showed high transplantability into nude mice, produced an
 endometrioid adenocarcinoma resembling the original tumor and a large
 amount of CA 125 and TPA.
+//
+ID   CLPUB00700
+RA   Galili N., Galili U., Ravid Z., Schlesinger M., Goldblum N.;
+RT   "Induction of differentiation with phorbol ester in a human T cell line
+RT   (Be13) expressing both prothymocyte and thymocyte characteristics.";
+RL   Hum. Lymph. Diff. 1:123-130(1981).
+DR   Cellosaurus; CVCL_1081; BE-13
+AB   Yes
+Acute lymphoblastic leukaemia (ALL) has been shown to be a very
+heterogeneous malignant disease in which the majority of cases cannot be
+clearly related to either the T or B cell ontogeny pathway. A small
+percentage of cases, however, have been clearly shown by numerous
+immunological methods to be of T cell origin. This group is in itself a
+heterogeneous one with the malignant cells showing early, late or
+intermediate differentiation phenotypes. One way to explore these
+differences in differentiation states is to establish and characterize
+various cell lines from the T-ALL patients and to compare these lines with
+normal cells of the T lineage. In the normal T cell differentiation
+pathway, the stem cell originates in the bone marrow, migrates to the
+thymus (where it is referred to as the prothymocyte) and under thymic
+microenvironment differentiates into the cortical thymocyte. Upon further
+maturation the thymocyte is exported into the peripheral blood as a mature
+T cell. The human prothymocyte has recently been characterized and shown
+to compose only a small proportion of the postnatal thymocytes. In
+contrast to the cortical thymocytes, the prothymocytes are large cells
+with mitotic activity. They do not form E rosettes, do not exhibit natural
+attachment (NA) and are highly sensitive to hydrocortisone (HC) induced
+cytolysis. The cortical thymocytes do form E rosettes, do express NA and
+are HC resistant. In this study, we have characterized a cell line Be13
+originating in a patient with T-ALL. By use of the above-mentioned
+markers, this line was shown to express a phenotype intermediate to the
+prothymocyte and cortical thymocyte. Recent works have shown that the
+phorbol esters can act as inducers of certain human leukaemic lines. It
+was of interest, therefore, to see whether the Be13 line could be
+similarly induced to a more mature differentiation stage along the T cell
+lineage.
 //
 ID   CLPUB00336
 RA   Crane A., Brennan M., Naebers R.;
@@ -5514,7 +5655,7 @@ AB   No
 ID   CLPUB00135
 RA   Oksenhendler E., Agbalika F., Barateau V., Daniel M.T., Autran B.,
 RA   Carcelain G.;
-RT   "A new HHV-8+ EBV - B cell line (ISI-1) produces large amounts of IL10
+RT   "A new HHV-8+ EBV- B cell line (ISI-1) produces large amounts of IL10
 RT   and induces tumors in NOD/SCID mice.";
 RL   J. Acquir. Immune Defic. Syndr. Hum. Retrovirol. 17:A23-A23(1998).
 WW   https://journals.lww.com/jaids/fulltext/1998/04010/a_new_hhv_8__ebv___b_cell_line__isi_1__produces.64.aspx
@@ -7556,6 +7697,45 @@ present report deals with constitutive heterochromatin (C-banding),
 nucleolus organizing regions (NORs) and sister chromatid exchanges (SCEs)
 in cultured lung cells from this same species.
 //
+ID   CLPUB00707
+RA   Sidabra J.E., Capobianco C.S., Gottardo M.F., Alonso D.F., Farina H.G.;
+RT   "Isolation and characterization of murine mammary cell lines with
+RT   differentiated aggressive phenotype.";
+RL   Medicina 78 Suppl. 3:A412-A412(2018).
+WW   https://ri.conicet.gov.ar/handle/11336/131800
+WW   https://drive.google.com/open?id=15sJsQwLcpAhmz7skl8-UPd2P1S-eNCmx
+DR   Cellosaurus; CVCL_E119; F3II
+DR   Cellosaurus; CVCL_B7TQ; F3II-NM
+DR   Cellosaurus; CVCL_B7TR; F3II-TP
+AB   Yes
+Breast cancer is the first cause of death from female cancer. The
+recurrence of the disease originated at the level of secondary organs, or
+metastasis, is responsible for 90% of deaths from cancer. The factors that
+endow these cells with metastatic functions are largely unknown. One of
+the limitations in the study of tumor cells with metastatic phenotypes is
+that cell lines maintained in culture lose this ability to invade and
+colonize tissues. On the other hand, it has been shown that reinjection of
+cells in animals can lead to their enrichment with aggressive phenotypes.
+The aim of this work was the isolation and characterization of different
+cell populations with differentiated metastatic capacities. Following
+inoculation of the F3II murine mammary carcinoma cell lines, we
+established cell populations in vitro, one from the primary tumor and
+another from a metastatic nodule, F3II TP and F3II NM cell lines
+respectively. To determine their aggressiveness, a series of additional
+characteristics were compared between these lines and F3II. The three
+lines showed variations in morphology in culture and a different doubling
+time, with F3II NM having the highest one. Moreover, F3II NM presented
+major adhesion capacity and lower clonogenic potential. This could be
+explained by the differential expression of cell adhesion molecules, such
+as integrins or cadherins analyzed by flow cytometry. In addition, the
+migration capacity was analyzed by transwell assay and the results showed
+differences in this process. Finally, we compared the behavior in vivo and
+we detected variations in tumor progression such as latency, frequency of
+ulceration, tumor growth and the presence of pulmonary nodules. All things
+considered, the establishment and characterization of these two new
+different cell lines with differentiated metastatic capacities will allow
+us to determine molecular differences involved in the metastatic process.
+//
 ID   CLPUB00595
 RA   Hamaguchi Y.;
 RT   "Establishment of human osteosarcoma cell line from mandible and it's
@@ -8142,19 +8322,6 @@ LFA-1, LFA-3, and MHC class I) did not differ significantly between the
 RAJI parent line and drug-resistant variants. This finding suggests that
 the increased LAK-sensitivity of R/ADR results from alterations which
 affect postbinding stages of the LAK lytic pathway.
-//
-ID   CLPUB00264
-RA   Robie D.;
-RT   "Cell lines and commodities: the Hagahai patent affair.";
-RL   Pac. Journal. Rev. 4:78-91(1997).
-WW   https://www.academia.edu/1267576/Cell_lines_and_commodities_The_Hagahai_patent_affair
-DR   Cellosaurus; CVCL_4J78; PNG-1
-AB   Yes
-In March 1995, the United States government issued a patent on a human
-cell line for an indigenous Hagahai man from the rainforests of Papua New
-Guinea. Critics saw this is a 'new and dangerous' era in intellectual
-property rights while even defenders conceded there are serious dilemmas
-embracing ethics, the law and the media.
 //
 ID   CLPUB00405
 RA   Xiong H., He X.-H., Zhang W.-X., Li C.-L., Li M., Guan W.-J.,
@@ -9886,7 +10053,7 @@ RA   Harper M.E., Sibley P.E.C., Rowlands A., Buttifant L., Beacock C.,
 RA   Griffiths K.;
 RT   "Hormonal modulation of the growth of a new transplantable prostatic
 RT   cell line in athymic nude mice.";
-RL   Urol. Res. 14:156A-156A(1986).
+RL   Urol. Res. 14:156.P5-156.P5(1986).
 DR   Cellosaurus; CVCL_4765; Ten12
 AB   Yes
 Multiple models in vitro and in vivo of human prostatic cancer are
@@ -9909,8 +10076,57 @@ high affinity binding with a Kd 4.1 x 10-9 M/l and a receptor content of
 611 fmoles/mg DNA. Various hormonal modalities are presently being tested
 using this in vivo model. The cells from the xenografts can be cultured in
 semi-solid agar containing medium DMEM, supplemented with 10% foetal calf
-serum, insulin and 5alpha-dihydrotestosterone, so providing an in vitro
+serum, insulin and 5-alpha-dihydrotestosterone, so providing an in vitro
 experimental model of prostatic carcinoma.
+//
+ID   CLPUB00699
+RA   Romijn J.C., Erkens-Schulze S., van Weerden W.M., Teubel W.,
+RA   Trapman J., Schroder F.H.;
+RT   "Development and characterization of a new in vitro model to study the
+RT   mechanisms of prostate cancer progression.";
+RL   Urol. Res. 23:265.P81-265.P81(1995).
+WW   https://link.springer.com/content/pdf/10.1007/BF00393306.pdf
+DR   Cellosaurus; CVCL_4882; PC-346
+DR   Cellosaurus; CVCL_4883; PC-346C
+DR   Cellosaurus; CVCL_B7J2; PC-346CF
+AB   Yes
+At present, not more than a few permanent human prostate cancer cell lines
+have been described. The only androgen responsive in vitro cell line is
+LNCaP, which exhibits an atypical hormone response pattern due to a
+mutated androgen receptor. The PC-346 xenograft cell line is the only
+human prostate cell line known thus far in which initial regression upon
+androgen withdrawal is followed by tumor relapse, suggesting the presence
+of hormone-dependent and -independent cell populations, Recently we
+established in vitro cultures from the PC-346 xenograft model following
+collagenase digestion of PC-346 tumor fragments from the 12th mouse
+passage. After plating in Matrigel coated culture flasks with low serum
+(2%) culture medium, poorly spread epithelial colonies were obtained that
+could be passaged by trypsinization. Contamination by (murine) stromal
+cells was no longer detectable after two passages. Currently, this new in
+vitro cell line, PC-346C, is in its 20th passage. The cells express
+prostate specific markers such as PSA (resulting in levels >2500 ng/ml in
+culture medium) and, unlike LNCaP, also prostate-specific TGase. Hormone
+responsiveness of PC-346C cells was tested in a modified MTT assay. In the
+absence of steroids, little if any growth occurred. Dose-dependent
+stimulation of growth was observed after addition of testosterone,
+dihydrotestosterone or R1881. Even upon androgenic stimulation, however,
+growth was relatively slow (doubling time 4-5 days). In contrast to LNCaP,
+PC-346C cells were not stimulated by estradiol or flutamide.
+Immunocytochemistry, binding assays and Western blot analysis showed the
+presence of androgen receptors. Complete sequencing of exons 2 through 8
+of the receptor gene demonstrated that mutations were absent in this part
+of the gene. Injection of 10x10^6 PC-346C cells into male nude mice
+resulted in rapidly growing tumors (doubling time 5.2 +- 1.1 days) within 30
+days in 9 of 10 animals. High levels of PSA (>1000 ng/ml) were measured in
+the serum of these animals. In the same experiment, no growth was detected
+in females until 95 days post-inoculation. Finally, growth occurred in
+2/10 female male. From these tumors, another in vitro line (PC346CF) was
+established. PC-346CF cells were not stimulated by androgens in vitro.
+Further characterization of this new subline and comparative studies of
+PC-346C and PC-346CF cells are currently underway. By virtue of their unique
+properties, PC-346C and its hormone-insensitive variant will be valuable
+new models to study the mechanisms of androgen-regulated growth and gene
+expression.
 //
 ID   CLPUB00226
 RA   Pan B.F., Nelson J.A.;
@@ -10679,6 +10895,74 @@ infections in insect cell cultures. Mode and mechanism of intracellular
 action of these germs. Mechanism of toxic action of pathogenic
 microorganisms in invertebrates.
 //
+ID   CLPUB00706
+RA   Noga E.J.;
+RT   "Studies on channel catfish virus passaged in cell cultures of the
+RT   walking catfish.";
+RL   Thesis MSc (1977), Florida Atlantic University, United States.
+WW   http://purl.flvc.org/fcla/dt/13896
+DR   Cellosaurus; CVCL_5506; G1B
+DR   Cellosaurus; CVCL_S929; GD1I
+DR   Cellosaurus; CVCL_S935; K1K
+AB   Yes
+Gonadal (GD1I), kidney (K1K) and gill (G1B) cell lines were established
+from tissues of the walking catfish using an improved procedure. These
+cell lines were found to be susceptible to channel catfish virus (CCV)
+infection. A virus sample (HPV) propagated for 59 passages at low dilution
+in K1K cells was found to be of lower virulence for young channel catfish
+than two other field strains of CCV (LPV) with fewer in vitro passages.
+Injection of channel catfish with HPV protected these fish from subsequent
+challenge with the more virulent LPV. Challenge of walking catfish with
+several different CCV samples including wild strains and Clarias-
+propagated virus failed to produce any mortalities.
+//
+ID   CLPUB00703
+RA   Philippon-Fried M.;
+RT   "Partial characterization of six established salmonid cell lines.";
+RL   Thesis MSc (1979), Oregon State University, United States.
+WW   https://hdl.handle.net/1957/42428
+DR   Cellosaurus; CVCL_R822; CHSE-114
+DR   Cellosaurus; CVCL_2780; CHSE-214
+DR   Cellosaurus; CVCL_4154; CSE-119
+DR   Cellosaurus; CVCL_3467; RTH-149
+DR   Cellosaurus; CVCL_4305; SSE-5
+DR   Cellosaurus; CVCL_4308; STE-137
+AB   Yes
+Six salmonid cell lines previously established in this laboratory, CHSE 114
+and CHSE 214 (chinook salmon), CSE 119 (coho salmon), SSE 5 (sockeye
+salmon), STE 137 (steelhead trout) and RTH 149 (rainbow trout), were
+partially characterized. Mycoplasmas were not detected in any of the cell
+lines. All cell lines exhibited heteroploidy. The CHSE 114, CHSE 214, and
+SSE 5 cell lines had hypodiploid modal chromosome numbers of 63, 67, and
+64, respectively. The STE 137 and RTH 149 cell lines had hyperdiploid
+modal numbers of 66 and 64, respectively. The CSE 119 cell line had a
+hypotetraploid modal number of 110. The same modal number (67) was found
+at both transfer levels tested, 113 and 308, for CHSE 214 cell line. This
+indicated that the modal number for this cell line was no longer changing.
+Saturation density and optimum growth cell density were determined for all
+cell lines except CHSE 114. Saturation densities of cell lines ranged from
+1.7 X 10^6 (RTH 149) to 6.2 X 10^6 (STE 137) cells per 35X10 mm dish. An
+optimum growth cell density of 2.3 X 10^4, 5.0 X 10^4, and 1.4 X 10^4 cells
+per 35X10 mm dish was obtained for CHSE 214 (transfer level 100's), CSE
+119, and STE 137 cell lines, respectively (t test, alpha .05). No differences
+in cell growth rates were found for other cell lines at densities tested
+(t test, alpha .05). Optimum growth temperature was determined for CHSE 214
+and STE 137 cell lines grown at 8, 12, 16, 23, 27, and 34 Celsius (t test,
+alpha .05). The CHSE 214 cell line exhibited exponential growth at 12, 16, and
+23 Celsius. The STE 137 cell line exhibited exponential growth at 12 and 16
+Celsius. Optimum growth temperatures for CHSE 214 cell line occurred at 16 and
+23 Celsius. No difference (alpha .05) between growth rates at 12 and 16 Celsius
+was found for STE 137 cell line. Maintenance growth occurred at 8 and 27 Celsius
+for CHSE 214 cell line, and at 8, 23, and 27 Celsius for STE 137 cell line.
+Neither cell line grew at 34 Celsius. No cells adhered to dishes after 72 h
+incubation at this temperature. Using a plaque assay technique, CHSE 114,
+CHSE 214, SSE 5, STE 137, and RTH 149 cell lines were susceptible to IHNV and
+IPNV. The CSE 119 cell line was found to be unsuitable for use in plaque assays.
+Both control and virus-infected CSE 119 cell monolayers developed plaques
+similar to those produced by viruses. Attempts at cloning CHSE 214, CSE 119,
+STE 137, and RTH 149 cell lines were futile. Cells would not grow at
+low densities required for cloning.
+//
 ID   CLPUB00661
 RA   Fraser J.;
 RT   "Collagen metabolism by fibroblasts from normals and individuals with
@@ -10814,6 +11098,35 @@ arginine. Exchange properties of the lysine carrier were exploited to
 assess its function in fibroblasts from patients with the Mendelian
 phenotype, lysinuric protein intolerance (LPI). LPI vesicles were not
 different from controls in their lysine transport phenotype.
+//
+ID   CLPUB00704
+RA   Lu Y.-N.;
+RT   "Establishment and characterization of three new cell lines from grass
+RT   carp (Ctenopharyngodon idellus).";
+RL   Thesis MSc (1987), Oregon State University, United States.
+WW   http://hdl.handle.net/1957/40296
+DR   Cellosaurus; CVCL_R973; GCF
+DR   Cellosaurus; CVCL_R974; GCS-2
+DR   Cellosaurus; CVCL_R975; GCSB
+AB   Yes
+Three new cell lines were established from explants of fin (GCF), snout
+(GCS-2), and swim bladder (GCSB) obtained from two grass carp fry,
+Ctenopharynogodon idellus. The GCSB cells were fibroblastic and the GCF
+and GCS-2 cells exhibited mixed morphology. The new cell lines have been
+successfully subcultured fifty times. The three cell lines were maintained
+at temperatures between 20-36 Celsius with the optimum 28-32 Celsius. The
+plating efficiencies for GCF, GCS-2, and GCSB were determined to be
+approximately 13, 7, and 4%, respectively. The three cell lines exhibited
+similar chromosome distributions which ranged from 39 to 51 with a modal
+number of 48. The cell lines were free of mycoplasmal, bacterial, and
+fungal contamination at the tenth and thirty-fifth passages. These cells
+were tested for their susceptibility to eight fish viruses. The chum
+salmon virus (CSV), golden shiner virus (GSV), infectious hematopoietic
+necrosis virus (IHNV), infectious pancreatic necrosis virus (IPNV), and
+spring viremia of carp virus (SVCV) were found to replicate in all three
+cell lines. However, channel catfish virus (CCV), channel catfish reovirus
+(CRV), and chinook salmon paramyxovirus (CSP) failed to replicate in these
+cells.
 //
 ID   CLPUB00453
 RA   Boright A.P.;
@@ -10974,6 +11287,30 @@ to kill antigen-bearing MCF-7 cells in vitro after irradiation. The
 HMFG-l-Hp conjugate had no effect on EJ-138 cells under identical conditions. The
 EJ-138 cell line does not express the antigen to which the HMFG-1 antibody
 binds.
+//
+ID   CLPUB00705
+RA   Poyer J.C.;
+RT   "The establishment and study of two elasmobranch cell lines.";
+RL   Thesis MSc (1992), Florida Atlantic University, United States.
+WW   http://purl.flvc.org/fcla/dt/14795
+DR   Cellosaurus; CVCL_B7QE; NSB
+DR   Cellosaurus; CVCL_B7QD; SSB
+AB   Yes
+The present study describes the first cell lines produced from members of
+class Chondrichthyes. Explants of brain tissue from Carcharhinus
+falciformis (silky shark) and Ginglymostoma cirratum (nurse shark) were
+incubated in a mammalian medium modified with the addition of urea,
+trimethylamine N-oxide, NaCl, and bovine serum. Primary monolayers were
+passaged with 0.025% trypsin in a modified saline solution. Silky shark
+cells grew optimally at 29C. The population doubling time for C.
+falciformis cells at passage 29 was 67 hours. For G. cirratum cells at
+passage 6 the population doubling was 84 hours. Silky shark cells grew
+over a broad range of osmolalities from 315 mOsm to a 1664 mOsm with
+optimal growth at 650 mOsm. A medium containing 10% dimethylsulfoxide
+allowed for cryopreservation with greater than 65% viability upon recovery.
+Current theories of elasmobranch osmoregulation are discussed in light of
+experimental data collected from studies conducted on the silky shark cell
+line.
 //
 ID   CLPUB00663
 RA   Leckett B.;
@@ -11674,6 +12011,54 @@ transcripts were found in RCC cell lines (58%), in RCC biopsies (80%) and
 only in 10% of kidney epithelium biopsies. In the RCC cell line MZ2733RC a
 constitutive HLA-G1 protein expression was observed, which is inducible by
 IFN-gamma-treatment.
+//
+ID   CLPUB00698
+RA   van Bokhoven A.;
+RT   "Models for prostate cancer. Molecular characterization and critical
+RT   appraisal of human prostate carcinoma cell lines.";
+RL   Thesis PhD (2004), Katholieke Universiteit Nijmegen, Netherlands.
+WW   https://repository.ubn.ru.nl/handle/2066/58826
+DR   https://web.expasy.org/cgi-bin/cellosaurus/search?input=CLPUB00698
+AB   Yes
+The aim of this thesis is to define the collection of prostate carcinoma
+cell lines This is accomplished by verifying the origin of described cell
+line models as well as a thorough characterization of the models by
+karyotypic, mutation, and expression analyses.
+
+Chapter II. Seven prostate carcinoma cell lines are analyzed for cadherin
+and catenin expression. Expression of mesenchymal cadherins is observed in
+cell lines with an impaired E-cadherin adhesion. Possible implications of
+epithelial/mesenchymal transition for prostate carcinogenesis are
+discussed.
+
+Chapter III. The genetic background of 14 widely used prostate carcinoma
+cell lines is analyzed by cytogenetics, DNA profiling and mutation
+analysis. Several supposedly unique cell lines appear to have a common
+origin. Guidelines for cell line use are discussed.
+
+Chapter IV. Two cell lines previously believed to be of prostatic origin
+are identified as cross-contaminants of T24 bladder carcinoma cells
+Implications of continued use of cross-contaminants in research are
+discussed.
+
+Chapter V. Comparison of several commercial available profiling kits and
+the use of publicly available data as reference source for cell line
+identification are described. The PEAZ-1 cell line believed to be of
+prostatic origin is identified as a HT-1080 fibrosarcoma derivative.
+
+Chapter VI. An extensive literature search for putative prostate carcinoma
+cell lines and subsequent molecular analysis defines a collection of 17
+prostate carcinoma cell lines. Comprehensive analysis of p53 and androgen
+receptor status combined with expression analysis of differentiation
+markers is used to determine how accurate these cell lines mimic different
+stages of prostate cancer.
+
+Chapter VII. Detailed spectral karyotypic analysis of prostate carcinoma
+cell lines and a comparison with chromosomal changes observed in prostate
+cancer.
+
+Chapter VIII. Karyotypic analysis of two non-acinar prostate carcinoma cell
+lines.
 //
 ID   CLPUB00407
 RA   Krieg A.;
@@ -13509,6 +13894,15 @@ and the new therapeutic strategies and drugs for the treatment of MTC.
 Furthermore, the aim is to assemble the data provided about MTC cell lines
 and to give an overview of their characteristics.
 //
+ID   CLPUB00697
+RA   Mughal A.J.;
+RT   "Establishment and characterization of human breast cancer cell line of Pakistani
+RT   origin.";
+RL   Thesis MSc (2015), University of Karachi, Pakistan.
+WW   http://library.iccs.edu/cgi-bin/koha/opac-detail.pl?biblionumber=157536
+DR   Cellosaurus; CVCL_B7IM; BC-PAK1
+AB   No
+//
 ID   CLPUB00529
 RA   Lala N.;
 RT   "Characterization of ERBB4 expression in osteosarcoma.";
@@ -13914,6 +14308,50 @@ the conclusion that tumor associated cachexia can be combatted with the
 GDF-15 antibody B1-23. Further, B1-23 might elicit direct anti-tumor
 effects in immune competent models, which contain T cells, rather than in
 an athymic, T cell deficient nude mouse model.
+//
+ID   CLPUB00692
+RA   Robles-Munoz V.D.;
+RT   "The development of an in vitro 3D histotypic model of the human
+RT   eccrine sweat gland.";
+RL   Thesis PhD (2016), Queen Mary University of London, United Kingdom.
+WW   http://qmro.qmul.ac.uk/xmlui/handle/123456789/12910
+DR   Cellosaurus; CVCL_B7BW; EC23
+DR   Cellosaurus; CVCL_B7BX; EC23 clone 1
+DR   Cellosaurus; CVCL_B7BY; EC23 clone 2
+DR   Cellosaurus; CVCL_B7BZ; EC23 clone 3
+DR   Cellosaurus; CVCL_B7C0; EC23 clone 4
+DR   Cellosaurus; CVCL_B7C1; EC23 clone 5
+DR   Cellosaurus; CVCL_B7C2; EC23 clone 7
+DR   Cellosaurus; CVCL_B7C3; EC23 clone 8
+DR   Cellosaurus; CVCL_B7C4; EC23 clone 9
+AB   Yes
+The human eccrine sweat gland is present on most body sites and is crucial
+for thermoregulation. Yet, little is known on the mechanisms that govern
+its function and its morphogenesis. The main reason for the lack in
+research with regards to the human eccrine gland is the difficulty in
+isolation and maintenance of the glands and cells in vitro. Only one other
+cell line derived from the human eccrine gland has ever been reported, the
+NCLSG3 cell line. NCL-SG3 cells do not however, function like native
+eccrine secretory coil cells, and thus a better cell model was required.
+In this project, a human eccrine secretory coil cell line, the EC23 cell
+line, was developed, along with 8 clones derived from said cell line. EC23
+cells and their clones express a panel of markers characteristic of the
+human eccrine sweat gland secretory coil cells. Furthermore, calcium
+fluxes can be elicited by cholinergic stimulation of the cells suggesting
+retention of the native secretory cell phenotype unlike NCL-SG3 cells. The
+EC23 cell line is also responsive to adrenergic stimuli to a higher degree
+than NCL-SG3 cells, especially clone 2, however all the cell lines
+responded significantly less than primary eccrine secretory coil cells
+upon isoproterenol stimulation. It was also found that the mesenchyme has
+a crucial effect in determining the formation of eccrine like down-growths
+in Matrigel organotypic models seeded with EC23 cells, where organotypics
+made with adult fibroblasts failed to form down-growths in comparison to
+neonatal fibroblasts. Furthermore, the co-culture of EC23 cell with
+keratinocytes enhanced the amount of downgrowth. EC23 cells have the
+capacity to form branching structures that resemble native eccrine glands
+in GFR Matrigel supplemented with EGF and EDA, and to a lesser extent BMP4.
+In conclusion it was demonstrated that the EC23 cells can be used as a
+model to study the human eccrine gland, in particular the secretory coil.
 //
 ID   CLPUB00426
 RA   Sansac C.;
@@ -14479,6 +14917,50 @@ the pancreatic endocrine program. Further studies are needed to elucidate
 how to achieve a fully mature and functional beta-like cell phenotype in
 Nes160 cells.
 //
+ID   CLPUB00696
+RA   Bossart E.A.;
+RT   "Investigation of EMT-like phenotypes in established and novel model
+RT   systems of invasive lobular breast carcinoma.";
+RL   Thesis PhD (2018), University of Pittsburgh, United States.
+WW   http://d-scholarship.pitt.edu/34370/
+DR   Cellosaurus; CVCL_B7HJ; WCRC-25
+AB   Yes
+Invasive lobular carcinoma (ILC) is an understudied, unique subtype of
+breast cancer. E-cadherin (CDH1) loss is a hallmark of ILC that
+contributes to its many observed epithelial to mesenchymal transition
+(EMT)-like features. Though ILCs predominantly express clinically
+actionable target estrogen receptor alpha (ERa), common late recurrences
+suggest a role for endocrine therapy resistance. We recently identified de
+novo resistance to the partial estrogen receptor antagonist/agonist
+Tamoxifen (4OHT) in MDA-MB-134-VI ILC cells that was accompanied by
+upregulation of EMT transcription factor (EMT-TF) SNAIL (SNAI1). We
+therefore hypothesized that 4OHT induction of SNAIL contributes to
+endocrine therapy resistance in a subset of ILCs. We demonstrated estrogen
+induction of SNAI1 in multiple invasive ductal carcinoma (IDC) and ILC
+cell lines. In contrast, 4OHT induction of SNAI1 was restricted to ILC
+cells tested, and was associated with recruitment of ERa to the SNAI1
+promoter. We observed upregulation of additional EMT genes in ILC cells,
+partially translatable to clinical samples. However, 4OHT regulation of
+SNAIL was unique, thus we pursued study of SNAIL-mediated phenotypes in
+ILC cells. Unfortunately, manipulation of SNAIL levels in ILC cells was
+challenging, with expression rebound in stable constitutive
+knockdown/overexpression attempts. Inducible SNAIL overexpression revealed
+unexpected repression of 2D and 3D proliferation. These data suggest a
+role for SNAIL in unexplored, critical ILC phenotypes (e.g. tumor
+dormancy). Lack of ILC models for these studies highlighted need for novel
+ILC cell lines. We therefore established and characterized ILC cell line
+WCRC-25 from a pleural effusion from a patient with ER+ ILC. WCRC-25
+maintained phenotypes consistent with other ILC cells (e.g. slow
+proliferation, poor soft agar formation). We identified a somatic CDH1
+mutation (2240C>T, p.Q706*) in gDNA from WCRC-25 that we confirmed in
+liquid biopsies from the patient. DNA/RNA sequencing analyses are being
+performed using clinical samples from the patient. While loss of ER
+impeded testing endocrine therapy resistance in WCRC-25 cells, additional
+drug responses revealed sensitivity to a PI3K inhibitor. In summary, these
+studies provided the foundation for better understanding of the role of
+EMT-TF SNAIL in endocrine therapy resistance, and led to establishment and
+characterization of a novel ILC research tool.
+//
 ID   CLPUB00570
 RA   da Luz Efe F.;
 RT   "Establishment and characterization of abiraterone acetate resistant
@@ -14663,6 +15145,57 @@ sublines. Their parental cell lines were derived from a pleural effusion
 exudate which was thought to be more aggressive and resistant to anti-
 cancer drugs.
 //
+ID   CLPUB00695
+RA   Guerit E.;
+RT   "Generation of an ABCB5-knockout human melanoma cell line using the
+RT   CRISPR/Cas9 genome editing-tool: study of ABCB5 subcellular
+RT   localization by cell fractionation.";
+RL   Thesis MSc (2019), University of Namur, Belgium.
+WW   https://researchportal.unamur.be/fr/studentTheses/generation-of-an-abcb5-knockout-human-melanoma-cell-line-using-th
+DR   Cellosaurus; CVCL_1403; Mel JuSo
+DR   Cellosaurus; CVCL_B7EF; Mel JuSo ABCB5 KO clone HO1
+DR   Cellosaurus; CVCL_B7EG; Mel JuSo ABCB5 KO clone HO2
+DR   Cellosaurus; CVCL_B7EH; Mel JuSo ABCB5 KO clone HO3
+DR   Cellosaurus; CVCL_B7EI; Mel JuSo ABCB5 KO clone HO4
+AB   Yes
+ABC transporters are integral membrane proteins mediating the active
+transport of molecules towards the plasma membrane and playing a role in a
+wide variety of physiological functions of the cell. Many of these
+transporters are also implicated in cancer drug resistance. ABCB5 has been
+described as a marker of skin progenitor cells, melanoma stem cells, and
+limbal stem cells. It was reported to be a mediator of multidrug
+resistance in many cancers including melanoma. More recent data also
+suggest a role of ABCB5 in tumor development and progression. Although
+eleven transcripts of human ABCB5 have been identified, including two long
+transcripts named ABCB5FL (full-length) and ABCB5beta, the transporter
+remains little characterized and its subcellular localization has not been
+validated yet. This research project is divided in two parts. First, it
+aims to generate an ABCB5-knockout human melanoma cell line to create a
+powerful tool better characterize the ABCB5 transporter. Second, it aims
+to use this ABCB5-knockout cell line to pursue the study of the ABCB5
+subcellular localization. The CRISPR/Cas9 genome editing tool will be
+employed to knockout the ABCB5 gene, by removing either a fragment of 53
+kb or 125 kb. For that purpose, high quality guide RNAs will be selected
+to target specific regions of the gene and to limit the risk of off-target
+effects. The ABCB5-knockout cell lines will be validated at the genomic
+level by PCR and sequencing, and at the proteic level by Western Blot. The
+latter will also serve to prove the specificity of the anti-ABCB5
+antibodies. The method of cell fractionation described by de Duve et al.
+will be used to study the ABCB5 subcellular localization.We successfully
+obtained cell lines with a biallelic 53 kb deletion and cell lines with a
+monoallelic 125 kb deletion in ABCB5. Both have been validated at the
+genomic level by PCR and sequencing, and the proteic validation is being
+performed. We performed a first set of cell fractionation on the MelJuso
+parental cell line to optimize the method and to establish a first
+distribution profile of ABCB5. Although we have detected an enrichment of
+ABCB5 in the nuclear and microsomal fractions, our results remain
+hypothetical. Indeed, the anti-ABCB5 antibody used in the experiment is a
+polyclonal antibody, which recognizes many other proteins. After
+validating the specificity of the antibody by Western Blot, we will
+perform a second fractionation on both ABCB5-expressing and ABCB5-knockout
+Mel-Juso cell lines to strenghten the current data on the transporter
+localization.
+//
 ID   CLPUB00550
 RA   Benhamron S.;
 RT   "Validating WDR12 as a potential drug target in triple negative breast
@@ -14807,6 +15340,30 @@ resistant cells that can be selected for, in vitro, by clinically relevant
 CDDP treatment. These cells are distinct from those having emerged
 clinically in the original patient.
 //
+ID   CLPUB00709
+RA   Henry J.Y.;
+RT   "Innate lymphoid-macrophage crosstalk promotes lung cancer regression
+RT   in response to IL-12 therapy.";
+RL   Thesis PhD (2019), University College London, United Kingdom.
+WW   https://discovery.ucl.ac.uk/id/eprint/10084584
+DR   Cellosaurus; CVCL_C0RJ; KPB6
+AB   Yes
+The ability of IL-12 to affect both innate and adaptive immunity positions
+this cytokine as a promising candidate to overcome the immunosuppressive
+microenvironment within tumours. Despite its potent activity in
+experimental models, the clinical use of IL 12 has been thwarted by its
+reported toxicity in human trials. Intranasal administration of an IL-12-
+coding lentivirus efficiently transduced alveolar macrophages in tumour-
+bearing mice, restricting IL-12 expression to the lung parenchyma and
+promoting rejection of established lung metastases. IL-12 stimulated
+IFNgamma production by innate lymphoid cells (ILC), inducing the
+activation of interstitial macrophages, whose presence was essential for
+tumour eradication. These data demonstrates the potent anti tumour
+activity of local lentiviral IL-12 therapy against metastatic disease in
+the lung and the critical role played by the innate crosstalk established
+between ILCs and tissue resident phagocytes within the lung
+microenvironment.
+//
 ID   CLPUB00553
 RA   Larsen S.;
 RT   "Phenotypic characterization of cellular models of VPS35-associated
@@ -14914,6 +15471,114 @@ tumors with an efficient tumor take rate (94%) and growth rate (139% +-
 xenograft tumors resembled the original human tumor. These outstanding
 characteristics qualify NT-3 as a relevant model to study neuroendocrine
 tumor biology and to develop new NET treatments.
+//
+ID   CLPUB00708
+RA   Prouteau A.;
+RT   "Canine mucosal melanoma as a genetic and therapeutic model for human mucosal
+RT   melanoma.";
+RL   Thesis PhD (2020), Universite de Rennes, France.
+WW   https://tel.archives-ouvertes.fr/tel-03199443
+DR   Cellosaurus; CVCL_0D14; Bear
+DR   Cellosaurus; CVCL_IZ11; CML-10
+DR   Cellosaurus; CVCL_C0MM; Dog-OralMel-18249
+DR   Cellosaurus; CVCL_C0MN; Dog-OralMel-18333
+DR   Cellosaurus; CVCL_C0MP; Dog-OralMel-18395
+DR   Cellosaurus; CVCL_C0MQ; Dog-OralMel-18657
+DR   Cellosaurus; CVCL_C0MR; Dog-OralMel-18848
+AB   Yes
+My PhD is in the frame of the comparative oncology field about the genetic
+study of mucosal melanoma (MM) in dogs, that spontaneously develop oral
+melanoma, frequent in some breed and severe. Thus, it constitutes a good
+natural model for human MM that is rare and very aggressive. The exome
+sequencing analysis of 70 canine MM cases by the team allowed to identify
+recurrent somatic alterations. I first focused on amplifications on canine
+chromosome (CFA) 10 and 30. On a cohort of 73 cases, I showed that the
+amplification of CFA 30 had a prognostic value. We showed that amplified
+genes were also overexpressed and had a role on tumour cell proliferation.
+The whole genome sequencing of canine cell lines showed that those
+amplifications signedcomplex chromosomal rearrangements, as it is seen in
+human MM. In the same time, the transcriptomic analysis of 32 canine MM
+samples showed the existence of two molecular subgroups: the first
+characterized by the overexpression of genes related to immune
+microenvironment, and the second by overexpression of oncogenes like TERT
+and MITF. Moreover, those groups differ in their structural variants
+content, more important in the second one. Those results suggest the use
+of different therapies, immunotherapy and targeted therapy respectively.
+This work allowed to better characterize genetics of canine MM and opens
+therapeutic perspectives to benefit human and veterinary oncology for non
+UV-induced melanomas.
+//
+ID   CLPUB00693
+RA   Welzel J.;
+RT   "Development, characterization, and application of novel in vitro
+RT   human eccrine sweat gland models for studying new mechanisms to
+RT   regulate sweating.";
+RL   Thesis PhD (2021), Heinrich-Heine-Universitat Dusseldorf, Germany.
+WW   https://docserv.uni-duesseldorf.de/servlets/DocumentServlet?id=57434
+DR   Cellosaurus; CVCL_B7BU; SGDC-1D10
+AB   Yes
+Thermoregulation of the human body mainly relies on sweating. Thereby,
+aqueous sweat fluid secreted by eccrine sweat glands onto the skin surface
+evaporates and cools the skin. Although this is a natural, highly
+efficient process providing humans with an evolutionary advantage,
+appearance of wet patches on clothes is mostly undesired today. Especially
+in case of sweat-related disorders such as hyperhidrosis, where excessive
+sweating occurs, this poses a high burden for the individual. Underlying
+dysregulation of sweating is, up to now, only partly understood and just
+few alleviating agents are available. For some of them the mechanism of
+action is well investigated, whereas the one of the most common
+antiperspirant ingredient, aluminum chlorohydrate (ACH), is still only
+partly disclosed. It is assumed to encompass physical blockage of the
+eccrine sweat gland.
+
+To intensify the knowledge of the sweating mechanism on a cellular level
+and to elucidate possible physiological effects of ACH, a cell-based in
+vitro test procedure was developed. As sweating is mainly a process of ion
+fluxes between eccrine sweat gland cells, gland lumen, and surrounding
+tissue, herein established methodical test system relies on monitoring of
+intracellular changes of calcium, potassium, sodium, and chloride ions
+using cultured primary human eccrine sweat gland cells. Employing this
+novel procedure ACH was demonstrated to also evoke physiological reactions
+in human eccrine sweat gland cells. Strikingly, a distinct class of
+substances, Cl(-)-containing ammonium solutions, elicited the same
+characteristic ion changes as ACH. With further testing, polyols were
+identified as another class of substances dysregulating the ion
+equilibrium in vitro. For both substance classes the antiperspirant effect
+was verified in humans. Strengthening herein developed reliable in vitro
+test system, even proposals for underlying cellular mode of action of
+these agents are possible. This highlights the capabilities of these
+methods and contributes significantly to understanding sweating on a
+cellular basis.
+
+Adding to the latter aspect, an organotypic three-dimensional model of the
+human eccrine sweat gland was developed in this work to facilitate
+detailed scrutiny of cell-cell-interactions between the cell types of
+secretory coil and reabsorbing duct. In a further step, those cells were
+successfully integrated into newly designed in vitro dermal equivalents
+comparable to the natural environment in human skin. Both these in vitro
+models emphasized cellular interdependency of coil and duct cells in
+developing certain proteins and revealed some alterations in protein
+expression of cultured cells compared to native eccrine sweat gland cells.
+
+Those deviances were also apparent in herein generated eccrine sweat gland
+duct cell line. After transduction with simian virus 40 large T antigen-
+containing lentiviral vector and overcoming of a short proliferation
+crisis, transduced eccrine duct cells exhibited an extended lifespan with
+stable growth suggesting their immortalized state. As duct cells represent
+the primary target of topically applied products and, so far, no
+immortalized duct cell line is available for research, this newly
+generated and described transduced duct cell line represents an important
+tool for standardization of cellular material in future in vitro sweat
+gland research. It should facilitate more detailed elucidation of
+physiological sweating processes and pose a defined source of cellular
+material for generation of organotypic sweat gland models.
+
+Results of this PhD thesis add significantly to understanding the
+mechanism of sweating including required cellular interactions. With the
+help of newly generated eccrine sweat gland duct cell line standardization
+of these in vitro approaches is feasibly in future, which allows for
+further detailed investigation of perspiration and cellular
+interdependency with relevance for treating dermal disorders.
 //
 ID   CLPUB00262
 RA   Gold M.;
@@ -15507,31 +16172,6 @@ RL   (In) Advances in viral oncology, Vol. 4; Klein G. (eds.); pp.95-137; Raven 
 DR   Cellosaurus; CVCL_2015; DA-1
 DR   Cellosaurus; CVCL_5419; DA-3 [Mouse lymphoma]
 AB   No
-//
-ID   CLPUB00476
-RA   Deramoudt F.-X., Monnet S., Rabaud J.-N., Quiot J.-M., Cerutti M.,
-RA   Devauchelle G., Kaczorek M.;
-RT   "Production of a recombinant protein in a high density insect cell
-RT   cytoflow reactor.";
-RL   (In) Animal cell technology. Products of today, prospects for tomorrow; Spier R.E., Griffiths J.B., Berthold W. (eds.); pp.222-226; Butterworth-Heinemann; Oxford (1984).
-DR   Cellosaurus; CVCL_VT61; SPC-Mb 92
-AB   Yes
-The production of a recombinant protein was assayed in a new Mamestra
-brassicae cell line grown at high density in a serum free medium. The gene
-coding for Drosophila melanogaster acetylcholinesteraes (AchE) was
-inserted in a baculovirus under the control of the P10 promoter. Cell
-growth rate and metabolism, together with the rate of production of the
-recombinant protein, were comparatively measured in a standard stirred
-bioreactor and in a perfused stirred bioreactor coupled to an external
-cell recycling system (the Cytoflow of SGI). In the perfused culture the
-cell growth was linear and reached a maximum cell density of 5x10^7 cells
-per ml, with a stable cell viability near 90% in 13 days. Cell
-concentration was ten fold the concentration observed in batch. Compared
-to the batch culture, total yield of AchE in the perfused culture was 13-
-fold higher within a period time that was only twice. The perfusion
-culture increased the cell specific productivity 8.6 fold. In terms of
-medium cost, the perfusion rate used in these experiments never exceeded
-2.7 working volume per day.
 //
 ID   CLPUB00672
 RA   Breitman T.R., Sato G.H.;
@@ -17468,6 +18108,46 @@ for quantitive viral assays and neutralization tests. Drs. Wiebenga and
 Simizu reported successful production of virus plaques with Machupo and
 several other zoonotic viruses in Vero.
 //
+ID   CLPUB00694
+RA   Story M.M., Stringer B.W., Fonseca-Alves C.E., Straw R.C., Amorim R.L.,
+RA   Palmieri C.;
+RT   "Establishment and characterisation of a new canine prostate cancer cell line
+RT   (Kodiak2016).";
+RL   (In) 4th joint ESVP, ECVP and ESTP Cutting Edge Pathology Congress; pp.?-?; Torino (2021).
+WW   https://www.researchgate.net/publication/357685645_ESTABLISHMENT_AND_CHARACTERISATION_OF_A_NEW_CANINE_PROSTATE_CANCER_CELL_LINE_KODIAK2016
+DR   Cellosaurus; CVCL_B7DS; Kodiak2016
+AB   Yes
+Cultured cancer cell lines are critical for canine prostate cancer
+research and represent an invaluable resource for the field of comparative
+oncology. Research on canine prostate cancer is often hampered by the
+difficultly in acquiring sufficient tissue samples for laboratory studies
+and affected dogs for clinical studies, due to the relatively low
+prevalence of canine prostate cancer compared to human prostate cancer and
+the reluctance of owners to pursue diagnostic tests and treatment due to
+the disease’s very poor prognosis. While cell lines do not replace tissue
+samples or in vivo studies, they provide another option for studying
+canine prostate cancer. In addition, they can be used to help determine
+what future studies are likely to be the most valuable, so that in vivo
+studies and studies on tissue samples can be focused on these areas.
+
+Basal, luminal and intermediate prostatic epithelial cells can be
+differentiated based on the expression of cytokeratin 5 (CK5), cytokeratin
+14 (CK14), cytokeratins 8 and 18 (CK8/18) and tumour protein 63 (p63).
+Uroplakin III (UPIII) is expressed by urothelial cells but not by
+prostatic cells and so can assist in differentiating tumours of urothelial
+origin from those of prostatic origin. Nine canine prostatic carcinoma
+cell lines have been described but comparison of the expression of CK5,
+CK14, CK8/18, p63 and UPIII between the cell lines and the original
+tumours has not been reported for any of them. This means it is not known
+if the cell lines recapitulate the expression of these characterisation
+markers by the original tumours. Thus, we established a new canine
+prostatic carcinoma cell line and then compared the expression of these
+characterisation markers between the original tumour, the cell line and a
+non-obese diabetic/severe combined immunodeficiency (NOD/SCID) mouse
+xenograft, using immunohistochemistry (IHC) and immunofluorescence (IF).
+We also performed whole genome sequencing (WGS) on the cell line to look
+for genomic alterations.
+//
 ID   CLPUB00455
 RA   Koskela K., Pelliniemi T.-T., Remes K., Savino R., Ciliberto G.,
 RA   Pulkki K.;
@@ -17626,6 +18306,9 @@ RX   DOI=10.4044/joma1947.97.7-8_701;
 ID   CLPUB00258
 RX   DOI=10.12665/J63.Morgan;
 //
+ID   CLPUB00264
+RX   DOI=10.24135/pjr.v4i1.622;
+//
 ID   CLPUB00267
 RX   DOI=10.20772/cancersci1907.40.1_1;
 //
@@ -17691,6 +18374,9 @@ RX   DOI=10.4044/joma1947.76.4-6_215;
 //
 ID   CLPUB00399
 RX   DOI=10.15114/smj.57.603;
+//
+ID   CLPUB00476
+RX   DOI=10.1016/B978-0-7506-1845-8.50054-5;
 //
 ID   CLPUB00566
 RX   DOI=10.21954/ou.ro.0000e27e;

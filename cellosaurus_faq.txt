@@ -4,8 +4,8 @@
 ----------------------------------------------------------------------------
 
  Description: Cellosaurus: frequently asked questions
- Version: 41.0
- Last update: 17-March-2022
+ Version: 42.0
+ Last update: 23-June-2022
 
 ----------------------------------------------------------------------------
 
@@ -38,9 +38,10 @@ Q24: Why can't I find a recently created entry in the Cellosaurus?
 Q25: How can I access an old version of the Cellosaurus?
 Q26: Do vaccines contain cell lines?
 Q27: How do I get cell line XYZ to grow?
-Q28: What are the differences between the Cellosaurus and hPSCreg
+Q28: What are the differences between the Cellosaurus and hPSCreg?
 Q29: Are fetuses aborted to derive cell lines?
 Q30: Is the sequence of gene ABCD identical in cell line XYZ and in the reference human genome?
+Q31: Why when I use CLASTR to search for similarities between the STR profile of my mouse cell line and the profiles stored in the Cellosaurus I am either not getting any hits or unexpectedly get a very high match with a number of cell lines?
 
 ----------------------------------------------------------------------------
 
@@ -110,8 +111,8 @@ Examples:
 https://web.expasy.org/cgi-bin/cellosaurus/search?input=CVCL_0030
 https://web.expasy.org/cgi-bin/cellosaurus/search?input=hela
 https://web.expasy.org/cgi-bin/cellosaurus/search?input=sus+scrofa
-https://web.expasy.org/cgi-bin/cellosaurus/search?input="fish cell line"
-https://web.expasy.org/cgi-bin/cellosaurus/search?input=doubling+time+"3 days"
+https://web.expasy.org/cgi-bin/cellosaurus/search?input="fish%20cell%20line"
+https://web.expasy.org/cgi-bin/cellosaurus/search?input=doubling+time+"3%20days"
 https://web.expasy.org/cgi-bin/cellosaurus/search?input="PubMed=1000501"
 
 ----------------------------------------------------------------------------
@@ -243,7 +244,7 @@ InvivoGen:
  https://www.invivogen.com/cell-lines
 ISENET Biobanking:
  https://www.isenetbiobanking.com/stem-cells-catalogue
-Istituto Zooprofilattico Sperimentale della Lombardia e dell’Emilia Romagna biobank (IZSLER):
+Istituto Zooprofilattico Sperimentale della Lombardia e dell'Emilia Romagna biobank (IZSLER):
  http://www.ibvr.org/Services/CellCultures.aspx
 Japanese Collection of Research Bioresources Cell Bank (JCRB):
  https://cellbank.nibiohn.go.jp/english/
@@ -924,7 +925,7 @@ https://www.wiley.com/en-gb/Freshney%27s+Culture+of+Animal+Cells%3A+A+Manual+of+
 
 ----------------------------------------------------------------------------
 
-Q28: What are the differences between the Cellosaurus and hPSCreg
+Q28: What are the differences between the Cellosaurus and hPSCreg?
 
 A: In a nutshell, the Cellosaurus is a knowledge resource on all types of
 cell lines from a wide range of organisms, hPSCreg is a registry for human
@@ -1024,14 +1025,14 @@ Thanks to Amanda Capes-Davies for important contributions to this FAQ.
 
 Q30: Is the sequence of gene ABCD identical in cell line XYZ and in the reference human genome?
 
-A: This is a quite interesting question whose answer is dependent on a two
+A: This is a quite interesting question whose answer is dependent on two
 distinct factors.
 
 First, if you are working with a cancer cell line, it will harbor a varying
 number of somatic mutations that the original tumor accumulated during the
 cancer progression. The number of these mutations will differ across
 different cancer types and goes up to more than 200 in melanomas (see
-https://pubmed.ncbi.nlm.nih.gov/23539594). It is also important to be aware
+https://pubmed.ncbi.nlm.nih.gov/23539594 ). It is also important to be aware
 that cancer cells generally undergo chromosomal rearrangements that lead to
 gene fusions, deletions and amplifications. All of those events have an
 impact on the sequence of the gene that you are interested to study.
@@ -1050,7 +1051,7 @@ supplementary tables of cited papers.
 
 The second reason that will lead to sequence variations are the presence of
 sequence polymorphisms. Resources such as the Genome Aggregation Database
-(GnomeAD; https://gnomad.broadinstitute.org/) already contains information on
+(GnomeAD; https://gnomad.broadinstitute.org/ ) already contains information on
 more than 700 millions sequence variants obtained from exome and genome
 sequence of more than 150000 individuals. While many of these variants are
 rare there are a significant number of variants that are present with a high
@@ -1059,3 +1060,26 @@ that the sequence of a gene from an individual from which a cell line was
 established will be slightly different from that stored in the reference
 human genome.
 
+----------------------------------------------------------------------------
+
+Q31: Why when I use CLASTR to search for similarities between the STR profile of my mouse cell line and the profiles stored in the Cellosaurus I am either not getting any hits or unexpectedly get a very high match with a number of cell lines?
+
+A: There are two issues one must consider when using CLASTR with mouse cell lines.
+
+1) Currently only very few mouse cell lines have been STR profiled. In June
+2022 we have STR profiles for only 77 mouse cell lines in the Cellosaurus.
+Thus we encourage anyone that is sending a mouse cell line to be
+authenticated to submit the STR profile to the Cellosaurus or at least to
+include it in the supplementary files of their publication. As not all
+companies/facilities are yet proficient in calling the alleles for the
+different loci, it would be useful to include the electropherogram in the
+STR report.
+
+2) Many cell lines are established from mice with the same genetic
+background, some are even derived from the same generation of clonal mice,
+and their STR profiles are generally either identical or highly similar.
+Thus it is not surprising that two cell lines that have been independently
+established by different laboratories at different time will share very
+similar STR profiles if they originate from the same mouse breed/strain.
+
+Thanks to Jamie L. Almeida for important contributions to this FAQ.

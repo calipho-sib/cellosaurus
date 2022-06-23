@@ -6,57 +6,55 @@
    \_____\___|_|_|\___/|___/\__,_|\__,_|_|   \__,_|___/
 
 
-This is the release notes for Cellosaurus version 41 of March 2022
+This is the release notes for Cellosaurus version 42 of June 2022
 
 1) Statistics
 
-136313 cell lines (102081 human, 23519 mouse, 2537 rat)
-   759 species represented
- 98213 synonyms
-400865 cross-references to 99 ontologies, databases, catalogs, etc.
-140507 references to 23950 distinct publications (papers, patents, theses, etc.)
- 13347 web links
+139592 cell lines (105008 human, 23741 mouse, 2565 rat)
+   772 species represented
+101488 synonyms
+407841 cross-references to 101 ontologies, databases, catalogs, etc.
+142777 references to 24616 distinct publications (papers, patents, theses, etc.)
+ 13491 web links
 
-  8134 human, mouse and dog cell lines with STR profiles (from 705 distinct sources)
+  8275 human, mouse and dog cell lines with STR profiles (from 743 distinct sources)
 
-Since release 40 of December 2021:
-  1482 entries were created
- 24553 entries were updated
+Since release 41 of March 2022:
+  3293 entries were created
+ 12525 entries were updated
 
 2) Changes concerning cross-references
 
-2a) Cross-references were added to the Innoprot cell line products.
-Previously web links were provided to this resource, but we upgraded them to
-cross-references.
+2a) Cross-references were added to the CancerTools.org, a non-profit, global
+community of cancer researchers, academic institutes and societies, with a
+shared mission, to accelerate cancer research.
 
 Corresponding entry in the file cellosaurus_xrefs.txt:
 
-Abbrev: Innoprot
-Name  : Innoprot cell line products
-Server: https://innoprot.com/
-Db_URL: https://innoprot.com/?s=%s&lang=en
+Abbrev: CancerTools
+Name  : CancerTools.org
+Server: https://www.cancertools.org/cell-lines
+Db_URL: https://www.cancertools.org/cell-lines/%s
 Term. : No
 Cat   : Cell line collections
 
 Example:
-DR   Innoprot; P30125
+DR   CancerTools; 153875
 
-2b) Cross-references were added to the Rockland cell line products.
-Previously web links were provided to this resource, but we upgraded them to
-cross-references.
+2b) Cross-references were added to the "DSMZ Tools for Diving into Cell Line
+Data" also known as DSMZCellDive
 
 Corresponding entry in the file cellosaurus_xrefs.txt:
 
-Abbrev: Rockland
-Name  : Rockland cell line products
-Server: https://www.rockland.com/categories/cell-lines-and-lysates/
-Db_URL: https://www.rockland.com/search/?searchString=%s
+Abbrev: DSMZCellDive
+Name  : DSMZ Tools for Diving into Cell Line Data
+Server: https://celldive.dsmz.de/
+Db_URL: https://celldive.dsmz.de/cellline/%s
 Term. : No
-Cat   : Cell line collections
-//
+Cat   : Cell line databases/resources
 
 Example:
-DR   Rockland; WM1026-01-0001
+DR   DSMZCellDive; ACC-409
 
 ----------------------------------------
 Amos Bairoch
