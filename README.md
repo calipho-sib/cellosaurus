@@ -1,7 +1,7 @@
 Cellosaurus
 ===========
 
-From the CALIPHO group of the SIB - Swiss Institute of Bioinformatics; neXtProt project
+From the CALIPHO group of the SIB - Swiss Institute of Bioinformatics
 
 ## A knowledge resources on cell lines
 
@@ -23,7 +23,7 @@ For each cell line we provide the following information:
 - A recommended name. This is most frequently the name provided in the original publication.
 - A list of synonyms. We try to list all the different synonyms for the cell line, including alternative use of lower and upper cases characters.
 - A unique accession number.
-- Structured comments that are describe a number of topics such as: contaminated cell lines, misspellings, breed/subspecies a cell line is derived from, gene transfection, metastatic or sampling site for cancer cell lines, transformant, population doubling time, HLA typing, sequence variations, etc.
+- Structured comments that are describe a number of topics such as: contaminated cell lines, misspellings, breed/subspecies a cell line is derived from, gene transfection, transformant, the sampling site (tissue/organ), population doubling time, HLA typing, sequence variations, etc.
 - For cell lines originating from a diseased patient/animal, we provide the NCI Thesaurus entry code for the disease(s) that the individual from which the cell line originated was suffering from. For human rare diseases we also provide the ORDO entry code of the disease.
 - For human, mouse and dog cell lines where this information is available, we provide the STR (short tandem repeat) profile information.
 - The species of origin.
@@ -42,17 +42,17 @@ For each cell line we provide the following information:
 The Cellosaurus is available/searchable on the web and downloadable by FTP
 
 Home page:
-https://web.expasy.org/cellosaurus/
+https://www.cellosaurus.org/
 
-Individual entry pages: 'https://web.expasy.org/cellosaurus/%s' where %s is the accession number of the cell line
-
-Example:
-https://web.expasy.org/cellosaurus/CVCL_0033
-
-Text version of entry pages are also available: 'https://web.expasy.org/cellosaurus/%s.txt' where %s is the accession number of the cell line
+Individual entry pages: 'https://www.cellosaurus.org/%s' where %s is the accession number of the cell line
 
 Example:
-https://web.expasy.org/cellosaurus/CVCL_0033.txt
+https://www.cellosaurus.org/CVCL_0033
+
+Text version of entry pages are also available: 'https://www.cellosaurus.org/%s.txt' where %s is the accession number of the cell line
+
+Example:
+https://www.cellosaurus.org/CVCL_0033.txt
 
 FTP: 
 ftp://ftp.expasy.org/databases/cellosaurus
@@ -94,7 +94,7 @@ The Cellosaurus:
 * closely collaborate with hPSCreg in the framework of the annotation of hESCs and hiPSCs (https://hpscreg.eu/about/structures-and-partners)
 * is a participant in the European Joint Programme on Rare Diseases (EJP RD) (https://www.ejprarediseases.org/index.php/coordinated-access-data-services/access-to-data-resources/)
 * is an ELIXIR Core Data Resource (https://elixir-europe.org/platforms/data/core-data-resources)
-* is an IRDiRC Recognized Resource (https://irdirc.org/research/irdirc-recognized-resources/)
+* is an IRDiRC Recognized Resource (https://irdirc.org/resources-2/irdirc-recognized-resources/)
 
 ## Licensing
 
