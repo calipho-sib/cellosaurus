@@ -2681,7 +2681,7 @@ of the somatostatinoma cell line MSL-G2-Tu6 further support the stemcell
 nature of MSL cells. MSL-G2-Tu6 cells constitutes an ideal cell line in
 which to study tissue-specific expression of the somatostatin gene.
 //
-RX   CLPUB00718
+ID   CLPUB00718
 RA   von Bulow M., Scharfe T., Kloppel G., Kern H.F.;
 RT   "Establishment and characterization of continuous tumor-cell lines
 RT   from human pancreatic carcinoma in vitro.";
