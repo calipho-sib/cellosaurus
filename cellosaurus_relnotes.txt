@@ -6,55 +6,55 @@
    \_____\___|_|_|\___/|___/\__,_|\__,_|_|   \__,_|___/
 
 
-This is the release notes for Cellosaurus version 42 of June 2022
+This is the release notes for Cellosaurus version 43 of September 2022
 
 1) Statistics
 
-139592 cell lines (105008 human, 23741 mouse, 2565 rat)
-   772 species represented
-101488 synonyms
-407841 cross-references to 101 ontologies, databases, catalogs, etc.
-142777 references to 24616 distinct publications (papers, patents, theses, etc.)
- 13491 web links
+141885 cell lines (106170 human, 21928 mouse, 2637 rat)
+   792 species represented
+103951 synonyms
+411580 cross-references to 100 ontologies, databases, catalogs, etc.
+146426 references to 25074 distinct publications (papers, patents, theses, etc.)
+ 14489 web links
 
-  8275 human, mouse and dog cell lines with STR profiles (from 743 distinct sources)
+  8448 human, mouse and dog cell lines with STR profiles (from 770 distinct sources)
 
-Since release 41 of March 2022:
-  3293 entries were created
- 12525 entries were updated
+Since release 42 of June 2022:
+  2296 entries were created
+ 10085 entries were updated
 
 2) Changes concerning cross-references
 
-2a) Cross-references were added to the CancerTools.org, a non-profit, global
-community of cancer researchers, academic institutes and societies, with a
-shared mission, to accelerate cancer research.
+2a) Cross-references were added to the newly established Insect Cell Lines
+Database (ICLDB).
 
 Corresponding entry in the file cellosaurus_xrefs.txt:
 
-Abbrev: CancerTools
-Name  : CancerTools.org
-Server: https://www.cancertools.org/cell-lines
-Db_URL: https://www.cancertools.org/cell-lines/%s
-Term. : No
-Cat   : Cell line collections
-
-Example:
-DR   CancerTools; 153875
-
-2b) Cross-references were added to the "DSMZ Tools for Diving into Cell Line
-Data" also known as DSMZCellDive
-
-Corresponding entry in the file cellosaurus_xrefs.txt:
-
-Abbrev: DSMZCellDive
-Name  : DSMZ Tools for Diving into Cell Line Data
-Server: https://celldive.dsmz.de/
-Db_URL: https://celldive.dsmz.de/cellline/%s
+Abbrev: ICLDB
+Name  : Insect Cell Lines DataBase
+Server: https://entomology.ca.uky.edu/aginsectcellsdatabase
+Db_URL: https://entomology.ca.uky.edu/content/%s
 Term. : No
 Cat   : Cell line databases/resources
+//
 
 Example:
-DR   DSMZCellDive; ACC-409
+DR   ICLDB; agf2
+
+2b) Cross-references to eagle-i have been discontinued.
+
+The eagle-i National Network and eagle-i resource search at www.eagle-.net was
+retired on November 4, 2021. See:
+
+https://open.catalyst.harvard.edu/products/eagle-i/
+
+2c) Cross-references to TCB have been discontinued.
+
+The Tick Cell Biobank (TCB) used to be hosted at the Pirbright Institute and
+is now at Liverpool University but does not currently provide individual access
+to information pages on specific cell lines. We have therefore removed the
+cross-references and added a wen link to the home page of the TCB at Liverpool
+in the relevant entries.
 
 ----------------------------------------
 Amos Bairoch

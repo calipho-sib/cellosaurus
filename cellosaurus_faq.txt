@@ -4,8 +4,8 @@
 ----------------------------------------------------------------------------
 
  Description: Cellosaurus: frequently asked questions
- Version: 42.0
- Last update: 23-June-2022
+ Version: 43.0
+ Last update: 22-September-2022
 
 ----------------------------------------------------------------------------
 
@@ -104,16 +104,16 @@ Q06: Is it possible to directly indicate search terms in a URL?
 
 A: Yes, you can do so with the following syntax:
 
-https://web.expasy.org/cgi-bin/cellosaurus/search?input=your_query
+https://www.cellosaurus.org/search?input=your_query
 
 Examples:
 
-https://web.expasy.org/cgi-bin/cellosaurus/search?input=CVCL_0030
-https://web.expasy.org/cgi-bin/cellosaurus/search?input=hela
-https://web.expasy.org/cgi-bin/cellosaurus/search?input=sus+scrofa
-https://web.expasy.org/cgi-bin/cellosaurus/search?input="fish%20cell%20line"
-https://web.expasy.org/cgi-bin/cellosaurus/search?input=doubling+time+"3%20days"
-https://web.expasy.org/cgi-bin/cellosaurus/search?input="PubMed=1000501"
+https://www.cellosaurus.org/search?input=CVCL_0030
+https://www.cellosaurus.org/search?input=hela
+https://www.cellosaurus.org/search?input=sus+scrofa
+https://www.cellosaurus.org/search?input="fish%20cell%20line"
+https://www.cellosaurus.org/search?input=doubling+time+"3%20days"
+https://www.cellosaurus.org/search?input="PubMed=1000501"
 
 ----------------------------------------------------------------------------
 
@@ -164,6 +164,8 @@ American Type Culture Collection (ATCC):
  https://www.atcc.org/
 Applied Biological Materials (abm):
  https://www.abmgood.com/Cell-Biology.html
+B'SYS
+ https://www.bsys.ch/cell-lines.html
 Banco de Celulas do Rio de Janeiro (BCRJ):
  http://bcrj.org.br/celula/bcrj
 BioIVT
@@ -272,8 +274,8 @@ Ncardia:
  https://ncardia.com/
 NIA ES Cell Bank:
  https://esbank.nia.nih.gov/
-NIH AIDS Reagent Program (NIH-ARP):
- https://www.aidsreagent.org/
+NIH HIV Reagent Program:
+ https://www.hivreagentprogram.org/
 NIMH Repository and Genomic Resource:
  https://www.nimhgenetics.org/stem_cells/crm_lines.php
 NINDS Human Cell and Data Repository (NHCDR):
@@ -393,10 +395,8 @@ https://www.ncbi.nlm.nih.gov/pubmed/25714623
 PS1: Thanks to Richard Neve and Amanda Capes-Davies for providing this very
 informative answer.
 
-PS2: In June 2019 we were asked by Barbara Parodi in how many male cancer cell
-lines the amelogenin "Y" allele was not detected. We found out that out of
-2358 human male patient cancer cell lines that have a STR profile in the
-Cellosaurus, 845 of them have at least one report of a STR profile with no
+PS2: In August 2021 out of 4279 human male cell lines that have a STR profile in
+the Cellosaurus, 1174 of them have at least one report of a STR profile with no
 "Y" allele detected.
 
 ----------------------------------------------------------------------------
@@ -580,7 +580,7 @@ submitting so that you have an idea of the type of information we capture.
 And you can also read the following page for a complete list of Cellosaurus
 data fields:
 
-https://web.expasy.org/cellosaurus/description.html
+https://www.cellosaurus.org/description.html
 
 As for a publication-linked cell line, we will send you back a preliminary
 entry for feedback.
@@ -664,8 +664,8 @@ Finally you should note that the list of Cellosaurus entries that are listed
 in tables 1 and 2 of the current public release of the ICLAC register can be
 retrieved using either one of the following two queries:
 
-https://web.expasy.org/cgi-bin/cellosaurus/search?input="iclac.org"
-https://web.expasy.org/cgi-bin/cellosaurus/search?input=%22Register%20of%20Misidentified%20Cell%20Lines%22
+https://www.cellosaurus.org/search?input="iclac.org"
+https://www.cellosaurus.org/search?input=%22Register%20of%20Misidentified%20Cell%20Lines%22
 
 ----------------------------------------------------------------------------
 
@@ -676,6 +676,10 @@ CVCL_xxxx) is identical to the Research Resource Identifier (RRID).
 
 To cite a cell line in a publication use the format: Cell_line_name (RRID:CVCL_xxxx).
 Example: HeLa (RRID:CVCL_0030)
+
+See also our educational video on cell lines RRIDs:
+
+https://www.youtube.com/watch?v=Cz64B4ShS64
 
 ----------------------------------------------------------------------------
 
@@ -749,8 +753,8 @@ BALB/3T3 or NIH 3T3).
 There is however grounds for confusion with these names and specifically one
 of the problem lies with the 3T3-Swiss albino and NIH 3T3 lines:
 
-https://web.expasy.org/cellosaurus/CVCL_0120
-https://web.expasy.org/cellosaurus/CVCL_0594
+https://www.cellosaurus.org/CVCL_0120
+https://www.cellosaurus.org/CVCL_0594
 
 The first one is from a Swiss-Albino mouse and was published in 1963,
 while the second is from a NIH Swiss mouse and was published in 1969. Many
@@ -805,9 +809,13 @@ A: We create new entries and provide the corresponding accession numbers (RRIDs)
 as quickly as possible so that researchers can cite them in their manuscripts
 in a timely manner. But the Cellosaurus is not updated daily, new releases are
 prepared every 3 to 4 months. Thus depending on when a new RRID was created it
-can take up to 4 months before you can find it in the Cellosaurus on ExPASy.
+can take up to 4 months before you can find it online in the Cellosaurus.
 However you do not need to wait until a RRID is made public to cite it in a
 publication.
+
+See also our educational video on this subject:
+
+https://www.youtube.com/watch?v=Cz64B4ShS64
 
 ----------------------------------------------------------------------------
 
@@ -822,7 +830,7 @@ versions being released at least 4 times per year.
 release 9.0 of 16-Apr-2014 was followed by release 9.1 of 17-Jul-2014.
 -Initially the Cellosaurus files were available for download on the neXtProt
 FTP site but since May 2015 (with release 12.0 of 10-Apr-2015) they have been
-distributed from the ExPASy FTP site:
+distributed from the Expasy FTP site:
 
 ftp://ftp.expasy.org/databases/cellosaurus
 
@@ -867,7 +875,7 @@ b) We have archived all releases of the Cellosaurus on Yareta, the research
 data repository of Geneva's higher education institutions. To access the
 Cellosaurus archives go to:
 
-https://yareta.unige.ch/#/home/search?search=search%3Dcellosaurus
+https://yareta.unige.ch/home/search?search=search%3Dcellosaurus
 
 Note that the Yareta archives for releases 2 up to 32 do not include the OBO
 and XML files.
@@ -1014,10 +1022,10 @@ vaccine manufacture. Today's manufacturing methods rely on more than a
 century of continuous efforts to improve vaccine safety.
 
 Relevant Cellosaurus entries:
-AG13074 https://web.expasy.org/cellosaurus/CVCL_X801
-HEK293  https://web.expasy.org/cellosaurus/CVCL_0045
-MRC-5   https://web.expasy.org/cellosaurus/CVCL_0440
-WI-38   https://web.expasy.org/cellosaurus/CVCL_0579
+AG13074 https://www.cellosaurus.org/CVCL_X801
+HEK293  https://www.cellosaurus.org/CVCL_0045
+MRC-5   https://www.cellosaurus.org/CVCL_0440
+WI-38   https://www.cellosaurus.org/CVCL_0579
 
 Thanks to Amanda Capes-Davies for important contributions to this FAQ.
 
@@ -1083,3 +1091,6 @@ established by different laboratories at different time will share very
 similar STR profiles if they originate from the same mouse breed/strain.
 
 Thanks to Jamie L. Almeida for important contributions to this FAQ.
+
+----------------------------------------------------------------------------
+
