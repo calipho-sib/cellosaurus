@@ -54,6 +54,9 @@ Text version of entry pages are also available: 'https://www.cellosaurus.org/%s.
 Example:
 https://www.cellosaurus.org/CVCL_0033.txt
 
+API:
+https://api.cellosaurus.org/
+
 FTP: 
 ftp://ftp.expasy.org/databases/cellosaurus
 
@@ -95,6 +98,14 @@ The Cellosaurus:
 * is a participant in the European Joint Programme on Rare Diseases (EJP RD) (https://www.ejprarediseases.org/index.php/coordinated-access-data-services/access-to-data-resources/)
 * is an ELIXIR Core Data Resource (https://elixir-europe.org/platforms/data/core-data-resources)
 * is an IRDiRC Recognized Resource (https://irdirc.org/resources-2/irdirc-recognized-resources/)
+
+## Some educational material
+
+Video: Why should you use Cellosaurus, the cell line encyclopedia?
+https://www.youtube.com/watch?v=xKA2AleIe0g
+
+Introductory course on the Cellosaurus
+https://edu.sib.swiss/course/view.php?id=585
 
 ## Licensing
 
