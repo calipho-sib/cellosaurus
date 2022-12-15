@@ -4,8 +4,8 @@
 ----------------------------------------------------------------------------
 
  Description: Cellosaurus: frequently asked questions
- Version: 43.0
- Last update: 22-September-2022
+ Version: 44.0
+ Last update: 15-December-2022
 
 ----------------------------------------------------------------------------
 

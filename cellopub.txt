@@ -4,8 +4,8 @@
 ----------------------------------------------------------------------------
 
  Description: CelloPub, Cellosaurus publications
- Version: 43.0
- Last update: 22-September-2022
+ Version: 44.0
+ Last update: 15-December-2022
 
 ----------------------------------------------------------------------------
 ID   CLPUB00222
@@ -2016,7 +2016,7 @@ well past 100 cell generations in culture. This has been considered
 indicative of the form of an "established cell line".
 //
 ID   CLPUB00499
-RA   Beiswanger C.;
+RA   Beiswanger C.M.;
 RT   "A brief history of IMR-90.";
 RL   Cell Collections 2004:5-6(2004).
 WW   https://www.coriell.org/0/PDF/IPBIR/CCRNews.pdf_4.pdf
@@ -3565,7 +3565,7 @@ for myeloid differentiation.
 //
 ID   CLPUB00500
 RA   Collins J.K., O'Mahony A., O'Brien F., Corbett A., Morrissey D.,
-RA   O'Donoghue M., O'Sullivan G.;
+RA   O'Donoghue M., O'Sullivan G.C.;
 RT   "Evaluation of newly established cell lines as models to study
 RT   growth, invasion and metastatic spread in oesophageal cancer.";
 RL   Fibrinolysis 6 Suppl. 4:83-88(1992).
@@ -6575,7 +6575,7 @@ of goldfish, and this established the basis of researches about goldfish
 virus.
 //
 ID   CLPUB00510
-RA   Kleinschuster S.J., Parent J., Walker C.W., Farley A.;
+RA   Kleinschuster S.J., Parent J., Walker C.W., Farley C.A.;
 RT   "A cardiac cell line from Mya arenaria (Linnaeus, 1759).";
 RL   J. Shellfish Res. 15:605-707(1996).
 WW   https://archive.org/details/cbarchive_38285_acardiaccelllinefrommyaarenari1981
@@ -9329,6 +9329,24 @@ indicates the importance of analysing early passage cultures, which retain
 original morphology and characteristics to a greater extent, alongside
 established cell lines.
 //
+ID   CLPUB00727
+RA   Eichholtz-Wirth H., Stoetzer O.J., Marx K.;
+RT   "Radiation-induced cisplatin resistance in two human cell lines.";
+RL   Radioprotection 32:139-140(1997).
+WW   https://inis.iaea.org/search/searchsinglerecord.aspx?recordsFor=SingleRecord&RN=30008348
+DR   Cellosaurus; CVCL_C5RL; HeLa-C3
+AB   Yes
+Cisplatin resistance has been induced in human HT-29 and HeLa cells after
+low-dose fractionated gamma-irradiation. The drug resistance is modest and
+does not confer cross-resistance to irradiation. Alterations that were
+recently shown to correlate with radiation-induced cisplatin resistance in
+murine cells are not involved in the resistant HeLa-C3 cells. Scavengers,
+such as GSH or metallothioneins are unchanged and there is no alteration
+of the cGMP transduction pathway. Preliminary results in HeLa-C3 cells
+indicate that resistance is associated with differences of the apoptotic
+pathway, with enhancement of the p53 suppressor protein after cisplatin
+treatment but unchanged bcl-2 protein expression.
+//
 ID   CLPUB00380
 RA   Hanada S., Tsubai F., Namba Y.;
 RT   "The characteristics of T-cell lines derived from peripheral blood of
@@ -9878,6 +9896,40 @@ passages. The seabass cells were found also to be sensitive to the virus
 and this is illustrated by comparing the virus growth curves in the 2
 cell lines.
 //
+ID   CLPUB00729
+RA   Akarasereenont P., Aiamsa-ard T., Chotewuttakorn S., Thaworn A.;
+RT   "Cholangiocarcinoma cell induced platelet aggregation via activation
+RT   of thrombin and cyclooxygenase.";
+RL   Siriraj Med. J. 61:8-12(2009).
+WW   https://he02.tci-thaijo.org/index.php/sirirajmedj/article/view/246520
+DR   Cellosaurus; CVCL_C6N1; CL-2
+DR   Cellosaurus; CVCL_C6N2; CL-6
+DR   Cellosaurus; CVCL_C6N0; CL-19
+AB   Yes
+Objective: To investigate whether cholangiocarcinoma (CCA) cells affected
+platelet aggregation via activation of thrombin and cyclooxygenase.
+
+Methods: Human cholangiocarcinoma (HuCCA) cells were cultured in T-75
+Flasks with a standard technique. Cells were grown to confluence until
+used, after which, cells were detached and then resuspended in DMEM.
+Resuspended HuCCA cells were assessed for their effects on inducing
+platelet aggregation of normal volunteers using Born’s technique. Hirudin,
+apyrase, EDTA and indomethacin were used as pharmacological tools to
+investigate signaling mechanisms.
+
+Results: HuCCA cells can initiate aggregation of platelets in heparinized
+platelet rich plasma (hPRP). The potency of HuCCA cell induced platelet
+aggregation depends on the concentration of cell suspension.
+Interestingly, HuCCA cell induced platelet aggregation was inhibited by
+hirudin (10, 20 and 40 unit), EDTA (2, 3 and 4 mM) and indomethacin (0.1,
+1 and 2 mM) in a dose dependent manner but not by apyrase (5, 10 and 20
+units).
+
+Conclusion: HuCCA cells can induce platelet aggregation possibly via
+activation of thrombin and the cyclooxygenase signaling pathway but not
+the ADP pathway. Calcium may be an important factor required for this
+reaction.
+//
 ID   CLPUB00032
 RA   Durand M.M., Chugani D.C., Mahmoudi M., Phelps M.E.;
 RT   "Characterization of neuron-like cell line immortalized from primary
@@ -10119,6 +10171,27 @@ suppression on malignant vs. normal T cells. We have therefore undertaken
 studies on the effects of CsA on IL-2-dependent and IL-2-independent tumor
 cells and on T helper cell clones in order to elucidate the mechanism of
 suppression by CsA.
+//
+ID   CLPUB00723
+RA   Doymaz M.Z., Bulut H., Ozdarendel A., Bolat Y.;
+RT   "Production and characterization of monoclonal anti-ovalbumin antibodies.";
+RL   Turk. J. Med. Sci. 30:411-416(2000).
+WW   https://journals.tubitak.gov.tr/medical/vol30/iss5/2/
+DR   Cellosaurus; CVCL_C3LN; BG11
+AB   Yes
+In this study, the results of anti-ovalbumin (OVA) monoclonal antibody
+production and characterization are reported. Splenocytes from OVA-
+hyperimmune Balb/C mouse were fused with F0 myeloma cells and resulting
+hybridoma cells were selected in hypoxanthine-aminopterine-thymidine
+containing medium. A total of 37 HAT resistant hybridomas were obtained.
+Upon testing the hybridoma supernatants in OVA and mouse immunoglobulin G
+specific enzyme-linked immunosorbent assays, we observed that two of the
+hybridomas secreted OVA specific antibodies. The hybridomas produced IgG
+class antibodies. The hybridomas were grown and the supernatants from the
+cultures were also tested in a Western Blot assay. The results of ELISA
+were confirmed with Western Blot assays. The results indicate that the
+mAbs produced in this study reacted with the continuous (non-
+conformational) epitopes present on OVA.
 //
 ID   CLPUB00117
 RA   Harper M.E., Sibley P.E.C., Rowlands A., Buttifant L., Beacock C.,
@@ -10785,6 +10858,29 @@ glioma in no time. The rate of vitality of those frozen cells around 77%
 showed the growth and character of the cell line was stable. It was
 helpful in selection of anti glioma chemotherapy.
 //
+ID   CLPUB00728
+RA   Wang S.-G., Han B.-L., Duan H.-C., Chen Y.-S., Peng Z.-M.;
+RT   "Establishment of a cell line of extrahepatic bile duct carcinoma.";
+RL   Zhonghua Shi Yan Wai Ke Za Zhi 14:67-68(1997).
+WW   https://www.cnki.com.cn/Article_en/CJFDTOTAL-ZHSY702.001.htm
+DR   Cellosaurus; CVCL_6942; QBC939
+AB   Yes
+To investigate the cellular biological charateristics of bile duct
+carcinoma, the first cell line of extrahepatic bile duct carcinoma, named
+as QBC939, was established in China. The cell line was histologically
+similar to the originai tumor. Electron microscopic studies indicated the
+presence of characteristic junctions between cells, microvilli on the cell
+surface, microfilaments and microtube in cytoplasm. Immunohistochemistry
+of cultured cells and reconstituted tumor in nude mouse showed that the
+cell line was strongly positive for karatin and desmosome, supporting the
+epilhelial origin of the cell line. The study of growth kinetics
+demonstrated that the QBC939 cell line grew fast with independent and
+higher viability. The cytogenetic study revealed that the abnormality in
+number and structure, such as fracture, transplantation, loss and insert
+of chromosomes, presented in the cell line. Soft sepharose culture and
+nude mouse xenografts indicated that this cell line was strungly
+tumorigenic.
+//
 ID   CLPUB00254
 RA   Zhang M., Hu S.-W., Jiang J.-H., Wen J.-M.;
 RT   "Isolation of hepatocellular carcinoma cells by density gradient
@@ -11106,7 +11202,7 @@ RA   Esposito D.;
 RT   "Cytogenetic and mutagenic studies with an opossum cell line
 RT   (Didelphys virginiana).";
 RL   Thesis PhD (1982), Fordham University, United States.
-WW   https://fordham.bepress.com/dissertations/AAI8219241
+WW   https://research.library.fordham.edu/dissertations/AAI8219241/
 DR   Cellosaurus; CVCL_0472; OK
 AB   Yes
 Cytogenetic studies were performed on an established cell line, OK,
@@ -11207,6 +11303,42 @@ arginine. Exchange properties of the lysine carrier were exploited to
 assess its function in fibroblasts from patients with the Mendelian
 phenotype, lysinuric protein intolerance (LPI). LPI vesicles were not
 different from controls in their lysine transport phenotype.
+//
+ID   CLPUB00724
+RA   Reinitz D.M.;
+RT   "Characterization, expression and genetic analysis of recurrent idiotypes in
+RT   the unrestricted anti-fluorescein immune response.";
+RL   Thesis PhD (1986), University of Illinois at Urbana-Champaign, United States.
+WW   https://hdl.handle.net/2142/71179
+DR   https://www.cellosaurus.org/search?input=CLPUB00724
+AB   Yes
+Eighteen monoclonal anti-fluorescein (Fl) antibodies from BALB/cV mice
+were characterized and 13 possessed a low affinity for Fl (Ka = 5 x 10^4
+M^-1) while 5 had a higher affinity (Ka = 5 x 10^8 M^-1). Eleven of the 13
+low affinity clones were idiotypically cross-reactive (40-100%) and 4 of
+these clones possessed identical idiotypes (Ids) (3-12, 3-13, 3-17 and 3-35).
+Heavy and light chains derived from clones 3-12, 3-13 and 3-17 and
+used in recombination experiments, resulted in the reformation of an anti-
+Fl active site in all six heterologous combinations. The expression of Ids
+3-13 and 3-17 in the Io, IIo or IIIo polyclonal anti-Fl response was
+quantitated and found to represent <1.0% of the specific repertoire. Ids
+3-13 and 3-17 were expressed in 15/22 ad 22/28 individual mice, respectively.
+Clones 3-13 and 3-17 had similar though not identical active sites as
+determined by fine specificity of binding and Id inhibitions. Ids 3-13 and
+3-17 represent the first demonstration of repertoire-specific recurrent
+Ids expressed during a T-dependent immune response lacking a dominant Id.
+Antibodies 3-13 and 3-17 were idiotypically cross-reactive (10-40%) with 6
+other anti-Fl clones (designated the 9-40 family) which possessed a higher
+affinity for Fl (Ka = 5 x 10^6 M^-1). Members of the 9-40 family were also
+idiotypically cross-reactive with a single high affinity clone 4-4 (Ka = 5
+x 10^9 M^-1). This idiotypic linkage provided a greater span in affinity
+(>20,000 fold) than in all previously characterized Id families within
+restricted or unrestricted immune responses. The sequence of antibody 3-13
+V(H) region was determined by genomic cloning and amino acid sequencing
+and was 78% homologous to the (alpha)-1,3-dextran binding myeloma proteins
+J558 and 104E. Rearrangement of a V(H) gene homologous to 3-13 was
+required idiotypically cross-reactive clones and in no idiotypically
+distinct clones.
 //
 ID   CLPUB00704
 RA   Lu Y.-N.;
@@ -11337,7 +11469,7 @@ secretion.
 ID   CLPUB00711
 RA   Sartin E.A.;
 RT   "Biological properties of canine mammary tumors and cell lines.";
-RL   Thesis PhD (1990), Auburn University College of Veterinary Medicine, USA.
+RL   Thesis PhD (1990), Auburn University College of Veterinary Medicine, United States.
 DR   Cellosaurus; CVCL_X218; CMT-1
 DR   Cellosaurus; CVCL_X219; CMT-2
 DR   Cellosaurus; CVCL_U520; CMT-3
@@ -11458,6 +11590,33 @@ results suggest that the insulin and IGF-1 receptor may share a common
 pathway post-ligand binding for cell proliferation which does not involve
 EGF or thrombin, and that enhanced insulin degradation and loss of pp175
 may be responsible for the loss of insulin-stimulated cell proliferation.
+//
+ID   CLPUB00725
+RA   Baglia L.A.;
+RT   "Survey of the secretion of immunoreactive pituitary proteins by
+RT   transformed serum-free B lymphoblastoid cell lines.";
+RL   Thesis PhD (1993), Ohio State University, United States.
+WW   http://rave.ohiolink.edu/etdc/view?acc_num=osu1487842372898166
+DR   Cellosaurus; CVCL_C5DM; sfAWRamos
+DR   Cellosaurus; CVCL_C5DJ; sfBJAB
+DR   Cellosaurus; CVCL_WS55; sfBT
+DR   Cellosaurus; CVCL_C5DK; sfJiyoye
+DR   Cellosaurus; CVCL_C5DN; sfP3HR-1
+DR   Cellosaurus; CVCL_C5DL; sfRaji
+DR   Cellosaurus; CVCL_WS53; sfRamos
+AB   Yes
+The purpose of this study was to determine if the serum-free Burkitt
+lymphoma cell line, sfRamos and other serum-free B lymphoblastoid cell lines
+established in this study, produces hormone-like proteins that may be autocrine
+growth factors. To accomplish this, five Burkitt lymphoma cell lines, one B cell
+lymphoma cell line, and one LCL were adopted to grow continuously in serum-free
+medium. These serum-free cell lines produce autocrine growth factors.
+Spent medium from the serum-free EBV-negative Burkitt lymphoma cell
+line, sfRamos, has lactogenic hormone bioactivity and antiserum IgG from both
+rabbit anti-PRL and anti-GH inhibits the proliferation of the sfRamos cells. This
+study demonstrates the presence of immunoreactive hormone polypeptides in
+sfRamos, sfJiyoye, sfAWRamos, sfRAJI, sfBT spent medium and sfRamos cell
+lysates, but not in fresh serum-free medium.
 //
 ID   CLPUB00276
 RA   Culp P.A.;
@@ -16739,6 +16898,32 @@ epithelial cells (RPTEC) that stably express the OAT1, OCT2, and OAT3
 proteins. We then tested the ability of these cells to intracellularly
 convey known SLC protein substrates.
 //
+ID   CLPUB00726
+RA   Beaure d'Augeres C., Arnoult J., Bureau J., Duie P., Dupuy-Coin A.-M.,
+RA   Geraud G., Laquerriere F., Masson C., Pestmal M., Bouteille M.;
+RT   "The effect of microgravity on mammalian cell polarisation at the
+RT   ultrastructural level.";
+RL   (In) Biorack on Spacelab D1. An overview of the first flight of Biorack, an ESA Facility for life sciences research in microgravity; Longdon N., David V. (Eds.); pp.101-105; ESA Publications Division; Noordwijk (1988).
+DR   Cellosaurus; CVCL_WN52; AM2 [Mouse hybridoma]
+AB   Yes
+This experiment was designed to investigate whether weightlessness induces
+changes at the ultrastructural level of mammalian cells. It has been shown
+that most, if not all, cells are morphologically arranged in an orderly
+fashion with regard to the respective location of the cytoplasmic
+organelles, the nucleus in relation to the cytoplasmic organelles, and the
+intranuclear organelles with respect to each other. However, it is thought
+that the protoplasmic flow within every living cell, as well as the
+cellular skeleton, may obscure the visible effects of gravity in such an
+organisa-tion. This would imply that the effects of weightlessness might
+only result in minute changes in the ultrastructural distribution of
+cellular components. A search for such changes using stereological methods
+was carried out with highly polarised suspended cells. Changes in
+ultrastructure were correlated with changes in cell metabolism by means of
+auto-radiography. Specific statistical and stereological methods of
+analysis as well as specific staining techniques had therefore to be
+employed to allow a thorough analysis and to determine the three-
+dimensional construction of the cells.
+//
 ID   CLPUB00554
 RA   Omasa T., Yamano N.;
 RT   "Newly established cell lines derived from Chinese hamster for
@@ -17721,7 +17906,7 @@ ID   CLPUB00627
 RA   Matsumoto J., Ishikawa T., Masahito P., Takayama S.;
 RT   "Erythrophoromas and irido-melanophoromas in fish: establishment of
 RT   cell lines, in vitro properties, and pigmentation.";
-RL   (In) Phenotypic expression in pigment cells. Proceedings of the XIth international pigment cell conference Sendai, Japan, 1980; Seiji M. (Eds), pp.515-525; University of Tokyo Press, Tokyo (1981)
+RL   (In) Phenotypic expression in pigment cells. Proceedings of the XIth international pigment cell conference Sendai, Japan, 1980; Seiji M. (Eds), pp.515-525; University of Tokyo Press, Tokyo (1981).
 DR   Cellosaurus; CVCL_A6RR; GEM-49
 DR   Cellosaurus; CVCL_4206; GEM-81
 DR   Cellosaurus; CVCL_4204; GEM-199
