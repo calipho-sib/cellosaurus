@@ -4,8 +4,8 @@
 ----------------------------------------------------------------------------
 
  Description: CelloPub, Cellosaurus publications
- Version: 44.0
- Last update: 15-December-2022
+ Version: 45.0
+ Last update: 21-March-2023
 
 ----------------------------------------------------------------------------
 ID   CLPUB00222
@@ -1519,7 +1519,7 @@ smoltification have been extensively investigated. However, the molecular
 mechanisms controlling expression of the hormones involved in these
 processes are largely unknown. Pituitary cell cultures could be valuable
 for elucidating these mechanisms, and cell lines derived from this
-teleost‘s pituitary could make significant impacts in understanding growth
+teleost's pituitary could make significant impacts in understanding growth
 and hormonal regulation as well as endocrine disruption by environmental
 contaminants. Here we report on the development of two continuous cell
 lines derived from adult Atlantic salmon pituitary and their preliminary
@@ -1690,7 +1690,7 @@ RA   Dimitrov P., Dimitrov R., Russev R.;
 RT   "Fumonisin B1 cytotoxicity and subcellular localization in duck embryo
 RT   cell line DEC 99.";
 RL   C. R. Acad. Bulg. Sci. 68:617-622(2015).
-WW   https://www.researchgate.net/publication/281775443_Fumonisin_B1_cytotoxicity_and_subcellular_localization_in_duck_embryo_cell_line_DEC_99
+WW   https://www.researchgate.net/publication/281775443
 DR   Cellosaurus; CVCL_JF07; DEC-99
 AB   Yes
 A comparative study on the cytotoxic effect of fumonisin B1 (FB1) was
@@ -1874,13 +1874,51 @@ was due to extrasomy of all groups, with the exception of group G, which
 was usually in the diploid range. New, marker chromosomes were present in
 most of the cell lines examined.
 //
+ID   CLPUB00734
+RA   Silva A.P.M., Carraro D.M., Pires L.C., Jongeneel V.C., De Souza S.J.,
+RA   Camargo A.A.;
+RT   "Characterization of novel c-erbB2 regulated genes using massively
+RT   parallel signature sequencing (MPSS).";
+RL   Cancer Res. 66 Suppl. 8:19-20(2006).
+WW   https://aacrjournals.org/cancerres/article/66/8_Supplement/19/532558
+DR   Cellosaurus; CVCL_J984; C5.2
+DR   Cellosaurus; CVCL_J982; HB4a
+AB   Yes
+Overexpression of the proto-oncogene c-erbB2 is observed in 30% of breast
+tumors and is considered an adverse prognostic factor for breast cancer.
+However, the molecular mechanisms associated with c-erbB2 overexpression
+are not yet understood. In this work, transcriptional changes associated
+with c-erbB2 overexpression were investigated using Massively Parallel
+Signature Sequencing (MPSS). MPSS is a powerful technique for genome-wide
+gene expression analysis, which relies on the production and
+quantification of short tags proximal to the 3' end of transcripts. Over
+24 million MPSS tags, representing aproximately 17,000 different genes
+were generated for a immortalized mammary luminal epithelial cell line
+(HB4a) and for a variant cell line (C5.2) transfected with c-erbB2. After
+establishing reliable correlations between tags and known human
+transcripts, 9% of the tags could not be associated with a known
+transcripts and were designated orphan tags. Among the orphan tags there
+were many that showed differential expression between HB4a and C5.2 cell
+lines and probably represent novel genes regulated by c-erbB2. In order to
+further characterize these novel genes, we have extended 83 tags orphan
+tags towards the 3' end of the corresponding mRNA molecule using a
+methodology named GLGI (Generation of Longer cDNA fragments for Gene
+Identification). Forty one 3' cDNA fragments were obtained and similarity
+analysis of these fragments using BLAST allowed the identification of 10
+transcripts putativelly regulated by c-erB2. Differential expression in
+the C5.2 cell line of 3 out of the 10 transcripts putativelly regulated by
+c-erbB2 was confirmed by real-time PCR. We are currently investigating the
+effects of Herceptin treatment on gene expression patterns in HER2-
+amplified and nonamplified breast cancer cell lines in order to elucidate
+the molecular consequences of blocking the HER pathway.
+//
 ID   CLPUB00282
 RA   Piscaglia A.C., Shupe T.D., Oh S.-H., Elyaer J., Gasbarrini A.,
 RA   Petersen B.E.;
 RT   "Establishment of a cancer cell line from a model of combined
 RT   hepatocholangiocarcinoma (CHCC) in rats.";
 RL   Cancer Res. 67 Suppl. 9:1302-1302(2007).
-WW   https://cancerres.aacrjournals.org/content/67/9_Supplement/1302
+WW   https://aacrjournals.org/cancerres/article/67/9_Supplement/1302/540045
 DR   Cellosaurus; CVCL_5U55; LCSC-1
 AB   Yes
 Several studies have indicated that bipotential liver stem cells, also
@@ -1920,7 +1958,7 @@ RA   Srivastava S.;
 RT   "A new cell line expressing a novel type of TMPRSS2-ERG gene fusion
 RT   derived from primary tumors of familial prostate cancer patient.";
 RL   Cancer Res. 68 Suppl. 9:194-194(2008).
-WW   https://cancerres.aacrjournals.org/content/68/9_Supplement/194
+WW   https://aacrjournals.org/cancerres/article/68/9_Supplement/194/545672/
 DR   Cellosaurus; CVCL_VV24; RC-123T/E
 AB   Yes
 Recent studies have established that a high proportion of prostate cancer
@@ -1963,7 +2001,7 @@ RT   "Fenretinide combined with thiotepa is active against 3 newly
 RT   established atypical teratoid rhabdoid tumor cell lines that manifest
 RT   high-level multidrug resistance.";
 RL   Cancer Res. 68 Suppl. 9:3743-3743(2008).
-WW   https://cancerres.aacrjournals.org/content/68/9_Supplement/3743
+WW   https://aacrjournals.org/cancerres/article/68/9_Supplement/3743/548720/
 DR   Cellosaurus; CVCL_M149; CHLA-266
 DR   Cellosaurus; CVCL_RS25; COG-AR-359
 DR   Cellosaurus; CVCL_RS26; COG-AR-382
@@ -2247,6 +2285,47 @@ Taken together, we proposed a panel of four anti-HSPGs monoclonal
 antibodies to be applied in various detection platforms to increase the
 specificity in screening of CRC.
 //
+ID   CLPUB00731
+RA   Chen J.-L., Jiang S., Yang R.-F., Liu F.-S., Sun X.-M.;
+RT   "Mechanism of drug resistance and reversal with ligustrazine and
+RT   cyclosporin A in cisplatin-induced human epithelial ovarian cancer
+RT   resistant cell line 3AO/cDDP.";
+RL   Chin. J. Cancer Res. 12:197-203(2013).
+WW   https://cjcr.amegroups.com/article/view/1521}
+DR   Cellosaurus; CVCL_C6VI; 3Ao
+DR   Cellosaurus; CVCL_C6VJ; 3Ao/cDDP
+AB   Yes
+Objective: To investigate the mechanism of resistance and reversal effect
+of ligustrazine and cyclosporin A in cisplatin-induced multidrug
+resistance ovarian cancer cell line 3Ao/cDDP.
+
+Methods: Using the corresponding dose calculated from clinical
+chemotherapy at 30 mg cisplatin per cycle, we established 3Ao/cDDP with
+3Ao exposed at regular intervals and repeatedly to high-level
+concentration of cisplatin at 10 mug/ml for 24 hours each time.
+Expressions of LRP, MRP, P-gp, GSTp and TopoII were quantitatively
+detected with FCM. For drug resistance reversal, cyclosporin A and
+ligustrazine were administered singly or in combination at the maximal
+dose without cytotoxicity. Inhibition rates were determined by MTT assay.
+
+Results: 3Ao/cDDP was established after 4.5 months, with resistance factor
+1.6 which was similar to clinical resistance degree. Low expression levels
+of MRP and P-gp were found in both 3Ao and 3Ao/cDDP (P>0.05), and LRP and
+GSTx expression levels in 3Ao/cDDP were significantly higher than those in
+3Ao (P<0.005 and P<0.05, respectively), and TopoII in 3Ao/cDDP was
+significantly lower vs 3Ao (P<0.05). The inhibition rate of cDDP was 20.
+807 +- 0.015%, cDDP plus iigustrazine 27.421 +- 0.07% (P>0.05 vs cDDP), cDDP
+plus cyclosporin A 49.635 +- 0.021% (P<0.01 vs cDDP), and cDDP plus
+ligustrazine and cyclosporin A 58.861 +- 0.014% (P<0.01 vs cDDP).
+
+Conclusions: 3Ao/cDDP, induced by cisplatin and established by imitating
+the characteristics of clinical chemotherapy for epithelial ovarian
+cancer, was an ideal model for investigation of cisplatin resistance in
+vitro. Cisplatin resistance in 3Ao/cDDP could be accounted for by higher
+LRP, GSTp and lower TopolI expression and was not associated with MRP or
+P-gp. Ligustrazine had no significant reversal effect on cisplatin
+resistance, but cyclosporin A could reverse the resistance effectively.
+//
 ID   CLPUB00118
 RA   Pu P.-Y., Zhong Y., Wang S.L., Li P., Wang G.X., Hu Y.L.;
 RT   "The establishment and comparison of the characteristics of primary
@@ -2370,7 +2449,7 @@ examination at different passage level showed the Cpp512 cell line were
 mainly diploid, but polyploid also existed.
 //
 ID   CLPUB00072
-RA   Sato H., Yoshida M., Sekiguchi T.;
+RA   Sato H., Yoshida M.C., Sekiguchi T.;
 RT   "Q-banded karyotypes of a 6-thioguanine resistant rat cell line and
 RT   its mutant line resistant to chloramphenicol.";
 RL   Chrom. Inform. Serv. 27:17-18(1979).
@@ -3462,7 +3541,7 @@ phase and two peaks with maximum quantity of cells and accordingly two-
 step decreasing.
 
 Conclusions: Fibroblast-like and epithelioid cells are two main
-morphological types of cell line 4BL, so as it’s clones 1, 2 and 3.
+morphological types of cell line 4BL, so as it's clones 1, 2 and 3.
 Ability to form cycle structures at the surface of culture dish was
 observed. Growth curves had graded character.
 //
@@ -3671,10 +3750,10 @@ DR   Cellosaurus; CVCL_0J67; LSR-SF (SR)
 AB   Yes
 A cell line from RSV virus-induced rat tumour, strain Schmidt-Ruppin
 (SR-RSV) was established. The line consists of two morphologically different
-types of cells —round or polygonal— with strongly expressed growth
+types of cells -round or polygonal- with strongly expressed growth
 properties. The time for duplication of the cell population is about 48 h.
 The cells proliferate in a medium with low concentration of normal bovine
-serum. The line exibits an abnormal karyotype — more of the cells possess
+serum. The line exibits an abnormal karyotype - more of the cells possess
 hypotetraploidal number of chromosomes as well as one marker chromosome.
 The above-mentioned line is not virus producing siniilary to other virus-
 transformed mammalian cell lines. However, when inoculated in vivo the
@@ -3753,7 +3832,7 @@ RT   "Neural differentiation of patient-specific induced pluripotent stem
 RT   cells from patients with a hereditary form of spinal muscular
 RT   atrophy.";
 RL   Genes and Cells 11:2.70-2.79(2016).
-WW   https://www.researchgate.net/publication/323187310_Neural_differentiation_of_patient-specific_induced_pluripotent_stem_cells_from_patients_with_a_hereditary_form_of_spinal_muscular_atrophy
+WW   https://www.researchgate.net/publication/323187310
 DR   Cellosaurus; CVCL_UF65; ICGi005-A
 DR   Cellosaurus; CVCL_UF66; ICGi005-B
 AB   Yes
@@ -4904,7 +4983,7 @@ RA   Hua J., Tao L.-W.;
 RT   "A new cell line from goat embryonic kidney may be a candidate to
 RT   produce influenza virus vaccine.";
 RL   Indian J. Anim. Sci. 85:828-831(2015).
-WW   https://www.researchgate.net/publication/282951008_A_new_cell_line_from_goat_embryonic_kidney_may_be_a_candidate_to_produce_influenza_virus_vaccine
+WW   https://www.researchgate.net/publication/282951008
 DR   Cellosaurus; CVCL_GU03; GEK
 AB   Yes
 This study established a goat embryonic kidney (GEK) cell line which was
@@ -4978,6 +5057,40 @@ number was high ranging from 41-200 and even more. Electron microscopy
 indicated the presence of virus-like particles in the nuclei of a
 fraction of the cell population. The cells were susceptible to nuclear
 polyhedrosis virus, Autographa californica.
+//
+ID   CLPUB00730
+RA   Vazquez A.M., Tormo B.R., Alfonso M., Velandia A., Fernandez L.E.,
+RA   Giscombe R., Ansotegui I., Jeddi-Tehrani M., Cedeno M., Toledo A.L.,
+RA   Perez-Rodriguez R., Mellstedt H., Biberfeld P.;
+RT   "Characterization of IOR C5 colorectal tumor associated antigen.";
+RL   Inmunologia 14:130-132(1995).
+DR   Cellosaurus; CVCL_C6UV; IOR-C5
+AB   Yes
+Established human colon cancer cell line SW1116 was used to generate ior
+C5 monoclonal antibody (mAb) by standard hybridoma technique. By
+immunohistochemical studies the antigen was abundant and strongly
+expressed in the epithelium of the gastrointestinal tract, mainly the
+small and large intestine, and the bronchus epithelial cell lining; no
+reaction was observed in the other normal tissues studies. Glandular
+epithelial derived tumors, especially colorectal cancers showed a more
+variable and heterogeneous reactivity to the antibody. Enzymatic and
+chemical treatments of colorectal cancer membrane extracts indicated that
+the antigen recognized by this mAb is an O-linked glycoprotein
+carbohydrate chain. Western blot studies on SW1116 cell membrane extracts
+showed that the ior c5 mAb recognized a glycoprotein complex composed of a
+major 145 kDa band and a minor 190 kDa band. The epitope recognized by
+this mAb can also be found in a high molecular weight glycoprotein
+obtained from normal colon. In blocking experiments using ior c5 and ior
+c2 mAb (previously reported by us), it was shown that both mAbs compete for
+the same antigen site, although ior C5 shows a higher blocking efficiency.
+Additionally, ior c5 in contrast with ior c2 mAb, was capable of blocking
+the recognition of 17-1A mAb by a pool of human anti idiotypic antibodies
+generated agains 17-1A mAb. Since, 17-1A and ior c5 mAbs recognized
+different antigens, the above result indicates that these anti idiotypic
+antibodies recognize a non paratopic idiotype shared by both 17-1A and ior
+c5 mAbs. The preferential staining of colorectal tumors and the
+restricted reactivity in normal human adult tissues make ior c5 mAb an
+eligible candidate for the radioimmunodetection of colorectal tumors.
 //
 ID   CLPUB00456
 RA   Yamazaki H., Tajima S., Takeuchi T.;
@@ -5222,7 +5335,7 @@ ID   CLPUB00432
 RA   Pandey G.;
 RT   "Overview of fish cell lines and their uses.";
 RL   Int. J. Pharmaceut. Res. Sci. 2:580-590(2013).
-WW   https://www.researchgate.net/publication/270174922_Overview_of_fish_cell_lines_and_their_uses
+WW   https://www.researchgate.net/publication/270174922
 AB   Yes
 By 'cell lines', an important biological tool can be obtained for carrying
 out researches in physiology, virology, pharmacology, toxicology,
@@ -5744,7 +5857,7 @@ To facilitate investigation of Ca2+ and Na+ transport by parathyroid
 hormone (PTH)-sensitive distal convoluted tubules (DCT), we established a
 stable line of these cells. Hybrid primary cultures consisting of DCT and
 cortical ascending limb cells were isolated from mice by immunodissection.
-Cells were infected with chimeric adenovirus 12—Simian virus 40 and grown
+Cells were infected with chimeric adenovirus 12-Simian virus 40 and grown
 in DMEM/Ham's F-12 media until mock infectants had expired. Cells were
 then passaged and cloned by limiting dilution. We measured ouabain (OUA)-
 suppressible oxygen consumption (QO2, nmol O2 consumed x min^-1 x mg prot^-1)
@@ -6021,7 +6134,7 @@ ID   CLPUB00031
 RA   Gueli N., Toto G., Palmieri G., Carmenini G., Delfino A., Ferrini U.;
 RT   "In vitro growth of a cell line originated from a human insulinoma.";
 RL   J. Exp. Clin. Cancer Res. 6:281-285(1987).
-WW   https://www.researchgate.net/publication/279543461_In_vitro_growth_of_a_cell_line_originated_from_a_human_insulinoma
+WW   https://www.researchgate.net/publication/279543461
 DR   Cellosaurus; CVCL_H246; CM
 AB   Yes
 A continuous growing cell line was established from cells isolated free
@@ -7009,7 +7122,7 @@ sp. (smaller tea tortrix), Pandemis heparana, Archippus breviplicanus and
 Homona magnanima, respectively. Both the FTRS-H1L1 and FTRS-H1L2 lines
 were derived from Hoshinoa longicellana.
 
-6. In FTRS-AoL1, FTRS-AfL and FTRS-AbL81, spindle—shaped and spherical
+6. In FTRS-AoL1, FTRS-AfL and FTRS-AbL81, spindle-shaped and spherical
 cells were predominant, while in FTRS-AoL2, FTRS-PhL and FTRS-HmL45 the
 cells were mainly spherical. The diameter of a single cell of these lines
 was about 25 mum. In FTRS-H1L1 and FTRS-H1L2, the cells assumed an
@@ -7690,7 +7803,7 @@ RT   "Establishment of cell line from Helicoverpa armigera (Hubner) embryo:
 RT   effect of temperature on its susceptibility to baculoviruses.";
 RL   Madras Agric. J. 99:121-124(2012).
 WW   https://www.cabdirect.org/cabdirect/abstract/20123198833
-WW   https://www.researchgate.net/publication/267707694_Establishment_of_Cell_Line_from_Helicoverpa_armigera_Hubner_Embryo_Effect_of_Temperature_on_its_Susceptibility_to_Baculoviruses
+WW   https://www.researchgate.net/publication/267707694
 DR   Cellosaurus; CVCL_YA22; HaE9
 AB   Yes
 Attempts were made to establish new cell lines from the embryos of
@@ -8447,7 +8560,7 @@ RA   Al-Musawi H.M., Al-Shammari A.M., Al-Bazii S.J.;
 RT   "Biological and physiological characterization of HCAM
 RT   hepatocellular carcinoma cell line.";
 RL   Prensa Med. Argent. 106 Suppl. 1:9.2-9.5(2020).
-WW   https://www.researchgate.net/publication/342476146_Biological_and_Physiological_Characterization_of_HCAM_Hepatocellular_Carcinoma_Cell_Line
+WW   https://www.researchgate.net/publication/342476146
 DR   Cellosaurus; CVCL_ZV40; HCAM
 AB   Yes
 A new liver cancer cell line (HCAM) has been characterized; it is
@@ -9509,7 +9622,7 @@ RT   "Obtainment of CLA-HT cell subline and study of its susceptibility for
 RT   the isolation and multiplication of the dengue virus.";
 RL   Rev. Cubana Med. Trop. 66:424-432(2014).
 WW   https://www.medigraphic.com/cgi-bin/new/resumenI.cgi?IDARTICULO=56243
-WW   https://www.researchgate.net/publication/287745047_Obtainment_of_CLA-HT_cell_subline_and_study_of_its_susceptibility_for_the_isolation_and_multiplication_of_the_dengue_virus
+WW   https://www.researchgate.net/publication/287745047
 WW   http://scielo.sld.cu/scielo.php?pid=S0375-07602014000300010&script=sci_abstract
 DR   Cellosaurus; CVCL_VH38; CLA-HT
 AB   Yes
@@ -9559,7 +9672,7 @@ RT   "Establishment and characterization of a cell line (CaLo) and a clone
 RT   (KaLo), obtained from a cervix carcinoma and the effect of IL-2, IL-3,
 RT   GM-CSF, M-CSF, TNF-alpha and IFN-gamma on its proliferation.";
 RL   Rev. Inst. Nac. Cancerol. (Mex.) 39:1861-1866(1993).
-WW   https://www.researchgate.net/publication/287882353_Establishment_and_characterization_of_a_cell_line_CaLo_and_a_clone_KaLo_obtained_from_a_cervix_carcinoma_and_the_effect_of_IL-2_IL-3_GM-CSF_M-CSF_TNF-a_and_IFN-g_on_its_proliferation
+WW   https://www.researchgate.net/publication/287882353
 WW   https://pesquisa.bvsalud.org/ses/resource/pt/lil-135090
 DR   Cellosaurus; CVCL_5121; CaLo
 AB   Yes
@@ -9595,9 +9708,31 @@ expected results in clinical applications. One conceivable explanation for
 this is that tumor cells can escape immunosurveillance or induce tolerance
 to CTL. A diversity of tumor-induced factors has been described, that are
 able to block immune response against tumors. In a this paper we analyzed
-the expression level of a ligand to inhibitory receptors of lymphocytes –
-the HLA-E molecule – in melanoma cell lines derived from patient biopsy
+the expression level of a ligand to inhibitory receptors of lymphocytes -
+the HLA-E molecule - in melanoma cell lines derived from patient biopsy
 with IV stage advanced melanoma.
+//
+ID   CLPUB00733
+RA   Matsui K., Yumoto T., Nashiro J., Hashimoto K., Furuse K.,
+RA   Morimoto K., Akeho M., Maeyama I.;
+RT   "Establishment of a cell line derived from human osteosarcoma.";
+RL   Ryukyu Daigaku Hoken Gaku Igaku Zasshi 5:187-195(1982).
+WW   https://hdl.handle.net/20.500.12000/0002016471
+DR   Cellosaurus; CVCL_C7SI; HOS-O
+AB   Yes
+Establishment of the cell line (HOS-O) of osteosarcoma was successfully
+accomplished. The materials for this study were obtained from surgically
+removed tumor mass metastasized to the lung. The patient was a 10 year-old
+girl, suffering from an original tumor in the right distal femur. The
+tissue culture has been started in September 1977, and the cell line has
+been maintained in a good condition for about five years. The shape of
+cultured cells is elongated-spindle and its chromosome number is 46. By
+histochemical examination, the cells revealed weakly positive at alkaline
+phosphatase, and moderately positive at acid phosphatase, and highly
+positive at nonspecific esterase and 5'-nucleotidase. Each of twice
+transplantations of those cells, to the back of nude mice, was successful.
+Histological features of the trasplanted tumors were resembled to that of
+the original sarcoma, showing a remarkable formation of osteoid tissue.
 //
 ID   CLPUB00575
 RA   Prozesky O.W., Lecatsas G.;
@@ -9913,7 +10048,7 @@ Methods: Human cholangiocarcinoma (HuCCA) cells were cultured in T-75
 Flasks with a standard technique. Cells were grown to confluence until
 used, after which, cells were detached and then resuspended in DMEM.
 Resuspended HuCCA cells were assessed for their effects on inducing
-platelet aggregation of normal volunteers using Born’s technique. Hirudin,
+platelet aggregation of normal volunteers using Born's technique. Hirudin,
 apyrase, EDTA and indomethacin were used as pharmacological tools to
 investigate signaling mechanisms.
 
@@ -10726,46 +10861,6 @@ continuous cell lines. The average time from initial training to the
 success of the first passage was 85 days. Pollution and crystallization of
 the primary culture were important causations of failure.
 //
-ID   CLPUB00605
-RA   Song W.-P., Zhang C.-Y., Zhang Y., Li Y., Cao R., Ye C., Zhang L.,
-RA   Shao R.-G., Li L., Zhao J.-Y.;
-RT   "Generation of etoposide-resistant subline of human retinoblastoma Y79
-RT   cells and preliminary study of its resistance mechanism.";
-RL   Zhongguo Yiyao Shengwu Jishu 12:297-302(2017).
-WW   http://216.17.69.49/KCMS/detail/detail.aspx?filename=ZYSW201704003&dbcode=CJFD&dbname=CJFD2017
-DR   Cellosaurus; CVCL_1893; Y-79
-DR   Cellosaurus; CVCL_A5SR; Y79/EDR
-AB   Yes
-Objective: To generate etoposide-resistant cell line of human
-retinoblastoma Y79 cells (Y79 etoposide-drug-resistant, Y79/EDR) and
-explore the underlying mechanism of etoposide resistance.
-
-Methods: The etoposide-resistant subline of human retinoblastoma Y79 cells
-were selected in vitro by prolonged exposure to 3-fold stepwisely
-increasing concentrations of etoposide. Y79/EDR cells were finally
-maintained in culture with 500 nmol/L of etoposide, followed by cell
-counting kit (CCK-8) and caspase-glo 3/7 assays for testing the growth
-rate, cytotoxicity and apoptosis induced by etoposide in both Y79 and
-Y79/EDR cells, respectively. Western blot assay was performed to determine
-if any cell signaling pathways might be involved in etoposide resistance
-in Y79/EDR cells.
-
-Results: Y79/EDR cells were obtained after 6 months constitutive treatment
-at the concentration of 500 nmol/L. The growth rate of Y79/EDR
-significantly increased and its doubling time was shortened by 14.5 h as
-compared to Y79 parental cells (P<0.001) with the resistance index of 29.47.
-The activity of caspase 3/7 in Y79/EDR cells was significantly
-decreased as compared to Y79 cells in a manner of etoposide concentration
-dependent (P<0.01). The results from Western blot assay indicated that AKT
-and p53 mediated cellular proliferation signaling pathways might be
-involved in etoposide resistance of Y79/EDR cells, whereas the expression
-levels of Rb1 and P-glycoprotein (P-gp) genes had no alteration.
-
-Conclusion; Our preliminary results suggested that the mechanisms of
-acquired resistance to etoposide in human retinoblastoma Y79 cells might
-be involved in the promotion of cellular proliferation and inhibition of
-cell apoptosis mediated by AKT signaling pathway.
-//
 ID   CLPUB00236
 RA   Yang Y.-X., Meng Y., Zhou L.-J., Li Y.-P., Zheng J.-L., Zhang W.-X.,
 RA   Lin J.-X., Zhang P.;
@@ -11524,21 +11619,21 @@ myeloma. It was shown to have many of the cellular and antigenic
 properties associated with a lymphoblastoid cell line. HET-37 is a
 human/murine heteromyeloma cell line which was established after C23/11
 cells were fused with murine NSO cells. Both C23/11 and HET-37 were
-characterised using electronmicroscopy, histology, immunophenotyping,
+characterised using electron microscopy, histology, immunophenotyping,
 isoenzyme analysis and DNA fingerprinting. In the second experimental
 section, three mab (HMFG-1, AUA-1 and H17E2) were labelled with the
 radioactive isotope, Indium-III. They were used for localisation of tumour
-in 21 patients with suspected ovarian carcinoma. IDIn-mab
+in 21 patients with suspected ovarian carcinoma. (III)In-mab
 immunoscintigraphy was found to be a more sensitive technique for
-evaluation ovarian cancer than X-ray, CAT scan and ultrasound. Inln-mab
+evaluation ovarian cancer than X-ray, CAT scan and ultrasound. (III)In-mab
 immunoscintigraphy was particularly useful in localising tumours in
 patients with serum CA-125 levels greater than 100 IU/ml. F(ab')2
 fragments of HMFG-1 were labelled with technetium and were used to
 determine the distribution of ovarian tumour in a patient with minimal
 residual disease. In the final experimental section, HMFG-1 was chemically
-conjugated to the photosensitiser hematoporphyrin, Hp. HMFG-l-Hp was shown
+conjugated to the photosensitiser hematoporphyrin, Hp. HMFG-1-Hp was shown
 to kill antigen-bearing MCF-7 cells in vitro after irradiation. The
-HMFG-l-Hp conjugate had no effect on EJ-138 cells under identical conditions. The
+HMFG-1-Hp conjugate had no effect on EJ-138 cells under identical conditions. The
 EJ-138 cell line does not express the antigen to which the HMFG-1 antibody
 binds.
 //
@@ -11596,7 +11691,7 @@ RA   Baglia L.A.;
 RT   "Survey of the secretion of immunoreactive pituitary proteins by
 RT   transformed serum-free B lymphoblastoid cell lines.";
 RL   Thesis PhD (1993), Ohio State University, United States.
-WW   http://rave.ohiolink.edu/etdc/view?acc_num=osu1487842372898166
+WW   https://rave.ohiolink.edu/etdc/view?acc_num=osu1487842372898166
 DR   Cellosaurus; CVCL_C5DM; sfAWRamos
 DR   Cellosaurus; CVCL_C5DJ; sfBJAB
 DR   Cellosaurus; CVCL_WS55; sfBT
@@ -13582,7 +13677,7 @@ cultured in Malaysia. This cell line was maintained in Leibovitz L-15
 media supplemented with 10% fetal bovine serum (FBS). The ASBB-1 cell line
 was sub-cultured more than 60 times over a period of 15 months. This cell
 line consists predominantly of fibroblastic-like cells, which are able to
-grow at temperatures between 20°C and 30°C with an optimum temperature of
+grow at temperatures between 20C and 30C with an optimum temperature of
 25 Celsius. At 25C, the growth rate of these cells increased as the
 proportion of FBS increased from 5 to 20% with optimum growth at 15% or
 10% FBS. The ASBB-1 cell line was characterized by karyotyping, and
@@ -14042,6 +14137,37 @@ receptor specificity may not be obligatory for the precursor of SARS-CoV
 to cross the species barrier. It may further suggests that bats are
 reservoir to at least two different lineages of coronaviruses, which
 differ in their receptor usage.
+//
+ID   CLPUB00732
+RA   Breit N.M.;
+RT   "Biologic activity of the novel SINE compound KPT-335 against
+RT   canine melanoma cell lines.";
+RL   Thesis MSc (2014), Ohio State University, United States.
+WW   https://rave.ohiolink.edu/etdc/view?acc_num=osu1397238345
+DR   Cellosaurus; CVCL_0D08; Mel 23
+DR   Cellosaurus; CVCL_0D09; Mel 36
+DR   Cellosaurus; CVCL_0D12; Mel 69
+DR   Cellosaurus; CVCL_0D13; Mel 83
+AB   Yes
+Background: Exportin 1 (XPO1, also known as CRM1), is a protein responsible
+for the export of over 200 target proteins out of the nucleus. XPO1 is
+upregulated in several human cancers and its expression is also linked to
+the development of chemotherapy resistance. Recent studies using both
+human and murine cancer cell lines have demonstrated that XPO1 is a
+relevant target for therapeutic intervention. The present study sought to
+characterize the biologic activity of an orally bioavailable selective
+inhibitor of nuclear export (SINE), KPT-335, against canine melanoma cell
+lines as a prelude to future clinical trials in dogs with melanoma.
+Results: We evaluated the effects of KPT-335 on 4 canine malignant
+melanoma cell lines and found that KPT-335 inhibited proliferation and
+induced apoptosis of treated cells. Additionally, KPT-335 downregulated
+XPO1 protein while inducing a concomitant increase in XPO1 messenger RNA.
+Lastly, KPT-335 treatment of cell lines induced the expression of the
+tumor suppressors p53 and p21, with enhanced nuclear localization.
+
+Conclusion: KPT-335 demonstrates biologic activity against canine melanoma
+cell lines at physiologically relevant doses, suggesting that KPT-335 may
+represent a viable treatment option for dogs with malignant melanoma.
 //
 ID   CLPUB00402
 RA   Spiteri K.W.;
@@ -15042,7 +15168,7 @@ salivary fluid has important functions such as digestion, lubrification,
 antibacterial protection and tooth remineralization. Salivary glands
 dysfunction such as hyposalivation can be observed in patients undergoing
 radiotherapy for head and neck cancer, and in patients suffering from
-Sjögren’s syndrome, an autoimmune disease. Symptoms of hyposalivation
+Sjogren's syndrome, an autoimmune disease. Symptoms of hyposalivation
 include xerostomia (dry mouth), oral infections, tooth decay, pain,
 dysgeusia (distortion of taste) and disrupted speech. Numerous drugs and
 cell therapies have been proposed to reverse the impaired glandular
@@ -15246,7 +15372,7 @@ cells induced a significant T-DM1 resistance. Furthermore, the silencing
 of cdc20, a protein mainly involved in APC complex related cyclin B1
 degradation, could sensitize the resistant cells to T-DM1. Finally, cyclin
 B1 induction by T-DM1 was confirmed in in vivo and ex vivo xenograft
-animal model and patients’ explants, respectively. By cyclin B1 induction
+animal model and patients' explants, respectively. By cyclin B1 induction
 pattern, we could categorize T-DM1 responsive/non-responsive in fresh
 breast cancer explants from HER2 positive breast cancer patients. Our
 results showed that T-DM1 induced G2/M cell cycle arrest in a cyclin
@@ -15376,12 +15502,12 @@ WW   http://nbn-resolving.de/urn/resolver.pl?urn:nbn:de:bvb:91-diss-20181012-143
 DR   https://www.cellosaurus.org/search?input=CLPUB00713
 AB   Yes
 Bioenergetic disturbances are a hallmark of neurodegenerative diseases, in
-particular of Parkinson’s disease (PD). This thesis concerns itself with a
+particular of Parkinson's disease (PD). This thesis concerns itself with a
 cohort of idiopathic PD patients and matched controls collected by the
 Bavarian ForiPS consortium. Induced pluripotent stem cells (iPSCs) and
 their neuronal derivatives were established and analyzed for their
 bioenergetic properties. Results shed new light on iPSCs as disease model
-system and bioenergetic deficiencies in Parkinson’s disease and integrate
+system and bioenergetic deficiencies in Parkinson's disease and integrate
 well in existing research.
 //
 ID   CLPUB00651
@@ -16993,7 +17119,7 @@ The work of culturing hemocytes from larvae of Mythimna separata Walker was
 published in 1980. By using culture medium BML-TC 10 supplemented with
 calf serum and Hepes, cells can be transferred successfully and thus a new
 cell line is established. Up to now it has been transferred more than 100
-passages, Four cell types — plasmatocyte, prohemocyte, granulocyte and
+passages, Four cell types - plasmatocyte, prohemocyte, granulocyte and
 spherulocyte are found in our culture, within which plasmatocyte seems to
 be the most prominent cell type, and the leaf-like and vermiform
 plasmatocytes are all found. The cells are mainly suspended in culture,
@@ -17142,7 +17268,7 @@ accomplished at passage 15 using occlusion-derived virus, and appearance
 of occlusion bodies (OBs) inside the nuclei of infected cells occurred
 with one week post infection. OBs recovered from infected cells were
 confirmed to be OpbrNPV by PCR and were infectious when fed to winter moth
-larvae.ç
+larvae.
 //
 ID   CLPUB00532
 RA   Koike M., Sato K.;
@@ -18676,7 +18802,7 @@ RA   Iaconelli A. Jr., Pereira L.V.;
 RT   "Derivation of new Brazilian lineages of human embryonic stem cell
 RT   with triploid karyotype (69, XXX).";
 RL   (In) V Congresso Brasileiro de Celulas-Tronco e Terapia Celular; Gramado (2010).
-WW   https://www.researchgate.net/publication/275034838_Derivation_of_new_Brazilian_lineages_of_Human_Embryonic_Stem_Cell_with_triploid_karyotype_69_XXX
+WW   https://www.researchgate.net/publication/275034838
 DR   Cellosaurus; CVCL_AU04; BR-2
 AB   Yes
 Human embryonic stem cells (hESC) are pluripotent, self-renewing cells
@@ -18790,12 +18916,12 @@ Simizu reported successful production of virus plaques with Machupo and
 several other zoonotic viruses in Vero.
 //
 ID   CLPUB00694
-RA   Story M.M., Stringer B.W., Fonseca-Alves C.E., Straw R.C., Amorim R.L.,
-RA   Palmieri C.;
+RA   Story M.M., Stringer B.W., Fonseca-Alves C.E., Straw R.C.,
+RA   Laufer-Amorim R., Palmieri C.;
 RT   "Establishment and characterisation of a new canine prostate cancer cell line
 RT   (Kodiak2016).";
 RL   (In) 4th joint ESVP, ECVP and ESTP Cutting Edge Pathology Congress; pp.?-?; Torino (2021).
-WW   https://www.researchgate.net/publication/357685645_ESTABLISHMENT_AND_CHARACTERISATION_OF_A_NEW_CANINE_PROSTATE_CANCER_CELL_LINE_KODIAK2016
+WW   https://www.researchgate.net/publication/357685645
 DR   Cellosaurus; CVCL_B7DS; Kodiak2016
 AB   Yes
 Cultured cancer cell lines are critical for canine prostate cancer
@@ -18805,7 +18931,7 @@ difficultly in acquiring sufficient tissue samples for laboratory studies
 and affected dogs for clinical studies, due to the relatively low
 prevalence of canine prostate cancer compared to human prostate cancer and
 the reluctance of owners to pursue diagnostic tests and treatment due to
-the disease’s very poor prognosis. While cell lines do not replace tissue
+the disease's very poor prognosis. While cell lines do not replace tissue
 samples or in vivo studies, they provide another option for studying
 canine prostate cancer. In addition, they can be used to help determine
 what future studies are likely to be the most valuable, so that in vivo
@@ -19064,4 +19190,7 @@ RX   DOI=10.21954/ou.ro.0000e27e;
 //
 ID   CLPUB00580
 RX   DOI=10.5282/edoc.3898;
+//
+ID   CLPUB00605
+RX   DOI=10.3969/j.issn.1673-713X.2017.04.002;
 //

@@ -4,8 +4,8 @@
 ----------------------------------------------------------------------------
 
  Description: Cellosaurus: frequently asked questions
- Version: 44.0
- Last update: 15-December-2022
+ Version: 45.0
+ Last update: 21-March-2023
 
 ----------------------------------------------------------------------------
 
@@ -148,14 +148,25 @@ we can't insure to be in perfect synchronization with all the entities that
 are involved in cell line distribution.
 
 If you are unable to find and organisation that distributes your cell line
-of interest, you could try to contact the laboratory that  established it
+of interest, you could try to contact the laboratory that established it
 or, if it is no longer in activity, a laboratory that makes use of that cell
-line. The papers referenced in the relevant Cellosaurus cell line entry
-should help you to find the right person to contact.
+line.
 
-Hereunder we provide links to a number of companies and organisation that
+The papers referenced in the relevant Cellosaurus cell line entry should help
+you to find the right person to contact. Look at the oldest reference listed
+in the Cellosaurus entry. This will most often be the reference describing
+the establishment of that cell line or if not the first reference mentioning
+it. However if the group that created a cell line is no longer active, search
+in Google Scholar or PMC Central for recent papers mentioning this cell line.
+Look in the material and methods section for mention of the type "thanks to
+Xxxx for providing the Yyyyy cell line". You can then try to contact the
+relevant person.
+
+Hereunder we provide links to a number of companies and organisations that
 provide cell lines. We encourage you to browse their online catalog.
 
+Abcam:
+ https://www.abcam.com/nav/cell-lines-and-lysates
 AddexBio:
  https://www.addexbio.com/productshow?id=4
 Allen Cell Collection:
@@ -167,7 +178,7 @@ Applied Biological Materials (abm):
 B'SYS
  https://www.bsys.ch/cell-lines.html
 Banco de Celulas do Rio de Janeiro (BCRJ):
- http://bcrj.org.br/celula/bcrj
+ https://bcrj.org.br/pesquisa/
 BioIVT
  https://www.bioivt.com/cell-products/?_sf_s=cell%20lines
 Biopredic International:
@@ -179,7 +190,7 @@ Cedarlane Cellutions Biosystems:
 Cell Biolabs:
  https://www.cellbiolabs.com/
 CellBank Australia (CBA):
- http://www.cellbankaustralia.com/
+ https://www.cellbankaustralia.com/
 Cellero:
  https://cellero.com/products/immune-cells/
 Cellular Engineering Technologies (CET):
@@ -221,11 +232,11 @@ GenHunter:
 GenScript:
  https://www.genscript.com/cell_lines.html
 HGDP-CEPH Human Genome Diversity Cell Line Panel:
- http://www.cephb.fr/en/hgdp_panel.php
+ https://cephb.fr/en/hgdp_panel.php
 Horizon Discovery:
  https://www.horizondiscovery.com/cell-lines
 Human Induced Pluripotent Stem Cells Initiative:
- http://www.hipsci.org/
+ https://www.hipsci.org/
 IHWG Cell and DNA Bank:
  https://www.fredhutch.org/en/labs/clinical/projects/ihwg/cell-lines-genes.html
 Imanis Life Sciences:
@@ -237,7 +248,7 @@ INCELL:
 IncuCyte (Essen BioScience):
  https://www.essenbioscience.com/en/products/reagents-consumables/category/cell-lines/
 Innoprot:
- http://www.innoprot.com/en_productos_escaparate.asp
+ https://innoprot.com/products/
 Interlab Cell Line Collection (ICLC):
  http://www.iclc.it/
 Inven2Biologics:
@@ -267,7 +278,7 @@ Memorial Sloan Kettering Cancer Center:
 Merck Millipore (EMD Millipore)
  https://www.merckmillipore.com/
 National Cell Bank of Iran (NCBI):
- http://en.pasteur.ac.ir/pages.aspx?id=823
+ https://en.pasteur.ac.ir/Department%20of%20Cell%20Bank
 National Laboratory for the Genetics of Israeli Populations (NLGIP):
  http://yoran.tau.ac.il/nlgip/
 Ncardia:
@@ -1093,4 +1104,7 @@ similar STR profiles if they originate from the same mouse breed/strain.
 Thanks to Jamie L. Almeida for important contributions to this FAQ.
 
 ----------------------------------------------------------------------------
+ 
+ 
+
 

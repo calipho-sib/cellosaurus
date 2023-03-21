@@ -6,96 +6,96 @@
    \_____\___|_|_|\___/|___/\__,_|\__,_|_|   \__,_|___/
 
 
-This is the release notes for Cellosaurus version 44 of December 2022
+This is the release notes for Cellosaurus version 45 of March 2023
 
 1) Statistics
 
-144568 cell lines (106883 human, 26104 mouse, 2718 rat)
+145368 cell lines (107864 human, 26311 mouse, 2734 rat)
    805 species represented
-105155 synonyms
-417199 cross-references to 102 ontologies, databases, catalogs, etc.
-150310 references to 25963 distinct publications (papers, patents, theses, etc.)
- 14574 web links
+106123 synonyms
+421462 cross-references to 103 ontologies, databases, catalogs, etc.
+152339 references to 26279 distinct publications (papers, patents, theses, etc.)
+ 14157 web links
 
-  8472 human, mouse and dog cell lines with STR profiles (from 787 distinct sources)
+  8520 human, mouse and dog cell lines with STR profiles (from 796 distinct sources)
 
-Since release 43 of September 2022:
-  2689 entries were created
- 11206 entries were updated
+Since release 44 of December 2022:
+  1071 entries were created
+144567 entries were updated (note: all entries were updated due to the change
+       in the OX line described below).
 
-2) Changes in the CC lines
+2) Changes concerning the OX (species of origin) line
 
-2a) New "Donor information" CC line topic.
+We have added, in between parenthesis, the species common name after the
+binomial nomenclature designation
 
-Miscellaneous information regarding the donor of the cell line which was formerly found
-in the "Miscellaneous" CC line type is now stored in a new CC line type "Donor information".
+For example:
+OX   NCBI_TaxID=9606; ! Homo sapiens
+is now:
+OX   NCBI_TaxID=9606; ! Homo sapiens (Human)
 
-Examples:
-CC   Donor information: At sampling donor was not affected with Alzheimer disease but has a 25% risk.
-CC   Donor information: Established from the non-affected skin biopsy from an individual with multiple tumours of independent histological origin (PubMed=23093295).
-CC   Donor information: Established from an unaffected member of a Li-Fraumeni syndrome family.
+3) Changes in CC lines
 
-2b) New "Senescence" CC line topic.
+3a) Change in the referencing of Cellosaurus entries
 
-Information regarding finite cell line senescence which was formerly found in the
-"Characteristics" CC line type is now stored in a new CC line type: "Senescence".
+In comments lines references to Cellosaurus entries used to be indicated
+using the accession of the entry between brackets "(CVCL_XXXX)". Accessions
+are now prefixed by 'Cellosaurus=' as in "(Cellosaurus=CVCL_XXXX)".
 
-Examples:
-CC   Senescence: Senesces at 18 PDL (PubMed=12077343).
-CC   Senescence: Has an extended life span, but it is not sure if it is immortal.
-CC   Senescence: Can only be cultured for up to 15 passages before displaying signs of senescence (PubMed=26891694).
+For example:
+CC   Characteristics: Control cell line for 293 TRE/FLAG-POLK (CVCL_4W26).
+is now:
+CC   Characteristics: Control cell line for 293 TRE/FLAG-POLK (Cellosaurus=CVCL_4W26).
 
-2c) New "Virology" CC line topic.
+3b) Changes in the CC Misspelling
 
-Information regarding the susceptibility of a cell line to viral infection, the presence
-of integrated viruses or any other virology-related information which were all formerly
-found in the "Characteristics" CC line type are now stored in a new CC line type:
-"Virology".
+In the XML format information concerning the "Misspelling" comment is now
+structured and represented in the "misspelling-list" element.
 
-Examples:
-CC   Virology: Susceptible to infection and early propagation by guinea pig adenovirus (GPAdV) (PubMed=32226606).
-CC   Virology: Infection by mouse hepatitis virus (MHV) results in apoptotic cell death (PubMed=12441076).
-CC   Virology: Used for differentiation of virulent and non virulent strains of measles virus (ECACC; IZSLER).
+3c) Changes in the CC Omics
 
-3) Changes concerning cross-references
+We have changed the label of 4 existing "Omics" tags relevant to transcriptome
+studies to make them more homogenous.
 
-3a) Cross-references were added to the NCBI database of Genotypes and Phenotypes
-(dbGAP).
+CC   Omics: Deep RNAseq analysis.
+is now:
+CC   Omics: Transcriptome analysis by RNAseq.
+
+CC   Omics: ESTs sequenced.
+is now:
+CC   Omics: Transcriptome analysis by ESTs sequencing.
+
+CC   Omics: Single cell RNAseq analysis.
+is now:
+CC   Omics: Transcriptome analysis by single cell RNAseq.
+
+CC   Omics: Transcriptome analysis.
+is now:
+CC   Omics: Transcriptome analysis by microarray.
+
+And we introduced two new transcriptome studies tags:
+
+CC   Omics: Transcriptome analysis by massively parallel signature sequencing (MPSS).
+CC   Omics: Transcriptome analysis by serial analysis of gene expression (SAGE).
+
+4) Changes concerning cross-references
+
+Cross-references were added to the NIH Human Embryonic Stem Cell Registry.
+Prevously web links were provided to this resources, but we upgraded them to
+cross-references.
 
 Corresponding entry in the file cellosaurus_xrefs.txt:
 
-Abbrev: dbGAP
-Name  : Database of Genotypes and Phenotypes
-Server: https://www.ncbi.nlm.nih.gov/gap/
-Db_URL: https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=%s
+Abbrev: NIHhESC
+Name  : NIH Human Embryonic Stem Cell Registry
+Server: https://grants.nih.gov/stem_cells/registry/current.htm
+Db_URL: https://grants.nih.gov/stem_cells/registry/current.htm?ID=%s
 Term. : No
-Cat   : Sequence databases
+Cat   : Cell line databases/resources
 //
 
 Example:
-DR   dbGAP; phs001839.v1.p1
-
-3b) Cross-references were added to the PubChem Cell line pages.
-
-Corresponding entry in the file cellosaurus_xrefs.txt:
-
-Abbrev: PubChem_Cell_line
-Name  : PubChem compound database; cell line pages
-Server: https://pubchem.ncbi.nlm.nih.gov
-Db_URL: https://pubchem.ncbi.nlm.nih.gov/cell/%s
-Term. : No
-Cat   : Chemistry resources
-//
-
-Example:
-DR   PubChem_Cell_line; CVCL_8337
-
-4) Changes in the XML file
-
-The descriptions of the elements "genome-ancestry" and "hla-typing-list"
-(formerly called "hla-lists") were slightly changed so as to make the
-representation of these data fields more homogeneous with that of other
-fields.
+DR   NIHhESC; NIHhESC-10-0043
 
 ----------------------------------------
 Amos Bairoch

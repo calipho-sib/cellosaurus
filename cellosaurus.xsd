@@ -2,7 +2,7 @@
 <!-- *****************************************************************************
         XML Schema Definition (XSD) for the Cellosaurus XML
 
-        Date: 2022-December-15; Release: 5.00
+        Date: 2023-March-21; Release: 6.00
 
         Copyright (c) CALIPHO group @ SIB - Swiss Institute of Bioinformatics
         Distributed under the Creative Commons Attribution 4.0 International (CC BY 4.0) licence
@@ -120,6 +120,7 @@
              <xs:element ref="reference-list" minOccurs="0" maxOccurs="1"/>
              <xs:element ref="hla-typing-list" minOccurs="0" maxOccurs="1"/>
              <xs:element ref="genome-ancestry" minOccurs="0" maxOccurs="1"/>
+             <xs:element ref="misspelling-list" minOccurs="0" maxOccurs="1"/>
              <xs:element ref="registration-list" minOccurs="0" maxOccurs="1"/>
              <xs:element ref="sequence-variation-list" minOccurs="0" maxOccurs="1"/>
              <xs:element ref="xref-list" minOccurs="0" maxOccurs="1"/>
@@ -276,7 +277,6 @@
                   <xs:enumeration value="Knockout cell"/>
                   <xs:enumeration value="Microsatellite instability"/>
                   <xs:enumeration value="Miscellaneous"/>
-                  <xs:enumeration value="Misspelling"/>
                   <xs:enumeration value="Monoclonal antibody isotype"/>
                   <xs:enumeration value="Monoclonal antibody target"/>
                   <xs:enumeration value="Omics"/>
@@ -602,8 +602,9 @@
       <xs:complexType>
          <xs:sequence>
             <xs:choice maxOccurs="1">
-               <xs:element ref="source"/>
                <xs:element ref="reference"/>
+               <xs:element ref="xref"/>
+               <xs:element ref="source"/>
             </xs:choice>
          </xs:sequence>
       </xs:complexType>
@@ -767,6 +768,37 @@
       </xs:complexType>
    </xs:element>
    <!-- Genome ancestry source element definition ends -->
+
+   <!-- Misspelling list element definition begins -->
+   <xs:element name="misspelling-list">
+      <xs:annotation>
+         <xs:documentation>Describes the collection of misspellings for a cell line.</xs:documentation>
+      </xs:annotation>
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element ref="misspelling" minOccurs="1" maxOccurs="unbounded"/>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+
+   <!-- Misspelling element definition begins -->
+   <xs:element name="misspelling">
+      <xs:annotation>
+         <xs:documentation>Describes a misspelling.</xs:documentation>
+      </xs:annotation>
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element ref="misspelling-name" minOccurs="1" maxOccurs="1"/>
+            <xs:element ref="misspelling-note" minOccurs="0" maxOccurs="1"/>
+            <xs:element ref="xref-list" minOccurs="0" maxOccurs="1"/>
+            <xs:element ref="reference-list" minOccurs="0" maxOccurs="1"/>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <!-- Misspelling element definition ends -->
+
+   <xs:element name="misspelling-name" type="xs:string"/>
+   <xs:element name="misspelling-note" type="xs:string"/>
 
    <!-- Registration list element definition begins -->
    <xs:element name="registration-list">
