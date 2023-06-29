@@ -4,8 +4,8 @@
 ----------------------------------------------------------------------------
 
  Description: Cellosaurus: frequently asked questions
- Version: 45.0
- Last update: 21-March-2023
+ Version: 46.0
+ Last update: 29-June-2023
 
 ----------------------------------------------------------------------------
 
@@ -42,6 +42,7 @@ Q28: What are the differences between the Cellosaurus and hPSCreg?
 Q29: Are fetuses aborted to derive cell lines?
 Q30: Is the sequence of gene ABCD identical in cell line XYZ and in the reference human genome?
 Q31: Why when I use CLASTR to search for similarities between the STR profile of my mouse cell line and the profiles stored in the Cellosaurus I am either not getting any hits or unexpectedly get a very high match with a number of cell lines?
+Q32: Can you provide the Cellosaurus in JSON format?
 
 ----------------------------------------------------------------------------
 
@@ -209,6 +210,8 @@ Cosmo Bio
  https://www.cosmobio.com/contents/list.php?category_id=36
 Creative Bioarray:
  https://www.creative-bioarray.com/products/immortalized-cells-191.htm
+Creative Biolabs:
+ https://neuros.creative-biolabs.com/category-neural-cell-lines-42.htm
 Deutsche Sammlung von Mikroorganismen und Zellkulturen (DSMZ):
  https://www.dsmz.de/catalogues/catalogue-human-and-animal-cell-lines.html
 DiscoverX:
@@ -443,21 +446,21 @@ Example (CVCL_0030):
 
 Important notes:
 
--There is always one recommended name ("identifier") and >=0 alternative
- name(s) ("synonym").
+- There is always one recommended name ("identifier") and >=0 alternative
+  name(s) ("synonym").
 
--As shown in the above example, synonyms include alternative use of lower
- and upper cases.
+- As shown in the above example, synonyms include alternative use of lower
+  and upper cases.
 
--For text-mining purpose there is no distinction to be made between the
- recommended name and the alternative names. The recommended name does not
- aim to capture the most frequently used name but rather either that
- proposed by the originator of the cell line, or one consistent with other
- similarly named cell lines, or the least ambiguous one.
+- For text-mining purpose there is no distinction to be made between the
+  recommended name and the alternative names. The recommended name does not
+  aim to capture the most frequently used name but rather either that
+  proposed by the originator of the cell line, or one consistent with other
+  similarly named cell lines, or the least ambiguous one.
 
--When two or more cell lines share identical recommended names, the
- ambiguous names are disambiguated by post-fixing the name with a short
- description between square brackets. Examples:
+- When two or more cell lines share identical recommended names, the
+  ambiguous names are disambiguated by post-fixing the name with a short
+  description between square brackets. Examples:
 
 <pre>
  CVCL_5246:
@@ -475,11 +478,35 @@ Misspellings are captured in the Cellosaurus through the comment category
 "Misspelling". Examples:
 
 <pre>
-CVCL_0197:
-<comment category="Misspelling"> C19PL; In PubMed=11737246 </comment>
-CVCL_0201:
-<comment category="Misspelling"> CACOV-3; Occasionally </comment>
-<comment category="Misspelling"> CACOV3; Occasionally </comment>
+CVCL_Z275:
+<misspelling-list>
+  <misspelling>
+    <misspelling-name>KLBIQ-Chsu-I</misspelling-name>
+    <misspelling-note>In text of paper but not in abstract.</misspelling-note>
+    <reference-list>
+      <reference resource-internal-ref="PubMed=25381037"/>
+    </reference-list>
+  </misspelling>
+</misspelling-list>
+
+CVCL_0332:
+<misspelling-list>
+  <misspelling>
+    <misspelling-name>HTB126</misspelling-name>
+    <misspelling-note>Based on the ATCC catalog number.</misspelling-note>
+  </misspelling>
+  <misspelling>
+    <misspelling-name>Hs-587-T</misspelling-name>
+    <xref-list>
+      <xref database="Cosmic" category="Polymorphism and mutation databases" accession="1176633">
+        <url><![CDATA[https://cancer.sanger.ac.uk/cosmic/sample/overview?id=1176633]]></url>
+      </xref>
+      <xref database="Cosmic" category="Polymorphism and mutation databases" accession="1010929">
+        <url><![CDATA[https://cancer.sanger.ac.uk/cosmic/sample/overview?id=1010929]]></url>
+      </xref>
+    </xref-list>
+  </misspelling>
+</misspelling-list>
 </pre>
 
 3) Accession numbers
@@ -503,17 +530,17 @@ Example:
 
 Cell line names be contextualized on the basis of:
 
--Species: through the "species-list" element which makes use of NCBI
- Taxonomy TaxIDs.
+- Species: through the "species-list" element which makes use of NCBI
+  Taxonomy TaxIDs.
 
--Subspecies/breed: through the comment category "Breed/subspecies" which is
- free text.
+- Subspecies/breed: through the comment category "Breed/subspecies" which is
+  free text.
 
--Disease: through the "disease-list" which makes use of NCI Thesaurus and
- Orphanet ORDO codes.
+- Disease: through the "disease-list" which makes use of NCI Thesaurus and
+  Orphanet ORDO codes.
 
--Tissue: Not yet possible. We plan to add the tissue of origin using Uberon
- as the standardization resource, but this will not take place until 2022.
+- Tissue: Not yet possible. We plan to add the tissue of origin using Uberon
+  as the standardization resource, but this will not take place until 2022.
 
 ----------------------------------------------------------------------------
 
@@ -579,11 +606,12 @@ create a web form to allow submission of new cell line information. In the
 meanwhile, the best strategy is to send us in a first step a minimal set
 of information which consist of:
 
--Name
--Species of origin (and if not human the strain/breed of the animal)
--Gender and age of donor
--Category of cell line (examples: cancer, hybridoma, iPSC, ESC, etc).
--If the donor is suffering from a disease (cancer or genetic), that disease name
+- Name
+- Species of origin (and if not human the strain/breed of the animal)
+- Gender and age of donor
+- Category of cell line (examples: cancer, hybridoma, iPSC, ESC, etc).
+- If the donor is suffering from a disease (cancer or genetic), that disease
+  name
 
 There are many other information items that could be useful and you should
 look in the Cellosaurus at entries for cell lines "similar" to that you are
@@ -611,10 +639,10 @@ statement "Problematic cell line".
 To understand the differences between the two sets one first need to be aware
 that the ICLAC register is composed of two tables:
 
--Table 1: cell lines where there is no known authentic stock
+- Table 1: cell lines where there is no known authentic stock
 
--Table 2: cell lines where some stocks have been shown to be misidentified,
- but where authentic stock is known to exist.
+- Table 2: cell lines where some stocks have been shown to be misidentified,
+  but where authentic stock is known to exist.
 
 For all cell lines listed in Table 1 of the ICLAC register, there is in the
 corresponding Cellosaurus entries a comment "Problematic cell line". That
@@ -834,18 +862,18 @@ Q25: How can I access an old version of the Cellosaurus?
 
 A: Lets start by some preliminary explanations and a bit of "history":
 
--The Cellosaurus is updated regularly through a release mechanism with new
-versions being released at least 4 times per year.
--The first version to be publicly distributed was release 2.0 on 04-Apr-2012.
--Each subsequent release is consecutively numbered with one exception:
-release 9.0 of 16-Apr-2014 was followed by release 9.1 of 17-Jul-2014.
--Initially the Cellosaurus files were available for download on the neXtProt
-FTP site but since May 2015 (with release 12.0 of 10-Apr-2015) they have been
-distributed from the Expasy FTP site:
+- The Cellosaurus is updated regularly through a release mechanism with new
+  versions being released at least 4 times per year.
+- The first version to be publicly distributed was release 2.0 on 04-Apr-2012.
+- Each subsequent release is consecutively numbered with one exception:
+  release 9.0 of 16-Apr-2014 was followed by release 9.1 of 17-Jul-2014.
+- Initially the Cellosaurus files were available for download on the neXtProt
+  FTP site but since May 2015 (with release 12.0 of 10-Apr-2015) they have
+  been distributed from the Expasy FTP site:
 
 ftp://ftp.expasy.org/databases/cellosaurus
 
--The number of files distributed at each release has evolved through time:
+- The number of files distributed at each release has evolved through time:
 
 <pre>
 File name                       Release and date of first distribution
@@ -1104,7 +1132,16 @@ similar STR profiles if they originate from the same mouse breed/strain.
 Thanks to Jamie L. Almeida for important contributions to this FAQ.
 
 ----------------------------------------------------------------------------
- 
- 
 
+Q32: Can you provide the Cellosaurus in JSON format?
+
+A: JSON format is quite verbose and while we do not provide a file containing
+all of the Cellosaurus entries with all of their records in that format you
+can use our API to obtain JSON formated entries.
+
+For example if you want all fish cell lines entries in JSON you can use:
+
+https://api.cellosaurus.org/search/cell-line?q=group:fish&format=json
+
+----------------------------------------------------------------------------
 

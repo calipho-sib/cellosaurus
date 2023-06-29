@@ -2,7 +2,7 @@
 <!-- *****************************************************************************
         XML Schema Definition (XSD) for the Cellosaurus XML
 
-        Date: 2023-March-21; Release: 6.00
+        Date: 2023-June-29; Release: 6.10
 
         Copyright (c) CALIPHO group @ SIB - Swiss Institute of Bioinformatics
         Distributed under the Creative Commons Attribution 4.0 International (CC BY 4.0) licence
@@ -119,6 +119,9 @@
              <xs:element ref="web-page-list" minOccurs="0" maxOccurs="1"/>
              <xs:element ref="reference-list" minOccurs="0" maxOccurs="1"/>
              <xs:element ref="hla-typing-list" minOccurs="0" maxOccurs="1"/>
+             <xs:element ref="doubling-time-list" minOccurs="0" maxOccurs="1"/>
+             <xs:element ref="derived-from-site-list" minOccurs="0" maxOccurs="1"/>
+             <xs:element ref="cell-type" minOccurs="0" maxOccurs="1"/>
              <xs:element ref="genome-ancestry" minOccurs="0" maxOccurs="1"/>
              <xs:element ref="misspelling-list" minOccurs="0" maxOccurs="1"/>
              <xs:element ref="registration-list" minOccurs="0" maxOccurs="1"/>
@@ -266,11 +269,8 @@
                   <xs:enumeration value="Breed/subspecies"/>
                   <xs:enumeration value="Caution"/>
                   <xs:enumeration value="Characteristics"/>
-                  <xs:enumeration value="Derived from metastatic site"/>
-                  <xs:enumeration value="Derived from sampling site"/>
                   <xs:enumeration value="Discontinued"/>
                   <xs:enumeration value="Donor information"/>
-                  <xs:enumeration value="Doubling time"/>
                   <xs:enumeration value="From"/>
                   <xs:enumeration value="Group"/>
                   <xs:enumeration value="Karyotypic information"/>
@@ -326,7 +326,7 @@
                <xs:restriction base="xs:string">
                   <xs:enumeration value="Anatomy/cell type resources"/>
                   <xs:enumeration value="Biological sample resources"/>
-                  <xs:enumeration value="Cell line collections"/>
+                  <xs:enumeration value="Cell line collections (Providers)"/>
                   <xs:enumeration value="Cell line databases/resources"/>
                   <xs:enumeration value="Chemistry resources"/>
                   <xs:enumeration value="Encyclopedic resources"/>
@@ -393,6 +393,8 @@
                         <xs:enumeration value="NCIt"/>
                         <xs:enumeration value="ORDO"/>
                         <xs:enumeration value="PubChem"/>
+                        <xs:enumeration value="UBERON"/>
+                        <xs:enumeration value="CL"/>
                      </xs:restriction>
                   </xs:simpleType>
                </xs:attribute>
@@ -517,6 +519,111 @@
    <xs:element name="hla-alleles" type="xs:string"/>
    <xs:element name="marker-alleles" type="xs:string"/>
 
+
+<!-- ========== starts CC Topic Cell type ============================  -->
+
+   <xs:element name="cell-type">
+      <xs:annotation>
+         <xs:documentation>Describes the cell-type the cell line is derived from.</xs:documentation>
+      </xs:annotation>
+      <xs:complexType mixed="true">
+         <xs:sequence>
+            <xs:element ref="cv-term" minOccurs="0" maxOccurs="1"/>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+
+<!-- ========== ens CC Topic Cell type ============================  -->
+
+<!-- ======== starts CC Topic : Derived from site ==================  -->
+
+   <xs:element name="derived-from-site-list">
+      <xs:annotation>
+         <xs:documentation>Describes the list of body parts or organs the cell line is derived from.</xs:documentation>
+      </xs:annotation>
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element ref="derived-from-site" minOccurs="1" maxOccurs="unbounded"/>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="derived-from-site">
+      <xs:annotation>
+         <xs:documentation>Describes a body part or organ the cell line is derived from.</xs:documentation>
+      </xs:annotation>
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element ref="site" minOccurs="1" maxOccurs="1"/>
+            <xs:element ref="site-note" minOccurs="0" maxOccurs="1"/>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="site-note" type="xs:string"/>
+
+   <xs:element name="site">
+      <xs:annotation>
+         <xs:documentation>Describes a body part or organ.</xs:documentation>
+      </xs:annotation>
+      <xs:complexType mixed="true">
+         <xs:sequence>
+            <xs:element ref="cv-term" minOccurs="0" maxOccurs="unbounded"/>
+         </xs:sequence>
+         <xs:attribute name="site-type" use="required">
+            <xs:simpleType>
+               <xs:restriction base="xs:string">
+                  <xs:enumeration value="In situ"/>
+                  <xs:enumeration value="Metastatic"/>
+               </xs:restriction>
+            </xs:simpleType>
+         </xs:attribute>
+      </xs:complexType>
+   </xs:element>
+
+<!--   ======== ends CC Topic : Derived from site ==================  -->
+
+   <xs:element name="doubling-time-list">
+      <xs:annotation>
+         <xs:documentation>Describes the list of doubling time(s) observed for the cell line.</xs:documentation>
+      </xs:annotation>
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element ref="doubling-time" minOccurs="1" maxOccurs="unbounded"/>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="doubling-time">
+      <xs:annotation>
+         <xs:documentation>Describes doubling time observed for the cell line.</xs:documentation>
+      </xs:annotation>
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element ref="doubling-time-value" minOccurs="1" maxOccurs="1"/>
+            <xs:element ref="doubling-time-note" minOccurs="0" maxOccurs="1"/>
+            <xs:element ref="doubling-time-sources" minOccurs="1" maxOccurs="1"/>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="doubling-time-value" type="xs:string"/>
+   <xs:element name="doubling-time-note" type="xs:string"/>
+
+   <xs:element name="doubling-time-sources">
+      <xs:annotation>
+         <xs:documentation>Describes doubling time observed for the cell line.</xs:documentation>
+      </xs:annotation>
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element ref="xref-list" minOccurs="0" maxOccurs="1"/>
+            <xs:element ref="reference-list" minOccurs="0" maxOccurs="1"/>
+            <xs:element ref="source-list" minOccurs="0" maxOccurs="1"/>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+
+
    <!-- Disease list element definition begins -->
    <xs:element name="disease-list">
       <xs:annotation>
@@ -585,7 +692,7 @@
    <!-- HLA gene data element definition begins -->
    <xs:element name="hla-gene-alleles">
       <xs:annotation>
-         <xs:documentation>Describes one HLA gene for a cell line.</xs:documentation>
+         <xs:documentation>Describes the alleles for one HLA gene for a cell line.</xs:documentation>
       </xs:annotation>
       <xs:complexType>
          <xs:attribute name="alleles" type="xs:string" use="required"/>
@@ -602,9 +709,9 @@
       <xs:complexType>
          <xs:sequence>
             <xs:choice maxOccurs="1">
-               <xs:element ref="reference"/>
-               <xs:element ref="xref"/>
                <xs:element ref="source"/>
+               <xs:element ref="xref"/>
+               <xs:element ref="reference"/>
             </xs:choice>
          </xs:sequence>
       </xs:complexType>
@@ -614,7 +721,7 @@
    <!-- Sequence variation list element definition begins -->
    <xs:element name="sequence-variation-list">
       <xs:annotation>
-         <xs:documentation>Describes the sequence variations annotated for a cell line.</xs:documentation>
+         <xs:documentation>Describes the sequence variations for a cell line.</xs:documentation>
       </xs:annotation>
       <xs:complexType>
          <xs:sequence>
@@ -732,7 +839,7 @@
    <!-- Population data element definition begins -->
    <xs:element name="population">
       <xs:annotation>
-         <xs:documentation>Describes the population percentage</xs:documentation>
+         <xs:documentation>Describes the population percentage.</xs:documentation>
       </xs:annotation>
       <xs:complexType>
           <xs:attribute name="population-name" use="required">
@@ -803,7 +910,7 @@
    <!-- Registration list element definition begins -->
    <xs:element name="registration-list">
       <xs:annotation>
-         <xs:documentation>Describes the collection of registration for a cell line.</xs:documentation>
+         <xs:documentation>Describes the collection of registrations for a cell line.</xs:documentation>
       </xs:annotation>
       <xs:complexType>
          <xs:sequence>
@@ -901,6 +1008,7 @@
                   <xs:enumeration value="thesis MD"/>
                   <xs:enumeration value="thesis MDSc"/>
                   <xs:enumeration value="thesis MSc"/>
+                  <xs:enumeration value="thesis PD"/>
                   <xs:enumeration value="thesis PhD"/>
                   <xs:enumeration value="thesis VMD"/>
                </xs:restriction>

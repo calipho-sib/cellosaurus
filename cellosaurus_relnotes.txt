@@ -6,96 +6,64 @@
    \_____\___|_|_|\___/|___/\__,_|\__,_|_|   \__,_|___/
 
 
-This is the release notes for Cellosaurus version 45 of March 2023
+This is the release notes for Cellosaurus version 46 of June 2023
 
 1) Statistics
 
-145368 cell lines (107864 human, 26311 mouse, 2734 rat)
+146062 cell lines (107991 human, 26352 mouse, 2757 rat)
    805 species represented
-106123 synonyms
-421462 cross-references to 103 ontologies, databases, catalogs, etc.
-152339 references to 26279 distinct publications (papers, patents, theses, etc.)
- 14157 web links
+106584 synonyms
+422419 cross-references to 103 ontologies, databases, catalogs, etc.
+153209 references to 26479 distinct publications (papers, patents, theses, etc.)
+ 14162 web links
 
-  8520 human, mouse and dog cell lines with STR profiles (from 796 distinct sources)
+  8566 human, mouse and dog cell lines with STR profiles (from 800 distinct sources)
 
-Since release 44 of December 2022:
-  1071 entries were created
-144567 entries were updated (note: all entries were updated due to the change
-       in the OX line described below).
+Since release 45 of March 2023:
+   427 entries were created
+126171 entries were updated (many entries were updated due to the changes
+       in the CC sampling lines described below).
 
-2) Changes concerning the OX (species of origin) line
+2) Changes concerning the CC Derived from sampling/metastatic sites lines
 
-We have added, in between parenthesis, the species common name after the
-binomial nomenclature designation
+We have completely changed the format and content of these lines and
+we have also introduced cross-references to two important resources: the
+UBERON cross-species anatomy ontology and the CL cell (type) ontology.
 
-For example:
-OX   NCBI_TaxID=9606; ! Homo sapiens
-is now:
-OX   NCBI_TaxID=9606; ! Homo sapiens (Human)
+There is now a unique "site" CC line which is called "Derived from site:"
+It is in the format:
 
-3) Changes in CC lines
+Derived from site: Site_flag; Cellosaurus_site_term[; Note=Note_text][; UBERON=Uberon_ac[+UBERON=Uberon_ac]].
 
-3a) Change in the referencing of Cellosaurus entries
+Where the "Site_flag" is either "Metastatic" or "In situ".
 
-In comments lines references to Cellosaurus entries used to be indicated
-using the accession of the entry between brackets "(CVCL_XXXX)". Accessions
-are now prefixed by 'Cellosaurus=' as in "(Cellosaurus=CVCL_XXXX)".
+As indicated in the format description there are now cross-references to
+UBERON ontology terms.
 
-For example:
-CC   Characteristics: Control cell line for 293 TRE/FLAG-POLK (CVCL_4W26).
-is now:
-CC   Characteristics: Control cell line for 293 TRE/FLAG-POLK (Cellosaurus=CVCL_4W26).
+Examples:
+CC   Derived from site: In situ; Eye, cornea, epithelium; UBERON=UBERON_0001772.
+CC   Derived from site: In situ; Upper jaw, hypodermis; UBERON=UBERON_0001709+UBERON_0002072.
+CC   Derived from site: Metastatic; Bone marrow; UBERON=UBERON_0002371.
 
-3b) Changes in the CC Misspelling
+Information on the cell type from which the cell line originate is now
+stored in a separate CC line: "Cell type" and is in the format:
 
-In the XML format information concerning the "Misspelling" comment is now
-structured and represented in the "misspelling-list" element.
+Cell type: Cellosaurus_cell_type; CL=CL_Accession.
 
-3c) Changes in the CC Omics
+As indicated in the format description there are now cross-references to
+CL ontology terms.
 
-We have changed the label of 4 existing "Omics" tags relevant to transcriptome
-studies to make them more homogenous.
+Examples:
+CC   Cell type: Fibroblast of skin; CL=CL_0002620.
+CC   Cell type: Brain microvascular endothelial cell; CL=CL_2000044.
+CC   Cell type: Epithelial cell of ovary; CL=CL_2000064.
 
-CC   Omics: Deep RNAseq analysis.
-is now:
-CC   Omics: Transcriptome analysis by RNAseq.
+3) Changes in the XML file
 
-CC   Omics: ESTs sequenced.
-is now:
-CC   Omics: Transcriptome analysis by ESTs sequencing.
-
-CC   Omics: Single cell RNAseq analysis.
-is now:
-CC   Omics: Transcriptome analysis by single cell RNAseq.
-
-CC   Omics: Transcriptome analysis.
-is now:
-CC   Omics: Transcriptome analysis by microarray.
-
-And we introduced two new transcriptome studies tags:
-
-CC   Omics: Transcriptome analysis by massively parallel signature sequencing (MPSS).
-CC   Omics: Transcriptome analysis by serial analysis of gene expression (SAGE).
-
-4) Changes concerning cross-references
-
-Cross-references were added to the NIH Human Embryonic Stem Cell Registry.
-Prevously web links were provided to this resources, but we upgraded them to
-cross-references.
-
-Corresponding entry in the file cellosaurus_xrefs.txt:
-
-Abbrev: NIHhESC
-Name  : NIH Human Embryonic Stem Cell Registry
-Server: https://grants.nih.gov/stem_cells/registry/current.htm
-Db_URL: https://grants.nih.gov/stem_cells/registry/current.htm?ID=%s
-Term. : No
-Cat   : Cell line databases/resources
-//
-
-Example:
-DR   NIHhESC; NIHhESC-10-0043
+Three new element have been created: "cell-type", "derived-from-site" and
+"doubling-time". The first two for the annotations described in the previous
+section and the last one to allow a structured representation of the doubling
+time information which was formerly represented as a text comment.
 
 ----------------------------------------
 Amos Bairoch

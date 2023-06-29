@@ -4,8 +4,8 @@
 ----------------------------------------------------------------------------
 
  Description: CelloPub, Cellosaurus publications
- Version: 45.0
- Last update: 21-March-2023
+ Version: 46.0
+ Last update: 29-June-2023
 
 ----------------------------------------------------------------------------
 ID   CLPUB00222
@@ -466,7 +466,7 @@ Tr, high oncogenic activity and typical cell dimorphism (fibroblastic and
 epithelial-like elements) have already been described.
 //
 ID   CLPUB00460
-RA   Pays A., Picard J.-J.;
+RA   Pays A., Picard J.J.;
 RT   "Putrescine and polyamines in a Xenopus cell line.";
 RL   Arch. Int. Physiol. Biochim. 90:B66-B67(1983).
 WW   https://www.tandfonline.com/doi/abs/10.3109/13813458309103587
@@ -668,7 +668,7 @@ Celsius and stored in liquid nitrogen or -70 Celsius.
 //
 ID   CLPUB00002
 RA   Ruckert F., Werner K., Aust D., Hering S., Saeger H.-D.,
-RA   Gruetzmann R., Pilarsky C.;
+RA   Grutzmann R., Pilarsky C.;
 RT   "Establishment and characterization of six primary pancreatic cancer
 RT   cell lines.";
 RL   Austin J. Cancer Clin. Res. 2:1055.01-1055.05(2015).
@@ -775,6 +775,24 @@ of the spindle apparatus in metazoan cells. More importantly, this is the
 first report on the existence of a metazoan cell line in which cells
 regularly divide without a centriole.
 //
+ID   CLPUB00735
+RA   Vazquez A.M., Tormo B.R.B., Velandia A., Fernandez L.E., Giscombe R.,
+RA   Jeddi-Therani M., Cedeno M., Toledo A.L., Perez-Rodriguez R.,
+RA   Mellstedt H., Biberfeld P.;
+RT   "Characterization of monoclonal antibodies against colorectal cancer.";
+RL   Biotecnol. Apl. 10:77-78(1993).
+DR   Cellosaurus; CVCL_C7WD; IOR-C1
+DR   Cellosaurus; CVCL_C6UU; IOR-C2
+DR   Cellosaurus; CVCL_C7WE; IOR-C3
+AB   Yes
+In Cuba, as in other countrics, colorectal cancer has increased over the
+years and now is one of the most common cancers with fatal outcome.
+Monoclonals antibodies (Mabs) reactive with human colon carcinoma have
+been useful far immunohistochemical and serological diagnosis, monitoring
+of cancer disease, and for therapeutic purposes. Here we report the
+generation and characterization of Mabs that recognizes different antigens
+expressed in normal and malignant colorectal cells.
+//
 ID   CLPUB00687
 RA   Sonneborn H.-H., Uthemann H., Pfeffer A.;
 RT   "Monoclonal antibody specific for human blood group k (Cellano).";
@@ -794,7 +812,7 @@ the routine antiglobulin test can be used effectively in agglutination
 tests with mouse IgG antibodies to human erythrocyte antigens.
 //
 ID   CLPUB00688
-RA   Ball M., Cant B., Garwood P., Rogers K.L., Tills D., Sonneborn H.H.;
+RA   Ball M., Cant B., Garwood P., Rogers K.L., Tills D., Sonneborn H.-H.;
 RT   "Evaluation of a murine monoclonal anti-K (BS45).";
 RL   Biotest Bull. 4:15-18(1989).
 DR   Cellosaurus; CVCL_B6SM; BS 45
@@ -1284,7 +1302,7 @@ restricted to late B-cell differentiation stages as analysed on a panel of
 normal and neoplastic tissues.
 //
 ID   CLPUB00037
-RA   Freund M., Kleine H.D., Lux E., Exeriede G., Hanauske A.-R.,
+RA   Freund M., Kleine H.-D., Lux E., Exeriede G., Hanauske A.-R.,
 RA   Herbst H., Vainchenker W., Schweigerer L., Fonatsch C., Poliwoda H.;
 RT   "ELF-153: a novel cell line derived from a patient with acute
 RT   myelofibrosis and AML.";
@@ -1355,7 +1373,7 @@ The present paper describes the establishment of a cell line from kidney
 of healthy tilapia.
 //
 ID   CLPUB00121
-RA   Fernandez-Puentes C., Novoa B., Figueras A.;
+RA   Fernandez-Puentes C., Novoa B., Figueras-Huerta A.;
 RT   "A new fish cell line derived from turbot (Scophthalmus maximus L.)
 RT   TV-1.";
 RL   Bull. Eur. Assoc. Fish Pathol. 13:94-96(1993).
@@ -1425,7 +1443,7 @@ viruses used, and results concerning titration of virus infectivity
 obtained in both the routine cell lines and the CCB cell line.
 //
 ID   CLPUB00590
-RA   Nunez N., Buonocore F., Stocchi V., Picchietti S., Randelli E.,
+RA   Nunez-Ortiz N., Buonocore F., Stocchi V., Picchietti S., Randelli E.,
 RA   Toffan A., Pascoli F., Scapigliati G.;
 RT   "The encephalopathy and retinopathy virus of European sea bass
 RT   dicentrarchus labrax: strategies for its detection and immunisation of
@@ -1531,6 +1549,7 @@ RT   "Establishment of a continuous cell line, NSC-HyCu15B, from the larval
 RT   fat body of the fall webworm, Hyphantria cunea, (Lepidoptera:
 RT   arctiidae).";
 RL   Bull. Nagano Sericult. Cent. 3:11-14(1994).
+WW   https://cir.nii.ac.jp/crid/1570572699893424768
 DR   Cellosaurus; CVCL_ZF41; NSC-HyCu15B
 AB   No
 //
@@ -1996,7 +2015,7 @@ and TMPRSS2-ERG gene fusion. This model provides a novel tool to study the
 cellular and molecular mechanisms of TMPRSS2-ETS genes in prostate cancer.
 //
 ID   CLPUB00418
-RA   Xu J., Erdreich-Epstein A., Biegel J.A., Reynolds C.P.;
+RA   Xu J.-Y., Erdreich-Epstein A., Biegel J.A., Reynolds C.P.;
 RT   "Fenretinide combined with thiotepa is active against 3 newly
 RT   established atypical teratoid rhabdoid tumor cell lines that manifest
 RT   high-level multidrug resistance.";
@@ -2575,7 +2594,7 @@ normal levels of DHFR. The drugs studied were trimetrezate (JB-11, TMQ,
 triazinate (TZT, Baker's anti-fol), now in clinical trial.
 //
 ID   CLPUB00106
-RA   Wiemann M., Hollmann A., Posner M.;
+RA   Wiemann M.C., Hollmann A., Posner M.R.;
 RT   "Establishment of a new Philadelphia chromosome-positive human chronic
 RT   myeloid leukemia cell line.";
 RL   Clin. Res. 33:460A-460A(1985).
@@ -3101,7 +3120,7 @@ of such a monoclonal, stable osteoblast cell line should materially aid
 future studies of the regulation of bone cell function by hormones.
 //
 ID   CLPUB00601
-RA   Fernandez-Puentes C., Novoa B., Figueras A.;
+RA   Fernandez-Puentes C., Novoa B., Figueras-Huerta A.;
 RT   "Growth requirements of a new cell line (TV-1) derived from turbot
 RT   (Scophthalmus maximus L.). Measures for success.";
 RL   Eur. Aquac. Soc. Spec. Publ. 21:264-265(1994).
@@ -3363,9 +3382,8 @@ it may be useful to analyse the relationship between stromal cells,
 extracellular matrix and hemopoietic cell precursors.
 //
 ID   CLPUB00425
-RA   Walasek M.A., Kardel M., Walasek M., Noort R., Chen J., Chau C.,
-RA   Yu I., Chang W., Wognum B., Szilvassy S., Thomas T., Eaves A.,
-RA   Louis S.;
+RA   Walasek M.A., Kardel M., Noort R., Chen J., Chau C., Yu I., Chang W.,
+RA   Wognum B., Szilvassy S., Thomas T., Eaves A., Louis S.;
 RT   "STEMdiff hematopoietic kit reproducibly generates functional
 RT   hematopoietic progenitor cells from human pluripotent stem cells.";
 RL   Exp. Hematol. 53 Suppl. 1:S59-S59(2017).
@@ -3827,7 +3845,7 @@ the development of tumor vaccines.
 ID   CLPUB00461
 RA   Goigoreva E.V., Valetdinova K.R., Ustyantseva E.I., Shevchenko A.I.,
 RA   Medvedev S.P., Mazurok N.A., Maretina M.A., Kuranova M.L., Kiselev A.V.,
-RA   Baranov V.S., Zakyan S.M.;
+RA   Baranov V.S., Zakian S.M.;
 RT   "Neural differentiation of patient-specific induced pluripotent stem
 RT   cells from patients with a hereditary form of spinal muscular
 RT   atrophy.";
@@ -4324,19 +4342,19 @@ RL   Hum. Cell 1:454-454(1988).
 DR   Cellosaurus; CVCL_V411; NUZ
 AB   No
 //
+ID   CLPUB00513
+RA   Ishiwata I., Soma M.;
+RT   "A cultured human gastric carcinoma cell line, HNGA.";
+RL   Hum. Cell 2:335-335(1989).
+DR   Cellosaurus; CVCL_WT61; HNGA
+AB   No
+//
 ID   CLPUB00594
 RA   Aoki Y., Adachi S., Yoshiya N., Honma S., Kanazawa K.;
 RT   "Establishment and characterization of human ovarian endometrioid
 RT   carcinoma cell line.";
 RL   Hum. Cell 2 Suppl. 1:46-46(1989).
 DR   Cellosaurus; CVCL_A1TQ; Nakajima
-AB   No
-//
-ID   CLPUB00513
-RA   Ishiwata I., Soma M.;
-RT   "A cultured human gastric carcinoma cell line, HNGA.";
-RL   Hum. Cell 2:335-335(1989).
-DR   Cellosaurus; CVCL_WT61; HNGA
 AB   No
 //
 ID   CLPUB00089
@@ -5024,7 +5042,7 @@ bovine serum and have been subcultured 16 times on this medium without
 decrease in growth rate.
 //
 ID   CLPUB00080
-RA   Sathe P.S., Maurya D.T., Basu A., Gogate S.S., Banerjee K.;
+RA   Sathe P.S., Mourya D.T., Basu A., Gogate S.S., Banerjee K.;
 RT   "Establishment and characterization of a new fish cell line, MG-3,
 RT   from the gills of Mrigal Cirrhinus mrigala.";
 RL   Indian J. Exp. Biol. 33:589-594(1995).
@@ -5059,7 +5077,7 @@ fraction of the cell population. The cells were susceptible to nuclear
 polyhedrosis virus, Autographa californica.
 //
 ID   CLPUB00730
-RA   Vazquez A.M., Tormo B.R., Alfonso M., Velandia A., Fernandez L.E.,
+RA   Vazquez A.M., Tormo B.R.B., Alfonso M., Velandia A., Fernandez L.E.,
 RA   Giscombe R., Ansotegui I., Jeddi-Tehrani M., Cedeno M., Toledo A.L.,
 RA   Perez-Rodriguez R., Mellstedt H., Biberfeld P.;
 RT   "Characterization of IOR C5 colorectal tumor associated antigen.";
@@ -5804,6 +5822,33 @@ RL   Isozyme Bull. 24:35-35(1991).
 DR   Cellosaurus; CVCL_IX35; GM02744
 DR   Cellosaurus; CVCL_IX36; GM02745
 AB   No
+//
+ID   CLPUB00737
+RA   Yusof M.H., Haridan U.S., Hassan M.R.C.;
+RT   "Copy number variation of FCGR3B on Negrito-Mendriq.";
+RL   J. Academia 7:67-75(2019).
+WW   https://myjms.mohe.gov.my/index.php/joa/article/view/8227
+DR   https://www.cellosaurus.org/search?input=CLPUB00737
+AB   Yes
+Fc gamma receptor 3B (FcgammaRIIIB, encoded by the gene FCGR3B) plays a
+crucial role in immunity response activated by cellular effectors and
+regulatory functions. Copy number variation (CNV) of this gene has been
+previously reported to affect susceptibility to several diseases such as
+autoimmune diseases and chronic inflammatory response. One of the rarest
+and smallest tribes of Orang Asli which is Negrito-Mendriq sample was used
+as a subject in this study. Twenty-two (22) lymphoblastoid cell lines
+(LCLs) of Negrito-Mendriq was obtained from the deposited cell archive,
+Institute Medical Molecular Biotechnology, IMMB (UiTM Sg Buloh, Selangor,
+Malaysia) and the LCLs were revived. The DNA was extracted from the LCL
+and finally PRT - REDVR assay was carried for FCGR3B copy number
+genotyping. Analysis revealed that copy number 2 demonstrated the highest
+distribution for FCGR3B (90.9%); whilst no copy number loss was found for
+FCGR3B. For high copy number (>2), 9.1% was obtained. Copy number greater
+than 3 (>3) was not found in this study. Finally, it was concluded that no
+significant difference of CNV of FCGR3B for Orang Asli Negrito-Mendriq
+when compared with the reported studies. CNV of FCGR3B genes of Negrito-
+Mendriq was found normal in this study, where the pattern of copy number
+distribution was almost similar with previously reported studies.
 //
 ID   CLPUB00135
 RA   Oksenhendler E., Agbalika F., Barateau V., Daniel M.T., Autran B.,
@@ -7949,7 +7994,7 @@ cells rather than stromal cells. HOSM-2 may be useful in a variety of
 studies of human osteosarcoma.
 //
 ID   CLPUB00468
-RA   Javitt G.;
+RA   Javitt G.H.;
 RT   "Why not take all of me? Reflections on the immortal life of Henrietta
 RT   Lacks and the status of participants in research using human
 RT   specimens.";
@@ -9144,7 +9189,8 @@ useful for examining molecular pathogenesis and contribute to develop the
 novel treatment strategy for MM.
 //
 ID   CLPUB00242
-RA   Palazzolo B., Heng H.H.-Q., Mohammad R., Theocharous P., Eliason J.F.;
+RA   Palazzolo B.C., Heng H.H.-Q., Mohammad R.M., Theocharous P.,
+RA   Eliason J.F.;
 RT   "Characterization of three pairs of prostate cells lines derived from
 RT   tumor and adjacent normal tissues.";
 RL   Proc. Am. Assoc. Cancer Res. 46:1974-1974(2005).
@@ -9195,7 +9241,7 @@ considerable degree of genomic instability. This may reflect the inherent
 diversity and heterogeneity of the cancerous prostate gland.
 //
 ID   CLPUB00279
-RA   Neben T.Y., Clermont A.O., Esposito L., Oei Y., Jenkins D.E.;
+RA   Neben T.Y., Clermont A.O., Esposito L., Oei Y.A., Jenkins D.E.;
 RT   "Luciferase expressing LoVo-6-luc-1 human colon cancer cells used to
 RT   monitor tumor growth and metastasis in vivo in scid-bg mice.";
 RL   Proc. Am. Assoc. Cancer Res. 46:3854-3854(2005).
@@ -10126,7 +10172,7 @@ extracellular concentration of ADM, resistant cells allowed the drug to
 penetrate but no signal of free or intercalated drug was observed.
 //
 ID   CLPUB00255
-RA   Romsdahl M.M., Hsu T.C.;
+RA   Romsdahl M.M., Hsu T.-C.;
 RT   "Establishment and biologic properties of human malignant melanoma
 RT   cell lines grown in vitro.";
 RL   Surg. Forum 18:78-79(1967).
@@ -11216,6 +11262,16 @@ challenge with the more virulent LPV. Challenge of walking catfish with
 several different CCV samples including wild strains and Clarias-
 propagated virus failed to produce any mortalities.
 //
+ID   CLPUB00736
+RA   de Souza Nazareth H.R.;
+RT   "Cytogenetics of hybrid cell lines obtained by fusion with
+RT   polyethylene glycol.";
+RL   Thesis LD (1978), Universidade Estadual de Campinas, Brazil.
+WW   https://hdl.handle.net/20.500.12733/1577992.
+DR   Cellosaurus; CVCL_C574; CHW-1102
+DR   Cellosaurus; CVCL_1K14; CHW-1103
+AB   No
+//
 ID   CLPUB00703
 RA   Philippon-Fried M.;
 RT   "Partial characterization of six established salmonid cell lines.";
@@ -11886,6 +11942,50 @@ interaction in 3-dimensional structures was provided by showing that the
 HB2 ras colony phenotype could be significantly reverted with a mAb to the
 [beta]1 integrin subunit which increases the integrin mediated adhesion of
 cells to collagen.
+//
+ID   CLPUB00738
+RA   Nitiss K.C.;
+RT   "Oncogenic changes and induction of differentiation in pediatric
+RT   astrocytic cell lines.";
+RL   Thesis PhD (1997), University of Southern California Los Angeles, United States.
+WW   https://www.proquest.com/docview/304368690
+DR   Cellosaurus; CVCL_C8E8; SJ-GBM1
+DR   Cellosaurus; CVCL_M141; SJ-GBM2
+DR   Cellosaurus; CVCL_A8SF; SJ-GBM3
+DR   Cellosaurus; CVCL_C8E7; SJ-GBM4
+DR   Cellosaurus; CVCL_A8SE; SJ-GBM5
+AB   Yes
+Genetic alterations in astrocytic tumors have frequently been examined to
+determine areas of possible intervention. Adult and pediatric tumor
+samples as well as cell lines established from adult tumors have provided
+the substrate for these analyses. Many adult cell lines have been
+characterized and used as model systems to study brain tumor progression.
+However, limited numbers of pediatric astrocytic cell lines have been
+established for these purposes. Three new cell lines have been established
+from pediatric glioblastoma multiforme (GBM) patients and two from
+pediatric anaplastic astrocytoma (AA) patients. The cell lines were first
+characterized for the most common genetic alterations observed in
+astrocytic tumors and then were assessed for the potential to
+differentiate in response to neurotrophins or retinoids. One cell line
+expressed glial fibrillary acidic protein transcript. The transcripts for
+EGFR, c-myc, N-myc, and basic fibroblast growth factor were examined for
+alterations or overexpression of these genes. All five cell lines
+expressed elevated levels of the EGFR transcript when compared to the
+normal brain controls. One of the GBM cell lines expressed the c-myc
+transcript at high levels as a result of an amplified c-myc gene.
+Mutations in the p53 gene were found in all five cell lines. Three of the
+cell lines had dominant negative p53 mutations in codons 273 or 248. One
+cell line carried a mutation in codon 72 and the other had a loss of
+function mutation. The primary tumors from which the cell lines were
+derived also contained the same mutations. The expression of genes
+required for a potential response to differentiating agents were assessed.
+All five cell lines expressed transcripts for trkB and retinoic acid
+receptor alpha, beta, and gamma; three expressed retinoic acid X receptor
+alpha, and one expressed transcripts for gp75NGFR and trkC. However, none
+of the cell lines differentiated after exposure to neurotrophins, retinoic
+acids, or retinols. Treatment with retinaldehydes had a cytotoxic effect.
+These in vitro findings may help to identify specific genes and compounds
+of interest when evaluating new treatment strategies.
 //
 ID   CLPUB00715
 RA   Holliday N.D.;
@@ -14849,7 +14949,7 @@ intervention during early disease stages, thereby paving the road to
 discover new treatment strategies for SPG11 related HSPs.
 //
 ID   CLPUB00603
-RA   Junker M.;
+RA   Junker M.E.;
 RT   "Development and characterization of monoclonal antibodies to GDF-15
 RT   for potential use in cancer therapy.";
 RL   Thesis PhD (2016), Julius Maximilians University of Wurzburg, Germany.
@@ -15980,6 +16080,38 @@ Conclusions: The cell line PEO1 contains a sub-population of Pt-
 resistant cells that can be selected for, in vitro, by clinically relevant
 CDDP treatment. These cells are distinct from those having emerged
 clinically in the original patient.
+//
+ID   CLPUB00739
+RA   Koehne A.L.;
+RT   "Development and characterization of osteosarcoma patient-derived
+RT   xenograph models and investigation into the pathogenesis of
+RT   osteosarcoma metastasis.";
+RL   Thesis PhD (2019), Stanford University, United States.
+WW   https://www.proquest.com/docview/2467610535
+AB   Yes
+Osteosarcoma is the most common bone cancer of adolescents with 400 cases
+diagnosed annually in the United States. Early metastatic spread to the
+lungs is a hallmark feature of the disease, and is detrimental to overall
+survival of the patient. It is believed that upwards of 80% of patients
+have micrometastasis at the time of diagnosis. Gaining an understanding of
+the mechanisms responsible for metastasis is hugely important for the
+development of new therapies.
+
+We used an approach to study osteosarcoma metastasis that involved the
+acquisition of patient tumors from both the primary site and metastatic
+site for whole genome and RNA sequencing, PDX production, and cell line
+production. Phenotypic characterization of the PDX and cell lines in vivo
+revealed that many will metastasize spontaneously and in a tail vein
+injection model. RNA seq data revealed a list of genes that are enriched
+in metastasis, including several genes such as FOXA1 that have previously
+been described in cancer, but never OS.
+
+The function of ENPP1, a gene that is highly expressed in OS was also
+evaluated. ENPP1 expression correlated with metastatic capability in
+numerous OS cell lines in an in vivo tail vein injection model. Gain and
+loss of function studies firmly established ENPP1’s role in OS growth and
+metastasis. Our data described a role of ENPP1 in OS metastasis for the
+first time.
 //
 ID   CLPUB00709
 RA   Henry J.Y.;
@@ -17780,7 +17912,7 @@ multiply and become cell lines, growth of lines in serum-free and protein-
 free media, and culture of many lines in suspension or roller bottles.
 //
 ID   CLPUB00511
-RA   Bierkens J., Maes J., Ooms D., Collier M., Vangenechten C.,
+RA   Bierkens J.G.E.A., Maes J., Ooms D., Collier M., Vangenechten C.,
 RA   Borremans B., van Vlasselaer P., Schoeters G.;
 RT   "Decreased acquisition of osteoblastic phenotype markers and increased
 RT   response to interleukin-1 and parathyroid hormone in pre-osteoblast
