@@ -4,8 +4,8 @@
 ----------------------------------------------------------------------------
 
  Description: Cellosaurus: frequently asked questions
- Version: 46.0
- Last update: 29-June-2023
+ Version: 47.0
+ Last update: 05-October-2023
 
 ----------------------------------------------------------------------------
 
@@ -105,16 +105,16 @@ Q06: Is it possible to directly indicate search terms in a URL?
 
 A: Yes, you can do so with the following syntax:
 
-https://www.cellosaurus.org/search?input=your_query
+https://www.cellosaurus.org/search?query=your_query
 
 Examples:
 
-https://www.cellosaurus.org/search?input=CVCL_0030
-https://www.cellosaurus.org/search?input=hela
-https://www.cellosaurus.org/search?input=sus+scrofa
-https://www.cellosaurus.org/search?input="fish%20cell%20line"
-https://www.cellosaurus.org/search?input=doubling+time+"3%20days"
-https://www.cellosaurus.org/search?input="PubMed=1000501"
+https://www.cellosaurus.org/search?query=CVCL_0030
+https://www.cellosaurus.org/search?query=hela
+https://www.cellosaurus.org/search?query=sus+scrofa
+https://www.cellosaurus.org/search?query="fish%20cell%20line"
+https://www.cellosaurus.org/search?query=doubling+time+"3%20days"
+https://www.cellosaurus.org/search?query="PubMed=1000501"
 
 ----------------------------------------------------------------------------
 
@@ -703,8 +703,8 @@ Finally you should note that the list of Cellosaurus entries that are listed
 in tables 1 and 2 of the current public release of the ICLAC register can be
 retrieved using either one of the following two queries:
 
-https://www.cellosaurus.org/search?input="iclac.org"
-https://www.cellosaurus.org/search?input=%22Register%20of%20Misidentified%20Cell%20Lines%22
+https://www.cellosaurus.org/search?query="iclac.org"
+https://www.cellosaurus.org/search?query=%22Register%20of%20Misidentified%20Cell%20Lines%22
 
 ----------------------------------------------------------------------------
 

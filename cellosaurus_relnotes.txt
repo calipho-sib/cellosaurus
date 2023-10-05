@@ -6,64 +6,71 @@
    \_____\___|_|_|\___/|___/\__,_|\__,_|_|   \__,_|___/
 
 
-This is the release notes for Cellosaurus version 46 of June 2023
+This is the release notes for Cellosaurus version 47 of October 2023
 
 1) Statistics
 
-146062 cell lines (107991 human, 26352 mouse, 2757 rat)
-   805 species represented
-106584 synonyms
-422419 cross-references to 103 ontologies, databases, catalogs, etc.
-153209 references to 26479 distinct publications (papers, patents, theses, etc.)
- 14162 web links
+148681 cell lines (110218 human, 26673 mouse, 2811 rat)
+   806 species represented
+108080 synonyms
+443513 cross-references to 106 resources (cell line catalogs, databases, ontologies, etc.)
+156224 references to 26994 distinct publications (papers, patents, theses, etc.)
+ 14198 web links
 
-  8566 human, mouse and dog cell lines with STR profiles (from 800 distinct sources)
+  8656 human, mouse and dog cell lines with STR profiles (from 824 distinct sources)
 
-Since release 45 of March 2023:
-   427 entries were created
-126171 entries were updated (many entries were updated due to the changes
-       in the CC sampling lines described below).
+Since release 46 of June 2023:
+  2621 entries were created
+ 29637 entries were updated
 
-2) Changes concerning the CC Derived from sampling/metastatic sites lines
+2) Changes in the DR lines
 
-We have completely changed the format and content of these lines and
-we have also introduced cross-references to two important resources: the
-UBERON cross-species anatomy ontology and the CL cell (type) ontology.
+2a) Cross-references were added to cancercelllines, the cancer cell line
+oncogenomic online resource
 
-There is now a unique "site" CC line which is called "Derived from site:"
-It is in the format:
+Corresponding entry in the file cellosaurus_xrefs.txt:
 
-Derived from site: Site_flag; Cellosaurus_site_term[; Note=Note_text][; UBERON=Uberon_ac[+UBERON=Uberon_ac]].
+Abbrev: cancercelllines
+Name  : cancercelllines.org - cancer cell line oncogenomic online resource
+Server: https://cancercelllines.org/
+Db_URL: https://cancercelllines.org/cellline/?id=cellosaurus:%s
+Term. : No
+Cat   : Cell line databases/resources
+//
 
-Where the "Site_flag" is either "Metastatic" or "In situ".
+Example:
+DR   cancercelllines; CVCL_8056
 
-As indicated in the format description there are now cross-references to
-UBERON ontology terms.
+2b) Cross-references were added to the GeneCopoeia cell line products
 
-Examples:
-CC   Derived from site: In situ; Eye, cornea, epithelium; UBERON=UBERON_0001772.
-CC   Derived from site: In situ; Upper jaw, hypodermis; UBERON=UBERON_0001709+UBERON_0002072.
-CC   Derived from site: Metastatic; Bone marrow; UBERON=UBERON_0002371.
+Corresponding entry in the file cellosaurus_xrefs.txt:
 
-Information on the cell type from which the cell line originate is now
-stored in a separate CC line: "Cell type" and is in the format:
+Abbrev: GeneCopoeia
+Name  : GeneCopoeia cell line products
+Server: https://www.genecopoeia.com/
+Db_URL: https://www.genecopoeia.com/product/search3/?s=%s
+Term. : No
+Cat   : Cell line collections (Providers)
+//
 
-Cell type: Cellosaurus_cell_type; CL=CL_Accession.
+Example:
+DR   GeneCopoeia; SL221
 
-As indicated in the format description there are now cross-references to
-CL ontology terms.
+2c) Cross-references were added to the Ubigene Biosciences cell line
+products
 
-Examples:
-CC   Cell type: Fibroblast of skin; CL=CL_0002620.
-CC   Cell type: Brain microvascular endothelial cell; CL=CL_2000044.
-CC   Cell type: Epithelial cell of ovary; CL=CL_2000064.
+Corresponding entry in the file cellosaurus_xrefs.txt:
 
-3) Changes in the XML file
+Abbrev: Ubigene
+Name  : Ubigene Biosciences cell line products
+Server: https://www.ubigene.us/
+Db_URL: https://www.ubigene.us/product/?cate=0&mykeyword=%s
+Term. : No
+Cat   : Cell line collections (Providers)
+//
 
-Three new element have been created: "cell-type", "derived-from-site" and
-"doubling-time". The first two for the annotations described in the previous
-section and the last one to allow a structured representation of the doubling
-time information which was formerly represented as a text comment.
+Example:
+DR   Ubigene; YC-A012
 
 ----------------------------------------
 Amos Bairoch
