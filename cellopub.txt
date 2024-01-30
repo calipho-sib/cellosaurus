@@ -4,8 +4,8 @@
 ----------------------------------------------------------------------------
 
  Description: CelloPub, Cellosaurus publications
- Version: 47.0
- Last update: 05-October-2023
+ Version: 48.0
+ Last update: 30-January-2024
 
 ----------------------------------------------------------------------------
 ID   CLPUB00222
@@ -142,7 +142,7 @@ DR   Cellosaurus; CVCL_1346; KY821
 AB   No
 //
 ID   CLPUB00413
-RA   Ikushima S., Yoshihara T., Fujikawa F., Todo S., Misawa S.,
+RA   Ikushima S., Yoshihara T., Fujikawa F., Todo S., Misawa S.-i.,
 RA   Nakagawa H., Yumura K., Kawa K., Morioka Y., Imashuku S.;
 RT   "Establishment of a monocytoid cell line (KP-MO-TS) from a patient
 RT   with acute monocytic leukemia and a mediastinal mass.";
@@ -165,7 +165,7 @@ investigating the biological features and the pathogenesis of monocytic
 leukemia possessing a breakpoint at 11q21-23.
 //
 ID   CLPUB00584
-RA   Motoya T., Hojo H., Suzuki T., Oboshi S.;
+RA   Motoyama T., Hojo H., Suzuki T., Oboshi S.;
 RT   "Evaluation of the regrowth assay method as an in vitro drug sensitivity
 RT   test and its application to cultured human gastric cancer cell lines.";
 RL   Acta Med. Biol. 27:49-63(1979).
@@ -819,9 +819,9 @@ first report on the existence of a metazoan cell line in which cells
 regularly divide without a centriole.
 //
 ID   CLPUB00735
-RA   Vazquez A.M., Tormo B.R.B., Velandia A., Fernandez L.E., Giscombe R.,
-RA   Jeddi-Therani M., Cedeno M., Toledo A.L., Perez-Rodriguez R.,
-RA   Mellstedt H., Biberfeld P.;
+RA   Vazquez-Lopez A.M., Tormo B.R.B., Velandia A., Fernandez-Molina L.E.,
+RA   Giscombe R., Jeddi-Therani M., Cedeno M., Toledo A.L.,
+RA   Perez-Rodriguez R., Mellstedt H., Biberfeld P.;
 RT   "Characterization of monoclonal antibodies against colorectal cancer.";
 RL   Biotecnol. Apl. 10:77-78(1993).
 DR   Cellosaurus; CVCL_C7WD; IOR-C1
@@ -1669,7 +1669,7 @@ polypeptides No. 5, 6, 14, 16 and 17. The cell line is available to other
 investigators.
 //
 ID   CLPUB00145
-RA   Masaomi H., Tsuneo T., Teeichi M.;
+RA   Haraguchi M., Takahashi T., Motoyama T.;
 RT   "Characterization of two hepatoid adenocarcinoma cell lines: with
 RT   special references to invasive-metastatic activity and
 RT   chemosensitivity.";
@@ -2301,8 +2301,8 @@ These results bring a new perspective on the taste and dietary preferences
 of the domestic cat.
 //
 ID   CLPUB00216
-RA   Lawrence E.C., Daneker G.W., Waite-Reese P.A., Lund S.A., Candal F.J.,
-RA   Bosse D.C., Kuno R., Kanter K.R., Ades E.W.;
+RA   Lawrence E.C., Daneker G.W. Jr., Waite-Reese P.A., Lund S.A.,
+RA   Candal F.J., Bosse D.C., Kuno R., Kanter K.R., Ades E.W.;
 RT   "Establishment of immortalized human lung microvascular endothelial
 RT   cell lines.";
 RL   Chest 108 Suppl. 3:126S-126S(1995).
@@ -3053,8 +3053,8 @@ line of Indian muntjac (KIZ-7901). Moreover, the MNNG-transformed muntjac
 cells possessed colony-forming capacity in vitro.
 //
 ID   CLPUB00501
-RA   Chen Y.-Z., Liu R.-Q., Nai W.-H., Yang M., He C.-H., Bao Y.-F.,
-RA   Lei W.-H.;
+RA   Chen Y.-Z., Liu R.-Q., Nai W.-H., Wang J.-H., Yang M., He C.-H.,
+RA   Bao Y.-F., Lei W.-H.;
 RT   "The chromosome of Asian elephant.";
 RL   Dong Wu Xue Yan Jiu 19:93-94(1998).
 WW   http://www.zoores.ac.cn/en/article/id/454
@@ -3098,7 +3098,7 @@ al., 1994a). Here, we introduce these cell lines and some of the practical
 applications.
 //
 ID   CLPUB00248
-RA   Kim S., Gonzalez D., Brazma D., Hu Y., Peters G., Bouloux P.;
+RA   Kim S., Gonzalez D., Brazma D., Hu Y., Peters G., Bouloux P.-M.G.;
 RT   "Telomerase-mediated immortalisation of human embryonic olfactory GnRH
 RT   neuroblasts.";
 RL   Endocr. Abstr. 9:129-129(2005).
@@ -3752,8 +3752,8 @@ RT   the influence of microenvironment on their karyotypical variability in
 RT   vitro.";
 RL   Fiziol. Biokhim. Kul't. Rast. 38:144-152(2006).
 WW   https://eurekamag.com/research/012/970/012970119.php
-DR   Cellosaurus; CVCL_B6W8; G1
-DR   Cellosaurus; CVCL_B6XA; G4
+DR   Cellosaurus; CVCL_B6W8; G1 [Mouse germ stem cell]
+DR   Cellosaurus; CVCL_B6XA; G4 [Mouse germ stem cell]
 DR   Cellosaurus; CVCL_B6XB; G6
 DR   Cellosaurus; CVCL_B6XC; G7
 AB   Yes
@@ -4437,7 +4437,7 @@ AB   No
 //
 ID   CLPUB00062
 RA   Lee S., Iryo O., Sugita Y., Moriyama T., Tokunaga T., Maruiwa H.,
-RA   Shigemori M., Kuramoto S., Yokoyama S.;
+RA   Shigemori M., Kuramoto S., Yokoyama M.;
 RT   "Characterization of an established human malignant glioma cell line,
 RT   KALS-1.";
 RL   Hum. Cell 3:259-260(1990).
@@ -4675,7 +4675,7 @@ mitochondria, less rough endoplasmic reticulum, and more lysosomes; are
 smaller than B cells; and probably represent the leukemic lymphocytes.
 //
 ID   CLPUB00093
-RA   Daniel M.;
+RA   Daniel M.D., Silva D., Ma N.S.-F.;
 RT   "Establishment of owl monkey kidney 210 cell line for virological
 RT   studies.";
 RL   In Vitro 12:290-290(1976).
@@ -5053,7 +5053,7 @@ cholerae MTCC 3904 was found toxic to this cell line.
 //
 ID   CLPUB00354
 RA   Xiang M., Lu S., Gao Q.-H., Huang H.-J., Chen Z.-H., Tao B.-F.,
-RA   Zhan C.-Y., Qian Y.-G., Sun R.-L., Xia L., Tong W.-W., Wang L.-F.,
+RA   Zhan C.-Y., Qian Y.-G., Sun R.-L., Xia Y., Tong W.-W., Wang L.-F.,
 RA   Hua J., Tao L.-W.;
 RT   "A new cell line from goat embryonic kidney may be a candidate to
 RT   produce influenza virus vaccine.";
@@ -5134,9 +5134,9 @@ fraction of the cell population. The cells were susceptible to nuclear
 polyhedrosis virus, Autographa californica.
 //
 ID   CLPUB00730
-RA   Vazquez A.M., Tormo B.R.B., Alfonso M., Velandia A., Fernandez L.E.,
-RA   Giscombe R., Ansotegui I., Jeddi-Tehrani M., Cedeno M., Toledo A.L.,
-RA   Perez-Rodriguez R., Mellstedt H., Biberfeld P.;
+RA   Vazquez-Lopez A.M., Tormo B.R.B., Alfonso M., Velandia A.,
+RA   Fernandez-Molina L.E., Giscombe R., Ansotegui I., Jeddi-Tehrani M.,
+RA   Cedeno M., Toledo A.L., Perez-Rodriguez R., Mellstedt H., Biberfeld P.;
 RT   "Characterization of IOR C5 colorectal tumor associated antigen.";
 RL   Inmunologia 14:130-132(1995).
 DR   Cellosaurus; CVCL_C6UV; IOR-C5
@@ -5815,8 +5815,8 @@ RT   "Production and characterization of murine monoclonal antibodies to
 RT   Leishmania Gp63 antigen.";
 RL   Iran. J. Immunol. 1:194-199(2004).
 WW   https://iji.sums.ac.ir/article_16815.html
-DR   Cellosaurus; CVCL_CW40; 4C8
-DR   Cellosaurus; CVCL_CW39; 5C5
+DR   Cellosaurus; CVCL_CW40; 4C8 [Mouse hybridoma against L.donovani gp63]
+DR   Cellosaurus; CVCL_CW39; 5C5 [Mouse hybridoma against L.donovani gp63]
 AB   Yes
 Background: Production of monoclonal antibodies to Leishmania antigens
 assists the identification and characterization of these organisms.
@@ -5947,6 +5947,33 @@ detectable IL6.
 
 Conclusions: A new HHV-8+ EBV -B cell line (ISI-1) produces large amounts
 of IL10 and induces tumors in NOD/SCID mice.
+//
+ID   CLPUB00753
+RA   Taki T.;
+RT   "Production of a monoclonal antibody specifically reacted to prostate
+RT   tissues.";
+RL   J. Aichi Med. Univ. Assoc. 23:609-619(1995).
+DR   Cellosaurus; CVCL_D3N5; 2C9 [Mouse hybridoma against human FOLH1]
+AB   Yes
+One hybridoma clone, 2C9 which produces a monoclonal antibody (IgG1)
+reacting with prostate cells was established from a fusion using mouse
+splenic cells immunized with LNCaP cells, isolated from a metastatic
+lesion of a human prostatic carcinoma (PCa). The 2C9 antibody specifically
+reacted with LNCaP cells, and not with other cell lines including another
+prostatic carcinoma cells, non-malignant prostatic cells, and normal renal
+cells by mixed heamadsorption assay. On immuno-histochemical staining of
+various human tissues, 2C9 antibody stained normal and hypertrophic
+prostate tissues, but not any of normal tissues. Additionaly, 2C9 antibody
+stained poorly differentiated prostate tumors which were not stained with
+anti prostate specific antigen (PSA) and anti prostate-acid phosphatase
+(PAP) antibodies. The staining pattern with 2C9 antibody differed from
+those with anti PSA or anti PAP antibodies. The 2C9 antibody immuno-
+precipitated an antigen with a molecular weight of approximately 92 kDa in
+the extract from LNCaP cells labeled with 35S-methionine. On sandwich
+ELISA using 2C9 antibody, 2C9 antigen was detected in the LNCaP cell
+lysate. These results suggest that 2C9 antibody recognizes a different
+antigen from PSA and PAP in prostate tissue, and may be useful for the
+diagnosis of PCa not detected with anti PSA and anti PAP antibody.
 //
 ID   CLPUB00159
 RA   Friedman P.A., Coutermarsh B.A., Rhim J.S., Gesek F.A.;
@@ -6090,7 +6117,7 @@ differentiation arrest in neuroblastoma culture could be of practical and
 theoretical importance.
 //
 ID   CLPUB00582
-RA   Sugimoto T., Kuroda H., Yagyu S., Gotoh T., Osone S., Tamura T.,
+RA   Sugimoto T., Kuroda H., Yagyu S., Gotoh T., Osone S., Tamura S.,
 RA   Iehara T., Hosoi H.;
 RT   "Cellular and molecular characteristics of established neuroblastoma
 RT   cell lines.";
@@ -6882,7 +6909,7 @@ responsible for the spontaneous secretion of glucagon, independently of
 the membrane potential.
 //
 ID   CLPUB00122
-RA   Naohiko M.;
+RA   Matsuo N.;
 RT   "Establishment and characterization of a new Ewing's sarcoma cell line
 RT   TY-ES: neural differentiation by treatment with db-cAMP.";
 RL   J. Wakayama Med. Soc. 51:283-292(2000).
@@ -7010,7 +7037,8 @@ disturbance of mitosis were observed in hyperthermia. The findings show
 the potency of hyperthermia as a clinical therapy of liver cancer.
 //
 ID   CLPUB00051
-RA   Ishikawa I., Soma M., Ono I., Nakaguchi T., Ishawata C.;
+RA   Ishikawa I., Soma M., Ono I., Nakaguchi T., Ishawata C., Nozawa S.,
+RA   Ishikawa H.;
 RT   "Biological characteristics of adenocarcinoma cell line (HOUA-I) and
 RT   B-lymphoblastoid cell line (HOUA-II) established from the same tissue
 RT   of endometrial adenocarcinoma.";
@@ -7570,7 +7598,7 @@ for long term over 6 months were 9/29 (31%) in non-small cell lung cancer
 lines were examined.
 //
 ID   CLPUB00001
-RA   Kim K.-H., Chung P.-S., Park H.-M., Rhee C.-S., Park J.-G.;
+RA   Kim K.H., Chung P.-S., Park H.M., Rhee C.-S., Park J.-G.;
 RT   "Establishment and characterization of cell lines derived from
 RT   squamous cell carcinoma of the head and neck.";
 RL   Korean J. Head Neck Oncol. 12:181-187(1996).
@@ -7860,7 +7888,7 @@ CTCL-line may be useful for further studies of T-cell growth and
 differentiation.
 //
 ID   CLPUB00006
-RA   Wang Z., Li M., Zhao W., Zhao G., Dong Z.;
+RA   Wang Z.-J., Li M., Zhao W.-C., Zhao G.-Q., Dong Z.-M.;
 RT   "Establishment and characterization of lung adenocarcinoma cell lines
 RT   with multidrug resistance.";
 RL   Life Sci. J. 4:13-16(2007).
@@ -8367,7 +8395,7 @@ DR   Cellosaurus; CVCL_0059; Vero
 AB   No
 //
 ID   CLPUB00434
-RA   Ishiwata L., Nozawa S., Kiguchi K., Kurihara S., Okumura H.;
+RA   Ishiwata I., Nozawa S., Kiguchi K., Kurihara S., Okumura H.;
 RT   "Establishment of human uterine cervical cancer cell line and comparative
 RT   studies between normal and malignant uterine cervical cells in vitro.";
 RL   Nihon Sanka Fujinka Gakkai Zasshi 30:731-738(1978).
@@ -9953,7 +9981,7 @@ major sources of cell lines would be useful for many researchers as a
 reference.
 //
 ID   CLPUB00576
-RA   Kawakami Y., Kaneko K.;
+RA   Kawakami S., Kaneko K.;
 RT   "In vitro and in vivo studies of the anti-immortalized effects of
 RT   Hohrokutake (Daedalea dickinsii yasuda) extract on the immortalized
 RT   cell line established from bovine granulosa cells.";
@@ -9991,7 +10019,7 @@ multiplied viruses. Necently, it enabled the obtention and the analysis of
 genetic recombinants of Baculovirus.
 //
 ID   CLPUB00523
-RA   Ye K.-L., Ren S.-L., Zhou L.-Q., Lin Y.-Z., Xu Z.-Y., Su D.-L.,
+RA   Ye K.-L., Ren S.-L., Zhou L.-D., Lin Y.-Z., Xu Z.-Y., Su D.-L.,
 RA   Yu Y.-F., Ma Z.-C.;
 RT   "Preliminary observation on some biological characteristics of human
 RT   hepatoma cell line YY-8103.";
@@ -10078,6 +10106,33 @@ some differences exist between these two cell lines with respect to growth
 behavior, morphology and enzyme activities. Ectropis obliqua is a major
 pest of tea trees. The cell lines established from their ovary may thus be
 used in the study of the biology of this insect.
+//
+ID   CLPUB00751
+RA   Wang K.-H.;
+RT   "A in vitro cell (MGc80-3) of a poorly differentiated mucoid
+RT   adenocarcinoma of human stomach.";
+RL   Shi Yan Sheng Wu Xue Bao 16:257-266(1983).
+DR   Cellosaurus; CVCL_5334; MGC-803
+AB   Yes
+This work deals with a new cell line (MGc80-3) established from a primary
+poorly differentiated mucoid adenocarcinoma of human stomach. The tumor
+cells were derived from the gastric cancer of a patient on March 10,1980,
+and a new permanent cell line was established after a latent period of 9
+months. The cells grew in a monolayered sheet with a population doubling
+time of about 25 hrs. Under phase contrast microscope, the cells were
+characterized morphologically as single nucleated epitheloid cells with
+prominent nucleoli and rather scanty cytoplasm. The nucleoli were very
+distinct and irregular in shape. All features from our transmission and
+scanning electron microscopical observations showed that the cells of
+MGc-80-3 cell line have the characteristics of malignant mucoid gland cells
+with vigorous metabolism. The features are: high nuclear/cytoplasmic ratio;
+many prominent evaginations of wrinkled cytoplasmic membrane forming
+finger-like microvilli; rich cytoplasmic organelles and abundant
+polyribosome at secretory stage with plenty of mucoid granules located at
+one end of the cells. This tumor cell line can be transplanted and grown
+subcutaneously into tumor nodules in cortisone treated irradiated rats.
+The chromosome make-up of MGc80-3 is hypertriploid with a model number of
+75.
 //
 ID   CLPUB00538
 RA   Wei Y.-Z., Lu R.-H., Bai G.-D.;
@@ -10196,8 +10251,36 @@ RA   Durand M.M., Chugani D.C., Mahmoudi M., Phelps M.E.;
 RT   "Characterization of neuron-like cell line immortalized from primary
 RT   rat mesencephalon cultures.";
 RL   Soc. Neurosci. Abstr. 16:40-40(1990).
+WW   https://www.sfn.org/meetings/past-and-future-annual-meetings/1971-1999-abstracts
 DR   Cellosaurus; CVCL_8182; CSM14.1
-AB   No
+AB   Yes
+The transplantation of fetal mesencephalic tissue in striatum shows
+promise as an effective treatment for Parkinson's disease. The limited
+availability of human fetal tissue as well as complex ethical issues
+regarding the use of the tissue will prevent widespread implementation of
+this procedure. Reversibly immortalized mesencephalic dopaminergic cell
+lines may be the answer to this problem. We have produced reversibly
+immortalized cells from embryonic day 14 rat mesencephalon using a
+retroviral vector containing the genes for temperature sensitive large T
+antigen of SV40 and neomycin resistance (G418). This retrovirus was stably
+produced by a psi 2 cell line obtained from R. McKay, MIT. Primary
+cultures were enriched for dopaminergic cells by panning in tissue culture
+plates that had been coated with the monoclonal antibody, neuron specific
+protein 4. Following panning, cells were grown with supernatant from psi 2
+cell line containing the retrovirus (dilution 1:3). After 48 hr the cells
+were incubated with G418 to select for cells which had incorporated the
+virus. Surviving cells, selected by dilution, proliferated at 33 Celsius
+and displayed flat morphology. At 39 Celsius the cells stopped dividing and
+some cells changed from flat cells with broad processes to neuron-like
+morphology. One cell line CSM 14.1, expressed tyrosine hydroxylase and
+neuron specific enolase immunoreactivity when raised to 39 Celsius for one
+week. These cells were grown in the presence of various growth factors in
+attempt to increase neuronal characteristics. The addition of basic
+fibroblast growth factor produced greater than 90% neuron morphology after
+one week in culture at 39 Celsius. These cells in addition expressed
+neurofilament 68 and OL28 (a putative neuronal marker) immunoreactivity.
+These data suggest that it may to possible to reversibly immortalize
+mesencephalic dopaminergic cells for transplantation.
 //
 ID   CLPUB00507
 RA   Pultarova T.;
@@ -10229,7 +10312,7 @@ US, managed to turn tissue taken from a cervical tumor of a 30 year old
 African American woman into the first immortal line of human cells.
 //
 ID   CLPUB00273
-RA   Ginot L., Jeammesson P., Angiboust J.-F., Jardillier J.-C., Manfait M.;
+RA   Ginot L., Jeannesson P., Angiboust J.-F., Jardillier J.-C., Manfait M.;
 RT   "Interactions of adriamycin in sensitive and resistant leukemic cells:
 RT   a comparative study by microspectrofluorometry.";
 RL   Studia Biophys. 104:145-153(1984).
@@ -10737,7 +10820,7 @@ RA   Schwobel W., Siedentopf V.;
 RT   "Characterization of a three-year-old cell strain from pig kidneys
 RT   and studies of its behavior towards the foot-and-mouth disease virus.";
 RL   Zentralbl. Bakteriol. Orig. A. 181:3-16(1961).
-DR   Cellosauurs; CVCL_C8J8; ENS 53
+DR   Cellosaurus; CVCL_C8J8; ENS 53
 AB   Yes
 Cultivated cells as a substrate for virus replication are now an important
 basis for a wide variety of experiments with viruses and for the problems
@@ -11339,7 +11422,7 @@ cells. Now, ten years later, there are strong indications that this
 prediction will indeed come true.
 //
 ID   CLPUB00548
-RA   Steele C.M.;
+RA   Steel C.M.;
 RT   "A study of human lymphoblastoid cell lines in tissue culture.";
 RL   Thesis PhD (1972), University of Edinburgh, United Kingdom.
 WW   https://www.semanticscholar.org/paper/A-study-of-human-lymphoblastoid-cell-lines-in-Steel/faec8ee1f799b3cc838a2f23295be5c9a5a0dc77
@@ -13387,6 +13470,34 @@ while the HTLC was established by traditional method. Some research was
 explored in the application of cell lines and laid foundation of using
 cell lines to study theory and experiment.
 //
+ID   CLPUB00752
+RA   Poyck P.P.C.;
+RT   "Towards application of a human liver cell line for use in the AMC
+RT   bioartificial liver.";
+RL   Thesis PhD (2007), Universiteit van Amsterdam, Netherlands.
+WW   https://hdl.handle.net/11245/1.385476
+DR   Cellosaurus; CVCL_S904; cBAL111
+AB   Yes
+This thesis is divided into four parts. Part 1 provides an overview of the
+AMC-BAL research performed between 1995 and 2004 and describes the
+optimization of the AMCBAL from the first generation to an improved second
+generation device. Furthermore, a comparison between the second generation
+AMC-BAL and another European BAL device (MELS CellModule) is presented,
+whereas the effect of mild hypothermic preservation for transport purposes
+of the AMC-BAL is discussed. In Part 2, mathematical modeling and
+computational fluid simulations were used to analyze the AMC-BAL on a
+micro and full-scale level in silico. Resulting recommendations for further
+improvements of the AMC-BAL were validated in an in vitro study. Part 3
+describes the research process of advanced in-depth analysis of cultured
+hepatocytes inside the AMC-BAL at three basic bioengineering levels, i.e.
+at the level of gene expression, liver metabolical, and histological level.
+Furthermore, a comparative study between three primary cell types, i.e.
+mature porcine hepatocytes, mature human hepatocytes and fetal human
+hepatocytes, herald the transition towards the use of human hepatic cell
+lines. Part 4 evaluates the potential of a newly developed, human hepatic
+cell line (cBAL111) for application in the AMC-BAL in the setting of an in
+vitro and an ex vivo study in an animal model of ALF.
+//
 ID   CLPUB00250
 RA   Davidson S.M.;
 RT   "Analysis of prognostic and drug and resistance markers in lung
@@ -13672,7 +13783,7 @@ immortalisation of retinal progenitors may have long term therapeutic
 possibilities.
 //
 ID   CLPUB00293
-RA   Novak N.;
+RA   Novak V.;
 RT   "Interaction between chicken intestinal epithelial cells B1OXI and
 RT   the bacteria Campylobacter jejuni.";
 RL   Thesis MSc (2009), University of Maribor, Slovenia.
@@ -14276,7 +14387,7 @@ transporter, is another essential component of intracellular cobalamin
 metabolism.
 //
 ID   CLPUB00227
-RA   Dauktse L.;
+RA   Daukste L.;
 RT   "Mathematical modelling of cancer cell population dynamics.";
 RL   Thesis PhD (2012), University of Canterbury, New Zealand.
 WW   https://hdl.handle.net/10092/10057
@@ -14634,7 +14745,7 @@ reservoir to at least two different lineages of coronaviruses, which
 differ in their receptor usage.
 //
 ID   CLPUB00732
-RA   Breit N.M.;
+RA   Breit M.N.;
 RT   "Biologic activity of the novel SINE compound KPT-335 against
 RT   canine melanoma cell lines.";
 RL   Thesis MSc (2014), Ohio State University, United States.
@@ -15216,7 +15327,7 @@ in-depth mechanistic studies examining crosstalk between receptor signaling
 pathways which can play a critical role in endocrine disruption.
 //
 ID   CLPUB00388
-RA   Delser M.P.;
+RA   Delser P.M.;
 RT   "X-chromosomal markers and the histories of European populations.";
 RL   Thesis PhD (2015), University of Leicester, United Kingdom.
 WW   https://hdl.handle.net/2381/31843
@@ -15799,6 +15910,33 @@ positive by MFC and negative by targeted-capture sequencing, two were
 positive by sequencing and negative by MFC. Targeted capture sequencing is
 an alternative strategy to MRD detection and has potential applications
 for disease monitoring and immune repertoire profiling.
+//
+ID   CLPUB00750
+RA   George G.A.;
+RT   "Establishment and characterisation of cell lines from the caerulean
+RT   damsel, Pomacentrus caeruleus.";
+RL   Thesis PhD (2017), Cochin University of Science and Technology, India.
+WW   http://eprints.cmfri.org.in/id/eprint/13915
+DR   Cellosaurus; CVCL_1G93; PC1CpTr
+DR   Cellosaurus; CVCL_1G94; PC1F1Ex
+DR   Cellosaurus; CVCL_1G95; PC1L1Tr
+AB   Yes
+Cell lines and primary cell cultures from fish tissues have been used for
+research in disease diagnosis and cytotoxicity evaluation of environmental
+pollutants. The principal aim of this work was the development of
+continuous cell lines from the caerulean damsel, Pomacentus caeruleus. To
+achieve this, tissues were first sourced from donor fishes, devoid of
+contaminants using standardised disinfection protocols. Primary cultures
+were then initiated and suitable media, additives, dissociation reagents
+as well as optimum incubation temperature were determined. Successful
+primary cultures were subcultured and passaged to derive continuous cell
+lines which were cryopreserved for long term storage. The continuous cell
+lines established were characterised by immunotyping using cell type
+markers and authenticated to confirm the species of origin using
+previously established barcoding techniques. Preliminary applications such
+as gene transfection studies and cytotoxicity assays using bacterial
+extracellular products were done in addition to ensuring that the cultures
+and cryostocks were contamination-free.
 //
 ID   CLPUB00462
 RA   Burkard M.;
@@ -16800,7 +16938,7 @@ Nelson-Rees's crusade to expose the embarrassing mistakes and bogus
 conclusions of researchers who unknowingly abetted HeLa's spread.
 //
 ID   CLPUB00377
-RA   Skloot R.;
+RA   Skloot R.L.;
 RT   "The immortal life of Henrietta Lacks.";
 RL   (In) ISBN 9781400052172; pp.1-400; Random House, New-York (2010).
 WW   http://rebeccaskloot.com/wp-content/uploads/2011/03/HenriettaLacks_RGG.pdf
@@ -17222,6 +17360,15 @@ can rescue vie2KO producing BV titers nearly as high as AcMNPV IE2.
 Further studies analyzing virus infection in P. xylotella larvae will be
 reported.
 //
+ID   CLPUB00755
+RA   Inukai T., Ito T., Terui K., Imamura T., Goi K., Kagami K., Abe M.,
+RA   Toki T., Ito E., Sugita K.;
+RT   "Cytogenetic characteristics of YAMN93 cell line established from
+RT   ALL with Down syndrome.";
+RL   (In) 77th annual meeting of the Japanese Society of Hematology; pp.16-18; Kanazawa (2015).
+DR   Cellosaurus; CVCL_D3Z7; YAMN-93
+AB   No
+//
 ID   CLPUB00321
 RA   Marlow L.A., Rohl S.D., Kennedy G.T., Milosevic D., Grebe S.K.,
 RA   Reddi H.V., Eberhardt N.L., Morris J.C., Trujillo M.A., McDonough S.J.,
@@ -17287,8 +17434,8 @@ called GRINCH cells (Glucose-Responsive Insulin-secreting C-peptide-
 modified Human-proinsulin).
 //
 ID   CLPUB00629
-RA   Gonzalez Vargas I.A., Verges-Castillo A., Munoz-Cueto J.A.,
-RA   Martin-Robles A.J., Pendon C.;
+RA   Gonzalez-Vargas I.A., Verges-Castillo A., Munoz-Cueto J.A.,
+RA   Martin-Robles A.J., Pendon-Melendez C.;
 RT   "SAEC-C1 and SAEC-F1, two new monoclonal embryonic cell lines
 RT   from sea bream (Sparus aurata): a new tool for developmental studies
 RT   in fish.";
@@ -17323,7 +17470,7 @@ enlarge our knowledge on cellular processes as well as to perform in vitro
 studies on genetic manipulation in sea bream.
 //
 ID   CLPUB00401
-RA   Arifin M.A., Azmir M., Maizirwan M., Raha A.R., Sharifah S.H., Aini I.;
+RA   Arifin M.A., Mel M., Raus R.A., Sharifah S.H., Ideris A.;
 RT   "Comparison of growth rate and viability of DF-1 cell line in
 RT   different culture media.";
 RL   (In) Abstracts of the 2nd International Conference on Science and Technology; pp.1-5; Universiti Teknologi MARA; Pulau Pinang (2008).
@@ -17380,7 +17527,8 @@ DR   Cellosaurus; CVCL_X361; FHK-78
 AB   No
 //
 ID   CLPUB00628
-RA   Verges-Castillo A., Pendon C., Munoz-Cueto J.A., Martin-Robles A.J.;
+RA   Verges-Castillo A., Pendon-Melendez C., Munoz-Cueto J.A.,
+RA   Martin-Robles A.J.;
 RT   "Fish embryonic stem cells as tools for chronobiological and
 RT   endocrinological studies.";
 RL   (In) Advances in comparative endocrinology, Vol. X; Guerreiro P.M., dos Reis Cardoso J.C. (eds.); pp.47-50; Universidade do Algarve Editora; Faro (2021).
@@ -18318,6 +18466,21 @@ establishment of primary cultures that are more likely to continue to
 multiply and become cell lines, growth of lines in serum-free and protein-
 free media, and culture of many lines in suspension or roller bottles.
 //
+ID   CLPUB00754
+RA   Webster W.A., Casey G.A.;
+RT   "Virus isolation in neuroblastoma cell culture.";
+RL   (In) Laboratory techniques in rabies, 4th edition; Meslin F.-X., Kaplan M.M., Koprowski H. (eds.); pp.96-104; World Health Organisation; Geneva (1996).
+WW   https://www.who.int/publications/i/item/9241544791
+DR   Cellosaurus; CVCL_4343; C-1300
+AB   Yes
+Techniques for the isolation of field strains of rabies virus in cell
+culture are now well developed and are widely used for the diagnosis of
+rabies. In many laboratories, the rabies tissue-culture infection test
+(RTCIT) has replaced the mouse inoculation test (MIT). The RTCIT is
+relatively easy to perform, is much less expensive than the MIT and, most
+important, can substantially reduce the time required for obtaining
+results.
+//
 ID   CLPUB00511
 RA   Bierkens J.G.E.A., Maes J., Ooms D., Collier M., Vangenechten C.,
 RA   Borremans B., van Vlasselaer P., Schoeters G.;
@@ -18382,7 +18545,7 @@ calcium channels described in cerebellar granule neurons, and not to GH3
 T-type or other LVA calcium channels.
 //
 ID   CLPUB00680
-RA   Mikhajlova I.N., Baryshnikov A.Y., Morozova L.F., Burova O.S.,
+RA   Mikhailova I.N., Baryshnikov A.Y., Morozova L.F., Burova O.S.,
 RA   Shubina I.Z., Kovalevsky D.A., Voronina E.S., Treshalina H.M.,
 RA   Lushnikova A.A., Tsyganova I.V., Mazurenko N.N.;
 RT   "Human skin melanoma cell lines collection.";
@@ -18458,7 +18621,7 @@ Here we discuss the characteristics and functional assays in which ENStem-A
 cells can be used.
 //
 ID   CLPUB00410
-RA   Horoszewicz J.S., Leong S.S., Chu T.M., Wajsman A., Friedman M.,
+RA   Horoszewicz J.S., Leong S.S., Chu T.M., Wajsman L.Z., Friedman M.,
 RA   Papsidero L.D., Kim U., Chai L.S., Kakati S., Arya S.K., Sandberg A.A.;
 RT   "The LNCaP cell line -- a new model for studies on human prostatic
 RT   carcinoma.";
@@ -18475,6 +18638,27 @@ DR   Cellosaurus; CVCL_B3QI; 104-2
 DR   Cellosaurus; CVCL_G221; 116-13.1
 DR   Cellosaurus; CVCL_B3QH; A-20
 AB   No
+//
+ID   CLPUB00756
+RG   National Institute of Standards and Technology;
+RT   "Certificate of analysis: Standard Reference Material 2391b.";
+RL   (In) NIST SRM 2391b; pp.1-8; NIST; Gaithersburg (2008).
+WW   https://tsapps.nist.gov/srmext/certificates/archives/2391b.pdf
+DR   Cellosaurus; CVCL_N126; GM09947
+DR   Cellosaurus; CVCL_N127; GM09948
+AB   Yes
+This Standard Reference Material (SRM) is intended primarily for use in
+the standardization of forensic and paternity quality assurance procedures
+for polymerase chain reaction (PCR)-based genetic testing and for
+instructional law enforcement or non-clinical research purposes. SRM 2391b
+can also be used for quality assurance when assigning values to in-house
+control materials. It is not intended for any human or animal clinical
+diagnostic use. Note that SRM 2391b is slightly modified from SRM 2391 in
+that there is more emphasis on short tandem repeats (STRs), and
+certification of D1S80 has been dropped, reflecting the growing interest
+and utility of STRs. Additional information on each STR locus can be found
+at a NIST-sponsored database on the internet: http://www.cstl.nist.
+gov/biotech/strbase.
 //
 ID   CLPUB00038
 RA   Keating A., Martin P.J., Bernstein I.D., Papayannopoulou T.,
@@ -18727,6 +18911,37 @@ tumor heterogeneity investigations and could be useful in the attempts to
 get a better understanding of the mechanisms involved in (virus-induced)
 cancerogenesis.
 //
+ID   CLPUB00758
+RA   Sykes G.R.;
+RT   "Mitochondria-targeting PCR and CO1 barcode sequence analyses as
+RT   alternatives to isoenzymology.";
+RL   (In) Proceedings of the International Society for BioProcess Technology (ISBioTech) 4th fall meeting; pp.1-27; Virginia Beach (2016).
+WW   https://www.grsykes.com/cell-line-species-id-presentation/
+DR   Cellosaurus; CVCL_9124; Horse
+AB   Yes
+Species identification is an integral part of cell culture authentication
+and helps identify cross-contaminated or misidentified animal cell lines.
+Karyotyping is time-consuming, expensive, and may require data analysis
+expertise. Isoenzyme analysis, the gold standard for animal species
+identification, is no longer an option with discontinued reagent
+production. Here, two species identification consensus standards are
+recommended to replace isoenzymology. In the polymerase chain reaction
+(PCR)-based assay, primers target mitochondrial genome regions of fifteen
+of the most common species employed in cell culture. A sample
+identification PCR confirms the putative species; a cross contamination
+multiplex uses the full primer set except for the primers targeting the
+listed culture species and amplifies any contaminant DNA present. Animal
+cells from fish, insects, and other species not covered in the PCR assay
+may be identified through sequence-based "DNA Barcoding," which examines a
+648-bp region of the semi-conserved cytochrome oxidase I (CO1) gene after
+amplification via universal primers. The resulting sequence data are
+compared against a database, populated with high quality-score reference
+sequences, to identify the species. The previously published DNA Barcode
+(ASN-0003) and the PCR-Based (ASN-0004) consensus standards under
+development are two complementary analytical techniques facilitating
+species identification of anything from research to production-scale cell-
+based applications.
+//
 ID   CLPUB00585
 RA   Kasuga T., Nojiri I., Furuse K., Kubo E., Noda Y., Sugano H.,
 RA   Sakamoto G.;
@@ -18954,6 +19169,28 @@ cells, the follicle forming process began within the single cell before
 the first cell division. The follicle forming potential was very different
 from one cell to the next. In addition, fully functional follicles were
 observed after in vivo growth of a FRTL-5 mutant in nude mice.
+//
+ID   CLPUB00757
+RG   Promega Corporation;
+RT   "PowerPlex Fusion 6C system. Instructions for use of products DC2705 and
+RT   DC2720.";
+RL   (In) Promega Technical manual TMD045; pp.1-75; Promega Corp.; Madison (2015).
+WW   https://www.promega.co.jp/lit/pdf/PowerPlexFusion6c.pdf
+DR   Cellosaurus; CVCL_N126; GM09947
+DR   Cellosaurus; CVCL_N127; GM09948
+AB   Yes
+The PowerPlex Fusion 6C System is a 27-locus multiplex for human identifi
+cation applications including forensic analysis, relationship testing and
+research use. This six-color system allows co-amplification and
+fluorescent detection of the 18 autosomal loci in the expanded CODIS core
+loci (CSF1PO, FGA, TH01, vWA, D1S1656, D2S1338, D2S441, D3S1358, D5S818,
+D7S820, D8S1179, D10S1248, D12S391, D13S317, D16S539, D18S51, D19S433 and
+D21S11) as well as Amelogenin and DYS391 for gender determination. The
+Penta D, Penta E, D22S1045, TPOX and SE33 loci are also included to
+increase discrimination and allow searching of databases that include
+profi les with these loci. Finally, two rapidly mutating Y-STR loci,
+DYS570 and DYS576, are included in the multiplex. This extended panel of
+STR markers is intended to satisfy both CODIS and ESS recommendations.
 //
 ID   CLPUB00609
 RA   Digneffe C., Cormont F., Platteau B., Bazin H.;
