@@ -1,7 +1,7 @@
 Cellosaurus
 ===========
 
-WARNING: This directory is no longer updated: the Cellosaurus files in the 3 formats (text, OBO and XML) are too big to be store on GitHub
+## WARNING: This directory is no longer updated: the Cellosaurus files in the 3 formats (text, OBO and XML) are too big to be stored on GitHub
 
 For the current version of the Cellosaurus go to:
 ftp://ftp.expasy.org/databases/cellosaurus
@@ -9,11 +9,9 @@ ftp://ftp.expasy.org/databases/cellosaurus
 All the versions of the Cellosaurus are archived at:
 https://yareta.unige.ch/home/search?search=search%3Dcellosaurus
 
-
+## A knowledge resources on cell lines
 
 From the CALIPHO group of the SIB - Swiss Institute of Bioinformatics
-
-## A knowledge resources on cell lines
 
 The Cellosaurus is a knowledge resource on cell lines. It attempt to describe all cell lines used in biomedical research.
 
