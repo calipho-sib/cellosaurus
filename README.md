@@ -104,6 +104,7 @@ The Cellosaurus:
 * contributes to the efforts of the International Cell Line Authentication Committee (ICLAC) (https://iclac.org/databases/)
 * closely collaborate with hPSCreg in the framework of the annotation of hESCs and hiPSCs (https://hpscreg.eu/about/structures-and-partners)
 * is a participant in the European Joint Programme on Rare Diseases (EJP RD) (https://www.ejprarediseases.org/index.php/coordinated-access-data-services/access-to-data-resources/)
+* is a Global Core Biodata Resource (https://globalbiodata.org/what-we-do/global-core-biodata-resources/)
 * is an ELIXIR Core Data Resource (https://elixir-europe.org/platforms/data/core-data-resources)
 * is an IRDiRC Recognized Resource (https://irdirc.org/resources-2/irdirc-recognized-resources/)
 
