@@ -1,48 +1,5 @@
-----------------------------------------------------------------------------
-        CALIPHO group at the SIB - Swiss Institute of Bioinformatics
-        Geneva, Switzerland
-----------------------------------------------------------------------------
+WARNING: This directory is no longer updated: the Cellosaurus files in the 3 formats (text, OBO and XML) are too big to be stored on GitHub
 
- Description: Cellosaurus: deleted accession numbers
- Version: 47.0
- Last update: 05-October-2023
+For the current version of the Cellosaurus go to: ftp://ftp.expasy.org/databases/cellosaurus
 
-----------------------------------------------------------------------------
-
-CVCL_0048  Was never publicly available
-CVCL_0049  Was never publicly available
-CVCL_0050  Was never publicly available
-CVCL_0051  Was never publicly available
-CVCL_0052  Was never publicly available
-CVCL_0053  Was never publicly available
-CVCL_0054  Was never publicly available
-CVCL_0055  Was never publicly available
-CVCL_0056  Was never publicly available
-CVCL_0066  Was never publicly available
-CVCL_0085  Was never publicly available
-CVCL_0222  Deleted in release 20; not a real cell line but a global description of the COS-1 and COS-7 cells (COS)
-CVCL_0282  Deleted in release 10; primary cell (h-Nheps)
-CVCL_2531  Was never publicly available
-CVCL_2Y34  Deleted in release 20; not a cell line but a DNA sample (ND29770). In addition was incorrectly stating it to be from a Huntington patient
-CVCL_3474  Was never publicly available
-CVCL_4165  Deleted in release 9; xenograft (DSL-6)
-CVCL_4465  Was never publicly available
-CVCL_4763  Deleted in release 12; xenograft (PAC120)
-CVCL_4780  Deleted in release 12; xenograft (RP22090)
-CVCL_5618  Deleted in release 9; no evidence cell line exist(ed) (Ferr-1)
-CVCL_5778  Was never publicly available
-CVCL_5970  Deleted in release 9; no evidence cell line exist(ed) (CLS-177)
-CVCL_6055  Was never publicly available
-CVCL_9T90  Deleted in release 20; xenograft (CX10)
-CVCL_DZ03  Deleted in release 20; not a cell line but a DNA sample (ND06266)
-CVCL_DZ31  Deleted in release 20; not a cell line but a DNA sample (ND06832)
-CVCL_E106  Deleted in release 11; no evidence cell lines exist(ed) (NCI-H1474)
-CVCL_E901  Deleted in release 16; no evidence cell lines exist(ed) (dRLN-84)
-CVCL_F733  Deleted in release 17; according to Ximbio cell clone does not exist (B6.2.1)
-CVCL_F894  Was never publicly available
-CVCL_J529  Was never publicly available
-CVCL_J537  Was never publicly available
-CVCL_UH01  Deleted in release 29; error from submitter of cell line to Kerafast (HEK293 CYP2C19*1A)
-CVCL_UH06  Deleted in release 29; error from submitter of cell line to Kerafast (HEK293 CYP2D6*1A)
-CVCL_UH55  Deleted in release 29; submitter indicated cell line was not established (LM-MEL-63)
-
+All the versions of the Cellosaurus are archived at: https://yareta.unige.ch/home/search?search=search%3Dcellosaurus
